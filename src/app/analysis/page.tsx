@@ -5,6 +5,7 @@ import Link from 'next/link';
 import Navigation from '@/components/Navigation';
 import CountryFlag from '@/components/CountryFlag';
 import { calculateAllRiskProfiles, calculateRegionalStats, CountryRiskProfile, RegionalStats } from '@/lib/analysis';
+
 // SVG Icons as components
 const ChevronDownIcon = () => (
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -104,8 +105,8 @@ export default function AnalysisPage() {
                 <Navigation />
                 <div className="flex items-center justify-center h-[calc(100vh-80px)]">
                     <div className="text-center">
-                        <div className="w-16 h-16 border-4 border-blue-200 border-t-blue-500 rounded-full animate-spin mx-auto mb-4"></div>
-                        <p className="text-slate-500">Calculating risk profiles...</p>
+                        <div className="w-12 h-12 sm:w-16 sm:h-16 border-4 border-blue-200 border-t-blue-500 rounded-full animate-spin mx-auto mb-4"></div>
+                        <p className="text-slate-500 text-sm sm:text-base">Calculating risk profiles...</p>
                     </div>
                 </div>
             </div>
@@ -116,19 +117,19 @@ export default function AnalysisPage() {
         <div className="min-h-screen">
             <Navigation />
 
-            <main className="max-w-7xl mx-auto px-6 py-8">
+            <main className="max-w-7xl mx-auto px-4 sm:px-6 py-4 sm:py-8">
                 {/* Header */}
-                <div className="mb-8">
-                    <h1 className="text-3xl font-bold text-slate-800 mb-2">Risk & Stability Analysis</h1>
-                    <p className="text-slate-500">
+                <div className="mb-6 sm:mb-8">
+                    <h1 className="text-2xl sm:text-3xl font-bold text-slate-800 mb-1 sm:mb-2">Risk & Stability Analysis</h1>
+                    <p className="text-slate-500 text-sm sm:text-base">
                         Composite risk indices aggregating economic, political, military, and demographic indicators
                     </p>
                 </div>
 
-                {/* Global Distribution */}
-                <section className="mb-10">
-                    <h2 className="text-sm font-medium text-slate-500 uppercase tracking-wider mb-4">Global Stability Distribution</h2>
-                    <div className="grid grid-cols-5 gap-2">
+                {/* Global Distribution - Scrollable on mobile */}
+                <section className="mb-6 sm:mb-10">
+                    <h2 className="text-xs sm:text-sm font-medium text-slate-500 uppercase tracking-wider mb-3 sm:mb-4">Global Stability Distribution</h2>
+                    <div className="flex gap-2 overflow-x-auto pb-2 -mx-4 px-4 sm:mx-0 sm:px-0 sm:grid sm:grid-cols-5 sm:overflow-visible">
                         {[
                             { label: 'Very Stable', count: distribution.veryHigh, color: '#059669', bg: 'bg-emerald-50 border-emerald-200' },
                             { label: 'Stable', count: distribution.high, color: '#65a30d', bg: 'bg-lime-50 border-lime-200' },
@@ -136,12 +137,12 @@ export default function AnalysisPage() {
                             { label: 'At Risk', count: distribution.low, color: '#ea580c', bg: 'bg-orange-50 border-orange-200' },
                             { label: 'High Risk', count: distribution.veryLow, color: '#dc2626', bg: 'bg-red-50 border-red-200' },
                         ].map((item) => (
-                            <div key={item.label} className={`p-4 rounded-xl border ${item.bg} text-center`}>
-                                <div className="text-3xl font-bold" style={{ color: item.color }}>
+                            <div key={item.label} className={`p-3 sm:p-4 rounded-xl border ${item.bg} text-center flex-shrink-0 w-28 sm:w-auto`}>
+                                <div className="text-2xl sm:text-3xl font-bold" style={{ color: item.color }}>
                                     {item.count}
                                 </div>
-                                <div className="text-sm text-slate-500 mt-1">{item.label}</div>
-                                <div className="mt-2 h-2 bg-slate-200 rounded-full overflow-hidden">
+                                <div className="text-xs sm:text-sm text-slate-500 mt-1">{item.label}</div>
+                                <div className="mt-2 h-1.5 sm:h-2 bg-slate-200 rounded-full overflow-hidden">
                                     <div 
                                         className="h-full rounded-full transition-all"
                                         style={{ 
@@ -156,24 +157,24 @@ export default function AnalysisPage() {
                 </section>
 
                 {/* Regional Overview */}
-                <section className="mb-10">
-                    <h2 className="text-sm font-medium text-slate-500 uppercase tracking-wider mb-4">Regional Stability Scores</h2>
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <section className="mb-6 sm:mb-10">
+                    <h2 className="text-xs sm:text-sm font-medium text-slate-500 uppercase tracking-wider mb-3 sm:mb-4">Regional Stability Scores</h2>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
                         {regionalStats.map(stat => (
                             <button
                                 key={stat.region}
                                 onClick={() => setSelectedRegion(selectedRegion === stat.region ? null : stat.region)}
-                                className={`p-5 rounded-xl border text-left transition-all ${
+                                className={`p-4 sm:p-5 rounded-xl border text-left transition-all ${
                                     selectedRegion === stat.region
                                         ? 'border-blue-300 bg-blue-50'
                                         : 'border-slate-200 bg-white/80 hover:border-slate-300 hover:bg-white'
                                 }`}
                             >
-                                <div className="flex items-start justify-between mb-3">
-                                    <h3 className="font-semibold text-slate-800">{stat.region}</h3>
+                                <div className="flex items-start justify-between mb-2 sm:mb-3">
+                                    <h3 className="font-semibold text-slate-800 text-sm sm:text-base">{stat.region}</h3>
                                     <ScoreBadge score={stat.avgRiskScore} />
                                 </div>
-                                <div className="grid grid-cols-2 gap-3 text-sm">
+                                <div className="grid grid-cols-2 gap-2 sm:gap-3 text-xs sm:text-sm">
                                     <div>
                                         <span className="text-slate-500">Countries</span>
                                         <p className="text-slate-800 font-medium">{stat.countryCount}</p>
@@ -190,7 +191,7 @@ export default function AnalysisPage() {
                                     </div>
                                     <div>
                                         <span className="text-slate-500">Avg Military</span>
-                                        <p className="text-slate-800 font-medium">{stat.avgMilitary.toFixed(1)}% GDP</p>
+                                        <p className="text-slate-800 font-medium">{stat.avgMilitary.toFixed(1)}%</p>
                                     </div>
                                 </div>
                             </button>
@@ -200,19 +201,20 @@ export default function AnalysisPage() {
 
                 {/* Country Rankings */}
                 <section>
-                    <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-4">
-                        <h2 className="text-sm font-medium text-slate-500 uppercase tracking-wider">
+                    <div className="flex flex-col gap-3 mb-4">
+                        <h2 className="text-xs sm:text-sm font-medium text-slate-500 uppercase tracking-wider">
                             {selectedRegion ? `${selectedRegion} Rankings` : 'Global Rankings'}
-                            <span className="text-slate-400 font-normal ml-2 normal-case">({sortedProfiles.length} countries)</span>
+                            <span className="text-slate-400 font-normal ml-2 normal-case">({sortedProfiles.length})</span>
                         </h2>
                         
-                        <div className="flex gap-2 flex-wrap">
-                            <span className="text-slate-500 text-sm self-center">Sort by:</span>
+                        {/* Sort buttons - scrollable on mobile */}
+                        <div className="flex items-center gap-2 overflow-x-auto pb-2 -mx-4 px-4 sm:mx-0 sm:px-0 sm:overflow-visible sm:flex-wrap">
+                            <span className="text-slate-500 text-xs sm:text-sm whitespace-nowrap">Sort:</span>
                             {(['overall', 'economic', 'political', 'military', 'demographic'] as const).map(key => (
                                 <button
                                     key={key}
                                     onClick={() => setSortBy(key)}
-                                    className={`px-3 py-1.5 rounded-lg text-sm capitalize transition ${
+                                    className={`px-3 py-2 rounded-lg text-xs sm:text-sm capitalize transition whitespace-nowrap flex-shrink-0 ${
                                         sortBy === key
                                             ? 'bg-blue-50 text-blue-600 border border-blue-200'
                                             : 'bg-white text-slate-500 hover:text-slate-700 border border-slate-200'
@@ -227,27 +229,28 @@ export default function AnalysisPage() {
                     {selectedRegion && (
                         <button
                             onClick={() => setSelectedRegion(null)}
-                            className="mb-4 text-sm text-blue-600 hover:text-blue-700 flex items-center gap-1"
+                            className="mb-4 text-sm text-blue-600 hover:text-blue-700 flex items-center gap-1 py-2"
                         >
                             ← Show all regions
                         </button>
                     )}
 
-                    <div className="bg-white/90 rounded-xl border border-slate-200 overflow-hidden shadow-sm">
-                        <div className="overflow-x-auto">
-                            <table className="w-full">
+                    {/* Table - with mobile scroll */}
+                    <div className="bg-white/90 rounded-xl border border-slate-200 overflow-hidden shadow-sm -mx-4 sm:mx-0 rounded-none sm:rounded-xl border-x-0 sm:border-x">
+                        <div className="overflow-x-auto table-scroll">
+                            <table className="w-full min-w-[700px] sm:min-w-0">
                                 <thead>
                                     <tr className="border-b border-slate-200 bg-slate-50">
-                                        <th className="w-10 py-4 px-4"></th>
-                                        <th className="text-left py-4 px-4 text-slate-500 font-medium text-sm">Rank</th>
-                                        <th className="text-left py-4 px-4 text-slate-500 font-medium text-sm">Country</th>
-                                        <th className="text-center py-4 px-4 text-slate-500 font-medium text-sm">Overall</th>
-                                        <th className="text-center py-4 px-4 text-slate-500 font-medium text-sm">Economic</th>
-                                        <th className="text-center py-4 px-4 text-slate-500 font-medium text-sm">Political</th>
-                                        <th className="text-center py-4 px-4 text-slate-500 font-medium text-sm">Military</th>
-                                        <th className="text-center py-4 px-4 text-slate-500 font-medium text-sm">Demographic</th>
-                                        <th className="text-center py-4 px-4 text-slate-500 font-medium text-sm">Status</th>
-                                        <th className="w-10 py-4 px-4"></th>
+                                        <th className="w-8 sm:w-10 py-3 px-2 sm:px-4"></th>
+                                        <th className="text-left py-3 px-2 sm:px-4 text-slate-500 font-medium text-xs sm:text-sm w-12">#</th>
+                                        <th className="text-left py-3 px-2 sm:px-4 text-slate-500 font-medium text-xs sm:text-sm">Country</th>
+                                        <th className="text-center py-3 px-2 sm:px-4 text-slate-500 font-medium text-xs sm:text-sm">Score</th>
+                                        <th className="text-center py-3 px-2 sm:px-4 text-slate-500 font-medium text-xs sm:text-sm hidden md:table-cell">Econ</th>
+                                        <th className="text-center py-3 px-2 sm:px-4 text-slate-500 font-medium text-xs sm:text-sm hidden md:table-cell">Pol</th>
+                                        <th className="text-center py-3 px-2 sm:px-4 text-slate-500 font-medium text-xs sm:text-sm hidden lg:table-cell">Mil</th>
+                                        <th className="text-center py-3 px-2 sm:px-4 text-slate-500 font-medium text-xs sm:text-sm hidden lg:table-cell">Demo</th>
+                                        <th className="text-center py-3 px-2 sm:px-4 text-slate-500 font-medium text-xs sm:text-sm">Status</th>
+                                        <th className="w-8 sm:w-10 py-3 px-2 sm:px-4"></th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -264,43 +267,43 @@ export default function AnalysisPage() {
                                                     }`}
                                                     onClick={() => toggleRow(profile.country)}
                                                 >
-                                                    <td className="py-3 px-4">
-                                                        <button className="text-slate-400 hover:text-slate-600 transition">
+                                                    <td className="py-3 px-2 sm:px-4">
+                                                        <button className="text-slate-400 hover:text-slate-600 transition p-1">
                                                             {isExpanded ? <ChevronDownIcon /> : <ChevronRightIcon />}
                                                         </button>
                                                     </td>
-                                                    <td className="py-3 px-4">
-                                                        <span className="w-8 h-8 flex items-center justify-center rounded-full bg-slate-100 text-sm font-medium text-slate-600">
+                                                    <td className="py-3 px-2 sm:px-4">
+                                                        <span className="w-6 h-6 sm:w-8 sm:h-8 flex items-center justify-center rounded-full bg-slate-100 text-xs sm:text-sm font-medium text-slate-600">
                                                             {idx + 1}
                                                         </span>
                                                     </td>
-                                                    <td className="py-3 px-4">
-                                                        <div className="flex items-center gap-3">
+                                                    <td className="py-3 px-2 sm:px-4">
+                                                        <div className="flex items-center gap-2 sm:gap-3">
                                                             <CountryFlag country={profile.country} size="md" />
                                                             <div>
-                                                                <p className="font-medium text-slate-800">{profile.country}</p>
+                                                                <p className="font-medium text-slate-800 text-sm">{profile.country}</p>
                                                                 <p className="text-xs text-slate-500">{profile.region}</p>
                                                             </div>
                                                         </div>
                                                     </td>
-                                                    <td className="py-3 px-4 text-center">
+                                                    <td className="py-3 px-2 sm:px-4 text-center">
                                                         <ScoreCell score={profile.score.overall} highlight={sortBy === 'overall'} />
                                                     </td>
-                                                    <td className="py-3 px-4 text-center">
+                                                    <td className="py-3 px-2 sm:px-4 text-center hidden md:table-cell">
                                                         <ScoreCell score={profile.score.economic} highlight={sortBy === 'economic'} />
                                                     </td>
-                                                    <td className="py-3 px-4 text-center">
+                                                    <td className="py-3 px-2 sm:px-4 text-center hidden md:table-cell">
                                                         <ScoreCell score={profile.score.political} highlight={sortBy === 'political'} />
                                                     </td>
-                                                    <td className="py-3 px-4 text-center">
+                                                    <td className="py-3 px-2 sm:px-4 text-center hidden lg:table-cell">
                                                         <ScoreCell score={profile.score.military} highlight={sortBy === 'military'} />
                                                     </td>
-                                                    <td className="py-3 px-4 text-center">
+                                                    <td className="py-3 px-2 sm:px-4 text-center hidden lg:table-cell">
                                                         <ScoreCell score={profile.score.demographic} highlight={sortBy === 'demographic'} />
                                                     </td>
-                                                    <td className="py-3 px-4 text-center">
+                                                    <td className="py-3 px-2 sm:px-4 text-center">
                                                         <span 
-                                                            className="px-2 py-1 rounded-full text-xs font-medium"
+                                                            className="px-2 py-1 rounded-full text-xs font-medium whitespace-nowrap"
                                                             style={{ 
                                                                 backgroundColor: `${profile.score.color}20`,
                                                                 color: profile.score.color 
@@ -309,10 +312,10 @@ export default function AnalysisPage() {
                                                             {profile.score.label}
                                                         </span>
                                                     </td>
-                                                    <td className="py-3 px-4">
+                                                    <td className="py-3 px-2 sm:px-4">
                                                         <Link
                                                             href={`/countries/${slug}`}
-                                                            className="text-blue-500 hover:text-blue-600"
+                                                            className="text-blue-500 hover:text-blue-600 p-1 inline-block"
                                                             onClick={(e) => e.stopPropagation()}
                                                         >
                                                             <ExternalLinkIcon size={16} />
@@ -323,11 +326,11 @@ export default function AnalysisPage() {
                                                 {/* Expanded Details Row */}
                                                 {isExpanded && countryData && (
                                                     <tr key={`${profile.country}-details`} className="bg-slate-50">
-                                                        <td colSpan={10} className="py-4 px-8">
-                                                            <div className="grid md:grid-cols-5 gap-6">
+                                                        <td colSpan={10} className="py-4 px-4 sm:px-8">
+                                                            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4 sm:gap-6">
                                                                 {/* Score Breakdown */}
-                                                                <div className="md:col-span-2 space-y-3">
-                                                                    <h4 className="text-sm font-medium text-slate-600">Stability Score Breakdown</h4>
+                                                                <div className="col-span-2 space-y-2 sm:space-y-3">
+                                                                    <h4 className="text-xs sm:text-sm font-medium text-slate-600">Score Breakdown</h4>
                                                                     <div className="space-y-2">
                                                                         <ScoreBar label="Economic" score={profile.score.economic} color="#10b981" weight="30%" />
                                                                         <ScoreBar label="Political" score={profile.score.political} color="#8b5cf6" weight="25%" />
@@ -337,39 +340,38 @@ export default function AnalysisPage() {
                                                                 </div>
 
                                                                 {/* Key Metrics */}
-                                                                <div className="space-y-3">
-                                                                    <h4 className="text-sm font-medium text-slate-600">Economy</h4>
-                                                                    <div className="space-y-2 text-sm">
-                                                                        <DetailRow label="GDP (PPP)" value={formatBillions(countryData.economy.gdp_ppp_billions)} />
-                                                                        <DetailRow label="GDP Growth" value={formatPercent(countryData.economy.gdp_growth_pct)} highlight={countryData.economy.gdp_growth_pct} />
+                                                                <div className="space-y-2 sm:space-y-3">
+                                                                    <h4 className="text-xs sm:text-sm font-medium text-slate-600">Economy</h4>
+                                                                    <div className="space-y-1 sm:space-y-2 text-xs sm:text-sm">
+                                                                        <DetailRow label="GDP" value={formatBillions(countryData.economy.gdp_ppp_billions)} />
+                                                                        <DetailRow label="Growth" value={formatPercent(countryData.economy.gdp_growth_pct)} highlight={countryData.economy.gdp_growth_pct} />
                                                                         <DetailRow label="Inflation" value={formatPercent(countryData.economy.inflation_pct)} />
                                                                     </div>
                                                                 </div>
 
-                                                                <div className="space-y-3">
-                                                                    <h4 className="text-sm font-medium text-slate-600">Demographics</h4>
-                                                                    <div className="space-y-2 text-sm">
-                                                                        <DetailRow label="Population" value={formatNumber(countryData.demographics.population)} />
-                                                                        <DetailRow label="Pop. Growth" value={formatPercent(countryData.demographics.population_growth_pct)} highlight={countryData.demographics.population_growth_pct} />
-                                                                        <DetailRow label="Life Exp." value={countryData.demographics.life_expectancy ? `${countryData.demographics.life_expectancy.toFixed(1)} yrs` : 'N/A'} />
+                                                                <div className="space-y-2 sm:space-y-3">
+                                                                    <h4 className="text-xs sm:text-sm font-medium text-slate-600">Demographics</h4>
+                                                                    <div className="space-y-1 sm:space-y-2 text-xs sm:text-sm">
+                                                                        <DetailRow label="Pop." value={formatNumber(countryData.demographics.population)} />
+                                                                        <DetailRow label="Growth" value={formatPercent(countryData.demographics.population_growth_pct)} highlight={countryData.demographics.population_growth_pct} />
                                                                     </div>
                                                                 </div>
 
-                                                                <div className="space-y-3">
-                                                                    <h4 className="text-sm font-medium text-slate-600">Military</h4>
-                                                                    <div className="space-y-2 text-sm">
-                                                                        <DetailRow label="Military % GDP" value={formatPercent(countryData.military.expenditure_pct_gdp)} />
-                                                                        <DetailRow label="Unemployment" value={formatPercent(countryData.economy.unemployment_pct)} />
+                                                                <div className="space-y-2 sm:space-y-3">
+                                                                    <h4 className="text-xs sm:text-sm font-medium text-slate-600">Military</h4>
+                                                                    <div className="space-y-1 sm:space-y-2 text-xs sm:text-sm">
+                                                                        <DetailRow label="% GDP" value={formatPercent(countryData.military.expenditure_pct_gdp)} />
+                                                                        <DetailRow label="Unemp." value={formatPercent(countryData.economy.unemployment_pct)} />
                                                                     </div>
                                                                 </div>
                                                             </div>
 
-                                                            <div className="mt-4 pt-4 border-t border-slate-200">
+                                                            <div className="mt-4 pt-3 border-t border-slate-200">
                                                                 <Link
                                                                     href={`/countries/${slug}`}
-                                                                    className="inline-flex items-center gap-2 text-sm text-blue-600 hover:text-blue-700"
+                                                                    className="inline-flex items-center gap-2 text-sm text-blue-600 hover:text-blue-700 py-2"
                                                                 >
-                                                                    View full country profile
+                                                                    View full profile
                                                                     <ExternalLinkIcon size={14} />
                                                                 </Link>
                                                             </div>
@@ -386,11 +388,11 @@ export default function AnalysisPage() {
                 </section>
 
                 {/* Methodology Link */}
-                <div className="mt-10 p-6 rounded-xl bg-white/80 border border-slate-200 shadow-sm">
-                    <div className="flex items-start justify-between">
+                <div className="mt-6 sm:mt-10 p-4 sm:p-6 rounded-xl bg-white/80 border border-slate-200 shadow-sm -mx-4 sm:mx-0 rounded-none sm:rounded-xl border-x-0 sm:border-x">
+                    <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-4">
                         <div>
-                            <h3 className="font-semibold text-slate-800 mb-2">Understanding the Risk Index</h3>
-                            <p className="text-slate-500 text-sm max-w-2xl">
+                            <h3 className="font-semibold text-slate-800 mb-1 sm:mb-2 text-sm sm:text-base">Understanding the Risk Index</h3>
+                            <p className="text-slate-500 text-xs sm:text-sm">
                                 Our composite risk index aggregates multiple indicators across four dimensions: 
                                 economic stability (30%), political risk (25%), military tension (25%), and 
                                 demographic pressure (20%). Higher scores indicate greater stability.
@@ -398,7 +400,7 @@ export default function AnalysisPage() {
                         </div>
                         <Link
                             href="/methodology#risk-index"
-                            className="px-4 py-2 rounded-lg bg-blue-500 text-white hover:bg-blue-600 transition text-sm whitespace-nowrap"
+                            className="px-4 py-2 rounded-lg bg-blue-500 text-white hover:bg-blue-600 transition text-sm whitespace-nowrap self-start"
                         >
                             Learn More →
                         </Link>
@@ -414,7 +416,7 @@ function ScoreBadge({ score }: { score: number }) {
     
     return (
         <div 
-            className="px-3 py-1 rounded-full text-sm font-bold"
+            className="px-2 sm:px-3 py-1 rounded-full text-xs sm:text-sm font-bold"
             style={{ backgroundColor: `${color}20`, color }}
         >
             {score}
@@ -427,7 +429,7 @@ function ScoreCell({ score, highlight }: { score: number; highlight?: boolean })
     
     return (
         <span 
-            className={`font-medium ${highlight ? 'text-lg' : ''}`}
+            className={`font-medium text-xs sm:text-base ${highlight ? 'sm:text-lg' : ''}`}
             style={{ color }}
         >
             {score}
@@ -443,7 +445,7 @@ function ScoreBar({ label, score, color, weight }: { label: string; score: numbe
                 <span className="text-xs text-slate-400">{weight}</span>
             </div>
             <div className="flex items-center gap-2">
-                <div className="flex-1 h-2 bg-slate-200 rounded-full overflow-hidden">
+                <div className="flex-1 h-1.5 sm:h-2 bg-slate-200 rounded-full overflow-hidden">
                     <div 
                         className="h-full rounded-full transition-all duration-500"
                         style={{ 
@@ -452,7 +454,7 @@ function ScoreBar({ label, score, color, weight }: { label: string; score: numbe
                         }}
                     />
                 </div>
-                <span className="text-xs font-medium w-8 text-right" style={{ color }}>{score}</span>
+                <span className="text-xs font-medium w-6 sm:w-8 text-right" style={{ color }}>{score}</span>
             </div>
         </div>
     );
@@ -465,7 +467,7 @@ function DetailRow({ label, value, highlight }: { label: string; value: string; 
     }
 
     return (
-        <div className="flex justify-between">
+        <div className="flex justify-between gap-2">
             <span className="text-slate-500">{label}</span>
             <span className={colorClass}>{value}</span>
         </div>

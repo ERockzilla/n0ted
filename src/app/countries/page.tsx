@@ -58,7 +58,7 @@ const ExternalLinkIcon = ({ size = 16 }: { size?: number }) => (
 );
 
 const UsersIcon = () => (
-    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="icon-animated">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
         <circle cx="9" cy="7" r="4"/>
         <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
@@ -67,7 +67,7 @@ const UsersIcon = () => (
 );
 
 const CoinsIcon = () => (
-    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="icon-animated">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <circle cx="8" cy="8" r="6"/>
         <path d="M18.09 10.37A6 6 0 1 1 10.34 18"/>
         <path d="M7 6h1v4"/>
@@ -76,14 +76,14 @@ const CoinsIcon = () => (
 );
 
 const TrendingUpIcon = () => (
-    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="icon-animated">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/>
         <polyline points="16 7 22 7 22 13"/>
     </svg>
 );
 
 const LandmarkIcon = () => (
-    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="icon-animated">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <line x1="3" x2="21" y1="22" y2="22"/>
         <line x1="6" x2="6" y1="18" y2="11"/>
         <line x1="10" x2="10" y1="18" y2="11"/>
@@ -160,8 +160,8 @@ export default function CountriesPage() {
                 <Navigation />
                 <div className="flex items-center justify-center h-[calc(100vh-80px)]">
                     <div className="text-center">
-                        <div className="w-16 h-16 border-4 border-blue-200 border-t-blue-500 rounded-full animate-spin mx-auto mb-4"></div>
-                        <p className="text-slate-500">Loading countries...</p>
+                        <div className="w-12 h-12 sm:w-16 sm:h-16 border-4 border-blue-200 border-t-blue-500 rounded-full animate-spin mx-auto mb-4"></div>
+                        <p className="text-slate-500 text-sm sm:text-base">Loading countries...</p>
                     </div>
                 </div>
             </div>
@@ -172,34 +172,36 @@ export default function CountriesPage() {
         <div className="min-h-screen">
             <Navigation />
 
-            <main className="max-w-7xl mx-auto px-6 py-8">
+            <main className="max-w-7xl mx-auto px-4 sm:px-6 py-4 sm:py-8">
                 {/* Header */}
-                <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
-                    <div>
-                        <h1 className="text-3xl font-bold text-slate-800">
-                            {selectedRegion || 'All Countries'}
-                        </h1>
-                        <p className="text-slate-500">{sortedCountries.length} countries</p>
-                    </div>
+                <div className="flex flex-col gap-3 mb-4 sm:mb-6">
+                    <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                        <div>
+                            <h1 className="text-2xl sm:text-3xl font-bold text-slate-800">
+                                {selectedRegion || 'All Countries'}
+                            </h1>
+                            <p className="text-slate-500 text-sm">{sortedCountries.length} countries</p>
+                        </div>
 
-                    {/* Search */}
-                    <input
-                        type="text"
-                        placeholder="Search countries..."
-                        value={searchQuery}
-                        onChange={(e) => setSearchQuery(e.target.value)}
-                        className="px-4 py-2 rounded-lg bg-white border border-slate-200 text-slate-800 placeholder:text-slate-400 focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100 w-full md:w-64"
-                    />
+                        {/* Search */}
+                        <input
+                            type="text"
+                            placeholder="Search countries..."
+                            value={searchQuery}
+                            onChange={(e) => setSearchQuery(e.target.value)}
+                            className="px-4 py-2.5 rounded-lg bg-white border border-slate-200 text-slate-800 placeholder:text-slate-400 focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100 w-full sm:w-64 text-base"
+                        />
+                    </div>
                 </div>
 
-                {/* Sort Controls */}
-                <div className="flex items-center gap-4 mb-4 text-sm">
-                    <span className="text-slate-500">Sort by:</span>
+                {/* Sort Controls - Scrollable on mobile */}
+                <div className="flex items-center gap-2 sm:gap-4 mb-4 text-sm overflow-x-auto pb-2 -mx-4 px-4 sm:mx-0 sm:px-0 sm:overflow-visible">
+                    <span className="text-slate-500 whitespace-nowrap">Sort:</span>
                     {(['name', 'gdp', 'population', 'growth'] as const).map(key => (
                         <button
                             key={key}
                             onClick={() => setSortBy(key)}
-                            className={`px-3 py-1.5 rounded-lg capitalize transition ${
+                            className={`px-3 py-2 rounded-lg capitalize transition whitespace-nowrap touch-target ${
                                 sortBy === key
                                     ? 'bg-blue-50 text-blue-600 border border-blue-200'
                                     : 'bg-white text-slate-500 hover:text-slate-700 border border-slate-200'
@@ -210,11 +212,11 @@ export default function CountriesPage() {
                     ))}
                 </div>
 
-                {/* Region Filter Pills */}
-                <div className="flex flex-wrap gap-2 mb-6">
+                {/* Region Filter Pills - Scrollable on mobile */}
+                <div className="flex gap-2 mb-4 sm:mb-6 overflow-x-auto pb-2 -mx-4 px-4 sm:mx-0 sm:px-0 sm:flex-wrap sm:overflow-visible">
                     <button
                         onClick={() => setSelectedRegion(null)}
-                        className={`px-4 py-2 rounded-full text-sm transition ${
+                        className={`px-3 sm:px-4 py-2 rounded-full text-sm transition whitespace-nowrap flex-shrink-0 ${
                             !selectedRegion
                                 ? 'bg-blue-500 text-white'
                                 : 'bg-white text-slate-600 hover:bg-slate-50 border border-slate-200'
@@ -226,7 +228,7 @@ export default function CountriesPage() {
                         <button
                             key={region}
                             onClick={() => setSelectedRegion(region)}
-                            className={`px-4 py-2 rounded-full text-sm transition ${
+                            className={`px-3 sm:px-4 py-2 rounded-full text-sm transition whitespace-nowrap flex-shrink-0 ${
                                 selectedRegion === region
                                     ? 'bg-blue-500 text-white'
                                     : 'bg-white text-slate-600 hover:bg-slate-50 border border-slate-200'
@@ -237,20 +239,20 @@ export default function CountriesPage() {
                     ))}
                 </div>
 
-                {/* Countries Table */}
-                <div className="bg-white/90 rounded-xl border border-slate-200 overflow-hidden backdrop-blur-sm shadow-sm">
-                    <div className="overflow-x-auto">
-                        <table className="w-full">
+                {/* Countries Table - with mobile scroll */}
+                <div className="bg-white/90 rounded-xl border border-slate-200 overflow-hidden backdrop-blur-sm shadow-sm -mx-4 sm:mx-0 rounded-none sm:rounded-xl border-x-0 sm:border-x">
+                    <div className="overflow-x-auto table-scroll">
+                        <table className="w-full min-w-[600px] sm:min-w-0">
                             <thead>
                                 <tr className="border-b border-slate-200 bg-slate-50">
-                                    <th className="w-10 py-4 px-4"></th>
-                                    <th className="text-left py-4 px-4 text-slate-500 font-medium text-sm">Country</th>
-                                    <th className="text-left py-4 px-4 text-slate-500 font-medium text-sm">Region</th>
-                                    <th className="text-right py-4 px-4 text-slate-500 font-medium text-sm">Population</th>
-                                    <th className="text-right py-4 px-4 text-slate-500 font-medium text-sm">GDP (PPP)</th>
-                                    <th className="text-right py-4 px-4 text-slate-500 font-medium text-sm">Growth</th>
-                                    <th className="text-right py-4 px-4 text-slate-500 font-medium text-sm">GDP/Capita</th>
-                                    <th className="w-10 py-4 px-4"></th>
+                                    <th className="w-10 py-3 sm:py-4 px-2 sm:px-4"></th>
+                                    <th className="text-left py-3 sm:py-4 px-2 sm:px-4 text-slate-500 font-medium text-xs sm:text-sm">Country</th>
+                                    <th className="text-left py-3 sm:py-4 px-2 sm:px-4 text-slate-500 font-medium text-xs sm:text-sm hidden md:table-cell">Region</th>
+                                    <th className="text-right py-3 sm:py-4 px-2 sm:px-4 text-slate-500 font-medium text-xs sm:text-sm">Pop.</th>
+                                    <th className="text-right py-3 sm:py-4 px-2 sm:px-4 text-slate-500 font-medium text-xs sm:text-sm">GDP</th>
+                                    <th className="text-right py-3 sm:py-4 px-2 sm:px-4 text-slate-500 font-medium text-xs sm:text-sm">Growth</th>
+                                    <th className="text-right py-3 sm:py-4 px-2 sm:px-4 text-slate-500 font-medium text-xs sm:text-sm hidden lg:table-cell">Per Capita</th>
+                                    <th className="w-10 py-3 sm:py-4 px-2 sm:px-4"></th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -266,25 +268,29 @@ export default function CountriesPage() {
                                                 }`}
                                                 onClick={() => toggleRow(country.country)}
                                             >
-                                                <td className="py-3 px-4">
-                                                    <button className="text-slate-400 hover:text-slate-600 transition">
+                                                <td className="py-3 px-2 sm:px-4">
+                                                    <button className="text-slate-400 hover:text-slate-600 transition p-1">
                                                         {isExpanded ? <ChevronDownIcon /> : <ChevronRightIcon />}
                                                     </button>
                                                 </td>
-                                                <td className="py-3 px-4">
-                                                    <div className="flex items-center gap-3">
+                                                <td className="py-3 px-2 sm:px-4">
+                                                    <div className="flex items-center gap-2 sm:gap-3">
                                                         <CountryFlag country={country.country} size="md" />
-                                                        <span className="font-medium text-slate-800">{country.country}</span>
+                                                        <div>
+                                                            <span className="font-medium text-slate-800 text-sm sm:text-base">{country.country}</span>
+                                                            {/* Show region on mobile under country name */}
+                                                            <p className="text-xs text-slate-400 md:hidden">{country.region}</p>
+                                                        </div>
                                                     </div>
                                                 </td>
-                                                <td className="py-3 px-4 text-slate-500 text-sm">{country.region}</td>
-                                                <td className="py-3 px-4 text-right text-slate-700">
+                                                <td className="py-3 px-2 sm:px-4 text-slate-500 text-sm hidden md:table-cell">{country.region}</td>
+                                                <td className="py-3 px-2 sm:px-4 text-right text-slate-700 text-xs sm:text-sm">
                                                     {formatNumber(country.demographics.population)}
                                                 </td>
-                                                <td className="py-3 px-4 text-right text-slate-700">
+                                                <td className="py-3 px-2 sm:px-4 text-right text-slate-700 text-xs sm:text-sm">
                                                     {formatBillions(country.economy.gdp_ppp_billions)}
                                                 </td>
-                                                <td className="py-3 px-4 text-right">
+                                                <td className="py-3 px-2 sm:px-4 text-right text-xs sm:text-sm">
                                                     {country.economy.gdp_growth_pct !== undefined ? (
                                                         <span className={country.economy.gdp_growth_pct > 0 ? 'text-emerald-600' : 'text-red-600'}>
                                                             {country.economy.gdp_growth_pct > 0 ? '+' : ''}{country.economy.gdp_growth_pct.toFixed(1)}%
@@ -293,16 +299,16 @@ export default function CountriesPage() {
                                                         <span className="text-slate-400">N/A</span>
                                                     )}
                                                 </td>
-                                                <td className="py-3 px-4 text-right text-slate-700">
+                                                <td className="py-3 px-2 sm:px-4 text-right text-slate-700 text-xs sm:text-sm hidden lg:table-cell">
                                                     {country.economy.gdp_per_capita 
                                                         ? `$${country.economy.gdp_per_capita.toLocaleString()}`
                                                         : 'N/A'
                                                     }
                                                 </td>
-                                                <td className="py-3 px-4">
+                                                <td className="py-3 px-2 sm:px-4">
                                                     <Link
                                                         href={`/countries/${slug}`}
-                                                        className="text-blue-500 hover:text-blue-600"
+                                                        className="text-blue-500 hover:text-blue-600 p-1 inline-block"
                                                         onClick={(e) => e.stopPropagation()}
                                                     >
                                                         <ExternalLinkIcon size={16} />
@@ -313,45 +319,43 @@ export default function CountriesPage() {
                                             {/* Expanded Details Row */}
                                             {isExpanded && (
                                                 <tr key={`${country.country}-details`} className="bg-slate-50">
-                                                    <td colSpan={8} className="py-4 px-8">
-                                                        <div className="grid md:grid-cols-4 gap-6">
+                                                    <td colSpan={8} className="py-4 px-4 sm:px-8">
+                                                        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
                                                             {/* Demographics */}
-                                                            <div className="space-y-3">
-                                                                <h4 className="text-sm font-medium text-slate-600 flex items-center gap-2">
+                                                            <div className="space-y-2 sm:space-y-3">
+                                                                <h4 className="text-xs sm:text-sm font-medium text-slate-600 flex items-center gap-2">
                                                                     <UsersIcon />
                                                                     Demographics
                                                                 </h4>
-                                                                <div className="space-y-2 text-sm">
-                                                                    <DetailRow label="Life Expectancy" value={country.demographics.life_expectancy ? `${country.demographics.life_expectancy.toFixed(1)} yrs` : 'N/A'} />
-                                                                    <DetailRow label="Median Age" value={country.demographics.median_age ? `${country.demographics.median_age.toFixed(1)} yrs` : 'N/A'} />
-                                                                    <DetailRow label="Pop. Growth" value={formatPercent(country.demographics.population_growth_pct)} />
-                                                                    <DetailRow label="Birth Rate" value={country.demographics.birth_rate ? `${country.demographics.birth_rate.toFixed(1)}/1000` : 'N/A'} />
+                                                                <div className="space-y-1 sm:space-y-2 text-xs sm:text-sm">
+                                                                    <DetailRow label="Life Exp." value={country.demographics.life_expectancy ? `${country.demographics.life_expectancy.toFixed(1)}y` : 'N/A'} />
+                                                                    <DetailRow label="Med. Age" value={country.demographics.median_age ? `${country.demographics.median_age.toFixed(1)}y` : 'N/A'} />
+                                                                    <DetailRow label="Growth" value={formatPercent(country.demographics.population_growth_pct)} />
                                                                 </div>
                                                             </div>
 
                                                             {/* Economy */}
-                                                            <div className="space-y-3">
-                                                                <h4 className="text-sm font-medium text-slate-600 flex items-center gap-2">
+                                                            <div className="space-y-2 sm:space-y-3">
+                                                                <h4 className="text-xs sm:text-sm font-medium text-slate-600 flex items-center gap-2">
                                                                     <CoinsIcon />
                                                                     Economy
                                                                 </h4>
-                                                                <div className="space-y-2 text-sm">
+                                                                <div className="space-y-1 sm:space-y-2 text-xs sm:text-sm">
                                                                     <DetailRow label="Inflation" value={formatPercent(country.economy.inflation_pct)} />
-                                                                    <DetailRow label="Unemployment" value={formatPercent(country.economy.unemployment_pct)} />
+                                                                    <DetailRow label="Unemp." value={formatPercent(country.economy.unemployment_pct)} />
                                                                     <DetailRow label="Exports" value={formatBillions(country.economy.exports_billions)} />
-                                                                    <DetailRow label="Imports" value={formatBillions(country.economy.imports_billions)} />
                                                                 </div>
                                                             </div>
 
                                                             {/* Trade & Military */}
-                                                            <div className="space-y-3">
-                                                                <h4 className="text-sm font-medium text-slate-600 flex items-center gap-2">
+                                                            <div className="space-y-2 sm:space-y-3">
+                                                                <h4 className="text-xs sm:text-sm font-medium text-slate-600 flex items-center gap-2">
                                                                     <TrendingUpIcon />
-                                                                    Trade & Military
+                                                                    Trade
                                                                 </h4>
-                                                                <div className="space-y-2 text-sm">
+                                                                <div className="space-y-1 sm:space-y-2 text-xs sm:text-sm">
                                                                     <DetailRow 
-                                                                        label="Trade Balance" 
+                                                                        label="Balance" 
                                                                         value={country.economy.exports_billions && country.economy.imports_billions
                                                                             ? formatBillions(country.economy.exports_billions - country.economy.imports_billions)
                                                                             : 'N/A'
@@ -361,39 +365,33 @@ export default function CountriesPage() {
                                                                             : undefined
                                                                         }
                                                                     />
-                                                                    <DetailRow label="Military % GDP" value={formatPercent(country.military.expenditure_pct_gdp)} />
+                                                                    <DetailRow label="Military" value={formatPercent(country.military.expenditure_pct_gdp)} />
                                                                 </div>
                                                             </div>
 
                                                             {/* Political */}
-                                                            <div className="space-y-3">
-                                                                <h4 className="text-sm font-medium text-slate-600 flex items-center gap-2">
+                                                            <div className="space-y-2 sm:space-y-3">
+                                                                <h4 className="text-xs sm:text-sm font-medium text-slate-600 flex items-center gap-2">
                                                                     <LandmarkIcon />
                                                                     Leadership
                                                                 </h4>
-                                                                <div className="space-y-2 text-sm">
+                                                                <div className="space-y-1 sm:space-y-2 text-xs sm:text-sm">
                                                                     {country.political.chief_of_state && (
                                                                         <div>
-                                                                            <p className="text-slate-500">Chief of State</p>
-                                                                            <p className="text-slate-800 text-xs truncate">{country.political.chief_of_state}</p>
-                                                                        </div>
-                                                                    )}
-                                                                    {country.political.head_of_government && (
-                                                                        <div>
-                                                                            <p className="text-slate-500">Head of Govt</p>
-                                                                            <p className="text-slate-800 text-xs truncate">{country.political.head_of_government}</p>
+                                                                            <p className="text-slate-500 text-xs">Chief of State</p>
+                                                                            <p className="text-slate-800 text-xs truncate max-w-[150px]">{country.political.chief_of_state}</p>
                                                                         </div>
                                                                     )}
                                                                 </div>
                                                             </div>
                                                         </div>
 
-                                                        <div className="mt-4 pt-4 border-t border-slate-200">
+                                                        <div className="mt-4 pt-3 border-t border-slate-200">
                                                             <Link
                                                                 href={`/countries/${slug}`}
-                                                                className="inline-flex items-center gap-2 text-sm text-blue-600 hover:text-blue-700"
+                                                                className="inline-flex items-center gap-2 text-sm text-blue-600 hover:text-blue-700 py-2"
                                                             >
-                                                                View full country profile
+                                                                View full profile
                                                                 <ExternalLinkIcon size={14} />
                                                             </Link>
                                                         </div>
@@ -419,7 +417,7 @@ function DetailRow({ label, value, highlight }: { label: string; value: string; 
     }
 
     return (
-        <div className="flex justify-between">
+        <div className="flex justify-between gap-2">
             <span className="text-slate-500">{label}</span>
             <span className={colorClass}>{value}</span>
         </div>
