@@ -1,0 +1,38 @@
+{
+  "country": "Georgia",
+  "region": "Middle East",
+  "year": 2010,
+  "demographics": {
+    "population": 4600825,
+    "median_age": 38.8,
+    "population_growth_pct": -0.325,
+    "birth_rate": 10.7,
+    "death_rate": 9.79,
+    "life_expectancy": 76.93
+  },
+  "economy": {
+    "gdp_ppp_billions": 22.32,
+    "gdp_growth_pct": 5.5,
+    "gdp_per_capita": 4800,
+    "unemployment_pct": 16.4,
+    "poverty_pct": 31.0,
+    "inflation_pct": 5.7,
+    "electricity_kwh": 7,
+    "exports_billions": 2.29,
+    "imports_billions": 4.828,
+    "oil_production_bbl_day": 995,
+    "oil_consumption_bbl_day": 13000,
+    "gas_production_cu_m": 8,
+    "current_account_billions": 1.404,
+    "external_debt_billions": 3.381
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 1.9
+  },
+  "political": {
+    "chief_of_state": "Mikheil SAAKASHVILI",
+    "head_of_government": "Nikoloz GILAURI",
+    "last_election": "21 May 2008"
+  }
+}

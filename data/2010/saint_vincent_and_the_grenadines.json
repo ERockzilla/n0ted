@@ -1,0 +1,36 @@
+{
+  "country": "Saint Vincent and the Grenadines",
+  "region": "Central America and Caribbean",
+  "year": 2010,
+  "demographics": {
+    "population": 104217,
+    "median_age": 29.5,
+    "population_growth_pct": -0.341,
+    "birth_rate": 14.89,
+    "death_rate": 6.94,
+    "life_expectancy": 73.9
+  },
+  "economy": {
+    "gdp_ppp_billions": 1.107,
+    "gdp_growth_pct": 0.5,
+    "gdp_per_capita": 10600,
+    "unemployment_pct": 15.0,
+    "inflation_pct": 0.8,
+    "electricity_kwh": 133,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 2000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.149,
+    "exports_billions": 0.193,
+    "imports_billions": 0.578,
+    "external_debt_billions": 0.479
+  },
+  "military": {
+    "manpower_available": 16
+  },
+  "political": {
+    "chief_of_state": "ELIZABETH II",
+    "head_of_government": "Ralph E. GONSALVES",
+    "last_election": "13 December 2010"
+  }
+}

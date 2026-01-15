@@ -1,0 +1,17 @@
+{
+  "country": "Svalbard",
+  "region": "Europe",
+  "year": 2010,
+  "demographics": {
+    "population": 2067,
+    "population_growth_pct": -0.023
+  },
+  "economy": {
+    "exports_billions": 0.1976
+  },
+  "military": {},
+  "political": {
+    "chief_of_state": "HARALD V of Norway",
+    "head_of_government": "Governor Odd Olsen INGERO"
+  }
+}

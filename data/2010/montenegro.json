@@ -1,0 +1,33 @@
+{
+  "country": "Montenegro",
+  "region": "Europe",
+  "year": 2010,
+  "demographics": {
+    "population": 666730,
+    "median_age": 37.2,
+    "population_growth_pct": -0.777,
+    "birth_rate": 11.09,
+    "death_rate": 8.76
+  },
+  "economy": {
+    "gdp_ppp_billions": 6.569,
+    "gdp_growth_pct": -1.8,
+    "gdp_per_capita": 9900,
+    "unemployment_pct": 14.7,
+    "poverty_pct": 7.0,
+    "inflation_pct": 3.4,
+    "electricity_kwh": 2,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 5000,
+    "current_account_billions": 1.102,
+    "exports_billions": 0.1713,
+    "imports_billions": 0.6017,
+    "external_debt_billions": 0.65
+  },
+  "military": {},
+  "political": {
+    "chief_of_state": "Filip VUJANOVIC",
+    "head_of_government": "Igor LUKSIC",
+    "last_election": "29 March 2009"
+  }
+}

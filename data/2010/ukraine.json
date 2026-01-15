@@ -1,0 +1,38 @@
+{
+  "country": "Ukraine",
+  "region": "Europe",
+  "year": 2010,
+  "demographics": {
+    "population": 45415596,
+    "median_age": 39.7,
+    "population_growth_pct": -0.619,
+    "birth_rate": 9.62,
+    "death_rate": 15.7,
+    "life_expectancy": 68.46
+  },
+  "economy": {
+    "gdp_ppp_billions": 306.3,
+    "gdp_growth_pct": 4.3,
+    "gdp_per_capita": 6700,
+    "unemployment_pct": 8.4,
+    "poverty_pct": 35.0,
+    "inflation_pct": 9.8,
+    "electricity_kwh": 172,
+    "exports_billions": 49.71,
+    "oil_production_bbl_day": 99930,
+    "oil_consumption_bbl_day": 348000,
+    "gas_production_cu_m": 21,
+    "imports_billions": 53.54,
+    "current_account_billions": 0.603,
+    "external_debt_billions": 97.5
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 1.4
+  },
+  "political": {
+    "chief_of_state": "Viktor YANUKOVYCH",
+    "head_of_government": "Mykola AZAROV",
+    "last_election": "30 September 2007"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "country": "Kuwait",
+  "region": "Middle East",
+  "year": 2010,
+  "demographics": {
+    "population": 2789132,
+    "median_age": 26.4,
+    "population_growth_pct": 3.501,
+    "birth_rate": 21.64,
+    "death_rate": 2.29,
+    "life_expectancy": 77.89
+  },
+  "economy": {
+    "gdp_ppp_billions": 144.3,
+    "gdp_growth_pct": 3.2,
+    "gdp_per_capita": 51700,
+    "unemployment_pct": 2.2,
+    "inflation_pct": 3.8,
+    "electricity_kwh": 45,
+    "oil_production_bbl_day": 2,
+    "oil_consumption_bbl_day": 320000,
+    "exports_billions": 65.03,
+    "gas_production_cu_m": 12,
+    "imports_billions": 20.36,
+    "current_account_billions": 38.2,
+    "external_debt_billions": 56.81
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 5.3
+  },
+  "political": {
+    "chief_of_state": "Amir SABAH al-Ahmad al-Jabir al-Sabah",
+    "head_of_government": "NASIR AL-MUHAMMAD al-Ahmad",
+    "last_election": "16 May 2009"
+  }
+}

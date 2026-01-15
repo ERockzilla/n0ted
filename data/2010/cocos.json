@@ -1,0 +1,16 @@
+{
+  "country": "Cocos",
+  "region": "Keeling",
+  "year": 2010,
+  "demographics": {
+    "population_growth_pct": 0.0
+  },
+  "economy": {
+    "unemployment_pct": 60.0
+  },
+  "military": {},
+  "political": {
+    "chief_of_state": "ELIZABETH II",
+    "head_of_government": "Administrator"
+  }
+}

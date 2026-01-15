@@ -1,0 +1,38 @@
+{
+  "country": "Maldives",
+  "region": "South Asia",
+  "year": 2010,
+  "demographics": {
+    "population": 395650,
+    "median_age": 25.9,
+    "population_growth_pct": -0.178,
+    "birth_rate": 14.5,
+    "death_rate": 3.68,
+    "life_expectancy": 74.21
+  },
+  "economy": {
+    "gdp_ppp_billions": 1.767,
+    "gdp_growth_pct": 3.4,
+    "gdp_per_capita": 4500,
+    "unemployment_pct": 14.4,
+    "poverty_pct": 16.0,
+    "inflation_pct": 7.3,
+    "electricity_kwh": 542,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 6000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.37,
+    "exports_billions": 0.088,
+    "imports_billions": 0.782,
+    "external_debt_billions": 0.589
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 5.5
+  },
+  "political": {
+    "chief_of_state": "Mohamed \"Anni\" NASHEED",
+    "head_of_government": "Mohamed \"Anni\" NASHEED",
+    "last_election": "9 May 2009"
+  }
+}

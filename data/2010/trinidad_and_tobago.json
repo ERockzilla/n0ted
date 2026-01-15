@@ -1,0 +1,38 @@
+{
+  "country": "Trinidad and Tobago",
+  "region": "Central America and Caribbean",
+  "year": 2010,
+  "demographics": {
+    "population": 1228691,
+    "median_age": 32.6,
+    "population_growth_pct": -0.094,
+    "birth_rate": 14.37,
+    "death_rate": 8.21,
+    "life_expectancy": 71.09
+  },
+  "economy": {
+    "gdp_ppp_billions": 27.1,
+    "gdp_growth_pct": 2.1,
+    "gdp_per_capita": 22100,
+    "unemployment_pct": 6.4,
+    "poverty_pct": 17.0,
+    "inflation_pct": 11.3,
+    "electricity_kwh": 7,
+    "oil_production_bbl_day": 151600,
+    "oil_consumption_bbl_day": 43000,
+    "gas_production_cu_m": 39,
+    "exports_billions": 12.06,
+    "current_account_billions": 3.363,
+    "imports_billions": 8.234,
+    "external_debt_billions": 4.303
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 0.3
+  },
+  "political": {
+    "chief_of_state": "George Maxwell RICHARDS",
+    "head_of_government": "Kamla PERSAD-BISSESSAR",
+    "last_election": "24 May 2010"
+  }
+}

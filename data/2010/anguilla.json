@@ -1,0 +1,33 @@
+{
+  "country": "Anguilla",
+  "region": "Central America and Caribbean",
+  "year": 2010,
+  "demographics": {
+    "population": 14766,
+    "median_age": 33.0,
+    "population_growth_pct": 2.215,
+    "birth_rate": 13.0,
+    "death_rate": 4.4,
+    "life_expectancy": 80.77
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.1754,
+    "gdp_growth_pct": -8.5,
+    "gdp_per_capita": 12200,
+    "unemployment_pct": 8.0,
+    "poverty_pct": 23.0,
+    "inflation_pct": 5.3,
+    "current_account_billions": 0.04287,
+    "exports_billions": 0.1195,
+    "imports_billions": 0.143,
+    "external_debt_billions": 0.0088
+  },
+  "military": {
+    "manpower_available": 16
+  },
+  "political": {
+    "chief_of_state": "ELIZABETH II",
+    "head_of_government": "Chief Minister Hubert HUGHES",
+    "last_election": "15 February 2010"
+  }
+}

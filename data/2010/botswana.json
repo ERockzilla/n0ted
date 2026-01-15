@@ -1,0 +1,38 @@
+{
+  "country": "Botswana",
+  "region": "Africa",
+  "year": 2010,
+  "demographics": {
+    "population": 2029307,
+    "median_age": 22.0,
+    "population_growth_pct": 1.843,
+    "birth_rate": 22.54,
+    "death_rate": 9.02,
+    "life_expectancy": 60.93
+  },
+  "economy": {
+    "gdp_ppp_billions": 26.56,
+    "gdp_growth_pct": 3.1,
+    "gdp_per_capita": 13100,
+    "unemployment_pct": 7.5,
+    "poverty_pct": 30.3,
+    "inflation_pct": 7.1,
+    "electricity_kwh": 1,
+    "imports_billions": 4.518,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 15000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.552,
+    "exports_billions": 4.419,
+    "external_debt_billions": 2.222
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 3.3
+  },
+  "political": {
+    "chief_of_state": "Seretse Khama Ian KHAMA",
+    "head_of_government": "Seretse Khama Ian KHAMA",
+    "last_election": "16 October 2009"
+  }
+}

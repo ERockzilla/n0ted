@@ -1,0 +1,36 @@
+{
+  "country": "Bahrain",
+  "region": "Middle East",
+  "year": 2010,
+  "demographics": {
+    "population": 738004,
+    "median_age": 30.4,
+    "population_growth_pct": 1.243,
+    "birth_rate": 16.81,
+    "death_rate": 4.37,
+    "life_expectancy": 75.4
+  },
+  "economy": {
+    "gdp_ppp_billions": 29.82,
+    "gdp_growth_pct": 3.9,
+    "gdp_per_capita": 40400,
+    "unemployment_pct": 15.0,
+    "inflation_pct": 3.3,
+    "electricity_kwh": 10,
+    "oil_production_bbl_day": 48560,
+    "oil_consumption_bbl_day": 39000,
+    "gas_production_cu_m": 12,
+    "current_account_billions": 0.589,
+    "exports_billions": 15.13,
+    "imports_billions": 12.14,
+    "external_debt_billions": 14.68
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 4.5
+  },
+  "political": {
+    "chief_of_state": "HAMAD bin Isa Al-Khalifa",
+    "head_of_government": "KHALIFA bin Salman Al-Khalifa"
+  }
+}

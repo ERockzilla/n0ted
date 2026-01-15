@@ -1,0 +1,38 @@
+{
+  "country": "Swaziland",
+  "region": "Africa",
+  "year": 2010,
+  "demographics": {
+    "population": 1354051,
+    "median_age": 20.1,
+    "population_growth_pct": 1.213,
+    "birth_rate": 27.12,
+    "death_rate": 14.99,
+    "life_expectancy": 47.97
+  },
+  "economy": {
+    "gdp_ppp_billions": 6.055,
+    "gdp_growth_pct": 2.0,
+    "gdp_per_capita": 4500,
+    "unemployment_pct": 40.0,
+    "poverty_pct": 69.0,
+    "inflation_pct": 5.0,
+    "electricity_kwh": 441,
+    "imports_billions": 1.643,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 4000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.374,
+    "exports_billions": 1.417,
+    "external_debt_billions": 0.497
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 4.7
+  },
+  "political": {
+    "chief_of_state": "MSWATI III",
+    "head_of_government": "Barnabas Sibusiso DLAMINI",
+    "last_election": "19 September 2008"
+  }
+}

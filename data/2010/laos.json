@@ -1,0 +1,38 @@
+{
+  "country": "Laos",
+  "region": "East & Southeast Asia",
+  "year": 2010,
+  "demographics": {
+    "population": 6368162,
+    "median_age": 20.7,
+    "population_growth_pct": 1.712,
+    "birth_rate": 26.57,
+    "death_rate": 8.28,
+    "life_expectancy": 62.0
+  },
+  "economy": {
+    "gdp_ppp_billions": 15.42,
+    "gdp_growth_pct": 7.0,
+    "gdp_per_capita": 2400,
+    "unemployment_pct": 2.5,
+    "poverty_pct": 26.0,
+    "inflation_pct": 6.2,
+    "electricity_kwh": 1,
+    "exports_billions": 1.215,
+    "imports_billions": 1.504,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 3000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.023,
+    "external_debt_billions": 3.085
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 0.5
+  },
+  "political": {
+    "chief_of_state": "Lt. Gen. CHOUMMALI Saignason",
+    "head_of_government": "THONGSING Thammavong",
+    "last_election": "8 June 2006"
+  }
+}

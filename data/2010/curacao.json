@@ -1,0 +1,25 @@
+{
+  "country": "Curacao",
+  "region": "Central America and Caribbean",
+  "year": 2010,
+  "demographics": {
+    "population": 142180,
+    "death_rate": 8.0
+  },
+  "economy": {
+    "gdp_ppp_billions": 2.838,
+    "gdp_growth_pct": 3.5,
+    "gdp_per_capita": 14970,
+    "unemployment_pct": 10.3,
+    "inflation_pct": 1.7,
+    "electricity_kwh": 848,
+    "exports_billions": 0.876,
+    "imports_billions": 1.34
+  },
+  "military": {},
+  "political": {
+    "chief_of_state": "BEATRIX of the Netherlands",
+    "head_of_government": "Gerrit SCHOTTE",
+    "last_election": "27 August 2010"
+  }
+}

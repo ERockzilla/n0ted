@@ -1,0 +1,36 @@
+{
+  "country": "Timor-Leste",
+  "region": "East & Southeast Asia",
+  "year": 2010,
+  "demographics": {
+    "population": 1154625,
+    "median_age": 22.2,
+    "population_growth_pct": 1.999,
+    "birth_rate": 25.93,
+    "death_rate": 5.93,
+    "life_expectancy": 67.61
+  },
+  "economy": {
+    "gdp_ppp_billions": 3.004,
+    "gdp_growth_pct": 8.0,
+    "gdp_per_capita": 2600,
+    "unemployment_pct": 20.0,
+    "poverty_pct": 42.0,
+    "inflation_pct": 7.8,
+    "electricity_kwh": 2009,
+    "oil_production_bbl_day": 96270,
+    "oil_consumption_bbl_day": 2500,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 1.161,
+    "exports_billions": 0.01,
+    "imports_billions": 0.202
+  },
+  "military": {
+    "manpower_available": 16
+  },
+  "political": {
+    "chief_of_state": "Jose RAMOS-HORTA",
+    "head_of_government": "Kay Rala Xanana GUSMAO",
+    "last_election": "30 June 2007"
+  }
+}

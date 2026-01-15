@@ -1,0 +1,38 @@
+{
+  "country": "Ecuador",
+  "region": "South America",
+  "year": 2010,
+  "demographics": {
+    "population": 14790608,
+    "median_age": 25.3,
+    "population_growth_pct": 1.466,
+    "birth_rate": 20.32,
+    "death_rate": 5.0,
+    "life_expectancy": 75.52
+  },
+  "economy": {
+    "gdp_ppp_billions": 114.7,
+    "gdp_growth_pct": 2.4,
+    "gdp_per_capita": 7800,
+    "unemployment_pct": 7.6,
+    "poverty_pct": 35.1,
+    "inflation_pct": 3.6,
+    "electricity_kwh": 16,
+    "exports_billions": 17.37,
+    "imports_billions": 17.65,
+    "oil_production_bbl_day": 485700,
+    "oil_consumption_bbl_day": 181000,
+    "gas_production_cu_m": 260,
+    "current_account_billions": 0.692,
+    "external_debt_billions": 14.71
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 0.9
+  },
+  "political": {
+    "chief_of_state": "Rafael CORREA Delgado",
+    "head_of_government": "Rafael CORREA Delgado",
+    "last_election": "26 April 2009"
+  }
+}

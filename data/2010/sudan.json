@@ -1,0 +1,38 @@
+{
+  "country": "Sudan",
+  "region": "Africa",
+  "year": 2010,
+  "demographics": {
+    "population": 43939598,
+    "median_age": 18.4,
+    "population_growth_pct": 2.497,
+    "birth_rate": 36.58,
+    "death_rate": 11.66,
+    "life_expectancy": 54.21
+  },
+  "economy": {
+    "gdp_ppp_billions": 98.79,
+    "gdp_growth_pct": 5.2,
+    "gdp_per_capita": 2200,
+    "unemployment_pct": 18.7,
+    "poverty_pct": 40.0,
+    "inflation_pct": 11.8,
+    "electricity_kwh": 4,
+    "oil_production_bbl_day": 486700,
+    "oil_consumption_bbl_day": 84000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 2.595,
+    "exports_billions": 9.777,
+    "imports_billions": 8.483,
+    "external_debt_billions": 37.98
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 3.0
+  },
+  "political": {
+    "chief_of_state": "Umar Hassan Ahmad al-BASHIR",
+    "head_of_government": "Umar Hassan Ahmad al-BASHIR",
+    "last_election": "15 April 2010"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "country": "New Zealand",
+  "region": "Australia-Oceania",
+  "year": 2010,
+  "demographics": {
+    "population": 4252277,
+    "median_age": 36.8,
+    "population_growth_pct": 0.901,
+    "birth_rate": 13.81,
+    "death_rate": 7.1,
+    "life_expectancy": 80.48
+  },
+  "economy": {
+    "gdp_ppp_billions": 119.2,
+    "gdp_growth_pct": 2.1,
+    "gdp_per_capita": 28000,
+    "unemployment_pct": 6.5,
+    "inflation_pct": 2.6,
+    "electricity_kwh": 42,
+    "oil_production_bbl_day": 61150,
+    "oil_consumption_bbl_day": 154100,
+    "gas_production_cu_m": 4,
+    "current_account_billions": 4.504,
+    "exports_billions": 33.24,
+    "imports_billions": 30.24,
+    "external_debt_billions": 64.33
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 1.0
+  },
+  "political": {
+    "chief_of_state": "ELIZABETH II",
+    "head_of_government": "John KEY",
+    "last_election": "8 November 2008"
+  }
+}

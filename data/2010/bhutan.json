@@ -1,0 +1,38 @@
+{
+  "country": "Bhutan",
+  "region": "South Asia",
+  "year": 2010,
+  "demographics": {
+    "population": 699847,
+    "median_age": 24.3,
+    "population_growth_pct": 1.236,
+    "birth_rate": 19.62,
+    "death_rate": 7.25,
+    "life_expectancy": 66.71
+  },
+  "economy": {
+    "gdp_ppp_billions": 3.526,
+    "gdp_growth_pct": 6.8,
+    "gdp_per_capita": 5000,
+    "unemployment_pct": 4.0,
+    "poverty_pct": 23.2,
+    "inflation_pct": 4.3,
+    "electricity_kwh": 1,
+    "exports_billions": 0.513,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 1000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.164,
+    "imports_billions": 0.533,
+    "external_debt_billions": 0.836
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 1.0
+  },
+  "political": {
+    "chief_of_state": "Jigme Khesar Namgyel WANGCHUCK",
+    "head_of_government": "Jigme THINLEY",
+    "last_election": "24 March 2008"
+  }
+}

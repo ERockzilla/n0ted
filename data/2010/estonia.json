@@ -1,0 +1,38 @@
+{
+  "country": "Estonia",
+  "region": "Europe",
+  "year": 2010,
+  "demographics": {
+    "population": 1291170,
+    "median_age": 40.2,
+    "population_growth_pct": -0.635,
+    "birth_rate": 10.42,
+    "death_rate": 13.48,
+    "life_expectancy": 73.08
+  },
+  "economy": {
+    "gdp_ppp_billions": 24.53,
+    "gdp_growth_pct": 1.9,
+    "gdp_per_capita": 19000,
+    "unemployment_pct": 13.5,
+    "poverty_pct": 19.5,
+    "inflation_pct": 2.4,
+    "electricity_kwh": 11,
+    "exports_billions": 10.77,
+    "imports_billions": 11.52,
+    "oil_production_bbl_day": 7600,
+    "oil_consumption_bbl_day": 30000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.265,
+    "external_debt_billions": 25.13
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 2.0
+  },
+  "political": {
+    "chief_of_state": "Toomas Hendrik ILVES",
+    "head_of_government": "Andrus ANSIP",
+    "last_election": "4 March 2007"
+  }
+}

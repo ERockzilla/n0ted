@@ -1,0 +1,16 @@
+{
+  "country": "Saint Barthelemy",
+  "region": "Central America and Caribbean",
+  "year": 2010,
+  "demographics": {
+    "population": 7406,
+    "median_age": 39.8
+  },
+  "economy": {},
+  "military": {},
+  "political": {
+    "chief_of_state": "Nicolas SARKOZY",
+    "head_of_government": "of the Territorial Council Bruno",
+    "last_election": "21 September 2008"
+  }
+}

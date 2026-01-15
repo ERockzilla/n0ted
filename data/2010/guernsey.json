@@ -1,0 +1,26 @@
+{
+  "country": "Guernsey",
+  "region": "Europe",
+  "year": 2010,
+  "demographics": {
+    "population": 64775,
+    "median_age": 41.9,
+    "population_growth_pct": 0.466,
+    "birth_rate": 10.25,
+    "death_rate": 8.35,
+    "life_expectancy": 82.08
+  },
+  "economy": {
+    "gdp_ppp_billions": 2.742,
+    "gdp_growth_pct": 3.0,
+    "gdp_per_capita": 44600,
+    "unemployment_pct": 0.9,
+    "inflation_pct": 3.4
+  },
+  "military": {},
+  "political": {
+    "chief_of_state": "ELIZABETH II",
+    "head_of_government": "Chief Minister Lyndon TROTT",
+    "last_election": "23 April 2008"
+  }
+}

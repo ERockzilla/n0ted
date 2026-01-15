@@ -1,0 +1,38 @@
+{
+  "country": "China",
+  "region": "East & Southeast Asia",
+  "year": 2010,
+  "demographics": {
+    "population": 1330141295,
+    "median_age": 35.2,
+    "population_growth_pct": 0.494,
+    "birth_rate": 12.17,
+    "death_rate": 6.89,
+    "life_expectancy": 74.51
+  },
+  "economy": {
+    "gdp_ppp_billions": 9872.0,
+    "gdp_growth_pct": 10.3,
+    "gdp_per_capita": 7400,
+    "unemployment_pct": 4.3,
+    "poverty_pct": 2.8,
+    "inflation_pct": 5.0,
+    "electricity_kwh": 3,
+    "exports_billions": 1506.0,
+    "imports_billions": 1307.0,
+    "oil_production_bbl_day": 3,
+    "oil_consumption_bbl_day": 8,
+    "gas_production_cu_m": 82,
+    "current_account_billions": 272.5,
+    "external_debt_billions": 406.6
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 4.3
+  },
+  "political": {
+    "chief_of_state": "HU Jintao",
+    "head_of_government": "WEN Jiabao",
+    "last_election": "17 March 2008"
+  }
+}

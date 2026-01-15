@@ -1,0 +1,38 @@
+{
+  "country": "Fiji",
+  "region": "Australia-Oceania",
+  "year": 2010,
+  "demographics": {
+    "population": 875983,
+    "median_age": 26.6,
+    "population_growth_pct": 0.827,
+    "birth_rate": 21.52,
+    "death_rate": 5.88,
+    "life_expectancy": 71.03
+  },
+  "economy": {
+    "gdp_ppp_billions": 3.792,
+    "gdp_growth_pct": 1.8,
+    "gdp_per_capita": 4300,
+    "unemployment_pct": 7.6,
+    "poverty_pct": 25.5,
+    "inflation_pct": 4.8,
+    "electricity_kwh": 928,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 11000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.507,
+    "exports_billions": 1.202,
+    "imports_billions": 3.12,
+    "external_debt_billions": 0.127
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 1.9
+  },
+  "political": {
+    "chief_of_state": "Ratu Epeli NAILATIKAU",
+    "head_of_government": "Laisenia QARASE",
+    "last_election": "13 May 2006"
+  }
+}

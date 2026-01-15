@@ -1,0 +1,38 @@
+{
+  "country": "Korea, South",
+  "region": "East & Southeast Asia",
+  "year": 2010,
+  "demographics": {
+    "population": 48636068,
+    "median_age": 37.9,
+    "population_growth_pct": 0.258,
+    "birth_rate": 8.72,
+    "death_rate": 6.15,
+    "life_expectancy": 78.81
+  },
+  "economy": {
+    "gdp_ppp_billions": 1467.0,
+    "gdp_growth_pct": 6.1,
+    "gdp_per_capita": 30200,
+    "unemployment_pct": 3.7,
+    "poverty_pct": 15.0,
+    "inflation_pct": 3.0,
+    "electricity_kwh": 417,
+    "oil_production_bbl_day": 48180,
+    "oil_consumption_bbl_day": 2,
+    "imports_billions": 417.9,
+    "gas_production_cu_m": 651,
+    "current_account_billions": 36.35,
+    "exports_billions": 466.3,
+    "external_debt_billions": 370.1
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 2.7
+  },
+  "political": {
+    "chief_of_state": "LEE Myung-bak",
+    "head_of_government": "KIM Hwang-sik",
+    "last_election": "9 April 2008"
+  }
+}

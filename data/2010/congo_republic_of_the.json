@@ -1,0 +1,36 @@
+{
+  "country": "Congo, Republic of the",
+  "region": "Africa",
+  "year": 2010,
+  "demographics": {
+    "population": 4125916,
+    "median_age": 16.9,
+    "population_growth_pct": 2.807,
+    "birth_rate": 41.01,
+    "death_rate": 11.75,
+    "life_expectancy": 54.54
+  },
+  "economy": {
+    "gdp_ppp_billions": 17.45,
+    "gdp_growth_pct": 10.5,
+    "gdp_per_capita": 4200,
+    "inflation_pct": 5.2,
+    "electricity_kwh": 400,
+    "imports_billions": 3.607,
+    "oil_production_bbl_day": 274400,
+    "oil_consumption_bbl_day": 10000,
+    "gas_production_cu_m": 180,
+    "current_account_billions": 0.569,
+    "exports_billions": 9.2,
+    "external_debt_billions": 5.0
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 0.9
+  },
+  "political": {
+    "chief_of_state": "Denis SASSOU-Nguesso",
+    "head_of_government": "Denis SASSOU-Nguesso",
+    "last_election": "5 August 2008"
+  }
+}

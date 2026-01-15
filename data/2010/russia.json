@@ -1,0 +1,38 @@
+{
+  "country": "Russia",
+  "region": "Central Asia",
+  "year": 2010,
+  "demographics": {
+    "population": 139390205,
+    "median_age": 38.5,
+    "population_growth_pct": -0.465,
+    "birth_rate": 11.11,
+    "death_rate": 16.04,
+    "life_expectancy": 66.16
+  },
+  "economy": {
+    "gdp_ppp_billions": 2229.0,
+    "gdp_growth_pct": 3.8,
+    "gdp_per_capita": 15900,
+    "unemployment_pct": 7.6,
+    "poverty_pct": 13.1,
+    "inflation_pct": 6.7,
+    "electricity_kwh": 925,
+    "exports_billions": 376.7,
+    "imports_billions": 237.3,
+    "oil_production_bbl_day": 10,
+    "oil_consumption_bbl_day": 2,
+    "gas_production_cu_m": 583,
+    "current_account_billions": 68.85,
+    "external_debt_billions": 480.2
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 3.9
+  },
+  "political": {
+    "chief_of_state": "Dmitriy Anatolyevich MEDVEDEV",
+    "head_of_government": "Vladimir Vladimirovich PUTIN",
+    "last_election": "2 December 2007"
+  }
+}

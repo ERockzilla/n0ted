@@ -1,0 +1,27 @@
+{
+  "country": "Mayotte",
+  "region": "Africa",
+  "year": 2010,
+  "demographics": {
+    "population": 231139,
+    "median_age": 17.3,
+    "population_growth_pct": 3.171,
+    "birth_rate": 38.76,
+    "death_rate": 7.05,
+    "life_expectancy": 63.28
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.9536,
+    "gdp_per_capita": 4900,
+    "unemployment_pct": 25.4,
+    "inflation_pct": 1.7,
+    "exports_billions": 0.0065,
+    "imports_billions": 0.341
+  },
+  "military": {},
+  "political": {
+    "chief_of_state": "Nicolas SARKOZY",
+    "head_of_government": "of the General Council Ahmed Attoumani",
+    "last_election": "17 June 2007"
+  }
+}

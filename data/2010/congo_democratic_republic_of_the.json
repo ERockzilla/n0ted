@@ -1,0 +1,36 @@
+{
+  "country": "Congo, Democratic Republic of the",
+  "region": "Africa",
+  "year": 2010,
+  "demographics": {
+    "population": 70916439,
+    "median_age": 16.5,
+    "population_growth_pct": 3.165,
+    "birth_rate": 42.26,
+    "death_rate": 11.39,
+    "life_expectancy": 54.73
+  },
+  "economy": {
+    "gdp_ppp_billions": 22.92,
+    "gdp_growth_pct": 3.0,
+    "gdp_per_capita": 300,
+    "inflation_pct": 26.2,
+    "electricity_kwh": 8,
+    "exports_billions": 3.8,
+    "imports_billions": 5.2,
+    "oil_production_bbl_day": 16360,
+    "oil_consumption_bbl_day": 10000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 1.47,
+    "external_debt_billions": 4.3
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 2.5
+  },
+  "political": {
+    "chief_of_state": "Joseph KABILA",
+    "head_of_government": "Adolphe MUZITO",
+    "last_election": "19 January 2007"
+  }
+}

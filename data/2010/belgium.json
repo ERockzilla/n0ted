@@ -1,0 +1,37 @@
+{
+  "country": "Belgium",
+  "region": "Europe",
+  "year": 2010,
+  "demographics": {
+    "population": 10423493,
+    "median_age": 42.0,
+    "population_growth_pct": 0.082,
+    "birth_rate": 10.1,
+    "death_rate": 10.5,
+    "life_expectancy": 79.37
+  },
+  "economy": {
+    "gdp_ppp_billions": 394.9,
+    "gdp_growth_pct": 1.6,
+    "gdp_per_capita": 37900,
+    "unemployment_pct": 8.1,
+    "poverty_pct": 15.2,
+    "inflation_pct": 2.3,
+    "electricity_kwh": 82,
+    "exports_billions": 279.2,
+    "imports_billions": 281.7,
+    "oil_production_bbl_day": 11220,
+    "oil_consumption_bbl_day": 608200,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 1.129,
+    "external_debt_billions": 1241.0
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 1.3
+  },
+  "political": {
+    "chief_of_state": "ALBERT II",
+    "head_of_government": "Yves LETERME"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "country": "Wallis and Futuna",
+  "region": "Australia-Oceania",
+  "year": 2010,
+  "demographics": {
+    "population": 15343,
+    "median_age": 27.9,
+    "population_growth_pct": 0.365,
+    "birth_rate": 14.08,
+    "death_rate": 4.56,
+    "life_expectancy": 78.83
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.06,
+    "gdp_per_capita": 3800,
+    "unemployment_pct": 15.2,
+    "inflation_pct": 2.8,
+    "imports_billions": 0.06117,
+    "external_debt_billions": 0.00367
+  },
+  "military": {},
+  "political": {
+    "chief_of_state": "Nicolas SARKOZY",
+    "head_of_government": "of the Territorial Assembly Victor",
+    "last_election": "21 September 2008"
+  }
+}

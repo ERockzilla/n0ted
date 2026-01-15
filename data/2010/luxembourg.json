@@ -1,0 +1,37 @@
+{
+  "country": "Luxembourg",
+  "region": "Europe",
+  "year": 2010,
+  "demographics": {
+    "population": 497538,
+    "median_age": 39.3,
+    "population_growth_pct": 1.158,
+    "birth_rate": 11.7,
+    "death_rate": 8.46,
+    "life_expectancy": 79.48
+  },
+  "economy": {
+    "gdp_ppp_billions": 40.81,
+    "gdp_growth_pct": 3.2,
+    "gdp_per_capita": 81800,
+    "unemployment_pct": 5.5,
+    "inflation_pct": 2.1,
+    "electricity_kwh": 2,
+    "exports_billions": 17.82,
+    "imports_billions": 23.67,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 50720,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 3.396,
+    "external_debt_billions": 1892.0
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 0.9
+  },
+  "political": {
+    "chief_of_state": "Grand Duke HENRI",
+    "head_of_government": "Jean-Claude JUNCKER",
+    "last_election": "7 June 2009"
+  }
+}

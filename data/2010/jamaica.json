@@ -1,0 +1,38 @@
+{
+  "country": "Jamaica",
+  "region": "Central America and Caribbean",
+  "year": 2010,
+  "demographics": {
+    "population": 2847232,
+    "median_age": 23.9,
+    "population_growth_pct": 0.747,
+    "birth_rate": 19.47,
+    "death_rate": 6.48,
+    "life_expectancy": 73.48
+  },
+  "economy": {
+    "gdp_ppp_billions": 23.93,
+    "gdp_growth_pct": -0.8,
+    "gdp_per_capita": 8400,
+    "unemployment_pct": 12.9,
+    "poverty_pct": 14.8,
+    "inflation_pct": 13.0,
+    "electricity_kwh": 7,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 77000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 1.382,
+    "exports_billions": 1.487,
+    "imports_billions": 5.378,
+    "external_debt_billions": 12.66
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 0.6
+  },
+  "political": {
+    "chief_of_state": "ELIZABETH II",
+    "head_of_government": "Bruce GOLDING",
+    "last_election": "3 September 2007"
+  }
+}

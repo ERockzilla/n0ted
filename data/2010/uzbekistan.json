@@ -1,0 +1,38 @@
+{
+  "country": "Uzbekistan",
+  "region": "Central Asia",
+  "year": 2010,
+  "demographics": {
+    "population": 27865738,
+    "median_age": 25.2,
+    "population_growth_pct": 0.938,
+    "birth_rate": 17.51,
+    "death_rate": 5.29,
+    "life_expectancy": 72.24
+  },
+  "economy": {
+    "gdp_ppp_billions": 86.07,
+    "gdp_growth_pct": 8.2,
+    "gdp_per_capita": 3100,
+    "unemployment_pct": 1.1,
+    "poverty_pct": 26.0,
+    "inflation_pct": 15.0,
+    "electricity_kwh": 44,
+    "exports_billions": 13.13,
+    "imports_billions": 9.44,
+    "oil_production_bbl_day": 70910,
+    "oil_consumption_bbl_day": 145000,
+    "gas_production_cu_m": 67,
+    "current_account_billions": 5.588,
+    "external_debt_billions": 4.236
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 3.5
+  },
+  "political": {
+    "chief_of_state": "Islom KARIMOV",
+    "head_of_government": "Shavkat MIRZIYOYEV",
+    "last_election": "27 December 2009"
+  }
+}

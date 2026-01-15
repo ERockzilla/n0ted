@@ -1,0 +1,30 @@
+{
+  "country": "Monaco",
+  "region": "Europe",
+  "year": 2010,
+  "demographics": {
+    "population": 30586,
+    "median_age": 48.9,
+    "population_growth_pct": -0.183,
+    "birth_rate": 7.03,
+    "death_rate": 8.01,
+    "life_expectancy": 89.78
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.9763,
+    "gdp_per_capita": 30000,
+    "unemployment_pct": 0.0,
+    "inflation_pct": 1.9,
+    "exports_billions": 0.7162999999999999,
+    "imports_billions": 0.9161,
+    "external_debt_billions": 18.0
+  },
+  "military": {
+    "manpower_available": 16
+  },
+  "political": {
+    "chief_of_state": "Prince ALBERT II",
+    "head_of_government": "Minister of State Michel ROGER",
+    "last_election": "3 February 2008"
+  }
+}

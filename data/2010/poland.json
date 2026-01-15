@@ -1,0 +1,38 @@
+{
+  "country": "Poland",
+  "region": "Europe",
+  "year": 2010,
+  "demographics": {
+    "population": 38463689,
+    "median_age": 38.2,
+    "population_growth_pct": -0.053,
+    "birth_rate": 10.04,
+    "death_rate": 10.1,
+    "life_expectancy": 75.85
+  },
+  "economy": {
+    "gdp_ppp_billions": 721.7,
+    "gdp_growth_pct": 3.3,
+    "gdp_per_capita": 18800,
+    "unemployment_pct": 11.8,
+    "poverty_pct": 17.0,
+    "inflation_pct": 2.4,
+    "electricity_kwh": 149,
+    "exports_billions": 160.8,
+    "imports_billions": 167.4,
+    "oil_production_bbl_day": 34140,
+    "oil_consumption_bbl_day": 545400,
+    "gas_production_cu_m": 5,
+    "current_account_billions": 12.33,
+    "external_debt_billions": 252.9
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 1.71
+  },
+  "political": {
+    "chief_of_state": "Bronislaw KOMOROWSKI",
+    "head_of_government": "Donald TUSK",
+    "last_election": "21 October 2007"
+  }
+}

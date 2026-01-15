@@ -1,0 +1,38 @@
+{
+  "country": "Cameroon",
+  "region": "Africa",
+  "year": 2010,
+  "demographics": {
+    "population": 19294149,
+    "median_age": 19.3,
+    "population_growth_pct": 2.157,
+    "birth_rate": 33.58,
+    "death_rate": 12.01,
+    "life_expectancy": 54.04
+  },
+  "economy": {
+    "gdp_ppp_billions": 44.65,
+    "gdp_growth_pct": 2.8,
+    "gdp_per_capita": 2300,
+    "unemployment_pct": 30.0,
+    "poverty_pct": 48.0,
+    "inflation_pct": 1.9,
+    "electricity_kwh": 5,
+    "oil_production_bbl_day": 77310,
+    "oil_consumption_bbl_day": 26000,
+    "gas_production_cu_m": 20,
+    "current_account_billions": 0.826,
+    "exports_billions": 4.371,
+    "imports_billions": 4.869,
+    "external_debt_billions": 3.344
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 1.3
+  },
+  "political": {
+    "chief_of_state": "Paul BIYA",
+    "head_of_government": "Philemon YANG",
+    "last_election": "22 July 2007"
+  }
+}

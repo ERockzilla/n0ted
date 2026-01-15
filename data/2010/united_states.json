@@ -1,0 +1,38 @@
+{
+  "country": "United States",
+  "region": "North America",
+  "year": 2010,
+  "demographics": {
+    "population": 310232863,
+    "median_age": 36.8,
+    "population_growth_pct": 0.97,
+    "birth_rate": 13.83,
+    "death_rate": 8.38,
+    "life_expectancy": 78.24
+  },
+  "economy": {
+    "gdp_ppp_billions": 14720.0,
+    "gdp_growth_pct": 2.8,
+    "gdp_per_capita": 47400,
+    "unemployment_pct": 9.6,
+    "poverty_pct": 12.0,
+    "inflation_pct": 1.4,
+    "electricity_kwh": 4,
+    "exports_billions": 1270.0,
+    "imports_billions": 1903.0,
+    "oil_production_bbl_day": 9,
+    "oil_consumption_bbl_day": 18,
+    "gas_production_cu_m": 593,
+    "current_account_billions": 561.0,
+    "external_debt_billions": 13980.0
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 4.06
+  },
+  "political": {
+    "chief_of_state": "Barack H. OBAMA",
+    "head_of_government": "Barack H. OBAMA",
+    "last_election": "2 November 2010"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "country": "Iran",
+  "region": "Middle East",
+  "year": 2010,
+  "demographics": {
+    "population": 76923300,
+    "median_age": 26.3,
+    "population_growth_pct": 1.253,
+    "birth_rate": 18.52,
+    "death_rate": 5.94,
+    "life_expectancy": 69.77
+  },
+  "economy": {
+    "gdp_ppp_billions": 863.5,
+    "gdp_growth_pct": 3.0,
+    "gdp_per_capita": 11200,
+    "unemployment_pct": 14.6,
+    "poverty_pct": 18.0,
+    "inflation_pct": 11.8,
+    "electricity_kwh": 212,
+    "exports_billions": 78.69,
+    "imports_billions": 58.97,
+    "oil_production_bbl_day": 4,
+    "oil_consumption_bbl_day": 1,
+    "gas_production_cu_m": 200,
+    "current_account_billions": 9.76,
+    "external_debt_billions": 12.84
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 2.5
+  },
+  "political": {
+    "chief_of_state": "Supreme Leader Ali Hoseini-KHAMENEI",
+    "head_of_government": "Mahmud AHMADI-NEJAD",
+    "last_election": "14 March 2008"
+  }
+}

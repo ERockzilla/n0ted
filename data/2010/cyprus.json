@@ -1,0 +1,35 @@
+{
+  "country": "Cyprus",
+  "region": "Europe",
+  "year": 2010,
+  "demographics": {
+    "population": 1102677,
+    "median_age": 34.5,
+    "population_growth_pct": 1.663,
+    "birth_rate": 11.38,
+    "death_rate": 6.42,
+    "life_expectancy": 77.66
+  },
+  "economy": {
+    "gdp_ppp_billions": 1.829,
+    "gdp_growth_pct": -0.6,
+    "gdp_per_capita": 21000,
+    "unemployment_pct": 9.4,
+    "inflation_pct": 2.2,
+    "electricity_kwh": 4,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 59000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 2.5,
+    "exports_billions": 0.0681,
+    "imports_billions": 1.2
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.8
+  },
+  "political": {
+    "chief_of_state": "Demetris CHRISTOFIAS",
+    "head_of_government": "Demetris CHRISTOFIAS",
+    "last_election": "21 May 2006"
+  }
+}

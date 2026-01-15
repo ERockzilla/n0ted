@@ -1,0 +1,15 @@
+{
+  "country": "Pitcairn Islands",
+  "region": "Australia-Oceania",
+  "year": 2010,
+  "demographics": {
+    "population_growth_pct": 0.0
+  },
+  "economy": {},
+  "military": {},
+  "political": {
+    "chief_of_state": "ELIZABETH II",
+    "head_of_government": "Governor George FERGUSSON",
+    "last_election": "24 December 2009"
+  }
+}

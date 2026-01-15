@@ -1,0 +1,38 @@
+{
+  "country": "Albania",
+  "region": "Europe",
+  "year": 2010,
+  "demographics": {
+    "population": 2986952,
+    "median_age": 30.0,
+    "population_growth_pct": 0.249,
+    "birth_rate": 11.88,
+    "death_rate": 6.04,
+    "life_expectancy": 77.22
+  },
+  "economy": {
+    "gdp_ppp_billions": 23.95,
+    "gdp_growth_pct": 3.1,
+    "gdp_per_capita": 8000,
+    "unemployment_pct": 12.7,
+    "poverty_pct": 25.0,
+    "inflation_pct": 3.4,
+    "electricity_kwh": 2,
+    "imports_billions": 4.337,
+    "oil_production_bbl_day": 5400,
+    "oil_consumption_bbl_day": 36000,
+    "gas_production_cu_m": 30,
+    "current_account_billions": 1.245,
+    "exports_billions": 1.339,
+    "external_debt_billions": 1.55
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 1.49
+  },
+  "political": {
+    "chief_of_state": "of the Republic Bamir TOPI",
+    "head_of_government": "Sali BERISHA",
+    "last_election": "28 June 2009"
+  }
+}

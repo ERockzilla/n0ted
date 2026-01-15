@@ -1,0 +1,38 @@
+{
+  "country": "Tonga",
+  "region": "Australia-Oceania",
+  "year": 2010,
+  "demographics": {
+    "population": 122580,
+    "median_age": 22.7,
+    "population_growth_pct": 1.282,
+    "birth_rate": 17.78,
+    "death_rate": 4.95,
+    "life_expectancy": 71.03
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.767,
+    "gdp_growth_pct": -0.5,
+    "gdp_per_capita": 6300,
+    "unemployment_pct": 13.0,
+    "poverty_pct": 24.0,
+    "inflation_pct": 5.9,
+    "electricity_kwh": 43,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 1000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.023,
+    "exports_billions": 0.022,
+    "imports_billions": 0.139,
+    "external_debt_billions": 0.08070000000000001
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 0.9
+  },
+  "political": {
+    "chief_of_state": "George TUPOU V",
+    "head_of_government": "Lord Siale'ataonga TU'IVAKANO",
+    "last_election": "25 November 2010"
+  }
+}

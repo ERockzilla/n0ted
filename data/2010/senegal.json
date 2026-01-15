@@ -1,0 +1,38 @@
+{
+  "country": "Senegal",
+  "region": "Africa",
+  "year": 2010,
+  "demographics": {
+    "population": 12323252,
+    "median_age": 17.9,
+    "population_growth_pct": 2.579,
+    "birth_rate": 37.27,
+    "death_rate": 9.49,
+    "life_expectancy": 59.38
+  },
+  "economy": {
+    "gdp_ppp_billions": 23.86,
+    "gdp_growth_pct": 3.9,
+    "gdp_per_capita": 1900,
+    "unemployment_pct": 48.0,
+    "poverty_pct": 54.0,
+    "inflation_pct": 1.2,
+    "electricity_kwh": 1,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 39000,
+    "gas_production_cu_m": 50,
+    "current_account_billions": 1.046,
+    "exports_billions": 2.112,
+    "imports_billions": 4.474,
+    "external_debt_billions": 3.885
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 1.4
+  },
+  "political": {
+    "chief_of_state": "Abdoulaye WADE",
+    "head_of_government": "Soulayemane Ndene NDIAYE",
+    "last_election": "19 August 2007"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "country": "Comoros",
+  "region": "Africa",
+  "year": 2010,
+  "demographics": {
+    "population": 773407,
+    "median_age": 18.9,
+    "population_growth_pct": 2.731,
+    "birth_rate": 34.71,
+    "death_rate": 7.4,
+    "life_expectancy": 63.83
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.7894,
+    "gdp_growth_pct": 1.7,
+    "gdp_per_capita": 1000,
+    "unemployment_pct": 20.0,
+    "poverty_pct": 60.0,
+    "inflation_pct": 3.0,
+    "electricity_kwh": 22,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 1000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.008,
+    "exports_billions": 0.032,
+    "imports_billions": 0.143,
+    "external_debt_billions": 0.232
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 2.8
+  },
+  "political": {
+    "chief_of_state": "Ahmed Abdallah SAMBI",
+    "head_of_government": "Ahmed Abdallah SAMBI",
+    "last_election": "20 December 2009"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "country": "Belize",
+  "region": "Central America and Caribbean",
+  "year": 2010,
+  "demographics": {
+    "population": 314522,
+    "median_age": 20.7,
+    "population_growth_pct": 2.102,
+    "birth_rate": 26.84,
+    "death_rate": 5.82,
+    "life_expectancy": 68.23
+  },
+  "economy": {
+    "gdp_ppp_billions": 2.652,
+    "gdp_growth_pct": 1.5,
+    "gdp_per_capita": 8400,
+    "unemployment_pct": 13.1,
+    "poverty_pct": 33.5,
+    "inflation_pct": 4.1,
+    "electricity_kwh": 213,
+    "imports_billions": 0.74,
+    "oil_production_bbl_day": 3990,
+    "oil_consumption_bbl_day": 7000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.151,
+    "exports_billions": 0.404,
+    "external_debt_billions": 1.01
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 1.4
+  },
+  "political": {
+    "chief_of_state": "ELIZABETH II",
+    "head_of_government": "Dean Oliver BARROW",
+    "last_election": "6 February 2008"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "country": "Saint Pierre and Miquelon",
+  "region": "North America",
+  "year": 2010,
+  "demographics": {
+    "population": 5943,
+    "median_age": 42.0,
+    "population_growth_pct": -0.909,
+    "birth_rate": 8.58,
+    "death_rate": 8.41,
+    "life_expectancy": 79.74
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.048299999999999996,
+    "gdp_per_capita": 7000,
+    "unemployment_pct": 10.3,
+    "inflation_pct": 8.1,
+    "electricity_kwh": 53,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 1000,
+    "gas_production_cu_m": 0,
+    "exports_billions": 0.0055,
+    "imports_billions": 0.0682
+  },
+  "military": {},
+  "political": {
+    "chief_of_state": "Nicolas SARKOZY",
+    "head_of_government": "of the Territorial Council Stephane",
+    "last_election": "21 September 2008"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "country": "Micronesia, Federated States of",
+  "region": "Australia-Oceania",
+  "year": 2010,
+  "demographics": {
+    "population": 107154,
+    "median_age": 22.4,
+    "population_growth_pct": -0.284,
+    "birth_rate": 22.57,
+    "death_rate": 4.4,
+    "life_expectancy": 71.23
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.2381,
+    "gdp_per_capita": 2200,
+    "unemployment_pct": 22.0,
+    "poverty_pct": 26.7,
+    "inflation_pct": 2.2,
+    "electricity_kwh": 192,
+    "current_account_billions": 0.0343,
+    "exports_billions": 0.014,
+    "imports_billions": 0.13269999999999998,
+    "external_debt_billions": 0.0608
+  },
+  "military": {
+    "manpower_available": 16
+  },
+  "political": {
+    "chief_of_state": "Emanuel MORI",
+    "head_of_government": "Emanuel MORI",
+    "last_election": "3 March 2009"
+  }
+}

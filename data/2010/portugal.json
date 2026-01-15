@@ -1,0 +1,38 @@
+{
+  "country": "Portugal",
+  "region": "Europe",
+  "year": 2010,
+  "demographics": {
+    "population": 10735765,
+    "median_age": 39.7,
+    "population_growth_pct": 0.244,
+    "birth_rate": 10.12,
+    "death_rate": 10.74,
+    "life_expectancy": 78.38
+  },
+  "economy": {
+    "gdp_ppp_billions": 247.0,
+    "gdp_growth_pct": 1.0,
+    "gdp_per_capita": 23000,
+    "unemployment_pct": 10.7,
+    "poverty_pct": 18.0,
+    "inflation_pct": 1.1,
+    "electricity_kwh": 44,
+    "exports_billions": 46.27,
+    "imports_billions": 68.22,
+    "oil_production_bbl_day": 4721,
+    "oil_consumption_bbl_day": 272200,
+    "gas_production_cu_m": 2008,
+    "current_account_billions": 19.03,
+    "external_debt_billions": 497.8
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 2.3
+  },
+  "political": {
+    "chief_of_state": "Anibal CAVACO SILVA",
+    "head_of_government": "Jose SOCRATES Carvalho Pinto de",
+    "last_election": "27 September 2009"
+  }
+}

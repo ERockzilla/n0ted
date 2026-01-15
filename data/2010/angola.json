@@ -1,0 +1,37 @@
+{
+  "country": "Angola",
+  "region": "Africa",
+  "year": 2010,
+  "demographics": {
+    "population": 13068161,
+    "median_age": 18.0,
+    "population_growth_pct": 2.063,
+    "birth_rate": 43.33,
+    "death_rate": 23.74,
+    "life_expectancy": 38.48
+  },
+  "economy": {
+    "gdp_ppp_billions": 114.1,
+    "gdp_growth_pct": 5.9,
+    "gdp_per_capita": 8700,
+    "poverty_pct": 40.5,
+    "inflation_pct": 13.3,
+    "electricity_kwh": 3,
+    "oil_production_bbl_day": 1,
+    "oil_consumption_bbl_day": 70000,
+    "exports_billions": 51.65,
+    "gas_production_cu_m": 680,
+    "current_account_billions": 2.089,
+    "imports_billions": 18.1,
+    "external_debt_billions": 17.98
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 3.6
+  },
+  "political": {
+    "chief_of_state": "Jose Eduardo DOS SANTOS",
+    "head_of_government": "Jose Eduardo DOS SANTOS",
+    "last_election": "6 September 2008"
+  }
+}

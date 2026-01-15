@@ -1,0 +1,37 @@
+{
+  "country": "Namibia",
+  "region": "Africa",
+  "year": 2010,
+  "demographics": {
+    "population": 2128471,
+    "median_age": 21.4,
+    "population_growth_pct": 0.909,
+    "birth_rate": 21.82,
+    "death_rate": 12.97,
+    "life_expectancy": 51.95
+  },
+  "economy": {
+    "gdp_ppp_billions": 14.64,
+    "gdp_growth_pct": 4.1,
+    "gdp_per_capita": 6900,
+    "unemployment_pct": 51.2,
+    "poverty_pct": 55.8,
+    "inflation_pct": 4.6,
+    "electricity_kwh": 1,
+    "exports_billions": 4.277,
+    "imports_billions": 5.152,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 22000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.187,
+    "external_debt_billions": 2.373
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 3.7
+  },
+  "political": {
+    "chief_of_state": "Hifikepunye POHAMBA",
+    "head_of_government": "Nahas ANGULA"
+  }
+}

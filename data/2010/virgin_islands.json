@@ -1,0 +1,33 @@
+{
+  "country": "Virgin Islands",
+  "region": "Central America and Caribbean",
+  "year": 2010,
+  "demographics": {
+    "population": 109750,
+    "median_age": 39.8,
+    "population_growth_pct": -0.072,
+    "birth_rate": 11.51,
+    "death_rate": 6.96,
+    "life_expectancy": 79.19
+  },
+  "economy": {
+    "gdp_ppp_billions": 1.577,
+    "gdp_growth_pct": 2.0,
+    "gdp_per_capita": 14500,
+    "unemployment_pct": 6.2,
+    "poverty_pct": 28.9,
+    "inflation_pct": 2.2,
+    "electricity_kwh": 776,
+    "oil_production_bbl_day": 16870,
+    "oil_consumption_bbl_day": 88820,
+    "gas_production_cu_m": 0,
+    "exports_billions": 4.234,
+    "imports_billions": 4.609
+  },
+  "military": {},
+  "political": {
+    "chief_of_state": "Barack H. OBAMA",
+    "head_of_government": "Governor John DeJONGH",
+    "last_election": "2 November 2010"
+  }
+}

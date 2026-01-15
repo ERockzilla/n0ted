@@ -1,0 +1,38 @@
+{
+  "country": "Kyrgyzstan",
+  "region": "Central Asia",
+  "year": 2010,
+  "demographics": {
+    "population": 5508626,
+    "median_age": 24.7,
+    "population_growth_pct": 1.414,
+    "birth_rate": 23.58,
+    "death_rate": 6.85,
+    "life_expectancy": 69.74
+  },
+  "economy": {
+    "gdp_ppp_billions": 11.85,
+    "gdp_growth_pct": -3.5,
+    "gdp_per_capita": 2200,
+    "unemployment_pct": 18.0,
+    "poverty_pct": 40.0,
+    "inflation_pct": 4.8,
+    "electricity_kwh": 15,
+    "exports_billions": 1.682,
+    "oil_production_bbl_day": 979,
+    "oil_consumption_bbl_day": 15000,
+    "gas_production_cu_m": 30,
+    "imports_billions": 3.075,
+    "current_account_billions": 0.21,
+    "external_debt_billions": 3.738
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 0.5
+  },
+  "political": {
+    "chief_of_state": "Roza OTUNBAEVA",
+    "head_of_government": "Almazbek ATAMBAEV",
+    "last_election": "10 October 2007"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "country": "Zimbabwe",
+  "region": "Africa",
+  "year": 2010,
+  "demographics": {
+    "population": 11651858,
+    "median_age": 17.8,
+    "population_growth_pct": 2.954,
+    "birth_rate": 31.57,
+    "death_rate": 14.9,
+    "life_expectancy": 47.55
+  },
+  "economy": {
+    "gdp_ppp_billions": 1.829,
+    "gdp_growth_pct": -0.6,
+    "gdp_per_capita": 400,
+    "unemployment_pct": 9.4,
+    "poverty_pct": 68.0,
+    "inflation_pct": 5.03,
+    "electricity_kwh": 8,
+    "exports_billions": 0.0681,
+    "imports_billions": 1.2,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 11000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.4142,
+    "external_debt_billions": 5.772
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 3.8
+  },
+  "political": {
+    "chief_of_state": "Robert Gabriel MUGABE",
+    "head_of_government": "Morgan TSVANGIRAI",
+    "last_election": "28 March 2008"
+  }
+}

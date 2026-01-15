@@ -1,0 +1,37 @@
+{
+  "country": "Norway",
+  "region": "Europe",
+  "year": 2010,
+  "demographics": {
+    "population": 4676305,
+    "median_age": 39.7,
+    "population_growth_pct": 0.334,
+    "birth_rate": 10.9,
+    "death_rate": 9.26,
+    "life_expectancy": 80.08
+  },
+  "economy": {
+    "gdp_ppp_billions": 276.4,
+    "gdp_growth_pct": 1.5,
+    "gdp_per_capita": 59100,
+    "unemployment_pct": 3.7,
+    "inflation_pct": 2.4,
+    "electricity_kwh": 142,
+    "exports_billions": 137.0,
+    "imports_billions": 74.02,
+    "oil_production_bbl_day": 2,
+    "oil_consumption_bbl_day": 204100,
+    "gas_production_cu_m": 103,
+    "current_account_billions": 60.23,
+    "external_debt_billions": 2232.0
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 1.9
+  },
+  "political": {
+    "chief_of_state": "HARALD V",
+    "head_of_government": "Jens STOLTENBERG",
+    "last_election": "14 September 2009"
+  }
+}

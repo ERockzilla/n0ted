@@ -1,0 +1,36 @@
+{
+  "country": "Libya",
+  "region": "Africa",
+  "year": 2010,
+  "demographics": {
+    "population": 6461454,
+    "median_age": 24.2,
+    "population_growth_pct": 2.117,
+    "birth_rate": 24.58,
+    "death_rate": 3.4,
+    "life_expectancy": 77.47
+  },
+  "economy": {
+    "gdp_ppp_billions": 89.03,
+    "gdp_growth_pct": 3.3,
+    "gdp_per_capita": 13800,
+    "unemployment_pct": 30.0,
+    "inflation_pct": 3.0,
+    "electricity_kwh": 23,
+    "exports_billions": 44.89,
+    "imports_billions": 24.47,
+    "oil_production_bbl_day": 1,
+    "oil_consumption_bbl_day": 280000,
+    "gas_production_cu_m": 15,
+    "current_account_billions": 15.53,
+    "external_debt_billions": 6.378
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 3.9
+  },
+  "political": {
+    "chief_of_state": "Revolutionary Leader Col. Muammar Abu Minyar",
+    "head_of_government": "Secretary of the General People's Committee"
+  }
+}

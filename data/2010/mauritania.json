@@ -1,0 +1,37 @@
+{
+  "country": "Mauritania",
+  "region": "Africa",
+  "year": 2010,
+  "demographics": {
+    "population": 3205060,
+    "median_age": 19.3,
+    "population_growth_pct": 2.373,
+    "birth_rate": 33.67,
+    "death_rate": 9.0,
+    "life_expectancy": 60.75
+  },
+  "economy": {
+    "gdp_ppp_billions": 6.8,
+    "gdp_growth_pct": 5.0,
+    "gdp_per_capita": 2100,
+    "unemployment_pct": 30.0,
+    "poverty_pct": 40.0,
+    "inflation_pct": 7.3,
+    "electricity_kwh": 415,
+    "oil_production_bbl_day": 16510,
+    "oil_consumption_bbl_day": 20000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.184,
+    "exports_billions": 1.395,
+    "imports_billions": 1.475
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 5.5
+  },
+  "political": {
+    "chief_of_state": "Mohamed Ould Abdel AZIZ",
+    "head_of_government": "Moulaye Ould Mohamed LAGHDAF",
+    "last_election": "18 July 2009"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "country": "Macedonia",
+  "region": "Europe",
+  "year": 2010,
+  "demographics": {
+    "population": 2072086,
+    "median_age": 35.4,
+    "population_growth_pct": 0.257,
+    "birth_rate": 11.92,
+    "death_rate": 8.87,
+    "life_expectancy": 74.92
+  },
+  "economy": {
+    "gdp_ppp_billions": 19.46,
+    "gdp_growth_pct": 1.5,
+    "gdp_per_capita": 9400,
+    "unemployment_pct": 33.1,
+    "poverty_pct": 28.7,
+    "inflation_pct": 1.5,
+    "electricity_kwh": 6,
+    "imports_billions": 5.113,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 20000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.328,
+    "exports_billions": 3.171,
+    "external_debt_billions": 5.52
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 6.0
+  },
+  "political": {
+    "chief_of_state": "Gjorge IVANOV",
+    "head_of_government": "Nikola GRUEVSKI",
+    "last_election": "15 June 2008"
+  }
+}

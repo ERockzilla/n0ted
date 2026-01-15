@@ -1,0 +1,19 @@
+{
+  "country": "Tokelau",
+  "region": "Australia-Oceania",
+  "year": 2010,
+  "demographics": {
+    "population": 1400,
+    "population_growth_pct": -0.011
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.0015,
+    "gdp_per_capita": 1000
+  },
+  "military": {},
+  "political": {
+    "chief_of_state": "ELIZABETH II",
+    "head_of_government": "Foua TOLOA",
+    "last_election": "19 January 2008"
+  }
+}

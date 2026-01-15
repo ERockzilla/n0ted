@@ -1,0 +1,38 @@
+{
+  "country": "Mali",
+  "region": "Africa",
+  "year": 2010,
+  "demographics": {
+    "population": 13796354,
+    "median_age": 16.2,
+    "population_growth_pct": 2.607,
+    "birth_rate": 46.09,
+    "death_rate": 14.64,
+    "life_expectancy": 52.17
+  },
+  "economy": {
+    "gdp_ppp_billions": 16.74,
+    "gdp_growth_pct": 5.2,
+    "gdp_per_capita": 1200,
+    "unemployment_pct": 30.0,
+    "poverty_pct": 36.1,
+    "inflation_pct": 2.5,
+    "electricity_kwh": 515,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 6000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.446,
+    "exports_billions": 0.294,
+    "imports_billions": 2.358,
+    "external_debt_billions": 2.8
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 1.9
+  },
+  "political": {
+    "chief_of_state": "Amadou Toumani TOURE",
+    "head_of_government": "Modibo SIDIBE",
+    "last_election": "22 July 2007"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "country": "Central African Republic",
+  "region": "Africa",
+  "year": 2010,
+  "demographics": {
+    "population": 4844927,
+    "median_age": 19.1,
+    "population_growth_pct": 2.149,
+    "birth_rate": 36.79,
+    "death_rate": 15.3,
+    "life_expectancy": 49.68
+  },
+  "economy": {
+    "gdp_ppp_billions": 3.468,
+    "gdp_growth_pct": 3.7,
+    "gdp_per_capita": 700,
+    "unemployment_pct": 8.0,
+    "inflation_pct": 0.9,
+    "electricity_kwh": 115,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 2000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.077,
+    "exports_billions": 0.1467,
+    "imports_billions": 0.2373,
+    "external_debt_billions": 1.153
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 0.9
+  },
+  "political": {
+    "chief_of_state": "Francois BOZIZE",
+    "head_of_government": "Faustin-Archange TOUADERA",
+    "last_election": "13 March 2005"
+  }
+}

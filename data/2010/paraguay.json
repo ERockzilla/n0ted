@@ -1,0 +1,38 @@
+{
+  "country": "Paraguay",
+  "region": "South America",
+  "year": 2010,
+  "demographics": {
+    "population": 6375830,
+    "median_age": 24.9,
+    "population_growth_pct": 1.31,
+    "birth_rate": 17.73,
+    "death_rate": 4.55,
+    "life_expectancy": 75.99
+  },
+  "economy": {
+    "gdp_ppp_billions": 30.94,
+    "gdp_growth_pct": 6.5,
+    "gdp_per_capita": 4900,
+    "unemployment_pct": 6.9,
+    "poverty_pct": 19.4,
+    "inflation_pct": 4.2,
+    "electricity_kwh": 53,
+    "exports_billions": 7.606,
+    "oil_production_bbl_day": 31,
+    "oil_consumption_bbl_day": 27000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.391,
+    "imports_billions": 9.242,
+    "external_debt_billions": 4.346
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 1.0
+  },
+  "political": {
+    "chief_of_state": "Fernando Armindo LUGO Mendez",
+    "head_of_government": "Fernando Armindo LUGO Mendez",
+    "last_election": "20 April 2008"
+  }
+}

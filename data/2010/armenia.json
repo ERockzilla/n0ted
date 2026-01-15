@@ -1,0 +1,38 @@
+{
+  "country": "Armenia",
+  "region": "Middle East",
+  "year": 2010,
+  "demographics": {
+    "population": 2966802,
+    "median_age": 31.9,
+    "population_growth_pct": 0.016,
+    "birth_rate": 12.74,
+    "death_rate": 8.42,
+    "life_expectancy": 72.96
+  },
+  "economy": {
+    "gdp_ppp_billions": 17.27,
+    "gdp_growth_pct": 4.7,
+    "gdp_per_capita": 5800,
+    "unemployment_pct": 7.1,
+    "poverty_pct": 26.5,
+    "inflation_pct": 6.9,
+    "electricity_kwh": 5,
+    "exports_billions": 0.846,
+    "imports_billions": 2.988,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 49000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 1.138,
+    "external_debt_billions": 5.227
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 2.8
+  },
+  "political": {
+    "chief_of_state": "Serzh SARGSIAN",
+    "head_of_government": "Tigran SARGSIAN",
+    "last_election": "12 May 2007"
+  }
+}

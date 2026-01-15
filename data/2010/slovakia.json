@@ -1,0 +1,38 @@
+{
+  "country": "Slovakia",
+  "region": "Europe",
+  "year": 2010,
+  "demographics": {
+    "population": 5470306,
+    "median_age": 37.3,
+    "population_growth_pct": 0.129,
+    "birth_rate": 10.55,
+    "death_rate": 9.56,
+    "life_expectancy": 75.62
+  },
+  "economy": {
+    "gdp_ppp_billions": 121.3,
+    "gdp_growth_pct": 4.0,
+    "gdp_per_capita": 22200,
+    "unemployment_pct": 12.5,
+    "poverty_pct": 21.0,
+    "inflation_pct": 1.2,
+    "electricity_kwh": 25,
+    "exports_billions": 64.18,
+    "imports_billions": 62.43,
+    "oil_production_bbl_day": 4114,
+    "oil_consumption_bbl_day": 79930,
+    "gas_production_cu_m": 103,
+    "current_account_billions": 1.93,
+    "external_debt_billions": 59.33
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 1.87
+  },
+  "political": {
+    "chief_of_state": "Ivan GASPAROVIC",
+    "head_of_government": "Iveta RADICOVA",
+    "last_election": "12 June 2010"
+  }
+}

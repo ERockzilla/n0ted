@@ -1,0 +1,38 @@
+{
+  "country": "Mauritius",
+  "region": "Africa",
+  "year": 2010,
+  "demographics": {
+    "population": 1294104,
+    "median_age": 32.3,
+    "population_growth_pct": 0.751,
+    "birth_rate": 14.17,
+    "death_rate": 6.63,
+    "life_expectancy": 74.25
+  },
+  "economy": {
+    "gdp_ppp_billions": 17.49,
+    "gdp_growth_pct": 3.6,
+    "gdp_per_capita": 13500,
+    "unemployment_pct": 7.5,
+    "poverty_pct": 8.0,
+    "inflation_pct": 2.9,
+    "electricity_kwh": 2,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 23000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.949,
+    "exports_billions": 2.041,
+    "imports_billions": 3.935,
+    "external_debt_billions": 5.043
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 0.3
+  },
+  "political": {
+    "chief_of_state": "Sir Anerood JUGNAUTH",
+    "head_of_government": "Navinchandra RAMGOOLAM",
+    "last_election": "5 May 2010"
+  }
+}

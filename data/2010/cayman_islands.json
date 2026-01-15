@@ -1,0 +1,35 @@
+{
+  "country": "Cayman Islands",
+  "region": "Central America and Caribbean",
+  "year": 2010,
+  "demographics": {
+    "population": 50209,
+    "median_age": 38.4,
+    "population_growth_pct": 2.338,
+    "birth_rate": 12.29,
+    "death_rate": 5.0,
+    "life_expectancy": 80.57
+  },
+  "economy": {
+    "gdp_ppp_billions": 2.25,
+    "gdp_growth_pct": 1.1,
+    "gdp_per_capita": 43800,
+    "unemployment_pct": 4.0,
+    "inflation_pct": 4.1,
+    "electricity_kwh": 546,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 3000,
+    "gas_production_cu_m": 0,
+    "exports_billions": 0.013800000000000002,
+    "imports_billions": 0.8765,
+    "external_debt_billions": 0.07
+  },
+  "military": {
+    "manpower_available": 16
+  },
+  "political": {
+    "chief_of_state": "ELIZABETH II",
+    "head_of_government": "McKeeva BUSH",
+    "last_election": "20 May 2009"
+  }
+}

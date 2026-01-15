@@ -1,0 +1,38 @@
+{
+  "country": "Dominican Republic",
+  "region": "Central America and Caribbean",
+  "year": 2010,
+  "demographics": {
+    "population": 9823821,
+    "median_age": 25.8,
+    "population_growth_pct": 1.357,
+    "birth_rate": 19.9,
+    "death_rate": 4.3,
+    "life_expectancy": 77.15
+  },
+  "economy": {
+    "gdp_ppp_billions": 84.94,
+    "gdp_growth_pct": 4.2,
+    "gdp_per_capita": 8600,
+    "unemployment_pct": 14.2,
+    "poverty_pct": 42.2,
+    "inflation_pct": 6.3,
+    "electricity_kwh": 14,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 118000,
+    "gas_production_cu_m": 0,
+    "imports_billions": 14.53,
+    "current_account_billions": 3.862,
+    "exports_billions": 6.161,
+    "external_debt_billions": 13.09
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 0.7
+  },
+  "political": {
+    "chief_of_state": "Leonel FERNANDEZ Reyna",
+    "head_of_government": "Leonel FERNANDEZ Reyna",
+    "last_election": "16 May 2010"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "country": "Zambia",
+  "region": "Africa",
+  "year": 2010,
+  "demographics": {
+    "population": 13460305,
+    "median_age": 16.5,
+    "population_growth_pct": 3.118,
+    "birth_rate": 44.63,
+    "death_rate": 12.84,
+    "life_expectancy": 52.03
+  },
+  "economy": {
+    "gdp_ppp_billions": 20.03,
+    "gdp_growth_pct": 7.0,
+    "gdp_per_capita": 1500,
+    "unemployment_pct": 50.0,
+    "poverty_pct": 86.0,
+    "inflation_pct": 8.5,
+    "electricity_kwh": 9,
+    "exports_billions": 6.463,
+    "imports_billions": 4.949,
+    "oil_production_bbl_day": 160,
+    "oil_consumption_bbl_day": 16000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.099,
+    "external_debt_billions": 3.495
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 1.8
+  },
+  "political": {
+    "chief_of_state": "Rupiah BANDA",
+    "head_of_government": "Rupiah BANDA",
+    "last_election": "28 September 2006"
+  }
+}

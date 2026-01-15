@@ -1,0 +1,32 @@
+{
+  "country": "Turks and Caicos Islands",
+  "region": "Central America and Caribbean",
+  "year": 2010,
+  "demographics": {
+    "population": 23528,
+    "median_age": 28.0,
+    "population_growth_pct": 2.491,
+    "birth_rate": 20.44,
+    "death_rate": 4.17,
+    "life_expectancy": 75.64
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.216,
+    "gdp_growth_pct": 4.9,
+    "gdp_per_capita": 11500,
+    "unemployment_pct": 10.0,
+    "inflation_pct": 4.0,
+    "electricity_kwh": 12,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 0,
+    "gas_production_cu_m": 0,
+    "exports_billions": 0.1692,
+    "imports_billions": 0.1756
+  },
+  "military": {},
+  "political": {
+    "chief_of_state": "ELIZABETH II",
+    "head_of_government": "Governor Gordon WETHERELL",
+    "last_election": "9 February 2007"
+  }
+}

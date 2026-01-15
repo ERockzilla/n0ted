@@ -1,0 +1,28 @@
+{
+  "country": "Kosovo",
+  "region": "Europe",
+  "year": 2010,
+  "demographics": {
+    "population": 1815048,
+    "median_age": 26.3
+  },
+  "economy": {
+    "gdp_ppp_billions": 5.3,
+    "gdp_per_capita": 2500,
+    "unemployment_pct": 16.6,
+    "poverty_pct": 35.0,
+    "inflation_pct": 5.3,
+    "electricity_kwh": 832,
+    "oil_production_bbl_day": 0,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 2.716,
+    "exports_billions": 0.527,
+    "imports_billions": 2.6
+  },
+  "military": {},
+  "political": {
+    "chief_of_state": "Jakup KRASNIQI",
+    "head_of_government": "Hashim THACI",
+    "last_election": "17 November 2007"
+  }
+}

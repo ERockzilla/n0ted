@@ -1,0 +1,36 @@
+{
+  "country": "Saint Kitts and Nevis",
+  "region": "Central America and Caribbean",
+  "year": 2010,
+  "demographics": {
+    "population": 49898,
+    "median_age": 31.5,
+    "population_growth_pct": 0.838,
+    "birth_rate": 14.23,
+    "death_rate": 7.11,
+    "life_expectancy": 74.37
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.7195,
+    "gdp_growth_pct": -1.5,
+    "gdp_per_capita": 14400,
+    "unemployment_pct": 4.5,
+    "inflation_pct": 4.5,
+    "electricity_kwh": 130,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 1000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.163,
+    "exports_billions": 0.084,
+    "imports_billions": 0.383,
+    "external_debt_billions": 0.314
+  },
+  "military": {
+    "manpower_available": 16
+  },
+  "political": {
+    "chief_of_state": "ELIZABETH II",
+    "head_of_government": "Dr. Denzil DOUGLAS",
+    "last_election": "25 January 2010"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "country": "San Marino",
+  "region": "Europe",
+  "year": 2010,
+  "demographics": {
+    "population": 31477,
+    "median_age": 42.1,
+    "population_growth_pct": 1.106,
+    "birth_rate": 9.18,
+    "death_rate": 7.75,
+    "life_expectancy": 82.95
+  },
+  "economy": {
+    "gdp_ppp_billions": 1.662,
+    "gdp_growth_pct": 4.3,
+    "gdp_per_capita": 41900,
+    "unemployment_pct": 3.1,
+    "inflation_pct": -3.5,
+    "exports_billions": 4.628,
+    "imports_billions": 3.744
+  },
+  "military": {
+    "manpower_available": 16
+  },
+  "political": {
+    "chief_of_state": "Co-chiefs of State Captain Regent Giovanni Francesco",
+    "head_of_government": "Secretary of State for Foreign and Political",
+    "last_election": "9 November 2008"
+  }
+}

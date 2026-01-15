@@ -1,0 +1,15 @@
+{
+  "country": "Holy See",
+  "region": "Vatican City",
+  "year": 2010,
+  "demographics": {
+    "population_growth_pct": 0.004
+  },
+  "economy": {},
+  "military": {},
+  "political": {
+    "chief_of_state": "Pope BENEDICT XVI",
+    "head_of_government": "Secretary of State Cardinal Tarcisio BERTONE",
+    "last_election": "19 April 2005"
+  }
+}

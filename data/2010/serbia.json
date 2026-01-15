@@ -1,0 +1,35 @@
+{
+  "country": "Serbia",
+  "region": "Europe",
+  "year": 2010,
+  "demographics": {
+    "population": 7344847,
+    "median_age": 41.1,
+    "population_growth_pct": -0.469,
+    "birth_rate": 9.2,
+    "death_rate": 13.89,
+    "life_expectancy": 74.09
+  },
+  "economy": {
+    "gdp_ppp_billions": 80.65,
+    "gdp_growth_pct": 1.8,
+    "gdp_per_capita": 11000,
+    "unemployment_pct": 17.2,
+    "poverty_pct": 7.9,
+    "inflation_pct": 4.9,
+    "electricity_kwh": 36,
+    "exports_billions": 9.372,
+    "imports_billions": 15.78,
+    "oil_production_bbl_day": 12170,
+    "oil_consumption_bbl_day": 90000,
+    "gas_production_cu_m": 230,
+    "current_account_billions": 1.046,
+    "external_debt_billions": 32.31
+  },
+  "military": {},
+  "political": {
+    "chief_of_state": "Boris TADIC",
+    "head_of_government": "Mirko CVETKOVIC",
+    "last_election": "11 May 2008"
+  }
+}

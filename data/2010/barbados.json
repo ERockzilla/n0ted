@@ -1,0 +1,37 @@
+{
+  "country": "Barbados",
+  "region": "Central America and Caribbean",
+  "year": 2010,
+  "demographics": {
+    "population": 285653,
+    "median_age": 36.2,
+    "population_growth_pct": 0.374,
+    "birth_rate": 12.43,
+    "death_rate": 8.39,
+    "life_expectancy": 74.14
+  },
+  "economy": {
+    "gdp_ppp_billions": 6.196,
+    "gdp_growth_pct": -0.7,
+    "gdp_per_capita": 21700,
+    "unemployment_pct": 10.7,
+    "inflation_pct": 5.5,
+    "electricity_kwh": 1,
+    "oil_production_bbl_day": 765,
+    "oil_consumption_bbl_day": 9000,
+    "gas_production_cu_m": 29,
+    "current_account_billions": 0.254,
+    "exports_billions": 0.385,
+    "imports_billions": 1.586,
+    "external_debt_billions": 0.668
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 0.8
+  },
+  "political": {
+    "chief_of_state": "ELIZABETH II",
+    "head_of_government": "Fruendel STUART",
+    "last_election": "15 January 2008"
+  }
+}

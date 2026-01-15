@@ -1,0 +1,38 @@
+{
+  "country": "Cambodia",
+  "region": "East & Southeast Asia",
+  "year": 2010,
+  "demographics": {
+    "population": 14453680,
+    "median_age": 22.6,
+    "population_growth_pct": 1.705,
+    "birth_rate": 25.58,
+    "death_rate": 8.19,
+    "life_expectancy": 62.28
+  },
+  "economy": {
+    "gdp_ppp_billions": 29.46,
+    "gdp_growth_pct": 4.1,
+    "gdp_per_capita": 2000,
+    "unemployment_pct": 3.5,
+    "poverty_pct": 31.0,
+    "inflation_pct": 4.1,
+    "electricity_kwh": 1,
+    "imports_billions": 6.944,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 4000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.918,
+    "exports_billions": 5.212,
+    "external_debt_billions": 4.338
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 3.0
+  },
+  "political": {
+    "chief_of_state": "Norodom SIHAMONI",
+    "head_of_government": "HUN SEN",
+    "last_election": "22 January 2006"
+  }
+}

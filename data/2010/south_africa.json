@@ -1,0 +1,37 @@
+{
+  "country": "South Africa",
+  "region": "Africa",
+  "year": 2010,
+  "demographics": {
+    "population": 49109107,
+    "median_age": 24.7,
+    "population_growth_pct": -0.051,
+    "birth_rate": 19.61,
+    "death_rate": 16.99,
+    "life_expectancy": 49.2
+  },
+  "economy": {
+    "gdp_ppp_billions": 527.5,
+    "gdp_growth_pct": 3.0,
+    "gdp_per_capita": 10700,
+    "unemployment_pct": 23.3,
+    "poverty_pct": 50.0,
+    "inflation_pct": 4.5,
+    "electricity_kwh": 240,
+    "exports_billions": 76.86,
+    "imports_billions": 77.04,
+    "oil_production_bbl_day": 191000,
+    "oil_consumption_bbl_day": 579000,
+    "gas_production_cu_m": 3,
+    "current_account_billions": 16.51,
+    "external_debt_billions": 80.52
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 1.7
+  },
+  "political": {
+    "chief_of_state": "Jacob ZUMA",
+    "head_of_government": "Jacob ZUMA"
+  }
+}

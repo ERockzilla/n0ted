@@ -1,0 +1,38 @@
+{
+  "country": "Germany",
+  "region": "Europe",
+  "year": 2010,
+  "demographics": {
+    "population": 82282988,
+    "median_age": 44.3,
+    "population_growth_pct": -0.061,
+    "birth_rate": 8.21,
+    "death_rate": 11.0,
+    "life_expectancy": 79.41
+  },
+  "economy": {
+    "gdp_ppp_billions": 2951.0,
+    "gdp_growth_pct": 3.3,
+    "gdp_per_capita": 35900,
+    "unemployment_pct": 7.1,
+    "poverty_pct": 11.0,
+    "inflation_pct": 1.0,
+    "electricity_kwh": 593,
+    "exports_billions": 1337.0,
+    "imports_billions": 1120.0,
+    "oil_production_bbl_day": 156800,
+    "oil_consumption_bbl_day": 2,
+    "gas_production_cu_m": 15,
+    "current_account_billions": 162.3,
+    "external_debt_billions": 4713.0
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 1.5
+  },
+  "political": {
+    "chief_of_state": "Christian WULFF",
+    "head_of_government": "Angela MERKEL",
+    "last_election": "27 September 2009"
+  }
+}

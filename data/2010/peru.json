@@ -1,0 +1,38 @@
+{
+  "country": "Peru",
+  "region": "South America",
+  "year": 2010,
+  "demographics": {
+    "population": 29907003,
+    "median_age": 26.4,
+    "population_growth_pct": 1.193,
+    "birth_rate": 19.0,
+    "death_rate": 6.13,
+    "life_expectancy": 71.03
+  },
+  "economy": {
+    "gdp_ppp_billions": 274.7,
+    "gdp_growth_pct": 7.8,
+    "gdp_per_capita": 9200,
+    "unemployment_pct": 6.7,
+    "poverty_pct": 34.8,
+    "inflation_pct": 1.8,
+    "electricity_kwh": 30,
+    "oil_production_bbl_day": 148000,
+    "oil_consumption_bbl_day": 157000,
+    "gas_production_cu_m": 3,
+    "current_account_billions": 0.333,
+    "exports_billions": 33.73,
+    "imports_billions": 25.74,
+    "external_debt_billions": 33.29
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 1.5
+  },
+  "political": {
+    "chief_of_state": "Alan GARCIA Perez",
+    "head_of_government": "Alan GARCIA Perez",
+    "last_election": "9 April 2006"
+  }
+}

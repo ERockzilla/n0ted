@@ -1,0 +1,38 @@
+{
+  "country": "Colombia",
+  "region": "South America",
+  "year": 2010,
+  "demographics": {
+    "population": 44205293,
+    "median_age": 27.6,
+    "population_growth_pct": 1.184,
+    "birth_rate": 17.76,
+    "death_rate": 5.24,
+    "life_expectancy": 74.31
+  },
+  "economy": {
+    "gdp_ppp_billions": 431.9,
+    "gdp_growth_pct": 4.4,
+    "gdp_per_capita": 9800,
+    "unemployment_pct": 11.2,
+    "poverty_pct": 46.8,
+    "inflation_pct": 2.6,
+    "electricity_kwh": 50,
+    "exports_billions": 40.24,
+    "imports_billions": 36.26,
+    "oil_production_bbl_day": 686600,
+    "oil_consumption_bbl_day": 288000,
+    "gas_production_cu_m": 9,
+    "current_account_billions": 5.946,
+    "external_debt_billions": 57.74
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 3.4
+  },
+  "political": {
+    "chief_of_state": "Juan Manuel SANTOS Calderon",
+    "head_of_government": "Juan Manuel SANTOS Calderon",
+    "last_election": "14 March 2010"
+  }
+}

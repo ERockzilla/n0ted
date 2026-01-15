@@ -1,0 +1,38 @@
+{
+  "country": "Philippines",
+  "region": "East & Southeast Asia",
+  "year": 2010,
+  "demographics": {
+    "population": 99900177,
+    "median_age": 22.7,
+    "population_growth_pct": 1.931,
+    "birth_rate": 25.68,
+    "death_rate": 5.06,
+    "life_expectancy": 71.38
+  },
+  "economy": {
+    "gdp_ppp_billions": 351.2,
+    "gdp_growth_pct": 6.7,
+    "gdp_per_capita": 3500,
+    "unemployment_pct": 7.5,
+    "poverty_pct": 32.9,
+    "inflation_pct": 4.2,
+    "electricity_kwh": 56,
+    "oil_production_bbl_day": 25290,
+    "oil_consumption_bbl_day": 313000,
+    "gas_production_cu_m": 2,
+    "current_account_billions": 8.575,
+    "exports_billions": 45.89,
+    "imports_billions": 57.24,
+    "external_debt_billions": 61.85
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 0.9
+  },
+  "political": {
+    "chief_of_state": "Benigno AQUINO",
+    "head_of_government": "Benigno AQUINO",
+    "last_election": "10 May 2010"
+  }
+}

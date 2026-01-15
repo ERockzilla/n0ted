@@ -1,0 +1,38 @@
+{
+  "country": "Malaysia",
+  "region": "East & Southeast Asia",
+  "year": 2010,
+  "demographics": {
+    "population": 28274729,
+    "median_age": 26.5,
+    "population_growth_pct": 1.609,
+    "birth_rate": 21.41,
+    "death_rate": 4.92,
+    "life_expectancy": 73.55
+  },
+  "economy": {
+    "gdp_ppp_billions": 416.4,
+    "gdp_growth_pct": 7.1,
+    "gdp_per_capita": 14700,
+    "unemployment_pct": 3.5,
+    "poverty_pct": 5.1,
+    "inflation_pct": 1.8,
+    "electricity_kwh": 103,
+    "exports_billions": 192.8,
+    "oil_production_bbl_day": 693700,
+    "oil_consumption_bbl_day": 536000,
+    "gas_production_cu_m": 57,
+    "current_account_billions": 34.83,
+    "imports_billions": 149.2,
+    "external_debt_billions": 62.82
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 2.03
+  },
+  "political": {
+    "chief_of_state": "- Sultan MIZAN Zainal Abidin",
+    "head_of_government": "Mohamed NAJIB bin Abdul Razak",
+    "last_election": "8 March 2008"
+  }
+}

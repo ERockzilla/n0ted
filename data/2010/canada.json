@@ -1,0 +1,37 @@
+{
+  "country": "Canada",
+  "region": "North America",
+  "year": 2010,
+  "demographics": {
+    "population": 33759742,
+    "median_age": 40.7,
+    "population_growth_pct": 0.804,
+    "birth_rate": 10.28,
+    "death_rate": 7.87,
+    "life_expectancy": 81.29
+  },
+  "economy": {
+    "gdp_ppp_billions": 1335.0,
+    "gdp_growth_pct": 3.0,
+    "gdp_per_capita": 39600,
+    "unemployment_pct": 8.0,
+    "poverty_pct": 10.8,
+    "inflation_pct": 1.6,
+    "electricity_kwh": 620,
+    "exports_billions": 406.8,
+    "imports_billions": 406.4,
+    "oil_production_bbl_day": 3,
+    "oil_consumption_bbl_day": 2,
+    "gas_production_cu_m": 161,
+    "current_account_billions": 40.21,
+    "external_debt_billions": 1008.9999999999999
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 1.1
+  },
+  "political": {
+    "head_of_government": "Stephen Joseph HARPER",
+    "last_election": "14 October 2008"
+  }
+}

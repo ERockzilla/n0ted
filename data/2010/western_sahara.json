@@ -1,0 +1,23 @@
+{
+  "country": "Western Sahara",
+  "region": "Africa",
+  "year": 2010,
+  "demographics": {
+    "population": 491519,
+    "median_age": 20.1,
+    "population_growth_pct": 3.169,
+    "birth_rate": 32.56,
+    "death_rate": 9.13,
+    "life_expectancy": 60.74
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.9,
+    "gdp_per_capita": 2500,
+    "electricity_kwh": 90,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 2000,
+    "gas_production_cu_m": 0
+  },
+  "military": {},
+  "political": {}
+}

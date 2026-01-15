@@ -1,0 +1,37 @@
+{
+  "country": "Lebanon",
+  "region": "Middle East",
+  "year": 2010,
+  "demographics": {
+    "population": 4125247,
+    "median_age": 29.4,
+    "population_growth_pct": 0.621,
+    "birth_rate": 15.1,
+    "death_rate": 6.46,
+    "life_expectancy": 74.79
+  },
+  "economy": {
+    "gdp_ppp_billions": 58.65,
+    "gdp_growth_pct": 7.2,
+    "gdp_per_capita": 14200,
+    "poverty_pct": 28.0,
+    "inflation_pct": 3.7,
+    "electricity_kwh": 10,
+    "imports_billions": 17.97,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 90000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 6.972,
+    "exports_billions": 5.187,
+    "external_debt_billions": 34.45
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 3.1
+  },
+  "political": {
+    "chief_of_state": "Michel SULAYMAN",
+    "head_of_government": "Najib MIQATI",
+    "last_election": "7 June 2009"
+  }
+}

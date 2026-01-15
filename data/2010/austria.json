@@ -1,0 +1,38 @@
+{
+  "country": "Austria",
+  "region": "Europe",
+  "year": 2010,
+  "demographics": {
+    "population": 8214160,
+    "median_age": 42.6,
+    "population_growth_pct": 0.042,
+    "birth_rate": 8.65,
+    "death_rate": 10.05,
+    "life_expectancy": 79.65
+  },
+  "economy": {
+    "gdp_ppp_billions": 332.9,
+    "gdp_growth_pct": 2.0,
+    "gdp_per_capita": 40300,
+    "unemployment_pct": 4.6,
+    "poverty_pct": 6.0,
+    "inflation_pct": 1.5,
+    "electricity_kwh": 66,
+    "exports_billions": 157.4,
+    "imports_billions": 156.0,
+    "oil_production_bbl_day": 25410,
+    "oil_consumption_bbl_day": 273700,
+    "gas_production_cu_m": 1,
+    "current_account_billions": 8.012,
+    "external_debt_billions": 755.0
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 0.8
+  },
+  "political": {
+    "chief_of_state": "Heinz FISCHER",
+    "head_of_government": "Werner FAYMANN",
+    "last_election": "28 September 2008"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "country": "Sint Maarten",
+  "region": "Central America and Caribbean",
+  "year": 2010,
+  "demographics": {
+    "population": 37429,
+    "death_rate": 3.0
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.7947000000000001,
+    "gdp_growth_pct": 1.6,
+    "gdp_per_capita": 15400,
+    "unemployment_pct": 10.6,
+    "inflation_pct": 0.7,
+    "electricity_kwh": 304
+  },
+  "military": {},
+  "political": {
+    "chief_of_state": "BEATRIX of the Netherlands",
+    "head_of_government": "Sarah WESCOTT-WILLIAMS",
+    "last_election": "17 September 2010"
+  }
+}

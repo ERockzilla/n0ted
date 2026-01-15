@@ -1,0 +1,37 @@
+{
+  "country": "Guinea",
+  "region": "Africa",
+  "year": 2010,
+  "demographics": {
+    "population": 10324025,
+    "median_age": 18.5,
+    "population_growth_pct": 2.649,
+    "birth_rate": 37.21,
+    "death_rate": 10.72,
+    "life_expectancy": 57.6
+  },
+  "economy": {
+    "gdp_ppp_billions": 10.6,
+    "gdp_growth_pct": 3.0,
+    "gdp_per_capita": 1000,
+    "poverty_pct": 47.0,
+    "inflation_pct": 15.0,
+    "electricity_kwh": 850,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 9000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.434,
+    "exports_billions": 1.468,
+    "imports_billions": 1.551,
+    "external_debt_billions": 3.072
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 1.1
+  },
+  "political": {
+    "chief_of_state": "Alpha Conde",
+    "head_of_government": "Mohamed Said FOFANA",
+    "last_election": "30 June 2002"
+  }
+}

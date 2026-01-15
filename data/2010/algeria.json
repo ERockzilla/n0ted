@@ -1,0 +1,38 @@
+{
+  "country": "Algeria",
+  "region": "Africa",
+  "year": 2010,
+  "demographics": {
+    "population": 34586184,
+    "median_age": 27.1,
+    "population_growth_pct": 1.177,
+    "birth_rate": 16.71,
+    "death_rate": 4.66,
+    "life_expectancy": 74.26
+  },
+  "economy": {
+    "gdp_ppp_billions": 254.7,
+    "gdp_growth_pct": 4.1,
+    "gdp_per_capita": 7400,
+    "unemployment_pct": 9.9,
+    "poverty_pct": 23.0,
+    "inflation_pct": 5.0,
+    "electricity_kwh": 34,
+    "exports_billions": 52.66,
+    "imports_billions": 37.07,
+    "oil_production_bbl_day": 2,
+    "oil_consumption_bbl_day": 325000,
+    "gas_production_cu_m": 86,
+    "current_account_billions": 3.959,
+    "external_debt_billions": 4.138
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 3.3
+  },
+  "political": {
+    "chief_of_state": "Abdelaziz BOUTEFLIKA",
+    "head_of_government": "Abdelaziz BOUTEFLIKA",
+    "last_election": "29 December 2009"
+  }
+}

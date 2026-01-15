@@ -1,0 +1,38 @@
+{
+  "country": "France",
+  "region": "Europe",
+  "year": 2010,
+  "demographics": {
+    "population": 64768389,
+    "median_age": 39.7,
+    "population_growth_pct": 0.525,
+    "birth_rate": 12.43,
+    "death_rate": 8.65,
+    "life_expectancy": 81.09
+  },
+  "economy": {
+    "gdp_ppp_billions": 2160.0,
+    "gdp_growth_pct": 1.6,
+    "gdp_per_capita": 33300,
+    "unemployment_pct": 9.5,
+    "poverty_pct": 6.2,
+    "inflation_pct": 1.5,
+    "electricity_kwh": 535,
+    "exports_billions": 508.7,
+    "imports_billions": 577.7,
+    "oil_production_bbl_day": 70820,
+    "oil_consumption_bbl_day": 1,
+    "gas_production_cu_m": 877,
+    "current_account_billions": 53.29,
+    "external_debt_billions": 4698.0
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 2.6
+  },
+  "political": {
+    "chief_of_state": "Nicolas SARKOZY",
+    "head_of_government": "Francois FILLON",
+    "last_election": "21 September 2008"
+  }
+}

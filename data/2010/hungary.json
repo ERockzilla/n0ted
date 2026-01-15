@@ -1,0 +1,38 @@
+{
+  "country": "Hungary",
+  "region": "Europe",
+  "year": 2010,
+  "demographics": {
+    "population": 9992339,
+    "median_age": 40.0,
+    "population_growth_pct": -0.156,
+    "birth_rate": 9.7,
+    "death_rate": 12.67,
+    "life_expectancy": 74.57
+  },
+  "economy": {
+    "gdp_ppp_billions": 190.0,
+    "gdp_growth_pct": 0.8,
+    "gdp_per_capita": 19000,
+    "unemployment_pct": 11.5,
+    "poverty_pct": 12.0,
+    "inflation_pct": 4.5,
+    "electricity_kwh": 40,
+    "exports_billions": 93.74,
+    "imports_billions": 87.44,
+    "oil_production_bbl_day": 35580,
+    "oil_consumption_bbl_day": 158200,
+    "gas_production_cu_m": 2,
+    "current_account_billions": 0.631,
+    "external_debt_billions": 134.6
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 1.75
+  },
+  "political": {
+    "chief_of_state": "Pal SCHMITT",
+    "head_of_government": "Viktor ORBAN",
+    "last_election": "25 April 2010"
+  }
+}

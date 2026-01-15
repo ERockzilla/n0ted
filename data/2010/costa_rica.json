@@ -1,0 +1,38 @@
+{
+  "country": "Costa Rica",
+  "region": "Central America and Caribbean",
+  "year": 2010,
+  "demographics": {
+    "population": 4516220,
+    "median_age": 28.4,
+    "population_growth_pct": 1.347,
+    "birth_rate": 16.65,
+    "death_rate": 4.29,
+    "life_expectancy": 77.54
+  },
+  "economy": {
+    "gdp_ppp_billions": 51.3,
+    "gdp_growth_pct": 3.5,
+    "gdp_per_capita": 11400,
+    "unemployment_pct": 6.6,
+    "poverty_pct": 16.0,
+    "inflation_pct": 5.8,
+    "electricity_kwh": 8,
+    "exports_billions": 10.01,
+    "imports_billions": 13.69,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 44000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 1.469,
+    "external_debt_billions": 9.126
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 0.6
+  },
+  "political": {
+    "chief_of_state": "Laura CHINCHILLA Miranda",
+    "head_of_government": "Laura CHINCHILLA Miranda",
+    "last_election": "7 February 2010"
+  }
+}

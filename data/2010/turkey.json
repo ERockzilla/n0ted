@@ -1,0 +1,38 @@
+{
+  "country": "Turkey",
+  "region": "Middle East",
+  "year": 2010,
+  "demographics": {
+    "population": 77804122,
+    "median_age": 28.1,
+    "population_growth_pct": 1.272,
+    "birth_rate": 18.28,
+    "death_rate": 6.1,
+    "life_expectancy": 72.23
+  },
+  "economy": {
+    "gdp_ppp_billions": 958.3,
+    "gdp_growth_pct": 7.3,
+    "gdp_per_capita": 12300,
+    "unemployment_pct": 12.4,
+    "poverty_pct": 17.11,
+    "inflation_pct": 8.7,
+    "electricity_kwh": 198,
+    "exports_billions": 117.4,
+    "imports_billions": 166.3,
+    "oil_production_bbl_day": 52980,
+    "oil_consumption_bbl_day": 579500,
+    "gas_production_cu_m": 1,
+    "current_account_billions": 38.82,
+    "external_debt_billions": 270.7
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 5.3
+  },
+  "political": {
+    "chief_of_state": "Abdullah GUL",
+    "head_of_government": "Recep Tayyip ERDOGAN",
+    "last_election": "22 July 2007"
+  }
+}

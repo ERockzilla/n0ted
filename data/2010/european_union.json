@@ -1,0 +1,29 @@
+{
+  "country": "European Union",
+  "region": "Europe",
+  "year": 2010,
+  "demographics": {
+    "population": 492387344,
+    "population_growth_pct": 0.098,
+    "birth_rate": 9.83,
+    "death_rate": 10.33,
+    "life_expectancy": 78.82
+  },
+  "economy": {
+    "gdp_ppp_billions": 14890.0,
+    "gdp_growth_pct": 1.7,
+    "gdp_per_capita": 32900,
+    "unemployment_pct": 9.5,
+    "inflation_pct": 1.7,
+    "electricity_kwh": 3,
+    "oil_production_bbl_day": 2,
+    "oil_consumption_bbl_day": 13,
+    "exports_billions": 1952.0,
+    "imports_billions": 1690.0,
+    "gas_production_cu_m": 181
+  },
+  "military": {},
+  "political": {
+    "last_election": "7 June 2009"
+  }
+}

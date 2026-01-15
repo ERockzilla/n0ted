@@ -1,0 +1,36 @@
+{
+  "country": "Rwanda",
+  "region": "Africa",
+  "year": 2010,
+  "demographics": {
+    "population": 11055976,
+    "median_age": 18.6,
+    "population_growth_pct": 2.818,
+    "birth_rate": 37.26,
+    "death_rate": 10.19,
+    "life_expectancy": 57.46
+  },
+  "economy": {
+    "gdp_ppp_billions": 11.84,
+    "gdp_growth_pct": 6.0,
+    "gdp_per_capita": 1100,
+    "poverty_pct": 60.0,
+    "inflation_pct": 6.4,
+    "electricity_kwh": 120,
+    "exports_billions": 0.226,
+    "imports_billions": 1.047,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 6000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.489
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 2.9
+  },
+  "political": {
+    "chief_of_state": "Paul KAGAME",
+    "head_of_government": "Bernard MAKUZA",
+    "last_election": "9 August 2010"
+  }
+}

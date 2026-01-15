@@ -1,0 +1,38 @@
+{
+  "country": "Bolivia",
+  "region": "South America",
+  "year": 2010,
+  "demographics": {
+    "population": 9947418,
+    "median_age": 22.2,
+    "population_growth_pct": 1.72,
+    "birth_rate": 25.16,
+    "death_rate": 6.95,
+    "life_expectancy": 67.23
+  },
+  "economy": {
+    "gdp_ppp_billions": 47.98,
+    "gdp_growth_pct": 3.8,
+    "gdp_per_capita": 4800,
+    "unemployment_pct": 8.3,
+    "poverty_pct": 30.3,
+    "inflation_pct": 2.1,
+    "electricity_kwh": 5,
+    "oil_production_bbl_day": 47050,
+    "oil_consumption_bbl_day": 59000,
+    "gas_production_cu_m": 14,
+    "exports_billions": 6.058,
+    "current_account_billions": 0.878,
+    "imports_billions": 5.006,
+    "external_debt_billions": 6.13
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 1.3
+  },
+  "political": {
+    "chief_of_state": "Juan Evo MORALES Ayma",
+    "head_of_government": "Juan Evo MORALES Ayma",
+    "last_election": "6 December 2009"
+  }
+}

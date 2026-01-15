@@ -1,0 +1,38 @@
+{
+  "country": "Iraq",
+  "region": "Middle East",
+  "year": 2010,
+  "demographics": {
+    "population": 29671605,
+    "median_age": 20.6,
+    "population_growth_pct": 2.449,
+    "birth_rate": 29.41,
+    "death_rate": 4.92,
+    "life_expectancy": 70.25
+  },
+  "economy": {
+    "gdp_ppp_billions": 117.7,
+    "gdp_growth_pct": 5.5,
+    "gdp_per_capita": 3600,
+    "unemployment_pct": 15.3,
+    "poverty_pct": 25.0,
+    "inflation_pct": 4.2,
+    "electricity_kwh": 46,
+    "imports_billions": 42.56,
+    "oil_production_bbl_day": 2,
+    "oil_consumption_bbl_day": 687000,
+    "exports_billions": 49.1,
+    "gas_production_cu_m": 1,
+    "current_account_billions": 2.715,
+    "external_debt_billions": 52.58
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 8.6
+  },
+  "political": {
+    "chief_of_state": "Jalal TALABANI",
+    "head_of_government": "Nuri al-MALIKI",
+    "last_election": "7 March 2010"
+  }
+}

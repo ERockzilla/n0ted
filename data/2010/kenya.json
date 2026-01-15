@@ -1,0 +1,38 @@
+{
+  "country": "Kenya",
+  "region": "Africa",
+  "year": 2010,
+  "demographics": {
+    "population": 40046566,
+    "median_age": 18.8,
+    "population_growth_pct": 2.588,
+    "birth_rate": 35.14,
+    "death_rate": 9.26,
+    "life_expectancy": 58.82
+  },
+  "economy": {
+    "gdp_ppp_billions": 65.95,
+    "gdp_growth_pct": 4.0,
+    "gdp_per_capita": 1600,
+    "unemployment_pct": 40.0,
+    "poverty_pct": 50.0,
+    "inflation_pct": 4.2,
+    "electricity_kwh": 5,
+    "exports_billions": 5.141,
+    "imports_billions": 10.4,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 76000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 1.414,
+    "external_debt_billions": 7.935
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 2.8
+  },
+  "political": {
+    "chief_of_state": "Mwai KIBAKI",
+    "head_of_government": "Mwai KIBAKI",
+    "last_election": "27 December 2007"
+  }
+}

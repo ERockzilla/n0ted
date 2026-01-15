@@ -1,0 +1,35 @@
+{
+  "country": "Kiribati",
+  "region": "Australia-Oceania",
+  "year": 2010,
+  "demographics": {
+    "population": 99482,
+    "median_age": 22.2,
+    "population_growth_pct": 1.271,
+    "birth_rate": 23.06,
+    "death_rate": 7.48,
+    "life_expectancy": 64.03
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.6195,
+    "gdp_growth_pct": 1.5,
+    "gdp_per_capita": 6200,
+    "unemployment_pct": 2.0,
+    "inflation_pct": 0.2,
+    "electricity_kwh": 14,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 2009,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.021,
+    "exports_billions": 0.017,
+    "imports_billions": 0.062,
+    "external_debt_billions": 0.01
+  },
+  "military": {
+    "manpower_available": 16
+  },
+  "political": {
+    "chief_of_state": "Anote TONG",
+    "head_of_government": "Anote TONG"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "country": "World",
+  "region": "World",
+  "year": 2010,
+  "demographics": {
+    "population": 6768181146,
+    "median_age": 28.4,
+    "population_growth_pct": 1.133,
+    "birth_rate": 19.86,
+    "death_rate": 8.37,
+    "life_expectancy": 66.12
+  },
+  "economy": {
+    "gdp_ppp_billions": 74430.0,
+    "gdp_growth_pct": 4.6,
+    "gdp_per_capita": 11100,
+    "unemployment_pct": 8.8,
+    "inflation_pct": 2.5,
+    "electricity_kwh": 19,
+    "exports_billions": 14900.0,
+    "imports_billions": 14680.0,
+    "oil_production_bbl_day": 84,
+    "oil_consumption_bbl_day": 83,
+    "gas_production_cu_m": 3,
+    "external_debt_billions": 59090.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.0
+  },
+  "political": {}
+}

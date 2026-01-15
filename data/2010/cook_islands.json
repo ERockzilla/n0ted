@@ -1,0 +1,34 @@
+{
+  "country": "Cook Islands",
+  "region": "Australia-Oceania",
+  "year": 2010,
+  "demographics": {
+    "population": 11488,
+    "median_age": 31.2,
+    "population_growth_pct": -3.256,
+    "birth_rate": 15.67,
+    "death_rate": 7.22,
+    "life_expectancy": 74.47
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.1832,
+    "gdp_growth_pct": 0.1,
+    "gdp_per_capita": 9100,
+    "unemployment_pct": 13.1,
+    "inflation_pct": 2.1,
+    "electricity_kwh": 31,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 1000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.026670000000000003,
+    "exports_billions": 0.005222,
+    "imports_billions": 0.08104,
+    "external_debt_billions": 0.141
+  },
+  "military": {},
+  "political": {
+    "chief_of_state": "ELIZABETH II",
+    "head_of_government": "Henry PUNA",
+    "last_election": "17 November 2010"
+  }
+}

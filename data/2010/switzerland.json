@@ -1,0 +1,37 @@
+{
+  "country": "Switzerland",
+  "region": "Europe",
+  "year": 2010,
+  "demographics": {
+    "population": 7623438,
+    "median_age": 41.3,
+    "population_growth_pct": 0.223,
+    "birth_rate": 9.56,
+    "death_rate": 8.65,
+    "life_expectancy": 80.97
+  },
+  "economy": {
+    "gdp_ppp_billions": 326.9,
+    "gdp_growth_pct": 2.8,
+    "gdp_per_capita": 42900,
+    "unemployment_pct": 3.9,
+    "poverty_pct": 7.4,
+    "inflation_pct": 0.7,
+    "electricity_kwh": 59,
+    "exports_billions": 235.2,
+    "imports_billions": 220.4,
+    "oil_production_bbl_day": 3488,
+    "oil_consumption_bbl_day": 280000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 49.35,
+    "external_debt_billions": 1190.0
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 1.0
+  },
+  "political": {
+    "chief_of_state": "of the Swiss Confederation Micheline",
+    "head_of_government": "of the Swiss Confederation Micheline"
+  }
+}

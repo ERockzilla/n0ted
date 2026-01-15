@@ -1,0 +1,37 @@
+{
+  "country": "Uganda",
+  "region": "Africa",
+  "year": 2010,
+  "demographics": {
+    "population": 33398682,
+    "median_age": 15.0,
+    "population_growth_pct": 3.563,
+    "birth_rate": 47.55,
+    "death_rate": 11.9,
+    "life_expectancy": 52.98
+  },
+  "economy": {
+    "gdp_ppp_billions": 41.7,
+    "gdp_growth_pct": 5.8,
+    "gdp_per_capita": 1200,
+    "poverty_pct": 35.0,
+    "inflation_pct": 9.4,
+    "electricity_kwh": 2,
+    "exports_billions": 2.941,
+    "oil_production_bbl_day": 2009,
+    "oil_consumption_bbl_day": 13000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.784,
+    "imports_billions": 4.474,
+    "external_debt_billions": 2.888
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 2.2
+  },
+  "political": {
+    "chief_of_state": "Lt. Gen. Yoweri Kaguta MUSEVENI",
+    "head_of_government": "Lt. Gen. Yoweri Kaguta MUSEVENI",
+    "last_election": "23 February 2006"
+  }
+}

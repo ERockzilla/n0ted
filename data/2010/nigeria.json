@@ -1,0 +1,38 @@
+{
+  "country": "Nigeria",
+  "region": "Africa",
+  "year": 2010,
+  "demographics": {
+    "population": 152217341,
+    "median_age": 19.1,
+    "population_growth_pct": 1.966,
+    "birth_rate": 36.07,
+    "death_rate": 16.31,
+    "life_expectancy": 47.24
+  },
+  "economy": {
+    "gdp_ppp_billions": 369.8,
+    "gdp_growth_pct": 6.8,
+    "gdp_per_capita": 2400,
+    "unemployment_pct": 4.9,
+    "poverty_pct": 70.0,
+    "inflation_pct": 13.9,
+    "electricity_kwh": 21,
+    "oil_production_bbl_day": 2,
+    "oil_consumption_bbl_day": 280000,
+    "exports_billions": 76.33,
+    "gas_production_cu_m": 32,
+    "current_account_billions": 27.77,
+    "imports_billions": 34.18,
+    "external_debt_billions": 11.02
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 1.5
+  },
+  "political": {
+    "chief_of_state": "Goodluck JONATHAN",
+    "head_of_government": "Goodluck JONATHAN",
+    "last_election": "21 April 2007"
+  }
+}

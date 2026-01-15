@@ -1,0 +1,38 @@
+{
+  "country": "Brazil",
+  "region": "South America",
+  "year": 2010,
+  "demographics": {
+    "population": 201103330,
+    "median_age": 28.9,
+    "population_growth_pct": 1.166,
+    "birth_rate": 18.11,
+    "death_rate": 6.35,
+    "life_expectancy": 72.26
+  },
+  "economy": {
+    "gdp_ppp_billions": 2194.0,
+    "gdp_growth_pct": 7.5,
+    "gdp_per_capita": 10900,
+    "unemployment_pct": 7.0,
+    "poverty_pct": 26.0,
+    "inflation_pct": 4.9,
+    "electricity_kwh": 438,
+    "exports_billions": 199.7,
+    "imports_billions": 187.7,
+    "oil_production_bbl_day": 2,
+    "oil_consumption_bbl_day": 2,
+    "gas_production_cu_m": 10,
+    "current_account_billions": 52.73,
+    "external_debt_billions": 310.8
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 1.7
+  },
+  "political": {
+    "chief_of_state": "Dilma ROUSSEFF",
+    "head_of_government": "Dilma ROUSSEFF",
+    "last_election": "3 October 2010"
+  }
+}

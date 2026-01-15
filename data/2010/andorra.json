@@ -1,0 +1,31 @@
+{
+  "country": "Andorra",
+  "region": "Europe",
+  "year": 2010,
+  "demographics": {
+    "population": 84525,
+    "median_age": 39.9,
+    "population_growth_pct": 0.382,
+    "birth_rate": 10.03,
+    "death_rate": 6.21,
+    "life_expectancy": 82.36
+  },
+  "economy": {
+    "gdp_ppp_billions": 4.22,
+    "gdp_growth_pct": 2.6,
+    "gdp_per_capita": 44900,
+    "unemployment_pct": 7.0,
+    "poverty_pct": 8.0,
+    "inflation_pct": 2.3,
+    "exports_billions": 0.0895,
+    "imports_billions": 1.801
+  },
+  "military": {
+    "manpower_available": 16
+  },
+  "political": {
+    "chief_of_state": "French Coprince Nicolas SARKOZY",
+    "head_of_government": "Jaume BARTUMEU",
+    "last_election": "26 April 2009"
+  }
+}

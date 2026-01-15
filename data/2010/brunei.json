@@ -1,0 +1,35 @@
+{
+  "country": "Brunei",
+  "region": "East & Southeast Asia",
+  "year": 2010,
+  "demographics": {
+    "population": 395027,
+    "median_age": 28.1,
+    "population_growth_pct": 1.733,
+    "birth_rate": 18.0,
+    "death_rate": 3.32,
+    "life_expectancy": 75.96
+  },
+  "economy": {
+    "gdp_ppp_billions": 19.88,
+    "gdp_growth_pct": 1.0,
+    "gdp_per_capita": 50300,
+    "unemployment_pct": 3.7,
+    "inflation_pct": 2.7,
+    "electricity_kwh": 3,
+    "oil_production_bbl_day": 146000,
+    "oil_consumption_bbl_day": 16000,
+    "gas_production_cu_m": 13,
+    "exports_billions": 10.67,
+    "current_account_billions": 7.024,
+    "imports_billions": 2.61
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 4.5
+  },
+  "political": {
+    "chief_of_state": "Sir HASSANAL Bolkiah",
+    "head_of_government": "Sir HASSANAL Bolkiah"
+  }
+}

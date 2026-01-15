@@ -1,0 +1,37 @@
+{
+  "country": "Australia",
+  "region": "Australia-Oceania",
+  "year": 2010,
+  "demographics": {
+    "population": 21515754,
+    "median_age": 37.5,
+    "population_growth_pct": 1.171,
+    "birth_rate": 12.39,
+    "death_rate": 6.81,
+    "life_expectancy": 81.72
+  },
+  "economy": {
+    "gdp_ppp_billions": 889.6,
+    "gdp_growth_pct": 3.3,
+    "gdp_per_capita": 41300,
+    "unemployment_pct": 5.1,
+    "inflation_pct": 2.9,
+    "electricity_kwh": 239,
+    "oil_production_bbl_day": 589200,
+    "oil_consumption_bbl_day": 946300,
+    "gas_production_cu_m": 42,
+    "exports_billions": 210.7,
+    "imports_billions": 200.4,
+    "current_account_billions": 35.23,
+    "external_debt_billions": 1169.0
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 3.0
+  },
+  "political": {
+    "chief_of_state": "of Australia ELIZABETH II",
+    "head_of_government": "Julia Eileen GILLARD",
+    "last_election": "21 August 2010"
+  }
+}

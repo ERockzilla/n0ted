@@ -1,0 +1,38 @@
+{
+  "country": "Morocco",
+  "region": "Africa",
+  "year": 2010,
+  "demographics": {
+    "population": 31627428,
+    "median_age": 26.5,
+    "population_growth_pct": 1.077,
+    "birth_rate": 19.4,
+    "death_rate": 4.74,
+    "life_expectancy": 75.69
+  },
+  "economy": {
+    "gdp_ppp_billions": 153.8,
+    "gdp_growth_pct": 4.2,
+    "gdp_per_capita": 4900,
+    "unemployment_pct": 9.8,
+    "poverty_pct": 15.0,
+    "inflation_pct": 2.5,
+    "electricity_kwh": 19,
+    "imports_billions": 34.19,
+    "oil_production_bbl_day": 4053,
+    "oil_consumption_bbl_day": 187000,
+    "gas_production_cu_m": 60,
+    "current_account_billions": 7.922,
+    "exports_billions": 14.49,
+    "external_debt_billions": 22.69
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 5.0
+  },
+  "political": {
+    "chief_of_state": "MOHAMMED VI",
+    "head_of_government": "Abbas EL FASSI",
+    "last_election": "3 October 2009"
+  }
+}

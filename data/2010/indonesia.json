@@ -1,0 +1,38 @@
+{
+  "country": "Indonesia",
+  "region": "East & Southeast Asia",
+  "year": 2010,
+  "demographics": {
+    "population": 242968342,
+    "median_age": 27.9,
+    "population_growth_pct": 1.097,
+    "birth_rate": 18.45,
+    "death_rate": 6.25,
+    "life_expectancy": 71.05
+  },
+  "economy": {
+    "gdp_ppp_billions": 1033.0,
+    "gdp_growth_pct": 6.0,
+    "gdp_per_capita": 4300,
+    "unemployment_pct": 7.1,
+    "poverty_pct": 13.3,
+    "inflation_pct": 5.2,
+    "electricity_kwh": 134,
+    "oil_production_bbl_day": 1,
+    "oil_consumption_bbl_day": 1,
+    "gas_production_cu_m": 70,
+    "exports_billions": 146.3,
+    "current_account_billions": 8.532,
+    "imports_billions": 111.1,
+    "external_debt_billions": 155.9
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 3.0
+  },
+  "political": {
+    "chief_of_state": "Susilo Bambang YUDHOYONO",
+    "head_of_government": "Susilo Bambang YUDHOYONO",
+    "last_election": "9 April 2009"
+  }
+}

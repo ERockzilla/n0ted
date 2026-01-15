@@ -1,0 +1,36 @@
+{
+  "country": "British Virgin Islands",
+  "region": "Central America and Caribbean",
+  "year": 2010,
+  "demographics": {
+    "population": 24939,
+    "median_age": 32.6,
+    "population_growth_pct": 1.784,
+    "birth_rate": 14.52,
+    "death_rate": 4.41,
+    "life_expectancy": 77.45
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.8533999999999999,
+    "gdp_growth_pct": -0.6,
+    "gdp_per_capita": 38500,
+    "unemployment_pct": 3.6,
+    "inflation_pct": 7.1,
+    "electricity_kwh": 45,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 1000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.1343,
+    "exports_billions": 0.0253,
+    "imports_billions": 0.187,
+    "external_debt_billions": 0.0361
+  },
+  "military": {
+    "manpower_available": 16
+  },
+  "political": {
+    "chief_of_state": "ELIZABETH II",
+    "head_of_government": "Ralph T. O'NEAL",
+    "last_election": "20 August 2007"
+  }
+}

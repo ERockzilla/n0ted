@@ -1,0 +1,1226 @@
+{
+  "year": 2010,
+  "total_countries": 244,
+  "countries": [
+    {
+      "name": "Afghanistan",
+      "region": "South Asia",
+      "file": "afghanistan.json"
+    },
+    {
+      "name": "Akrotiri",
+      "region": "Europe",
+      "file": "akrotiri.json"
+    },
+    {
+      "name": "Albania",
+      "region": "Europe",
+      "file": "albania.json"
+    },
+    {
+      "name": "Algeria",
+      "region": "Africa",
+      "file": "algeria.json"
+    },
+    {
+      "name": "American Samoa",
+      "region": "Australia-Oceania",
+      "file": "american_samoa.json"
+    },
+    {
+      "name": "Andorra",
+      "region": "Europe",
+      "file": "andorra.json"
+    },
+    {
+      "name": "Angola",
+      "region": "Africa",
+      "file": "angola.json"
+    },
+    {
+      "name": "Anguilla",
+      "region": "Central America and Caribbean",
+      "file": "anguilla.json"
+    },
+    {
+      "name": "Antigua and Barbuda",
+      "region": "Central America and Caribbean",
+      "file": "antigua_and_barbuda.json"
+    },
+    {
+      "name": "Argentina",
+      "region": "South America",
+      "file": "argentina.json"
+    },
+    {
+      "name": "Armenia",
+      "region": "Middle East",
+      "file": "armenia.json"
+    },
+    {
+      "name": "Aruba",
+      "region": "Central America and Caribbean",
+      "file": "aruba.json"
+    },
+    {
+      "name": "Australia",
+      "region": "Australia-Oceania",
+      "file": "australia.json"
+    },
+    {
+      "name": "Austria",
+      "region": "Europe",
+      "file": "austria.json"
+    },
+    {
+      "name": "Azerbaijan",
+      "region": "Middle East",
+      "file": "azerbaijan.json"
+    },
+    {
+      "name": "Bahamas, The",
+      "region": "Central America and Caribbean",
+      "file": "bahamas_the.json"
+    },
+    {
+      "name": "Bahrain",
+      "region": "Middle East",
+      "file": "bahrain.json"
+    },
+    {
+      "name": "Bangladesh",
+      "region": "South Asia",
+      "file": "bangladesh.json"
+    },
+    {
+      "name": "Barbados",
+      "region": "Central America and Caribbean",
+      "file": "barbados.json"
+    },
+    {
+      "name": "Belarus",
+      "region": "Europe",
+      "file": "belarus.json"
+    },
+    {
+      "name": "Belgium",
+      "region": "Europe",
+      "file": "belgium.json"
+    },
+    {
+      "name": "Belize",
+      "region": "Central America and Caribbean",
+      "file": "belize.json"
+    },
+    {
+      "name": "Benin",
+      "region": "Africa",
+      "file": "benin.json"
+    },
+    {
+      "name": "Bermuda",
+      "region": "North America",
+      "file": "bermuda.json"
+    },
+    {
+      "name": "Bhutan",
+      "region": "South Asia",
+      "file": "bhutan.json"
+    },
+    {
+      "name": "Bolivia",
+      "region": "South America",
+      "file": "bolivia.json"
+    },
+    {
+      "name": "Bosnia and Herzegovina",
+      "region": "Europe",
+      "file": "bosnia_and_herzegovina.json"
+    },
+    {
+      "name": "Botswana",
+      "region": "Africa",
+      "file": "botswana.json"
+    },
+    {
+      "name": "Brazil",
+      "region": "South America",
+      "file": "brazil.json"
+    },
+    {
+      "name": "British Indian Ocean Territory",
+      "region": "South Asia",
+      "file": "british_indian_ocean_territory.json"
+    },
+    {
+      "name": "British Virgin Islands",
+      "region": "Central America and Caribbean",
+      "file": "british_virgin_islands.json"
+    },
+    {
+      "name": "Brunei",
+      "region": "East & Southeast Asia",
+      "file": "brunei.json"
+    },
+    {
+      "name": "Bulgaria",
+      "region": "Europe",
+      "file": "bulgaria.json"
+    },
+    {
+      "name": "Burkina Faso",
+      "region": "Africa",
+      "file": "burkina_faso.json"
+    },
+    {
+      "name": "Burma",
+      "region": "East & Southeast Asia",
+      "file": "burma.json"
+    },
+    {
+      "name": "Burundi",
+      "region": "Africa",
+      "file": "burundi.json"
+    },
+    {
+      "name": "Cambodia",
+      "region": "East & Southeast Asia",
+      "file": "cambodia.json"
+    },
+    {
+      "name": "Cameroon",
+      "region": "Africa",
+      "file": "cameroon.json"
+    },
+    {
+      "name": "Canada",
+      "region": "North America",
+      "file": "canada.json"
+    },
+    {
+      "name": "Cape Verde",
+      "region": "Africa",
+      "file": "cape_verde.json"
+    },
+    {
+      "name": "Cayman Islands",
+      "region": "Central America and Caribbean",
+      "file": "cayman_islands.json"
+    },
+    {
+      "name": "Central African Republic",
+      "region": "Africa",
+      "file": "central_african_republic.json"
+    },
+    {
+      "name": "Chad",
+      "region": "Africa",
+      "file": "chad.json"
+    },
+    {
+      "name": "Chile",
+      "region": "South America",
+      "file": "chile.json"
+    },
+    {
+      "name": "China",
+      "region": "East & Southeast Asia",
+      "file": "china.json"
+    },
+    {
+      "name": "Christmas Island",
+      "region": "Australia-Oceania",
+      "file": "christmas_island.json"
+    },
+    {
+      "name": "Cocos",
+      "region": "Keeling",
+      "file": "cocos.json"
+    },
+    {
+      "name": "Colombia",
+      "region": "South America",
+      "file": "colombia.json"
+    },
+    {
+      "name": "Comoros",
+      "region": "Africa",
+      "file": "comoros.json"
+    },
+    {
+      "name": "Congo, Democratic Republic of the",
+      "region": "Africa",
+      "file": "congo_democratic_republic_of_the.json"
+    },
+    {
+      "name": "Congo, Republic of the",
+      "region": "Africa",
+      "file": "congo_republic_of_the.json"
+    },
+    {
+      "name": "Cook Islands",
+      "region": "Australia-Oceania",
+      "file": "cook_islands.json"
+    },
+    {
+      "name": "Costa Rica",
+      "region": "Central America and Caribbean",
+      "file": "costa_rica.json"
+    },
+    {
+      "name": "Cote d'Ivoire",
+      "region": "Africa",
+      "file": "cote_divoire.json"
+    },
+    {
+      "name": "Croatia",
+      "region": "Europe",
+      "file": "croatia.json"
+    },
+    {
+      "name": "Cuba",
+      "region": "Central America and Caribbean",
+      "file": "cuba.json"
+    },
+    {
+      "name": "Curacao",
+      "region": "Central America and Caribbean",
+      "file": "curacao.json"
+    },
+    {
+      "name": "Cyprus",
+      "region": "Europe",
+      "file": "cyprus.json"
+    },
+    {
+      "name": "Czech Republic",
+      "region": "Europe",
+      "file": "czech_republic.json"
+    },
+    {
+      "name": "Denmark",
+      "region": "Europe",
+      "file": "denmark.json"
+    },
+    {
+      "name": "Dhekelia",
+      "region": "Europe",
+      "file": "dhekelia.json"
+    },
+    {
+      "name": "Djibouti",
+      "region": "Africa",
+      "file": "djibouti.json"
+    },
+    {
+      "name": "Dominica",
+      "region": "Central America and Caribbean",
+      "file": "dominica.json"
+    },
+    {
+      "name": "Dominican Republic",
+      "region": "Central America and Caribbean",
+      "file": "dominican_republic.json"
+    },
+    {
+      "name": "Ecuador",
+      "region": "South America",
+      "file": "ecuador.json"
+    },
+    {
+      "name": "Egypt",
+      "region": "Africa",
+      "file": "egypt.json"
+    },
+    {
+      "name": "El Salvador",
+      "region": "Central America and Caribbean",
+      "file": "el_salvador.json"
+    },
+    {
+      "name": "Equatorial Guinea",
+      "region": "Africa",
+      "file": "equatorial_guinea.json"
+    },
+    {
+      "name": "Eritrea",
+      "region": "Africa",
+      "file": "eritrea.json"
+    },
+    {
+      "name": "Estonia",
+      "region": "Europe",
+      "file": "estonia.json"
+    },
+    {
+      "name": "Ethiopia",
+      "region": "Africa",
+      "file": "ethiopia.json"
+    },
+    {
+      "name": "European Union",
+      "region": "Europe",
+      "file": "european_union.json"
+    },
+    {
+      "name": "Falkland Islands",
+      "region": "Islas Malvinas",
+      "file": "falkland_islands.json"
+    },
+    {
+      "name": "Faroe Islands",
+      "region": "Europe",
+      "file": "faroe_islands.json"
+    },
+    {
+      "name": "Fiji",
+      "region": "Australia-Oceania",
+      "file": "fiji.json"
+    },
+    {
+      "name": "Finland",
+      "region": "Europe",
+      "file": "finland.json"
+    },
+    {
+      "name": "France",
+      "region": "Europe",
+      "file": "france.json"
+    },
+    {
+      "name": "French Polynesia",
+      "region": "Australia-Oceania",
+      "file": "french_polynesia.json"
+    },
+    {
+      "name": "French Southern and Antarctic Lands",
+      "region": "Antarctica",
+      "file": "french_southern_and_antarctic_lands.json"
+    },
+    {
+      "name": "Gabon",
+      "region": "Africa",
+      "file": "gabon.json"
+    },
+    {
+      "name": "Gambia, The",
+      "region": "Africa",
+      "file": "gambia_the.json"
+    },
+    {
+      "name": "Gaza Strip",
+      "region": "Middle East",
+      "file": "gaza_strip.json"
+    },
+    {
+      "name": "Georgia",
+      "region": "Middle East",
+      "file": "georgia.json"
+    },
+    {
+      "name": "Germany",
+      "region": "Europe",
+      "file": "germany.json"
+    },
+    {
+      "name": "Ghana",
+      "region": "Africa",
+      "file": "ghana.json"
+    },
+    {
+      "name": "Gibraltar",
+      "region": "Europe",
+      "file": "gibraltar.json"
+    },
+    {
+      "name": "Greece",
+      "region": "Europe",
+      "file": "greece.json"
+    },
+    {
+      "name": "Greenland",
+      "region": "North America",
+      "file": "greenland.json"
+    },
+    {
+      "name": "Grenada",
+      "region": "Central America and Caribbean",
+      "file": "grenada.json"
+    },
+    {
+      "name": "Guam",
+      "region": "Australia-Oceania",
+      "file": "guam.json"
+    },
+    {
+      "name": "Guatemala",
+      "region": "Central America and Caribbean",
+      "file": "guatemala.json"
+    },
+    {
+      "name": "Guernsey",
+      "region": "Europe",
+      "file": "guernsey.json"
+    },
+    {
+      "name": "Guinea",
+      "region": "Africa",
+      "file": "guinea.json"
+    },
+    {
+      "name": "Guinea-Bissau",
+      "region": "Africa",
+      "file": "guinea-bissau.json"
+    },
+    {
+      "name": "Guyana",
+      "region": "South America",
+      "file": "guyana.json"
+    },
+    {
+      "name": "Haiti",
+      "region": "Central America and Caribbean",
+      "file": "haiti.json"
+    },
+    {
+      "name": "Holy See",
+      "region": "Vatican City",
+      "file": "holy_see.json"
+    },
+    {
+      "name": "Honduras",
+      "region": "Central America and Caribbean",
+      "file": "honduras.json"
+    },
+    {
+      "name": "Hong Kong",
+      "region": "East & Southeast Asia",
+      "file": "hong_kong.json"
+    },
+    {
+      "name": "Hungary",
+      "region": "Europe",
+      "file": "hungary.json"
+    },
+    {
+      "name": "Iceland",
+      "region": "Europe",
+      "file": "iceland.json"
+    },
+    {
+      "name": "India",
+      "region": "South Asia",
+      "file": "india.json"
+    },
+    {
+      "name": "Indonesia",
+      "region": "East & Southeast Asia",
+      "file": "indonesia.json"
+    },
+    {
+      "name": "Iran",
+      "region": "Middle East",
+      "file": "iran.json"
+    },
+    {
+      "name": "Iraq",
+      "region": "Middle East",
+      "file": "iraq.json"
+    },
+    {
+      "name": "Ireland",
+      "region": "Europe",
+      "file": "ireland.json"
+    },
+    {
+      "name": "Isle of Man",
+      "region": "Europe",
+      "file": "isle_of_man.json"
+    },
+    {
+      "name": "Israel",
+      "region": "Middle East",
+      "file": "israel.json"
+    },
+    {
+      "name": "Italy",
+      "region": "Europe",
+      "file": "italy.json"
+    },
+    {
+      "name": "Jamaica",
+      "region": "Central America and Caribbean",
+      "file": "jamaica.json"
+    },
+    {
+      "name": "Japan",
+      "region": "East & Southeast Asia",
+      "file": "japan.json"
+    },
+    {
+      "name": "Jersey",
+      "region": "Europe",
+      "file": "jersey.json"
+    },
+    {
+      "name": "Jordan",
+      "region": "Middle East",
+      "file": "jordan.json"
+    },
+    {
+      "name": "Kazakhstan",
+      "region": "Central Asia",
+      "file": "kazakhstan.json"
+    },
+    {
+      "name": "Kenya",
+      "region": "Africa",
+      "file": "kenya.json"
+    },
+    {
+      "name": "Kiribati",
+      "region": "Australia-Oceania",
+      "file": "kiribati.json"
+    },
+    {
+      "name": "Korea, North",
+      "region": "East & Southeast Asia",
+      "file": "korea_north.json"
+    },
+    {
+      "name": "Korea, South",
+      "region": "East & Southeast Asia",
+      "file": "korea_south.json"
+    },
+    {
+      "name": "Kosovo",
+      "region": "Europe",
+      "file": "kosovo.json"
+    },
+    {
+      "name": "Kuwait",
+      "region": "Middle East",
+      "file": "kuwait.json"
+    },
+    {
+      "name": "Kyrgyzstan",
+      "region": "Central Asia",
+      "file": "kyrgyzstan.json"
+    },
+    {
+      "name": "Laos",
+      "region": "East & Southeast Asia",
+      "file": "laos.json"
+    },
+    {
+      "name": "Latvia",
+      "region": "Europe",
+      "file": "latvia.json"
+    },
+    {
+      "name": "Lebanon",
+      "region": "Middle East",
+      "file": "lebanon.json"
+    },
+    {
+      "name": "Lesotho",
+      "region": "Africa",
+      "file": "lesotho.json"
+    },
+    {
+      "name": "Liberia",
+      "region": "Africa",
+      "file": "liberia.json"
+    },
+    {
+      "name": "Libya",
+      "region": "Africa",
+      "file": "libya.json"
+    },
+    {
+      "name": "Liechtenstein",
+      "region": "Europe",
+      "file": "liechtenstein.json"
+    },
+    {
+      "name": "Lithuania",
+      "region": "Europe",
+      "file": "lithuania.json"
+    },
+    {
+      "name": "Luxembourg",
+      "region": "Europe",
+      "file": "luxembourg.json"
+    },
+    {
+      "name": "Macau",
+      "region": "East & Southeast Asia",
+      "file": "macau.json"
+    },
+    {
+      "name": "Macedonia",
+      "region": "Europe",
+      "file": "macedonia.json"
+    },
+    {
+      "name": "Madagascar",
+      "region": "Africa",
+      "file": "madagascar.json"
+    },
+    {
+      "name": "Malawi",
+      "region": "Africa",
+      "file": "malawi.json"
+    },
+    {
+      "name": "Malaysia",
+      "region": "East & Southeast Asia",
+      "file": "malaysia.json"
+    },
+    {
+      "name": "Maldives",
+      "region": "South Asia",
+      "file": "maldives.json"
+    },
+    {
+      "name": "Mali",
+      "region": "Africa",
+      "file": "mali.json"
+    },
+    {
+      "name": "Malta",
+      "region": "Europe",
+      "file": "malta.json"
+    },
+    {
+      "name": "Marshall Islands",
+      "region": "Australia-Oceania",
+      "file": "marshall_islands.json"
+    },
+    {
+      "name": "Mauritania",
+      "region": "Africa",
+      "file": "mauritania.json"
+    },
+    {
+      "name": "Mauritius",
+      "region": "Africa",
+      "file": "mauritius.json"
+    },
+    {
+      "name": "Mayotte",
+      "region": "Africa",
+      "file": "mayotte.json"
+    },
+    {
+      "name": "Mexico",
+      "region": "North America",
+      "file": "mexico.json"
+    },
+    {
+      "name": "Micronesia, Federated States of",
+      "region": "Australia-Oceania",
+      "file": "micronesia_federated_states_of.json"
+    },
+    {
+      "name": "Moldova",
+      "region": "Europe",
+      "file": "moldova.json"
+    },
+    {
+      "name": "Monaco",
+      "region": "Europe",
+      "file": "monaco.json"
+    },
+    {
+      "name": "Mongolia",
+      "region": "East & Southeast Asia",
+      "file": "mongolia.json"
+    },
+    {
+      "name": "Montenegro",
+      "region": "Europe",
+      "file": "montenegro.json"
+    },
+    {
+      "name": "Montserrat",
+      "region": "Central America and Caribbean",
+      "file": "montserrat.json"
+    },
+    {
+      "name": "Morocco",
+      "region": "Africa",
+      "file": "morocco.json"
+    },
+    {
+      "name": "Mozambique",
+      "region": "Africa",
+      "file": "mozambique.json"
+    },
+    {
+      "name": "Namibia",
+      "region": "Africa",
+      "file": "namibia.json"
+    },
+    {
+      "name": "Nauru",
+      "region": "Australia-Oceania",
+      "file": "nauru.json"
+    },
+    {
+      "name": "Nepal",
+      "region": "South Asia",
+      "file": "nepal.json"
+    },
+    {
+      "name": "Netherlands",
+      "region": "Europe",
+      "file": "netherlands.json"
+    },
+    {
+      "name": "Netherlands Antilles",
+      "region": "Central America and Caribbean",
+      "file": "netherlands_antilles.json"
+    },
+    {
+      "name": "New Caledonia",
+      "region": "Australia-Oceania",
+      "file": "new_caledonia.json"
+    },
+    {
+      "name": "New Zealand",
+      "region": "Australia-Oceania",
+      "file": "new_zealand.json"
+    },
+    {
+      "name": "Nicaragua",
+      "region": "Central America and Caribbean",
+      "file": "nicaragua.json"
+    },
+    {
+      "name": "Niger",
+      "region": "Africa",
+      "file": "niger.json"
+    },
+    {
+      "name": "Nigeria",
+      "region": "Africa",
+      "file": "nigeria.json"
+    },
+    {
+      "name": "Niue",
+      "region": "Australia-Oceania",
+      "file": "niue.json"
+    },
+    {
+      "name": "Norfolk Island",
+      "region": "Australia-Oceania",
+      "file": "norfolk_island.json"
+    },
+    {
+      "name": "Northern Mariana Islands",
+      "region": "Australia-Oceania",
+      "file": "northern_mariana_islands.json"
+    },
+    {
+      "name": "Norway",
+      "region": "Europe",
+      "file": "norway.json"
+    },
+    {
+      "name": "Oman",
+      "region": "Middle East",
+      "file": "oman.json"
+    },
+    {
+      "name": "Pakistan",
+      "region": "South Asia",
+      "file": "pakistan.json"
+    },
+    {
+      "name": "Palau",
+      "region": "Australia-Oceania",
+      "file": "palau.json"
+    },
+    {
+      "name": "Panama",
+      "region": "Central America and Caribbean",
+      "file": "panama.json"
+    },
+    {
+      "name": "Papua New Guinea",
+      "region": "East & Southeast Asia",
+      "file": "papua_new_guinea.json"
+    },
+    {
+      "name": "Paraguay",
+      "region": "South America",
+      "file": "paraguay.json"
+    },
+    {
+      "name": "Peru",
+      "region": "South America",
+      "file": "peru.json"
+    },
+    {
+      "name": "Philippines",
+      "region": "East & Southeast Asia",
+      "file": "philippines.json"
+    },
+    {
+      "name": "Pitcairn Islands",
+      "region": "Australia-Oceania",
+      "file": "pitcairn_islands.json"
+    },
+    {
+      "name": "Poland",
+      "region": "Europe",
+      "file": "poland.json"
+    },
+    {
+      "name": "Portugal",
+      "region": "Europe",
+      "file": "portugal.json"
+    },
+    {
+      "name": "Puerto Rico",
+      "region": "Central America and Caribbean",
+      "file": "puerto_rico.json"
+    },
+    {
+      "name": "Qatar",
+      "region": "Middle East",
+      "file": "qatar.json"
+    },
+    {
+      "name": "Romania",
+      "region": "Europe",
+      "file": "romania.json"
+    },
+    {
+      "name": "Russia",
+      "region": "Central Asia",
+      "file": "russia.json"
+    },
+    {
+      "name": "Rwanda",
+      "region": "Africa",
+      "file": "rwanda.json"
+    },
+    {
+      "name": "Saint Barthelemy",
+      "region": "Central America and Caribbean",
+      "file": "saint_barthelemy.json"
+    },
+    {
+      "name": "Saint Helena, Ascension, and Tristan da Cunha",
+      "region": "Africa",
+      "file": "saint_helena_ascension_and_tristan_da_cunha.json"
+    },
+    {
+      "name": "Saint Kitts and Nevis",
+      "region": "Central America and Caribbean",
+      "file": "saint_kitts_and_nevis.json"
+    },
+    {
+      "name": "Saint Lucia",
+      "region": "Central America and Caribbean",
+      "file": "saint_lucia.json"
+    },
+    {
+      "name": "Saint Martin",
+      "region": "Central America and Caribbean",
+      "file": "saint_martin.json"
+    },
+    {
+      "name": "Saint Pierre and Miquelon",
+      "region": "North America",
+      "file": "saint_pierre_and_miquelon.json"
+    },
+    {
+      "name": "Saint Vincent and the Grenadines",
+      "region": "Central America and Caribbean",
+      "file": "saint_vincent_and_the_grenadines.json"
+    },
+    {
+      "name": "Samoa",
+      "region": "Australia-Oceania",
+      "file": "samoa.json"
+    },
+    {
+      "name": "San Marino",
+      "region": "Europe",
+      "file": "san_marino.json"
+    },
+    {
+      "name": "Sao Tome and Principe",
+      "region": "Africa",
+      "file": "sao_tome_and_principe.json"
+    },
+    {
+      "name": "Saudi Arabia",
+      "region": "Middle East",
+      "file": "saudi_arabia.json"
+    },
+    {
+      "name": "Senegal",
+      "region": "Africa",
+      "file": "senegal.json"
+    },
+    {
+      "name": "Serbia",
+      "region": "Europe",
+      "file": "serbia.json"
+    },
+    {
+      "name": "Seychelles",
+      "region": "Africa",
+      "file": "seychelles.json"
+    },
+    {
+      "name": "Sierra Leone",
+      "region": "Africa",
+      "file": "sierra_leone.json"
+    },
+    {
+      "name": "Singapore",
+      "region": "East & Southeast Asia",
+      "file": "singapore.json"
+    },
+    {
+      "name": "Sint Maarten",
+      "region": "Central America and Caribbean",
+      "file": "sint_maarten.json"
+    },
+    {
+      "name": "Slovakia",
+      "region": "Europe",
+      "file": "slovakia.json"
+    },
+    {
+      "name": "Slovenia",
+      "region": "Europe",
+      "file": "slovenia.json"
+    },
+    {
+      "name": "Solomon Islands",
+      "region": "Australia-Oceania",
+      "file": "solomon_islands.json"
+    },
+    {
+      "name": "Somalia",
+      "region": "Africa",
+      "file": "somalia.json"
+    },
+    {
+      "name": "South Africa",
+      "region": "Africa",
+      "file": "south_africa.json"
+    },
+    {
+      "name": "Spain",
+      "region": "Europe",
+      "file": "spain.json"
+    },
+    {
+      "name": "Sri Lanka",
+      "region": "South Asia",
+      "file": "sri_lanka.json"
+    },
+    {
+      "name": "Sudan",
+      "region": "Africa",
+      "file": "sudan.json"
+    },
+    {
+      "name": "Suriname",
+      "region": "South America",
+      "file": "suriname.json"
+    },
+    {
+      "name": "Svalbard",
+      "region": "Europe",
+      "file": "svalbard.json"
+    },
+    {
+      "name": "Swaziland",
+      "region": "Africa",
+      "file": "swaziland.json"
+    },
+    {
+      "name": "Sweden",
+      "region": "Europe",
+      "file": "sweden.json"
+    },
+    {
+      "name": "Switzerland",
+      "region": "Europe",
+      "file": "switzerland.json"
+    },
+    {
+      "name": "Syria",
+      "region": "Middle East",
+      "file": "syria.json"
+    },
+    {
+      "name": "Taiwan",
+      "region": "East & Southeast Asia",
+      "file": "taiwan.json"
+    },
+    {
+      "name": "Tajikistan",
+      "region": "Central Asia",
+      "file": "tajikistan.json"
+    },
+    {
+      "name": "Tanzania",
+      "region": "Africa",
+      "file": "tanzania.json"
+    },
+    {
+      "name": "Thailand",
+      "region": "East & Southeast Asia",
+      "file": "thailand.json"
+    },
+    {
+      "name": "Timor-Leste",
+      "region": "East & Southeast Asia",
+      "file": "timor-leste.json"
+    },
+    {
+      "name": "Togo",
+      "region": "Africa",
+      "file": "togo.json"
+    },
+    {
+      "name": "Tokelau",
+      "region": "Australia-Oceania",
+      "file": "tokelau.json"
+    },
+    {
+      "name": "Tonga",
+      "region": "Australia-Oceania",
+      "file": "tonga.json"
+    },
+    {
+      "name": "Trinidad and Tobago",
+      "region": "Central America and Caribbean",
+      "file": "trinidad_and_tobago.json"
+    },
+    {
+      "name": "Tunisia",
+      "region": "Africa",
+      "file": "tunisia.json"
+    },
+    {
+      "name": "Turkey",
+      "region": "Middle East",
+      "file": "turkey.json"
+    },
+    {
+      "name": "Turkmenistan",
+      "region": "Central Asia",
+      "file": "turkmenistan.json"
+    },
+    {
+      "name": "Turks and Caicos Islands",
+      "region": "Central America and Caribbean",
+      "file": "turks_and_caicos_islands.json"
+    },
+    {
+      "name": "Tuvalu",
+      "region": "Australia-Oceania",
+      "file": "tuvalu.json"
+    },
+    {
+      "name": "Uganda",
+      "region": "Africa",
+      "file": "uganda.json"
+    },
+    {
+      "name": "Ukraine",
+      "region": "Europe",
+      "file": "ukraine.json"
+    },
+    {
+      "name": "United Arab Emirates",
+      "region": "Middle East",
+      "file": "united_arab_emirates.json"
+    },
+    {
+      "name": "United Kingdom",
+      "region": "Europe",
+      "file": "united_kingdom.json"
+    },
+    {
+      "name": "United States",
+      "region": "North America",
+      "file": "united_states.json"
+    },
+    {
+      "name": "Uruguay",
+      "region": "South America",
+      "file": "uruguay.json"
+    },
+    {
+      "name": "Uzbekistan",
+      "region": "Central Asia",
+      "file": "uzbekistan.json"
+    },
+    {
+      "name": "Vanuatu",
+      "region": "Australia-Oceania",
+      "file": "vanuatu.json"
+    },
+    {
+      "name": "Venezuela",
+      "region": "South America",
+      "file": "venezuela.json"
+    },
+    {
+      "name": "Vietnam",
+      "region": "East & Southeast Asia",
+      "file": "vietnam.json"
+    },
+    {
+      "name": "Virgin Islands",
+      "region": "Central America and Caribbean",
+      "file": "virgin_islands.json"
+    },
+    {
+      "name": "Wallis and Futuna",
+      "region": "Australia-Oceania",
+      "file": "wallis_and_futuna.json"
+    },
+    {
+      "name": "West Bank",
+      "region": "Middle East",
+      "file": "west_bank.json"
+    },
+    {
+      "name": "Western Sahara",
+      "region": "Africa",
+      "file": "western_sahara.json"
+    },
+    {
+      "name": "World",
+      "region": "World",
+      "file": "world.json"
+    },
+    {
+      "name": "Yemen",
+      "region": "Middle East",
+      "file": "yemen.json"
+    },
+    {
+      "name": "Zambia",
+      "region": "Africa",
+      "file": "zambia.json"
+    },
+    {
+      "name": "Zimbabwe",
+      "region": "Africa",
+      "file": "zimbabwe.json"
+    }
+  ]
+}

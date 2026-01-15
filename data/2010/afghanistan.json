@@ -1,0 +1,38 @@
+{
+  "country": "Afghanistan",
+  "region": "South Asia",
+  "year": 2010,
+  "demographics": {
+    "population": 29121286,
+    "median_age": 18.0,
+    "population_growth_pct": 2.471,
+    "birth_rate": 38.11,
+    "death_rate": 17.65,
+    "life_expectancy": 44.65
+  },
+  "economy": {
+    "gdp_ppp_billions": 29.81,
+    "gdp_growth_pct": 8.9,
+    "gdp_per_capita": 1000,
+    "unemployment_pct": 35.0,
+    "poverty_pct": 36.0,
+    "inflation_pct": 13.3,
+    "electricity_kwh": 285,
+    "imports_billions": 5.3,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 5000,
+    "gas_production_cu_m": 30,
+    "current_account_billions": 2.475,
+    "exports_billions": 0.547,
+    "external_debt_billions": 2.7
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 1.9
+  },
+  "political": {
+    "chief_of_state": "of the Islamic Republic of Afghanistan",
+    "head_of_government": "of the Islamic Republic of Afghanistan",
+    "last_election": "18 September 2010"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "country": "Bulgaria",
+  "region": "Europe",
+  "year": 2010,
+  "demographics": {
+    "population": 7148785,
+    "median_age": 41.6,
+    "population_growth_pct": -0.768,
+    "birth_rate": 9.43,
+    "death_rate": 14.31,
+    "life_expectancy": 73.35
+  },
+  "economy": {
+    "gdp_ppp_billions": 91.83,
+    "gdp_growth_pct": 0.0,
+    "gdp_per_capita": 12800,
+    "unemployment_pct": 9.5,
+    "poverty_pct": 14.0,
+    "inflation_pct": 2.1,
+    "electricity_kwh": 44,
+    "exports_billions": 19.33,
+    "imports_billions": 22.78,
+    "oil_production_bbl_day": 3227,
+    "oil_consumption_bbl_day": 125000,
+    "gas_production_cu_m": 218,
+    "current_account_billions": 1.528,
+    "external_debt_billions": 36.15
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 2.6
+  },
+  "political": {
+    "chief_of_state": "Georgi PARVANOV",
+    "head_of_government": "Boyko BORISSOV",
+    "last_election": "5 July 2009"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "country": "Hong Kong",
+  "region": "East & Southeast Asia",
+  "year": 2010,
+  "demographics": {
+    "population": 7089705,
+    "median_age": 42.8,
+    "population_growth_pct": 0.476,
+    "birth_rate": 7.45,
+    "death_rate": 6.91,
+    "life_expectancy": 81.96
+  },
+  "economy": {
+    "gdp_ppp_billions": 323.3,
+    "gdp_growth_pct": 5.7,
+    "gdp_per_capita": 45600,
+    "unemployment_pct": 4.6,
+    "inflation_pct": 2.2,
+    "electricity_kwh": 39,
+    "exports_billions": 382.6,
+    "imports_billions": 413.0,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 359000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 18.07,
+    "external_debt_billions": 69.86
+  },
+  "military": {
+    "manpower_available": 16
+  },
+  "political": {
+    "chief_of_state": "of China HU Jintao",
+    "head_of_government": "Chief Executive Donald TSANG Yam-kuen",
+    "last_election": "7 September 2008"
+  }
+}

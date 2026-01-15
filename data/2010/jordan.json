@@ -1,0 +1,38 @@
+{
+  "country": "Jordan",
+  "region": "Middle East",
+  "year": 2010,
+  "demographics": {
+    "population": 6407085,
+    "median_age": 21.8,
+    "population_growth_pct": 2.159,
+    "birth_rate": 27.06,
+    "death_rate": 2.66,
+    "life_expectancy": 79.92
+  },
+  "economy": {
+    "gdp_ppp_billions": 33.79,
+    "gdp_growth_pct": 3.2,
+    "gdp_per_capita": 5300,
+    "unemployment_pct": 13.4,
+    "poverty_pct": 14.2,
+    "inflation_pct": 4.4,
+    "electricity_kwh": 12,
+    "exports_billions": 7.333,
+    "imports_billions": 12.97,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 108000,
+    "gas_production_cu_m": 250,
+    "current_account_billions": 0.975,
+    "external_debt_billions": 5.522
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 8.6
+  },
+  "political": {
+    "chief_of_state": "ABDALLAH II",
+    "head_of_government": "Samir al-RIFAI",
+    "last_election": "9 November 2010"
+  }
+}

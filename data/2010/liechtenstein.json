@@ -1,0 +1,30 @@
+{
+  "country": "Liechtenstein",
+  "region": "Europe",
+  "year": 2010,
+  "demographics": {
+    "population": 35002,
+    "median_age": 41.4,
+    "population_growth_pct": 0.683,
+    "birth_rate": 9.69,
+    "death_rate": 7.49,
+    "life_expectancy": 80.19
+  },
+  "economy": {
+    "gdp_ppp_billions": 4.16,
+    "gdp_growth_pct": 3.1,
+    "gdp_per_capita": 122100,
+    "unemployment_pct": 1.5,
+    "inflation_pct": 0.5,
+    "exports_billions": 3.92,
+    "imports_billions": 2.59
+  },
+  "military": {
+    "manpower_available": 16
+  },
+  "political": {
+    "chief_of_state": "Prince HANS ADAM II",
+    "head_of_government": "Head of Government Klaus TSCHUETSCHER",
+    "last_election": "8 February 2009"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "country": "Somalia",
+  "region": "Africa",
+  "year": 2010,
+  "demographics": {
+    "population": 10112453,
+    "median_age": 17.6,
+    "population_growth_pct": 2.809,
+    "birth_rate": 43.33,
+    "death_rate": 15.24,
+    "life_expectancy": 50.0
+  },
+  "economy": {
+    "gdp_ppp_billions": 5.896,
+    "gdp_growth_pct": 2.6,
+    "gdp_per_capita": 600,
+    "electricity_kwh": 280,
+    "oil_production_bbl_day": 108,
+    "oil_consumption_bbl_day": 5000,
+    "gas_production_cu_m": 0,
+    "exports_billions": 0.3,
+    "imports_billions": 0.798,
+    "external_debt_billions": 3.0
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 0.9
+  },
+  "political": {
+    "chief_of_state": "Sheikh SHARIF Sheikh",
+    "head_of_government": "Mohamed Abdullahi Mohamed FARMAJO"
+  }
+}

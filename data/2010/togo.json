@@ -1,0 +1,36 @@
+{
+  "country": "Togo",
+  "region": "Africa",
+  "year": 2010,
+  "demographics": {
+    "population": 6587239,
+    "median_age": 19.2,
+    "population_growth_pct": 2.773,
+    "birth_rate": 35.88,
+    "death_rate": 8.15,
+    "life_expectancy": 62.25
+  },
+  "economy": {
+    "gdp_ppp_billions": 5.927,
+    "gdp_growth_pct": 3.3,
+    "gdp_per_capita": 900,
+    "poverty_pct": 32.0,
+    "inflation_pct": 2.6,
+    "electricity_kwh": 230,
+    "imports_billions": 1.337,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 21000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.339,
+    "exports_billions": 0.859
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 1.6
+  },
+  "political": {
+    "chief_of_state": "Faure GNASSINGBE",
+    "head_of_government": "Gilbert HOUNGBO",
+    "last_election": "14 October 2007"
+  }
+}

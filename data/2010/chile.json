@@ -1,0 +1,38 @@
+{
+  "country": "Chile",
+  "region": "South America",
+  "year": 2010,
+  "demographics": {
+    "population": 16746491,
+    "median_age": 31.7,
+    "population_growth_pct": 0.856,
+    "birth_rate": 14.46,
+    "death_rate": 5.9,
+    "life_expectancy": 77.53
+  },
+  "economy": {
+    "gdp_ppp_billions": 260.0,
+    "gdp_growth_pct": 5.3,
+    "gdp_per_capita": 15500,
+    "unemployment_pct": 8.7,
+    "poverty_pct": 18.2,
+    "inflation_pct": 1.7,
+    "electricity_kwh": 60,
+    "imports_billions": 54.23,
+    "oil_production_bbl_day": 10850,
+    "oil_consumption_bbl_day": 277000,
+    "gas_production_cu_m": 1,
+    "current_account_billions": 1.033,
+    "exports_billions": 64.28,
+    "external_debt_billions": 84.51
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 2.7
+  },
+  "political": {
+    "chief_of_state": "Sebastian PINERA Echenique",
+    "head_of_government": "Sebastian PINERA Echenique",
+    "last_election": "13 December 2009"
+  }
+}

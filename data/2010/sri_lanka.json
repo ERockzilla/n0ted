@@ -1,0 +1,38 @@
+{
+  "country": "Sri Lanka",
+  "region": "South Asia",
+  "year": 2010,
+  "demographics": {
+    "population": 21513990,
+    "median_age": 31.3,
+    "population_growth_pct": 0.863,
+    "birth_rate": 15.88,
+    "death_rate": 6.2,
+    "life_expectancy": 75.3
+  },
+  "economy": {
+    "gdp_ppp_billions": 104.7,
+    "gdp_growth_pct": 6.9,
+    "gdp_per_capita": 4900,
+    "unemployment_pct": 5.4,
+    "poverty_pct": 23.0,
+    "inflation_pct": 5.6,
+    "electricity_kwh": 9,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 90000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 1.784,
+    "exports_billions": 7.908,
+    "imports_billions": 11.6,
+    "external_debt_billions": 17.97
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 2.6
+  },
+  "political": {
+    "chief_of_state": "Mahinda Percy RAJAPAKSA",
+    "head_of_government": "Mahinda Percy RAJAPAKSA",
+    "last_election": "8 April 2010"
+  }
+}

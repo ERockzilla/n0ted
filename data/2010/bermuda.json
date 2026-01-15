@@ -1,0 +1,36 @@
+{
+  "country": "Bermuda",
+  "region": "North America",
+  "year": 2010,
+  "demographics": {
+    "population": 68265,
+    "median_age": 41.6,
+    "population_growth_pct": 0.62,
+    "birth_rate": 11.47,
+    "death_rate": 7.43,
+    "life_expectancy": 80.6
+  },
+  "economy": {
+    "gdp_ppp_billions": 4.5,
+    "gdp_growth_pct": 4.6,
+    "gdp_per_capita": 69900,
+    "unemployment_pct": 2.1,
+    "poverty_pct": 19.0,
+    "inflation_pct": 2.8,
+    "electricity_kwh": 675,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 5000,
+    "gas_production_cu_m": 0,
+    "exports_billions": 0.763,
+    "imports_billions": 1.162,
+    "external_debt_billions": 0.16
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 0.11
+  },
+  "political": {
+    "chief_of_state": "ELIZABETH II",
+    "head_of_government": "Paula COX"
+  }
+}

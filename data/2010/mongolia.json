@@ -1,0 +1,38 @@
+{
+  "country": "Mongolia",
+  "region": "East & Southeast Asia",
+  "year": 2010,
+  "demographics": {
+    "population": 3086918,
+    "median_age": 25.8,
+    "population_growth_pct": 1.495,
+    "birth_rate": 21.03,
+    "death_rate": 6.08,
+    "life_expectancy": 67.98
+  },
+  "economy": {
+    "gdp_ppp_billions": 10.16,
+    "gdp_growth_pct": 7.0,
+    "gdp_per_capita": 3300,
+    "unemployment_pct": 2.8,
+    "poverty_pct": 36.1,
+    "inflation_pct": 4.2,
+    "electricity_kwh": 4,
+    "exports_billions": 1.902,
+    "imports_billions": 2.131,
+    "oil_production_bbl_day": 5100,
+    "oil_consumption_bbl_day": 16000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.2287,
+    "external_debt_billions": 1.86
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 1.4
+  },
+  "political": {
+    "chief_of_state": "Tsakhia ELBEGDORJ",
+    "head_of_government": "Sukhbaatar BATBOLD",
+    "last_election": "29 June 2008"
+  }
+}

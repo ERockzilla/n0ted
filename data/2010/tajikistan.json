@@ -1,0 +1,38 @@
+{
+  "country": "Tajikistan",
+  "region": "Central Asia",
+  "year": 2010,
+  "demographics": {
+    "population": 7487489,
+    "median_age": 22.2,
+    "population_growth_pct": 1.852,
+    "birth_rate": 26.49,
+    "death_rate": 6.72,
+    "life_expectancy": 65.68
+  },
+  "economy": {
+    "gdp_ppp_billions": 14.61,
+    "gdp_growth_pct": 5.5,
+    "gdp_per_capita": 2000,
+    "unemployment_pct": 2.2,
+    "poverty_pct": 60.0,
+    "inflation_pct": 5.8,
+    "electricity_kwh": 16,
+    "exports_billions": 1.318,
+    "imports_billions": 3.301,
+    "oil_production_bbl_day": 221,
+    "oil_consumption_bbl_day": 38000,
+    "gas_production_cu_m": 16,
+    "current_account_billions": 0.33,
+    "external_debt_billions": 1.997
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 1.5
+  },
+  "political": {
+    "chief_of_state": "Emomali RAHMON",
+    "head_of_government": "Oqil OQILOV",
+    "last_election": "28 February 2010"
+  }
+}

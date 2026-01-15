@@ -1,0 +1,38 @@
+{
+  "country": "Thailand",
+  "region": "East & Southeast Asia",
+  "year": 2010,
+  "demographics": {
+    "population": 67089500,
+    "median_age": 34.0,
+    "population_growth_pct": 0.653,
+    "birth_rate": 13.01,
+    "death_rate": 6.47,
+    "life_expectancy": 75.02
+  },
+  "economy": {
+    "gdp_ppp_billions": 580.3,
+    "gdp_growth_pct": 7.6,
+    "gdp_per_capita": 8700,
+    "unemployment_pct": 1.2,
+    "poverty_pct": 9.6,
+    "inflation_pct": 3.3,
+    "electricity_kwh": 148,
+    "exports_billions": 191.3,
+    "imports_billions": 156.9,
+    "oil_production_bbl_day": 380000,
+    "oil_consumption_bbl_day": 356000,
+    "gas_production_cu_m": 28,
+    "current_account_billions": 12.29,
+    "external_debt_billions": 82.5
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 1.8
+  },
+  "political": {
+    "chief_of_state": "PHUMIPHON Adunyadet, also spelled BHUMIBOL",
+    "head_of_government": "ABHISIT Wetchachiwa, also spelled",
+    "last_election": "2 March 2008"
+  }
+}

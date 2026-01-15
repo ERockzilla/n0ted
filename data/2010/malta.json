@@ -1,0 +1,37 @@
+{
+  "country": "Malta",
+  "region": "Europe",
+  "year": 2010,
+  "demographics": {
+    "population": 406771,
+    "median_age": 39.7,
+    "population_growth_pct": 0.391,
+    "birth_rate": 10.38,
+    "death_rate": 8.49,
+    "life_expectancy": 79.59
+  },
+  "economy": {
+    "gdp_ppp_billions": 10.21,
+    "gdp_growth_pct": 2.0,
+    "gdp_per_capita": 25100,
+    "unemployment_pct": 7.0,
+    "inflation_pct": 1.7,
+    "electricity_kwh": 2,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 19000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.403,
+    "exports_billions": 2.954,
+    "imports_billions": 4.074,
+    "external_debt_billions": 41.02
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 0.7
+  },
+  "political": {
+    "chief_of_state": "George ABELA",
+    "head_of_government": "Lawrence GONZI",
+    "last_election": "8 March 2008"
+  }
+}

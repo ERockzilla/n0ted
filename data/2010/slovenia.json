@@ -1,0 +1,38 @@
+{
+  "country": "Slovenia",
+  "region": "Europe",
+  "year": 2010,
+  "demographics": {
+    "population": 2003136,
+    "median_age": 42.1,
+    "population_growth_pct": -0.142,
+    "birth_rate": 8.92,
+    "death_rate": 10.74,
+    "life_expectancy": 77.12
+  },
+  "economy": {
+    "gdp_ppp_billions": 56.81,
+    "gdp_growth_pct": 1.0,
+    "gdp_per_capita": 28400,
+    "unemployment_pct": 10.6,
+    "poverty_pct": 12.3,
+    "inflation_pct": 2.1,
+    "electricity_kwh": 13,
+    "exports_billions": 24.97,
+    "imports_billions": 25.96,
+    "oil_production_bbl_day": 5,
+    "oil_consumption_bbl_day": 60000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.598,
+    "external_debt_billions": 51.57
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 1.7
+  },
+  "political": {
+    "chief_of_state": "Danilo TURK",
+    "head_of_government": "Borut PAHOR",
+    "last_election": "21 September 2008"
+  }
+}

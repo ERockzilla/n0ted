@@ -1,0 +1,38 @@
+{
+  "country": "Denmark",
+  "region": "Europe",
+  "year": 2010,
+  "demographics": {
+    "population": 5515575,
+    "median_age": 40.7,
+    "population_growth_pct": 0.267,
+    "birth_rate": 10.4,
+    "death_rate": 10.19,
+    "life_expectancy": 78.47
+  },
+  "economy": {
+    "gdp_ppp_billions": 204.1,
+    "gdp_growth_pct": 1.8,
+    "gdp_per_capita": 37000,
+    "unemployment_pct": 4.2,
+    "poverty_pct": 12.1,
+    "inflation_pct": 2.2,
+    "electricity_kwh": 36,
+    "exports_billions": 99.37,
+    "imports_billions": 90.83,
+    "oil_production_bbl_day": 262100,
+    "oil_consumption_bbl_day": 166500,
+    "gas_production_cu_m": 8,
+    "current_account_billions": 14.35,
+    "external_debt_billions": 559.5
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 1.3
+  },
+  "political": {
+    "chief_of_state": "MARGRETHE II",
+    "head_of_government": "Lars Loekke RASMUSSEN",
+    "last_election": "13 November 2007"
+  }
+}

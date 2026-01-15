@@ -1,0 +1,35 @@
+{
+  "country": "Netherlands Antilles",
+  "region": "Central America and Caribbean",
+  "year": 2010,
+  "demographics": {
+    "population": 228693,
+    "median_age": 34.1,
+    "population_growth_pct": 0.712,
+    "birth_rate": 14.05,
+    "death_rate": 6.54,
+    "life_expectancy": 76.86
+  },
+  "economy": {
+    "gdp_ppp_billions": 2.8,
+    "gdp_growth_pct": 1.0,
+    "gdp_per_capita": 16000,
+    "unemployment_pct": 15.5,
+    "inflation_pct": 2.1,
+    "electricity_kwh": 1,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 69000,
+    "gas_production_cu_m": 0,
+    "exports_billions": 3.71,
+    "imports_billions": 15.74,
+    "external_debt_billions": 2.68
+  },
+  "military": {
+    "manpower_available": 16
+  },
+  "political": {
+    "chief_of_state": "BEATRIX of the Netherlands",
+    "head_of_government": "Emily de JONGH-ELHAGE",
+    "last_election": "22 January 2010"
+  }
+}

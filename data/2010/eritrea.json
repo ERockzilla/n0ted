@@ -1,0 +1,35 @@
+{
+  "country": "Eritrea",
+  "region": "Africa",
+  "year": 2010,
+  "demographics": {
+    "population": 5792984,
+    "median_age": 18.5,
+    "population_growth_pct": 2.522,
+    "birth_rate": 33.48,
+    "death_rate": 8.25,
+    "life_expectancy": 62.15
+  },
+  "economy": {
+    "gdp_ppp_billions": 4.178,
+    "gdp_growth_pct": 4.0,
+    "gdp_per_capita": 700,
+    "poverty_pct": 50.0,
+    "inflation_pct": 20.0,
+    "electricity_kwh": 271,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 5000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.212,
+    "exports_billions": 0.025,
+    "imports_billions": 0.738
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 6.3
+  },
+  "political": {
+    "chief_of_state": "ISAIAS Afworki",
+    "head_of_government": "ISAIAS Afworki"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "country": "Vietnam",
+  "region": "East & Southeast Asia",
+  "year": 2010,
+  "demographics": {
+    "population": 89571130,
+    "median_age": 27.4,
+    "population_growth_pct": 1.096,
+    "birth_rate": 17.29,
+    "death_rate": 5.97,
+    "life_expectancy": 71.94
+  },
+  "economy": {
+    "gdp_ppp_billions": 278.1,
+    "gdp_growth_pct": 6.8,
+    "gdp_per_capita": 3100,
+    "unemployment_pct": 6.4,
+    "poverty_pct": 12.3,
+    "inflation_pct": 11.1,
+    "electricity_kwh": 86,
+    "exports_billions": 70.76,
+    "imports_billions": 81.73,
+    "oil_production_bbl_day": 338400,
+    "oil_consumption_bbl_day": 302000,
+    "gas_production_cu_m": 7,
+    "current_account_billions": 9.622,
+    "external_debt_billions": 33.45
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 2.5
+  },
+  "political": {
+    "chief_of_state": "Nguyen Minh TRIET",
+    "head_of_government": "Nguyen Tan DUNG",
+    "last_election": "20 May 2007"
+  }
+}

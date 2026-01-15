@@ -1,0 +1,36 @@
+{
+  "country": "Czech Republic",
+  "region": "Europe",
+  "year": 2010,
+  "demographics": {
+    "population": 10201707,
+    "median_age": 40.4,
+    "population_growth_pct": -0.106,
+    "birth_rate": 8.76,
+    "death_rate": 10.79,
+    "life_expectancy": 77.01
+  },
+  "economy": {
+    "gdp_ppp_billions": 261.5,
+    "gdp_growth_pct": 1.8,
+    "gdp_per_capita": 25600,
+    "unemployment_pct": 9.3,
+    "inflation_pct": 1.6,
+    "electricity_kwh": 82,
+    "exports_billions": 116.5,
+    "imports_billions": 109.2,
+    "oil_production_bbl_day": 10970,
+    "oil_consumption_bbl_day": 207600,
+    "gas_production_cu_m": 176,
+    "current_account_billions": 5.956,
+    "external_debt_billions": 86.79
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 1.46
+  },
+  "political": {
+    "chief_of_state": "Vaclav KLAUS",
+    "head_of_government": "Petr NECAS"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "country": "Norfolk Island",
+  "region": "Australia-Oceania",
+  "year": 2010,
+  "demographics": {
+    "population": 2155,
+    "population_growth_pct": 0.006
+  },
+  "economy": {
+    "exports_billions": 0.0015,
+    "imports_billions": 0.0179
+  },
+  "military": {},
+  "political": {
+    "chief_of_state": "ELIZABETH II",
+    "head_of_government": "Administrator Owen WALSH",
+    "last_election": "17 March 2010"
+  }
+}

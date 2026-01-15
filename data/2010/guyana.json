@@ -1,0 +1,37 @@
+{
+  "country": "Guyana",
+  "region": "South America",
+  "year": 2010,
+  "demographics": {
+    "population": 748486,
+    "median_age": 23.6,
+    "population_growth_pct": -0.547,
+    "birth_rate": 17.61,
+    "death_rate": 7.24,
+    "life_expectancy": 66.74
+  },
+  "economy": {
+    "gdp_ppp_billions": 5.069,
+    "gdp_growth_pct": 2.5,
+    "gdp_per_capita": 6800,
+    "unemployment_pct": 11.0,
+    "inflation_pct": 6.8,
+    "electricity_kwh": 821,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 10000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.311,
+    "exports_billions": 0.814,
+    "imports_billions": 1.366,
+    "external_debt_billions": 0.8042999999999999
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 1.8
+  },
+  "political": {
+    "chief_of_state": "Bharrat JAGDEO",
+    "head_of_government": "Samuel HINDS",
+    "last_election": "28 August 2006"
+  }
+}

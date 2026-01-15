@@ -1,0 +1,38 @@
+{
+  "country": "Nepal",
+  "region": "South Asia",
+  "year": 2010,
+  "demographics": {
+    "population": 28951852,
+    "median_age": 21.2,
+    "population_growth_pct": 1.419,
+    "birth_rate": 22.43,
+    "death_rate": 6.89,
+    "life_expectancy": 65.81
+  },
+  "economy": {
+    "gdp_ppp_billions": 35.31,
+    "gdp_growth_pct": 3.5,
+    "gdp_per_capita": 1200,
+    "unemployment_pct": 46.0,
+    "poverty_pct": 24.7,
+    "inflation_pct": 8.6,
+    "electricity_kwh": 2,
+    "imports_billions": 5.26,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 18000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.449,
+    "exports_billions": 0.849,
+    "external_debt_billions": 4.5
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 1.6
+  },
+  "political": {
+    "chief_of_state": "Ram Baran YADAV",
+    "head_of_government": "Madhav Kumar NEPAL",
+    "last_election": "10 April 2008"
+  }
+}

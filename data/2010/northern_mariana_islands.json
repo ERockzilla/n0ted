@@ -1,0 +1,28 @@
+{
+  "country": "Northern Mariana Islands",
+  "region": "Australia-Oceania",
+  "year": 2010,
+  "demographics": {
+    "population": 48317,
+    "median_age": 29.3,
+    "population_growth_pct": -5.567,
+    "birth_rate": 21.05,
+    "death_rate": 3.17,
+    "life_expectancy": 76.9
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.9,
+    "gdp_per_capita": 12500,
+    "unemployment_pct": 8.0,
+    "inflation_pct": -0.8,
+    "electricity_kwh": 60600,
+    "exports_billions": 0.09820000000000001,
+    "imports_billions": 0.2144
+  },
+  "military": {},
+  "political": {
+    "chief_of_state": "Barack H. OBAMA",
+    "head_of_government": "Governor Benigno R. FITIAL",
+    "last_election": "7 November 2009"
+  }
+}

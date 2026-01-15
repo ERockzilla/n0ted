@@ -1,0 +1,37 @@
+{
+  "country": "Netherlands",
+  "region": "Europe",
+  "year": 2010,
+  "demographics": {
+    "population": 16783092,
+    "median_age": 40.8,
+    "population_growth_pct": 0.39,
+    "birth_rate": 10.3,
+    "death_rate": 8.78,
+    "life_expectancy": 79.55
+  },
+  "economy": {
+    "gdp_ppp_billions": 680.4,
+    "gdp_growth_pct": 1.7,
+    "gdp_per_capita": 40500,
+    "unemployment_pct": 5.5,
+    "poverty_pct": 10.5,
+    "inflation_pct": 1.1,
+    "electricity_kwh": 108,
+    "exports_billions": 451.3,
+    "imports_billions": 408.4,
+    "oil_production_bbl_day": 57190,
+    "oil_consumption_bbl_day": 922800,
+    "gas_production_cu_m": 79,
+    "current_account_billions": 46.69
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 1.6
+  },
+  "political": {
+    "chief_of_state": "BEATRIX",
+    "head_of_government": "Mark RUTTE",
+    "last_election": "29 May 2007"
+  }
+}

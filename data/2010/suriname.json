@@ -1,0 +1,38 @@
+{
+  "country": "Suriname",
+  "region": "South America",
+  "year": 2010,
+  "demographics": {
+    "population": 486618,
+    "median_age": 28.3,
+    "population_growth_pct": 1.108,
+    "birth_rate": 16.61,
+    "death_rate": 5.53,
+    "life_expectancy": 73.98
+  },
+  "economy": {
+    "gdp_ppp_billions": 4.794,
+    "gdp_growth_pct": 3.5,
+    "gdp_per_capita": 9900,
+    "unemployment_pct": 9.5,
+    "poverty_pct": 70.0,
+    "inflation_pct": 6.4,
+    "electricity_kwh": 1,
+    "oil_production_bbl_day": 15190,
+    "oil_consumption_bbl_day": 14000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.024,
+    "exports_billions": 1.391,
+    "imports_billions": 1.297,
+    "external_debt_billions": 0.5043
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 0.6
+  },
+  "political": {
+    "chief_of_state": "Desire Delano BOUTERSE",
+    "head_of_government": "Desire Delano BOUTERSE",
+    "last_election": "25 May 2010"
+  }
+}

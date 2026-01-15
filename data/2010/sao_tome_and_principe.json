@@ -1,0 +1,37 @@
+{
+  "country": "Sao Tome and Principe",
+  "region": "Africa",
+  "year": 2010,
+  "demographics": {
+    "population": 175808,
+    "median_age": 17.5,
+    "population_growth_pct": 2.112,
+    "birth_rate": 39.09,
+    "death_rate": 8.45,
+    "life_expectancy": 62.73
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.31689999999999996,
+    "gdp_growth_pct": 6.0,
+    "gdp_per_capita": 1800,
+    "poverty_pct": 54.0,
+    "inflation_pct": 13.0,
+    "electricity_kwh": 19,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 1000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.073,
+    "exports_billions": 0.013,
+    "imports_billions": 0.099,
+    "external_debt_billions": 0.318
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 0.8
+  },
+  "political": {
+    "chief_of_state": "Fradique Bandiera Melo DE MENEZES",
+    "head_of_government": "Joachim Rafael BRANCO",
+    "last_election": "1 August 2010"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "country": "Israel",
+  "region": "Middle East",
+  "year": 2010,
+  "demographics": {
+    "population": 7353985,
+    "median_age": 29.3,
+    "population_growth_pct": 1.628,
+    "birth_rate": 19.51,
+    "death_rate": 5.45,
+    "life_expectancy": 80.86
+  },
+  "economy": {
+    "gdp_ppp_billions": 217.1,
+    "gdp_growth_pct": 3.4,
+    "gdp_per_capita": 29500,
+    "unemployment_pct": 6.4,
+    "poverty_pct": 23.6,
+    "inflation_pct": 2.6,
+    "electricity_kwh": 54,
+    "exports_billions": 54.31,
+    "oil_production_bbl_day": 3806,
+    "oil_consumption_bbl_day": 231000,
+    "gas_production_cu_m": 1,
+    "current_account_billions": 6.269,
+    "imports_billions": 55.6,
+    "external_debt_billions": 89.68
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 7.3
+  },
+  "political": {
+    "chief_of_state": "Shimon PERES",
+    "head_of_government": "Binyamin NETANYAHU",
+    "last_election": "10 February 2009"
+  }
+}

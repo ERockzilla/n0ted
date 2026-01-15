@@ -1,0 +1,35 @@
+{
+  "country": "Samoa",
+  "region": "Australia-Oceania",
+  "year": 2010,
+  "demographics": {
+    "population": 192001,
+    "median_age": 21.8,
+    "population_growth_pct": 0.605,
+    "birth_rate": 22.92,
+    "death_rate": 5.36,
+    "life_expectancy": 72.13
+  },
+  "economy": {
+    "gdp_ppp_billions": 1.002,
+    "gdp_growth_pct": -2.0,
+    "gdp_per_capita": 5200,
+    "inflation_pct": 6.0,
+    "electricity_kwh": 109,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 1000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.024,
+    "exports_billions": 0.131,
+    "imports_billions": 0.324,
+    "external_debt_billions": 0.177
+  },
+  "military": {
+    "manpower_available": 16
+  },
+  "political": {
+    "chief_of_state": "TUIATUA Tupua Tamasese Efi",
+    "head_of_government": "Sailele Malielegaoi TUILA'EPA",
+    "last_election": "31 March 2006"
+  }
+}

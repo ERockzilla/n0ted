@@ -1,0 +1,33 @@
+{
+  "country": "Korea, North",
+  "region": "East & Southeast Asia",
+  "year": 2010,
+  "demographics": {
+    "population": 22757275,
+    "median_age": 33.9,
+    "population_growth_pct": 0.389,
+    "birth_rate": 14.58,
+    "death_rate": 10.6,
+    "life_expectancy": 64.13
+  },
+  "economy": {
+    "gdp_ppp_billions": 40.0,
+    "gdp_growth_pct": -0.9,
+    "gdp_per_capita": 1800,
+    "electricity_kwh": 22,
+    "oil_production_bbl_day": 118,
+    "oil_consumption_bbl_day": 16000,
+    "gas_production_cu_m": 0,
+    "exports_billions": 1.997,
+    "imports_billions": 3.096,
+    "external_debt_billions": 12.5
+  },
+  "military": {
+    "manpower_available": 16
+  },
+  "political": {
+    "chief_of_state": "KIM Jong Il",
+    "head_of_government": "CHOE Yong Rim",
+    "last_election": "8 March 2009"
+  }
+}

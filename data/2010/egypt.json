@@ -1,0 +1,37 @@
+{
+  "country": "Egypt",
+  "region": "Africa",
+  "year": 2010,
+  "demographics": {
+    "population": 80471869,
+    "median_age": 24.0,
+    "population_growth_pct": 1.997,
+    "birth_rate": 25.02,
+    "death_rate": 4.85,
+    "life_expectancy": 72.4
+  },
+  "economy": {
+    "gdp_ppp_billions": 500.9,
+    "gdp_growth_pct": 5.3,
+    "gdp_per_capita": 6200,
+    "unemployment_pct": 9.7,
+    "poverty_pct": 20.0,
+    "inflation_pct": 12.8,
+    "electricity_kwh": 118,
+    "exports_billions": 25.34,
+    "imports_billions": 46.52,
+    "oil_production_bbl_day": 680500,
+    "oil_consumption_bbl_day": 683000,
+    "gas_production_cu_m": 62,
+    "current_account_billions": 0.27,
+    "external_debt_billions": 30.61
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 3.4
+  },
+  "political": {
+    "chief_of_state": "Mohamed Hosni MUBARAK",
+    "head_of_government": "Ahmed Mohamed NAZIF"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "country": "Bosnia and Herzegovina",
+  "region": "Europe",
+  "year": 2010,
+  "demographics": {
+    "population": 4621598,
+    "median_age": 40.3,
+    "population_growth_pct": 0.016,
+    "birth_rate": 8.87,
+    "death_rate": 8.71,
+    "life_expectancy": 78.66
+  },
+  "economy": {
+    "gdp_ppp_billions": 30.56,
+    "gdp_growth_pct": 1.1,
+    "gdp_per_capita": 6600,
+    "unemployment_pct": 27.2,
+    "poverty_pct": 25.0,
+    "inflation_pct": 1.9,
+    "electricity_kwh": 14,
+    "exports_billions": 4.787,
+    "imports_billions": 9.403,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 30000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.887,
+    "external_debt_billions": 7.996
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 4.5
+  },
+  "political": {
+    "chief_of_state": "of the Presidency Nebojsa RADMANOVIC",
+    "head_of_government": "Chairman of the Council of Ministers Nikola",
+    "last_election": "3 October 2010"
+  }
+}

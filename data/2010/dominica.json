@@ -1,0 +1,37 @@
+{
+  "country": "Dominica",
+  "region": "Central America and Caribbean",
+  "year": 2010,
+  "demographics": {
+    "population": 72813,
+    "median_age": 30.3,
+    "population_growth_pct": 0.213,
+    "birth_rate": 15.68,
+    "death_rate": 8.12,
+    "life_expectancy": 75.77
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.7654,
+    "gdp_growth_pct": 1.4,
+    "gdp_per_capita": 10500,
+    "unemployment_pct": 23.0,
+    "poverty_pct": 30.0,
+    "inflation_pct": 0.1,
+    "electricity_kwh": 85,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 1000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.072,
+    "exports_billions": 0.094,
+    "imports_billions": 0.296,
+    "external_debt_billions": 0.213
+  },
+  "military": {
+    "manpower_available": 16
+  },
+  "political": {
+    "chief_of_state": "Nicholas J. O. LIVERPOOL",
+    "head_of_government": "Roosevelt SKERRIT",
+    "last_election": "18 December 2009"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "country": "Falkland Islands",
+  "region": "Islas Malvinas",
+  "year": 2010,
+  "demographics": {
+    "population": 3140,
+    "population_growth_pct": 0.011
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.1051,
+    "gdp_per_capita": 35400,
+    "inflation_pct": 3.6,
+    "electricity_kwh": 16,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 0,
+    "gas_production_cu_m": 0,
+    "exports_billions": 0.125,
+    "imports_billions": 0.09
+  },
+  "military": {},
+  "political": {
+    "chief_of_state": "ELIZABETH II",
+    "head_of_government": "Governor Nigel HAYWOOD",
+    "last_election": "5 November 2009"
+  }
+}

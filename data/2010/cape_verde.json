@@ -1,0 +1,38 @@
+{
+  "country": "Cape Verde",
+  "region": "Africa",
+  "year": 2010,
+  "demographics": {
+    "population": 508659,
+    "median_age": 22.3,
+    "population_growth_pct": 1.459,
+    "birth_rate": 21.67,
+    "death_rate": 6.41,
+    "life_expectancy": 70.41
+  },
+  "economy": {
+    "gdp_ppp_billions": 1.861,
+    "gdp_growth_pct": 4.5,
+    "gdp_per_capita": 3700,
+    "unemployment_pct": 21.0,
+    "poverty_pct": 30.0,
+    "inflation_pct": 2.5,
+    "electricity_kwh": 250,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 2000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.286,
+    "exports_billions": 0.114,
+    "imports_billions": 0.858,
+    "external_debt_billions": 0.325
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 0.5
+  },
+  "political": {
+    "chief_of_state": "Pedro Verona Rodrigues PIRES",
+    "head_of_government": "Jose Maria Pereira NEVES",
+    "last_election": "22 January 2006"
+  }
+}

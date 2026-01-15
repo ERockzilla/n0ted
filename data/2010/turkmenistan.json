@@ -1,0 +1,38 @@
+{
+  "country": "Turkmenistan",
+  "region": "Central Asia",
+  "year": 2010,
+  "demographics": {
+    "population": 4940916,
+    "median_age": 24.8,
+    "population_growth_pct": 1.14,
+    "birth_rate": 19.62,
+    "death_rate": 6.27,
+    "life_expectancy": 68.2
+  },
+  "economy": {
+    "gdp_ppp_billions": 36.64,
+    "gdp_growth_pct": 11.0,
+    "gdp_per_capita": 7400,
+    "unemployment_pct": 60.0,
+    "poverty_pct": 30.0,
+    "inflation_pct": 12.0,
+    "electricity_kwh": 15,
+    "exports_billions": 9.672,
+    "oil_production_bbl_day": 197700,
+    "oil_consumption_bbl_day": 120000,
+    "gas_production_cu_m": 34,
+    "current_account_billions": 3.081,
+    "imports_billions": 4.888,
+    "external_debt_billions": 5.0
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 3.4
+  },
+  "political": {
+    "chief_of_state": "Gurbanguly BERDIMUHAMEDOW",
+    "head_of_government": "Gurbanguly BERDIMUHAMEDOW",
+    "last_election": "14 December 2008"
+  }
+}

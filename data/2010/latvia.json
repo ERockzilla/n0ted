@@ -1,0 +1,37 @@
+{
+  "country": "Latvia",
+  "region": "Europe",
+  "year": 2010,
+  "demographics": {
+    "population": 2217969,
+    "median_age": 40.4,
+    "population_growth_pct": -0.602,
+    "birth_rate": 9.9,
+    "death_rate": 13.6,
+    "life_expectancy": 72.42
+  },
+  "economy": {
+    "gdp_ppp_billions": 32.2,
+    "gdp_growth_pct": -1.8,
+    "gdp_per_capita": 14500,
+    "unemployment_pct": 19.1,
+    "inflation_pct": -1.2,
+    "electricity_kwh": 4,
+    "exports_billions": 7.894,
+    "imports_billions": 9.153,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 40000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 1.62,
+    "external_debt_billions": 37.28
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 1.2
+  },
+  "political": {
+    "chief_of_state": "Valdis ZATLERS",
+    "head_of_government": "Valdis DOMBROVSKIS",
+    "last_election": "2 October 2010"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "country": "Sweden",
+  "region": "Europe",
+  "year": 2010,
+  "demographics": {
+    "population": 9074055,
+    "median_age": 41.7,
+    "population_growth_pct": 0.16,
+    "birth_rate": 10.14,
+    "death_rate": 10.2,
+    "life_expectancy": 80.97
+  },
+  "economy": {
+    "gdp_ppp_billions": 354.0,
+    "gdp_growth_pct": 4.1,
+    "gdp_per_capita": 39000,
+    "unemployment_pct": 8.3,
+    "inflation_pct": 1.4,
+    "electricity_kwh": 144,
+    "exports_billions": 162.6,
+    "imports_billions": 158.6,
+    "oil_production_bbl_day": 4833,
+    "oil_consumption_bbl_day": 328100,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 21.68,
+    "external_debt_billions": 853.3
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 1.5
+  },
+  "political": {
+    "chief_of_state": "CARL XVI GUSTAF",
+    "head_of_government": "Fredrik REINFELDT",
+    "last_election": "19 September 2010"
+  }
+}

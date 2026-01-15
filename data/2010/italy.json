@@ -1,0 +1,37 @@
+{
+  "country": "Italy",
+  "region": "Europe",
+  "year": 2010,
+  "demographics": {
+    "population": 58090681,
+    "median_age": 43.7,
+    "population_growth_pct": -0.075,
+    "birth_rate": 8.01,
+    "death_rate": 10.83,
+    "life_expectancy": 80.33
+  },
+  "economy": {
+    "gdp_ppp_billions": 1782.0,
+    "gdp_growth_pct": 1.1,
+    "gdp_per_capita": 30700,
+    "unemployment_pct": 8.4,
+    "inflation_pct": 1.4,
+    "electricity_kwh": 289,
+    "exports_billions": 458.4,
+    "imports_billions": 459.7,
+    "oil_production_bbl_day": 146500,
+    "oil_consumption_bbl_day": 1,
+    "gas_production_cu_m": 8,
+    "current_account_billions": 61.98,
+    "external_debt_billions": 2223.0
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 1.8
+  },
+  "political": {
+    "chief_of_state": "Giorgio NAPOLITANO",
+    "head_of_government": "Silvio BERLUSCONI",
+    "last_election": "14 April 2008"
+  }
+}

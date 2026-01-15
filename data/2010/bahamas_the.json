@@ -1,0 +1,38 @@
+{
+  "country": "Bahamas, The",
+  "region": "Central America and Caribbean",
+  "year": 2010,
+  "demographics": {
+    "population": 310426,
+    "median_age": 29.9,
+    "population_growth_pct": 0.935,
+    "birth_rate": 16.25,
+    "death_rate": 6.89,
+    "life_expectancy": 70.84
+  },
+  "economy": {
+    "gdp_ppp_billions": 8.878,
+    "gdp_growth_pct": -0.5,
+    "gdp_per_capita": 28600,
+    "unemployment_pct": 7.6,
+    "poverty_pct": 9.3,
+    "inflation_pct": 2.4,
+    "electricity_kwh": 2,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 36000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.2832,
+    "exports_billions": 0.674,
+    "imports_billions": 2.401,
+    "external_debt_billions": 0.3426
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 0.7
+  },
+  "political": {
+    "chief_of_state": "ELIZABETH II",
+    "head_of_government": "Hubert A. INGRAHAM",
+    "last_election": "2 May 2007"
+  }
+}

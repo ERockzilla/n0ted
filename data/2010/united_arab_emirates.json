@@ -1,0 +1,38 @@
+{
+  "country": "United Arab Emirates",
+  "region": "Middle East",
+  "year": 2010,
+  "demographics": {
+    "population": 4975593,
+    "median_age": 30.2,
+    "population_growth_pct": 3.561,
+    "birth_rate": 15.98,
+    "death_rate": 2.08,
+    "life_expectancy": 76.32
+  },
+  "economy": {
+    "gdp_ppp_billions": 199.8,
+    "gdp_growth_pct": 2.6,
+    "gdp_per_capita": 40200,
+    "unemployment_pct": 2.4,
+    "poverty_pct": 19.5,
+    "inflation_pct": 2.2,
+    "electricity_kwh": 71,
+    "oil_production_bbl_day": 2,
+    "oil_consumption_bbl_day": 435000,
+    "exports_billions": 195.8,
+    "gas_production_cu_m": 50,
+    "imports_billions": 159.0,
+    "current_account_billions": 3.409,
+    "external_debt_billions": 122.7
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 3.1
+  },
+  "political": {
+    "chief_of_state": "KHALIFA bin Zayid Al-Nuhayyan",
+    "head_of_government": "and Vice President MUHAMMAD bin",
+    "last_election": "3 November 2009"
+  }
+}

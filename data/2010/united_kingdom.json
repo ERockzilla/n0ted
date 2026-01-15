@@ -1,0 +1,37 @@
+{
+  "country": "United Kingdom",
+  "region": "Europe",
+  "year": 2010,
+  "demographics": {
+    "population": 62348447,
+    "median_age": 39.8,
+    "population_growth_pct": 0.563,
+    "birth_rate": 12.34,
+    "death_rate": 9.33,
+    "life_expectancy": 79.92
+  },
+  "economy": {
+    "gdp_ppp_billions": 2189.0,
+    "gdp_growth_pct": 1.6,
+    "gdp_per_capita": 35100,
+    "unemployment_pct": 7.9,
+    "poverty_pct": 14.0,
+    "inflation_pct": 3.3,
+    "electricity_kwh": 368,
+    "exports_billions": 405.6,
+    "imports_billions": 546.5,
+    "oil_production_bbl_day": 1,
+    "oil_consumption_bbl_day": 1,
+    "gas_production_cu_m": 58,
+    "current_account_billions": 40.34,
+    "external_debt_billions": 8981.0
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 2.4
+  },
+  "political": {
+    "chief_of_state": "ELIZABETH II",
+    "head_of_government": "David CAMERON"
+  }
+}

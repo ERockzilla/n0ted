@@ -1,0 +1,38 @@
+{
+  "country": "Pakistan",
+  "region": "South Asia",
+  "year": 2010,
+  "demographics": {
+    "population": 184404791,
+    "median_age": 21.2,
+    "population_growth_pct": 1.589,
+    "birth_rate": 25.3,
+    "death_rate": 7.06,
+    "life_expectancy": 65.63
+  },
+  "economy": {
+    "gdp_ppp_billions": 451.2,
+    "gdp_growth_pct": 2.7,
+    "gdp_per_capita": 2400,
+    "unemployment_pct": 15.0,
+    "poverty_pct": 24.0,
+    "inflation_pct": 13.4,
+    "electricity_kwh": 90,
+    "oil_production_bbl_day": 59140,
+    "oil_consumption_bbl_day": 373000,
+    "gas_production_cu_m": 37,
+    "current_account_billions": 2.641,
+    "exports_billions": 20.29,
+    "imports_billions": 32.71,
+    "external_debt_billions": 57.21
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 3.0
+  },
+  "political": {
+    "chief_of_state": "Asif Ali ZARDARI",
+    "head_of_government": "Syed Yousuf Raza GILANI",
+    "last_election": "3 March 2009"
+  }
+}

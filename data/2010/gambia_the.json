@@ -1,0 +1,36 @@
+{
+  "country": "Gambia, The",
+  "region": "Africa",
+  "year": 2010,
+  "demographics": {
+    "population": 1824158,
+    "median_age": 18.0,
+    "population_growth_pct": 2.528,
+    "birth_rate": 37.31,
+    "death_rate": 12.03,
+    "life_expectancy": 54.07
+  },
+  "economy": {
+    "gdp_ppp_billions": 3.406,
+    "gdp_growth_pct": 5.0,
+    "gdp_per_capita": 1900,
+    "inflation_pct": 5.5,
+    "electricity_kwh": 160,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 2000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.09,
+    "exports_billions": 0.107,
+    "imports_billions": 0.306,
+    "external_debt_billions": 0.53
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 0.9
+  },
+  "political": {
+    "chief_of_state": "Yahya A. J. J. JAMMEH",
+    "head_of_government": "Yahya A. J. J. JAMMEH",
+    "last_election": "25 January 2007"
+  }
+}

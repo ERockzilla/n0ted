@@ -1,0 +1,37 @@
+{
+  "country": "Cote d'Ivoire",
+  "region": "Africa",
+  "year": 2010,
+  "demographics": {
+    "population": 21058798,
+    "median_age": 19.4,
+    "population_growth_pct": 2.105,
+    "birth_rate": 31.48,
+    "death_rate": 10.43,
+    "life_expectancy": 56.19
+  },
+  "economy": {
+    "gdp_ppp_billions": 37.8,
+    "gdp_growth_pct": 3.6,
+    "gdp_per_capita": 1800,
+    "poverty_pct": 42.0,
+    "inflation_pct": 1.4,
+    "electricity_kwh": 5,
+    "exports_billions": 10.25,
+    "oil_production_bbl_day": 58950,
+    "oil_consumption_bbl_day": 24000,
+    "gas_production_cu_m": 1,
+    "current_account_billions": 0.534,
+    "imports_billions": 7.015,
+    "external_debt_billions": 11.6
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 1.5
+  },
+  "political": {
+    "chief_of_state": "Alassane OUATTARA",
+    "head_of_government": "Guillaume SORO",
+    "last_election": "10 December 2000"
+  }
+}

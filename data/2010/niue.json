@@ -1,0 +1,27 @@
+{
+  "country": "Niue",
+  "region": "Australia-Oceania",
+  "year": 2010,
+  "demographics": {
+    "population": 1354,
+    "population_growth_pct": -0.032
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.01001,
+    "gdp_growth_pct": 6.2,
+    "gdp_per_capita": 5800,
+    "unemployment_pct": 12.0,
+    "inflation_pct": 4.0,
+    "electricity_kwh": 3,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 2009,
+    "gas_production_cu_m": 0,
+    "imports_billions": 0.009038000000000001
+  },
+  "military": {},
+  "political": {
+    "chief_of_state": "ELIZABETH II",
+    "head_of_government": "Toke TALAGI",
+    "last_election": "7 June 2008"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "country": "Argentina",
+  "region": "South America",
+  "year": 2010,
+  "demographics": {
+    "population": 41343201,
+    "median_age": 30.3,
+    "population_growth_pct": 1.036,
+    "birth_rate": 17.75,
+    "death_rate": 7.39,
+    "life_expectancy": 76.76
+  },
+  "economy": {
+    "gdp_ppp_billions": 596.0,
+    "gdp_growth_pct": 7.5,
+    "gdp_per_capita": 14700,
+    "unemployment_pct": 7.9,
+    "poverty_pct": 30.0,
+    "inflation_pct": 22.0,
+    "electricity_kwh": 109,
+    "exports_billions": 68.01,
+    "imports_billions": 52.61,
+    "oil_production_bbl_day": 796300,
+    "oil_consumption_bbl_day": 622000,
+    "gas_production_cu_m": 41,
+    "current_account_billions": 6.976,
+    "external_debt_billions": 128.6
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 0.8
+  },
+  "political": {
+    "chief_of_state": "Cristina FERNANDEZ DE KIRCHNER",
+    "head_of_government": "Cristina FERNANDEZ DE KIRCHNER",
+    "last_election": "28 June 2009"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "country": "Panama",
+  "region": "Central America and Caribbean",
+  "year": 2010,
+  "demographics": {
+    "population": 3410676,
+    "median_age": 27.2,
+    "population_growth_pct": 1.463,
+    "birth_rate": 19.71,
+    "death_rate": 4.62,
+    "life_expectancy": 77.61
+  },
+  "economy": {
+    "gdp_ppp_billions": 43.48,
+    "gdp_growth_pct": 5.1,
+    "gdp_per_capita": 12700,
+    "unemployment_pct": 4.4,
+    "poverty_pct": 28.6,
+    "inflation_pct": 3.3,
+    "electricity_kwh": 6,
+    "exports_billions": 12.52,
+    "imports_billions": 16.05,
+    "oil_production_bbl_day": 2,
+    "oil_consumption_bbl_day": 93000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.813,
+    "external_debt_billions": 13.85
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 1.0
+  },
+  "political": {
+    "chief_of_state": "Ricardo MARTINELLI Berrocal",
+    "head_of_government": "Ricardo MARTINELLI Berrocal",
+    "last_election": "3 May 2009"
+  }
+}

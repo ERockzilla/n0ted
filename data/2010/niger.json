@@ -1,0 +1,37 @@
+{
+  "country": "Niger",
+  "region": "Africa",
+  "year": 2010,
+  "demographics": {
+    "population": 15878271,
+    "median_age": 15.2,
+    "population_growth_pct": 3.66,
+    "birth_rate": 51.08,
+    "death_rate": 14.47,
+    "life_expectancy": 52.99
+  },
+  "economy": {
+    "gdp_ppp_billions": 10.58,
+    "gdp_growth_pct": 3.5,
+    "gdp_per_capita": 700,
+    "poverty_pct": 63.0,
+    "inflation_pct": 0.1,
+    "electricity_kwh": 150,
+    "imports_billions": 0.8,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 6000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.321,
+    "exports_billions": 0.428,
+    "external_debt_billions": 2.1
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 1.3
+  },
+  "political": {
+    "chief_of_state": "Djibo SALOU, chairman of the Supreme Council for the",
+    "head_of_government": "Mahamadou DANDA",
+    "last_election": "20 October 2009"
+  }
+}

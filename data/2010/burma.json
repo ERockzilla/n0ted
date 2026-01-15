@@ -1,0 +1,38 @@
+{
+  "country": "Burma",
+  "region": "East & Southeast Asia",
+  "year": 2010,
+  "demographics": {
+    "population": 53414374,
+    "median_age": 26.5,
+    "population_growth_pct": 1.096,
+    "birth_rate": 19.49,
+    "death_rate": 8.23,
+    "life_expectancy": 64.52
+  },
+  "economy": {
+    "gdp_ppp_billions": 60.07,
+    "gdp_growth_pct": 3.1,
+    "gdp_per_capita": 1100,
+    "unemployment_pct": 5.7,
+    "poverty_pct": 32.7,
+    "inflation_pct": 9.6,
+    "electricity_kwh": 6,
+    "oil_production_bbl_day": 18880,
+    "oil_consumption_bbl_day": 42000,
+    "gas_production_cu_m": 12,
+    "exports_billions": 7.841,
+    "current_account_billions": 0.652,
+    "imports_billions": 4.532,
+    "external_debt_billions": 7.145
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 2.1
+  },
+  "political": {
+    "chief_of_state": "of the State Peace and Development Council",
+    "head_of_government": "Lt. Gen THEIN SEIN",
+    "last_election": "7 November 2010"
+  }
+}

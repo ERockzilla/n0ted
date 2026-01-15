@@ -1,0 +1,37 @@
+{
+  "country": "India",
+  "region": "South Asia",
+  "year": 2010,
+  "demographics": {
+    "population": 1173108018,
+    "median_age": 25.9,
+    "population_growth_pct": 1.376,
+    "birth_rate": 21.34,
+    "death_rate": 7.53,
+    "life_expectancy": 66.46
+  },
+  "economy": {
+    "gdp_ppp_billions": 4046.0000000000005,
+    "gdp_growth_pct": 8.3,
+    "gdp_per_capita": 3400,
+    "unemployment_pct": 10.8,
+    "poverty_pct": 25.0,
+    "inflation_pct": 11.7,
+    "electricity_kwh": 723,
+    "exports_billions": 201.0,
+    "imports_billions": 327.0,
+    "oil_production_bbl_day": 878700,
+    "oil_consumption_bbl_day": 2,
+    "gas_production_cu_m": 38,
+    "current_account_billions": 26.91,
+    "external_debt_billions": 237.1
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 2.5
+  },
+  "political": {
+    "chief_of_state": "Pratibha Devisingh PATIL",
+    "head_of_government": "Manmohan SINGH"
+  }
+}

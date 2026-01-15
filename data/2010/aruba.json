@@ -1,0 +1,35 @@
+{
+  "country": "Aruba",
+  "region": "Central America and Caribbean",
+  "year": 2010,
+  "demographics": {
+    "population": 104589,
+    "median_age": 38.0,
+    "population_growth_pct": 1.457,
+    "birth_rate": 12.77,
+    "death_rate": 7.76,
+    "life_expectancy": 75.51
+  },
+  "economy": {
+    "gdp_ppp_billions": 2.258,
+    "gdp_growth_pct": 2.4,
+    "gdp_per_capita": 21800,
+    "unemployment_pct": 6.9,
+    "inflation_pct": 3.4,
+    "electricity_kwh": 850,
+    "oil_production_bbl_day": 2235,
+    "oil_consumption_bbl_day": 8000,
+    "gas_production_cu_m": 0,
+    "exports_billions": 0.124,
+    "imports_billions": 1.054,
+    "external_debt_billions": 0.4786
+  },
+  "military": {
+    "manpower_available": 16
+  },
+  "political": {
+    "chief_of_state": "BEATRIX of the Netherlands",
+    "head_of_government": "Michiel Godfried",
+    "last_election": "25 September 2009"
+  }
+}

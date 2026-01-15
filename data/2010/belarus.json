@@ -1,0 +1,38 @@
+{
+  "country": "Belarus",
+  "region": "Europe",
+  "year": 2010,
+  "demographics": {
+    "population": 9612632,
+    "median_age": 38.8,
+    "population_growth_pct": -0.368,
+    "birth_rate": 9.76,
+    "death_rate": 13.81,
+    "life_expectancy": 70.92
+  },
+  "economy": {
+    "gdp_ppp_billions": 128.4,
+    "gdp_growth_pct": 4.8,
+    "gdp_per_capita": 13400,
+    "unemployment_pct": 1.0,
+    "poverty_pct": 27.1,
+    "inflation_pct": 7.0,
+    "electricity_kwh": 29,
+    "exports_billions": 24.49,
+    "imports_billions": 29.79,
+    "oil_production_bbl_day": 31400,
+    "oil_consumption_bbl_day": 173000,
+    "gas_production_cu_m": 152,
+    "current_account_billions": 5.062,
+    "external_debt_billions": 24.8
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 1.4
+  },
+  "political": {
+    "chief_of_state": "Aleksandr LUKASHENKO",
+    "head_of_government": "Mikhail MYASNIKOVICH",
+    "last_election": "28 September 2008"
+  }
+}

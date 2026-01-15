@@ -1,0 +1,37 @@
+{
+  "country": "Burundi",
+  "region": "Africa",
+  "year": 2010,
+  "demographics": {
+    "population": 9863117,
+    "median_age": 16.8,
+    "population_growth_pct": 3.561,
+    "birth_rate": 41.43,
+    "death_rate": 9.87,
+    "life_expectancy": 58.29
+  },
+  "economy": {
+    "gdp_ppp_billions": 3.418,
+    "gdp_growth_pct": 3.9,
+    "gdp_per_capita": 300,
+    "poverty_pct": 68.0,
+    "inflation_pct": 7.2,
+    "electricity_kwh": 92,
+    "imports_billions": 0.336,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 3000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.136,
+    "exports_billions": 0.071,
+    "external_debt_billions": 1.2
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 5.9
+  },
+  "political": {
+    "chief_of_state": "Pierre NKURUNZIZA - Hutu",
+    "head_of_government": "Pierre NKURUNZIZA - Hutu",
+    "last_election": "23 July 2010"
+  }
+}

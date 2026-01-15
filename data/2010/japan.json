@@ -1,0 +1,37 @@
+{
+  "country": "Japan",
+  "region": "East & Southeast Asia",
+  "year": 2010,
+  "demographics": {
+    "population": 126804433,
+    "median_age": 44.6,
+    "population_growth_pct": -0.242,
+    "birth_rate": 7.41,
+    "death_rate": 9.83,
+    "life_expectancy": 82.17
+  },
+  "economy": {
+    "gdp_ppp_billions": 4338.0,
+    "gdp_growth_pct": 3.0,
+    "gdp_per_capita": 34200,
+    "unemployment_pct": 5.2,
+    "inflation_pct": -0.9,
+    "electricity_kwh": 957,
+    "oil_production_bbl_day": 132700,
+    "oil_consumption_bbl_day": 4,
+    "imports_billions": 636.8,
+    "gas_production_cu_m": 3,
+    "current_account_billions": 182.3,
+    "exports_billions": 735.8,
+    "external_debt_billions": 2246.0
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 0.8
+  },
+  "political": {
+    "chief_of_state": "Emperor AKIHITO",
+    "head_of_government": "Naoto KAN",
+    "last_election": "11 July 2010"
+  }
+}

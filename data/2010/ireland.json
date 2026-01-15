@@ -1,0 +1,38 @@
+{
+  "country": "Ireland",
+  "region": "Europe",
+  "year": 2010,
+  "demographics": {
+    "population": 4622917,
+    "median_age": 34.5,
+    "population_growth_pct": 1.007,
+    "birth_rate": 16.37,
+    "death_rate": 6.3,
+    "life_expectancy": 80.07
+  },
+  "economy": {
+    "gdp_ppp_billions": 174.0,
+    "gdp_growth_pct": -0.6,
+    "gdp_per_capita": 37600,
+    "unemployment_pct": 13.7,
+    "poverty_pct": 4.2,
+    "inflation_pct": -1.5,
+    "electricity_kwh": 26,
+    "exports_billions": 115.7,
+    "imports_billions": 70.36,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 164600,
+    "gas_production_cu_m": 392,
+    "current_account_billions": 3.191,
+    "external_debt_billions": 2131.0
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 0.9
+  },
+  "political": {
+    "chief_of_state": "Mary MCALEESE",
+    "head_of_government": "Taoiseach",
+    "last_election": "31 October 1997"
+  }
+}

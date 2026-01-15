@@ -1,0 +1,37 @@
+{
+  "country": "Iceland",
+  "region": "Europe",
+  "year": 2010,
+  "demographics": {
+    "population": 308910,
+    "median_age": 35.4,
+    "population_growth_pct": 0.699,
+    "birth_rate": 13.36,
+    "death_rate": 6.9,
+    "life_expectancy": 80.79
+  },
+  "economy": {
+    "gdp_ppp_billions": 11.86,
+    "gdp_growth_pct": -3.4,
+    "gdp_per_capita": 38400,
+    "unemployment_pct": 8.6,
+    "inflation_pct": 5.5,
+    "electricity_kwh": 16,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 18900,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.042,
+    "exports_billions": 4.619,
+    "imports_billions": 3.677,
+    "external_debt_billions": 3.073
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 0.0
+  },
+  "political": {
+    "chief_of_state": "Olafur Ragnar GRIMSSON",
+    "head_of_government": "Johanna SIGURDARDOTTIR",
+    "last_election": "25 April 2009"
+  }
+}

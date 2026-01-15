@@ -1,0 +1,37 @@
+{
+  "country": "Equatorial Guinea",
+  "region": "Africa",
+  "year": 2010,
+  "demographics": {
+    "population": 650702,
+    "median_age": 19.0,
+    "population_growth_pct": 2.674,
+    "birth_rate": 36.0,
+    "death_rate": 9.26,
+    "life_expectancy": 61.98
+  },
+  "economy": {
+    "gdp_ppp_billions": 24.66,
+    "gdp_growth_pct": 2.0,
+    "gdp_per_capita": 37900,
+    "unemployment_pct": 30.0,
+    "inflation_pct": 8.2,
+    "electricity_kwh": 28,
+    "oil_production_bbl_day": 346000,
+    "oil_consumption_bbl_day": 1000,
+    "gas_production_cu_m": 6,
+    "exports_billions": 10.24,
+    "current_account_billions": 1.477,
+    "imports_billions": 5.743,
+    "external_debt_billions": 0.832
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 0.1
+  },
+  "political": {
+    "chief_of_state": "Brig. Gen.",
+    "head_of_government": "Ignacio MILAM Tang",
+    "last_election": "4 May 2008"
+  }
+}

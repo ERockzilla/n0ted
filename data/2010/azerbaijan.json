@@ -1,0 +1,38 @@
+{
+  "country": "Azerbaijan",
+  "region": "Middle East",
+  "year": 2010,
+  "demographics": {
+    "population": 8303512,
+    "median_age": 28.5,
+    "population_growth_pct": 0.805,
+    "birth_rate": 17.75,
+    "death_rate": 8.28,
+    "life_expectancy": 67.01
+  },
+  "economy": {
+    "gdp_ppp_billions": 90.15,
+    "gdp_growth_pct": 3.7,
+    "gdp_per_capita": 11000,
+    "unemployment_pct": 0.9,
+    "poverty_pct": 11.0,
+    "inflation_pct": 5.1,
+    "electricity_kwh": 18,
+    "exports_billions": 28.07,
+    "imports_billions": 7.035,
+    "oil_production_bbl_day": 1,
+    "oil_consumption_bbl_day": 136000,
+    "gas_production_cu_m": 23,
+    "current_account_billions": 15.96,
+    "external_debt_billions": 3.221
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 2.6
+  },
+  "political": {
+    "chief_of_state": "Ilham ALIYEV",
+    "head_of_government": "Artur RASIZADE",
+    "last_election": "7 November 2010"
+  }
+}

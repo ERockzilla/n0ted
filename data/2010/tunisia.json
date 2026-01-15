@@ -1,0 +1,38 @@
+{
+  "country": "Tunisia",
+  "region": "Africa",
+  "year": 2010,
+  "demographics": {
+    "population": 10589025,
+    "median_age": 29.7,
+    "population_growth_pct": 0.969,
+    "birth_rate": 15.31,
+    "death_rate": 5.24,
+    "life_expectancy": 75.99
+  },
+  "economy": {
+    "gdp_ppp_billions": 100.3,
+    "gdp_growth_pct": 3.4,
+    "gdp_per_capita": 9500,
+    "unemployment_pct": 14.0,
+    "poverty_pct": 3.8,
+    "inflation_pct": 4.5,
+    "electricity_kwh": 11,
+    "exports_billions": 16.11,
+    "imports_billions": 20.02,
+    "oil_production_bbl_day": 91380,
+    "oil_consumption_bbl_day": 89000,
+    "gas_production_cu_m": 2,
+    "current_account_billions": 1.389,
+    "external_debt_billions": 18.76
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 1.4
+  },
+  "political": {
+    "chief_of_state": "Zine el Abidine BEN ALI",
+    "head_of_government": "Mohamed GHANNOUCHI",
+    "last_election": "3 July 2005"
+  }
+}

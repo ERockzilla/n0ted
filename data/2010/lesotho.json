@@ -1,0 +1,38 @@
+{
+  "country": "Lesotho",
+  "region": "Africa",
+  "year": 2010,
+  "demographics": {
+    "population": 1919552,
+    "median_age": 22.6,
+    "population_growth_pct": 0.277,
+    "birth_rate": 27.17,
+    "death_rate": 15.71,
+    "life_expectancy": 50.67
+  },
+  "economy": {
+    "gdp_ppp_billions": 3.31,
+    "gdp_growth_pct": 3.5,
+    "gdp_per_capita": 1700,
+    "unemployment_pct": 45.0,
+    "poverty_pct": 49.0,
+    "inflation_pct": 6.1,
+    "electricity_kwh": 502,
+    "imports_billions": 1.766,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 2000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.125,
+    "exports_billions": 0.985,
+    "external_debt_billions": 0.647
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 2.6
+  },
+  "political": {
+    "chief_of_state": "LETSIE III",
+    "head_of_government": "Pakalitha MOSISILI",
+    "last_election": "17 February 2007"
+  }
+}

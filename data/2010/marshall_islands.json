@@ -1,0 +1,31 @@
+{
+  "country": "Marshall Islands",
+  "region": "Australia-Oceania",
+  "year": 2010,
+  "demographics": {
+    "population": 65859,
+    "median_age": 21.5,
+    "population_growth_pct": 2.023,
+    "birth_rate": 29.94,
+    "death_rate": 4.42,
+    "life_expectancy": 71.48
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.1335,
+    "gdp_growth_pct": -0.3,
+    "gdp_per_capita": 2500,
+    "unemployment_pct": 36.0,
+    "inflation_pct": 12.9,
+    "exports_billions": 0.019399999999999997,
+    "imports_billions": 0.07940000000000001,
+    "external_debt_billions": 0.087
+  },
+  "military": {
+    "manpower_available": 16
+  },
+  "political": {
+    "chief_of_state": "Jurelang ZEDKAIA",
+    "head_of_government": "Jurelang ZEDKAIA",
+    "last_election": "19 November 2007"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "country": "Qatar",
+  "region": "Middle East",
+  "year": 2010,
+  "demographics": {
+    "population": 840926,
+    "median_age": 30.8,
+    "population_growth_pct": 0.869,
+    "birth_rate": 15.54,
+    "death_rate": 2.44,
+    "life_expectancy": 75.51
+  },
+  "economy": {
+    "gdp_ppp_billions": 122.2,
+    "gdp_growth_pct": 19.4,
+    "gdp_per_capita": 145300,
+    "unemployment_pct": 0.5,
+    "inflation_pct": 1.1,
+    "electricity_kwh": 15,
+    "oil_production_bbl_day": 1,
+    "oil_consumption_bbl_day": 142000,
+    "gas_production_cu_m": 76,
+    "exports_billions": 57.82,
+    "current_account_billions": 20.11,
+    "imports_billions": 23.38,
+    "external_debt_billions": 71.38
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 10.0
+  },
+  "political": {
+    "chief_of_state": "Amir HAMAD bin Khalifa Al Thani",
+    "head_of_government": "HAMAD bin Jasim bin Jabir Al"
+  }
+}

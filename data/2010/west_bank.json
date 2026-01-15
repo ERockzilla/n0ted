@@ -1,0 +1,30 @@
+{
+  "country": "West Bank",
+  "region": "Middle East",
+  "year": 2010,
+  "demographics": {
+    "population": 2514845,
+    "median_age": 20.9,
+    "population_growth_pct": 2.13,
+    "birth_rate": 24.91,
+    "death_rate": 3.62,
+    "life_expectancy": 74.78
+  },
+  "economy": {
+    "gdp_ppp_billions": 12.79,
+    "gdp_growth_pct": 7.0,
+    "gdp_per_capita": 2900,
+    "unemployment_pct": 16.5,
+    "poverty_pct": 46.0,
+    "inflation_pct": 3.5,
+    "electricity_kwh": 500,
+    "imports_billions": 3.772,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 24000,
+    "gas_production_cu_m": 0,
+    "exports_billions": 0.529,
+    "external_debt_billions": 1.04
+  },
+  "military": {},
+  "political": {}
+}

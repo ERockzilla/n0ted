@@ -1,0 +1,37 @@
+{
+  "country": "Madagascar",
+  "region": "Africa",
+  "year": 2010,
+  "demographics": {
+    "population": 21281844,
+    "median_age": 18.1,
+    "population_growth_pct": 2.993,
+    "birth_rate": 37.89,
+    "death_rate": 7.97,
+    "life_expectancy": 63.26
+  },
+  "economy": {
+    "gdp_ppp_billions": 20.73,
+    "gdp_growth_pct": 1.5,
+    "gdp_per_capita": 1000,
+    "poverty_pct": 50.0,
+    "inflation_pct": 8.1,
+    "electricity_kwh": 1,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 21000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.6,
+    "exports_billions": 1.412,
+    "imports_billions": 1.958,
+    "external_debt_billions": 2.973
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 1.0
+  },
+  "political": {
+    "chief_of_state": "Andry RAJOELINA",
+    "head_of_government": "Albert Camille VITAL",
+    "last_election": "23 September 2007"
+  }
+}

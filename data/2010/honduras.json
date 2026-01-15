@@ -1,0 +1,38 @@
+{
+  "country": "Honduras",
+  "region": "Central America and Caribbean",
+  "year": 2010,
+  "demographics": {
+    "population": 7989415,
+    "median_age": 20.7,
+    "population_growth_pct": 1.935,
+    "birth_rate": 25.61,
+    "death_rate": 4.99,
+    "life_expectancy": 70.51
+  },
+  "economy": {
+    "gdp_ppp_billions": 33.77,
+    "gdp_growth_pct": 2.5,
+    "gdp_per_capita": 4200,
+    "unemployment_pct": 5.1,
+    "poverty_pct": 65.0,
+    "inflation_pct": 4.6,
+    "electricity_kwh": 6,
+    "imports_billions": 8.878,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 56000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 1.048,
+    "exports_billions": 5.879,
+    "external_debt_billions": 3.54
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 0.6
+  },
+  "political": {
+    "chief_of_state": "Porfirio LOBO Sosa",
+    "head_of_government": "Porfirio LOBO Sosa",
+    "last_election": "29 November 2009"
+  }
+}

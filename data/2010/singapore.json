@@ -1,0 +1,37 @@
+{
+  "country": "Singapore",
+  "region": "East & Southeast Asia",
+  "year": 2010,
+  "demographics": {
+    "population": 4701069,
+    "median_age": 39.6,
+    "population_growth_pct": 0.863,
+    "birth_rate": 8.65,
+    "death_rate": 4.8,
+    "life_expectancy": 82.06
+  },
+  "economy": {
+    "gdp_ppp_billions": 292.2,
+    "gdp_growth_pct": 14.6,
+    "gdp_per_capita": 62200,
+    "unemployment_pct": 2.3,
+    "inflation_pct": 2.6,
+    "electricity_kwh": 41,
+    "oil_production_bbl_day": 9667,
+    "oil_consumption_bbl_day": 878000,
+    "exports_billions": 358.3,
+    "imports_billions": 315.6,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 40.44,
+    "external_debt_billions": 21.66
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 4.9
+  },
+  "political": {
+    "chief_of_state": "S R NATHAN",
+    "head_of_government": "LEE Hsien Loong",
+    "last_election": "6 May 2006"
+  }
+}

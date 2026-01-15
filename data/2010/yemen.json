@@ -1,0 +1,38 @@
+{
+  "country": "Yemen",
+  "region": "Middle East",
+  "year": 2010,
+  "demographics": {
+    "population": 23495361,
+    "median_age": 17.9,
+    "population_growth_pct": 2.713,
+    "birth_rate": 34.37,
+    "death_rate": 7.24,
+    "life_expectancy": 63.36
+  },
+  "economy": {
+    "gdp_ppp_billions": 61.88,
+    "gdp_growth_pct": 5.2,
+    "gdp_per_capita": 2600,
+    "unemployment_pct": 35.0,
+    "poverty_pct": 45.2,
+    "inflation_pct": 12.2,
+    "electricity_kwh": 5,
+    "oil_production_bbl_day": 288400,
+    "oil_consumption_bbl_day": 155000,
+    "gas_production_cu_m": 454700,
+    "current_account_billions": 2.181,
+    "exports_billions": 7.462,
+    "imports_billions": 8.35,
+    "external_debt_billions": 7.147
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 6.6
+  },
+  "political": {
+    "chief_of_state": "Ali Abdallah SALIH",
+    "head_of_government": "Ali Muhammad MUJAWWAR",
+    "last_election": "27 April 2003"
+  }
+}

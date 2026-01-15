@@ -1,0 +1,34 @@
+{
+  "country": "Macau",
+  "region": "East & Southeast Asia",
+  "year": 2010,
+  "demographics": {
+    "population": 567957,
+    "median_age": 35.6,
+    "population_growth_pct": 0.89,
+    "birth_rate": 8.98,
+    "death_rate": 3.6,
+    "life_expectancy": 84.38
+  },
+  "economy": {
+    "gdp_ppp_billions": 18.47,
+    "gdp_growth_pct": 1.0,
+    "gdp_per_capita": 33000,
+    "unemployment_pct": 3.6,
+    "inflation_pct": 1.2,
+    "electricity_kwh": 1,
+    "imports_billions": 4.5,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 16000,
+    "gas_production_cu_m": 0,
+    "exports_billions": 0.95
+  },
+  "military": {
+    "manpower_available": 16
+  },
+  "political": {
+    "chief_of_state": "of China HU Jintao",
+    "head_of_government": "Chief Executive Fernando CHUI Sai-on",
+    "last_election": "20 September 2009"
+  }
+}

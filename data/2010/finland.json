@@ -1,0 +1,37 @@
+{
+  "country": "Finland",
+  "region": "Europe",
+  "year": 2010,
+  "demographics": {
+    "population": 5255068,
+    "median_age": 42.3,
+    "population_growth_pct": 0.084,
+    "birth_rate": 10.37,
+    "death_rate": 10.15,
+    "life_expectancy": 79.13
+  },
+  "economy": {
+    "gdp_ppp_billions": 185.4,
+    "gdp_growth_pct": 2.1,
+    "gdp_per_capita": 35300,
+    "unemployment_pct": 7.9,
+    "inflation_pct": 1.1,
+    "electricity_kwh": 77,
+    "exports_billions": 73.53,
+    "imports_billions": 69.11,
+    "oil_production_bbl_day": 8718,
+    "oil_consumption_bbl_day": 206200,
+    "gas_production_cu_m": 2008,
+    "current_account_billions": 4.696,
+    "external_debt_billions": 370.8
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 2.0
+  },
+  "political": {
+    "chief_of_state": "Tarja HALONEN",
+    "head_of_government": "Mari KIVINIEMI",
+    "last_election": "18 March 2007"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "country": "Tanzania",
+  "region": "Africa",
+  "year": 2010,
+  "demographics": {
+    "population": 41892895,
+    "median_age": 18.3,
+    "population_growth_pct": 2.032,
+    "birth_rate": 33.44,
+    "death_rate": 12.31,
+    "life_expectancy": 52.49
+  },
+  "economy": {
+    "gdp_ppp_billions": 62.22,
+    "gdp_growth_pct": 6.4,
+    "gdp_per_capita": 1500,
+    "poverty_pct": 36.0,
+    "inflation_pct": 7.2,
+    "electricity_kwh": 3,
+    "imports_billions": 6.334,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 34000,
+    "gas_production_cu_m": 560,
+    "current_account_billions": 1.523,
+    "exports_billions": 3.809,
+    "external_debt_billions": 7.576
+  },
+  "military": {
+    "manpower_available": 16,
+    "expenditure_pct_gdp": 0.2
+  },
+  "political": {
+    "chief_of_state": "Jakaya KIKWETE",
+    "head_of_government": "Jakaya KIKWETE",
+    "last_election": "14 December 2005"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "country": "Saint Lucia",
+  "region": "Central America and Caribbean",
+  "year": 2010,
+  "demographics": {
+    "population": 160922,
+    "median_age": 30.3,
+    "population_growth_pct": 0.398,
+    "birth_rate": 14.81,
+    "death_rate": 6.9,
+    "life_expectancy": 76.65
+  },
+  "economy": {
+    "gdp_ppp_billions": 1.789,
+    "gdp_growth_pct": 1.1,
+    "gdp_per_capita": 11100,
+    "unemployment_pct": 20.0,
+    "inflation_pct": 1.9,
+    "electricity_kwh": 325,
+    "oil_production_bbl_day": 0,
+    "oil_consumption_bbl_day": 3000,
+    "gas_production_cu_m": 0,
+    "current_account_billions": 0.199,
+    "exports_billions": 0.288,
+    "imports_billions": 0.791,
+    "external_debt_billions": 0.257
+  },
+  "military": {
+    "manpower_available": 16
+  },
+  "political": {
+    "chief_of_state": "ELIZABETH II",
+    "head_of_government": "Stephenson KING",
+    "last_election": "11 December 2006"
+  }
+}

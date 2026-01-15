@@ -1,0 +1,23 @@
+{
+  "country": "Gaza Strip",
+  "region": "Middle East",
+  "year": 2010,
+  "demographics": {
+    "population": 1604238,
+    "median_age": 17.5,
+    "population_growth_pct": 3.29,
+    "birth_rate": 36.26,
+    "death_rate": 3.36,
+    "life_expectancy": 73.68
+  },
+  "economy": {
+    "unemployment_pct": 40.0,
+    "poverty_pct": 70.0,
+    "inflation_pct": 9.9,
+    "electricity_kwh": 65000
+  },
+  "military": {
+    "manpower_available": 16
+  },
+  "political": {}
+}
