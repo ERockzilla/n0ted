@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
+import Navigation from '@/components/Navigation';
 
 interface CountryData {
     country: string;
@@ -99,21 +100,7 @@ export default function ComparePage() {
 
     return (
         <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
-            {/* Header */}
-            <header className="border-b border-slate-700/50 backdrop-blur-sm bg-slate-900/50 sticky top-0 z-50">
-                <div className="max-w-7xl mx-auto px-6 py-4">
-                    <div className="flex items-center justify-between">
-                        <Link href="/" className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
-                            🌍 GeoForecaster
-                        </Link>
-                        <nav className="flex gap-6">
-                            <Link href="/" className="text-slate-300 hover:text-white transition">Dashboard</Link>
-                            <Link href="/countries" className="text-slate-300 hover:text-white transition">Countries</Link>
-                            <Link href="/compare" className="text-cyan-400 font-medium">Compare</Link>
-                        </nav>
-                    </div>
-                </div>
-            </header>
+            <Navigation />
 
             <main className="max-w-7xl mx-auto px-6 py-8">
                 <h1 className="text-3xl font-bold text-white mb-2">Compare Countries</h1>

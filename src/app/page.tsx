@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { loadAllCountries, getRegions, formatNumber, formatPercent, formatBillions } from '@/lib/data';
+import Navigation from '@/components/Navigation';
 
 export default function Home() {
   const countries = loadAllCountries(2010);
@@ -25,25 +26,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
-      {/* Header */}
-      <header className="border-b border-slate-700/50 backdrop-blur-sm bg-slate-900/50 sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-6 py-4">
-          <div className="flex items-center justify-between">
-            <div>
-              <h1 className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
-                🌍 GeoForecaster
-              </h1>
-              <p className="text-sm text-slate-400">CIA World Factbook Analysis • 2010</p>
-            </div>
-            <nav className="flex gap-6">
-              <Link href="/" className="text-cyan-400 font-medium">Dashboard</Link>
-              <Link href="/countries" className="text-slate-300 hover:text-white transition">Countries</Link>
-              <Link href="/globe" className="text-slate-300 hover:text-white transition">Globe 3D</Link>
-              <Link href="/compare" className="text-slate-300 hover:text-white transition">Compare</Link>
-            </nav>
-          </div>
-        </div>
-      </header>
+      <Navigation />
 
       <main className="max-w-7xl mx-auto px-6 py-8">
         {/* Global Stats */}

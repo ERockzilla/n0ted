@@ -72,7 +72,7 @@ Designed for **AWS Amplify** with high-security standards:
 - **Content-Security-Policy (CSP)**: Strict resource control.
 - **Permissions-Policy**: Locks down device features (Camera, Mic, Location).
 
-Deployed at: `https://forecaster.rockrun.systems` (Coming Soon)
+Deployed at: `https://rockrun.cloud`
 
 ---
 

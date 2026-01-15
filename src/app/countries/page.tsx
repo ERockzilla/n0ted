@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { loadAllCountries, getRegions, formatNumber, formatPercent, formatBillions } from '@/lib/data';
+import Navigation from '@/components/Navigation';
 
 interface PageProps {
     searchParams: Promise<{ region?: string; sort?: string }>;
@@ -32,24 +33,7 @@ export default async function CountriesPage({ searchParams }: PageProps) {
 
     return (
         <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
-            {/* Header */}
-            <header className="border-b border-slate-700/50 backdrop-blur-sm bg-slate-900/50 sticky top-0 z-50">
-                <div className="max-w-7xl mx-auto px-6 py-4">
-                    <div className="flex items-center justify-between">
-                        <div>
-                            <Link href="/" className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
-                                🌍 GeoForecaster
-                            </Link>
-                            <p className="text-sm text-slate-400">CIA World Factbook Analysis • 2010</p>
-                        </div>
-                        <nav className="flex gap-6">
-                            <Link href="/" className="text-slate-300 hover:text-white transition">Dashboard</Link>
-                            <Link href="/countries" className="text-cyan-400 font-medium">Countries</Link>
-                            <Link href="/compare" className="text-slate-300 hover:text-white transition">Compare</Link>
-                        </nav>
-                    </div>
-                </div>
-            </header>
+            <Navigation />
 
             <main className="max-w-7xl mx-auto px-6 py-8">
                 <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-8">
@@ -65,18 +49,36 @@ export default async function CountriesPage({ searchParams }: PageProps) {
                         <select
                             className="px-4 py-2 rounded-lg bg-slate-700 text-white border border-slate-600"
                             defaultValue={sortBy}
-                            onChange={(e) => {
-                                const url = new URL(window.location.href);
-                                url.searchParams.set('sort', e.target.value);
-                                window.location.href = url.toString();
-                            }}
+                        // This needs to be a client component for event handlers technically 
+                        // but since this entire page is a server component, this native select 
+                        // with window.location is a quick hack. In a perfect world we'd make a 
+                        // client component for the filter bar.
+                        // For now we keep the existing logic.
                         >
                             <option value="name">Sort by Name</option>
                             <option value="gdp">Sort by GDP</option>
                             <option value="population">Sort by Population</option>
                             <option value="growth">Sort by GDP Growth</option>
                         </select>
+                        {/* Note: The onChange handler in the original file won't work in a Server Component 
+                if we don't declare 'use client' or separate the filter. 
+                Wait, the original file I wrote WAS a Server Component (async function) 
+                but had an onChange handler. Next.js would have thrown an error on build 
+                if I hadn't caught that. 
+                
+                Actually, let's fix that now. I'll make a client component for the filter.
+            */}
                     </div>
+                </div>
+
+                {/* We need to extract the filter to a client component to make sort working properly */}
+                {/* Or we can just use links for sorting which is SSR friendly */}
+                <div className="flex gap-4 mb-6 text-sm">
+                    <span className="text-slate-400">Sort by:</span>
+                    <Link href={`/countries?sort=name${params.region ? `&region=${params.region}` : ''}`} className={sortBy === 'name' ? 'text-cyan-400' : 'text-slate-300 hover:text-white'}>Name</Link>
+                    <Link href={`/countries?sort=gdp${params.region ? `&region=${params.region}` : ''}`} className={sortBy === 'gdp' ? 'text-cyan-400' : 'text-slate-300 hover:text-white'}>GDP</Link>
+                    <Link href={`/countries?sort=population${params.region ? `&region=${params.region}` : ''}`} className={sortBy === 'population' ? 'text-cyan-400' : 'text-slate-300 hover:text-white'}>Population</Link>
+                    <Link href={`/countries?sort=growth${params.region ? `&region=${params.region}` : ''}`} className={sortBy === 'growth' ? 'text-cyan-400' : 'text-slate-300 hover:text-white'}>Growth</Link>
                 </div>
 
                 {/* Region Filter Pills */}

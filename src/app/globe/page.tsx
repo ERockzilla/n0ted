@@ -1,28 +1,14 @@
 import Link from 'next/link';
 import { loadAllCountries } from '@/lib/data';
 import InteractiveGlobe from '@/components/InteractiveGlobe';
+import Navigation from '@/components/Navigation';
 
 export default function GlobePage() {
     const countries = loadAllCountries(2010);
 
     return (
         <div className="min-h-screen bg-black overflow-hidden flex flex-col">
-            {/* Absolute Header Overlay */}
-            <header className="absolute top-0 left-0 w-full z-50 p-6 bg-gradient-to-b from-black/80 to-transparent pointer-events-none">
-                <div className="max-w-7xl mx-auto flex items-center justify-between pointer-events-auto">
-                    <div>
-                        <Link href="/" className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
-                            🌍 GeoForecaster
-                        </Link>
-                        <p className="text-sm text-slate-300">Global GDP Visualization • 2010</p>
-                    </div>
-                    <nav className="flex gap-6">
-                        <Link href="/" className="text-slate-300 hover:text-white transition shadow-black drop-shadow-md">Dashboard</Link>
-                        <Link href="/countries" className="text-slate-300 hover:text-white transition shadow-black drop-shadow-md">Countries</Link>
-                        <Link href="/globe" className="text-cyan-400 font-medium shadow-black drop-shadow-md">Globe 3D</Link>
-                    </nav>
-                </div>
-            </header>
+            <Navigation transparent />
 
             {/* Main Content */}
             <main className="flex-1 relative">
