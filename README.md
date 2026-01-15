@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌍 GeoForecaster
 
-## Getting Started
+A geopolitical super-forecasting platform that extracts and visualizes time-varying data from CIA World Factbook editions for trend analysis.
 
-First, run the development server:
+![Dashboard Preview](docs/dashboard.png)
+
+## 📋 Project Scope
+
+### Current Capabilities
+- **Data Source**: 2010 CIA World Factbook (parsed from raw HTML).
+- **Core Dataset**: Focuses on time-varying indicators relevant for forecasting:
+    - **Demographics**: Population (adjusted for density), Growth Rates, Median Age.
+    - **Economy**: GDP (PPP), Trade Balance, Debt, Energy Production.
+    - **Political**: Leadership and Election cycles.
+    - **Military**: Expenditures and Manpower.
+- **Visualization**: Dashboard with global stats, leaderboards, and side-by-side comparison tables.
+
+### Future Roadmap
+- **Interactive 3D Globe**: Immersive visualization of geopolitical power indices (GDP, Military) on a 3D Earth using `globe.gl`.
+- **Trend Analysis**: Ingestion of multi-year datasets (1990-2025) to generate time-series graphs and detect significant geopolitical shifts (e.g., "Rapid Militarization Alert" or "Economic Collapse Warning").
+
+---
+
+## 🚀 Quick Start
 
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Open http://localhost:3000
+```
+*(See `extract_factbook.py` notes below for data ingestion)*
+
+---
+
+## 🏗️ Architecture
+
+```
+/
+├── extract_factbook.py    # Python extraction script (Stream processing ~18MB HTML)
+├── merge_timeseries.py    # Trend detection utility
+├── data/                  # Extracted JSON data (No database required)
+│   ├── 2010/              # Per-year country files
+│   └── _merged/           # Time-series aggregations
+└── src/                   # Next.js Application
+    ├── app/               # App Router & API
+    └── components/        # UI (Globe, Charts)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📥 Adding Data (Trend Analysis)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+To enable forecasting capabilities, you can feed the system additional Factbook years.
+We recommend **Project Gutenberg** or **CIA Archives** for editions like:
+- **2000** (Pre-9/11 Baseline)
+- **2015** (Mid-decade Checkpoint)
+- **2025** (Current State)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Workflow**:
+1. Download HTML factbook.
+2. Run extraction: `python extract_factbook.py factbook_2015.html --year 2015`
+3. Run merge: `python merge_timeseries.py`
+4. Application automatically visualizes the new historical context.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🔐 Security & Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Designed for **AWS Amplify** with high-security standards:
+- **Strict-Transport-Security (HSTS)**: Enforced HTTPS.
+- **Content-Security-Policy (CSP)**: Strict resource control.
+- **Permissions-Policy**: Locks down device features (Camera, Mic, Location).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Deployed at: `https://forecaster.rockrun.systems` (Coming Soon)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Data source: CIA World Factbook (Public Domain)
+Code: MIT License

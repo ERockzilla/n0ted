@@ -38,6 +38,7 @@ export default function Home() {
             <nav className="flex gap-6">
               <Link href="/" className="text-cyan-400 font-medium">Dashboard</Link>
               <Link href="/countries" className="text-slate-300 hover:text-white transition">Countries</Link>
+              <Link href="/globe" className="text-slate-300 hover:text-white transition">Globe 3D</Link>
               <Link href="/compare" className="text-slate-300 hover:text-white transition">Compare</Link>
             </nav>
           </div>
