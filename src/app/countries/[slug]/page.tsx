@@ -1,10 +1,12 @@
 import Link from 'next/link';
-import { loadCountry, formatNumber, formatPercent, formatBillions } from '@/lib/data';
+import { loadCountry, loadAllCountries, formatNumber, formatPercent, formatBillions } from '@/lib/data';
 import { notFound } from 'next/navigation';
 import fs from 'fs';
 import path from 'path';
 
 import Navigation from '@/components/Navigation';
+import { generateCountryInsights, Insight } from '@/lib/insights';
+import { calculateRiskProfile } from '@/lib/analysis';
 
 interface PageProps {
     params: Promise<{ slug: string }>;
@@ -18,6 +20,15 @@ export default async function CountryPage({ params }: PageProps) {
     if (!country) {
         notFound();
     }
+
+    // Load all countries for comparison/insights
+    const allCountries = loadAllCountries(2010);
+    
+    // Generate insights
+    const insights = generateCountryInsights(country, allCountries);
+    
+    // Calculate risk profile
+    const riskProfile = calculateRiskProfile(country, allCountries);
 
     const d = country.demographics;
     const e = country.economy;
@@ -33,14 +44,62 @@ export default async function CountryPage({ params }: PageProps) {
                 <div className="flex items-center gap-2 text-sm text-slate-400 mb-6">
                     <Link href="/countries" className="hover:text-white transition">Countries</Link>
                     <span>/</span>
+                    <Link href={`/regions/${encodeURIComponent(country.region.replace(/\s+/g, '_'))}`} className="hover:text-white transition">
+                        {country.region}
+                    </Link>
+                    <span>/</span>
                     <span className="text-white">{country.country}</span>
                 </div>
 
-                {/* Title Section */}
-                <div className="mb-10">
-                    <h1 className="text-4xl font-bold text-white mb-2">{country.country}</h1>
-                    <p className="text-xl text-slate-400">{country.region} • {country.year}</p>
+                {/* Title Section with Risk Score */}
+                <div className="flex flex-col md:flex-row md:items-start justify-between gap-4 mb-10">
+                    <div>
+                        <h1 className="text-4xl font-bold text-white mb-2">{country.country}</h1>
+                        <p className="text-xl text-slate-400">{country.region} • {country.year}</p>
+                    </div>
+                    
+                    {/* Risk Score Card */}
+                    <div className="flex items-center gap-4 p-4 rounded-xl bg-slate-800/50 border border-slate-700/50">
+                        <div className="text-center">
+                            <div 
+                                className="w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold border-4"
+                                style={{ 
+                                    borderColor: riskProfile.score.color,
+                                    color: riskProfile.score.color 
+                                }}
+                            >
+                                {riskProfile.score.overall}
+                            </div>
+                            <p className="text-xs text-slate-400 mt-1">Stability</p>
+                        </div>
+                        <div className="text-sm">
+                            <p className="font-medium" style={{ color: riskProfile.score.color }}>
+                                {riskProfile.score.label} Risk
+                            </p>
+                            <p className="text-slate-500">
+                                #{riskProfile.rank} Global • #{riskProfile.regionalRank} in {country.region}
+                            </p>
+                            <Link 
+                                href="/analysis" 
+                                className="text-cyan-400 hover:text-cyan-300 text-xs"
+                            >
+                                View full analysis →
+                            </Link>
+                        </div>
+                    </div>
                 </div>
+
+                {/* AI Insights */}
+                {insights.length > 0 && (
+                    <section className="mb-8">
+                        <h2 className="text-lg font-semibold text-slate-300 mb-4">💡 Key Insights</h2>
+                        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+                            {insights.map(insight => (
+                                <InsightCard key={insight.id} insight={insight} />
+                            ))}
+                        </div>
+                    </section>
+                )}
 
                 {/* Political Leadership */}
                 {(p.chief_of_state || p.head_of_government) && (
@@ -127,16 +186,92 @@ export default async function CountryPage({ params }: PageProps) {
                     </section>
                 </div>
 
-                {/* Back Link */}
-                <div className="mt-10">
+                {/* Risk Score Breakdown */}
+                <section className="mt-8 p-6 rounded-2xl bg-slate-800/50 border border-slate-700/50">
+                    <h2 className="text-lg font-semibold text-slate-300 mb-6">📊 Stability Score Breakdown</h2>
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+                        <ScoreBar label="Economic" score={riskProfile.score.economic} color="#10b981" />
+                        <ScoreBar label="Political" score={riskProfile.score.political} color="#8b5cf6" />
+                        <ScoreBar label="Military" score={riskProfile.score.military} color="#ef4444" />
+                        <ScoreBar label="Demographic" score={riskProfile.score.demographic} color="#3b82f6" />
+                    </div>
+                </section>
+
+                {/* Navigation Links */}
+                <div className="mt-10 flex flex-wrap gap-4">
                     <Link
                         href="/countries"
                         className="inline-flex items-center gap-2 px-5 py-3 rounded-lg bg-slate-700 text-white hover:bg-slate-600 transition"
                     >
-                        ← Back to Countries
+                        ← All Countries
+                    </Link>
+                    <Link
+                        href={`/regions/${encodeURIComponent(country.region.replace(/\s+/g, '_'))}`}
+                        className="inline-flex items-center gap-2 px-5 py-3 rounded-lg bg-slate-700 text-white hover:bg-slate-600 transition"
+                    >
+                        🗺️ {country.region}
+                    </Link>
+                    <Link
+                        href="/compare"
+                        className="inline-flex items-center gap-2 px-5 py-3 rounded-lg bg-cyan-500/20 text-cyan-400 border border-cyan-500/30 hover:bg-cyan-500/30 transition"
+                    >
+                        ⚖️ Compare Countries
+                    </Link>
+                    <Link
+                        href="/globe"
+                        className="inline-flex items-center gap-2 px-5 py-3 rounded-lg bg-cyan-500/20 text-cyan-400 border border-cyan-500/30 hover:bg-cyan-500/30 transition"
+                    >
+                        🌍 View on Globe
                     </Link>
                 </div>
             </main>
+        </div>
+    );
+}
+
+function InsightCard({ insight }: { insight: Insight }) {
+    const typeColors = {
+        positive: 'border-green-500/30 bg-green-500/5 text-green-400',
+        negative: 'border-red-500/30 bg-red-500/5 text-red-400',
+        neutral: 'border-slate-500/30 bg-slate-500/5 text-slate-300',
+        warning: 'border-amber-500/30 bg-amber-500/5 text-amber-400',
+    };
+
+    return (
+        <div className={`p-4 rounded-xl border ${typeColors[insight.type]}`}>
+            <div className="flex items-start gap-3">
+                <span className="text-xl flex-shrink-0">{insight.icon}</span>
+                <div className="min-w-0">
+                    <h4 className="font-medium text-white text-sm">{insight.title}</h4>
+                    <p className="text-xs text-slate-400 mt-1 line-clamp-2">{insight.description}</p>
+                    {insight.metric && insight.value && (
+                        <p className="text-xs mt-2">
+                            <span className="text-slate-500">{insight.metric}:</span>{' '}
+                            <span className="font-medium">{insight.value}</span>
+                        </p>
+                    )}
+                </div>
+            </div>
+        </div>
+    );
+}
+
+function ScoreBar({ label, score, color }: { label: string; score: number; color: string }) {
+    return (
+        <div>
+            <div className="flex items-center justify-between mb-2">
+                <span className="text-sm text-slate-400">{label}</span>
+                <span className="text-sm font-medium" style={{ color }}>{score}</span>
+            </div>
+            <div className="h-3 bg-slate-700 rounded-full overflow-hidden">
+                <div 
+                    className="h-full rounded-full transition-all duration-500"
+                    style={{ 
+                        width: `${score}%`,
+                        backgroundColor: color 
+                    }}
+                />
+            </div>
         </div>
     );
 }

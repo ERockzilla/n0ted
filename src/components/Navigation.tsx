@@ -2,9 +2,11 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { useState } from 'react';
 
 export default function Navigation({ transparent = false }: { transparent?: boolean }) {
     const pathname = usePathname();
+    const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
     const getLinkClass = (path: string) => {
         const isActive = pathname === path || (path !== '/' && pathname?.startsWith(path));
@@ -19,6 +21,16 @@ export default function Navigation({ transparent = false }: { transparent?: bool
             ? "text-cyan-400 font-medium border-b-2 border-cyan-400 pb-1"
             : "text-slate-300 hover:text-white hover:border-b-2 hover:border-slate-400 pb-1 transition-all";
     };
+
+    const navLinks = [
+        { href: '/', label: 'Dashboard' },
+        { href: '/countries', label: 'Countries' },
+        { href: '/globe', label: 'Globe' },
+        { href: '/analysis', label: 'Analysis' },
+        { href: '/alerts', label: 'Alerts' },
+        { href: '/trends', label: 'Trends' },
+        { href: '/compare', label: 'Compare' },
+    ];
 
     return (
         <header className={`${transparent
@@ -35,13 +47,62 @@ export default function Navigation({ transparent = false }: { transparent?: bool
                     </Link>
                 </div>
 
-                <nav className="flex gap-4 md:gap-8 text-sm md:text-base">
-                    <Link href="/" className={getLinkClass('/')}>Dashboard</Link>
-                    <Link href="/countries" className={getLinkClass('/countries')}>Countries</Link>
-                    <Link href="/globe" className={getLinkClass('/globe')}>Globe 3D</Link>
-                    <Link href="/compare" className={getLinkClass('/compare')}>Compare</Link>
+                {/* Desktop Nav */}
+                <nav className="hidden lg:flex gap-6 text-sm">
+                    {navLinks.map(link => (
+                        <Link key={link.href} href={link.href} className={getLinkClass(link.href)}>
+                            {link.label}
+                        </Link>
+                    ))}
+                    <Link 
+                        href="/methodology" 
+                        className={`${getLinkClass('/methodology')} text-slate-500 hover:text-slate-300`}
+                    >
+                        ℹ️
+                    </Link>
                 </nav>
+
+                {/* Mobile menu button */}
+                <button 
+                    className="lg:hidden text-slate-300 hover:text-white p-2"
+                    onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+                >
+                    {mobileMenuOpen ? (
+                        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    ) : (
+                        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    )}
+                </button>
             </div>
+
+            {/* Mobile Nav */}
+            {mobileMenuOpen && (
+                <div className={`lg:hidden border-t border-slate-700/50 ${transparent ? '' : 'bg-slate-900/95 backdrop-blur-md'}`}>
+                    <nav className="max-w-7xl mx-auto px-6 py-4 flex flex-col gap-3">
+                        {navLinks.map(link => (
+                            <Link 
+                                key={link.href} 
+                                href={link.href} 
+                                className={`${getLinkClass(link.href)} py-2`}
+                                onClick={() => setMobileMenuOpen(false)}
+                            >
+                                {link.label}
+                            </Link>
+                        ))}
+                        <Link 
+                            href="/methodology" 
+                            className="text-slate-400 hover:text-white py-2"
+                            onClick={() => setMobileMenuOpen(false)}
+                        >
+                            Methodology
+                        </Link>
+                    </nav>
+                </div>
+            )}
         </header>
     );
 }
