@@ -5,6 +5,19 @@ import Link from 'next/link';
 import Navigation from '@/components/Navigation';
 import { calculateAllRiskProfiles, CountryRiskProfile } from '@/lib/analysis';
 import { generateRegionalInsights, Insight } from '@/lib/insights';
+import { 
+    Users, 
+    Coins, 
+    TrendingUp, 
+    Target, 
+    Map, 
+    Trophy,
+    TrendingDown,
+    AlertTriangle,
+    CheckCircle,
+    Rocket,
+    Shield
+} from 'lucide-react';
 
 interface CountryData {
     country: string;
@@ -19,6 +32,19 @@ interface CountryData {
 interface PageProps {
     params: Promise<{ region: string }>;
 }
+
+// Map insight icons to Lucide components
+const INSIGHT_ICONS: Record<string, React.ReactNode> = {
+    '🏆': <Trophy size={20} className="text-amber-400" />,
+    '📊': <Target size={20} className="text-cyan-400" />,
+    '🚀': <Rocket size={20} className="text-green-400" />,
+    '📉': <TrendingDown size={20} className="text-red-400" />,
+    '⚔️': <Shield size={20} className="text-red-400" />,
+    '⚠️': <AlertTriangle size={20} className="text-amber-400" />,
+    '🌐': <Map size={20} className="text-cyan-400" />,
+    '👴': <Users size={20} className="text-purple-400" />,
+    '✅': <CheckCircle size={20} className="text-green-400" />,
+};
 
 export default function RegionPage({ params }: PageProps) {
     const { region: regionSlug } = use(params);
@@ -91,7 +117,7 @@ export default function RegionPage({ params }: PageProps) {
 
     if (loading) {
         return (
-            <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+            <div className="min-h-screen ">
                 <Navigation />
                 <div className="flex items-center justify-center h-[calc(100vh-80px)]">
                     <div className="text-center">
@@ -105,11 +131,11 @@ export default function RegionPage({ params }: PageProps) {
 
     if (countries.length === 0) {
         return (
-            <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+            <div className="min-h-screen ">
                 <Navigation />
                 <div className="flex items-center justify-center h-[calc(100vh-80px)]">
                     <div className="text-center">
-                        <span className="text-6xl">🗺️</span>
+                        <Map size={64} className="text-slate-600 mx-auto icon-animate" />
                         <h1 className="text-2xl font-bold text-white mt-4">Region Not Found</h1>
                         <p className="text-slate-400 mt-2">No countries found for &quot;{regionName}&quot;</p>
                         <Link href="/countries" className="inline-block mt-6 px-6 py-3 bg-cyan-500 text-white rounded-lg hover:bg-cyan-600 transition">
@@ -122,7 +148,7 @@ export default function RegionPage({ params }: PageProps) {
     }
 
     return (
-        <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+        <div className="min-h-screen ">
             <Navigation />
 
             <main className="max-w-7xl mx-auto px-6 py-8">
@@ -145,25 +171,25 @@ export default function RegionPage({ params }: PageProps) {
                         <StatCard
                             label="Total Population"
                             value={formatLargeNumber(totalPopulation)}
-                            icon="👥"
+                            icon={<Users size={24} className="text-cyan-400" />}
                             color="cyan"
                         />
                         <StatCard
                             label="Combined GDP"
                             value={formatGDP(totalGDP)}
-                            icon="💰"
+                            icon={<Coins size={24} className="text-emerald-400" />}
                             color="emerald"
                         />
                         <StatCard
                             label="Avg GDP Growth"
                             value={`${avgGrowth > 0 ? '+' : ''}${avgGrowth.toFixed(1)}%`}
-                            icon="📈"
+                            icon={<TrendingUp size={24} className="text-amber-400" />}
                             color="amber"
                         />
                         <StatCard
                             label="Avg Stability"
                             value={`${Math.round(avgStability)}/100`}
-                            icon="🎯"
+                            icon={<Target size={24} className="text-purple-400" />}
                             color="purple"
                         />
                     </div>
@@ -210,7 +236,7 @@ export default function RegionPage({ params }: PageProps) {
                                 <Link
                                     key={country.country}
                                     href={`/countries/${country.country.toLowerCase().replace(/\s+/g, '_')}`}
-                                    className="group p-5 rounded-xl bg-slate-800/50 border border-slate-700/50 hover:border-cyan-500/50 hover:bg-slate-800 transition"
+                                    className="group p-5 rounded-xl bg-slate-800/60 border border-slate-700/50 hover:border-cyan-500/50 hover:bg-slate-800 transition backdrop-blur-sm"
                                 >
                                     <div className="flex items-start justify-between mb-3">
                                         <div className="flex items-center gap-3">
@@ -291,7 +317,7 @@ export default function RegionPage({ params }: PageProps) {
 function StatCard({ label, value, icon, color }: { 
     label: string; 
     value: string; 
-    icon: string; 
+    icon: React.ReactNode; 
     color: 'cyan' | 'emerald' | 'amber' | 'purple';
 }) {
     const colorClasses = {
@@ -302,9 +328,9 @@ function StatCard({ label, value, icon, color }: {
     };
 
     return (
-        <div className={`rounded-xl bg-gradient-to-br ${colorClasses[color]} border p-5`}>
+        <div className={`rounded-xl bg-gradient-to-br ${colorClasses[color]} border p-5 backdrop-blur-sm`}>
             <div className="flex items-center gap-3">
-                <span className="text-2xl">{icon}</span>
+                <div className="icon-animate">{icon}</div>
                 <div>
                     <p className="text-2xl font-bold text-white">{value}</p>
                     <p className="text-sm text-slate-400">{label}</p>
@@ -322,10 +348,12 @@ function InsightCard({ insight }: { insight: Insight }) {
         warning: 'border-amber-500/30 bg-amber-500/5',
     };
 
+    const icon = INSIGHT_ICONS[insight.icon] || <Target size={20} className="text-slate-400" />;
+
     return (
-        <div className={`p-4 rounded-xl border ${typeColors[insight.type]}`}>
+        <div className={`p-4 rounded-xl border ${typeColors[insight.type]} backdrop-blur-sm`}>
             <div className="flex items-start gap-3">
-                <span className="text-xl">{insight.icon}</span>
+                <div className="icon-animate">{icon}</div>
                 <div>
                     <h4 className="font-medium text-white">{insight.title}</h4>
                     <p className="text-sm text-slate-400 mt-1">{insight.description}</p>

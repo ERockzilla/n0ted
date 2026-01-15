@@ -4,6 +4,21 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Navigation from '@/components/Navigation';
 import { detectAnomalies, getAnomalyStats, Anomaly } from '@/lib/anomalies';
+import { 
+    AlertTriangle, 
+    Swords, 
+    TrendingDown, 
+    Users, 
+    Scale, 
+    CreditCard, 
+    Flame,
+    Bell,
+    XCircle,
+    Globe2,
+    Map,
+    CheckCircle,
+    Info
+} from 'lucide-react';
 
 interface CountryData {
     country: string;
@@ -22,35 +37,35 @@ const SEVERITY_CONFIG = {
     low: { color: '#84cc16', bg: 'bg-lime-500/10', border: 'border-lime-500/30', label: 'Low' },
 };
 
-const TYPE_LABELS: Record<Anomaly['type'], { label: string; icon: string; description: string }> = {
+const TYPE_CONFIG: Record<Anomaly['type'], { label: string; icon: React.ReactNode; description: string }> = {
     militarization: { 
         label: 'Militarization', 
-        icon: '⚔️',
+        icon: <Swords size={24} className="text-red-400" />,
         description: 'Military spending significantly above regional norms'
     },
     economic_collapse: { 
         label: 'Economic Crisis', 
-        icon: '📉',
+        icon: <TrendingDown size={24} className="text-orange-400" />,
         description: 'Severe GDP contraction or economic instability'
     },
     demographic_cliff: { 
         label: 'Demographic Cliff', 
-        icon: '👴',
+        icon: <Users size={24} className="text-purple-400" />,
         description: 'Population decline combined with aging demographics'
     },
     trade_imbalance: { 
         label: 'Trade Imbalance', 
-        icon: '⚖️',
+        icon: <Scale size={24} className="text-yellow-400" />,
         description: 'Significant and sustained trade deficit'
     },
     debt_crisis: { 
         label: 'Debt Crisis', 
-        icon: '💳',
+        icon: <CreditCard size={24} className="text-blue-400" />,
         description: 'External debt exceeding sustainable levels'
     },
     hyperinflation: { 
         label: 'Hyperinflation', 
-        icon: '🔥',
+        icon: <Flame size={24} className="text-red-500 icon-pulse" />,
         description: 'Extreme inflation eroding economic stability'
     },
 };
@@ -91,7 +106,7 @@ export default function AlertsPage() {
 
     if (loading) {
         return (
-            <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+            <div className="min-h-screen ">
                 <Navigation />
                 <div className="flex items-center justify-center h-[calc(100vh-80px)]">
                     <div className="text-center">
@@ -104,7 +119,7 @@ export default function AlertsPage() {
     }
 
     return (
-        <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+        <div className="min-h-screen ">
             <Navigation />
 
             <main className="max-w-7xl mx-auto px-6 py-8">
@@ -122,25 +137,25 @@ export default function AlertsPage() {
                         <StatCard
                             label="Total Alerts"
                             value={stats.total.toString()}
-                            icon="🚨"
+                            icon={<Bell size={24} className="text-slate-400" />}
                             color="slate"
                         />
                         <StatCard
                             label="Critical"
                             value={stats.bySeverity.critical.toString()}
-                            icon="⛔"
+                            icon={<XCircle size={24} className="text-red-400" />}
                             color="red"
                         />
                         <StatCard
                             label="Countries Affected"
                             value={stats.affectedCountries.toString()}
-                            icon="🌍"
+                            icon={<Globe2 size={24} className="text-cyan-400" />}
                             color="cyan"
                         />
                         <StatCard
                             label="Regions Affected"
                             value={stats.affectedRegions.toString()}
-                            icon="🗺️"
+                            icon={<Map size={24} className="text-purple-400" />}
                             color="purple"
                         />
                     </div>
@@ -150,8 +165,8 @@ export default function AlertsPage() {
                 <section className="mb-10">
                     <h2 className="text-lg font-semibold text-slate-300 mb-4">Alert Types</h2>
                     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3">
-                        {(Object.keys(TYPE_LABELS) as Anomaly['type'][]).map(type => {
-                            const config = TYPE_LABELS[type];
+                        {(Object.keys(TYPE_CONFIG) as Anomaly['type'][]).map(type => {
+                            const config = TYPE_CONFIG[type];
                             const count = stats.byType[type];
                             const isActive = filterType === type;
                             
@@ -167,7 +182,7 @@ export default function AlertsPage() {
                                                 : 'border-slate-800 bg-slate-900/30 opacity-50'
                                     }`}
                                 >
-                                    <span className="text-2xl">{config.icon}</span>
+                                    <div className="flex justify-center icon-animate">{config.icon}</div>
                                     <p className="text-sm text-slate-300 mt-2">{config.label}</p>
                                     <p className={`text-lg font-bold mt-1 ${count > 0 ? 'text-white' : 'text-slate-600'}`}>
                                         {count}
@@ -223,14 +238,14 @@ export default function AlertsPage() {
                 <section>
                     <div className="flex items-center justify-between mb-4">
                         <h2 className="text-lg font-semibold text-slate-300">
-                            {filterType !== 'all' ? TYPE_LABELS[filterType].label : 'All'} Alerts
+                            {filterType !== 'all' ? TYPE_CONFIG[filterType].label : 'All'} Alerts
                             <span className="text-slate-500 font-normal ml-2">({filteredAnomalies.length})</span>
                         </h2>
                     </div>
 
                     {filteredAnomalies.length === 0 ? (
                         <div className="text-center py-16 bg-slate-800/30 rounded-2xl border border-slate-700/50">
-                            <span className="text-4xl">✅</span>
+                            <CheckCircle size={48} className="text-green-400 mx-auto icon-animate" />
                             <p className="text-xl text-white mt-4">No alerts match your filters</p>
                             <p className="text-slate-400 mt-2">Try adjusting the filter criteria</p>
                         </div>
@@ -238,7 +253,7 @@ export default function AlertsPage() {
                         <div className="space-y-4">
                             {filteredAnomalies.map(anomaly => {
                                 const severityConfig = SEVERITY_CONFIG[anomaly.severity];
-                                const typeConfig = TYPE_LABELS[anomaly.type];
+                                const typeConfig = TYPE_CONFIG[anomaly.type];
                                 
                                 return (
                                     <div
@@ -247,7 +262,7 @@ export default function AlertsPage() {
                                     >
                                         <div className="flex flex-col md:flex-row md:items-start justify-between gap-4">
                                             <div className="flex items-start gap-4">
-                                                <div className="text-3xl">{anomaly.icon}</div>
+                                                <div className="icon-animate">{typeConfig.icon}</div>
                                                 <div>
                                                     <div className="flex items-center gap-2 flex-wrap">
                                                         <h3 className="font-semibold text-white">{anomaly.title}</h3>
@@ -297,7 +312,7 @@ export default function AlertsPage() {
                 {/* Methodology Note */}
                 <div className="mt-10 p-6 rounded-2xl bg-slate-800/30 border border-slate-700/50">
                     <div className="flex items-start gap-4">
-                        <span className="text-2xl">ℹ️</span>
+                        <Info size={24} className="text-cyan-400 flex-shrink-0 icon-animate" />
                         <div>
                             <h3 className="font-semibold text-white mb-2">About Anomaly Detection</h3>
                             <p className="text-slate-400 text-sm">
@@ -323,7 +338,7 @@ export default function AlertsPage() {
 function StatCard({ label, value, icon, color }: { 
     label: string; 
     value: string; 
-    icon: string; 
+    icon: React.ReactNode; 
     color: 'slate' | 'red' | 'cyan' | 'purple';
 }) {
     const colorClasses = {
@@ -334,9 +349,9 @@ function StatCard({ label, value, icon, color }: {
     };
 
     return (
-        <div className={`rounded-xl bg-gradient-to-br ${colorClasses[color]} border p-5`}>
+        <div className={`rounded-xl bg-gradient-to-br ${colorClasses[color]} border p-5 backdrop-blur-sm`}>
             <div className="flex items-center gap-3">
-                <span className="text-2xl">{icon}</span>
+                <div className="icon-animate">{icon}</div>
                 <div>
                     <p className="text-2xl font-bold text-white">{value}</p>
                     <p className="text-sm text-slate-400">{label}</p>

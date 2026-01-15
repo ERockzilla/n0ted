@@ -1,9 +1,19 @@
 import Link from 'next/link';
 import Navigation from '@/components/Navigation';
+import { 
+    BookOpen, 
+    Settings, 
+    BarChart3, 
+    Target, 
+    Calendar, 
+    RefreshCw, 
+    FileText,
+    AlertTriangle
+} from 'lucide-react';
 
 export default function MethodologyPage() {
     return (
-        <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+        <div className="min-h-screen ">
             <Navigation />
 
             <main className="max-w-4xl mx-auto px-6 py-12">
@@ -16,7 +26,7 @@ export default function MethodologyPage() {
                 </div>
 
                 {/* Data Source */}
-                <Section title="📚 Data Source" id="source">
+                <Section title="Data Source" id="source" icon={<BookOpen size={24} className="text-cyan-400" />}>
                     <p className="text-slate-300 mb-4">
                         GeoForecaster exclusively uses data from the <strong className="text-white">CIA World Factbook</strong>, 
                         a comprehensive reference resource produced by the Central Intelligence Agency with information on 
@@ -38,7 +48,7 @@ export default function MethodologyPage() {
                 </Section>
 
                 {/* Extraction Process */}
-                <Section title="⚙️ Data Extraction" id="extraction">
+                <Section title="Data Extraction" id="extraction" icon={<Settings size={24} className="text-purple-400" />}>
                     <p className="text-slate-300 mb-4">
                         Raw Factbook data is extracted using a custom Python script that parses HTML editions 
                         and transforms unstructured text into normalized JSON records.
@@ -54,7 +64,7 @@ export default function MethodologyPage() {
                             (GDP, population, military spending, etc.)
                         </Step>
                         <Step number={3} title="Normalization">
-                            Convert varied formats (e.g., "$14.2 trillion", "14,200 billion") 
+                            Convert varied formats (e.g., &quot;$14.2 trillion&quot;, &quot;14,200 billion&quot;) 
                             to consistent numeric values
                         </Step>
                         <Step number={4} title="JSON Output">
@@ -63,7 +73,10 @@ export default function MethodologyPage() {
                     </div>
 
                     <div className="bg-amber-500/10 rounded-xl p-5 border border-amber-500/30 mt-6">
-                        <h4 className="font-semibold text-amber-400 mb-2">⚠️ Data Limitations</h4>
+                        <h4 className="font-semibold text-amber-400 mb-2 flex items-center gap-2">
+                            <AlertTriangle size={18} />
+                            Data Limitations
+                        </h4>
                         <ul className="text-sm text-slate-300 space-y-2 list-disc list-inside">
                             <li>Estimates may vary from other sources due to differing methodologies</li>
                             <li>Some fields may be unavailable for certain countries</li>
@@ -74,7 +87,7 @@ export default function MethodologyPage() {
                 </Section>
 
                 {/* Metrics Explained */}
-                <Section title="📊 Key Metrics" id="metrics">
+                <Section title="Key Metrics" id="metrics" icon={<BarChart3 size={24} className="text-emerald-400" />}>
                     <div className="grid gap-4">
                         <MetricExplainer
                             name="GDP (PPP)"
@@ -105,7 +118,7 @@ export default function MethodologyPage() {
                 </Section>
 
                 {/* Risk Index */}
-                <Section title="🎯 Composite Risk Index" id="risk-index">
+                <Section title="Composite Risk Index" id="risk-index" icon={<Target size={24} className="text-red-400" />}>
                     <p className="text-slate-300 mb-6">
                         Our Risk/Stability Index aggregates multiple indicators into a single composite score 
                         for each country, enabling quick assessment of geopolitical risk.
@@ -145,7 +158,7 @@ export default function MethodologyPage() {
                 </Section>
 
                 {/* Adding More Years */}
-                <Section title="📅 Multi-Year Analysis" id="multi-year">
+                <Section title="Multi-Year Analysis" id="multi-year" icon={<Calendar size={24} className="text-blue-400" />}>
                     <p className="text-slate-300 mb-4">
                         Full time-series trend analysis requires ingesting multiple Factbook editions. 
                         The system is designed to seamlessly incorporate additional years.
@@ -180,7 +193,7 @@ export default function MethodologyPage() {
                 </Section>
 
                 {/* Update Frequency */}
-                <Section title="🔄 Update Frequency" id="updates">
+                <Section title="Update Frequency" id="updates" icon={<RefreshCw size={24} className="text-amber-400" />}>
                     <p className="text-slate-300">
                         The CIA World Factbook is updated continuously throughout the year, with major 
                         releases typically occurring annually. This platform processes static snapshots 
@@ -193,7 +206,7 @@ export default function MethodologyPage() {
                 </Section>
 
                 {/* Attribution */}
-                <Section title="📜 Attribution & License" id="license">
+                <Section title="Attribution & License" id="license" icon={<FileText size={24} className="text-slate-400" />}>
                     <div className="grid md:grid-cols-2 gap-6">
                         <div className="bg-slate-800/50 rounded-xl p-5 border border-slate-700/50">
                             <h4 className="font-semibold text-white mb-2">Data</h4>
@@ -226,10 +239,13 @@ export default function MethodologyPage() {
     );
 }
 
-function Section({ title, id, children }: { title: string; id: string; children: React.ReactNode }) {
+function Section({ title, id, icon, children }: { title: string; id: string; icon: React.ReactNode; children: React.ReactNode }) {
     return (
         <section id={id} className="mb-12 scroll-mt-24">
-            <h2 className="text-2xl font-bold text-white mb-6">{title}</h2>
+            <h2 className="text-2xl font-bold text-white mb-6 flex items-center gap-3">
+                {icon}
+                {title}
+            </h2>
             {children}
         </section>
     );

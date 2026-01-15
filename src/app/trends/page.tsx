@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Navigation from '@/components/Navigation';
+import { Calendar, BarChart3 } from 'lucide-react';
 
 interface CountryData {
     country: string;
@@ -102,31 +103,22 @@ export default function TrendsPage() {
             };
         }
 
-        // Fall back to single-year data
-        let value: number | undefined;
-        if (metric.category === 'demographics') {
-            value = country.demographics[selectedMetric];
-        } else if (metric.category === 'economy') {
-            value = country.economy[selectedMetric];
-        } else if (metric.category === 'military') {
-            value = country.military[selectedMetric];
-        }
+        // Fallback to single-year data
+        const category = metric.category as 'demographics' | 'economy' | 'military';
+        const value = country[category]?.[selectedMetric];
+        if (value === undefined) return null;
 
-        if (value !== undefined) {
-            return {
-                country: countryName,
-                data: [{ year: 2010, value }]
-            };
-        }
-        return null;
+        return {
+            country: countryName,
+            data: [{ year: country.year, value }]
+        };
     }).filter(Boolean);
 
-    // Calculate max value for bar scaling
-    const maxValue = Math.max(...chartData.map(d => d?.data[d.data.length - 1]?.value || 0));
+    const maxValue = Math.max(...chartData.map((d: any) => Math.max(...d.data.map((p: any) => p.value))));
 
     if (loading) {
         return (
-            <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+            <div className="min-h-screen ">
                 <Navigation />
                 <div className="flex items-center justify-center h-[calc(100vh-80px)]">
                     <div className="text-center">
@@ -139,7 +131,7 @@ export default function TrendsPage() {
     }
 
     return (
-        <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+        <div className="min-h-screen ">
             <Navigation />
 
             <main className="max-w-7xl mx-auto px-6 py-8">
@@ -154,9 +146,9 @@ export default function TrendsPage() {
 
                 {/* Multi-year data notice */}
                 {!hasMultiYearData && (
-                    <div className="mb-8 p-5 rounded-xl bg-amber-500/10 border border-amber-500/30">
+                    <div className="mb-8 p-5 rounded-xl bg-amber-500/10 border border-amber-500/30 backdrop-blur-sm">
                         <div className="flex items-start gap-4">
-                            <span className="text-2xl">📅</span>
+                            <Calendar size={24} className="text-amber-400 flex-shrink-0 icon-animate" />
                             <div>
                                 <h3 className="font-semibold text-amber-400 mb-1">Single Year Data</h3>
                                 <p className="text-slate-300 text-sm">
@@ -178,7 +170,7 @@ export default function TrendsPage() {
                     {/* Sidebar - Controls */}
                     <div className="lg:col-span-1 space-y-6">
                         {/* Metric Selector */}
-                        <div className="bg-slate-800/50 rounded-xl border border-slate-700/50 p-5">
+                        <div className="bg-slate-800/60 rounded-xl border border-slate-700/50 p-5 backdrop-blur-sm">
                             <h3 className="text-sm font-medium text-slate-400 uppercase tracking-wider mb-3">Metric</h3>
                             <div className="space-y-2">
                                 {METRICS.map(m => (
@@ -198,7 +190,7 @@ export default function TrendsPage() {
                         </div>
 
                         {/* Country Selector */}
-                        <div className="bg-slate-800/50 rounded-xl border border-slate-700/50 p-5">
+                        <div className="bg-slate-800/60 rounded-xl border border-slate-700/50 p-5 backdrop-blur-sm">
                             <h3 className="text-sm font-medium text-slate-400 uppercase tracking-wider mb-3">
                                 Countries ({selectedCountries.length}/8)
                             </h3>
@@ -225,7 +217,7 @@ export default function TrendsPage() {
 
                     {/* Main Chart Area */}
                     <div className="lg:col-span-3">
-                        <div className="bg-slate-800/50 rounded-xl border border-slate-700/50 p-6">
+                        <div className="bg-slate-800/60 rounded-xl border border-slate-700/50 p-6 backdrop-blur-sm">
                             <div className="flex items-center justify-between mb-6">
                                 <h2 className="text-xl font-semibold text-white">{metric.label}</h2>
                                 {hasMultiYearData && (
@@ -241,7 +233,7 @@ export default function TrendsPage() {
 
                             {chartData.length === 0 ? (
                                 <div className="text-center py-16">
-                                    <span className="text-4xl">📊</span>
+                                    <BarChart3 size={48} className="text-slate-600 mx-auto icon-animate" />
                                     <p className="text-slate-400 mt-4">Select countries to compare</p>
                                 </div>
                             ) : hasMultiYearData ? (
@@ -308,7 +300,7 @@ export default function TrendsPage() {
 
                         {/* Year comparison table for single-year */}
                         {!hasMultiYearData && chartData.length > 0 && (
-                            <div className="mt-6 bg-slate-800/50 rounded-xl border border-slate-700/50 overflow-hidden">
+                            <div className="mt-6 bg-slate-800/60 rounded-xl border border-slate-700/50 overflow-hidden backdrop-blur-sm">
                                 <table className="w-full">
                                     <thead>
                                         <tr className="border-b border-slate-700/50 bg-slate-900/50">

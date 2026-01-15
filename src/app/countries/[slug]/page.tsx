@@ -7,10 +7,51 @@ import path from 'path';
 import Navigation from '@/components/Navigation';
 import { generateCountryInsights, Insight } from '@/lib/insights';
 import { calculateRiskProfile } from '@/lib/analysis';
+import { 
+    Lightbulb, 
+    Landmark, 
+    Users, 
+    Coins, 
+    Ship, 
+    Zap, 
+    BarChart3,
+    Map,
+    Scale,
+    Globe2,
+    Trophy,
+    TrendingUp,
+    TrendingDown,
+    AlertTriangle,
+    CheckCircle,
+    Target,
+    Rocket,
+    Building2,
+    Shield,
+    Heart,
+    DollarSign
+} from 'lucide-react';
 
 interface PageProps {
     params: Promise<{ slug: string }>;
 }
+
+// Map insight icons to Lucide components
+const INSIGHT_ICONS: Record<string, React.ReactNode> = {
+    '🏆': <Trophy size={20} className="text-amber-400" />,
+    '📊': <BarChart3 size={20} className="text-cyan-400" />,
+    '🚀': <Rocket size={20} className="text-green-400" />,
+    '📉': <TrendingDown size={20} className="text-red-400" />,
+    '⚔️': <Shield size={20} className="text-red-400" />,
+    '🕊️': <Heart size={20} className="text-blue-400" />,
+    '📦': <Ship size={20} className="text-blue-400" />,
+    '⚠️': <AlertTriangle size={20} className="text-amber-400" />,
+    '🌐': <Globe2 size={20} className="text-cyan-400" />,
+    '👴': <Users size={20} className="text-purple-400" />,
+    '👶': <Users size={20} className="text-pink-400" />,
+    '✅': <CheckCircle size={20} className="text-green-400" />,
+    '💎': <DollarSign size={20} className="text-cyan-400" />,
+    '🌱': <TrendingUp size={20} className="text-green-400" />,
+};
 
 export default async function CountryPage({ params }: PageProps) {
     const { slug } = await params;
@@ -36,7 +77,7 @@ export default async function CountryPage({ params }: PageProps) {
     const p = country.political;
 
     return (
-        <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+        <div className="min-h-screen ">
             <Navigation />
 
             <main className="max-w-7xl mx-auto px-6 py-8">
@@ -59,7 +100,7 @@ export default async function CountryPage({ params }: PageProps) {
                     </div>
                     
                     {/* Risk Score Card */}
-                    <div className="flex items-center gap-4 p-4 rounded-xl bg-slate-800/50 border border-slate-700/50">
+                    <div className="flex items-center gap-4 p-4 rounded-xl bg-slate-800/60 border border-slate-700/50 backdrop-blur-sm">
                         <div className="text-center">
                             <div 
                                 className="w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold border-4"
@@ -92,7 +133,10 @@ export default async function CountryPage({ params }: PageProps) {
                 {/* AI Insights */}
                 {insights.length > 0 && (
                     <section className="mb-8">
-                        <h2 className="text-lg font-semibold text-slate-300 mb-4">💡 Key Insights</h2>
+                        <h2 className="text-lg font-semibold text-slate-300 mb-4 flex items-center gap-2">
+                            <Lightbulb size={20} className="text-amber-400" />
+                            Key Insights
+                        </h2>
                         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
                             {insights.map(insight => (
                                 <InsightCard key={insight.id} insight={insight} />
@@ -103,8 +147,11 @@ export default async function CountryPage({ params }: PageProps) {
 
                 {/* Political Leadership */}
                 {(p.chief_of_state || p.head_of_government) && (
-                    <section className="mb-8 p-6 rounded-2xl bg-gradient-to-r from-purple-500/10 to-blue-500/10 border border-purple-500/30">
-                        <h2 className="text-lg font-semibold text-purple-300 mb-4">🏛️ Political Leadership</h2>
+                    <section className="mb-8 p-6 rounded-2xl bg-gradient-to-r from-purple-500/10 to-blue-500/10 border border-purple-500/30 backdrop-blur-sm">
+                        <h2 className="text-lg font-semibold text-purple-300 mb-4 flex items-center gap-2">
+                            <Landmark size={20} />
+                            Political Leadership
+                        </h2>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                             {p.chief_of_state && (
                                 <div>
@@ -131,8 +178,11 @@ export default async function CountryPage({ params }: PageProps) {
                 {/* Main Stats Grid */}
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                     {/* Demographics */}
-                    <section className="p-6 rounded-2xl bg-slate-800/50 border border-slate-700/50">
-                        <h2 className="text-lg font-semibold text-emerald-400 mb-6">👥 Demographics</h2>
+                    <section className="p-6 rounded-2xl bg-slate-800/60 border border-slate-700/50 backdrop-blur-sm">
+                        <h2 className="text-lg font-semibold text-emerald-400 mb-6 flex items-center gap-2">
+                            <Users size={20} />
+                            Demographics
+                        </h2>
                         <div className="grid grid-cols-2 gap-6">
                             <MetricCard label="Population" value={formatNumber(d.population)} />
                             <MetricCard label="Population Growth" value={formatPercent(d.population_growth_pct)} highlight={d.population_growth_pct} />
@@ -144,8 +194,11 @@ export default async function CountryPage({ params }: PageProps) {
                     </section>
 
                     {/* Economy */}
-                    <section className="p-6 rounded-2xl bg-slate-800/50 border border-slate-700/50">
-                        <h2 className="text-lg font-semibold text-amber-400 mb-6">💰 Economy</h2>
+                    <section className="p-6 rounded-2xl bg-slate-800/60 border border-slate-700/50 backdrop-blur-sm">
+                        <h2 className="text-lg font-semibold text-amber-400 mb-6 flex items-center gap-2">
+                            <Coins size={20} />
+                            Economy
+                        </h2>
                         <div className="grid grid-cols-2 gap-6">
                             <MetricCard label="GDP (PPP)" value={formatBillions(e.gdp_ppp_billions)} large />
                             <MetricCard label="GDP Growth" value={formatPercent(e.gdp_growth_pct)} highlight={e.gdp_growth_pct} large />
@@ -157,8 +210,11 @@ export default async function CountryPage({ params }: PageProps) {
                     </section>
 
                     {/* Trade */}
-                    <section className="p-6 rounded-2xl bg-slate-800/50 border border-slate-700/50">
-                        <h2 className="text-lg font-semibold text-blue-400 mb-6">🚢 Trade & Finance</h2>
+                    <section className="p-6 rounded-2xl bg-slate-800/60 border border-slate-700/50 backdrop-blur-sm">
+                        <h2 className="text-lg font-semibold text-blue-400 mb-6 flex items-center gap-2">
+                            <Ship size={20} />
+                            Trade & Finance
+                        </h2>
                         <div className="grid grid-cols-2 gap-6">
                             <MetricCard label="Exports" value={formatBillions(e.exports_billions)} />
                             <MetricCard label="Imports" value={formatBillions(e.imports_billions)} />
@@ -176,8 +232,11 @@ export default async function CountryPage({ params }: PageProps) {
                     </section>
 
                     {/* Energy & Military */}
-                    <section className="p-6 rounded-2xl bg-slate-800/50 border border-slate-700/50">
-                        <h2 className="text-lg font-semibold text-red-400 mb-6">⚡ Energy & Military</h2>
+                    <section className="p-6 rounded-2xl bg-slate-800/60 border border-slate-700/50 backdrop-blur-sm">
+                        <h2 className="text-lg font-semibold text-red-400 mb-6 flex items-center gap-2">
+                            <Zap size={20} />
+                            Energy & Military
+                        </h2>
                         <div className="grid grid-cols-2 gap-6">
                             <MetricCard label="Oil Production" value={e.oil_production_bbl_day ? `${e.oil_production_bbl_day.toLocaleString()} bbl/day` : 'N/A'} />
                             <MetricCard label="Oil Consumption" value={e.oil_consumption_bbl_day ? `${e.oil_consumption_bbl_day.toLocaleString()} bbl/day` : 'N/A'} />
@@ -187,8 +246,11 @@ export default async function CountryPage({ params }: PageProps) {
                 </div>
 
                 {/* Risk Score Breakdown */}
-                <section className="mt-8 p-6 rounded-2xl bg-slate-800/50 border border-slate-700/50">
-                    <h2 className="text-lg font-semibold text-slate-300 mb-6">📊 Stability Score Breakdown</h2>
+                <section className="mt-8 p-6 rounded-2xl bg-slate-800/60 border border-slate-700/50 backdrop-blur-sm">
+                    <h2 className="text-lg font-semibold text-slate-300 mb-6 flex items-center gap-2">
+                        <BarChart3 size={20} className="text-cyan-400" />
+                        Stability Score Breakdown
+                    </h2>
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                         <ScoreBar label="Economic" score={riskProfile.score.economic} color="#10b981" />
                         <ScoreBar label="Political" score={riskProfile.score.political} color="#8b5cf6" />
@@ -209,19 +271,22 @@ export default async function CountryPage({ params }: PageProps) {
                         href={`/regions/${encodeURIComponent(country.region.replace(/\s+/g, '_'))}`}
                         className="inline-flex items-center gap-2 px-5 py-3 rounded-lg bg-slate-700 text-white hover:bg-slate-600 transition"
                     >
-                        🗺️ {country.region}
+                        <Map size={16} />
+                        {country.region}
                     </Link>
                     <Link
                         href="/compare"
                         className="inline-flex items-center gap-2 px-5 py-3 rounded-lg bg-cyan-500/20 text-cyan-400 border border-cyan-500/30 hover:bg-cyan-500/30 transition"
                     >
-                        ⚖️ Compare Countries
+                        <Scale size={16} />
+                        Compare Countries
                     </Link>
                     <Link
                         href="/globe"
                         className="inline-flex items-center gap-2 px-5 py-3 rounded-lg bg-cyan-500/20 text-cyan-400 border border-cyan-500/30 hover:bg-cyan-500/30 transition"
                     >
-                        🌍 View on Globe
+                        <Globe2 size={16} />
+                        View on Globe
                     </Link>
                 </div>
             </main>
@@ -237,10 +302,12 @@ function InsightCard({ insight }: { insight: Insight }) {
         warning: 'border-amber-500/30 bg-amber-500/5 text-amber-400',
     };
 
+    const icon = INSIGHT_ICONS[insight.icon] || <Target size={20} className="text-slate-400" />;
+
     return (
-        <div className={`p-4 rounded-xl border ${typeColors[insight.type]}`}>
+        <div className={`p-4 rounded-xl border ${typeColors[insight.type]} backdrop-blur-sm`}>
             <div className="flex items-start gap-3">
-                <span className="text-xl flex-shrink-0">{insight.icon}</span>
+                <div className="flex-shrink-0 icon-animate">{icon}</div>
                 <div className="min-w-0">
                     <h4 className="font-medium text-white text-sm">{insight.title}</h4>
                     <p className="text-xs text-slate-400 mt-1 line-clamp-2">{insight.description}</p>

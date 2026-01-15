@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import InteractiveGlobe, { GlobeMetric, METRIC_CONFIG } from '@/components/InteractiveGlobe';
 import Navigation from '@/components/Navigation';
+import { Coins, Users, Shield, TrendingUp, Ship, Link2 } from 'lucide-react';
 
 interface CountryData {
     country: string;
@@ -14,12 +15,12 @@ interface CountryData {
     political: Record<string, string | undefined>;
 }
 
-const METRIC_ICONS: Record<GlobeMetric, string> = {
-    gdp: '💰',
-    population: '👥',
-    military: '⚔️',
-    growth: '📈',
-    trade: '🚢'
+const METRIC_ICONS: Record<GlobeMetric, React.ReactNode> = {
+    gdp: <Coins size={18} className="text-amber-400" />,
+    population: <Users size={18} className="text-purple-400" />,
+    military: <Shield size={18} className="text-red-400" />,
+    growth: <TrendingUp size={18} className="text-green-400" />,
+    trade: <Ship size={18} className="text-blue-400" />
 };
 
 const METRIC_LEGENDS: Record<GlobeMetric, Array<{ color: string; label: string }>> = {
@@ -121,7 +122,7 @@ export default function GlobePage() {
                                             : 'text-slate-300 hover:bg-slate-800 hover:text-white border border-transparent'
                                     }`}
                                 >
-                                    <span className="text-lg">{METRIC_ICONS[metric]}</span>
+                                    <span className="icon-animate">{METRIC_ICONS[metric]}</span>
                                     <span className="font-medium">{METRIC_CONFIG[metric].label}</span>
                                 </button>
                             ))}
@@ -137,7 +138,7 @@ export default function GlobePage() {
                                         : 'text-slate-300 hover:bg-slate-800 hover:text-white border border-transparent'
                                 }`}
                             >
-                                <span className="text-lg">🔗</span>
+                                <Link2 size={18} className={showArcs ? 'text-blue-400' : 'text-slate-400'} />
                                 <span className="font-medium">Trade Arcs</span>
                                 <span className={`ml-auto text-xs px-2 py-0.5 rounded-full ${showArcs ? 'bg-blue-500/30 text-blue-300' : 'bg-slate-700 text-slate-400'}`}>
                                     {showArcs ? 'ON' : 'OFF'}
@@ -151,7 +152,7 @@ export default function GlobePage() {
                 <div className="absolute bottom-8 left-8 z-10">
                     <div className="bg-slate-900/90 backdrop-blur-md rounded-2xl border border-slate-700/50 p-5 shadow-2xl max-w-xs">
                         <div className="flex items-center gap-2 mb-4">
-                            <span className="text-xl">{METRIC_ICONS[activeMetric]}</span>
+                            <span className="icon-animate">{METRIC_ICONS[activeMetric]}</span>
                             <h3 className="text-white font-semibold">{config.label}</h3>
                         </div>
                         <div className="space-y-2">
