@@ -1,0 +1,21 @@
+{
+  "country": "Mauritania",
+  "region": "Africa",
+  "year": 2015,
+  "demographics": {
+    "population": 3516806,
+    "population_growth_pct": 2.26,
+    "life_expectancy": 62.28
+  },
+  "economy": {
+    "gdp_ppp_billions": 12.86,
+    "gdp_growth_pct": 6.8,
+    "gdp_per_capita": 3400,
+    "inflation_pct": 3.5,
+    "unemployment_pct": 31.0,
+    "exports_billions": 2.57,
+    "imports_billions": 3.49
+  },
+  "military": {},
+  "political": {}
+}

@@ -1,0 +1,22 @@
+{
+  "country": "France",
+  "region": "Europe",
+  "year": 2006,
+  "demographics": {
+    "population": 60876136,
+    "life_expectancy": 79.73
+  },
+  "economy": {
+    "gdp_ppp_billions": 1794.0,
+    "gdp_growth_pct": 1.2,
+    "gdp_per_capita": 29600,
+    "inflation_pct": 1.7,
+    "unemployment_pct": 9.9,
+    "exports_billions": 443.4,
+    "imports_billions": 473.3
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.6
+  },
+  "political": {}
+}

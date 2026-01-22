@@ -1,0 +1,23 @@
+{
+  "country": "Kazakhstan",
+  "region": "Central Asia",
+  "year": 2017,
+  "demographics": {
+    "population": 18556698,
+    "population_growth_pct": 1.0,
+    "life_expectancy": 71.1
+  },
+  "economy": {
+    "gdp_ppp_billions": 451.3,
+    "gdp_growth_pct": 1.1,
+    "gdp_per_capita": 25100,
+    "inflation_pct": 14.6,
+    "unemployment_pct": 5.0,
+    "exports_billions": 37.3,
+    "imports_billions": 27.87
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.21
+  },
+  "political": {}
+}

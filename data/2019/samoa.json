@@ -1,0 +1,21 @@
+{
+  "country": "Samoa",
+  "region": "Australia-Oceania",
+  "year": 2019,
+  "demographics": {
+    "population": 201316,
+    "population_growth_pct": 0.61,
+    "life_expectancy": 74.2
+  },
+  "economy": {
+    "gdp_ppp_billions": 1.14,
+    "gdp_growth_pct": 2.5,
+    "gdp_per_capita": 5700,
+    "inflation_pct": 1.3,
+    "exports_billions": 0.03,
+    "imports_billions": 89.29,
+    "unemployment_pct": 31.9
+  },
+  "military": {},
+  "political": {}
+}

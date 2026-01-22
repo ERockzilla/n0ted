@@ -1,0 +1,22 @@
+{
+  "country": "Cuba",
+  "region": "Central America and Caribbean",
+  "year": 2007,
+  "demographics": {
+    "population": 11394043,
+    "life_expectancy": 77.08
+  },
+  "economy": {
+    "gdp_ppp_billions": 46.22,
+    "gdp_growth_pct": 11.1,
+    "gdp_per_capita": 4100,
+    "inflation_pct": 6.2,
+    "unemployment_pct": 1.9,
+    "exports_billions": 2.98,
+    "imports_billions": 10.17
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.8
+  },
+  "political": {}
+}

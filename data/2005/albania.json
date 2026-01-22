@@ -1,0 +1,22 @@
+{
+  "country": "Albania",
+  "region": "Europe",
+  "year": 2005,
+  "demographics": {
+    "population": 3563112,
+    "life_expectancy": 77.24
+  },
+  "economy": {
+    "gdp_ppp_billions": 17.46,
+    "gdp_growth_pct": 5.6,
+    "gdp_per_capita": 4900,
+    "inflation_pct": 3.2,
+    "unemployment_pct": 14.8,
+    "exports_billions": 0.55,
+    "imports_billions": 2.08
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.49
+  },
+  "political": {}
+}

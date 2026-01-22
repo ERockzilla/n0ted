@@ -1,0 +1,22 @@
+{
+  "country": "Venezuela",
+  "region": "South America",
+  "year": 2017,
+  "demographics": {
+    "population": 31304016,
+    "population_growth_pct": 1.2,
+    "life_expectancy": 76.0
+  },
+  "economy": {
+    "gdp_ppp_billions": 427.0,
+    "gdp_growth_pct": -18.0,
+    "gdp_per_capita": 13800,
+    "unemployment_pct": 15.5,
+    "exports_billions": 27.2,
+    "imports_billions": 20.19
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.05
+  },
+  "political": {}
+}

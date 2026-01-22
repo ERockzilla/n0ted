@@ -1,0 +1,23 @@
+{
+  "country": "United Kingdom",
+  "region": "Europe",
+  "year": 2016,
+  "demographics": {
+    "population": 64430428,
+    "population_growth_pct": 0.53,
+    "life_expectancy": 80.7
+  },
+  "economy": {
+    "gdp_ppp_billions": 2702.0,
+    "gdp_growth_pct": 2.2,
+    "gdp_per_capita": 41500,
+    "inflation_pct": 0.1,
+    "unemployment_pct": 5.4,
+    "exports_billions": 436.2,
+    "imports_billions": 627.7
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.49
+  },
+  "political": {}
+}

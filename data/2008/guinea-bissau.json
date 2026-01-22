@@ -1,0 +1,22 @@
+{
+  "country": "Guinea-Bissau",
+  "region": "Africa",
+  "year": 2008,
+  "demographics": {
+    "population": 1503182,
+    "population_growth_pct": 2.04,
+    "life_expectancy": 47.52
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.83,
+    "gdp_growth_pct": 2.7,
+    "gdp_per_capita": 600,
+    "inflation_pct": 3.8,
+    "exports_billions": 0.13,
+    "imports_billions": 0.2
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.1
+  },
+  "political": {}
+}

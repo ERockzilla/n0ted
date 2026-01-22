@@ -1,0 +1,22 @@
+{
+  "country": "Mexico",
+  "region": "North America",
+  "year": 2001,
+  "demographics": {
+    "population": 101879171,
+    "population_growth_pct": 1.5
+  },
+  "economy": {
+    "gdp_ppp_billions": 915.0,
+    "gdp_growth_pct": 7.1,
+    "gdp_per_capita": 9100,
+    "inflation_pct": 9.0,
+    "unemployment_pct": 2.2,
+    "exports_billions": 168.0,
+    "imports_billions": 176.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.0
+  },
+  "political": {}
+}

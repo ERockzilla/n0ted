@@ -1,0 +1,24 @@
+{
+  "country": "Mongolia",
+  "region": "East & Southeast Asia",
+  "year": 2020,
+  "demographics": {
+    "population": 3168026,
+    "population_growth_pct": 0.99,
+    "life_expectancy": 70.8,
+    "median_age": 29.8
+  },
+  "economy": {
+    "gdp_growth_pct": 5.1,
+    "gdp_per_capita": 13700,
+    "inflation_pct": 4.6,
+    "unemployment_pct": 16.8,
+    "exports_billions": 7.01,
+    "imports_billions": 5.88,
+    "external_debt_billions": 25.33
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.7
+  },
+  "political": {}
+}

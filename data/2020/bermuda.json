@@ -1,0 +1,22 @@
+{
+  "country": "Bermuda",
+  "region": "North America",
+  "year": 2020,
+  "demographics": {
+    "population": 71750,
+    "population_growth_pct": 0.39,
+    "life_expectancy": 81.7,
+    "median_age": 43.6
+  },
+  "economy": {
+    "gdp_growth_pct": -0.1,
+    "gdp_per_capita": 99400,
+    "inflation_pct": 1.9,
+    "unemployment_pct": 29.3,
+    "exports_billions": 0.02,
+    "imports_billions": 1.09,
+    "external_debt_billions": 2.52
+  },
+  "military": {},
+  "political": {}
+}

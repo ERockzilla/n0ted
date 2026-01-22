@@ -1,0 +1,22 @@
+{
+  "country": "South Africa",
+  "region": "Africa",
+  "year": 2003,
+  "demographics": {
+    "population": 42768678,
+    "life_expectancy": 46.56
+  },
+  "economy": {
+    "gdp_ppp_billions": 427.7,
+    "gdp_growth_pct": 3.0,
+    "gdp_per_capita": 10000,
+    "inflation_pct": 9.9,
+    "unemployment_pct": 37.0,
+    "exports_billions": 31.8,
+    "imports_billions": 26.6
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.7
+  },
+  "political": {}
+}

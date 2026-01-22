@@ -1,0 +1,25 @@
+{
+  "country": "Bahamas, The",
+  "region": "Central America and Caribbean",
+  "year": 2010,
+  "demographics": {
+    "population": 310426,
+    "population_growth_pct": 0.935,
+    "life_expectancy": 70.84,
+    "median_age": 29.9
+  },
+  "economy": {
+    "gdp_ppp_billions": 8.878,
+    "gdp_growth_pct": -0.5,
+    "gdp_per_capita": 28600,
+    "inflation_pct": 2.4,
+    "unemployment_pct": 7.6,
+    "exports_billions": 0.674,
+    "imports_billions": 2.401,
+    "external_debt_billions": 0.3426
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.7
+  },
+  "political": {}
+}

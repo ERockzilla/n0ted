@@ -1,0 +1,21 @@
+{
+  "country": "Djibouti",
+  "region": "Africa",
+  "year": 2016,
+  "demographics": {
+    "population": 846687,
+    "population_growth_pct": 2.18,
+    "life_expectancy": 63.2
+  },
+  "economy": {
+    "gdp_ppp_billions": 3.1,
+    "gdp_growth_pct": 6.5,
+    "gdp_per_capita": 3200,
+    "inflation_pct": 2.1,
+    "unemployment_pct": 60.0,
+    "exports_billions": 0.14,
+    "imports_billions": 1.04
+  },
+  "military": {},
+  "political": {}
+}

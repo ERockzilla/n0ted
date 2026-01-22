@@ -1,0 +1,24 @@
+{
+  "country": "Afghanistan",
+  "region": "South Asia",
+  "year": 2020,
+  "demographics": {
+    "population": 36643815,
+    "population_growth_pct": 2.38,
+    "life_expectancy": 52.8,
+    "median_age": 19.5
+  },
+  "economy": {
+    "gdp_growth_pct": 2.7,
+    "gdp_per_capita": 2000,
+    "inflation_pct": 5.0,
+    "unemployment_pct": 17.6,
+    "exports_billions": 0.78,
+    "imports_billions": 7.62,
+    "external_debt_billions": 0.28
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.2
+  },
+  "political": {}
+}

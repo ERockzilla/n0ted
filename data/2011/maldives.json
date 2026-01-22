@@ -1,0 +1,23 @@
+{
+  "country": "Maldives",
+  "region": "South Asia",
+  "year": 2011,
+  "demographics": {
+    "population": 394999,
+    "population_growth_pct": -0.15,
+    "life_expectancy": 74.45
+  },
+  "economy": {
+    "gdp_ppp_billions": 2.73,
+    "gdp_growth_pct": 8.0,
+    "gdp_per_capita": 6900,
+    "inflation_pct": 6.0,
+    "unemployment_pct": 14.5,
+    "exports_billions": 0.16,
+    "imports_billions": 0.97
+  },
+  "military": {
+    "expenditure_pct_gdp": 5.5
+  },
+  "political": {}
+}

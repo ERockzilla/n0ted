@@ -1,0 +1,21 @@
+{
+  "country": "Aruba",
+  "region": "Central America and Caribbean",
+  "year": 2015,
+  "demographics": {
+    "population": 110663,
+    "population_growth_pct": 1.36,
+    "life_expectancy": 76.35
+  },
+  "economy": {
+    "gdp_ppp_billions": 2.52,
+    "gdp_growth_pct": 2.4,
+    "gdp_per_capita": 25300,
+    "inflation_pct": 0.5,
+    "unemployment_pct": 6.9,
+    "exports_billions": 0.31,
+    "imports_billions": 1.53
+  },
+  "military": {},
+  "political": {}
+}

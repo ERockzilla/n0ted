@@ -1,0 +1,18 @@
+{
+  "country": "Montenegro",
+  "region": "Europe",
+  "year": 2007,
+  "demographics": {
+    "population": 684736
+  },
+  "economy": {
+    "gdp_ppp_billions": 3.44,
+    "gdp_per_capita": 3800,
+    "inflation_pct": 3.4,
+    "unemployment_pct": 27.7,
+    "exports_billions": 0.17,
+    "imports_billions": 0.6
+  },
+  "military": {},
+  "political": {}
+}

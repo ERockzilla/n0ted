@@ -1,0 +1,22 @@
+{
+  "country": "Ivory Coast",
+  "region": "Unknown",
+  "year": 2008,
+  "demographics": {
+    "population": 20179602,
+    "population_growth_pct": 2.16,
+    "life_expectancy": 54.64
+  },
+  "economy": {
+    "gdp_growth_pct": 1.6,
+    "gdp_per_capita": 1700,
+    "inflation_pct": 1.9,
+    "exports_billions": 8.48,
+    "imports_billions": 5.93,
+    "gdp_ppp_billions": 32.85
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.6
+  },
+  "political": {}
+}

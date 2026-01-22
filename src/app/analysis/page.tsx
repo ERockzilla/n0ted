@@ -5,25 +5,26 @@ import Link from 'next/link';
 import Navigation from '@/components/Navigation';
 import CountryFlag from '@/components/CountryFlag';
 import { calculateAllRiskProfiles, calculateRegionalStats, CountryRiskProfile, RegionalStats } from '@/lib/analysis';
+import LoadingSpinner from '@/components/LoadingSpinner';
 
 // SVG Icons as components
 const ChevronDownIcon = () => (
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <path d="m6 9 6 6 6-6"/>
+        <path d="m6 9 6 6 6-6" />
     </svg>
 );
 
 const ChevronRightIcon = () => (
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <path d="m9 18 6-6-6-6"/>
+        <path d="m9 18 6-6-6-6" />
     </svg>
 );
 
 const ExternalLinkIcon = ({ size = 16 }: { size?: number }) => (
     <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M15 3h6v6"/>
-        <path d="M10 14 21 3"/>
-        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+        <path d="M15 3h6v6" />
+        <path d="M10 14 21 3" />
+        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
     </svg>
 );
 
@@ -54,15 +55,17 @@ export default function AnalysisPage() {
                     fetch(`/api/countries/${c.file.replace('.json', '')}`).then(r => r.json())
                 );
                 const allCountries = await Promise.all(countryPromises);
-                const validCountries = allCountries.filter(Boolean) as CountryData[];
+                const AGGREGATE_ENTITIES = ['World', 'European Union'];
+                const validCountries = (allCountries.filter(Boolean) as CountryData[])
+                    .filter(c => !AGGREGATE_ENTITIES.includes(c.country) && !AGGREGATE_ENTITIES.includes(c.region));
                 setCountries(validCountries);
-                
+
                 const riskProfiles = calculateAllRiskProfiles(validCountries as any);
                 setProfiles(riskProfiles);
-                
+
                 const stats = calculateRegionalStats(validCountries as any);
                 setRegionalStats(stats);
-                
+
                 setLoading(false);
             })
             .catch(() => setLoading(false));
@@ -104,10 +107,7 @@ export default function AnalysisPage() {
             <div className="min-h-screen">
                 <Navigation />
                 <div className="flex items-center justify-center h-[calc(100vh-80px)]">
-                    <div className="text-center">
-                        <div className="w-12 h-12 sm:w-16 sm:h-16 border-4 border-blue-200 border-t-blue-500 rounded-full animate-spin mx-auto mb-4"></div>
-                        <p className="text-slate-500 text-sm sm:text-base">Calculating risk profiles...</p>
-                    </div>
+                    <LoadingSpinner size="xl" text="Calculating risk profiles..." />
                 </div>
             </div>
         );
@@ -143,9 +143,9 @@ export default function AnalysisPage() {
                                 </div>
                                 <div className="text-xs sm:text-sm text-slate-500 mt-1">{item.label}</div>
                                 <div className="mt-2 h-1.5 sm:h-2 bg-slate-200 rounded-full overflow-hidden">
-                                    <div 
+                                    <div
                                         className="h-full rounded-full transition-all"
-                                        style={{ 
+                                        style={{
                                             backgroundColor: item.color,
                                             width: `${(item.count / profiles.length) * 100}%`
                                         }}
@@ -164,11 +164,10 @@ export default function AnalysisPage() {
                             <button
                                 key={stat.region}
                                 onClick={() => setSelectedRegion(selectedRegion === stat.region ? null : stat.region)}
-                                className={`p-4 sm:p-5 rounded-xl border text-left transition-all ${
-                                    selectedRegion === stat.region
-                                        ? 'border-blue-300 bg-blue-50'
-                                        : 'border-slate-200 bg-white/80 hover:border-slate-300 hover:bg-white'
-                                }`}
+                                className={`p-4 sm:p-5 rounded-xl border text-left transition-all ${selectedRegion === stat.region
+                                    ? 'border-blue-300 bg-blue-50'
+                                    : 'border-slate-200 bg-white/80 hover:border-slate-300 hover:bg-white'
+                                    }`}
                             >
                                 <div className="flex items-start justify-between mb-2 sm:mb-3">
                                     <h3 className="font-semibold text-slate-800 text-sm sm:text-base">{stat.region}</h3>
@@ -206,7 +205,7 @@ export default function AnalysisPage() {
                             {selectedRegion ? `${selectedRegion} Rankings` : 'Global Rankings'}
                             <span className="text-slate-400 font-normal ml-2 normal-case">({sortedProfiles.length})</span>
                         </h2>
-                        
+
                         {/* Sort buttons - scrollable on mobile */}
                         <div className="flex items-center gap-2 overflow-x-auto pb-2 -mx-4 px-4 sm:mx-0 sm:px-0 sm:overflow-visible sm:flex-wrap">
                             <span className="text-slate-500 text-xs sm:text-sm whitespace-nowrap">Sort:</span>
@@ -214,11 +213,10 @@ export default function AnalysisPage() {
                                 <button
                                     key={key}
                                     onClick={() => setSortBy(key)}
-                                    className={`px-3 py-2 rounded-lg text-xs sm:text-sm capitalize transition whitespace-nowrap flex-shrink-0 ${
-                                        sortBy === key
-                                            ? 'bg-blue-50 text-blue-600 border border-blue-200'
-                                            : 'bg-white text-slate-500 hover:text-slate-700 border border-slate-200'
-                                    }`}
+                                    className={`px-3 py-2 rounded-lg text-xs sm:text-sm capitalize transition whitespace-nowrap flex-shrink-0 ${sortBy === key
+                                        ? 'bg-blue-50 text-blue-600 border border-blue-200'
+                                        : 'bg-white text-slate-500 hover:text-slate-700 border border-slate-200'
+                                        }`}
                                 >
                                     {key}
                                 </button>
@@ -261,10 +259,9 @@ export default function AnalysisPage() {
 
                                         return (
                                             <React.Fragment key={profile.country}>
-                                                <tr 
-                                                    className={`border-b border-slate-100 hover:bg-slate-50 transition cursor-pointer ${
-                                                        isExpanded ? 'bg-blue-50/50' : ''
-                                                    }`}
+                                                <tr
+                                                    className={`border-b border-slate-100 hover:bg-slate-50 transition cursor-pointer ${isExpanded ? 'bg-blue-50/50' : ''
+                                                        }`}
                                                     onClick={() => toggleRow(profile.country)}
                                                 >
                                                     <td className="py-3 px-2 sm:px-4">
@@ -302,11 +299,11 @@ export default function AnalysisPage() {
                                                         <ScoreCell score={profile.score.demographic} highlight={sortBy === 'demographic'} />
                                                     </td>
                                                     <td className="py-3 px-2 sm:px-4 text-center">
-                                                        <span 
+                                                        <span
                                                             className="px-2 py-1 rounded-full text-xs font-medium whitespace-nowrap"
-                                                            style={{ 
+                                                            style={{
                                                                 backgroundColor: `${profile.score.color}20`,
-                                                                color: profile.score.color 
+                                                                color: profile.score.color
                                                             }}
                                                         >
                                                             {profile.score.label}
@@ -393,8 +390,8 @@ export default function AnalysisPage() {
                         <div>
                             <h3 className="font-semibold text-slate-800 mb-1 sm:mb-2 text-sm sm:text-base">Understanding the Risk Index</h3>
                             <p className="text-slate-500 text-xs sm:text-sm">
-                                Our composite risk index aggregates multiple indicators across four dimensions: 
-                                economic stability (30%), political risk (25%), military tension (25%), and 
+                                Our composite risk index aggregates multiple indicators across four dimensions:
+                                economic stability (30%), political risk (25%), military tension (25%), and
                                 demographic pressure (20%). Higher scores indicate greater stability.
                             </p>
                         </div>
@@ -413,9 +410,9 @@ export default function AnalysisPage() {
 
 function ScoreBadge({ score }: { score: number }) {
     const color = score >= 80 ? '#22c55e' : score >= 65 ? '#84cc16' : score >= 45 ? '#eab308' : score >= 30 ? '#f97316' : '#ef4444';
-    
+
     return (
-        <div 
+        <div
             className="px-2 sm:px-3 py-1 rounded-full text-xs sm:text-sm font-bold"
             style={{ backgroundColor: `${color}20`, color }}
         >
@@ -426,9 +423,9 @@ function ScoreBadge({ score }: { score: number }) {
 
 function ScoreCell({ score, highlight }: { score: number; highlight?: boolean }) {
     const color = score >= 80 ? '#22c55e' : score >= 65 ? '#84cc16' : score >= 45 ? '#eab308' : score >= 30 ? '#f97316' : '#ef4444';
-    
+
     return (
-        <span 
+        <span
             className={`font-medium text-xs sm:text-base ${highlight ? 'sm:text-lg' : ''}`}
             style={{ color }}
         >
@@ -446,11 +443,11 @@ function ScoreBar({ label, score, color, weight }: { label: string; score: numbe
             </div>
             <div className="flex items-center gap-2">
                 <div className="flex-1 h-1.5 sm:h-2 bg-slate-200 rounded-full overflow-hidden">
-                    <div 
+                    <div
                         className="h-full rounded-full transition-all duration-500"
-                        style={{ 
+                        style={{
                             width: `${score}%`,
-                            backgroundColor: color 
+                            backgroundColor: color
                         }}
                     />
                 </div>

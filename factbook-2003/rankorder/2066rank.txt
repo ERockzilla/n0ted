@@ -1,0 +1,229 @@
+This tab-delimited file can be read by most spreadsheet applications after being saved properly.  At the top of your browser window, click 'File' and 'Save As...'  After saving the file, open your spreadsheet, find the file you just saved and then 'Open' it.
+Rank 	 Country 	 Death rate(deaths/1,000 population) 	 Date of Information
+1 	 Botswana 	     31.00 	 2003 est.
+2 	 Mozambique 	     30.04 	 2003 est.
+3 	 Angola 	     25.83 	 2003 est.
+4 	 Lesotho 	     24.58 	 2003 est.
+5 	 Zambia 	     24.30 	 2003 est.
+6 	 Malawi 	     22.64 	 2003 est.
+7 	 Zimbabwe 	     22.02 	 2003 est.
+8 	 Rwanda 	     21.72 	 2003 est.
+9 	 Niger 	     21.71 	 2003 est.
+10 	 Swaziland 	     21.08 	 2003 est.
+11 	 Sierra Leone 	     20.66 	 2003 est.
+12 	 Ethiopia 	     20.17 	 2003 est.
+13 	 Central African Republic 	     19.73 	 2003 est.
+14 	 Djibouti 	     19.45 	 2003 est.
+15 	 Mali 	     19.21 	 2003 est.
+16 	 Namibia 	     19.17 	 2003 est.
+17 	 Burkina Faso 	     18.76 	 2003 est.
+18 	 South Africa 	     18.42 	 2003 est.
+19 	 Cote d'Ivoire 	     18.41 	 2003 est.
+20 	 Liberia 	     17.84 	 2003 est.
+21 	 Burundi 	     17.80 	 2003 est.
+22 	 Somalia 	     17.64 	 2003 est.
+23 	 Tanzania 	     17.38 	 2003 est.
+24 	 Afghanistan 	     17.15 	 2003 est.
+25 	 Uganda 	     16.95 	 2003 est.
+26 	 Guinea-Bissau 	     16.62 	 2003 est.
+27 	 Ukraine 	     16.39 	 2003 est.
+28 	 Chad 	     16.38 	 2003 est.
+29 	 Kenya 	     16.01 	 2003 est.
+30 	 Guinea 	     15.70 	 2003 est.
+31 	 Cameroon 	     15.30 	 2003 est.
+32 	 Congo, Democratic Republic of the 	     14.87 	 2003 est.
+33 	 Georgia 	     14.71 	 2003 est.
+34 	 Latvia 	     14.70 	 2003 est.
+35 	 Bulgaria 	     14.34 	 2003 est.
+36 	 Congo, Republic of the 	     14.20 	 2003 est.
+37 	 Belarus 	     14.05 	 2003 est.
+38 	 Russia 	     13.99 	 2003 est.
+39 	 Nigeria 	     13.76 	 2003 est.
+40 	 Benin 	     13.65 	 2003 est.
+41 	 Bhutan 	     13.47 	 2003 est.
+42 	 Estonia 	     13.42 	 2003 est.
+43 	 Haiti 	     13.36 	 2003 est.
+44 	 Eritrea 	     13.23 	 2003 est.
+45 	 Mauritania 	     13.04 	 2003 est.
+46 	 Hungary 	     13.00 	 2003 est.
+47 	 Lithuania 	     12.89 	 2003 est.
+48 	 Monaco 	     12.82 	 2003 est.
+49 	 Moldova 	     12.70 	 2003 est.
+50 	 Equatorial Guinea 	     12.54 	 2003 est.
+51 	 Laos 	     12.39 	 2003 est.
+52 	 Gambia, The 	     12.35 	 2003 est.
+53 	 Romania 	     12.25 	 2003 est.
+54 	 Burma 	     12.17 	 2003 est.
+55 	 Madagascar 	     11.88 	 2003 est.
+56 	 Togo 	     11.51 	 2003 est.
+57 	 Man, Isle of 	     11.49 	 2003 est.
+58 	 Croatia 	     11.25 	 2003 est.
+59 	 Gabon 	     11.17 	 2003 est.
+60 	 Senegal 	     10.88 	 2003 est.
+61 	 Kazakhstan 	     10.78 	 2003 est.
+62 	 Czech Republic 	     10.74 	 2003 est.
+63 	 Denmark 	     10.72 	 2003 est.
+64 	 Serbia and Montenegro 	     10.62 	 2003 est.
+65 	 Sweden 	     10.58 	 2003 est.
+66 	 Ghana 	     10.53 	 2003 est.
+67 	 Germany 	     10.34 	 2003 est.
+68 	 Portugal 	     10.21 	 2003 est.
+69 	 United Kingdom 	     10.21 	 2003 est.
+70 	 Armenia 	     10.16 	 2003 est.
+71 	 Slovenia 	     10.15 	 2003 est.
+72 	 Italy 	     10.12 	 2003 est.
+73 	 Belgium 	     10.07 	 2003 est.
+74 	 Poland 	      9.96 	 2003 est.
+75 	 Greece 	      9.86 	 2003 est.
+76 	 Guernsey 	      9.84 	 2003 est.
+77 	 Nepal 	      9.84 	 2003 est.
+78 	 Finland 	      9.82 	 2003 est.
+79 	 Norway 	      9.72 	 2003 est.
+80 	 Austria 	      9.69 	 2003 est.
+81 	 Azerbaijan 	      9.68 	 2003 est.
+82 	 Sudan 	      9.59 	 2003 est.
+83 	 Spain 	      9.48 	 2003 est.
+84 	 Guyana 	      9.27 	 2003 est.
+85 	 Cambodia 	      9.26 	 2003 est.
+86 	 Slovakia 	      9.22 	 2003 est.
+87 	 Jersey 	      9.17 	 2003 est.
+88 	 Kyrgyzstan 	      9.10 	 2003 est.
+89 	 France 	      9.05 	 2003 est.
+90 	 Yemen 	      9.04 	 2003 est.
+91 	 Barbados 	      9.02 	 2003 est.
+92 	 Uruguay 	      8.97 	 2003 est.
+93 	 Gibraltar 	      8.93 	 2003 est.
+94 	 Turkmenistan 	      8.87 	 2003 est.
+95 	 Comoros 	      8.86 	 2003 est.
+96 	 Saint Kitts and Nevis 	      8.85 	 2003 est.
+97 	 World 	      8.83 	 2003 est.
+98 	 Switzerland 	      8.82 	 2003 est.
+99 	 Pakistan 	      8.79 	 2003 est.
+100 	 Luxembourg 	      8.78 	 2003 est.
+101 	 Trinidad and Tobago 	      8.71 	 2003 est.
+102 	 Faroe Islands 	      8.70 	 2003 est.
+103 	 Bahamas, The 	      8.68 	 2003 est.
+104 	 Netherlands 	      8.66 	 2003 est.
+105 	 Bangladesh 	      8.63 	 2003 est.
+106 	 Kiribati 	      8.63 	 2003 est.
+107 	 Japan 	      8.55 	 2003 est.
+108 	 India 	      8.49 	 2003 est.
+109 	 Tajikistan 	      8.46 	 2003 est.
+110 	 United States 	      8.44 	 2003 est.
+111 	 Mayotte 	      8.34 	 2003 est.
+112 	 Bosnia and Herzegovina 	      8.21 	 2003 est.
+113 	 Vanuatu 	      8.13 	 2003 est.
+114 	 Uzbekistan 	      7.97 	 2003 est.
+115 	 Ireland 	      7.94 	 2003 est.
+116 	 Bolivia 	      7.91 	 2003 est.
+117 	 San Marino 	      7.86 	 2003 est.
+118 	 Malta 	      7.80 	 2003 est.
+119 	 Macedonia, The Former Yugoslav Republic of 	      7.78 	 2003 est.
+120 	 Puerto Rico 	      7.68 	 2003 est.
+121 	 Greenland 	      7.66 	 2003 est.
+122 	 Maldives 	      7.65 	 2003 est.
+123 	 Cyprus 	      7.63 	 2003 est.
+124 	 Papua New Guinea 	      7.63 	 2003 est.
+125 	 Canada 	      7.61 	 2003 est.
+126 	 Argentina 	      7.58 	 2003 est.
+127 	 New Zealand 	      7.54 	 2003 est.
+128 	 Bermuda 	      7.46 	 2003 est.
+129 	 Grenada 	      7.46 	 2003 est.
+130 	 Cuba 	      7.38 	 2003 est.
+131 	 Montserrat 	      7.34 	 2003 est.
+132 	 Tuvalu 	      7.34 	 2003 est.
+133 	 Australia 	      7.31 	 2003 est.
+134 	 Mongolia 	      7.18 	 2003 est.
+135 	 Sao Tome and Principe 	      7.11 	 2003 est.
+136 	 Nauru 	      7.08 	 2003 est.
+137 	 Palau 	      7.00 	 2003 est.
+138 	 Dominica 	      6.99 	 2003 est.
+139 	 Iceland 	      6.95 	 2003 est.
+140 	 Korea, North 	      6.93 	 2003 est.
+141 	 Dominican Republic 	      6.88 	 2003 est.
+142 	 Cape Verde 	      6.86 	 2003 est.
+143 	 Thailand 	      6.86 	 2003 est.
+144 	 Liechtenstein 	      6.85 	 2003 est.
+145 	 Suriname 	      6.83 	 2003 est.
+146 	 Mauritius 	      6.81 	 2003 est.
+147 	 Guatemala 	      6.78 	 2003 est.
+148 	 China 	      6.74 	 2003 est.
+149 	 Saint Pierre and Miquelon 	      6.74 	 2003 est.
+150 	 Seychelles 	      6.49 	 2003 est.
+151 	 Albania 	      6.48 	 2003 est.
+152 	 Sri Lanka 	      6.46 	 2003 est.
+153 	 Honduras 	      6.44 	 2003 est.
+154 	 Martinique 	      6.41 	 2003 est.
+155 	 East Timor 	      6.41 	 2003 est.
+156 	 Samoa 	      6.41 	 2003 est.
+157 	 Netherlands Antilles 	      6.40 	 2003 est.
+158 	 Aruba 	      6.38 	 2003 est.
+159 	 Lebanon 	      6.32 	 2003 est.
+160 	 Indonesia 	      6.26 	 2003 est.
+161 	 Panama 	      6.25 	 2003 est.
+162 	 Saint Helena 	      6.24 	 2003 est.
+163 	 Israel 	      6.20 	 2003 est.
+164 	 Taiwan 	      6.20 	 2003 est.
+165 	 Hong Kong 	      6.19 	 2003 est.
+166 	 Vietnam 	      6.19 	 2003 est.
+167 	 Brazil 	      6.13 	 2003 est.
+168 	 Saint Vincent and the Grenadines 	      6.08 	 2003 est.
+169 	 Belize 	      6.05 	 2003 est.
+170 	 Guadeloupe 	      6.04 	 2003 est.
+171 	 Korea, South 	      6.03 	 2003 est.
+172 	 El Salvador 	      6.01 	 2003 est.
+173 	 Turkey 	      5.95 	 2003 est.
+174 	 Iraq 	      5.84 	 2003 est.
+175 	 Saudi Arabia 	      5.79 	 2003 est.
+176 	 Morocco 	      5.78 	 2003 est.
+177 	 Andorra 	      5.74 	 2003 est.
+178 	 Fiji 	      5.70 	 2003 est.
+179 	 Peru 	      5.69 	 2003 est.
+180 	 Virgin Islands 	      5.68 	 2003 est.
+181 	 Antigua and Barbuda 	      5.64 	 2003 est.
+182 	 Chile 	      5.63 	 2003 est.
+183 	 Colombia 	      5.63 	 2003 est.
+184 	 New Caledonia 	      5.63 	 2003 est.
+185 	 Philippines 	      5.60 	 2003 est.
+186 	 Iran 	      5.54 	 2003 est.
+187 	 Tonga 	      5.54 	 2003 est.
+188 	 Reunion 	      5.49 	 2003 est.
+189 	 Anguilla 	      5.42 	 2003 est.
+190 	 Jamaica 	      5.42 	 2003 est.
+191 	 Egypt 	      5.35 	 2003 est.
+192 	 Ecuador 	      5.29 	 2003 est.
+193 	 Saint Lucia 	      5.24 	 2003 est.
+194 	 Malaysia 	      5.12 	 2003 est.
+195 	 Micronesia, Federated States of 	      5.10 	 2003 est.
+196 	 Algeria 	      5.09 	 2003 est.
+197 	 Syria 	      5.04 	 2003 est.
+198 	 Marshall Islands 	      5.03 	 2003 est.
+199 	 Tunisia 	      5.02 	 2003 est.
+200 	 Mexico 	      4.97 	 2003 est.
+201 	 Venezuela 	      4.90 	 2003 est.
+202 	 French Guiana 	      4.80 	 2003 est.
+203 	 Cayman Islands 	      4.70 	 2003 est.
+204 	 Nicaragua 	      4.69 	 2003 est.
+205 	 Paraguay 	      4.64 	 2003 est.
+206 	 French Polynesia 	      4.53 	 2003 est.
+207 	 British Virgin Islands 	      4.46 	 2003 est.
+208 	 Qatar 	      4.43 	 2003 est.
+209 	 American Samoa 	      4.38 	 2003 est.
+210 	 Turks and Caicos Islands 	      4.34 	 2003 est.
+211 	 Costa Rica 	      4.31 	 2003 est.
+212 	 Singapore 	      4.31 	 2003 est.
+213 	 Guam 	      4.29 	 2003 est.
+214 	 West Bank 	      4.16 	 2003 est.
+215 	 Solomon Islands 	      4.12 	 2003 est.
+216 	 Gaza Strip 	      4.03 	 2003 est.
+217 	 United Arab Emirates 	      4.02 	 2003 est.
+218 	 Bahrain 	      3.99 	 2003 est.
+219 	 Oman 	      3.97 	 2003 est.
+220 	 Macau 	      3.85 	 2003 est.
+221 	 Libya 	      3.49 	 2003 est.
+222 	 Brunei 	      3.39 	 2003 est.
+223 	 Jordan 	      2.62 	 2003 est.
+224 	 Kuwait 	      2.45 	 2003 est.
+225 	 Northern Mariana Islands 	      2.44 	 2003 est.
+
+ This file was last updated on 18 December, 2003

@@ -1,0 +1,18 @@
+{
+  "country": "Man Isle Of",
+  "region": "Unknown",
+  "year": 2004,
+  "demographics": {
+    "population": 75049,
+    "life_expectancy": 78.34
+  },
+  "economy": {
+    "gdp_ppp_billions": 1.6,
+    "gdp_growth_pct": 13.5,
+    "gdp_per_capita": 21000,
+    "inflation_pct": 3.6,
+    "unemployment_pct": 0.7
+  },
+  "military": {},
+  "political": {}
+}

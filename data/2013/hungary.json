@@ -1,0 +1,23 @@
+{
+  "country": "Hungary",
+  "region": "Europe",
+  "year": 2013,
+  "demographics": {
+    "population": 9939470,
+    "population_growth_pct": -0.2,
+    "life_expectancy": 75.24
+  },
+  "economy": {
+    "gdp_ppp_billions": 193.6,
+    "gdp_growth_pct": -1.7,
+    "gdp_per_capita": 19500,
+    "inflation_pct": 5.7,
+    "unemployment_pct": 10.7,
+    "exports_billions": 90.23,
+    "imports_billions": 87.37
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.75
+  },
+  "political": {}
+}

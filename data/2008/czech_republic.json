@@ -1,0 +1,23 @@
+{
+  "country": "Czech Republic",
+  "region": "Europe",
+  "year": 2008,
+  "demographics": {
+    "population": 10220911,
+    "population_growth_pct": -0.08,
+    "life_expectancy": 76.62
+  },
+  "economy": {
+    "gdp_ppp_billions": 251.0,
+    "gdp_growth_pct": 6.6,
+    "gdp_per_capita": 24500,
+    "inflation_pct": 2.9,
+    "unemployment_pct": 6.6,
+    "exports_billions": 122.3,
+    "imports_billions": 116.6
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.46
+  },
+  "political": {}
+}

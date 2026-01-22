@@ -1,0 +1,23 @@
+{
+  "country": "Lithuania",
+  "region": "Europe",
+  "year": 2019,
+  "demographics": {
+    "population": 2793284,
+    "population_growth_pct": -1.1,
+    "life_expectancy": 75.2
+  },
+  "economy": {
+    "gdp_ppp_billions": 91.47,
+    "gdp_growth_pct": 3.9,
+    "gdp_per_capita": 32400,
+    "inflation_pct": 3.7,
+    "unemployment_pct": 13.3,
+    "exports_billions": 29.12,
+    "imports_billions": 31.56
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.03
+  },
+  "political": {}
+}

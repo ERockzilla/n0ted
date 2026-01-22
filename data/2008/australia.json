@@ -1,0 +1,23 @@
+{
+  "country": "Australia",
+  "region": "Australia-Oceania",
+  "year": 2008,
+  "demographics": {
+    "population": 21007310,
+    "population_growth_pct": 1.22,
+    "life_expectancy": 81.53
+  },
+  "economy": {
+    "gdp_ppp_billions": 773.0,
+    "gdp_growth_pct": 4.3,
+    "gdp_per_capita": 37300,
+    "inflation_pct": 2.3,
+    "unemployment_pct": 4.4,
+    "exports_billions": 142.1,
+    "imports_billions": 160.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.4
+  },
+  "political": {}
+}

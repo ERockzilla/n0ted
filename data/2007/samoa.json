@@ -1,0 +1,19 @@
+{
+  "country": "Samoa",
+  "region": "Australia-Oceania",
+  "year": 2007,
+  "demographics": {
+    "population": 214265,
+    "life_expectancy": 71.3
+  },
+  "economy": {
+    "gdp_ppp_billions": 1.22,
+    "gdp_growth_pct": 5.5,
+    "gdp_per_capita": 2100,
+    "inflation_pct": 3.3,
+    "exports_billions": 0.09,
+    "imports_billions": 0.28
+  },
+  "military": {},
+  "political": {}
+}

@@ -1,0 +1,23 @@
+{
+  "country": "Croatia",
+  "region": "Europe",
+  "year": 2008,
+  "demographics": {
+    "population": 4491543,
+    "population_growth_pct": -0.04,
+    "life_expectancy": 75.13
+  },
+  "economy": {
+    "gdp_ppp_billions": 69.59,
+    "gdp_growth_pct": 5.7,
+    "gdp_per_capita": 15500,
+    "inflation_pct": 4.5,
+    "unemployment_pct": 11.8,
+    "exports_billions": 12.62,
+    "imports_billions": 25.99
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.39
+  },
+  "political": {}
+}

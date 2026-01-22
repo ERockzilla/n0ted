@@ -1,0 +1,23 @@
+{
+  "country": "Equatorial Guinea",
+  "region": "Africa",
+  "year": 2020,
+  "demographics": {
+    "population": 836178,
+    "population_growth_pct": 2.35,
+    "life_expectancy": 65.7,
+    "median_age": 20.3
+  },
+  "economy": {
+    "gdp_growth_pct": -3.2,
+    "gdp_per_capita": 9228,
+    "inflation_pct": 1.2,
+    "exports_billions": 8.78,
+    "imports_billions": 6.25,
+    "external_debt_billions": 1.21
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.1
+  },
+  "political": {}
+}

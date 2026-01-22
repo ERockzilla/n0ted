@@ -1,0 +1,22 @@
+{
+  "country": "Guyana",
+  "region": "South America",
+  "year": 2008,
+  "demographics": {
+    "population": 770794,
+    "population_growth_pct": 0.21,
+    "life_expectancy": 66.43
+  },
+  "economy": {
+    "gdp_ppp_billions": 2.82,
+    "gdp_growth_pct": 5.3,
+    "gdp_per_capita": 3700,
+    "inflation_pct": 12.3,
+    "exports_billions": 0.68,
+    "imports_billions": 1.01
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.8
+  },
+  "political": {}
+}

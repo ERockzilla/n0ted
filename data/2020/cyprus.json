@@ -1,0 +1,24 @@
+{
+  "country": "Cyprus",
+  "region": "Europe",
+  "year": 2020,
+  "demographics": {
+    "population": 1266676,
+    "population_growth_pct": 1.15,
+    "life_expectancy": 79.3,
+    "median_age": 37.9
+  },
+  "economy": {
+    "gdp_growth_pct": 3.08,
+    "gdp_per_capita": 23948,
+    "inflation_pct": 0.2,
+    "unemployment_pct": 20.2,
+    "exports_billions": 20.65,
+    "imports_billions": 21.07,
+    "external_debt_billions": 95.28
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.6
+  },
+  "political": {}
+}

@@ -1,0 +1,21 @@
+{
+  "country": "Faroe Islands",
+  "region": "Europe",
+  "year": 2020,
+  "demographics": {
+    "population": 51628,
+    "population_growth_pct": 0.6,
+    "life_expectancy": 80.8,
+    "median_age": 37.2
+  },
+  "economy": {
+    "gdp_growth_pct": 5.9,
+    "gdp_per_capita": 40000,
+    "inflation_pct": -0.3,
+    "exports_billions": 1.18,
+    "imports_billions": 0.98,
+    "external_debt_billions": 0.39
+  },
+  "military": {},
+  "political": {}
+}

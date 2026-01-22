@@ -1,0 +1,23 @@
+{
+  "country": "Haiti",
+  "region": "Central America and Caribbean",
+  "year": 2013,
+  "demographics": {
+    "population": 9893934,
+    "population_growth_pct": 0.99,
+    "life_expectancy": 62.85
+  },
+  "economy": {
+    "gdp_ppp_billions": 12.8,
+    "gdp_growth_pct": 2.8,
+    "gdp_per_capita": 1200,
+    "inflation_pct": 6.3,
+    "exports_billions": 0.79,
+    "imports_billions": 2.68,
+    "unemployment_pct": 40.6
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.4
+  },
+  "political": {}
+}

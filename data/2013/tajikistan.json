@@ -1,0 +1,23 @@
+{
+  "country": "Tajikistan",
+  "region": "Central Asia",
+  "year": 2013,
+  "demographics": {
+    "population": 7910041,
+    "population_growth_pct": 1.79,
+    "life_expectancy": 66.72
+  },
+  "economy": {
+    "gdp_ppp_billions": 17.56,
+    "gdp_growth_pct": 7.5,
+    "gdp_per_capita": 2200,
+    "inflation_pct": 5.8,
+    "unemployment_pct": 2.5,
+    "exports_billions": 0.83,
+    "imports_billions": 4.38
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.5
+  },
+  "political": {}
+}

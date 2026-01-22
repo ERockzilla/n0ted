@@ -1,0 +1,22 @@
+{
+  "country": "Uzbekistan",
+  "region": "Central Asia",
+  "year": 2019,
+  "demographics": {
+    "population": 30023709,
+    "population_growth_pct": 0.91,
+    "life_expectancy": 74.3
+  },
+  "economy": {
+    "gdp_ppp_billions": 223.0,
+    "gdp_growth_pct": 5.3,
+    "gdp_per_capita": 6900,
+    "inflation_pct": 12.5,
+    "exports_billions": 11.48,
+    "imports_billions": 11.42
+  },
+  "military": {
+    "expenditure_pct_gdp": 4.0
+  },
+  "political": {}
+}

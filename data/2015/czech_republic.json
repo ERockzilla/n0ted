@@ -1,0 +1,23 @@
+{
+  "country": "Czech Republic",
+  "region": "Europe",
+  "year": 2015,
+  "demographics": {
+    "population": 10627448,
+    "population_growth_pct": 0.17,
+    "life_expectancy": 78.31
+  },
+  "economy": {
+    "gdp_ppp_billions": 299.7,
+    "gdp_growth_pct": 2.5,
+    "gdp_per_capita": 28400,
+    "inflation_pct": 0.4,
+    "unemployment_pct": 7.9,
+    "exports_billions": 147.3,
+    "imports_billions": 135.1
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.08
+  },
+  "political": {}
+}

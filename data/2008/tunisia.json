@@ -1,0 +1,23 @@
+{
+  "country": "Tunisia",
+  "region": "Africa",
+  "year": 2008,
+  "demographics": {
+    "population": 10383577,
+    "population_growth_pct": 0.99,
+    "life_expectancy": 75.56
+  },
+  "economy": {
+    "gdp_ppp_billions": 76.07,
+    "gdp_growth_pct": 6.3,
+    "gdp_per_capita": 7400,
+    "inflation_pct": 3.1,
+    "unemployment_pct": 14.1,
+    "exports_billions": 15.15,
+    "imports_billions": 18.02
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.4
+  },
+  "political": {}
+}

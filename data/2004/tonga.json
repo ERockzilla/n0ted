@@ -1,0 +1,20 @@
+{
+  "country": "Tonga",
+  "region": "Australia-Oceania",
+  "year": 2004,
+  "demographics": {
+    "population": 112422,
+    "life_expectancy": 69.53
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.24,
+    "gdp_growth_pct": 3.0,
+    "gdp_per_capita": 2200,
+    "inflation_pct": 10.3,
+    "unemployment_pct": 13.3,
+    "exports_billions": 0.03,
+    "imports_billions": 0.09
+  },
+  "military": {},
+  "political": {}
+}

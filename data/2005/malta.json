@@ -1,0 +1,22 @@
+{
+  "country": "Malta",
+  "region": "Europe",
+  "year": 2005,
+  "demographics": {
+    "population": 398534,
+    "life_expectancy": 78.86
+  },
+  "economy": {
+    "gdp_ppp_billions": 7.22,
+    "gdp_growth_pct": 1.0,
+    "gdp_per_capita": 18200,
+    "inflation_pct": 2.9,
+    "unemployment_pct": 7.0,
+    "exports_billions": 2.62,
+    "imports_billions": 3.41
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.7
+  },
+  "political": {}
+}

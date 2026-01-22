@@ -1,0 +1,23 @@
+{
+  "country": "Guinea",
+  "region": "Africa",
+  "year": 2018,
+  "demographics": {
+    "population": 11855411,
+    "population_growth_pct": 2.75,
+    "life_expectancy": 62.1
+  },
+  "economy": {
+    "gdp_ppp_billions": 27.97,
+    "gdp_growth_pct": 8.2,
+    "gdp_per_capita": 2200,
+    "inflation_pct": 8.9,
+    "exports_billions": 3.51,
+    "imports_billions": 4.8,
+    "unemployment_pct": 1.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.49
+  },
+  "political": {}
+}

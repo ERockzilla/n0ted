@@ -1,0 +1,23 @@
+{
+  "country": "Sweden",
+  "region": "Europe",
+  "year": 2015,
+  "demographics": {
+    "population": 9723809,
+    "population_growth_pct": 0.79,
+    "life_expectancy": 81.89
+  },
+  "economy": {
+    "gdp_ppp_billions": 434.2,
+    "gdp_growth_pct": 2.1,
+    "gdp_per_capita": 44700,
+    "inflation_pct": -0.2,
+    "unemployment_pct": 7.9,
+    "exports_billions": 184.1,
+    "imports_billions": 163.8
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.18
+  },
+  "political": {}
+}

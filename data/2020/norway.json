@@ -1,0 +1,24 @@
+{
+  "country": "Norway",
+  "region": "Europe",
+  "year": 2020,
+  "demographics": {
+    "population": 5467439,
+    "population_growth_pct": 0.85,
+    "life_expectancy": 82.1,
+    "median_age": 39.5
+  },
+  "economy": {
+    "gdp_growth_pct": 0.86,
+    "gdp_per_capita": 91781,
+    "inflation_pct": 2.1,
+    "unemployment_pct": 9.7,
+    "exports_billions": 185.1,
+    "imports_billions": 158.04,
+    "external_debt_billions": 642.3
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.8
+  },
+  "political": {}
+}

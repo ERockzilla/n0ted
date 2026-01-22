@@ -1,0 +1,23 @@
+{
+  "country": "Italy",
+  "region": "Europe",
+  "year": 2017,
+  "demographics": {
+    "population": 62137802,
+    "population_growth_pct": 0.2,
+    "life_expectancy": 82.3
+  },
+  "economy": {
+    "gdp_ppp_billions": 2235.0,
+    "gdp_growth_pct": 0.9,
+    "gdp_per_capita": 36800,
+    "inflation_pct": -0.1,
+    "unemployment_pct": 11.7,
+    "exports_billions": 454.1,
+    "imports_billions": 387.1
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.69
+  },
+  "political": {}
+}

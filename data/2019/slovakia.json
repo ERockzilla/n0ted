@@ -1,0 +1,23 @@
+{
+  "country": "Slovakia",
+  "region": "Europe",
+  "year": 2019,
+  "demographics": {
+    "population": 5445040,
+    "population_growth_pct": -0.02,
+    "life_expectancy": 77.4
+  },
+  "economy": {
+    "gdp_ppp_billions": 179.7,
+    "gdp_growth_pct": 3.4,
+    "gdp_per_capita": 33100,
+    "inflation_pct": 1.3,
+    "unemployment_pct": 18.9,
+    "exports_billions": 80.8,
+    "imports_billions": 80.07
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.74
+  },
+  "political": {}
+}

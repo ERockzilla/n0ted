@@ -1,0 +1,23 @@
+{
+  "country": "Indonesia",
+  "region": "East & Southeast Asia",
+  "year": 2015,
+  "demographics": {
+    "population": 253609643,
+    "population_growth_pct": 0.95,
+    "life_expectancy": 72.17
+  },
+  "economy": {
+    "gdp_ppp_billions": 2554.0,
+    "gdp_growth_pct": 5.2,
+    "gdp_per_capita": 10200,
+    "inflation_pct": 6.4,
+    "unemployment_pct": 5.7,
+    "exports_billions": 179.4,
+    "imports_billions": 166.7
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.78
+  },
+  "political": {}
+}

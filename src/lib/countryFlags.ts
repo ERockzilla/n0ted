@@ -17,7 +17,7 @@ const COUNTRY_CODES: Record<string, string> = {
     'australia': 'AU',
     'austria': 'AT',
     'azerbaijan': 'AZ',
-    
+
     // B
     'bahamas': 'BS',
     'bahamas, the': 'BS',
@@ -41,7 +41,7 @@ const COUNTRY_CODES: Record<string, string> = {
     'burma': 'MM',
     'myanmar': 'MM',
     'burundi': 'BI',
-    
+
     // C
     'cabo verde': 'CV',
     'cape verde': 'CV',
@@ -66,13 +66,13 @@ const COUNTRY_CODES: Record<string, string> = {
     'cyprus': 'CY',
     'czech republic': 'CZ',
     'czechia': 'CZ',
-    
+
     // D
     'denmark': 'DK',
     'djibouti': 'DJ',
     'dominica': 'DM',
     'dominican republic': 'DO',
-    
+
     // E
     'east timor': 'TL',
     'timor-leste': 'TL',
@@ -85,7 +85,7 @@ const COUNTRY_CODES: Record<string, string> = {
     'eswatini': 'SZ',
     'swaziland': 'SZ',
     'ethiopia': 'ET',
-    
+
     // F
     'faroe islands': 'FO',
     'fiji': 'FJ',
@@ -93,7 +93,7 @@ const COUNTRY_CODES: Record<string, string> = {
     'france': 'FR',
     'french guiana': 'GF',
     'french polynesia': 'PF',
-    
+
     // G
     'gabon': 'GA',
     'gambia': 'GM',
@@ -112,13 +112,13 @@ const COUNTRY_CODES: Record<string, string> = {
     'guinea': 'GN',
     'guinea-bissau': 'GW',
     'guyana': 'GY',
-    
+
     // H
     'haiti': 'HT',
     'honduras': 'HN',
     'hong kong': 'HK',
     'hungary': 'HU',
-    
+
     // I
     'iceland': 'IS',
     'india': 'IN',
@@ -129,13 +129,13 @@ const COUNTRY_CODES: Record<string, string> = {
     'isle of man': 'IM',
     'israel': 'IL',
     'italy': 'IT',
-    
+
     // J
     'jamaica': 'JM',
     'japan': 'JP',
     'jersey': 'JE',
     'jordan': 'JO',
-    
+
     // K
     'kazakhstan': 'KZ',
     'kenya': 'KE',
@@ -147,7 +147,7 @@ const COUNTRY_CODES: Record<string, string> = {
     'kosovo': 'XK',
     'kuwait': 'KW',
     'kyrgyzstan': 'KG',
-    
+
     // L
     'laos': 'LA',
     'latvia': 'LV',
@@ -158,7 +158,7 @@ const COUNTRY_CODES: Record<string, string> = {
     'liechtenstein': 'LI',
     'lithuania': 'LT',
     'luxembourg': 'LU',
-    
+
     // M
     'macau': 'MO',
     'macao': 'MO',
@@ -182,7 +182,7 @@ const COUNTRY_CODES: Record<string, string> = {
     'montserrat': 'MS',
     'morocco': 'MA',
     'mozambique': 'MZ',
-    
+
     // N
     'namibia': 'NA',
     'nauru': 'NR',
@@ -197,10 +197,10 @@ const COUNTRY_CODES: Record<string, string> = {
     'macedonia': 'MK',
     'northern mariana islands': 'MP',
     'norway': 'NO',
-    
+
     // O
     'oman': 'OM',
-    
+
     // P
     'pakistan': 'PK',
     'palau': 'PW',
@@ -213,16 +213,16 @@ const COUNTRY_CODES: Record<string, string> = {
     'poland': 'PL',
     'portugal': 'PT',
     'puerto rico': 'PR',
-    
+
     // Q
     'qatar': 'QA',
-    
+
     // R
     'reunion': 'RE',
     'romania': 'RO',
     'russia': 'RU',
     'rwanda': 'RW',
-    
+
     // S
     'saint kitts and nevis': 'KN',
     'saint lucia': 'LC',
@@ -250,7 +250,7 @@ const COUNTRY_CODES: Record<string, string> = {
     'sweden': 'SE',
     'switzerland': 'CH',
     'syria': 'SY',
-    
+
     // T
     'taiwan': 'TW',
     'tajikistan': 'TJ',
@@ -264,7 +264,7 @@ const COUNTRY_CODES: Record<string, string> = {
     'turkmenistan': 'TM',
     'turks and caicos islands': 'TC',
     'tuvalu': 'TV',
-    
+
     // U
     'uganda': 'UG',
     'ukraine': 'UA',
@@ -273,7 +273,7 @@ const COUNTRY_CODES: Record<string, string> = {
     'united states': 'US',
     'uruguay': 'UY',
     'uzbekistan': 'UZ',
-    
+
     // V
     'vanuatu': 'VU',
     'vatican city': 'VA',
@@ -281,14 +281,14 @@ const COUNTRY_CODES: Record<string, string> = {
     'venezuela': 'VE',
     'vietnam': 'VN',
     'virgin islands': 'VI',
-    
+
     // W
     'wallis and futuna': 'WF',
     'western sahara': 'EH',
-    
+
     // Y
     'yemen': 'YE',
-    
+
     // Z
     'zambia': 'ZM',
     'zimbabwe': 'ZW',
@@ -309,8 +309,8 @@ export function getCountryCode(countryName: string): string | null {
 export function getFlagUrl(countryName: string, size: '1x1' | '4x3' = '4x3'): string | null {
     const code = getCountryCode(countryName);
     if (!code) return null;
-    // country-flag-icons provides SVG flags
-    return `https://purecatamphetamine.github.io/country-flag-icons/3x2/${code}.svg`;
+    // Local flag SVGs (downloaded from country-flag-icons)
+    return `/flags/${code}.svg`;
 }
 
 /**

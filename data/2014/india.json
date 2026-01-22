@@ -1,0 +1,23 @@
+{
+  "country": "India",
+  "region": "South Asia",
+  "year": 2014,
+  "demographics": {
+    "population": 1236344631,
+    "population_growth_pct": 1.25,
+    "life_expectancy": 67.8
+  },
+  "economy": {
+    "gdp_ppp_billions": 4990.0,
+    "gdp_growth_pct": 3.2,
+    "gdp_per_capita": 4000,
+    "inflation_pct": 9.6,
+    "unemployment_pct": 8.8,
+    "exports_billions": 313.2,
+    "imports_billions": 467.5
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.43
+  },
+  "political": {}
+}

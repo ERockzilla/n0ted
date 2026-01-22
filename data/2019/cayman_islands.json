@@ -1,0 +1,21 @@
+{
+  "country": "Cayman Islands",
+  "region": "Central America and Caribbean",
+  "year": 2019,
+  "demographics": {
+    "population": 59613,
+    "population_growth_pct": 1.96,
+    "life_expectancy": 81.4
+  },
+  "economy": {
+    "gdp_ppp_billions": 2.51,
+    "gdp_growth_pct": 1.7,
+    "gdp_per_capita": 43800,
+    "inflation_pct": 2.0,
+    "unemployment_pct": 13.8,
+    "exports_billions": 0.42,
+    "imports_billions": 0.79
+  },
+  "military": {},
+  "political": {}
+}

@@ -1,0 +1,22 @@
+{
+  "country": "Zambia",
+  "region": "Africa",
+  "year": 2006,
+  "demographics": {
+    "population": 11502010,
+    "life_expectancy": 40.03
+  },
+  "economy": {
+    "gdp_ppp_billions": 10.63,
+    "gdp_growth_pct": 5.0,
+    "gdp_per_capita": 900,
+    "inflation_pct": 18.3,
+    "unemployment_pct": 50.0,
+    "exports_billions": 1.95,
+    "imports_billions": 1.93
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.8
+  },
+  "political": {}
+}

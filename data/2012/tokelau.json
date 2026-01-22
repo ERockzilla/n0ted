@@ -1,0 +1,17 @@
+{
+  "country": "Tokelau",
+  "region": "Australia-Oceania",
+  "year": 2012,
+  "demographics": {
+    "population": 1368,
+    "population_growth_pct": -0.01
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.0,
+    "gdp_per_capita": 1000,
+    "exports_billions": 0.0,
+    "imports_billions": 969200.0
+  },
+  "military": {},
+  "political": {}
+}

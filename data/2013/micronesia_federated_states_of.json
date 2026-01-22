@@ -1,0 +1,21 @@
+{
+  "country": "Micronesia Federated States Of",
+  "region": "Australia-Oceania",
+  "year": 2013,
+  "demographics": {
+    "population": 106104,
+    "life_expectancy": 72.07,
+    "population_growth_pct": -0.38
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.74,
+    "gdp_growth_pct": 0.4,
+    "gdp_per_capita": 7100,
+    "inflation_pct": 3.4,
+    "unemployment_pct": 22.0,
+    "exports_billions": 0.02,
+    "imports_billions": 0.13
+  },
+  "military": {},
+  "political": {}
+}

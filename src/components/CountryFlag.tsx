@@ -22,7 +22,7 @@ export default function CountryFlag({ country, size = 'md', className = '' }: Co
     if (!code) {
         // Fallback placeholder for countries without flag mapping
         return (
-            <div 
+            <div
                 className={`bg-slate-700 rounded flex items-center justify-center text-slate-500 text-xs ${className}`}
                 style={{ width: dimensions.width, height: dimensions.height }}
             >
@@ -31,7 +31,7 @@ export default function CountryFlag({ country, size = 'md', className = '' }: Co
         );
     }
 
-    const flagUrl = `https://purecatamphetamine.github.io/country-flag-icons/3x2/${code}.svg`;
+    const flagUrl = `/flags/${code}.svg`;
 
     return (
         <Image

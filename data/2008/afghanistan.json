@@ -1,0 +1,23 @@
+{
+  "country": "Afghanistan",
+  "region": "South Asia",
+  "year": 2008,
+  "demographics": {
+    "population": 32738376,
+    "population_growth_pct": 2.63,
+    "life_expectancy": 44.21
+  },
+  "economy": {
+    "gdp_ppp_billions": 35.0,
+    "gdp_growth_pct": 11.5,
+    "gdp_per_capita": 1000,
+    "inflation_pct": 13.0,
+    "unemployment_pct": 40.0,
+    "exports_billions": 0.27,
+    "imports_billions": 3.82
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.9
+  },
+  "political": {}
+}

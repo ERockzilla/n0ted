@@ -1,0 +1,20 @@
+{
+  "country": "European Union",
+  "region": "Europe",
+  "year": 2006,
+  "demographics": {
+    "population": 456953258,
+    "life_expectancy": 78.3
+  },
+  "economy": {
+    "gdp_ppp_billions": 12180.0,
+    "gdp_growth_pct": 1.7,
+    "gdp_per_capita": 28100,
+    "inflation_pct": 2.2,
+    "unemployment_pct": 9.4,
+    "exports_billions": 1318.0,
+    "imports_billions": 1402.0
+  },
+  "military": {},
+  "political": {}
+}

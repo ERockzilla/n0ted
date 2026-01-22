@@ -1,0 +1,22 @@
+{
+  "country": "Lesotho",
+  "region": "Africa",
+  "year": 2005,
+  "demographics": {
+    "population": 2031348,
+    "life_expectancy": 34.47
+  },
+  "economy": {
+    "gdp_ppp_billions": 5.89,
+    "gdp_growth_pct": 3.3,
+    "gdp_per_capita": 3200,
+    "inflation_pct": 5.3,
+    "unemployment_pct": 45.0,
+    "exports_billions": 0.48,
+    "imports_billions": 0.73
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.3
+  },
+  "political": {}
+}

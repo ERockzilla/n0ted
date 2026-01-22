@@ -1,0 +1,23 @@
+{
+  "country": "Finland",
+  "region": "Europe",
+  "year": 2015,
+  "demographics": {
+    "population": 5268799,
+    "population_growth_pct": 0.05,
+    "life_expectancy": 79.69
+  },
+  "economy": {
+    "gdp_ppp_billions": 221.5,
+    "gdp_growth_pct": -0.2,
+    "gdp_per_capita": 40500,
+    "inflation_pct": 1.2,
+    "unemployment_pct": 8.6,
+    "exports_billions": 78.0,
+    "imports_billions": 73.01
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.47
+  },
+  "political": {}
+}

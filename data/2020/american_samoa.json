@@ -1,0 +1,20 @@
+{
+  "country": "American Samoa",
+  "region": "Australia-Oceania",
+  "year": 2020,
+  "demographics": {
+    "population": 49437,
+    "population_growth_pct": -1.4,
+    "life_expectancy": 74.8,
+    "median_age": 27.2
+  },
+  "economy": {
+    "gdp_growth_pct": -2.5,
+    "gdp_per_capita": 11200,
+    "exports_billions": 0.43,
+    "imports_billions": 0.61,
+    "inflation_pct": -0.5
+  },
+  "military": {},
+  "political": {}
+}

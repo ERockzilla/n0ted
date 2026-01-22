@@ -1,0 +1,20 @@
+{
+  "country": "Andorra",
+  "region": "Europe",
+  "year": 2007,
+  "demographics": {
+    "population": 71822,
+    "life_expectancy": 83.52
+  },
+  "economy": {
+    "gdp_ppp_billions": 2.77,
+    "gdp_growth_pct": 3.5,
+    "gdp_per_capita": 38800,
+    "inflation_pct": 3.2,
+    "unemployment_pct": 0.0,
+    "exports_billions": 0.15,
+    "imports_billions": 1.88
+  },
+  "military": {},
+  "political": {}
+}

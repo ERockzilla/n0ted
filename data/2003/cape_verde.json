@@ -1,0 +1,22 @@
+{
+  "country": "Cape Verde",
+  "region": "Africa",
+  "year": 2003,
+  "demographics": {
+    "population": 412137,
+    "life_expectancy": 69.83
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.6,
+    "gdp_growth_pct": 4.0,
+    "gdp_per_capita": 1400,
+    "inflation_pct": 3.0,
+    "unemployment_pct": 21.0,
+    "exports_billions": 0.03,
+    "imports_billions": 0.22
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.6
+  },
+  "political": {}
+}

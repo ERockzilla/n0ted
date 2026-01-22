@@ -1,0 +1,23 @@
+{
+  "country": "Malta",
+  "region": "Europe",
+  "year": 2016,
+  "demographics": {
+    "population": 415196,
+    "population_growth_pct": 0.29,
+    "life_expectancy": 80.4
+  },
+  "economy": {
+    "gdp_ppp_billions": 15.47,
+    "gdp_growth_pct": 6.2,
+    "gdp_per_capita": 36100,
+    "inflation_pct": 1.2,
+    "unemployment_pct": 5.4,
+    "exports_billions": 2.96,
+    "imports_billions": 4.6
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.61
+  },
+  "political": {}
+}

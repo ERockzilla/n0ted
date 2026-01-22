@@ -1,0 +1,19 @@
+{
+  "country": "Gibraltar",
+  "region": "Europe",
+  "year": 2019,
+  "demographics": {
+    "population": 29461,
+    "population_growth_pct": 0.21,
+    "life_expectancy": 79.7
+  },
+  "economy": {
+    "gdp_ppp_billions": 2.04,
+    "gdp_per_capita": 61700,
+    "inflation_pct": 2.5,
+    "exports_billions": 0.2,
+    "imports_billions": 2.97
+  },
+  "military": {},
+  "political": {}
+}

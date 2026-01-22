@@ -1,0 +1,1149 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> 
+ <!--<![endif]-->
+<html class="no-js" lang="en"><!-- InstanceBegin template="/Templates/wfbext_template.dwt.cfm" codeOutsideHTMLIsLocked="false" -->
+<head>
+
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <!-- InstanceBeginEditable name="doctitle" -->
+  <title>The World Factbook</title>
+  <!-- InstanceEndEditable -->
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  
+  
+  
+  <link href="../css/fullscreen-external.css" rel="stylesheet" type="text/css">
+  <script src="../js/modernizr-latest.js"></script><!--developers version - switch to specific production http://modernizr.com/download/--> 
+  <script type="text/javascript" src="../js/jquery-1.8.3.min.js"></script>
+  <script type="text/javascript" src="../js/jquery.main.js"></script>
+  
+  
+  <link rel="stylesheet" type="text/css" href="../styles/jquery.ui.core.css">
+  <link rel="stylesheet" type="text/css" href="../styles/jquery.qtip.css">
+  <link rel="stylesheet" type="text/css" href="../styles/listnav.css"/> 
+  <link rel="stylesheet" type="text/css" href="../styles/wfb_styles.css"> 
+  <link rel="stylesheet" type="text/css" href="../styles/factbook.css">
+  <link rel="stylesheet" type="text/css" href="../styles/navigation.css">   
+  <link rel="stylesheet" type="text/css" href="../scripts/galleria/themes/classic/galleria.classic.css"> 
+  
+  
+  <script type="text/javascript" src="../scripts/jquery.idTabs.min.js" charset="utf-8"></script>
+  <script type="text/javascript" src="../scripts/jquery.listmenu.js"></script>
+  <script type="text/javascript" src="../scripts/jquery.listnav.pack.2.1.js" charset="utf-8"></script>
+
+  <script src="../scripts/jquery-ui-1.9.2.custom.js" type="text/javascript"></script>
+  <script type="text/javascript" src="../scripts/jquery.qtip-2.0.js"></script>
+  <script type="text/javascript" src="../scripts/jquery.qtip.min.js"></script>
+  <script src="../scripts/imgscale.js"></script>
+  <script type="text/javascript" src="../scripts/wfb_scripts.js" charset="utf-8"></script> 
+  
+  <!--[if IE]><script type="text/javascript" src="../js/ie.js"></script><![endif]-->
+<!-- InstanceBeginEditable name="head" -->
+<!-- load Galleria -->
+<link rel="stylesheet" type="text/css" href="../scripts/galleria/themes/classic/galleria.classic.css">
+<script src="../scripts/galleria/galleria-1.2.9.min.js"></script>
+<!-- InstanceEndEditable -->
+</head>
+<body> 
+  <noscript>Javascript must be enabled for the correct page display</noscript>
+  <div id="wrapper">
+    <header id="header">
+      <div class="header-holder">
+       	<a class="skip" accesskey="S" href="#main-content">skip to content</a>
+        <span class="bg-globe"></span>
+        <div class="header-panel">
+          <hgroup>
+              <h1 class="logo"><a href="../index.html"><img src="../images/logo.png" alt="Central Intelligence Agency"><span>Central Intelligence Agency</span></a></h1>
+              <h2 class="work-text">The Work Of A Nation. The Center of Intelligence.</h2>
+          </hgroup>
+          <div class="search-form">
+            <div class="row">
+              <div class="add-nav">
+                <ul>
+                  <li><a class="active" href="/contact-cia/report-threats.html">Report Threats</a></li>
+                  <li><a href="/about-cia/iraqi-rewards-program.html">رعربيعربي</a></li>
+                  <li><a href="/contact-cia/index.html" title="A single point of contact for all CIA inquiries.">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <form id="ciaSearchForm" method="get" action="/search">
+                <fieldset>
+                  <legend class="visuallyhidden">Search CIA.gov</legend>
+                  <label class="visuallyhidden" for="q">Search</label>
+                  <input name="q" type="text" class="text" id="q" maxlength="2047" placeholder="Search CIA.gov..."/>
+				  <input type="hidden" name="site" value="CIA" />
+				  <input type="hidden" name="output" value="xml_no_dtd" />
+				  <input type="hidden" name="client" value="CIA" />
+				  <input type="hidden" name="myAction" value="/search" />
+				  <input type="hidden" name="proxystylesheet" value="CIA" />
+				  <input type="hidden" name="submitMethod" value="get" />
+                  <input type="submit" value="Search" class="submit" />
+                </fieldset>
+              </form>
+            </div>
+            <div class="row">              
+              <ul class="lang-list">
+                <li lang="ar" xml:lang="ar"><a href="/ar/index.html">عربي</a></li>
+                <li lang="zh-cn" xml:lang="zh-cn"><a href="/zh/index.html">中文</a></li>
+                <li lang="en" xml:lang="en"><a href="/index.html">English</a></li>
+                <li lang="fr" xml:lang="fr"><a href="/fr/index.html">Français</a></li>
+                <li lang="ru" xml:lang="ru"><a href="/ru/index.html">Русский</a></li>
+                <li lang="es" xml:lang="es"><a href="/es/index.html">Español</a></li>
+                <li lang="en" xml:lang="en"><a title="additional-info" class="more" href="/foreign-languages/index.html">More<span class="visuallyhidden"> Languages</span></a></li>
+              </ul>
+            </div>
+          </div>   
+        </div>
+        <nav id="nav">
+          <h3 class="visuallyhidden">Navigation</h3>
+          <ul>
+            <li>
+              <a href="../index.html">Home</a>
+              <span class="arrow"></span>
+            </li>
+            <li>
+              <a href="/about-cia/">About CIA</a>
+              <span class="arrow"></span>
+              <div class="drop">
+                <ul>
+                    <li><a href="/about-cia/todays-cia/index.html">Today's CIA</a></li>
+                    <li><a href="/about-cia/leadership/index.html">Leadership</a></li>
+                    <li><a href="/about-cia/cia-vision-mission-values/index.html">CIA Vision, Mission &amp; Values</a></li>
+                    <li><a href="/about-cia/headquarters-tour/index.html">Tour Headquarters</a></li>
+                    <li><a href="/about-cia/cia-museum/index.html">CIA Museum</a></li>
+                    <li><a href="/about-cia/history-of-the-cia/index.html">History of the CIA</a></li>
+                    <li><a href="/about-cia/faqs/index.html">FAQs</a></li>
+                    <li><a href="/about-cia/no-fear-act/index.html">NoFEAR Act</a></li>
+                    <li><a href="/about-cia/site-policies/index.html">Site Policies</a></li>
+                </ul>
+                <div class="info-box">
+                  <img src="../images/navthumb-about.jpg" alt="About CIA" />
+                  <h4>About CIA</h4>
+                  <p>Discover the CIA <a href="/about-cia/">history, mission, vision and values</a>. </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a href="/careers/">Careers &amp; Internships</a>
+              <span class="arrow"></span>
+              <div class="drop">
+                <ul>
+                    <li class="plain "> <a class="" href="/careers/opportunities" title="This is an overview of all career opportunities at the CIA. "> <span>Career Opportunities </span> </a> </li>
+										<li class="plain "> <a class="" href="/careers/student-opportunities" title="This is the student profile page for candidates looking for jobs/ job listings at the CIA. Student Opportunities - Student Profiles"> <span>Student Opportunities</span> </a> </li>
+										<li class="plain "> <a class="" href="/careers/application-process" title="How to apply to the CIA."> <span>Application Process</span> </a> </li>
+										<li class="plain "> <a class="" href="/careers/life-at-cia" title="This is the about CIA section of the Careers Site"> <span>Life at CIA</span> </a> </li>
+										<li class="plain "> <a class="" href="/careers/diversity" title="This is the diversity information for the Careers Site"> <span>Diversity</span> </a> </li>
+										<li class="plain "> <a class="" href="/careers/military-transition" title="Your prior military service could qualify you to continue to serve your nation at the Central Intelligence Agency. Opportunities for qualified applicants are available in the U.S. and abroad."> <span>Military Transition</span> </a> </li>
+										<li class="plain "> <a class="" href="/careers/games-information" title=""> <span>Diversions &amp; Information</span> </a> </li>
+										<li class="plain "> <a class="" href="/careers/faq" title="Frequently Asked Questions/ FAQ for a Career at the CIA in the Careers Section"> <span>FAQs</span> </a> </li>
+                </ul>
+                <div class="info-box">
+                  <img src="../images/navthumb-careers.jpg" alt="Careers &amp; Internships" />
+                  <h4>Careers &amp; Internships</h4>
+                  <p>Your talent. Your diverse skills. Our mission. Learn more about <a href="/careers/">Careers Opportunities at CIA</a>.</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a href="/offices-of-cia/">Offices of CIA</a>
+              <span class="arrow"></span>
+              <div class="drop">
+                <ul>
+                    <li class="plain "> <a class="" href="/offices-of-cia/intelligence-analysis" title=""> <span>Intelligence &amp; Analysis</span> </a> </li>
+										<li class="plain "> <a class="" href="/offices-of-cia/clandestine-service" title=""> <span>Clandestine Service</span> </a> </li>
+										<li class="plain "> <a class="" href="/offices-of-cia/science-technology" title=""> <span>Science &amp; Technology</span> </a> </li>
+										<li class="plain "> <a class="" href="/offices-of-cia/mission-support" title=""> <span>Support to Mission</span> </a> </li>
+										<li class="plain "> <a class="" href="/offices-of-cia/human-resources" title=""> <span>Human Resources</span> </a> </li>
+										<li class="plain "> <a class="" href="/offices-of-cia/public-affairs" title="Public Affairs"> <span>Public Affairs</span> </a> </li>
+										<li class="plain "> <a class="" href="/offices-of-cia/general-counsel" title=""> <span>General Counsel</span> </a> </li>
+										<li class="plain "> <a class="" href="/offices-of-cia/equal-employment-opportunity" title=""> <span>Equal Employment Opportunity</span> </a> </li>
+										<li class="plain "> <a class="" href="/offices-of-cia/congressional-affairs" title="Office of Congressional Affairs"> <span>Congressional Affairs</span> </a> </li>
+										<li class="plain "> <a class="" href="/offices-of-cia/inspector-general" title="Inspector General"> <span>Inspector General</span> </a> </li>
+										<li class="plain "> <a class="" href="/offices-of-cia/military-affairs" title="Military Affairs"> <span>Military Affairs</span> </a> </li>
+                </ul>
+                <div class="info-box">
+                  <img src="../images/navthumb-offices.jpg" alt="Offices of CIA" />
+                  <h4>Offices of CIA</h4>
+                  <p><a href="/offices-of-cia/">Learn how the CIA is organized</a> into directorates and key offices, responsible for securing our nation.</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a href="/news-information/">News &amp; Information</a>
+              <span class="arrow"></span>
+              <div class="drop">
+                <ul>
+                    <li class="plain "> <a class="" href="/news-information/press-releases-statements" title=""> <span>Press Releases &amp; Statements</span> </a> </li>
+										<li class="plain "> <a class="" href="/news-information/speeches-testimony" title=""> <span>Speeches &amp; Testimony</span> </a> </li>
+										<li class="plain "> <a class="" href="/news-information/cia-the-war-on-terrorism" title=""> <span>CIA &amp; the War on Terrorism</span> </a> </li>
+										<li class="plain "> <a class="" href="/news-information/featured-story-archive" title="index for featured story"> <span>Featured Story Archive</span> </a> </li>
+										<li class="plain "> <a class="" href="/news-information/Whats-New-on-CIAgov" title=""> <span>What&#8217;s New Archive</span> </a> </li>
+										<li class="plain "> <a class="" href="/news-information/your-news" title=""> <span>Your News</span> </a> </li>
+                </ul>
+                <div class="info-box">
+                  <img src="../images/navthumb-news.jpg" alt="News &amp; Information" />
+                  <h4>News & Information</h4>
+                  <p>The most up-to-date CIA <a href="/news-information/">news, press releases, information and more</a>.</p>
+                </div>
+              </div>
+            </li>
+            <li class="active">
+              <a href="/library/">Library</a>
+              <span class="arrow"></span>
+              <div class="drop right">
+                <ul>
+                    <li class="plain "> <a class="" href="/library/publications" title=""> <span>Publications</span> </a> </li>
+										<li class="plain "> <a class="" href="/library/center-for-the-study-of-intelligence" title="CSI section"> <span>Center for the Study of Intelligence</span> </a> </li>
+										<li class="plain "> <a class="" href="/library/foia" title=""> <span>Freedom of Information Act Electronic Reading Room</span> </a> </li>
+										<li class="plain "> <a class="" href="/library/kent-center-occasional-papers" title=""> <span>Kent Center Occasional Papers</span> </a> </li>
+										<li class="plain "> <a class="" href="/library/intelligence-literature" title=""> <span>Intelligence Literature</span> </a> </li>
+										<li class="plain "> <a class="" href="/library/reports" title="Reports"> <span>Reports</span> </a> </li>
+										<li class="plain "> <a class="" href="/library/related-links.html" title="Related Links"> <span>Related Links</span> </a> </li>
+										<li class="plain "> <a class="" href="/library/video-center" title="Repository of CIA videos"> <span>Video Center</span> </a> </li>
+                </ul>
+                <div class="info-box">
+                  <img src="../images/navthumb-library.jpg" alt="Library" />
+                  <h4>Library</h4>
+                  <p>Our <a href="/library/">open-source library</a> houses the thousands of documents, periodicals, maps and reports released to the public.</p>
+                </div>
+              </div>
+            </li>
+            <li class="last">
+              <a href="/kids-page/">Kids' Zone</a>
+              <span class="arrow"></span>
+              <div class="drop right">
+                <ul>
+                   <li class="plain "> <a class="" href="/kids-page/k-5th-grade" title="K-5th Grade"> <span>K-5th Grade</span> </a> </li>
+										<li class="plain "> <a class="" href="/kids-page/6-12th-grade" title=""> <span>6-12th Grade</span> </a> </li>
+										<li class="plain "> <a class="" href="/kids-page/parents-teachers" title=""> <span>Parents &amp; Teachers</span> </a> </li>
+										<li class="plain "> <a class="" href="/kids-page/games" title=""> <span>Games</span> </a> </li>
+										<li class="plain "> <a class="" href="/kids-page/related-links" title=""> <span>Related Links</span> </a> </li>
+										<li class="plain "> <a class="" href="/kids-page/privacy-statement" title=""> <span>Privacy Statement</span> </a> </li>
+                </ul>                
+                <div class="info-box">
+                  <img src="../images/navthumb-kids.jpg" alt="Kids' Zone" />
+                  <h4>Kids' Zone</h4>
+                  <p><a href="/kids-page/">Learn more about the Agency</a> – and find some top secret things you won't see anywhere else.</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="main-block">
+     	<section id="main">
+           <div class="heading-panel">
+             <h1>Library</h1>
+           </div>           
+           <div class="main-holder">
+             <div id="sidebar">
+               <nav class="sidebar-nav">
+                 <h2 class="visuallyhidden">Secondary Navigation</h2>
+                 <ul>
+                   <li><a class="active" href="/library/">Library</a></li>
+                   <li>
+                     <a href="/library/publications/">Publications</a>
+                     <ul>
+                       <li class="mark"><a class="active" href="/library/publications/resources/the-world-factbook/">The World Factbook</a></li>
+                       <li><a href="/library/publications/resources/world-leaders-1/">World Leaders</a></li>
+                       <li><a href="/library/publications/resources/cia-maps-publications/">CIA Maps</a></li>
+                     </ul>
+                   </li>
+                    <li><a href="/library/center-for-the-study-of-intelligence/">Center for the Study of Intelligence</a></li>
+                    <li><a href="http://www.foia.cia.gov/">Freedom of Information Act Electronic Reading Room</a></li>
+                    <li><a href="/library/kent-center-occasional-papers/">Kent Center Occasional Papers</a></li>
+                    <li><a href="/library/intelligence-literature/">Intelligence Literature: Suggested Reading List</a></li>
+                    <li><a href="/library/reports/">Reports</a></li>
+                    <li><a href="/library/video-center/">Video Center</a></li>
+                    <li><a href="/library/related-links.html">Related Links</a></li>
+                 </ul>
+               </nav>
+             </div>
+             <div id="content">
+               <ul class="breadcrumbs">
+                 <li><a href="../index.html">Home</a></li>
+                 <li><a href="/library/">Library </a></li>
+                 <li><a href="/library/publications/">Publications</a></li>
+                 <li>The World Factbook</li>
+               </ul>
+               <article class="description-box">
+               	 <a id="main-content" tabindex="-1">&nbsp;</a>
+                 <div class="text-holder-full">
+			  <a name="wfbtop"></a>
+
+
+                <div id="fbHeader">
+                  <div id="fbLogo">
+                    <img title="World Factbook Title" src="../graphics/banner_ext2.png" />
+                  </div>
+                  <div id="cntrySelect">
+
+                 <script>
+                 $(document).ready(function() {
+                 // $(".selecter_links").selecter({
+                 // defaultLabel: "Please Select a Country to View",
+                 // links: true
+                 // });
+                 $( ".selecter_links" ).change(function(e) {
+                 if (this.form.selecter_links.selectedIndex > 0) {
+                 window.location = this.form.selecter_links.options[this.form.selecter_links.selectedIndex].value;
+                 }
+                 });
+                 });
+                 </script>
+
+
+
+                      <form action="#" method="GET">
+                         <select name="selecter_links" class="selecter_links" onchange="document.location.href= this.value;">
+                             <option value="">Please select a country to view</option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/xx.html"> World </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/af.html"> Afghanistan </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/ax.html"> Akrotiri </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/al.html"> Albania </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/ag.html"> Algeria </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/aq.html"> American Samoa </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/an.html"> Andorra </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/ao.html"> Angola </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/av.html"> Anguilla </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/ay.html"> Antarctica </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/ac.html"> Antigua and Barbuda </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/xq.html"> Arctic Ocean </option>
+                                <option value="/library/publications/resources/the-world-factbook/south-america/ar.html"> Argentina </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/am.html"> Armenia </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/aa.html"> Aruba </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/at.html"> Ashmore and Cartier Islands </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/zh.html"> Atlantic Ocean </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/as.html"> Australia </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/au.html"> Austria </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/aj.html"> Azerbaijan </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/bf.html"> Bahamas, The </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/ba.html"> Bahrain </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/um.html"> Baker Island </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/bg.html"> Bangladesh </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/bb.html"> Barbados </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/bo.html"> Belarus </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/be.html"> Belgium </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/bh.html"> Belize </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/bn.html"> Benin </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/bd.html"> Bermuda </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/bt.html"> Bhutan </option>
+                                <option value="/library/publications/resources/the-world-factbook/south-america/bl.html"> Bolivia </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/bk.html"> Bosnia and Herzegovina </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/bc.html"> Botswana </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/bv.html"> Bouvet Island </option>
+                                <option value="/library/publications/resources/the-world-factbook/south-america/br.html"> Brazil </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/io.html"> British Indian Ocean Territory </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/vi.html"> British Virgin Islands </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/bx.html"> Brunei </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/bu.html"> Bulgaria </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/uv.html"> Burkina Faso </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/bm.html"> Burma </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/by.html"> Burundi </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/cv.html"> Cabo Verde </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/cb.html"> Cambodia </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/cm.html"> Cameroon </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/ca.html"> Canada </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/cj.html"> Cayman Islands </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/ct.html"> Central African Republic </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/cd.html"> Chad </option>
+                                <option value="/library/publications/resources/the-world-factbook/south-america/ci.html"> Chile </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/ch.html"> China </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/kt.html"> Christmas Island </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/ip.html"> Clipperton Island </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/ck.html"> Cocos (Keeling) Islands </option>
+                                <option value="/library/publications/resources/the-world-factbook/south-america/co.html"> Colombia </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/cn.html"> Comoros </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/cg.html"> Congo, Democratic Republic of the </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/cf.html"> Congo, Republic of the </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/cw.html"> Cook Islands </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/cr.html"> Coral Sea Islands </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/cs.html"> Costa Rica </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/iv.html"> Cote d'Ivoire </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/hr.html"> Croatia </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/cu.html"> Cuba </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/cc.html"> Curacao </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/cy.html"> Cyprus </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/ez.html"> Czech Republic </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/da.html"> Denmark </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/dx.html"> Dhekelia </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/dj.html"> Djibouti </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/do.html"> Dominica </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/dr.html"> Dominican Republic </option>
+                                <option value="/library/publications/resources/the-world-factbook/south-america/ec.html"> Ecuador </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/eg.html"> Egypt </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/es.html"> El Salvador </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/ek.html"> Equatorial Guinea </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/er.html"> Eritrea </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/en.html"> Estonia </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/et.html"> Ethiopia </option>
+                                <option value="/library/publications/resources/the-world-factbook/south-america/fk.html"> Falkland Islands (Islas Malvinas) </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/fo.html"> Faroe Islands </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/fj.html"> Fiji </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/fi.html"> Finland </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/fr.html"> France </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/fp.html"> French Polynesia </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/fs.html"> French Southern and Antarctic Lands </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/gb.html"> Gabon </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/ga.html"> Gambia, The </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/gz.html"> Gaza Strip </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/gg.html"> Georgia </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/gm.html"> Germany </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/gh.html"> Ghana </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/gi.html"> Gibraltar </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/gr.html"> Greece </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/gl.html"> Greenland </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/gj.html"> Grenada </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/gq.html"> Guam </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/gt.html"> Guatemala </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/gk.html"> Guernsey </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/gv.html"> Guinea </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/pu.html"> Guinea-Bissau </option>
+                                <option value="/library/publications/resources/the-world-factbook/south-america/gy.html"> Guyana </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/ha.html"> Haiti </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/hm.html"> Heard Island and McDonald Islands </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/vt.html"> Holy See (Vatican City) </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/ho.html"> Honduras </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/hk.html"> Hong Kong </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/um.html"> Howland Island </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/hu.html"> Hungary </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/ic.html"> Iceland </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/in.html"> India </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/xo.html"> Indian Ocean </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/id.html"> Indonesia </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/ir.html"> Iran </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/iz.html"> Iraq </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/ei.html"> Ireland </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/im.html"> Isle of Man </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/is.html"> Israel </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/it.html"> Italy </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/jm.html"> Jamaica </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/jn.html"> Jan Mayen </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/ja.html"> Japan </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/um.html"> Jarvis Island </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/je.html"> Jersey </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/um.html"> Johnston Atoll </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/jo.html"> Jordan </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/kz.html"> Kazakhstan </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/ke.html"> Kenya </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/um.html"> Kingman Reef </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/kr.html"> Kiribati </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/kn.html"> Korea, North </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/ks.html"> Korea, South </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/kv.html"> Kosovo </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/ku.html"> Kuwait </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/kg.html"> Kyrgyzstan </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/la.html"> Laos </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/lg.html"> Latvia </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/le.html"> Lebanon </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/lt.html"> Lesotho </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/li.html"> Liberia </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/ly.html"> Libya </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/ls.html"> Liechtenstein </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/lh.html"> Lithuania </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/lu.html"> Luxembourg </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/mc.html"> Macau </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/mk.html"> Macedonia </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/ma.html"> Madagascar </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/mi.html"> Malawi </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/my.html"> Malaysia </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/mv.html"> Maldives </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/ml.html"> Mali </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/mt.html"> Malta </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/rm.html"> Marshall Islands </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/mr.html"> Mauritania </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/mp.html"> Mauritius </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/mx.html"> Mexico </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/fm.html"> Micronesia, Federated States of </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/um.html"> Midway Islands </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/md.html"> Moldova </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/mn.html"> Monaco </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/mg.html"> Mongolia </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/mj.html"> Montenegro </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/mh.html"> Montserrat </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/mo.html"> Morocco </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/mz.html"> Mozambique </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/wa.html"> Namibia </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/nr.html"> Nauru </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/bq.html"> Navassa Island </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/np.html"> Nepal </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/nl.html"> Netherlands </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/nc.html"> New Caledonia </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/nz.html"> New Zealand </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/nu.html"> Nicaragua </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/ng.html"> Niger </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/ni.html"> Nigeria </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/ne.html"> Niue </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/nf.html"> Norfolk Island </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/cq.html"> Northern Mariana Islands </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/no.html"> Norway </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/mu.html"> Oman </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/zn.html"> Pacific Ocean </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/pk.html"> Pakistan </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/ps.html"> Palau </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/um.html"> Palmyra Atoll </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/pm.html"> Panama </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/pp.html"> Papua New Guinea </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/pf.html"> Paracel Islands </option>
+                                <option value="/library/publications/resources/the-world-factbook/south-america/pa.html"> Paraguay </option>
+                                <option value="/library/publications/resources/the-world-factbook/south-america/pe.html"> Peru </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/rp.html"> Philippines </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/pc.html"> Pitcairn Islands </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/pl.html"> Poland </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/po.html"> Portugal </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/rq.html"> Puerto Rico </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/qa.html"> Qatar </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/ro.html"> Romania </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/rs.html"> Russia </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/rw.html"> Rwanda </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/tb.html"> Saint Barthelemy </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/sh.html"> Saint Helena, Ascension, and Tristan da Cunha </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/sc.html"> Saint Kitts and Nevis </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/st.html"> Saint Lucia </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/rn.html"> Saint Martin </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/sb.html"> Saint Pierre and Miquelon </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/vc.html"> Saint Vincent and the Grenadines </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/ws.html"> Samoa </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/sm.html"> San Marino </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/tp.html"> Sao Tome and Principe </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/sa.html"> Saudi Arabia </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/sg.html"> Senegal </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/ri.html"> Serbia </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/se.html"> Seychelles </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/sl.html"> Sierra Leone </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/sn.html"> Singapore </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/sk.html"> Sint Maarten </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/lo.html"> Slovakia </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/si.html"> Slovenia </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/bp.html"> Solomon Islands </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/so.html"> Somalia </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/sf.html"> South Africa </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/oo.html"> Southern Ocean </option>
+                                <option value="/library/publications/resources/the-world-factbook/south-america/sx.html"> South Georgia and South Sandwich Islands </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/od.html"> South Sudan </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/sp.html"> Spain </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/pg.html"> Spratly Islands </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/ce.html"> Sri Lanka </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/su.html"> Sudan </option>
+                                <option value="/library/publications/resources/the-world-factbook/south-america/ns.html"> Suriname </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/sv.html"> Svalbard </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/wz.html"> Swaziland </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/sw.html"> Sweden </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/sz.html"> Switzerland </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/sy.html"> Syria </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/tw.html"> Taiwan </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/ti.html"> Tajikistan </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/tz.html"> Tanzania </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/th.html"> Thailand </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/tt.html"> Timor-Leste </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/to.html"> Togo </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/tl.html"> Tokelau </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/tn.html"> Tonga </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/td.html"> Trinidad and Tobago </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/ts.html"> Tunisia </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/tu.html"> Turkey </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/tx.html"> Turkmenistan </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/tk.html"> Turks and Caicos Islands </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/tv.html"> Tuvalu </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/ug.html"> Uganda </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/up.html"> Ukraine </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/ae.html"> United Arab Emirates </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/uk.html"> United Kingdom </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/us.html"> United States </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/um.html"> United States Pacific Island Wildlife Refuges </option>
+                                <option value="/library/publications/resources/the-world-factbook/south-america/uy.html"> Uruguay </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/uz.html"> Uzbekistan </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/nh.html"> Vanuatu </option>
+                                <option value="/library/publications/resources/the-world-factbook/south-america/ve.html"> Venezuela </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/vm.html"> Vietnam </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/vq.html"> Virgin Islands </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/wq.html"> Wake Island </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/wf.html"> Wallis and Futuna </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/we.html"> West Bank </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/wi.html"> Western Sahara </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/ym.html"> Yemen </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/za.html"> Zambia </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/zi.html"> Zimbabwe </option>
+                                <option value="/library/publications/resources/the-world-factbook/geos/ee.html"> European Union </option>
+                             </select>
+                          </form>
+                </div>  <!-- cntrySelect -->
+
+
+
+                        <div id="fbnav">  
+                        <div id="fbNavBox">
+                         <script type="text/javascript">
+                         var timeout         = 500;
+                         var closetimer          = 0;
+                         var ddmenuitem      = 0;
+
+                         function wfbNav_open()
+                         {       wfbNav_canceltimer();
+                                 wfbNav_close();
+                                 ddmenuitem = $(this).find('ul').eq(0).css('visibility', 'visible');}
+
+                         function wfbNav_close()
+                         {       if(ddmenuitem) ddmenuitem.css('visibility', 'hidden');}
+
+                         function wfbNav_timer()
+                         {       closetimer = window.setTimeout(wfbNav_close, timeout);}
+
+                         function wfbNav_canceltimer()
+                         {       if(closetimer)
+                                 {       window.clearTimeout(closetimer);
+                                         closetimer = null;}}
+
+
+                         $(document).ready(function()
+                         {       $('#wfbNav > li').bind('mouseover', wfbNav_open);
+                                 $('#wfbNav > li').bind('mouseout',  wfbNav_timer);});
+
+
+                         document.onclick = wfbNav_close;
+                         </script>
+
+                                <ul id="wfbNav" style="z-index: 9999;">
+                                        <li style="border-bottom: 2px solid #CCCCCC; "><a href="/library/publications/resources/the-world-factbook/" style="width:20px; height: 12px;" title="The World Factbook Home"><img src="../graphics/home_on.png" border="0" /></a></li>
+                                        <li style="border-bottom: 2px solid #CCCCCC; "><a href="javascript:void(0);" style="width:65px;" title="About">ABOUT</a>
+                                                <ul class="sub_menu">
+                                                        <li><a href="/library/publications/resources/the-world-factbook/docs/history.html">History</a></li>
+                                                        <li><a href="/library/publications/resources/the-world-factbook/docs/contributor_copyright.html">Copyright and Contributors</a></li>
+                                                        <li><a href="/library/publications/resources/the-world-factbook/docs/purchase_info.html">Purchasing</a></li>
+                                                        <li><a href="/library/publications/resources/the-world-factbook/docs/didyouknow.html">Did You Know?</a></li>
+
+                                                </ul>
+                                        </li>
+                                        <li style="border-bottom: 2px solid #CCCCCC; "><a href="javascript:void(0);" style="width:95px;" title="References">REFERENCES</a>
+                                                <ul class="sub_menu">
+                                                       <li><a href="/library/publications/resources/the-world-factbook/docs/refmaps.html">Regional and World Maps</a></li>
+                                                        <li><a href="/library/publications/resources/the-world-factbook/docs/flagsoftheworld.html">Flags of the World</a></li>
+                                                        <li><a href="/library/publications/resources/the-world-factbook/docs/gallery.html">Gallery of Covers</a></li>
+                                                        <li><a href="/library/publications/resources/the-world-factbook/docs/notesanddefs.html">Definitions and Notes</a></li>
+                                                        <li><a href="/library/publications/resources/the-world-factbook/docs/profileguide.html">Guide to Country Profiles</a></li>
+                                                        <li><a href="/library/publications/resources/the-world-factbook/rankorder/rankorderguide.html">Guide to Country Comparisons</a></li>
+
+                                                        <li><a href="/library/publications/resources/the-world-factbook/docs/guidetowfbook.html">The World Factbook Users Guide</a></li>
+                                                </ul>
+                                        </li>
+                                        <li style="border-bottom: 2px solid #CCCCCC; "><a href="javascript:void(0);" title="Appendices">APPENDICES</a>
+                                                <ul class="sub_menu">
+                                                        <li><a href="/library/publications/resources/the-world-factbook/appendix/appendix-a.html">A: abbreviations</a></li>
+                                                        <li><a href="/library/publications/resources/the-world-factbook/appendix/appendix-b.html">B: international organizations and groups</a></li>
+                                                        <li><a href="/library/publications/resources/the-world-factbook/appendix/appendix-c.html">C: selected international environmental agreements</a></li>
+                                                        <li><a href="/library/publications/resources/the-world-factbook/appendix/appendix-d.html">D: cross-reference list of country data codes</a></li>
+                                                        <li><a href="/library/publications/resources/the-world-factbook/appendix/appendix-e.html">E: cross-reference list of hydrographic data codes</a></li>
+                                                        <li><a href="/library/publications/resources/the-world-factbook/appendix/appendix-f.html">F: cross-reference list of geographic names</a></li>
+                                                        <li><a href="/library/publications/resources/the-world-factbook/appendix/appendix-g.html">G: weights and measures</a></li>
+                                                </ul>
+                                        </li>
+                                        <li id="faqs" style="border-bottom: 2px solid #CCCCCC; "><a href="/library/publications/resources/the-world-factbook/docs/faqs.html" style="cursor:pointer;width:50px;">FAQ<span style="text-transform:lowercase;">s</span></a></li>
+
+                                        <li id="contact" style="border-bottom: 2px solid #CCCCCC; "> <a href="/contact-cia/index.html" title="Contact" style="cursor:pointer;width:73px;"> CONTACT </a> </li>
+
+                                </ul>
+                             </div>   <!-- fbnavbox -->
+<!--                     <div class="smalltext_nav">  -->
+
+  
+                   <div class="fbsmalltext_nav">
+                       <ul>		
+                         <li class="low-band"><a href="#LowBand"><img src="../graphics/bandwidth_btn_off.gif" /></a></li>
+                         <li class="fb-download"><a href="#download"><img src="../graphics/download_btn_off.gif" /></a></li>
+                       </ul>  
+	             </div> 
+                   </div>  <!--  fbNav  -->
+
+
+ 
+             </div><!-- fbHeader -->
+
+
+<div class=fbTitleRankOrder>COUNTRY COMPARISON :: <strong>ELECTRICITY - FROM FOSSIL FUELS</strong></div>
+<div class=rankOrderDesc>Electricity – from fossil fuels measures the capacity of plants that generate electricity by burning fossil fuels (such as coal, petroleum products, and natural gas), expressed as a share of the country's total generating capacity.</div>
+<div class=smalltext><a href=rawdata_2237.txt><img id=Download Data name=Download Data alt=Download Data src=../graphics/download_rawdata_off.gif></a></div>
+<div class=smalltext>
+             <table id=rankOrder>
+                <tbody>
+                    <tr class=rankHeading><th>Rank</th><th>Country</th><th>(% OF TOTAL INSTALLED CAPACITY)</th><th>Date of Information</th></tr> 
+<tr id="ac"><td>1</td><td class="region"><a href=../geos/ac.html>Antigua and Barbuda</a></td><td>100.0</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="ym"><td>2</td><td class="region"><a href=../geos/ym.html>Yemen</a></td><td>100.0</td><td>2011 est.</td></tr>
+<tr id="aq"><td>3</td><td class="region"><a href=../geos/aq.html>American Samoa</a></td><td>100.0</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="ba"><td>4</td><td class="region"><a href=../geos/ba.html>Bahrain</a></td><td>100.0</td><td>2011 est.</td></tr>
+<tr id="bb"><td>5</td><td class="region"><a href=../geos/bb.html>Barbados</a></td><td>100.0</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="bc"><td>6</td><td class="region"><a href=../geos/bc.html>Botswana</a></td><td>100.0</td><td>2011 est.</td></tr>
+<tr id="bf"><td>7</td><td class="region"><a href=../geos/bf.html>Bahamas, The</a></td><td>100.0</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="bp"><td>8</td><td class="region"><a href=../geos/bp.html>Solomon Islands</a></td><td>100.0</td><td>2011 est.</td></tr>
+<tr id="bx"><td>9</td><td class="region"><a href=../geos/bx.html>Brunei</a></td><td>100.0</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="cd"><td>10</td><td class="region"><a href=../geos/cd.html>Chad</a></td><td>100.0</td><td>2011 est.</td></tr>
+<tr id="cj"><td>11</td><td class="region"><a href=../geos/cj.html>Cayman Islands</a></td><td>100.0</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="dj"><td>12</td><td class="region"><a href=../geos/dj.html>Djibouti</a></td><td>100.0</td><td>2011 est.</td></tr>
+<tr id="ga"><td>13</td><td class="region"><a href=../geos/ga.html>Gambia, The</a></td><td>100.0</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="gi"><td>14</td><td class="region"><a href=../geos/gi.html>Gibraltar</a></td><td>100.0</td><td>2011 est.</td></tr>
+<tr id="gl"><td>15</td><td class="region"><a href=../geos/gl.html>Greenland</a></td><td>100.0</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="gq"><td>16</td><td class="region"><a href=../geos/gq.html>Guam</a></td><td>100.0</td><td>2011 est.</td></tr>
+<tr id="hk"><td>17</td><td class="region"><a href=../geos/hk.html>Hong Kong</a></td><td>100.0</td><td>2013 est.</td></tr>
+<tr style="background: #EEEEEE" id="kr"><td>18</td><td class="region"><a href=../geos/kr.html>Kiribati</a></td><td>100.0</td><td>2011 est.</td></tr>
+<tr id="ku"><td>19</td><td class="region"><a href=../geos/ku.html>Kuwait</a></td><td>100.0</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="li"><td>20</td><td class="region"><a href=../geos/li.html>Liberia</a></td><td>100.0</td><td>2011 est.</td></tr>
+<tr id="ly"><td>21</td><td class="region"><a href=../geos/ly.html>Libya</a></td><td>100.0</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="mc"><td>22</td><td class="region"><a href=../geos/mc.html>Macau</a></td><td>100.0</td><td>2013 est.</td></tr>
+<tr id="mh"><td>23</td><td class="region"><a href=../geos/mh.html>Montserrat</a></td><td>100.0</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="mu"><td>24</td><td class="region"><a href=../geos/mu.html>Oman</a></td><td>100.0</td><td>2011 est.</td></tr>
+<tr id="ne"><td>25</td><td class="region"><a href=../geos/ne.html>Niue</a></td><td>100.0</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="ng"><td>26</td><td class="region"><a href=../geos/ng.html>Niger</a></td><td>100.0</td><td>2011 est.</td></tr>
+<tr id="nr"><td>27</td><td class="region"><a href=../geos/nr.html>Nauru</a></td><td>100.0</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="pu"><td>28</td><td class="region"><a href=../geos/pu.html>Guinea-Bissau</a></td><td>100.0</td><td>2011 est.</td></tr>
+<tr id="qa"><td>29</td><td class="region"><a href=../geos/qa.html>Qatar</a></td><td>100.0</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="sa"><td>30</td><td class="region"><a href=../geos/sa.html>Saudi Arabia</a></td><td>100.0</td><td>2011 est.</td></tr>
+<tr id="se"><td>31</td><td class="region"><a href=../geos/se.html>Seychelles</a></td><td>100.0</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="sh"><td>32</td><td class="region"><a href=../geos/sh.html>Saint Helena, Ascension, and Tristan da Cunha</a></td><td>100.0</td><td>2011 est.</td></tr>
+<tr id="so"><td>33</td><td class="region"><a href=../geos/so.html>Somalia</a></td><td>100.0</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="st"><td>34</td><td class="region"><a href=../geos/st.html>Saint Lucia</a></td><td>100.0</td><td>2011 est.</td></tr>
+<tr id="tk"><td>35</td><td class="region"><a href=../geos/tk.html>Turks and Caicos Islands</a></td><td>100.0</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="tn"><td>36</td><td class="region"><a href=../geos/tn.html>Tonga</a></td><td>100.0</td><td>2011 est.</td></tr>
+<tr id="tx"><td>37</td><td class="region"><a href=../geos/tx.html>Turkmenistan</a></td><td>100.0</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="vi"><td>38</td><td class="region"><a href=../geos/vi.html>British Virgin Islands</a></td><td>100.0</td><td>2011 est.</td></tr>
+<tr id="vq"><td>39</td><td class="region"><a href=../geos/vq.html>Virgin Islands</a></td><td>100.0</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="we"><td>40</td><td class="region"><a href=../geos/we.html>West Bank</a></td><td>100.0</td><td>2011 est.</td></tr>
+<tr id="wi"><td>41</td><td class="region"><a href=../geos/wi.html>Western Sahara</a></td><td>100.0</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="ae"><td>42</td><td class="region"><a href=../geos/ae.html>United Arab Emirates</a></td><td>100.0</td><td>2011 est.</td></tr>
+<tr id="mg"><td>43</td><td class="region"><a href=../geos/mg.html>Mongolia</a></td><td>99.9</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="mv"><td>44</td><td class="region"><a href=../geos/mv.html>Maldives</a></td><td>99.9</td><td>2011 est.</td></tr>
+<tr id="td"><td>45</td><td class="region"><a href=../geos/td.html>Trinidad and Tobago</a></td><td>99.8</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="sg"><td>46</td><td class="region"><a href=../geos/sg.html>Senegal</a></td><td>99.7</td><td>2011 est.</td></tr>
+<tr id="bo"><td>47</td><td class="region"><a href=../geos/bo.html>Belarus</a></td><td>99.7</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="jo"><td>48</td><td class="region"><a href=../geos/jo.html>Jordan</a></td><td>99.6</td><td>2011 est.</td></tr>
+<tr id="bn"><td>49</td><td class="region"><a href=../geos/bn.html>Benin</a></td><td>99.4</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="cw"><td>50</td><td class="region"><a href=../geos/cw.html>Cook Islands</a></td><td>98.9</td><td>2011 est.</td></tr>
+<tr id="cu"><td>51</td><td class="region"><a href=../geos/cu.html>Cuba</a></td><td>98.8</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="er"><td>52</td><td class="region"><a href=../geos/er.html>Eritrea</a></td><td>98.7</td><td>2011 est.</td></tr>
+<tr id="gj"><td>53</td><td class="region"><a href=../geos/gj.html>Grenada</a></td><td>98.6</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="bd"><td>54</td><td class="region"><a href=../geos/bd.html>Bermuda</a></td><td>98.2</td><td>2012 est.</td></tr>
+<tr id="ag"><td>55</td><td class="region"><a href=../geos/ag.html>Algeria</a></td><td>98.0</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="sb"><td>56</td><td class="region"><a href=../geos/sb.html>Saint Pierre and Miquelon</a></td><td>97.7</td><td>2011 est.</td></tr>
+<tr id="bg"><td>57</td><td class="region"><a href=../geos/bg.html>Bangladesh</a></td><td>97.7</td><td>2013 est.</td></tr>
+<tr style="background: #EEEEEE" id="mt"><td>58</td><td class="region"><a href=../geos/mt.html>Malta</a></td><td>97.5</td><td>2013 est.</td></tr>
+<tr id="sn"><td>59</td><td class="region"><a href=../geos/sn.html>Singapore</a></td><td>97.4</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="is"><td>60</td><td class="region"><a href=../geos/is.html>Israel</a></td><td>97.4</td><td>2011 est.</td></tr>
+<tr id="rq"><td>61</td><td class="region"><a href=../geos/rq.html>Puerto Rico</a></td><td>97.2</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="ts"><td>62</td><td class="region"><a href=../geos/ts.html>Tunisia</a></td><td>97.1</td><td>2011 est.</td></tr>
+<tr id="md"><td>63</td><td class="region"><a href=../geos/md.html>Moldova</a></td><td>96.4</td><td>2013 est.</td></tr>
+<tr style="background: #EEEEEE" id="gy"><td>64</td><td class="region"><a href=../geos/gy.html>Guyana</a></td><td>96.0</td><td>2011 est.</td></tr>
+<tr id="cn"><td>65</td><td class="region"><a href=../geos/cn.html>Comoros</a></td><td>95.5</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="sc"><td>66</td><td class="region"><a href=../geos/sc.html>Saint Kitts and Nevis</a></td><td>95.2</td><td>2011 est.</td></tr>
+<tr id="sf"><td>67</td><td class="region"><a href=../geos/sf.html>South Africa</a></td><td>93.6</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="iz"><td>68</td><td class="region"><a href=../geos/iz.html>Iraq</a></td><td>92.0</td><td>2013 est.</td></tr>
+<tr id="jm"><td>69</td><td class="region"><a href=../geos/jm.html>Jamaica</a></td><td>91.7</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="pl"><td>70</td><td class="region"><a href=../geos/pl.html>Poland</a></td><td>91.5</td><td>2011 est.</td></tr>
+<tr id="en"><td>71</td><td class="region"><a href=../geos/en.html>Estonia</a></td><td>91.1</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="aa"><td>72</td><td class="region"><a href=../geos/aa.html>Aruba</a></td><td>90.6</td><td>2011 est.</td></tr>
+<tr id="ek"><td>73</td><td class="region"><a href=../geos/ek.html>Equatorial Guinea</a></td><td>90.2</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="fk"><td>74</td><td class="region"><a href=../geos/fk.html>Falkland Islands (Islas Malvinas)</a></td><td>90.0</td><td>2011 est.</td></tr>
+<tr id="eg"><td>75</td><td class="region"><a href=../geos/eg.html>Egypt</a></td><td>90.0</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="my"><td>76</td><td class="region"><a href=../geos/my.html>Malaysia</a></td><td>89.4</td><td>2011 est.</td></tr>
+<tr id="nh"><td>77</td><td class="region"><a href=../geos/nh.html>Vanuatu</a></td><td>89.3</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="sy"><td>78</td><td class="region"><a href=../geos/sy.html>Syria</a></td><td>89.2</td><td>2011 est.</td></tr>
+<tr id="th"><td>79</td><td class="region"><a href=../geos/th.html>Thailand</a></td><td>89.0</td><td>2012 est.</td></tr>
+<tr style="background: #EEEEEE" id="lh"><td>80</td><td class="region"><a href=../geos/lh.html>Lithuania</a></td><td>88.7</td><td>2011 est.</td></tr>
+<tr id="le"><td>81</td><td class="region"><a href=../geos/le.html>Lebanon</a></td><td>88.1</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="kz"><td>82</td><td class="region"><a href=../geos/kz.html>Kazakhstan</a></td><td>88.1</td><td>2011 est.</td></tr>
+<tr id="cy"><td>83</td><td class="region"><a href=../geos/cy.html>Cyprus</a></td><td>86.9</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="uv"><td>84</td><td class="region"><a href=../geos/uv.html>Burkina Faso</a></td><td>86.6</td><td>2011 est.</td></tr>
+<tr id="ir"><td>85</td><td class="region"><a href=../geos/ir.html>Iran</a></td><td>86.5</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="uz"><td>86</td><td class="region"><a href=../geos/uz.html>Uzbekistan</a></td><td>86.0</td><td>2011 est.</td></tr>
+<tr id="vc"><td>87</td><td class="region"><a href=../geos/vc.html>Saint Vincent and the Grenadines</a></td><td>85.1</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="nl"><td>88</td><td class="region"><a href=../geos/nl.html>Netherlands</a></td><td>85.1</td><td>2012 est.</td></tr>
+<tr id="id"><td>89</td><td class="region"><a href=../geos/id.html>Indonesia</a></td><td>84.7</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="aj"><td>90</td><td class="region"><a href=../geos/aj.html>Azerbaijan</a></td><td>84.4</td><td>2011 est.</td></tr>
+<tr id="tw"><td>91</td><td class="region"><a href=../geos/tw.html>Taiwan</a></td><td>81.6</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="dr"><td>92</td><td class="region"><a href=../geos/dr.html>Dominican Republic</a></td><td>81.4</td><td>2011 est.</td></tr>
+<tr id="as"><td>93</td><td class="region"><a href=../geos/as.html>Australia</a></td><td>79.7</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="fp"><td>94</td><td class="region"><a href=../geos/fp.html>French Polynesia</a></td><td>79.0</td><td>2011 est.</td></tr>
+<tr id="ha"><td>95</td><td class="region"><a href=../geos/ha.html>Haiti</a></td><td>77.3</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="ei"><td>96</td><td class="region"><a href=../geos/ei.html>Ireland</a></td><td>77.2</td><td>2011 est.</td></tr>
+<tr id="nc"><td>97</td><td class="region"><a href=../geos/nc.html>New Caledonia</a></td><td>76.8</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="lu"><td>98</td><td class="region"><a href=../geos/lu.html>Luxembourg</a></td><td>76.8</td><td>2011 est.</td></tr>
+<tr id="us"><td>99</td><td class="region"><a href=../geos/us.html>United States</a></td><td>76.3</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="uk"><td>100</td><td class="region"><a href=../geos/uk.html>United Kingdom</a></td><td>76.0</td><td>2012 est.</td></tr>
+<tr id="mx"><td>101</td><td class="region"><a href=../geos/mx.html>Mexico</a></td><td>75.7</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="mp"><td>102</td><td class="region"><a href=../geos/mp.html>Mauritius</a></td><td>75.6</td><td>2011 est.</td></tr>
+<tr id="tp"><td>103</td><td class="region"><a href=../geos/tp.html>Sao Tome and Principe</a></td><td>75.0</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="ma"><td>104</td><td class="region"><a href=../geos/ma.html>Madagascar</a></td><td>74.0</td><td>2011 est.</td></tr>
+<tr id="mo"><td>105</td><td class="region"><a href=../geos/mo.html>Morocco</a></td><td>73.2</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="ks"><td>106</td><td class="region"><a href=../geos/ks.html>Korea, South</a></td><td>72.4</td><td>2011 est.</td></tr>
+<tr id="ws"><td>107</td><td class="region"><a href=../geos/ws.html>Samoa</a></td><td>71.3</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="ja"><td>108</td><td class="region"><a href=../geos/ja.html>Japan</a></td><td>71.0</td><td>2011 est.</td></tr>
+<tr id="hu"><td>109</td><td class="region"><a href=../geos/hu.html>Hungary</a></td><td>70.7</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="rs"><td>110</td><td class="region"><a href=../geos/rs.html>Russia</a></td><td>69.2</td><td>2012 est.</td></tr>
+<tr id="ch"><td>111</td><td class="region"><a href=../geos/ch.html>China</a></td><td>69.1</td><td>2013 est.</td></tr>
+<tr style="background: #EEEEEE" id="cv"><td>112</td><td class="region"><a href=../geos/cv.html>Cabo Verde</a></td><td>68.4</td><td>2011 est.</td></tr>
+<tr id="ar"><td>113</td><td class="region"><a href=../geos/ar.html>Argentina</a></td><td>68.3</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="pk"><td>114</td><td class="region"><a href=../geos/pk.html>Pakistan</a></td><td>68.0</td><td>2011 est.</td></tr>
+<tr id="in"><td>115</td><td class="region"><a href=../geos/in.html>India</a></td><td>67.9</td><td>31 March 2012 est.</td></tr>
+<tr style="background: #EEEEEE" id="gv"><td>116</td><td class="region"><a href=../geos/gv.html>Guinea</a></td><td>67.8</td><td>2011 est.</td></tr>
+<tr id="ni"><td>117</td><td class="region"><a href=../geos/ni.html>Nigeria</a></td><td>67.1</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="mr"><td>118</td><td class="region"><a href=../geos/mr.html>Mauritania</a></td><td>66.9</td><td>2011 est.</td></tr>
+<tr id="mk"><td>119</td><td class="region"><a href=../geos/mk.html>Macedonia</a></td><td>66.4</td><td>2013 est.</td></tr>
+<tr style="background: #EEEEEE" id="gr"><td>120</td><td class="region"><a href=../geos/gr.html>Greece</a></td><td>66.3</td><td>2011 est.</td></tr>
+<tr id="it"><td>121</td><td class="region"><a href=../geos/it.html>Italy</a></td><td>66.3</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="rp"><td>122</td><td class="region"><a href=../geos/rp.html>Philippines</a></td><td>66.2</td><td>2011 est.</td></tr>
+<tr id="fo"><td>123</td><td class="region"><a href=../geos/fo.html>Faroe Islands</a></td><td>64.9</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="up"><td>124</td><td class="region"><a href=../geos/up.html>Ukraine</a></td><td>64.9</td><td>2011 est.</td></tr>
+<tr id="bl"><td>125</td><td class="region"><a href=../geos/bl.html>Bolivia</a></td><td>63.6</td><td>2012 est.</td></tr>
+<tr style="background: #EEEEEE" id="ez"><td>126</td><td class="region"><a href=../geos/ez.html>Czech Republic</a></td><td>63.6</td><td>2012 est.</td></tr>
+<tr id="cb"><td>127</td><td class="region"><a href=../geos/cb.html>Cambodia</a></td><td>63.0</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="tu"><td>128</td><td class="region"><a href=../geos/tu.html>Turkey</a></td><td>62.8</td><td>2011 est.</td></tr>
+<tr id="zi"><td>129</td><td class="region"><a href=../geos/zi.html>Zimbabwe</a></td><td>62.1</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="da"><td>130</td><td class="region"><a href=../geos/da.html>Denmark</a></td><td>61.5</td><td>2011 est.</td></tr>
+<tr id="an"><td>131</td><td class="region"><a href=../geos/an.html>Andorra</a></td><td>61.3</td><td>2010 est.</td></tr>
+<tr style="background: #EEEEEE" id="pp"><td>132</td><td class="region"><a href=../geos/pp.html>Papua New Guinea</a></td><td>61.1</td><td>2011 est.</td></tr>
+<tr id="ci"><td>133</td><td class="region"><a href=../geos/ci.html>Chile</a></td><td>60.6</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="iv"><td>134</td><td class="region"><a href=../geos/iv.html>Cote d'Ivoire</a></td><td>60.3</td><td>2011 est.</td></tr>
+<tr id="ho"><td>135</td><td class="region"><a href=../geos/ho.html>Honduras</a></td><td>60.0</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="wz"><td>136</td><td class="region"><a href=../geos/wz.html>Swaziland</a></td><td>59.7</td><td>2011 est.</td></tr>
+<tr id="pe"><td>137</td><td class="region"><a href=../geos/pe.html>Peru</a></td><td>59.6</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="gb"><td>138</td><td class="region"><a href=../geos/gb.html>Gabon</a></td><td>59.0</td><td>2011 est.</td></tr>
+<tr id="nu"><td>139</td><td class="region"><a href=../geos/nu.html>Nicaragua</a></td><td>57.6</td><td>2013 est.</td></tr>
+<tr style="background: #EEEEEE" id="ri"><td>140</td><td class="region"><a href=../geos/ri.html>Serbia</a></td><td>57.5</td><td>2013 est.</td></tr>
+<tr id="ec"><td>141</td><td class="region"><a href=../geos/ec.html>Ecuador</a></td><td>56.0</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="gt"><td>142</td><td class="region"><a href=../geos/gt.html>Guatemala</a></td><td>55.8</td><td>2011 est.</td></tr>
+<tr id="ce"><td>143</td><td class="region"><a href=../geos/ce.html>Sri Lanka</a></td><td>55.4</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="ro"><td>144</td><td class="region"><a href=../geos/ro.html>Romania</a></td><td>55.1</td><td>2012 est.</td></tr>
+<tr id="vm"><td>145</td><td class="region"><a href=../geos/vm.html>Vietnam</a></td><td>55.0</td><td>2012 est.</td></tr>
+<tr style="background: #EEEEEE" id="am"><td>146</td><td class="region"><a href=../geos/am.html>Armenia</a></td><td>54.9</td><td>2011 est.</td></tr>
+<tr id="ns"><td>147</td><td class="region"><a href=../geos/ns.html>Suriname</a></td><td>54.1</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="es"><td>148</td><td class="region"><a href=../geos/es.html>El Salvador</a></td><td>53.1</td><td>2011 est.</td></tr>
+<tr id="fi"><td>149</td><td class="region"><a href=../geos/fi.html>Finland</a></td><td>52.1</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="cf"><td>150</td><td class="region"><a href=../geos/cf.html>Congo, Republic of the</a></td><td>51.2</td><td>2012 est.</td></tr>
+<tr id="gm"><td>151</td><td class="region"><a href=../geos/gm.html>Germany</a></td><td>51.0</td><td>2012 est.</td></tr>
+<tr style="background: #EEEEEE" id="ee"><td>152</td><td class="region"><a href=../geos/ee.html>European Union</a></td><td>50.5</td><td>2011 est.</td></tr>
+<tr id="fj"><td>153</td><td class="region"><a href=../geos/fj.html>Fiji</a></td><td>49.0</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="po"><td>154</td><td class="region"><a href=../geos/po.html>Portugal</a></td><td>49.0</td><td>2011 est.</td></tr>
+<tr id="bh"><td>155</td><td class="region"><a href=../geos/bh.html>Belize</a></td><td>48.8</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="hr"><td>156</td><td class="region"><a href=../geos/hr.html>Croatia</a></td><td>48.8</td><td>2011 est.</td></tr>
+<tr id="ml"><td>157</td><td class="region"><a href=../geos/ml.html>Mali</a></td><td>48.4</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="bu"><td>158</td><td class="region"><a href=../geos/bu.html>Bulgaria</a></td><td>48.1</td><td>2011 est.</td></tr>
+<tr id="kn"><td>159</td><td class="region"><a href=../geos/kn.html>Korea, North</a></td><td>47.4</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="be"><td>160</td><td class="region"><a href=../geos/be.html>Belgium</a></td><td>46.3</td><td>2011 est.</td></tr>
+<tr id="gh"><td>161</td><td class="region"><a href=../geos/gh.html>Ghana</a></td><td>45.9</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="lo"><td>162</td><td class="region"><a href=../geos/lo.html>Slovakia</a></td><td>43.6</td><td>2011 est.</td></tr>
+<tr id="pm"><td>163</td><td class="region"><a href=../geos/pm.html>Panama</a></td><td>43.5</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="bk"><td>164</td><td class="region"><a href=../geos/bk.html>Bosnia and Herzegovina</a></td><td>43.3</td><td>2012 est.</td></tr>
+<tr id="ct"><td>165</td><td class="region"><a href=../geos/ct.html>Central African Republic</a></td><td>43.2</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="ke"><td>166</td><td class="region"><a href=../geos/ke.html>Kenya</a></td><td>43.2</td><td>2011 est.</td></tr>
+<tr id="sp"><td>167</td><td class="region"><a href=../geos/sp.html>Spain</a></td><td>43.0</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="uy"><td>168</td><td class="region"><a href=../geos/uy.html>Uruguay</a></td><td>41.6</td><td>2011 est.</td></tr>
+<tr id="rw"><td>169</td><td class="region"><a href=../geos/rw.html>Rwanda</a></td><td>39.9</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="ao"><td>170</td><td class="region"><a href=../geos/ao.html>Angola</a></td><td>39.6</td><td>2011 est.</td></tr>
+<tr id="gg"><td>171</td><td class="region"><a href=../geos/gg.html>Georgia</a></td><td>38.8</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="si"><td>172</td><td class="region"><a href=../geos/si.html>Slovenia</a></td><td>36.6</td><td>2012 est.</td></tr>
+<tr id="ve"><td>173</td><td class="region"><a href=../geos/ve.html>Venezuela</a></td><td>35.7</td><td>2012 est.</td></tr>
+<tr style="background: #EEEEEE" id="tz"><td>174</td><td class="region"><a href=../geos/tz.html>Tanzania</a></td><td>33.5</td><td>2011 est.</td></tr>
+<tr id="sl"><td>175</td><td class="region"><a href=../geos/sl.html>Sierra Leone</a></td><td>33.3</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="co"><td>176</td><td class="region"><a href=../geos/co.html>Colombia</a></td><td>32.4</td><td>2011 est.</td></tr>
+<tr id="wa"><td>177</td><td class="region"><a href=../geos/wa.html>Namibia</a></td><td>31.8</td><td>2013 est.</td></tr>
+<tr style="background: #EEEEEE" id="ca"><td>178</td><td class="region"><a href=../geos/ca.html>Canada</a></td><td>31.3</td><td>2011 est.</td></tr>
+<tr id="nz"><td>179</td><td class="region"><a href=../geos/nz.html>New Zealand</a></td><td>30.9</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="su"><td>180</td><td class="region"><a href=../geos/su.html>Sudan</a></td><td>30.7</td><td>2010 est.</td></tr>
+<tr id="od"><td>181</td><td class="region"><a href=../geos/od.html>South Sudan</a></td><td>30.7</td><td>2010 est.</td></tr>
+<tr style="background: #EEEEEE" id="cs"><td>182</td><td class="region"><a href=../geos/cs.html>Costa Rica</a></td><td>29.3</td><td>2011 est.</td></tr>
+<tr id="cm"><td>183</td><td class="region"><a href=../geos/cm.html>Cameroon</a></td><td>28.6</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="au"><td>184</td><td class="region"><a href=../geos/au.html>Austria</a></td><td>28.3</td><td>2011 est.</td></tr>
+<tr id="lg"><td>185</td><td class="region"><a href=../geos/lg.html>Latvia</a></td><td>26.5</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="bm"><td>186</td><td class="region"><a href=../geos/bm.html>Burma</a></td><td>26.1</td><td>2011 est.</td></tr>
+<tr id="fr"><td>187</td><td class="region"><a href=../geos/fr.html>France</a></td><td>24.7</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="mj"><td>188</td><td class="region"><a href=../geos/mj.html>Montenegro</a></td><td>24.2</td><td>2011 est.</td></tr>
+<tr id="af"><td>189</td><td class="region"><a href=../geos/af.html>Afghanistan</a></td><td>23.5</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="to"><td>190</td><td class="region"><a href=../geos/to.html>Togo</a></td><td>21.7</td><td>2011 est.</td></tr>
+<tr id="kg"><td>191</td><td class="region"><a href=../geos/kg.html>Kyrgyzstan</a></td><td>21.1</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="ug"><td>192</td><td class="region"><a href=../geos/ug.html>Uganda</a></td><td>21.0</td><td>2011 est.</td></tr>
+<tr id="do"><td>193</td><td class="region"><a href=../geos/do.html>Dominica</a></td><td>20.4</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="br"><td>194</td><td class="region"><a href=../geos/br.html>Brazil</a></td><td>18.8</td><td>2011 est.</td></tr>
+<tr id="mz"><td>195</td><td class="region"><a href=../geos/mz.html>Mozambique</a></td><td>10.3</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="et"><td>196</td><td class="region"><a href=../geos/et.html>Ethiopia</a></td><td>9.6</td><td>2011 est.</td></tr>
+<tr id="ti"><td>197</td><td class="region"><a href=../geos/ti.html>Tajikistan</a></td><td>9.0</td><td>2013 est.</td></tr>
+<tr style="background: #EEEEEE" id="np"><td>198</td><td class="region"><a href=../geos/np.html>Nepal</a></td><td>7.6</td><td>2011 est.</td></tr>
+<tr id="sw"><td>199</td><td class="region"><a href=../geos/sw.html>Sweden</a></td><td>7.1</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="al"><td>200</td><td class="region"><a href=../geos/al.html>Albania</a></td><td>5.6</td><td>2012 est.</td></tr>
+<tr id="no"><td>201</td><td class="region"><a href=../geos/no.html>Norway</a></td><td>4.6</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="ic"><td>202</td><td class="region"><a href=../geos/ic.html>Iceland</a></td><td>4.5</td><td>2011 est.</td></tr>
+<tr id="sz"><td>203</td><td class="region"><a href=../geos/sz.html>Switzerland</a></td><td>3.0</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="la"><td>204</td><td class="region"><a href=../geos/la.html>Laos</a></td><td>1.9</td><td>2011 est.</td></tr>
+<tr id="by"><td>205</td><td class="region"><a href=../geos/by.html>Burundi</a></td><td>1.9</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="cg"><td>206</td><td class="region"><a href=../geos/cg.html>Congo, Democratic Republic of the</a></td><td>1.4</td><td>2011 est.</td></tr>
+<tr id="bt"><td>207</td><td class="region"><a href=../geos/bt.html>Bhutan</a></td><td>0.7</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="za"><td>208</td><td class="region"><a href=../geos/za.html>Zambia</a></td><td>0.4</td><td>2011 est.</td></tr>
+<tr id="mi"><td>209</td><td class="region"><a href=../geos/mi.html>Malawi</a></td><td>0.3</td><td>2011 est.</td></tr>
+<tr style="background: #EEEEEE" id="pa"><td>210</td><td class="region"><a href=../geos/pa.html>Paraguay</a></td><td>0.1</td><td>2011 est.</td></tr>
+<tr id="lt"><td>211</td><td class="region"><a href=../geos/lt.html>Lesotho</a></td><td>0.0</td><td>2011 est.</td></tr>
+   </tbody>
+           </table>
+           </div>
+          </div>
+         </article>
+        </div>
+       </div>
+      </section>
+        <footer id="footer"><span class="divider"></span>
+       <a href="#" class="logo-2"><img src="../images/logo-2.png" alt="Central Intelligence Agency"></a>
+       <div class="footer-holder">
+         <div class="footer-frame">
+
+           <nav class="footer-nav"><div class="info-block">
+                   
+                   <h3><a href="/about-cia">About CIA</a></h3>
+                   <ul><li>
+                           <a href="/about-cia/todays-cia">Today's CIA</a>
+                        </li>
+                        <li>
+                           <a href="/about-cia/leadership">Leadership</a>
+
+                        </li>
+                        <li>
+                           <a href="/about-cia/cia-vision-mission-values">CIA Vision, Mission &amp; Values</a>
+                        </li>
+                        <li>
+                           <a href="/about-cia/headquarters-tour">Headquarters Tour</a>
+                        </li>
+
+                        <li>
+                           <a href="/about-cia/cia-museum">CIA Museum</a>
+                        </li>
+                        <li>
+                           <a href="/about-cia/history-of-the-cia">History of the CIA</a>
+                        </li>
+                        <li>
+                           <a href="/about-cia/faqs">FAQs</a>
+
+                        </li>
+                        <li>
+                           <a href="/about-cia/no-fear-act">NoFEAR Act</a>
+                        </li>
+                        <li>
+                           <a href="/about-cia/site-policies">Site Policies</a>
+                        </li>
+                    </ul></div>
+
+              <div class="info-block">
+                   
+                   <h3><a href="/careers">Careers &amp; Internships</a></h3>
+                   <ul><li>
+                           <a href="/careers/opportunities">Career Opportunities </a>
+                        </li>
+                        <li>
+
+                           <a href="/careers/student-opportunities">Student Opportunities</a>
+                        </li>
+                        <li>
+                           <a href="/careers/application-process">Application Process</a>
+                        </li>
+                        <li>
+                           <a href="/careers/life-at-cia">Life at CIA</a>
+
+                        </li>
+                        <li>
+                           <a href="/careers/diversity">Diversity</a>
+                        </li>
+                        <li>
+                           <a href="/careers/military-transition">Military Transition</a>
+                        </li>
+                        <li>
+
+                           <a href="/careers/games-information">Diversions &amp; Information</a>
+                        </li>
+                        <li>
+                           <a href="/careers/faq">FAQs</a>
+                        </li>
+                    </ul><h3><a href="/offices-of-cia">Offices of CIA</a></h3>
+
+                   <ul><li>
+                           <a href="/offices-of-cia/intelligence-analysis">Intelligence &amp; Analysis</a>
+                        </li>
+                        <li>
+                           <a href="/offices-of-cia/clandestine-service">Clandestine Service</a>
+                        </li>
+                        <li>
+
+                           <a href="/offices-of-cia/science-technology">Science &amp; Technology</a>
+                        </li>
+                        <li>
+                           <a href="/offices-of-cia/mission-support">Support to Mission</a>
+                        </li>
+                        <li>
+                           <a href="/offices-of-cia/human-resources">Human Resources</a>
+
+                        </li>
+                        <li>
+                           <a href="/offices-of-cia/public-affairs">Public Affairs</a>
+                        </li>
+                        <li>
+                           <a href="/offices-of-cia/general-counsel">General Counsel</a>
+                        </li>
+                        <li>
+
+                           <a href="/offices-of-cia/equal-employment-opportunity">Equal Employment Opportunity</a>
+                        </li>
+                        <li>
+                           <a href="/offices-of-cia/congressional-affairs">Congressional Affairs</a>
+                        </li>
+                        <li>
+                           <a href="/offices-of-cia/inspector-general">Inspector General</a>
+
+                        </li>
+                        <li>
+                           <a href="/offices-of-cia/military-affairs">Military Affairs</a>
+                        </li>
+                    </ul></div>
+
+
+             <div class="info-block">
+                   
+                   <h3><a href="/news-information">News &amp; Information</a></h3>
+
+                   <ul><li>
+                           <a href="/news-information/press-releases-statements">Press Releases &amp; Statements</a>
+                        </li>
+                        <li>
+                           <a href="/news-information/speeches-testimony">Speeches &amp; Testimony</a>
+                        </li>
+
+                        <li>
+                           <a href="/news-information/cia-the-war-on-terrorism">CIA &amp; the War on Terrorism</a>
+                        </li>
+                        <li>
+                           <a href="/news-information/featured-story-archive">Featured Story Archive</a>
+                        </li>
+                        <li>
+
+                           <a href="/news-information/Whats-New-on-CIAgov">What&#8217;s New Archive</a>
+                        </li>
+                        <li>
+                           <a href="/news-information/your-news">Your News</a>
+                        </li>
+                    </ul><h3><a href="/library">Library</a></h3>
+                   <ul><li>
+
+                           <a href="/library/publications">Publications</a>
+                        </li>
+                        <li>
+                           <a href="/library/center-for-the-study-of-intelligence">Center for the Study of Intelligence</a>
+                        </li>
+                        <li>
+                           <a href="/library/foia">Freedom of Information Act Electronic Reading Room</a>
+
+                        </li>
+                        <li>
+                           <a href="/library/kent-center-occasional-papers">Kent Center Occasional Papers</a>
+                        </li>
+                        <li>
+                           <a href="/library/intelligence-literature">Intelligence Literature</a>
+                        </li>
+                        <li>
+
+                           <a href="/library/reports">Reports</a>
+                        </li>
+                        <li>
+                           <a href="/library/related-links.html">Related Links</a>
+                        </li>
+                        <li>
+                           <a href="/library/video-center">Video Center</a>
+
+                        </li>
+                    </ul></div>
+
+
+               <div class="info-block add">
+                   
+                   <h3><a href="/kids-page">Kids' Zone</a></h3>
+                   <ul><li>
+                           <a href="/kids-page/k-5th-grade">K-5th Grade</a>
+                        </li>
+
+                        <li>
+                           <a href="/kids-page/6-12th-grade">6-12th Grade</a>
+                        </li>
+                        <li>
+                           <a href="/kids-page/parents-teachers">Parents &amp; Teachers</a>
+                        </li>
+                        <li>
+
+                           <a href="/kids-page/games">Games</a>
+                        </li>
+                        <li>
+                           <a href="/kids-page/related-links">Related Links</a>
+                        </li>
+                        <li>
+                           <a href="/kids-page/privacy-statement">Privacy Statement</a>
+
+                        </li>
+                    </ul><h3><a href="/contact-cia">Connect with CIA</a></h3>
+                   <ul class="socials-list"><li><a href="http://www.youtube.com/user/ciagov">CIA YouTube</a></li>
+                     <li><a class="social-2" href="http://www.flickr.com/photos/ciagov">CIA Flickr PhotoStream</a></li>
+                     <li><a class="social-3" href="/news-information/your-news">RSS</a></li>
+                     <li><a class="social-4" href="/contact-cia">Contact Us</a></li>
+
+                   </ul></div>
+
+
+               </nav><div id="plugins" class="info-panel">
+                    <h4>* Required plugins</h4>
+                    <ul><li data-plugin="swf"><a href="http://get.adobe.com/flashplayer/">Adobe&#174; Flash Player</a></li>
+                        <li data-plugin="pdf"><a href="http://get.adobe.com/reader/">Adobe&#174; Reader&#174;</a></li>
+
+                        <li data-plugin="doc"><a href="http://www.microsoft.com/en-us/download/details.aspx?id=4">MS Word Viewer</a></li>
+                    </ul></div>
+         </div>
+       </div>
+     </footer>
+    </div>
+<div class="footer-panel" style="width: 990px;" align="center">
+      <nav class="sub-nav" style="width: 100%; text-align: center;" >
+        <h3 class="visuallyhidden">Footer Navigation</h3>
+        <ul>
+			<li><a href="/about-cia/site-policies/#privacy-notice" title="Site Policies">Privacy</a></li>
+			<li><a href="/about-cia/site-policies/#copy" title="Site Policies">Copyright</a></li>
+			<li><a href="/about-cia/site-policies/" title="Site Policies">Site Policies</a></li>
+			<li><a href="http://www.usa.gov/">USA.gov</a></li>
+			<li><a href="http://www.foia.cia.gov/">FOIA</a></li>
+			<li><a href="http://www.dni.gov/">DNI.gov</a></li>
+			<li><a href="/about-cia/no-fear-act/" title="No FEAR Act">NoFEAR Act</a></li>
+			<li><a href="/offices-of-cia/inspector-general/">Inspector General</a></li>
+			<li><a href="/mobile/">Mobile Site</a></li>
+			<li><a href="/contact-cia/">Contact CIA</a></li>
+			<li><a href="/sitemap.html">Site Map</a></li>
+		</ul>
+       <div style="width: 100%;" align="center"><a href="/open/" ><img src="../images/ico-06.png" width="101" height="24" alt="open gov"></a></div>
+      </nav>
+</div>
+<a href="#" class="go-top">GO TOP</a>
+  <script>
+	$(document).ready(function() {
+		// Show or hide the sticky footer button
+		$(window).scroll(function() {
+			if ($(this).scrollTop() > 350) {
+				$('.go-top').fadeIn(100);
+			} else {
+				$('.go-top').fadeOut(100);
+			}
+		});
+		
+		// Animate the scroll to top
+		$('.go-top').click(function(event) {
+			event.preventDefault();
+			
+			$('html, body').animate({scrollTop: 350}, 300);
+		})
+	});
+</script>	
+
+</body>
+<!-- InstanceEnd --></html> 

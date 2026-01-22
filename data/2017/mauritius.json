@@ -1,0 +1,23 @@
+{
+  "country": "Mauritius",
+  "region": "Africa",
+  "year": 2017,
+  "demographics": {
+    "population": 1356388,
+    "population_growth_pct": 0.6,
+    "life_expectancy": 75.8
+  },
+  "economy": {
+    "gdp_ppp_billions": 25.89,
+    "gdp_growth_pct": 3.6,
+    "gdp_per_capita": 20400,
+    "inflation_pct": 1.0,
+    "unemployment_pct": 7.3,
+    "exports_billions": 2.36,
+    "imports_billions": 4.41
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.19
+  },
+  "political": {}
+}

@@ -1,0 +1,21 @@
+{
+  "country": "United Arab Emirates",
+  "region": "Middle East",
+  "year": 2001,
+  "demographics": {
+    "population": 2407460,
+    "population_growth_pct": 1.59
+  },
+  "economy": {
+    "gdp_ppp_billions": 54.0,
+    "gdp_growth_pct": 4.0,
+    "gdp_per_capita": 22800,
+    "inflation_pct": 4.5,
+    "exports_billions": 46.0,
+    "imports_billions": 34.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.1
+  },
+  "political": {}
+}

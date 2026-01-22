@@ -1,0 +1,224 @@
+1      Turks and Caicos Islands                           11.20                                             
+2      Nauru                                              10.40                                             
+3      Iraq                                               10.10                                             
+4      Ethiopia                                           8.00                                              
+5      Uzbekistan                                         7.80                                              
+6      Cote d'Ivoire                                      7.50                                              
+7      Iceland                                            7.20                                              
+8      Cambodia                                           7.00                                              
+9      Bangladesh                                         6.90                                              
+10     Laos                                               6.90                                              
+11     Tajikistan                                         6.90                                              
+12     India                                              6.80                                              
+13     Philippines                                        6.80                                              
+14     China                                              6.70                                              
+15     Tanzania                                           6.60                                              
+16     Samoa                                              6.60                                              
+17     Dominican Republic                                 6.60                                              
+18     Senegal                                            6.60                                              
+19     Djibouti                                           6.50                                              
+20     Iran                                               6.50                                              
+21     Burma                                              6.30                                              
+22     Niue                                               6.20                                              
+23     Turkmenistan                                       6.20                                              
+24     Bhutan                                             6.20                                              
+25     Vietnam                                            6.20                                              
+26     Kenya                                              6.00                                              
+27     Faroe Islands                                      5.90                                              
+28     Rwanda                                             5.90                                              
+29     Monaco                                             5.40                                              
+30     Burkina Faso                                       5.40                                              
+31     Mali                                               5.40                                              
+32     West Bank                                          5.30                                              
+33     Guinea                                             5.20                                              
+34     Ireland                                            5.20                                              
+35     Guinea-Bissau                                      5.20                                              
+36     Timor-Leste                                        5.00                                              
+37     Togo                                               5.00                                              
+38     Panama                                             5.00                                              
+39     Indonesia                                          5.00                                              
+40     Malta                                              5.00                                              
+41     Sierra Leone                                       4.90                                              
+42     Romania                                            4.80                                              
+43     Nicaragua                                          4.70                                              
+44     Pakistan                                           4.70                                              
+45     Uganda                                             4.70                                              
+46     Niger                                              4.60                                              
+47     Northern Mariana Islands                           4.50                                              
+48     Central African Republic                           4.50                                              
+49     Cameroon                                           4.40                                              
+50     Seychelles                                         4.40                                              
+51     Egypt                                              4.30                                              
+52     Sri Lanka                                          4.30                                              
+53     Costa Rica                                         4.30                                              
+54     Malaysia                                           4.20                                              
+55     Algeria                                            4.20                                              
+56     Madagascar                                         4.10                                              
+57     Paraguay                                           4.10                                              
+58     Bolivia                                            4.10                                              
+59     Tuvalu                                             4.00                                              
+60     Sao Tome and Principe                              4.00                                              
+61     New Zealand                                        4.00                                              
+62     Vanuatu                                            4.00                                              
+63     Moldova                                            4.00                                              
+64     Luxembourg                                         4.00                                              
+65     Israel                                             4.00                                              
+66     Ghana                                              4.00                                              
+67     Cabo Verde                                         4.00                                              
+68     Benin                                              4.00                                              
+69     Maldives                                           3.90                                              
+70     Peru                                               3.90                                              
+71     Kyrgyzstan                                         3.80                                              
+72     Somalia                                            3.70                                              
+73     Eritrea                                            3.70                                              
+74     Antigua and Barbuda                                3.70                                              
+75     Sint Maarten                                       3.60                                              
+76     Honduras                                           3.60                                              
+77     Curacao                                            3.60                                              
+78     Mauritius                                          3.60                                              
+79     Kosovo                                             3.60                                              
+80     Montserrat                                         3.50                                              
+81     Tonga                                              3.50                                              
+82     Albania                                            3.40                                              
+83     Mozambique                                         3.40                                              
+84     Bulgaria                                           3.40                                              
+85     Guyana                                             3.30                                              
+86     Sweden                                             3.30                                              
+87     Slovakia                                           3.30                                              
+88     Thailand                                           3.20                                              
+89     Kiribati                                           3.20                                              
+90     Solomon Islands                                    3.20                                              
+91     Spain                                              3.20                                              
+92     Sudan                                              3.10                                              
+93     Oman                                               3.10                                              
+94     Grenada                                            3.10                                              
+95     Guatemala                                          3.00                                              
+96     Zambia                                             3.00                                              
+97     Bahrain                                            2.90                                              
+98     Saint Kitts and Nevis                              2.90                                              
+99     Lesotho                                            2.90                                              
+100    Croatia                                            2.90                                              
+101    Turkey                                             2.90                                              
+102    Botswana                                           2.90                                              
+103    Korea, South                                       2.80                                              
+104    Poland                                             2.80                                              
+105    Cyprus                                             2.80                                              
+106    Serbia                                             2.80                                              
+107    United Arab Emirates                               2.70                                              
+108    Qatar                                              2.70                                              
+109    Georgia                                            2.70                                              
+110    Slovenia                                           2.50                                              
+111    Kuwait                                             2.50                                              
+112    Australia                                          2.50                                              
+113    Bosnia and Herzegovina                             2.50                                              
+114    Gambia, The                                        2.50                                              
+115    Papua New Guinea                                   2.50                                              
+116    Congo, Democratic Republic of the                  2.40                                              
+117    Montenegro                                         2.40                                              
+118    Czechia                                            2.40                                              
+119    Aruba                                              2.40                                              
+120    El Salvador                                        2.40                                              
+121    Macedonia                                          2.40                                              
+122    Gabon                                              2.30                                              
+123    Mexico                                             2.30                                              
+124    Lithuania                                          2.30                                              
+125    Malawi                                             2.30                                              
+126    Ukraine                                            2.30                                              
+127    Isle of Man                                        2.20                                              
+128    Comoros                                            2.20                                              
+129    Netherlands                                        2.10                                              
+130    Jordan                                             2.10                                              
+131    Colombia                                           2.00                                              
+132    Singapore                                          2.00                                              
+133    Afghanistan                                        2.00                                              
+134    Jersey                                             2.00                                              
+135    Latvia                                             2.00                                              
+136    Fiji                                               2.00                                              
+137    Hungary                                            2.00                                              
+138    Micronesia, Federated States of                    2.00                                              
+139    French Polynesia                                   2.00                                              
+140    Hong Kong                                          1.90                                              
+141    European Union                                     1.90                                              
+142    Germany                                            1.80                                              
+143    Marshall Islands                                   1.80                                              
+144    United Kingdom                                     1.80                                              
+145    Saint Vincent and the Grenadines                   1.80                                              
+146    Liechtenstein                                      1.80                                              
+147    Cayman Islands                                     1.70                                              
+148    Greenland                                          1.70                                              
+149    United States                                      1.60                                              
+150    Chile                                              1.60                                              
+151    Barbados                                           1.60                                              
+152    Estonia                                            1.60                                              
+153    Jamaica                                            1.50                                              
+154    Austria                                            1.50                                              
+155    Mauritania                                         1.50                                              
+156    Morocco                                            1.50                                              
+157    Canada                                             1.40                                              
+158    Uruguay                                            1.40                                              
+159    Portugal                                           1.40                                              
+160    Taiwan                                             1.40                                              
+161    Saudi Arabia                                       1.40                                              
+162    Haiti                                              1.40                                              
+163    New Caledonia                                      1.40                                              
+164    Finland                                            1.40                                              
+165    British Virgin Islands                             1.30                                              
+166    Switzerland                                        1.30                                              
+167    Belgium                                            1.20                                              
+168    France                                             1.20                                              
+169    Denmark                                            1.10                                              
+170    Kazakhstan                                         1.10                                              
+171    San Marino                                         1.00                                              
+172    Cocos (Keeling) Islands                            1.00                                              
+173    Norway                                             1.00                                              
+174    Japan                                              1.00                                              
+175    Mongolia                                           1.00                                              
+176    Lebanon                                            1.00                                              
+177    Tunisia                                            1.00                                              
+178    Italy                                              0.90                                              
+179    Saint Lucia                                        0.80                                              
+180    Dominica                                           0.60                                              
+181    Guam                                               0.60                                              
+182    Nepal                                              0.60                                              
+183    Zimbabwe                                           0.50                                              
+184    Guernsey                                           0.40                                              
+185    South Africa                                       0.30                                              
+186    Armenia                                            0.20                                              
+187    Cook Islands                                       0.10                                              
+188    Palau                                              0.10                                              
+189    Namibia                                            0.10                                              
+190    Angola                                             0.00                                              
+191    Greece                                             0.00                                              
+192    Bahamas, The                                       0.00                                              
+193    Swaziland                                          -0.40                                             
+194    Russia                                             -0.60                                             
+195    Cuba                                               -0.90                                             
+196    Burundi                                            -1.00                                             
+197    Belize                                             -1.00                                             
+198    Korea, North                                       -1.10                                             
+199    Andorra                                            -1.10                                             
+200    Liberia                                            -1.20                                             
+201    Nigeria                                            -1.50                                             
+202    Puerto Rico                                        -1.80                                             
+203    Ecuador                                            -2.20                                             
+204    Argentina                                          -2.30                                             
+205    American Samoa                                     -2.40                                             
+206    Bermuda                                            -2.50                                             
+207    Congo, Republic of the                             -2.70                                             
+208    Belarus                                            -3.00                                             
+209    Brunei                                             -3.20                                             
+210    Brazil                                             -3.60                                             
+211    Azerbaijan                                         -3.80                                             
+212    Macau                                              -4.00                                             
+213    Libya                                              -4.40                                             
+214    Trinidad and Tobago                                -5.10                                             
+215    Virgin Islands                                     -5.40                                             
+216    Chad                                               -6.40                                             
+217    Anguilla                                           -8.50                                             
+218    Yemen                                              -9.80                                             
+219    Syria                                              -9.90                                             
+220    Equatorial Guinea                                  -10.00                                            
+221    Suriname                                           -10.50                                            
+222    South Sudan                                        -13.80                                            
+223    Gaza Strip                                         -15.20                                            
+224    Venezuela                                          -18.00                                            

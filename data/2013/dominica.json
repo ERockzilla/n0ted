@@ -1,0 +1,21 @@
+{
+  "country": "Dominica",
+  "region": "Central America and Caribbean",
+  "year": 2013,
+  "demographics": {
+    "population": 73286,
+    "population_growth_pct": 0.22,
+    "life_expectancy": 76.39
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.99,
+    "gdp_growth_pct": -1.7,
+    "gdp_per_capita": 14000,
+    "inflation_pct": 1.4,
+    "unemployment_pct": 23.0,
+    "exports_billions": 0.04,
+    "imports_billions": 0.18
+  },
+  "military": {},
+  "political": {}
+}

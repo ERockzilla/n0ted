@@ -1,0 +1,21 @@
+{
+  "country": "Uganda",
+  "region": "Africa",
+  "year": 2007,
+  "demographics": {
+    "population": 30262610,
+    "life_expectancy": 51.75
+  },
+  "economy": {
+    "gdp_ppp_billions": 52.93,
+    "gdp_growth_pct": 5.3,
+    "gdp_per_capita": 1900,
+    "inflation_pct": 6.6,
+    "exports_billions": 1.0,
+    "imports_billions": 2.25
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.2
+  },
+  "political": {}
+}

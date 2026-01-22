@@ -1,0 +1,23 @@
+{
+  "country": "Dominican Republic",
+  "region": "Central America and Caribbean",
+  "year": 2019,
+  "demographics": {
+    "population": 10298756,
+    "population_growth_pct": 0.99,
+    "life_expectancy": 71.3
+  },
+  "economy": {
+    "gdp_ppp_billions": 173.0,
+    "gdp_growth_pct": 4.6,
+    "gdp_per_capita": 17000,
+    "inflation_pct": 3.3,
+    "unemployment_pct": 13.5,
+    "exports_billions": 10.12,
+    "imports_billions": 17.7
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.74
+  },
+  "political": {}
+}

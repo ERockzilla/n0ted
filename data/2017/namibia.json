@@ -1,0 +1,23 @@
+{
+  "country": "Namibia",
+  "region": "Africa",
+  "year": 2017,
+  "demographics": {
+    "population": 2484780,
+    "population_growth_pct": 2.0,
+    "life_expectancy": 64.0
+  },
+  "economy": {
+    "gdp_ppp_billions": 25.96,
+    "gdp_growth_pct": 0.1,
+    "gdp_per_capita": 11300,
+    "inflation_pct": 6.7,
+    "unemployment_pct": 28.1,
+    "exports_billions": 4.0,
+    "imports_billions": 6.44
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.11
+  },
+  "political": {}
+}

@@ -1,0 +1,22 @@
+{
+  "country": "Trinidad And Tobago",
+  "region": "Central America and Caribbean",
+  "year": 2004,
+  "demographics": {
+    "population": 1088644,
+    "life_expectancy": 68.91
+  },
+  "economy": {
+    "gdp_ppp_billions": 10.52,
+    "gdp_growth_pct": 3.7,
+    "gdp_per_capita": 9500,
+    "inflation_pct": 3.8,
+    "unemployment_pct": 10.4,
+    "exports_billions": 4.9,
+    "imports_billions": 3.92
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.6
+  },
+  "political": {}
+}

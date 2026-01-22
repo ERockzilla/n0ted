@@ -1,0 +1,23 @@
+{
+  "country": "Chile",
+  "region": "South America",
+  "year": 2012,
+  "demographics": {
+    "population": 17067369,
+    "population_growth_pct": 0.88,
+    "life_expectancy": 78.1
+  },
+  "economy": {
+    "gdp_ppp_billions": 319.4,
+    "gdp_growth_pct": 5.0,
+    "gdp_per_capita": 18400,
+    "inflation_pct": 2.8,
+    "unemployment_pct": 6.4,
+    "exports_billions": 83.66,
+    "imports_billions": 70.2
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.7
+  },
+  "political": {}
+}

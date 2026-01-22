@@ -1,0 +1,21 @@
+{
+  "country": "New Caledonia",
+  "region": "Australia-Oceania",
+  "year": 2016,
+  "demographics": {
+    "population": 275355,
+    "population_growth_pct": 1.35,
+    "life_expectancy": 77.7
+  },
+  "economy": {
+    "gdp_ppp_billions": 11.1,
+    "gdp_per_capita": 38800,
+    "inflation_pct": 0.6,
+    "unemployment_pct": 17.1,
+    "exports_billions": 1.56,
+    "imports_billions": 3.32,
+    "gdp_growth_pct": 2.8
+  },
+  "military": {},
+  "political": {}
+}

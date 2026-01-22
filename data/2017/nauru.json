@@ -1,0 +1,21 @@
+{
+  "country": "Nauru",
+  "region": "Australia-Oceania",
+  "year": 2017,
+  "demographics": {
+    "population": 9642,
+    "population_growth_pct": 0.5,
+    "life_expectancy": 67.4
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.15,
+    "gdp_per_capita": 11600,
+    "unemployment_pct": 23.0,
+    "imports_billions": 0.14,
+    "gdp_growth_pct": 10.4,
+    "inflation_pct": 8.2,
+    "exports_billions": 0.12
+  },
+  "military": {},
+  "political": {}
+}

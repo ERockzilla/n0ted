@@ -1,0 +1,24 @@
+{
+  "country": "South Africa",
+  "region": "Africa",
+  "year": 2020,
+  "demographics": {
+    "population": 56463617,
+    "population_growth_pct": 0.97,
+    "life_expectancy": 64.8,
+    "median_age": 28.0
+  },
+  "economy": {
+    "gdp_growth_pct": 0.06,
+    "gdp_per_capita": 7341,
+    "inflation_pct": 4.1,
+    "unemployment_pct": 53.4,
+    "exports_billions": 123.86,
+    "imports_billions": 131.72,
+    "external_debt_billions": 156.3
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.0
+  },
+  "political": {}
+}

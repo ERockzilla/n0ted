@@ -1,0 +1,23 @@
+{
+  "country": "Mexico",
+  "region": "North America",
+  "year": 2017,
+  "demographics": {
+    "population": 124574795,
+    "population_growth_pct": 1.1,
+    "life_expectancy": 76.1
+  },
+  "economy": {
+    "gdp_ppp_billions": 2316.0,
+    "gdp_growth_pct": 2.3,
+    "gdp_per_capita": 18900,
+    "inflation_pct": 2.8,
+    "unemployment_pct": 3.9,
+    "exports_billions": 374.3,
+    "imports_billions": 387.4
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.59
+  },
+  "political": {}
+}

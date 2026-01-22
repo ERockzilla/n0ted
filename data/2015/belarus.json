@@ -1,0 +1,23 @@
+{
+  "country": "Belarus",
+  "region": "Europe",
+  "year": 2015,
+  "demographics": {
+    "population": 9608058,
+    "population_growth_pct": -0.19,
+    "life_expectancy": 72.15
+  },
+  "economy": {
+    "gdp_ppp_billions": 171.2,
+    "gdp_growth_pct": 0.9,
+    "gdp_per_capita": 18200,
+    "inflation_pct": 16.2,
+    "unemployment_pct": 1.0,
+    "exports_billions": 37.89,
+    "imports_billions": 40.47
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.2
+  },
+  "political": {}
+}

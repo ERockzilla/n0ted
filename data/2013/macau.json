@@ -1,0 +1,21 @@
+{
+  "country": "Macau",
+  "region": "East & Southeast Asia",
+  "year": 2013,
+  "demographics": {
+    "population": 583003,
+    "population_growth_pct": 0.85,
+    "life_expectancy": 84.46
+  },
+  "economy": {
+    "gdp_ppp_billions": 47.19,
+    "gdp_growth_pct": 10.0,
+    "gdp_per_capita": 82400,
+    "inflation_pct": 6.1,
+    "unemployment_pct": 2.0,
+    "exports_billions": 1.02,
+    "imports_billions": 8.87
+  },
+  "military": {},
+  "political": {}
+}

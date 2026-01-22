@@ -1,0 +1,23 @@
+{
+  "country": "Ukraine",
+  "region": "Europe",
+  "year": 2008,
+  "demographics": {
+    "population": 45994288,
+    "population_growth_pct": -0.65,
+    "life_expectancy": 68.06
+  },
+  "economy": {
+    "gdp_ppp_billions": 324.8,
+    "gdp_growth_pct": 7.7,
+    "gdp_per_capita": 7000,
+    "inflation_pct": 12.8,
+    "unemployment_pct": 2.3,
+    "exports_billions": 49.84,
+    "imports_billions": 60.41
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.4
+  },
+  "political": {}
+}

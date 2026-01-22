@@ -1,0 +1,22 @@
+{
+  "country": "Armenia",
+  "region": "Middle East",
+  "year": 2001,
+  "demographics": {
+    "population": 3336100,
+    "population_growth_pct": -0.21
+  },
+  "economy": {
+    "gdp_ppp_billions": 10.0,
+    "gdp_growth_pct": 5.0,
+    "gdp_per_capita": 3000,
+    "inflation_pct": 1.0,
+    "unemployment_pct": 20.0,
+    "exports_billions": 0.284,
+    "imports_billions": 0.913
+  },
+  "military": {
+    "expenditure_pct_gdp": 4.0
+  },
+  "political": {}
+}

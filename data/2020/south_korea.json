@@ -1,0 +1,24 @@
+{
+  "country": "South Korea",
+  "region": "East & Southeast Asia",
+  "year": 2020,
+  "demographics": {
+    "population": 51835110,
+    "population_growth_pct": 0.39,
+    "life_expectancy": 82.6,
+    "median_age": 43.2
+  },
+  "economy": {
+    "gdp_growth_pct": 2.04,
+    "gdp_per_capita": 28941,
+    "inflation_pct": 0.3,
+    "unemployment_pct": 10.2,
+    "exports_billions": 684.0,
+    "imports_billions": 599.71,
+    "external_debt_billions": 384.6
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.7
+  },
+  "political": {}
+}

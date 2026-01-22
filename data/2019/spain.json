@@ -1,0 +1,23 @@
+{
+  "country": "Spain",
+  "region": "Europe",
+  "year": 2019,
+  "demographics": {
+    "population": 49331076,
+    "population_growth_pct": 0.73,
+    "life_expectancy": 81.8
+  },
+  "economy": {
+    "gdp_ppp_billions": 1778.0,
+    "gdp_growth_pct": 3.0,
+    "gdp_per_capita": 38400,
+    "inflation_pct": 2.0,
+    "unemployment_pct": 38.6,
+    "exports_billions": 313.7,
+    "imports_billions": 338.6
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.92
+  },
+  "political": {}
+}

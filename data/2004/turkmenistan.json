@@ -1,0 +1,21 @@
+{
+  "country": "Turkmenistan",
+  "region": "Central Asia",
+  "year": 2004,
+  "demographics": {
+    "population": 4952081,
+    "life_expectancy": 61.39
+  },
+  "economy": {
+    "gdp_ppp_billions": 27.88,
+    "gdp_growth_pct": 23.1,
+    "gdp_per_capita": 5800,
+    "inflation_pct": 9.5,
+    "exports_billions": 3.35,
+    "imports_billions": 2.47
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.4
+  },
+  "political": {}
+}

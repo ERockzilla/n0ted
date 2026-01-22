@@ -1,0 +1,23 @@
+{
+  "country": "Macedonia",
+  "region": "Europe",
+  "year": 2008,
+  "demographics": {
+    "population": 2061315,
+    "population_growth_pct": 0.26,
+    "life_expectancy": 74.45
+  },
+  "economy": {
+    "gdp_ppp_billions": 17.35,
+    "gdp_growth_pct": 5.1,
+    "gdp_per_capita": 8400,
+    "inflation_pct": 2.3,
+    "unemployment_pct": 34.9,
+    "exports_billions": 3.35,
+    "imports_billions": 4.98
+  },
+  "military": {
+    "expenditure_pct_gdp": 6.0
+  },
+  "political": {}
+}

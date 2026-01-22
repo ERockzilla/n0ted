@@ -1,0 +1,23 @@
+{
+  "country": "Nicaragua",
+  "region": "Central America and Caribbean",
+  "year": 2013,
+  "demographics": {
+    "population": 5788531,
+    "population_growth_pct": 1.05,
+    "life_expectancy": 72.45
+  },
+  "economy": {
+    "gdp_ppp_billions": 26.38,
+    "gdp_growth_pct": 5.2,
+    "gdp_per_capita": 4400,
+    "inflation_pct": 7.2,
+    "unemployment_pct": 7.4,
+    "exports_billions": 4.16,
+    "imports_billions": 6.45
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.9
+  },
+  "political": {}
+}

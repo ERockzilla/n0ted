@@ -1,0 +1,23 @@
+{
+  "country": "Brazil",
+  "region": "South America",
+  "year": 2011,
+  "demographics": {
+    "population": 203429773,
+    "population_growth_pct": 1.13,
+    "life_expectancy": 72.53
+  },
+  "economy": {
+    "gdp_ppp_billions": 2172.0,
+    "gdp_growth_pct": 7.5,
+    "gdp_per_capita": 10800,
+    "inflation_pct": 5.0,
+    "unemployment_pct": 6.7,
+    "exports_billions": 201.9,
+    "imports_billions": 181.7
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.7
+  },
+  "political": {}
+}

@@ -1,0 +1,336 @@
+2026-01-17 21:50:07,830 - INFO - Found Factbook years: [2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020]
+2026-01-17 21:50:07,830 - INFO - Processing years: [2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020]
+2026-01-17 21:50:07,833 - INFO - Loaded existing timeseries with 257 countries
+2026-01-17 21:50:07,834 - INFO - Extracting 2001 (format: legacy)
+2026-01-17 21:50:07,849 - INFO -   Extracted 239 countries for 2001
+2026-01-17 21:50:07,849 - INFO - Extracting 2002 (format: modern_html)
+2026-01-17 21:50:07,850 - INFO - Extracting 2003 (format: modern_html)
+2026-01-17 21:50:07,851 - INFO - Extracting 2004 (format: modern_html)
+2026-01-17 21:50:07,851 - INFO - Extracting 2005 (format: modern_html)
+2026-01-17 21:50:07,852 - INFO - Extracting 2006 (format: modern_html)
+2026-01-17 21:50:07,852 - INFO - Extracting 2007 (format: modern_html)
+2026-01-17 21:50:07,853 - INFO - Extracting 2008 (format: modern_html)
+2026-01-17 21:50:07,854 - INFO - Extracting 2009 (format: modern_html)
+2026-01-17 21:50:07,855 - INFO - Extracting 2011 (format: modern_html)
+2026-01-17 21:50:07,856 - INFO - Extracting 2012 (format: modern_html)
+2026-01-17 21:50:07,857 - INFO - Extracting 2013 (format: modern_html)
+2026-01-17 21:50:07,858 - INFO - Extracting 2014 (format: modern_html)
+2026-01-17 21:50:07,859 - INFO - Extracting 2015 (format: modern_html)
+2026-01-17 21:50:07,860 - INFO - Extracting 2016 (format: modern_html)
+2026-01-17 21:50:07,862 - INFO - Extracting 2017 (format: modern_html)
+2026-01-17 21:50:07,862 - INFO - Extracting 2018 (format: modern)
+2026-01-17 21:50:07,870 - INFO -   Extracted 238 countries for 2018
+2026-01-17 21:50:07,870 - INFO - Extracting 2019 (format: modern)
+2026-01-17 21:50:07,878 - INFO -   Extracted 239 countries for 2019
+2026-01-17 21:50:07,879 - INFO - Extracting 2020 (format: modern)
+2026-01-17 21:50:07,888 - INFO -   Extracted 238 countries for 2020
+2026-01-17 21:50:07,932 - INFO - Saved timeseries to C:\Users\E\n0ted\n0ted\data\_merged\timeseries.json
+2026-01-17 21:50:07,932 - INFO - 
+==================================================
+2026-01-17 21:50:07,932 - INFO - EXTRACTION COMPLETE
+2026-01-17 21:50:07,932 - INFO - ==================================================
+2026-01-17 21:50:07,932 - INFO - Years processed: 19
+2026-01-17 21:50:07,932 - INFO - Total country-year records: 954
+2026-01-17 21:50:07,932 - INFO - Countries in timeseries: 271
+2026-01-17 21:50:07,932 - INFO - 
+Sample - United States:
+2026-01-17 21:50:07,933 - INFO -   population: 5 data points (2001-2020)
+2026-01-17 21:50:07,933 - INFO -   gdp_ppp_billions: 5 data points (2001-2020)
+2026-01-17 21:50:07,933 - INFO -   life_expectancy: 4 data points (2010-2020)
+2026-01-17 21:55:24,173 - INFO - Found Factbook years: [2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020]
+2026-01-17 21:55:24,173 - INFO - Processing years: [2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020]
+2026-01-17 21:55:24,179 - INFO - Loaded existing timeseries with 271 countries
+2026-01-17 21:55:24,180 - INFO - Extracting 2001 (format: legacy)
+2026-01-17 21:55:24,190 - INFO -   Extracted 239 countries for 2001
+2026-01-17 21:55:24,190 - INFO - Extracting 2002 (format: unknown)
+2026-01-17 21:55:24,190 - WARNING - Unknown format for C:\Users\E\n0ted\n0ted\factbook-2002
+2026-01-17 21:55:24,191 - INFO - Extracting 2003 (format: unknown)
+2026-01-17 21:55:24,191 - WARNING - Unknown format for C:\Users\E\n0ted\n0ted\factbook-2003
+2026-01-17 21:55:24,191 - INFO - Extracting 2004 (format: unknown)
+2026-01-17 21:55:24,191 - WARNING - Unknown format for C:\Users\E\n0ted\n0ted\factbook-2004
+2026-01-17 21:55:24,192 - INFO - Extracting 2005 (format: unknown)
+2026-01-17 21:55:24,192 - WARNING - Unknown format for C:\Users\E\n0ted\n0ted\factbook-2005
+2026-01-17 21:55:24,193 - INFO - Extracting 2006 (format: unknown)
+2026-01-17 21:55:24,193 - WARNING - Unknown format for C:\Users\E\n0ted\n0ted\factbook-2006
+2026-01-17 21:55:24,193 - INFO - Extracting 2007 (format: unknown)
+2026-01-17 21:55:24,193 - WARNING - Unknown format for C:\Users\E\n0ted\n0ted\factbook-2007
+2026-01-17 21:55:24,194 - INFO - Extracting 2008 (format: unknown)
+2026-01-17 21:55:24,194 - WARNING - Unknown format for C:\Users\E\n0ted\n0ted\factbook-2008
+2026-01-17 21:55:24,195 - INFO - Extracting 2009 (format: unknown)
+2026-01-17 21:55:24,195 - WARNING - Unknown format for C:\Users\E\n0ted\n0ted\factbook-2009
+2026-01-17 21:55:24,196 - INFO - Extracting 2011 (format: modern_rankorder)
+2026-01-17 21:55:24,200 - INFO - Extracting 2012 (format: modern_rankorder)
+2026-01-17 21:55:24,203 - INFO - Extracting 2013 (format: modern_rankorder)
+2026-01-17 21:55:24,207 - INFO - Extracting 2014 (format: modern_rankorder)
+2026-01-17 21:55:24,210 - INFO - Extracting 2015 (format: modern_rankorder)
+2026-01-17 21:55:24,218 - INFO -   Extracted 238 countries for 2015
+2026-01-17 21:55:24,219 - INFO - Extracting 2016 (format: modern_rankorder)
+2026-01-17 21:55:24,228 - INFO -   Extracted 238 countries for 2016
+2026-01-17 21:55:24,229 - INFO - Extracting 2017 (format: modern_rankorder)
+2026-01-17 21:55:24,239 - INFO -   Extracted 238 countries for 2017
+2026-01-17 21:55:24,240 - INFO - Extracting 2018 (format: modern)
+2026-01-17 21:55:24,249 - INFO -   Extracted 238 countries for 2018
+2026-01-17 21:55:24,249 - INFO - Extracting 2019 (format: modern)
+2026-01-17 21:55:24,259 - INFO -   Extracted 239 countries for 2019
+2026-01-17 21:55:24,259 - INFO - Extracting 2020 (format: modern)
+2026-01-17 21:55:24,268 - INFO -   Extracted 238 countries for 2020
+2026-01-17 21:55:24,321 - INFO - Saved timeseries to C:\Users\E\n0ted\n0ted\data\_merged\timeseries.json
+2026-01-17 21:55:24,321 - INFO - 
+==================================================
+2026-01-17 21:55:24,321 - INFO - EXTRACTION COMPLETE
+2026-01-17 21:55:24,321 - INFO - ==================================================
+2026-01-17 21:55:24,321 - INFO - Years processed: 19
+2026-01-17 21:55:24,321 - INFO - Total country-year records: 1668
+2026-01-17 21:55:24,321 - INFO - Countries in timeseries: 271
+2026-01-17 21:55:24,321 - INFO - 
+Sample - United States:
+2026-01-17 21:55:24,321 - INFO -   population: 8 data points (2001-2020)
+2026-01-17 21:55:24,321 - INFO -   gdp_ppp_billions: 8 data points (2001-2020)
+2026-01-17 21:55:24,321 - INFO -   life_expectancy: 7 data points (2010-2020)
+2026-01-17 21:57:30,818 - INFO - Found Factbook years: [2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020]
+2026-01-17 21:57:30,818 - INFO - Processing years: [2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020]
+2026-01-17 21:57:30,827 - INFO - Loaded existing timeseries with 271 countries
+2026-01-17 21:57:30,828 - INFO - Extracting 2001 (format: legacy)
+2026-01-17 21:57:30,838 - INFO -   Extracted 239 countries for 2001
+2026-01-17 21:57:30,839 - INFO - Extracting 2002 (format: unknown)
+2026-01-17 21:57:30,839 - WARNING - Unknown format for C:\Users\E\n0ted\n0ted\factbook-2002
+2026-01-17 21:57:30,839 - INFO - Extracting 2003 (format: rank_txt)
+2026-01-17 21:57:30,846 - INFO -   Extracted 236 countries for 2003
+2026-01-17 21:57:30,847 - INFO - Extracting 2004 (format: rank_txt)
+2026-01-17 21:57:30,854 - INFO -   Extracted 238 countries for 2004
+2026-01-17 21:57:30,854 - INFO - Extracting 2005 (format: rank_txt)
+2026-01-17 21:57:30,862 - INFO -   Extracted 238 countries for 2005
+2026-01-17 21:57:30,863 - INFO - Extracting 2006 (format: rank_txt)
+2026-01-17 21:57:30,870 - INFO -   Extracted 238 countries for 2006
+2026-01-17 21:57:30,871 - INFO - Extracting 2007 (format: rank_txt)
+2026-01-17 21:57:30,879 - INFO -   Extracted 236 countries for 2007
+2026-01-17 21:57:30,880 - INFO - Extracting 2008 (format: rank_txt)
+2026-01-17 21:57:30,889 - INFO -   Extracted 239 countries for 2008
+2026-01-17 21:57:30,892 - INFO - Extracting 2009 (format: unknown)
+2026-01-17 21:57:30,892 - WARNING - Unknown format for C:\Users\E\n0ted\n0ted\factbook-2009
+2026-01-17 21:57:30,894 - INFO - Extracting 2011 (format: modern_rankorder)
+2026-01-17 21:57:30,902 - INFO -   Extracted 239 countries for 2011
+2026-01-17 21:57:30,903 - INFO - Extracting 2012 (format: modern_rankorder)
+2026-01-17 21:57:30,912 - INFO -   Extracted 240 countries for 2012
+2026-01-17 21:57:30,914 - INFO - Extracting 2013 (format: modern_rankorder)
+2026-01-17 21:57:30,922 - INFO -   Extracted 240 countries for 2013
+2026-01-17 21:57:30,923 - INFO - Extracting 2014 (format: modern_rankorder)
+2026-01-17 21:57:30,932 - INFO -   Extracted 240 countries for 2014
+2026-01-17 21:57:30,933 - INFO - Extracting 2015 (format: modern_rankorder)
+2026-01-17 21:57:30,946 - INFO -   Extracted 238 countries for 2015
+2026-01-17 21:57:30,947 - INFO - Extracting 2016 (format: modern_rankorder)
+2026-01-17 21:57:30,958 - INFO -   Extracted 238 countries for 2016
+2026-01-17 21:57:30,959 - INFO - Extracting 2017 (format: modern_rankorder)
+2026-01-17 21:57:30,971 - INFO -   Extracted 238 countries for 2017
+2026-01-17 21:57:30,971 - INFO - Extracting 2018 (format: modern)
+2026-01-17 21:57:30,983 - INFO -   Extracted 238 countries for 2018
+2026-01-17 21:57:30,983 - INFO - Extracting 2019 (format: modern)
+2026-01-17 21:57:30,995 - INFO -   Extracted 239 countries for 2019
+2026-01-17 21:57:30,996 - INFO - Extracting 2020 (format: modern)
+2026-01-17 21:57:31,007 - INFO -   Extracted 238 countries for 2020
+2026-01-17 21:57:31,117 - INFO - Saved timeseries to C:\Users\E\n0ted\n0ted\data\_merged\timeseries.json
+2026-01-17 21:57:31,117 - INFO - 
+==================================================
+2026-01-17 21:57:31,117 - INFO - EXTRACTION COMPLETE
+2026-01-17 21:57:31,117 - INFO - ==================================================
+2026-01-17 21:57:31,117 - INFO - Years processed: 19
+2026-01-17 21:57:31,117 - INFO - Total country-year records: 4052
+2026-01-17 21:57:31,117 - INFO - Countries in timeseries: 275
+2026-01-17 21:57:31,118 - INFO - 
+Sample - United States:
+2026-01-17 21:57:31,118 - INFO -   population: 18 data points (2001-2020)
+2026-01-17 21:57:31,118 - INFO -   gdp_ppp_billions: 16 data points (2001-2020)
+2026-01-17 21:57:31,118 - INFO -   life_expectancy: 17 data points (2003-2020)
+2026-01-18 11:45:18,936 - INFO - Found Factbook years: [2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020]
+2026-01-18 11:45:18,936 - INFO - Processing years: [2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020]
+2026-01-18 11:45:18,953 - INFO - Loaded existing timeseries with 275 countries
+2026-01-18 11:45:18,954 - INFO - Extracting 2001 (format: legacy)
+2026-01-18 11:45:18,966 - INFO -   Extracted 239 countries for 2001
+2026-01-18 11:45:18,967 - INFO - Extracting 2002 (format: unknown)
+2026-01-18 11:45:18,967 - WARNING - Unknown format for C:\Users\E\n0ted\n0ted\factbook-2002
+2026-01-18 11:45:18,967 - INFO - Extracting 2003 (format: rank_txt)
+2026-01-18 11:45:18,976 - INFO -   Extracted 236 countries for 2003
+2026-01-18 11:45:18,976 - INFO - Extracting 2004 (format: rank_txt)
+2026-01-18 11:45:18,988 - INFO -   Extracted 238 countries for 2004
+2026-01-18 11:45:18,989 - INFO - Extracting 2005 (format: rank_txt)
+2026-01-18 11:45:19,001 - INFO -   Extracted 238 countries for 2005
+2026-01-18 11:45:19,002 - INFO - Extracting 2006 (format: rank_txt)
+2026-01-18 11:45:19,012 - INFO -   Extracted 238 countries for 2006
+2026-01-18 11:45:19,012 - INFO - Extracting 2007 (format: rank_txt)
+2026-01-18 11:45:19,021 - INFO -   Extracted 236 countries for 2007
+2026-01-18 11:45:19,022 - INFO - Extracting 2008 (format: rank_txt)
+2026-01-18 11:45:19,031 - INFO -   Extracted 239 countries for 2008
+2026-01-18 11:45:19,033 - INFO - Extracting 2009 (format: unknown)
+2026-01-18 11:45:19,033 - WARNING - Unknown format for C:\Users\E\n0ted\n0ted\factbook-2009
+2026-01-18 11:45:19,035 - INFO - Extracting 2011 (format: modern_rankorder)
+2026-01-18 11:45:19,044 - INFO -   Extracted 239 countries for 2011
+2026-01-18 11:45:19,045 - INFO - Extracting 2012 (format: modern_rankorder)
+2026-01-18 11:45:19,054 - INFO -   Extracted 240 countries for 2012
+2026-01-18 11:45:19,055 - INFO - Extracting 2013 (format: modern_rankorder)
+2026-01-18 11:45:19,064 - INFO -   Extracted 240 countries for 2013
+2026-01-18 11:45:19,066 - INFO - Extracting 2014 (format: modern_rankorder)
+2026-01-18 11:45:19,075 - INFO -   Extracted 240 countries for 2014
+2026-01-18 11:45:19,076 - INFO - Extracting 2015 (format: modern_rankorder)
+2026-01-18 11:45:19,087 - INFO -   Extracted 238 countries for 2015
+2026-01-18 11:45:19,088 - INFO - Extracting 2016 (format: modern_rankorder)
+2026-01-18 11:45:19,099 - INFO -   Extracted 238 countries for 2016
+2026-01-18 11:45:19,100 - INFO - Extracting 2017 (format: modern_rankorder)
+2026-01-18 11:45:19,111 - INFO -   Extracted 238 countries for 2017
+2026-01-18 11:45:19,112 - INFO - Extracting 2018 (format: modern)
+2026-01-18 11:45:19,123 - INFO -   Extracted 238 countries for 2018
+2026-01-18 11:45:19,123 - INFO - Extracting 2019 (format: modern)
+2026-01-18 11:45:19,135 - INFO -   Extracted 239 countries for 2019
+2026-01-18 11:45:19,136 - INFO - Extracting 2020 (format: modern)
+2026-01-18 11:45:19,147 - INFO -   Extracted 238 countries for 2020
+2026-01-18 11:45:19,151 - INFO - Would remove C:\Users\E\n0ted\n0ted\factbook-2001\flags (14.9 MB)
+2026-01-18 11:45:19,154 - INFO - Would remove C:\Users\E\n0ted\n0ted\factbook-2001\maps (24.9 MB)
+2026-01-18 11:45:19,154 - INFO - Would remove C:\Users\E\n0ted\n0ted\factbook-2001\docs (1.6 MB)
+2026-01-18 11:45:19,155 - INFO - Would remove C:\Users\E\n0ted\n0ted\factbook-2001\ref (42.7 MB)
+2026-01-18 11:45:19,162 - INFO - Would remove C:\Users\E\n0ted\n0ted\factbook-2002\flags (7.2 MB)
+2026-01-18 11:45:19,165 - INFO - Would remove C:\Users\E\n0ted\n0ted\factbook-2002\maps (3.0 MB)
+2026-01-18 11:45:19,165 - INFO - Would remove C:\Users\E\n0ted\n0ted\factbook-2002\docs (0.4 MB)
+2026-01-18 11:45:19,172 - INFO - Would remove C:\Users\E\n0ted\n0ted\factbook-2003\flags (7.7 MB)
+2026-01-18 11:45:19,174 - INFO - Would remove C:\Users\E\n0ted\n0ted\factbook-2003\maps (3.0 MB)
+2026-01-18 11:45:19,175 - INFO - Would remove C:\Users\E\n0ted\n0ted\factbook-2003\docs (0.5 MB)
+2026-01-18 11:45:19,182 - INFO - Would remove C:\Users\E\n0ted\n0ted\factbook-2004\flags (7.7 MB)
+2026-01-18 11:45:19,184 - INFO - Would remove C:\Users\E\n0ted\n0ted\factbook-2004\maps (3.2 MB)
+2026-01-18 11:45:19,184 - INFO - Would remove C:\Users\E\n0ted\n0ted\factbook-2004\docs (0.5 MB)
+2026-01-18 11:45:19,191 - INFO - Would remove C:\Users\E\n0ted\n0ted\factbook-2005\flags (7.7 MB)
+2026-01-18 11:45:19,194 - INFO - Would remove C:\Users\E\n0ted\n0ted\factbook-2005\maps (3.2 MB)
+2026-01-18 11:45:19,194 - INFO - Would remove C:\Users\E\n0ted\n0ted\factbook-2005\docs (0.6 MB)
+2026-01-18 11:45:19,202 - INFO - Would remove C:\Users\E\n0ted\n0ted\factbook-2006\flags (8.0 MB)
+2026-01-18 11:45:19,205 - INFO - Would remove C:\Users\E\n0ted\n0ted\factbook-2006\maps (3.5 MB)
+2026-01-18 11:45:19,205 - INFO - Would remove C:\Users\E\n0ted\n0ted\factbook-2006\docs (0.6 MB)
+2026-01-18 11:45:19,214 - INFO - Would remove C:\Users\E\n0ted\n0ted\factbook-2007\flags (8.0 MB)
+2026-01-18 11:45:19,217 - INFO - Would remove C:\Users\E\n0ted\n0ted\factbook-2007\maps (3.8 MB)
+2026-01-18 11:45:19,217 - INFO - Would remove C:\Users\E\n0ted\n0ted\factbook-2007\docs (0.6 MB)
+2026-01-18 11:45:19,226 - INFO - Would remove C:\Users\E\n0ted\n0ted\factbook-2008\flags (8.1 MB)
+2026-01-18 11:45:19,229 - INFO - Would remove C:\Users\E\n0ted\n0ted\factbook-2008\maps (4.0 MB)
+2026-01-18 11:45:19,229 - INFO - Would remove C:\Users\E\n0ted\n0ted\factbook-2008\docs (0.6 MB)
+2026-01-18 11:45:19,232 - INFO - Would remove C:\Users\E\n0ted\n0ted\factbook-2009\flags (3.1 MB)
+2026-01-18 11:45:19,237 - INFO - Would remove C:\Users\E\n0ted\n0ted\factbook-2009\maps (6.0 MB)
+2026-01-18 11:45:19,239 - INFO - Would remove C:\Users\E\n0ted\n0ted\factbook-2009\docs (3.9 MB)
+2026-01-18 11:45:19,242 - INFO - Would remove C:\Users\E\n0ted\n0ted\factbook-2011\flags (1.4 MB)
+2026-01-18 11:45:19,248 - INFO - Would remove C:\Users\E\n0ted\n0ted\factbook-2011\maps (2.5 MB)
+2026-01-18 11:45:19,250 - INFO - Would remove C:\Users\E\n0ted\n0ted\factbook-2011\docs (4.5 MB)
+2026-01-18 11:45:19,253 - INFO - Would remove C:\Users\E\n0ted\n0ted\factbook-2012\flags (1.5 MB)
+2026-01-18 11:45:19,259 - INFO - Would remove C:\Users\E\n0ted\n0ted\factbook-2012\maps (2.9 MB)
+2026-01-18 11:45:19,261 - INFO - Would remove C:\Users\E\n0ted\n0ted\factbook-2012\docs (5.6 MB)
+2026-01-18 11:45:19,264 - INFO - Would remove C:\Users\E\n0ted\n0ted\factbook-2013\docs (3.2 MB)
+2026-01-18 11:45:19,266 - INFO - Would remove C:\Users\E\n0ted\n0ted\factbook-2014\docs (3.3 MB)
+2026-01-18 11:45:19,267 - INFO - Would remove C:\Users\E\n0ted\n0ted\factbook-2015\docs (2.6 MB)
+2026-01-18 11:45:19,268 - INFO - Would remove C:\Users\E\n0ted\n0ted\factbook-2016\docs (3.0 MB)
+2026-01-18 11:45:19,269 - INFO - Would remove C:\Users\E\n0ted\n0ted\factbook-2017\docs (3.1 MB)
+2026-01-18 11:45:19,269 - INFO - Would remove C:\Users\E\n0ted\n0ted\factbook-2018\docs (3.3 MB)
+2026-01-18 11:45:19,270 - INFO - Would remove C:\Users\E\n0ted\n0ted\factbook-2019\docs (4.1 MB)
+2026-01-18 11:45:19,270 - INFO - Would remove C:\Users\E\n0ted\n0ted\factbook-2020\docs (3.4 MB)
+2026-01-18 11:45:19,271 - INFO - Total space would be freed: 223.6 MB
+2026-01-18 11:45:19,271 - INFO - 
+==================================================
+2026-01-18 11:45:19,271 - INFO - EXTRACTION COMPLETE
+2026-01-18 11:45:19,271 - INFO - ==================================================
+2026-01-18 11:45:19,271 - INFO - Years processed: 19
+2026-01-18 11:45:19,271 - INFO - Total country-year records: 4052
+2026-01-18 11:45:19,271 - INFO - Countries in timeseries: 275
+2026-01-18 11:45:19,271 - INFO - 
+Sample - United States:
+2026-01-18 11:45:19,271 - INFO -   population: 18 data points (2001-2020)
+2026-01-18 11:45:19,271 - INFO -   gdp_ppp_billions: 16 data points (2001-2020)
+2026-01-18 11:45:19,271 - INFO -   life_expectancy: 17 data points (2003-2020)
+2026-01-18 11:45:36,142 - INFO - Found Factbook years: [2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020]
+2026-01-18 11:45:36,142 - INFO - Processing years: [2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020]
+2026-01-18 11:45:36,159 - INFO - Loaded existing timeseries with 275 countries
+2026-01-18 11:45:36,160 - INFO - Extracting 2001 (format: legacy)
+2026-01-18 11:45:36,171 - INFO -   Extracted 239 countries for 2001
+2026-01-18 11:45:36,172 - INFO - Extracting 2002 (format: unknown)
+2026-01-18 11:45:36,172 - WARNING - Unknown format for C:\Users\E\n0ted\n0ted\factbook-2002
+2026-01-18 11:45:36,173 - INFO - Extracting 2003 (format: rank_txt)
+2026-01-18 11:45:36,181 - INFO -   Extracted 236 countries for 2003
+2026-01-18 11:45:36,181 - INFO - Extracting 2004 (format: rank_txt)
+2026-01-18 11:45:36,189 - INFO -   Extracted 238 countries for 2004
+2026-01-18 11:45:36,190 - INFO - Extracting 2005 (format: rank_txt)
+2026-01-18 11:45:36,199 - INFO -   Extracted 238 countries for 2005
+2026-01-18 11:45:36,200 - INFO - Extracting 2006 (format: rank_txt)
+2026-01-18 11:45:36,209 - INFO -   Extracted 238 countries for 2006
+2026-01-18 11:45:36,209 - INFO - Extracting 2007 (format: rank_txt)
+2026-01-18 11:45:36,218 - INFO -   Extracted 236 countries for 2007
+2026-01-18 11:45:36,218 - INFO - Extracting 2008 (format: rank_txt)
+2026-01-18 11:45:36,229 - INFO -   Extracted 239 countries for 2008
+2026-01-18 11:45:36,231 - INFO - Extracting 2009 (format: unknown)
+2026-01-18 11:45:36,232 - WARNING - Unknown format for C:\Users\E\n0ted\n0ted\factbook-2009
+2026-01-18 11:45:36,233 - INFO - Extracting 2011 (format: modern_rankorder)
+2026-01-18 11:45:36,242 - INFO -   Extracted 239 countries for 2011
+2026-01-18 11:45:36,244 - INFO - Extracting 2012 (format: modern_rankorder)
+2026-01-18 11:45:36,253 - INFO -   Extracted 240 countries for 2012
+2026-01-18 11:45:36,254 - INFO - Extracting 2013 (format: modern_rankorder)
+2026-01-18 11:45:36,263 - INFO -   Extracted 240 countries for 2013
+2026-01-18 11:45:36,265 - INFO - Extracting 2014 (format: modern_rankorder)
+2026-01-18 11:45:36,274 - INFO -   Extracted 240 countries for 2014
+2026-01-18 11:45:36,275 - INFO - Extracting 2015 (format: modern_rankorder)
+2026-01-18 11:45:36,286 - INFO -   Extracted 238 countries for 2015
+2026-01-18 11:45:36,287 - INFO - Extracting 2016 (format: modern_rankorder)
+2026-01-18 11:45:36,298 - INFO -   Extracted 238 countries for 2016
+2026-01-18 11:45:36,299 - INFO - Extracting 2017 (format: modern_rankorder)
+2026-01-18 11:45:36,310 - INFO -   Extracted 238 countries for 2017
+2026-01-18 11:45:36,310 - INFO - Extracting 2018 (format: modern)
+2026-01-18 11:45:36,321 - INFO -   Extracted 238 countries for 2018
+2026-01-18 11:45:36,322 - INFO - Extracting 2019 (format: modern)
+2026-01-18 11:45:36,333 - INFO -   Extracted 239 countries for 2019
+2026-01-18 11:45:36,333 - INFO - Extracting 2020 (format: modern)
+2026-01-18 11:45:36,345 - INFO -   Extracted 238 countries for 2020
+2026-01-18 11:45:36,454 - INFO - Saved timeseries to C:\Users\E\n0ted\n0ted\data\_merged\timeseries.json
+2026-01-18 11:45:36,495 - INFO - Removed C:\Users\E\n0ted\n0ted\factbook-2001\flags (14.9 MB)
+2026-01-18 11:45:36,513 - INFO - Removed C:\Users\E\n0ted\n0ted\factbook-2001\maps (24.9 MB)
+2026-01-18 11:45:36,516 - INFO - Removed C:\Users\E\n0ted\n0ted\factbook-2001\docs (1.6 MB)
+2026-01-18 11:45:36,520 - INFO - Removed C:\Users\E\n0ted\n0ted\factbook-2001\ref (42.7 MB)
+2026-01-18 11:45:36,576 - INFO - Removed C:\Users\E\n0ted\n0ted\factbook-2002\flags (7.2 MB)
+2026-01-18 11:45:36,596 - INFO - Removed C:\Users\E\n0ted\n0ted\factbook-2002\maps (3.0 MB)
+2026-01-18 11:45:36,597 - INFO - Removed C:\Users\E\n0ted\n0ted\factbook-2002\docs (0.4 MB)
+2026-01-18 11:45:36,652 - INFO - Removed C:\Users\E\n0ted\n0ted\factbook-2003\flags (7.7 MB)
+2026-01-18 11:45:36,672 - INFO - Removed C:\Users\E\n0ted\n0ted\factbook-2003\maps (3.0 MB)
+2026-01-18 11:45:36,673 - INFO - Removed C:\Users\E\n0ted\n0ted\factbook-2003\docs (0.5 MB)
+2026-01-18 11:45:36,730 - INFO - Removed C:\Users\E\n0ted\n0ted\factbook-2004\flags (7.7 MB)
+2026-01-18 11:45:36,755 - INFO - Removed C:\Users\E\n0ted\n0ted\factbook-2004\maps (3.2 MB)
+2026-01-18 11:45:36,756 - INFO - Removed C:\Users\E\n0ted\n0ted\factbook-2004\docs (0.5 MB)
+2026-01-18 11:45:36,813 - INFO - Removed C:\Users\E\n0ted\n0ted\factbook-2005\flags (7.7 MB)
+2026-01-18 11:45:36,834 - INFO - Removed C:\Users\E\n0ted\n0ted\factbook-2005\maps (3.2 MB)
+2026-01-18 11:45:36,835 - INFO - Removed C:\Users\E\n0ted\n0ted\factbook-2005\docs (0.6 MB)
+2026-01-18 11:45:36,895 - INFO - Removed C:\Users\E\n0ted\n0ted\factbook-2006\flags (8.0 MB)
+2026-01-18 11:45:36,916 - INFO - Removed C:\Users\E\n0ted\n0ted\factbook-2006\maps (3.5 MB)
+2026-01-18 11:45:36,917 - INFO - Removed C:\Users\E\n0ted\n0ted\factbook-2006\docs (0.6 MB)
+2026-01-18 11:45:36,980 - INFO - Removed C:\Users\E\n0ted\n0ted\factbook-2007\flags (8.0 MB)
+2026-01-18 11:45:37,001 - INFO - Removed C:\Users\E\n0ted\n0ted\factbook-2007\maps (3.8 MB)
+2026-01-18 11:45:37,002 - INFO - Removed C:\Users\E\n0ted\n0ted\factbook-2007\docs (0.6 MB)
+2026-01-18 11:45:37,066 - INFO - Removed C:\Users\E\n0ted\n0ted\factbook-2008\flags (8.1 MB)
+2026-01-18 11:45:37,087 - INFO - Removed C:\Users\E\n0ted\n0ted\factbook-2008\maps (4.0 MB)
+2026-01-18 11:45:37,088 - INFO - Removed C:\Users\E\n0ted\n0ted\factbook-2008\docs (0.6 MB)
+2026-01-18 11:45:37,107 - INFO - Removed C:\Users\E\n0ted\n0ted\factbook-2009\flags (3.1 MB)
+2026-01-18 11:45:37,149 - INFO - Removed C:\Users\E\n0ted\n0ted\factbook-2009\maps (6.0 MB)
+2026-01-18 11:45:37,160 - INFO - Removed C:\Users\E\n0ted\n0ted\factbook-2009\docs (3.9 MB)
+2026-01-18 11:45:37,182 - INFO - Removed C:\Users\E\n0ted\n0ted\factbook-2011\flags (1.4 MB)
+2026-01-18 11:45:37,224 - INFO - Removed C:\Users\E\n0ted\n0ted\factbook-2011\maps (2.5 MB)
+2026-01-18 11:45:37,236 - INFO - Removed C:\Users\E\n0ted\n0ted\factbook-2011\docs (4.5 MB)
+2026-01-18 11:45:37,257 - INFO - Removed C:\Users\E\n0ted\n0ted\factbook-2012\flags (1.5 MB)
+2026-01-18 11:45:37,305 - INFO - Removed C:\Users\E\n0ted\n0ted\factbook-2012\maps (2.9 MB)
+2026-01-18 11:45:37,318 - INFO - Removed C:\Users\E\n0ted\n0ted\factbook-2012\docs (5.6 MB)
+2026-01-18 11:45:37,332 - INFO - Removed C:\Users\E\n0ted\n0ted\factbook-2013\docs (3.2 MB)
+2026-01-18 11:45:37,346 - INFO - Removed C:\Users\E\n0ted\n0ted\factbook-2014\docs (3.3 MB)
+2026-01-18 11:45:37,352 - INFO - Removed C:\Users\E\n0ted\n0ted\factbook-2015\docs (2.6 MB)
+2026-01-18 11:45:37,358 - INFO - Removed C:\Users\E\n0ted\n0ted\factbook-2016\docs (3.0 MB)
+2026-01-18 11:45:37,364 - INFO - Removed C:\Users\E\n0ted\n0ted\factbook-2017\docs (3.1 MB)
+2026-01-18 11:45:37,366 - INFO - Removed C:\Users\E\n0ted\n0ted\factbook-2018\docs (3.3 MB)
+2026-01-18 11:45:37,370 - INFO - Removed C:\Users\E\n0ted\n0ted\factbook-2019\docs (4.1 MB)
+2026-01-18 11:45:37,372 - INFO - Removed C:\Users\E\n0ted\n0ted\factbook-2020\docs (3.4 MB)
+2026-01-18 11:45:37,373 - INFO - Total space freed: 223.6 MB
+2026-01-18 11:45:37,373 - INFO - 
+==================================================
+2026-01-18 11:45:37,373 - INFO - EXTRACTION COMPLETE
+2026-01-18 11:45:37,373 - INFO - ==================================================
+2026-01-18 11:45:37,373 - INFO - Years processed: 19
+2026-01-18 11:45:37,373 - INFO - Total country-year records: 4052
+2026-01-18 11:45:37,373 - INFO - Countries in timeseries: 275
+2026-01-18 11:45:37,373 - INFO - 
+Sample - United States:
+2026-01-18 11:45:37,373 - INFO -   population: 18 data points (2001-2020)
+2026-01-18 11:45:37,373 - INFO -   gdp_ppp_billions: 16 data points (2001-2020)
+2026-01-18 11:45:37,373 - INFO -   life_expectancy: 17 data points (2003-2020)

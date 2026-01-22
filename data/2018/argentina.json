@@ -1,0 +1,23 @@
+{
+  "country": "Argentina",
+  "region": "South America",
+  "year": 2018,
+  "demographics": {
+    "population": 44694198,
+    "population_growth_pct": 0.89,
+    "life_expectancy": 77.5
+  },
+  "economy": {
+    "gdp_ppp_billions": 922.1,
+    "gdp_growth_pct": 2.9,
+    "gdp_per_capita": 20900,
+    "inflation_pct": 25.7,
+    "unemployment_pct": 18.3,
+    "exports_billions": 58.45,
+    "imports_billions": 63.97
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.95
+  },
+  "political": {}
+}

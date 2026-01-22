@@ -1,0 +1,23 @@
+{
+  "country": "United States",
+  "region": "North America",
+  "year": 2018,
+  "demographics": {
+    "population": 329256465,
+    "population_growth_pct": 0.8,
+    "life_expectancy": 80.1
+  },
+  "economy": {
+    "gdp_ppp_billions": 19490.0,
+    "gdp_growth_pct": 2.2,
+    "gdp_per_capita": 59800,
+    "inflation_pct": 2.1,
+    "unemployment_pct": 9.2,
+    "exports_billions": 1553.0,
+    "imports_billions": 2361.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.29
+  },
+  "political": {}
+}

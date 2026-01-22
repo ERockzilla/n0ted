@@ -1,0 +1,21 @@
+{
+  "country": "Libya",
+  "region": "Africa",
+  "year": 2018,
+  "demographics": {
+    "population": 6754507,
+    "population_growth_pct": 1.45,
+    "life_expectancy": 76.9
+  },
+  "economy": {
+    "gdp_ppp_billions": 61.97,
+    "gdp_growth_pct": 64.0,
+    "gdp_per_capita": 9600,
+    "inflation_pct": 28.5,
+    "unemployment_pct": 48.7,
+    "exports_billions": 18.38,
+    "imports_billions": 11.36
+  },
+  "military": {},
+  "political": {}
+}

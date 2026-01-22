@@ -1,0 +1,21 @@
+{
+  "country": "Mongolia",
+  "region": "East & Southeast Asia",
+  "year": 2001,
+  "demographics": {
+    "population": 2654999,
+    "population_growth_pct": 1.47
+  },
+  "economy": {
+    "gdp_ppp_billions": 4.7,
+    "gdp_growth_pct": -1.0,
+    "gdp_per_capita": 1780,
+    "inflation_pct": 7.6,
+    "exports_billions": 0.4543,
+    "imports_billions": 0.5107
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.3
+  },
+  "political": {}
+}

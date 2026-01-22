@@ -1,0 +1,22 @@
+{
+  "country": "Algeria",
+  "region": "Africa",
+  "year": 2004,
+  "demographics": {
+    "population": 32531853,
+    "life_expectancy": 73.0
+  },
+  "economy": {
+    "gdp_ppp_billions": 196.0,
+    "gdp_growth_pct": 7.4,
+    "gdp_per_capita": 6000,
+    "inflation_pct": 3.5,
+    "unemployment_pct": 26.2,
+    "exports_billions": 24.96,
+    "imports_billions": 12.42
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.5
+  },
+  "political": {}
+}

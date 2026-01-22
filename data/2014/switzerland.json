@@ -1,0 +1,23 @@
+{
+  "country": "Switzerland",
+  "region": "Europe",
+  "year": 2014,
+  "demographics": {
+    "population": 8061516,
+    "population_growth_pct": 0.78,
+    "life_expectancy": 82.39
+  },
+  "economy": {
+    "gdp_ppp_billions": 371.2,
+    "gdp_growth_pct": 2.0,
+    "gdp_per_capita": 54800,
+    "inflation_pct": -0.4,
+    "unemployment_pct": 3.2,
+    "exports_billions": 229.2,
+    "imports_billions": 200.5
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.76
+  },
+  "political": {}
+}

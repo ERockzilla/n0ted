@@ -1,0 +1,23 @@
+{
+  "country": "Dominican Republic",
+  "region": "Central America and Caribbean",
+  "year": 2015,
+  "demographics": {
+    "population": 10349741,
+    "population_growth_pct": 1.25,
+    "life_expectancy": 77.8
+  },
+  "economy": {
+    "gdp_ppp_billions": 135.7,
+    "gdp_growth_pct": 5.3,
+    "gdp_per_capita": 12800,
+    "inflation_pct": 3.0,
+    "unemployment_pct": 14.6,
+    "exports_billions": 10.11,
+    "imports_billions": 16.97
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.61
+  },
+  "political": {}
+}

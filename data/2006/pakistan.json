@@ -1,0 +1,22 @@
+{
+  "country": "Pakistan",
+  "region": "South Asia",
+  "year": 2006,
+  "demographics": {
+    "population": 165803560,
+    "life_expectancy": 63.39
+  },
+  "economy": {
+    "gdp_ppp_billions": 395.2,
+    "gdp_growth_pct": 6.6,
+    "gdp_per_capita": 2400,
+    "inflation_pct": 9.1,
+    "unemployment_pct": 6.6,
+    "exports_billions": 14.85,
+    "imports_billions": 21.26
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.9
+  },
+  "political": {}
+}

@@ -1,0 +1,23 @@
+{
+  "country": "Georgia",
+  "region": "Middle East",
+  "year": 2017,
+  "demographics": {
+    "population": 4926330,
+    "population_growth_pct": 0.0,
+    "life_expectancy": 76.4
+  },
+  "economy": {
+    "gdp_ppp_billions": 37.17,
+    "gdp_growth_pct": 2.7,
+    "gdp_per_capita": 10000,
+    "inflation_pct": 2.1,
+    "unemployment_pct": 11.8,
+    "exports_billions": 2.83,
+    "imports_billions": 6.64
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.7
+  },
+  "political": {}
+}

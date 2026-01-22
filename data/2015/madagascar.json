@@ -1,0 +1,22 @@
+{
+  "country": "Madagascar",
+  "region": "Africa",
+  "year": 2015,
+  "demographics": {
+    "population": 23201926,
+    "population_growth_pct": 2.62,
+    "life_expectancy": 65.2
+  },
+  "economy": {
+    "gdp_ppp_billions": 33.64,
+    "gdp_growth_pct": 3.0,
+    "gdp_per_capita": 1400,
+    "inflation_pct": 6.1,
+    "exports_billions": 0.86,
+    "imports_billions": 2.74
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.69
+  },
+  "political": {}
+}

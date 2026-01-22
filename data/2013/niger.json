@@ -1,0 +1,22 @@
+{
+  "country": "Niger",
+  "region": "Africa",
+  "year": 2013,
+  "demographics": {
+    "population": 16899327,
+    "population_growth_pct": 3.32,
+    "life_expectancy": 54.34
+  },
+  "economy": {
+    "gdp_ppp_billions": 12.99,
+    "gdp_growth_pct": 11.2,
+    "gdp_per_capita": 800,
+    "inflation_pct": 0.5,
+    "exports_billions": 1.46,
+    "imports_billions": 2.27
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.9
+  },
+  "political": {}
+}

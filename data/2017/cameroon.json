@@ -1,0 +1,23 @@
+{
+  "country": "Cameroon",
+  "region": "Africa",
+  "year": 2017,
+  "demographics": {
+    "population": 24994885,
+    "population_growth_pct": 2.6,
+    "life_expectancy": 59.0
+  },
+  "economy": {
+    "gdp_ppp_billions": 76.95,
+    "gdp_growth_pct": 4.4,
+    "gdp_per_capita": 3200,
+    "inflation_pct": 0.9,
+    "unemployment_pct": 4.3,
+    "exports_billions": 4.56,
+    "imports_billions": 4.78
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.42
+  },
+  "political": {}
+}

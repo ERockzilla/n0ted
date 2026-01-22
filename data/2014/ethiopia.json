@@ -1,0 +1,23 @@
+{
+  "country": "Ethiopia",
+  "region": "Africa",
+  "year": 2014,
+  "demographics": {
+    "population": 96633458,
+    "population_growth_pct": 2.89,
+    "life_expectancy": 60.75
+  },
+  "economy": {
+    "gdp_ppp_billions": 118.2,
+    "gdp_growth_pct": 7.0,
+    "gdp_per_capita": 1300,
+    "inflation_pct": 8.4,
+    "exports_billions": 3.21,
+    "imports_billions": 10.68,
+    "unemployment_pct": 17.5
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.91
+  },
+  "political": {}
+}

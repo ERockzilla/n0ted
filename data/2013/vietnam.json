@@ -1,0 +1,23 @@
+{
+  "country": "Vietnam",
+  "region": "East & Southeast Asia",
+  "year": 2013,
+  "demographics": {
+    "population": 92477857,
+    "population_growth_pct": 1.03,
+    "life_expectancy": 72.65
+  },
+  "economy": {
+    "gdp_ppp_billions": 336.2,
+    "gdp_growth_pct": 5.2,
+    "gdp_per_capita": 3800,
+    "inflation_pct": 9.1,
+    "unemployment_pct": 3.2,
+    "exports_billions": 114.6,
+    "imports_billions": 104.7
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.5
+  },
+  "political": {}
+}

@@ -1,0 +1,23 @@
+{
+  "country": "Hungary",
+  "region": "Europe",
+  "year": 2008,
+  "demographics": {
+    "population": 9930915,
+    "population_growth_pct": -0.25,
+    "life_expectancy": 73.18
+  },
+  "economy": {
+    "gdp_ppp_billions": 191.7,
+    "gdp_growth_pct": 1.3,
+    "gdp_per_capita": 19300,
+    "inflation_pct": 8.0,
+    "unemployment_pct": 7.3,
+    "exports_billions": 87.77,
+    "imports_billions": 86.88
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.75
+  },
+  "political": {}
+}

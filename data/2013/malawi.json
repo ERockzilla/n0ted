@@ -1,0 +1,22 @@
+{
+  "country": "Malawi",
+  "region": "Africa",
+  "year": 2013,
+  "demographics": {
+    "population": 16777547,
+    "population_growth_pct": 2.74,
+    "life_expectancy": 52.78
+  },
+  "economy": {
+    "gdp_ppp_billions": 14.11,
+    "gdp_growth_pct": 1.9,
+    "gdp_per_capita": 800,
+    "inflation_pct": 21.4,
+    "exports_billions": 1.22,
+    "imports_billions": 2.15
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.8
+  },
+  "political": {}
+}

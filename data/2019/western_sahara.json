@@ -1,0 +1,16 @@
+{
+  "country": "Western Sahara",
+  "region": "Africa",
+  "year": 2019,
+  "demographics": {
+    "population": 619551,
+    "population_growth_pct": 2.64,
+    "life_expectancy": 63.8
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.91,
+    "gdp_per_capita": 2500
+  },
+  "military": {},
+  "political": {}
+}

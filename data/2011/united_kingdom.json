@@ -1,0 +1,23 @@
+{
+  "country": "United Kingdom",
+  "region": "Europe",
+  "year": 2011,
+  "demographics": {
+    "population": 62698362,
+    "population_growth_pct": 0.56,
+    "life_expectancy": 80.05
+  },
+  "economy": {
+    "gdp_ppp_billions": 2173.0,
+    "gdp_growth_pct": 1.3,
+    "gdp_per_capita": 34800,
+    "inflation_pct": 3.3,
+    "unemployment_pct": 7.8,
+    "exports_billions": 410.2,
+    "imports_billions": 563.2
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.4
+  },
+  "political": {}
+}

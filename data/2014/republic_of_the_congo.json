@@ -1,0 +1,21 @@
+{
+  "country": "Republic Of The Congo",
+  "region": "Unknown",
+  "year": 2014,
+  "demographics": {
+    "population": 4662446,
+    "population_growth_pct": 1.94,
+    "life_expectancy": 58.52
+  },
+  "economy": {
+    "gdp_growth_pct": 5.8,
+    "gdp_per_capita": 4800,
+    "inflation_pct": 1.7,
+    "exports_billions": 9.91,
+    "imports_billions": 4.3,
+    "gdp_ppp_billions": 20.26,
+    "unemployment_pct": 53.0
+  },
+  "military": {},
+  "political": {}
+}

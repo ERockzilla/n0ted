@@ -1,0 +1,22 @@
+{
+  "country": "Nicaragua",
+  "region": "Central America and Caribbean",
+  "year": 2001,
+  "demographics": {
+    "population": 4918393,
+    "population_growth_pct": 2.15
+  },
+  "economy": {
+    "gdp_ppp_billions": 13.1,
+    "gdp_growth_pct": 5.0,
+    "gdp_per_capita": 2700,
+    "inflation_pct": 11.0,
+    "unemployment_pct": 20.0,
+    "exports_billions": 0.631,
+    "imports_billions": 1.6
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.2
+  },
+  "political": {}
+}

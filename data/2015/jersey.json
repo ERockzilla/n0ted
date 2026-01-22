@@ -1,0 +1,19 @@
+{
+  "country": "Jersey",
+  "region": "Europe",
+  "year": 2015,
+  "demographics": {
+    "population": 96513,
+    "population_growth_pct": 0.81,
+    "life_expectancy": 81.66
+  },
+  "economy": {
+    "gdp_ppp_billions": 5.77,
+    "gdp_per_capita": 57000,
+    "inflation_pct": 3.7,
+    "unemployment_pct": 1.7,
+    "gdp_growth_pct": -0.3
+  },
+  "military": {},
+  "political": {}
+}

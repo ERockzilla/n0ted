@@ -1,0 +1,21 @@
+{
+  "country": "Papua New Guinea",
+  "region": "East & Southeast Asia",
+  "year": 2003,
+  "demographics": {
+    "population": 5295816,
+    "life_expectancy": 64.19
+  },
+  "economy": {
+    "gdp_ppp_billions": 10.86,
+    "gdp_growth_pct": -3.1,
+    "gdp_per_capita": 2100,
+    "inflation_pct": 9.8,
+    "exports_billions": 1.8,
+    "imports_billions": 1.1
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.4
+  },
+  "political": {}
+}

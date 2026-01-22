@@ -1,0 +1,20 @@
+{
+  "country": "Grenada",
+  "region": "Central America and Caribbean",
+  "year": 2001,
+  "demographics": {
+    "population": 89227,
+    "population_growth_pct": -0.06
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.394,
+    "gdp_growth_pct": 7.0,
+    "gdp_per_capita": 4400,
+    "inflation_pct": 2.5,
+    "unemployment_pct": 15.0,
+    "exports_billions": 0.0623,
+    "imports_billions": 0.2175
+  },
+  "military": {},
+  "political": {}
+}

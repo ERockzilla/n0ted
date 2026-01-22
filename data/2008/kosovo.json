@@ -1,0 +1,18 @@
+{
+  "country": "Kosovo",
+  "region": "Europe",
+  "year": 2008,
+  "demographics": {
+    "population": 2126708
+  },
+  "economy": {
+    "gdp_ppp_billions": 4.0,
+    "gdp_per_capita": 1800,
+    "inflation_pct": 2.0,
+    "unemployment_pct": 43.0,
+    "exports_billions": 0.15,
+    "gdp_growth_pct": 2.6
+  },
+  "military": {},
+  "political": {}
+}

@@ -1,0 +1,23 @@
+{
+  "country": "Bahamas",
+  "region": "Central America and Caribbean",
+  "year": 2012,
+  "demographics": {
+    "population": 316182,
+    "population_growth_pct": 0.9,
+    "life_expectancy": 71.44
+  },
+  "economy": {
+    "gdp_growth_pct": 2.5,
+    "gdp_per_capita": 31300,
+    "inflation_pct": 2.5,
+    "unemployment_pct": 14.2,
+    "exports_billions": 0.79,
+    "imports_billions": 2.88,
+    "gdp_ppp_billions": 11.04
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.7
+  },
+  "political": {}
+}

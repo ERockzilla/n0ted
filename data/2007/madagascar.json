@@ -1,0 +1,21 @@
+{
+  "country": "Madagascar",
+  "region": "Africa",
+  "year": 2007,
+  "demographics": {
+    "population": 19448815,
+    "life_expectancy": 62.14
+  },
+  "economy": {
+    "gdp_ppp_billions": 17.27,
+    "gdp_growth_pct": 4.7,
+    "gdp_per_capita": 900,
+    "inflation_pct": 10.8,
+    "exports_billions": 0.9,
+    "imports_billions": 1.47
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.0
+  },
+  "political": {}
+}

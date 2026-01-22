@@ -1,0 +1,23 @@
+{
+  "country": "Syria",
+  "region": "Middle East",
+  "year": 2008,
+  "demographics": {
+    "population": 19747586,
+    "population_growth_pct": 2.19,
+    "life_expectancy": 70.9
+  },
+  "economy": {
+    "gdp_ppp_billions": 90.37,
+    "gdp_growth_pct": 4.3,
+    "gdp_per_capita": 4700,
+    "inflation_pct": 12.2,
+    "unemployment_pct": 9.0,
+    "exports_billions": 11.14,
+    "imports_billions": 10.5
+  },
+  "military": {
+    "expenditure_pct_gdp": 5.9
+  },
+  "political": {}
+}

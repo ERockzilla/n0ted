@@ -1,0 +1,19 @@
+{
+  "country": "Nauru",
+  "region": "Australia-Oceania",
+  "year": 2011,
+  "demographics": {
+    "population": 9322,
+    "population_growth_pct": 0.61,
+    "life_expectancy": 65.35
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.06,
+    "gdp_per_capita": 5000,
+    "unemployment_pct": 90.0,
+    "imports_billions": 0.02,
+    "exports_billions": 64000.0
+  },
+  "military": {},
+  "political": {}
+}

@@ -1,0 +1,21 @@
+{
+  "country": "Greenland",
+  "region": "North America",
+  "year": 2008,
+  "demographics": {
+    "population": 57564,
+    "population_growth_pct": 0.06,
+    "life_expectancy": 69.46
+  },
+  "economy": {
+    "gdp_ppp_billions": 1.1,
+    "gdp_growth_pct": 2.0,
+    "gdp_per_capita": 20000,
+    "inflation_pct": 1.0,
+    "unemployment_pct": 9.3,
+    "exports_billions": 0.48,
+    "imports_billions": 0.71
+  },
+  "military": {},
+  "political": {}
+}

@@ -1,0 +1,21 @@
+{
+  "country": "Laos",
+  "region": "East & Southeast Asia",
+  "year": 2017,
+  "demographics": {
+    "population": 7126706,
+    "population_growth_pct": 1.5,
+    "life_expectancy": 64.6
+  },
+  "economy": {
+    "gdp_ppp_billions": 40.9,
+    "gdp_growth_pct": 6.9,
+    "gdp_per_capita": 5700,
+    "inflation_pct": 1.5,
+    "unemployment_pct": 1.5,
+    "exports_billions": 2.71,
+    "imports_billions": 5.55
+  },
+  "military": {},
+  "political": {}
+}

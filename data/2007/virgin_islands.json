@@ -1,0 +1,20 @@
+{
+  "country": "Virgin Islands",
+  "region": "Central America and Caribbean",
+  "year": 2007,
+  "demographics": {
+    "population": 108448,
+    "life_expectancy": 79.2
+  },
+  "economy": {
+    "gdp_ppp_billions": 1.58,
+    "gdp_growth_pct": 2.0,
+    "gdp_per_capita": 14500,
+    "inflation_pct": 2.2,
+    "unemployment_pct": 6.2,
+    "exports_billions": 4.23,
+    "imports_billions": 4.61
+  },
+  "military": {},
+  "political": {}
+}

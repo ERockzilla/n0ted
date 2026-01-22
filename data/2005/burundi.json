@@ -1,0 +1,21 @@
+{
+  "country": "Burundi",
+  "region": "Africa",
+  "year": 2005,
+  "demographics": {
+    "population": 7795426,
+    "life_expectancy": 50.29
+  },
+  "economy": {
+    "gdp_ppp_billions": 4.0,
+    "gdp_growth_pct": 3.0,
+    "gdp_per_capita": 600,
+    "inflation_pct": 8.5,
+    "exports_billions": 0.03,
+    "imports_billions": 0.14
+  },
+  "military": {
+    "expenditure_pct_gdp": 6.0
+  },
+  "political": {}
+}

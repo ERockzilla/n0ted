@@ -1,0 +1,22 @@
+{
+  "country": "Haiti",
+  "region": "Central America and Caribbean",
+  "year": 2008,
+  "demographics": {
+    "population": 8924553,
+    "population_growth_pct": 2.49,
+    "life_expectancy": 57.56
+  },
+  "economy": {
+    "gdp_ppp_billions": 11.38,
+    "gdp_growth_pct": 3.2,
+    "gdp_per_capita": 1300,
+    "inflation_pct": 8.5,
+    "exports_billions": 0.52,
+    "imports_billions": 1.73
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.4
+  },
+  "political": {}
+}

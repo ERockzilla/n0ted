@@ -1,0 +1,20 @@
+{
+  "country": "Somalia",
+  "region": "Africa",
+  "year": 2017,
+  "demographics": {
+    "population": 11031386,
+    "population_growth_pct": 2.0,
+    "life_expectancy": 52.8
+  },
+  "economy": {
+    "gdp_ppp_billions": 4.72,
+    "gdp_growth_pct": 3.7,
+    "gdp_per_capita": 400,
+    "exports_billions": 0.82,
+    "imports_billions": 3.48,
+    "inflation_pct": 1.5
+  },
+  "military": {},
+  "political": {}
+}

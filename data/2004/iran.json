@@ -1,0 +1,22 @@
+{
+  "country": "Iran",
+  "region": "Middle East",
+  "year": 2004,
+  "demographics": {
+    "population": 68017860,
+    "life_expectancy": 69.96
+  },
+  "economy": {
+    "gdp_ppp_billions": 478.2,
+    "gdp_growth_pct": 6.1,
+    "gdp_per_capita": 7000,
+    "inflation_pct": 16.4,
+    "unemployment_pct": 15.7,
+    "exports_billions": 29.88,
+    "imports_billions": 25.26
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.3
+  },
+  "political": {}
+}

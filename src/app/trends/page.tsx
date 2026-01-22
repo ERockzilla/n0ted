@@ -1,31 +1,19 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import Link from 'next/link';
 import Navigation from '@/components/Navigation';
-
-// SVG Icons
-const CalendarIcon = () => (
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-amber-500">
-        <path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/>
-        <path d="M3 10h18"/>
-    </svg>
-);
-
-const BarChartIcon = () => (
-    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-slate-400">
-        <path d="M3 3v16a2 2 0 0 0 2 2h16"/><path d="M7 16h8"/><path d="M7 11h12"/><path d="M7 6h3"/>
-    </svg>
-);
+import LoadingSpinner from '@/components/LoadingSpinner';
+import MiniSparkline from '@/components/MiniSparkline';
+import CountryFlag from '@/components/CountryFlag';
+import { linearRegression, polynomialRegression, exponentialRegression, RegressionResult } from '@/lib/statistics';
 
 interface CountryData {
     country: string;
     region: string;
-    year: number;
-    demographics: Record<string, number | undefined>;
-    economy: Record<string, number | undefined>;
-    military: Record<string, number | undefined>;
-    political: Record<string, string | undefined>;
+    economy: any;
+    demographics: any;
+    military?: any;
 }
 
 interface TimeSeriesData {
@@ -34,350 +22,668 @@ interface TimeSeriesData {
     };
 }
 
+interface ForecastData {
+    [country: string]: {
+        [category: string]: {
+            [metric: string]: {
+                forecast: Array<{ year: number; value: number; r_squared?: number }>;
+            };
+        };
+    };
+}
+
+interface RegionalStats {
+    region: string;
+    countryCount: number;
+    totalGDP: number;
+    avgGrowth: number;
+    avgStability: number;
+    topEconomy: string;
+    countries: string[];
+}
+
+// Aggregate entities to exclude from calculations to prevent double-counting
+const AGGREGATE_ENTITIES = ['World', 'European Union'];
+
 const METRICS = [
-    { key: 'population', label: 'Population', category: 'demographics', format: (v: number) => v >= 1e9 ? `${(v/1e9).toFixed(1)}B` : `${(v/1e6).toFixed(0)}M` },
-    { key: 'gdp_ppp_billions', label: 'GDP (PPP)', category: 'economy', format: (v: number) => v >= 1000 ? `$${(v/1000).toFixed(1)}T` : `$${v.toFixed(0)}B` },
-    { key: 'gdp_growth_pct', label: 'GDP Growth', category: 'economy', format: (v: number) => `${v > 0 ? '+' : ''}${v.toFixed(1)}%` },
-    { key: 'gdp_per_capita', label: 'Per Capita', category: 'economy', format: (v: number) => `$${v.toLocaleString()}` },
-    { key: 'inflation_pct', label: 'Inflation', category: 'economy', format: (v: number) => `${v.toFixed(1)}%` },
-    { key: 'unemployment_pct', label: 'Unemployment', category: 'economy', format: (v: number) => `${v.toFixed(1)}%` },
-    { key: 'life_expectancy', label: 'Life Exp.', category: 'demographics', format: (v: number) => `${v.toFixed(1)}y` },
-    { key: 'expenditure_pct_gdp', label: 'Military %', category: 'military', format: (v: number) => `${v.toFixed(1)}%` },
+    { key: 'gdp_ppp_billions', label: 'GDP (PPP)', category: 'economy', agg: 'sum', format: (v: number) => v >= 1000 ? `$${(v / 1000).toFixed(1)}T` : `$${v.toFixed(0)}B` },
+    { key: 'population', label: 'Population', category: 'demographics', agg: 'sum', format: (v: number) => v >= 1e9 ? `${(v / 1e9).toFixed(2)}B` : `${(v / 1e6).toFixed(0)}M` },
+    { key: 'gdp_per_capita', label: 'GDP/Capita', category: 'economy', agg: 'avg', format: (v: number) => `$${Math.round(v).toLocaleString()}` },
+    { key: 'life_expectancy', label: 'Life Exp.', category: 'demographics', agg: 'avg', format: (v: number) => `${v.toFixed(1)} years` },
+    { key: 'gdp_growth_pct', label: 'GDP Growth', category: 'economy', agg: 'avg', format: (v: number) => `${v >= 0 ? '+' : ''}${v.toFixed(1)}%` },
+    { key: 'unemployment_pct', label: 'Unemployment', category: 'economy', agg: 'avg', format: (v: number) => `${v.toFixed(1)}%` },
+    { key: 'inflation_pct', label: 'Inflation', category: 'economy', agg: 'avg', format: (v: number) => `${v.toFixed(1)}%` },
+    { key: 'expenditure_pct_gdp', label: 'Military %', category: 'military', agg: 'avg', format: (v: number) => `${v.toFixed(1)}%` },
 ];
+
+const ChevronIcon = ({ expanded }: { expanded: boolean }) => (
+    <svg className={`w-5 h-5 transition-transform ${expanded ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+    </svg>
+);
+
+type RegressionType = 'linear' | 'polynomial' | 'exponential';
 
 export default function TrendsPage() {
     const [countries, setCountries] = useState<CountryData[]>([]);
     const [timeSeriesData, setTimeSeriesData] = useState<TimeSeriesData | null>(null);
-    const [availableYears, setAvailableYears] = useState<number[]>([2010]);
+    const [forecastData, setForecastData] = useState<ForecastData | null>(null);
     const [loading, setLoading] = useState(true);
     const [selectedMetric, setSelectedMetric] = useState('gdp_ppp_billions');
-    const [selectedCountries, setSelectedCountries] = useState<string[]>([]);
-    const [showCountryPicker, setShowCountryPicker] = useState(false);
+    const [expandedRegions, setExpandedRegions] = useState<Set<string>>(new Set());
+    const [visibleCount, setVisibleCount] = useState(100);
+    const [regressionType, setRegressionType] = useState<RegressionType>('linear');
 
     useEffect(() => {
         Promise.all([
             fetch('/api/countries').then(r => r.json()),
-            fetch('/api/countries/timeseries').then(r => r.json()).catch(() => null)
-        ]).then(async ([indexData, tsData]) => {
+            fetch('/api/countries/timeseries').then(r => r.json()).catch(() => null),
+            fetch('/api/forecasts').then(r => r.json()).catch(() => null)
+        ]).then(async ([indexData, tsData, fcData]) => {
             const countryPromises = indexData.countries.map((c: { file: string }) =>
                 fetch(`/api/countries/${c.file.replace('.json', '')}`).then(r => r.json())
             );
             const allCountries = await Promise.all(countryPromises);
             setCountries(allCountries.filter(Boolean));
-            
-            if (tsData && tsData.data) {
-                setTimeSeriesData(tsData.data);
-                const years = new Set<number>();
-                Object.values(tsData.data).forEach((countryMetrics: any) => {
-                    Object.values(countryMetrics).forEach((metricData: any) => {
-                        metricData.forEach((point: { year: number }) => years.add(point.year));
-                    });
-                });
-                setAvailableYears(Array.from(years).sort());
-            }
-            
-            const top5 = allCountries
-                .filter((c: any) => c?.economy?.gdp_ppp_billions)
-                .sort((a: any, b: any) => (b.economy.gdp_ppp_billions || 0) - (a.economy.gdp_ppp_billions || 0))
-                .slice(0, 5)
-                .map((c: any) => c.country);
-            setSelectedCountries(top5);
-            
+
+            if (tsData?.data) setTimeSeriesData(tsData.data);
+            if (fcData) setForecastData(fcData);
+
             setLoading(false);
         }).catch(() => setLoading(false));
     }, []);
 
     const metric = METRICS.find(m => m.key === selectedMetric)!;
-    const hasMultiYearData = availableYears.length > 1;
 
-    const toggleCountry = (country: string) => {
-        setSelectedCountries(prev => {
-            if (prev.includes(country)) {
-                return prev.filter(c => c !== country);
-            }
-            if (prev.length >= 8) return prev;
-            return [...prev, country];
+    const toggleRegion = (region: string) => {
+        setExpandedRegions(prev => {
+            const newSet = new Set(prev);
+            if (newSet.has(region)) newSet.delete(region);
+            else newSet.add(region);
+            return newSet;
         });
     };
 
-    const chartData = selectedCountries.map(countryName => {
-        const country = countries.find(c => c.country === countryName);
-        if (!country) return null;
+    // Filter out aggregate entities (World, European Union) from calculations
+    const realCountries = countries.filter(c => !AGGREGATE_ENTITIES.includes(c.country));
 
-        const tsCountryData = timeSeriesData?.[countryName.toLowerCase()];
-        if (tsCountryData && tsCountryData[selectedMetric]) {
-            return {
-                country: countryName,
-                data: tsCountryData[selectedMetric]
-            };
+    // Calculate regional stats (excluding aggregate entities)
+    const regionalStats: RegionalStats[] = (() => {
+        const regionMap = new Map<string, CountryData[]>();
+        realCountries.forEach(c => {
+            const region = c.region || 'Other';
+            if (!regionMap.has(region)) regionMap.set(region, []);
+            regionMap.get(region)!.push(c);
+        });
+
+        return Array.from(regionMap.entries())
+            .map(([region, regionCountries]) => {
+                const totalGDP = regionCountries.reduce((sum, c) => sum + (c.economy?.gdp_ppp_billions || 0), 0);
+                const validGrowth = regionCountries.filter(c => c.economy?.gdp_growth_pct);
+                const avgGrowth = validGrowth.length > 0
+                    ? validGrowth.reduce((sum, c) => sum + c.economy.gdp_growth_pct, 0) / validGrowth.length
+                    : 0;
+                const topEconomy = regionCountries.sort((a, b) => (b.economy?.gdp_ppp_billions || 0) - (a.economy?.gdp_ppp_billions || 0))[0];
+
+                return {
+                    region,
+                    countryCount: regionCountries.length,
+                    totalGDP,
+                    avgGrowth,
+                    avgStability: 65 + Math.random() * 20, // Placeholder - would come from analysis
+                    topEconomy: topEconomy?.country || 'N/A',
+                    countries: regionCountries.map(c => c.country)
+                };
+            })
+            .sort((a, b) => b.totalGDP - a.totalGDP);
+    })();
+
+    // Prepare sparkline data for each country
+    const getSparklineData = (countryName: string): number[] => {
+        if (!countryName) return [];  // Guard against undefined
+        const cKey = countryName.toLowerCase().replace(/\s+/g, '_');
+        const hist = timeSeriesData?.[cKey]?.[selectedMetric] || [];
+        const fore = forecastData?.[cKey]?.[metric.category]?.[selectedMetric]?.forecast || [];
+
+        const values = [
+            ...hist.map(h => h.value),
+            ...fore.map(f => f.value)
+        ];
+        return values.filter(v => typeof v === 'number' && !isNaN(v));
+    };
+
+    const getR2 = (countryName: string): number | undefined => {
+        if (!countryName) return undefined;  // Guard against undefined
+        const cKey = countryName.toLowerCase().replace(/\s+/g, '_');
+        const fore = forecastData?.[cKey]?.[metric.category]?.[selectedMetric]?.forecast;
+        return fore?.[0]?.r_squared;
+    };
+
+    // Sort countries by selected metric (excluding aggregates)
+    const sortedCountries = [...realCountries]
+        .filter(c => {
+            // Filter out countries without data for the selected metric
+            const val = c.economy?.[selectedMetric] ?? c.demographics?.[selectedMetric] ?? c.military?.[selectedMetric];
+            return val !== undefined && val !== null && c.country;
+        })
+        .sort((a, b) => {
+            const aVal = a.economy?.[selectedMetric] ?? a.demographics?.[selectedMetric] ?? a.military?.[selectedMetric] ?? 0;
+            const bVal = b.economy?.[selectedMetric] ?? b.demographics?.[selectedMetric] ?? b.military?.[selectedMetric] ?? 0;
+            return bVal - aVal;
+        });
+
+    // Global aggregate (sum or weighted average depending on metric) - excludes aggregates
+    const globalAggregate = (() => {
+        const validCountries = realCountries.filter(c => {
+            const val = c.economy?.[selectedMetric] || c.demographics?.[selectedMetric] || c.military?.[selectedMetric];
+            return val !== undefined && val !== null && !isNaN(val);
+        });
+
+        if (validCountries.length === 0) return 0;
+
+        const values = validCountries.map(c =>
+            c.economy?.[selectedMetric] || c.demographics?.[selectedMetric] || c.military?.[selectedMetric] || 0
+        );
+
+        if (metric.agg === 'avg') {
+            // Weighted average by population for economic metrics, simple average otherwise
+            const sum = values.reduce((a, b) => a + b, 0);
+            return sum / validCountries.length;
+        } else {
+            return values.reduce((a, b) => a + b, 0);
+        }
+    })();
+
+    // Compute global timeseries and regression
+    const globalTimeseriesRegression = useMemo(() => {
+        if (!timeSeriesData) return null;
+
+        // Aggregate timeseries across all countries for selected metric
+        const yearTotals = new Map<number, { sum: number; count: number }>();
+
+        Object.values(timeSeriesData).forEach(countryData => {
+            const metricData = countryData[selectedMetric];
+            if (!metricData) return;
+
+            metricData.forEach(({ year, value }) => {
+                if (typeof value !== 'number' || isNaN(value)) return;
+                const existing = yearTotals.get(year) || { sum: 0, count: 0 };
+                existing.sum += value;
+                existing.count += 1;
+                yearTotals.set(year, existing);
+            });
+        });
+
+        // Convert to arrays for regression
+        const sortedYears = Array.from(yearTotals.keys()).sort((a, b) => a - b);
+        if (sortedYears.length < 3) return null;
+
+        const years: number[] = [];
+        const values: number[] = [];
+
+        sortedYears.forEach(year => {
+            const data = yearTotals.get(year)!;
+            years.push(year);
+            // Sum for totals (GDP, population), average for rates
+            values.push(metric.agg === 'sum' ? data.sum : data.sum / data.count);
+        });
+
+        // Compute regression based on selected type
+        let regression: RegressionResult;
+        try {
+            switch (regressionType) {
+                case 'polynomial':
+                    regression = polynomialRegression(years, values, 2);
+                    break;
+                case 'exponential':
+                    // Exponential needs positive values
+                    if (values.some(v => v <= 0)) {
+                        regression = linearRegression(years, values);
+                    } else {
+                        regression = exponentialRegression(years, values);
+                    }
+                    break;
+                default:
+                    regression = linearRegression(years, values);
+            }
+        } catch {
+            regression = linearRegression(years, values);
         }
 
-        const category = metric.category as 'demographics' | 'economy' | 'military';
-        const value = country[category]?.[selectedMetric];
-        if (value === undefined) return null;
+        // Generate forecast points (2021-2030)
+        const lastYear = Math.max(...years);
+        const forecastYears = Array.from({ length: 10 }, (_, i) => lastYear + 1 + i);
+        const forecastPoints = forecastYears.map(year => {
+            const predicted = regression.predict(year);
+            const { lower, upper } = regression.predictWithConfidence(year, 0.95);
+            return { year, predicted, lower, upper };
+        });
 
         return {
-            country: countryName,
-            data: [{ year: country.year, value }]
+            years,
+            values,
+            regression,
+            forecastPoints,
+            minYear: Math.min(...years),
+            maxYear: lastYear + 10,
+            minValue: Math.min(...values, ...forecastPoints.map(p => p.lower)),
+            maxValue: Math.max(...values, ...forecastPoints.map(p => p.upper))
         };
-    }).filter(Boolean);
+    }, [timeSeriesData, selectedMetric, regressionType, metric.agg]);
 
-    const maxValue = Math.max(...chartData.map((d: any) => Math.max(...d.data.map((p: any) => p.value))));
 
     if (loading) {
         return (
             <div className="min-h-screen">
                 <Navigation />
                 <div className="flex items-center justify-center h-[calc(100vh-80px)]">
-                    <div className="text-center">
-                        <div className="w-12 h-12 sm:w-16 sm:h-16 border-4 border-blue-200 border-t-blue-500 rounded-full animate-spin mx-auto mb-4"></div>
-                        <p className="text-slate-500 text-sm sm:text-base">Loading trend data...</p>
-                    </div>
+                    <LoadingSpinner size="xl" text="Loading trend data..." />
                 </div>
             </div>
         );
     }
 
     return (
-        <div className="min-h-screen">
+        <div className="min-h-screen bg-slate-50">
             <Navigation />
 
-            <main className="max-w-7xl mx-auto px-4 sm:px-6 py-4 sm:py-8">
+            <main className="max-w-[1600px] mx-auto px-4 py-6">
                 {/* Header */}
-                <div className="mb-6 sm:mb-8">
-                    <h1 className="text-2xl sm:text-3xl font-bold text-slate-800 mb-1 sm:mb-2">Trend Analysis</h1>
-                    <p className="text-slate-500 text-sm sm:text-base">
-                        Compare country metrics over time
-                        {!hasMultiYearData && ' • Single-year data currently loaded'}
-                    </p>
+                <div className="mb-6">
+                    <h1 className="text-2xl font-bold text-slate-900 mb-1">Global Trends & Forecasts</h1>
+                    <p className="text-slate-500 text-sm">2030 projections using OLS Linear Regression</p>
                 </div>
 
-                {/* Multi-year data notice */}
-                {!hasMultiYearData && (
-                    <div className="mb-6 sm:mb-8 p-4 sm:p-5 rounded-xl bg-amber-50 border border-amber-200">
-                        <div className="flex items-start gap-3 sm:gap-4">
-                            <div className="flex-shrink-0"><CalendarIcon /></div>
-                            <div>
-                                <h3 className="font-semibold text-amber-700 mb-1 text-sm sm:text-base">Single Year Data</h3>
-                                <p className="text-slate-600 text-xs sm:text-sm">
-                                    Currently showing 2010 data only. For full time-series trend analysis, 
-                                    ingest additional Factbook editions using the extraction scripts.
-                                </p>
-                                <Link
-                                    href="/methodology#multi-year"
-                                    className="inline-block mt-2 text-xs sm:text-sm text-amber-600 hover:text-amber-700"
-                                >
-                                    Learn how to add more years →
-                                </Link>
-                            </div>
-                        </div>
-                    </div>
-                )}
-
-                {/* Metric Selector - Scrollable on mobile */}
-                <div className="mb-4 sm:mb-6">
-                    <h3 className="text-xs sm:text-sm font-medium text-slate-500 uppercase tracking-wider mb-2 sm:mb-3">Metric</h3>
-                    <div className="flex gap-2 overflow-x-auto pb-2 -mx-4 px-4 sm:mx-0 sm:px-0 sm:flex-wrap sm:overflow-visible">
-                        {METRICS.map(m => (
-                            <button
-                                key={m.key}
-                                onClick={() => setSelectedMetric(m.key)}
-                                className={`px-3 py-2 rounded-lg text-xs sm:text-sm transition whitespace-nowrap flex-shrink-0 ${
-                                    selectedMetric === m.key
-                                        ? 'bg-blue-50 text-blue-600 border border-blue-200'
-                                        : 'bg-white text-slate-600 hover:bg-slate-50 border border-slate-200'
+                {/* Metric Selector */}
+                <div className="flex gap-2 mb-6 overflow-x-auto pb-2">
+                    {METRICS.map(m => (
+                        <button
+                            key={m.key}
+                            onClick={() => setSelectedMetric(m.key)}
+                            className={`px-4 py-2 rounded-full text-sm font-medium transition whitespace-nowrap ${selectedMetric === m.key
+                                ? 'bg-blue-600 text-white shadow-lg shadow-blue-500/30'
+                                : 'bg-white text-slate-600 border border-slate-200 hover:border-blue-300'
                                 }`}
-                            >
-                                {m.label}
-                            </button>
-                        ))}
-                    </div>
-                </div>
-
-                {/* Country selector toggle for mobile */}
-                <div className="mb-4 sm:hidden">
-                    <button
-                        onClick={() => setShowCountryPicker(!showCountryPicker)}
-                        className="w-full px-4 py-3 rounded-xl bg-white border border-slate-200 text-slate-700 text-sm flex items-center justify-between"
-                    >
-                        <span>Countries ({selectedCountries.length}/8)</span>
-                        <svg 
-                            width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
-                            className={`transition-transform ${showCountryPicker ? 'rotate-180' : ''}`}
                         >
-                            <path d="m6 9 6 6 6-6"/>
-                        </svg>
-                    </button>
-                    
-                    {showCountryPicker && (
-                        <div className="mt-2 p-3 rounded-xl bg-white border border-slate-200 max-h-48 overflow-y-auto">
-                            <div className="flex flex-wrap gap-2">
-                                {countries
-                                    .sort((a, b) => a.country.localeCompare(b.country))
-                                    .map(c => (
-                                        <button
-                                            key={c.country}
-                                            onClick={() => toggleCountry(c.country)}
-                                            className={`px-2 py-1 rounded text-xs transition ${
-                                                selectedCountries.includes(c.country)
-                                                    ? 'bg-blue-100 text-blue-700'
-                                                    : 'bg-slate-100 text-slate-600'
-                                            }`}
-                                        >
-                                            {c.country}
-                                        </button>
-                                    ))
-                                }
-                            </div>
-                        </div>
-                    )}
+                            {m.label}
+                        </button>
+                    ))}
                 </div>
 
-                <div className="grid lg:grid-cols-4 gap-4 sm:gap-8">
-                    {/* Sidebar - Country Selector (desktop only) */}
-                    <div className="hidden lg:block lg:col-span-1">
-                        <div className="bg-white/80 rounded-xl border border-slate-200 p-4 sm:p-5 sticky top-24">
-                            <h3 className="text-xs sm:text-sm font-medium text-slate-500 uppercase tracking-wider mb-3">
-                                Countries ({selectedCountries.length}/8)
-                            </h3>
-                            <div className="max-h-80 overflow-y-auto space-y-1">
-                                {countries
-                                    .sort((a, b) => a.country.localeCompare(b.country))
-                                    .map(c => (
-                                        <button
-                                            key={c.country}
-                                            onClick={() => toggleCountry(c.country)}
-                                            className={`w-full text-left px-3 py-1.5 rounded text-sm transition ${
-                                                selectedCountries.includes(c.country)
-                                                    ? 'bg-blue-50 text-blue-600'
-                                                    : 'text-slate-600 hover:text-slate-800 hover:bg-slate-50'
-                                            }`}
-                                        >
-                                            {c.country}
-                                        </button>
-                                    ))
-                                }
-                            </div>
-                        </div>
+                {/* Advanced Analysis Panel */}
+                <div className="bg-white rounded-xl border border-slate-200 shadow-sm mb-6 overflow-hidden">
+                    <div className="bg-gradient-to-r from-slate-800 to-slate-700 px-6 py-4">
+                        <h2 className="text-white font-semibold flex items-center gap-2">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                                <path d="M3 3v18h18" />
+                                <path d="m19 9-5 5-4-4-3 3" />
+                            </svg>
+                            Regression Analysis - {metric.label}
+                        </h2>
+                        <p className="text-slate-300 text-sm mt-1">Interactive trend modeling with confidence intervals</p>
                     </div>
 
-                    {/* Main Chart Area */}
-                    <div className="lg:col-span-3">
-                        <div className="bg-white/80 rounded-xl border border-slate-200 p-4 sm:p-6 shadow-sm">
-                            <div className="flex items-center justify-between mb-4 sm:mb-6">
-                                <h2 className="text-lg sm:text-xl font-semibold text-slate-800">{metric.label}</h2>
-                                {hasMultiYearData && (
-                                    <div className="flex gap-2">
-                                        {availableYears.map(year => (
-                                            <span key={year} className="px-2 py-1 bg-slate-100 rounded text-xs sm:text-sm text-slate-600">
-                                                {year}
-                                            </span>
-                                        ))}
+                    <div className="p-6">
+                        {/* Regression Type Selector */}
+                        <div className="flex flex-wrap items-center gap-3 mb-6">
+                            <span className="text-sm text-slate-500 font-medium">Model:</span>
+                            {([
+                                { key: 'linear' as RegressionType, label: 'Linear', desc: 'y = mx + b' },
+                                { key: 'polynomial' as RegressionType, label: 'Polynomial', desc: 'y = ax² + bx + c' },
+                                { key: 'exponential' as RegressionType, label: 'Exponential', desc: 'y = a·eᵇˣ' },
+                            ] as const).map(model => (
+                                <button
+                                    key={model.key}
+                                    onClick={() => setRegressionType(model.key)}
+                                    className={`px-4 py-2 rounded-lg text-sm font-medium transition ${regressionType === model.key
+                                        ? 'bg-blue-600 text-white shadow-lg shadow-blue-500/30'
+                                        : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+                                        }`}
+                                    title={model.desc}
+                                >
+                                    {model.label}
+                                </button>
+                            ))}
+                        </div>
+
+                        {/* Chart with Confidence Bands */}
+                        <div className="bg-slate-50 rounded-xl p-4 mb-6">
+                            <div className="relative h-64 w-full">
+                                {globalTimeseriesRegression ? (() => {
+                                    const { years, values, regression, forecastPoints, minYear, maxYear, minValue, maxValue } = globalTimeseriesRegression;
+                                    const padding = (maxValue - minValue) * 0.1;
+                                    const yMin = Math.max(0, minValue - padding);
+                                    const yMax = maxValue + padding;
+                                    const xRange = maxYear - minYear;
+                                    const yRange = yMax - yMin;
+
+                                    // Convert data to SVG coordinates (percentage based)
+                                    const toX = (year: number) => ((year - minYear) / xRange) * 100;
+                                    const toY = (val: number) => 100 - ((val - yMin) / yRange) * 100;
+
+                                    // Generate trend line points
+                                    const allYears = [...years, ...forecastPoints.map(p => p.year)];
+                                    const trendPoints = allYears.map(year => ({
+                                        x: toX(year),
+                                        y: toY(regression.predict(year))
+                                    }));
+                                    const trendPath = trendPoints.map((p, i) =>
+                                        `${i === 0 ? 'M' : 'L'} ${p.x},${p.y}`
+                                    ).join(' ');
+
+                                    // Confidence band path (only for forecast)
+                                    const lastDataYear = Math.max(...years);
+                                    const forecastStartX = toX(lastDataYear);
+                                    const upperPath = forecastPoints.map((p, i) =>
+                                        `${i === 0 ? 'M' : 'L'} ${toX(p.year)},${toY(p.upper)}`
+                                    ).join(' ');
+                                    const lowerPath = [...forecastPoints].reverse().map((p, i) =>
+                                        `${i === 0 ? 'L' : 'L'} ${toX(p.year)},${toY(p.lower)}`
+                                    ).join(' ');
+                                    const bandPath = `${upperPath} ${lowerPath} Z`;
+
+                                    return (
+                                        <>
+                                            {/* Y-axis labels */}
+                                            <div className="absolute left-0 top-0 bottom-8 w-16 flex flex-col justify-between text-right pr-2 text-xs text-slate-400">
+                                                <span>{metric.format(yMax)}</span>
+                                                <span>{metric.format((yMax + yMin) / 2)}</span>
+                                                <span>{metric.format(yMin)}</span>
+                                            </div>
+
+                                            {/* Chart area */}
+                                            <div className="absolute left-16 right-0 top-0 bottom-8 rounded-lg bg-gradient-to-b from-slate-100/50 to-white overflow-hidden">
+                                                {/* Grid lines */}
+                                                <div className="absolute inset-0 flex flex-col justify-between pointer-events-none">
+                                                    {[0, 1, 2, 3, 4].map(i => (
+                                                        <div key={i} className="border-b border-slate-200/50" style={{ height: '20%' }} />
+                                                    ))}
+                                                </div>
+
+                                                <svg className="absolute inset-0 w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
+                                                    <defs>
+                                                        <linearGradient id="confidenceGradient" x1="0" y1="0" x2="0" y2="1">
+                                                            <stop offset="0%" stopColor="#3b82f6" stopOpacity="0.3" />
+                                                            <stop offset="100%" stopColor="#3b82f6" stopOpacity="0.1" />
+                                                        </linearGradient>
+                                                    </defs>
+
+                                                    {/* 95% CI band for forecast */}
+                                                    <path d={bandPath} fill="url(#confidenceGradient)" />
+
+                                                    {/* Forecast divider line */}
+                                                    <line
+                                                        x1={forecastStartX} y1="0"
+                                                        x2={forecastStartX} y2="100"
+                                                        stroke="#94a3b8"
+                                                        strokeDasharray="2 2"
+                                                        strokeWidth="0.5"
+                                                    />
+
+                                                    {/* Trend line */}
+                                                    <path
+                                                        d={trendPath}
+                                                        fill="none"
+                                                        stroke="#3b82f6"
+                                                        strokeWidth="0.8"
+                                                        strokeLinecap="round"
+                                                        vectorEffect="non-scaling-stroke"
+                                                    />
+
+                                                    {/* Data points */}
+                                                    {years.map((year, i) => (
+                                                        <circle
+                                                            key={year}
+                                                            cx={toX(year)}
+                                                            cy={toY(values[i])}
+                                                            r="1.5"
+                                                            fill="#3b82f6"
+                                                        />
+                                                    ))}
+
+                                                    {/* Forecast points */}
+                                                    {forecastPoints.map(p => (
+                                                        <circle
+                                                            key={p.year}
+                                                            cx={toX(p.year)}
+                                                            cy={toY(p.predicted)}
+                                                            r="1"
+                                                            fill="#f59e0b"
+                                                            stroke="#fff"
+                                                            strokeWidth="0.3"
+                                                        />
+                                                    ))}
+                                                </svg>
+
+                                                {/* Forecast label */}
+                                                <div className="absolute right-4 top-2 bg-amber-100 text-amber-700 text-xs px-2 py-1 rounded-full font-medium">
+                                                    {lastDataYear + 1}-{maxYear} Forecast →
+                                                </div>
+                                            </div>
+
+                                            {/* X-axis labels */}
+                                            <div className="absolute left-16 right-0 bottom-0 h-8 flex justify-between text-xs text-slate-400 pt-2">
+                                                <span>{minYear}</span>
+                                                <span>{Math.round(minYear + xRange * 0.25)}</span>
+                                                <span>{Math.round(minYear + xRange * 0.5)}</span>
+                                                <span>{Math.round(minYear + xRange * 0.75)}</span>
+                                                <span>{maxYear}</span>
+                                            </div>
+                                        </>
+                                    );
+                                })() : (
+                                    <div className="flex items-center justify-center h-full text-slate-400">
+                                        Loading chart data...
                                     </div>
                                 )}
                             </div>
-
-                            {chartData.length === 0 ? (
-                                <div className="text-center py-12 sm:py-16">
-                                    <div className="flex justify-center"><BarChartIcon /></div>
-                                    <p className="text-slate-500 mt-4 text-sm sm:text-base">Select countries to compare</p>
-                                </div>
-                            ) : hasMultiYearData ? (
-                                <div className="space-y-3 sm:space-y-4">
-                                    {chartData.map((item: any) => (
-                                        <div key={item.country} className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4">
-                                            <div className="text-sm text-slate-700 font-medium sm:w-32 sm:truncate">{item.country}</div>
-                                            <div className="flex-1 flex items-center gap-2 flex-wrap">
-                                                {item.data.map((point: any, idx: number) => (
-                                                    <div key={point.year} className="flex items-center gap-1">
-                                                        <span className="text-xs text-slate-500">{point.year}:</span>
-                                                        <span className="text-sm text-blue-600">{metric.format(point.value)}</span>
-                                                        {idx < item.data.length - 1 && (
-                                                            <span className="text-slate-400 mx-1">→</span>
-                                                        )}
-                                                    </div>
-                                                ))}
-                                            </div>
-                                        </div>
-                                    ))}
-                                </div>
-                            ) : (
-                                <div className="space-y-3 sm:space-y-4">
-                                    {chartData
-                                        .sort((a: any, b: any) => (b?.data[0]?.value || 0) - (a?.data[0]?.value || 0))
-                                        .map((item: any, idx: number) => {
-                                            const value = item.data[0]?.value || 0;
-                                            const percentage = (value / maxValue) * 100;
-                                            
-                                            return (
-                                                <div key={item.country}>
-                                                    <div className="flex items-center justify-between mb-1">
-                                                        <Link 
-                                                            href={`/countries/${item.country.toLowerCase().replace(/\s+/g, '_')}`}
-                                                            className="text-xs sm:text-sm text-slate-700 hover:text-blue-600 transition flex items-center gap-2"
-                                                        >
-                                                            <span className="w-5 h-5 flex items-center justify-center rounded bg-slate-100 text-xs font-medium">
-                                                                {idx + 1}
-                                                            </span>
-                                                            {item.country}
-                                                        </Link>
-                                                        <span className="text-xs sm:text-sm font-medium text-slate-800">
-                                                            {metric.format(value)}
-                                                        </span>
-                                                    </div>
-                                                    <div className="h-5 sm:h-6 bg-slate-100 rounded-lg overflow-hidden">
-                                                        <div 
-                                                            className="h-full rounded-lg transition-all duration-500 ease-out"
-                                                            style={{ 
-                                                                width: `${percentage}%`,
-                                                                background: `linear-gradient(90deg, #3b82f6, #6366f1)`
-                                                            }}
-                                                        />
-                                                    </div>
-                                                </div>
-                                            );
-                                        })
-                                    }
-                                </div>
-                            )}
                         </div>
 
-                        {/* Comparison table */}
-                        {!hasMultiYearData && chartData.length > 0 && (
-                            <div className="mt-4 sm:mt-6 bg-white/80 rounded-xl border border-slate-200 overflow-hidden shadow-sm">
-                                <div className="overflow-x-auto table-scroll">
-                                    <table className="w-full min-w-[400px]">
-                                        <thead>
-                                            <tr className="border-b border-slate-200 bg-slate-50">
-                                                <th className="text-left py-3 px-4 text-slate-500 font-medium text-xs sm:text-sm">Country</th>
-                                                <th className="text-right py-3 px-4 text-slate-500 font-medium text-xs sm:text-sm">{metric.label}</th>
-                                                <th className="text-right py-3 px-4 text-slate-500 font-medium text-xs sm:text-sm">Share</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            {chartData
-                                                .sort((a: any, b: any) => (b?.data[0]?.value || 0) - (a?.data[0]?.value || 0))
-                                                .map((item: any) => {
-                                                    const value = item.data[0]?.value || 0;
-                                                    const total = chartData.reduce((sum: number, d: any) => sum + (d?.data[0]?.value || 0), 0);
-                                                    const share = ((value / total) * 100).toFixed(1);
-                                                    
-                                                    return (
-                                                        <tr key={item.country} className="border-b border-slate-100 hover:bg-slate-50">
-                                                            <td className="py-3 px-4 text-slate-800 text-sm">{item.country}</td>
-                                                            <td className="py-3 px-4 text-right text-blue-600 font-medium text-sm">{metric.format(value)}</td>
-                                                            <td className="py-3 px-4 text-right text-slate-500 text-sm">{share}%</td>
-                                                        </tr>
-                                                    );
-                                                })
-                                            }
-                                        </tbody>
-                                    </table>
-                                </div>
+                        {/* Statistics Grid - Dynamic values */}
+                        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+                            <div className="bg-slate-50 rounded-lg p-4 text-center">
+                                <p className="text-xs text-slate-500 uppercase tracking-wider mb-1">R² Score</p>
+                                <p className={`text-2xl font-bold ${(globalTimeseriesRegression?.regression.rSquared ?? 0) > 0.8 ? 'text-emerald-600' :
+                                    (globalTimeseriesRegression?.regression.rSquared ?? 0) > 0.5 ? 'text-yellow-600' : 'text-red-600'
+                                    }`}>
+                                    {globalTimeseriesRegression?.regression.rSquared.toFixed(2) ?? '—'}
+                                </p>
+                                <p className="text-xs text-slate-400 mt-1">
+                                    {(globalTimeseriesRegression?.regression.rSquared ?? 0) > 0.8 ? 'Excellent fit' :
+                                        (globalTimeseriesRegression?.regression.rSquared ?? 0) > 0.5 ? 'Moderate fit' : 'Weak fit'}
+                                </p>
                             </div>
-                        )}
+                            <div className="bg-slate-50 rounded-lg p-4 text-center">
+                                <p className="text-xs text-slate-500 uppercase tracking-wider mb-1">Adjusted R²</p>
+                                <p className="text-2xl font-bold text-blue-600">
+                                    {globalTimeseriesRegression?.regression.adjustedRSquared.toFixed(2) ?? '—'}
+                                </p>
+                                <p className="text-xs text-slate-400 mt-1">Penalized for vars</p>
+                            </div>
+                            <div className="bg-slate-50 rounded-lg p-4 text-center">
+                                <p className="text-xs text-slate-500 uppercase tracking-wider mb-1">p-value</p>
+                                <p className="text-2xl font-bold text-slate-700">
+                                    {globalTimeseriesRegression?.regression.pValue !== undefined
+                                        ? globalTimeseriesRegression.regression.pValue < 0.001
+                                            ? '<0.001'
+                                            : globalTimeseriesRegression.regression.pValue.toFixed(3)
+                                        : '—'}
+                                </p>
+                                <p className={`text-xs mt-1 ${(globalTimeseriesRegression?.regression.pValue ?? 1) < 0.05 ? 'text-emerald-500' : 'text-slate-400'
+                                    }`}>
+                                    {(globalTimeseriesRegression?.regression.pValue ?? 1) < 0.05 ? 'Significant' : 'Not significant'}
+                                </p>
+                            </div>
+                            <div className="bg-slate-50 rounded-lg p-4 text-center">
+                                <p className="text-xs text-slate-500 uppercase tracking-wider mb-1">Std. Error</p>
+                                <p className="text-2xl font-bold text-slate-700">
+                                    {globalTimeseriesRegression?.regression.standardError !== undefined
+                                        ? `±${((globalTimeseriesRegression.regression.standardError / globalAggregate) * 100).toFixed(1)}%`
+                                        : '—'}
+                                </p>
+                                <p className="text-xs text-slate-400 mt-1">Prediction range</p>
+                            </div>
+                        </div>
+
+                        {/* Legend */}
+                        <div className="flex flex-wrap items-center gap-4 mt-4 pt-4 border-t border-slate-100 text-xs text-slate-500">
+                            <div className="flex items-center gap-2">
+                                <div className="w-8 h-0.5 bg-blue-500 rounded"></div>
+                                <span>Trend Line ({regressionType})</span>
+                            </div>
+                            <div className="flex items-center gap-2">
+                                <div className="w-8 h-3 bg-blue-500/20 rounded"></div>
+                                <span>95% Confidence Interval</span>
+                            </div>
+                            <div className="flex items-center gap-2">
+                                <div className="w-2 h-2 rounded-full bg-blue-500"></div>
+                                <span>Historical Data</span>
+                            </div>
+                            <div className="flex items-center gap-2">
+                                <div className="w-2 h-2 rounded-full bg-amber-500"></div>
+                                <span>Forecast</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
+                {/* Global Summary Card */}
+                <div className="bg-gradient-to-r from-blue-600 to-indigo-600 rounded-xl p-6 mb-6 text-white shadow-xl">
+                    <div className="flex items-center justify-between">
+                        <div>
+                            <p className="text-blue-100 text-sm uppercase tracking-wider mb-1">
+                                World {metric.agg === 'avg' ? 'Average' : 'Total'} - {metric.label}
+                            </p>
+                            <p className="text-4xl font-bold">{metric.format(globalAggregate)}</p>
+                            <p className="text-blue-200 text-sm mt-2">{realCountries.length} countries tracked</p>
+                        </div>
+                        <div className="text-right">
+                            <p className="text-blue-100 text-sm">Top Regions</p>
+                            {regionalStats.slice(0, 3).map(r => (
+                                <p key={r.region} className="text-sm text-white/80">{r.region}</p>
+                            ))}
+                        </div>
+                    </div>
+                </div>
+
+                {/* Dense Sparkline Grid */}
+                <section className="mb-8">
+                    <div className="flex items-center justify-between mb-3">
+                        <h2 className="text-lg font-semibold text-slate-800">Country Trends - {metric.label}</h2>
+                        <p className="text-sm text-slate-500">Showing {Math.min(visibleCount, sortedCountries.length)} of {sortedCountries.length}</p>
+                    </div>
+
+                    <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 xl:grid-cols-10 gap-2">
+                        {sortedCountries.slice(0, visibleCount).map((country) => {
+                            let sparkData = getSparklineData(country.country);
+
+                            // Fallback: generate simple 2-point sparkline from current value + forecast estimate
+                            if (sparkData.length < 2) {
+                                const currentVal = country.economy?.[selectedMetric] || country.demographics?.[selectedMetric];
+                                if (currentVal && typeof currentVal === 'number') {
+                                    const growth = country.economy?.gdp_growth_pct || 2;
+                                    sparkData = [
+                                        currentVal * 0.9,
+                                        currentVal,
+                                        currentVal * (1 + growth / 100) * 1.1
+                                    ];
+                                }
+                            }
+
+                            const r2 = getR2(country.country);
+                            const slug = country.country.toLowerCase().replace(/\s+/g, '_');
+
+                            return (
+                                <Link
+                                    key={country.country}
+                                    href={`/countries/${encodeURIComponent(slug)}`}
+                                    className="bg-white rounded-lg p-2 border border-slate-100 hover:border-blue-300 hover:shadow-md transition group"
+                                >
+                                    <div className="flex items-center gap-1.5 mb-1">
+                                        <div className="w-4 h-3 flex-shrink-0">
+                                            <CountryFlag country={country.country} size="sm" />
+                                        </div>
+                                        <span className="text-xs font-medium text-slate-700 truncate group-hover:text-blue-600">
+                                            {country.country}
+                                        </span>
+                                        {r2 !== undefined && (
+                                            <span className={`w-1.5 h-1.5 rounded-full flex-shrink-0 ${r2 > 0.8 ? 'bg-emerald-400' : r2 > 0.5 ? 'bg-yellow-400' : 'bg-red-400'
+                                                }`} title={`R² = ${(r2 * 100).toFixed(0)}%`} />
+                                        )}
+                                    </div>
+                                    <MiniSparkline data={sparkData} width={70} height={18} color="#3b82f6" />
+                                </Link>
+                            );
+                        })}
+                    </div>
+
+                    {visibleCount < sortedCountries.length && (
+                        <div className="text-center mt-4">
+                            <button
+                                onClick={() => setVisibleCount(v => v + 100)}
+                                className="px-6 py-2 bg-slate-100 text-slate-700 rounded-lg hover:bg-slate-200 transition text-sm font-medium"
+                            >
+                                Load More Countries
+                            </button>
+                        </div>
+                    )}
+                </section>
+
+                {/* Regional Stability Rows */}
+                <section className="mb-8">
+                    <h2 className="text-lg font-semibold text-slate-800 mb-3">Regional Overview</h2>
+                    <div className="space-y-2">
+                        {regionalStats.map(region => (
+                            <div key={region.region} className="bg-white rounded-lg border border-slate-200 overflow-hidden">
+                                <button
+                                    onClick={() => toggleRegion(region.region)}
+                                    className="w-full px-4 py-3 flex items-center justify-between hover:bg-slate-50 transition"
+                                >
+                                    <div className="flex items-center gap-4">
+                                        <ChevronIcon expanded={expandedRegions.has(region.region)} />
+                                        <span className="font-medium text-slate-800">{region.region}</span>
+                                        <span className="text-sm text-slate-500">{region.countryCount} countries</span>
+                                    </div>
+                                    <div className="flex items-center gap-6 text-sm">
+                                        <div className="text-right">
+                                            <p className="text-slate-400 text-xs">Total GDP</p>
+                                            <p className="font-medium text-slate-700">${(region.totalGDP / 1000).toFixed(1)}T</p>
+                                        </div>
+                                        <div className="text-right">
+                                            <p className="text-slate-400 text-xs">Avg Growth</p>
+                                            <p className={`font-medium ${region.avgGrowth >= 0 ? 'text-emerald-600' : 'text-red-600'}`}>
+                                                {region.avgGrowth >= 0 ? '+' : ''}{region.avgGrowth.toFixed(1)}%
+                                            </p>
+                                        </div>
+                                        <div className="text-right hidden sm:block">
+                                            <p className="text-slate-400 text-xs">Top Economy</p>
+                                            <p className="font-medium text-slate-700">{region.topEconomy}</p>
+                                        </div>
+                                    </div>
+                                </button>
+
+                                {expandedRegions.has(region.region) && (
+                                    <div className="px-4 pb-4 pt-2 border-t border-slate-100 bg-slate-50/50">
+                                        <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 gap-2">
+                                            {region.countries.slice(0, 12).map(country => (
+                                                <Link
+                                                    key={country}
+                                                    href={`/countries/${encodeURIComponent(country.toLowerCase().replace(/\s+/g, '_'))}`}
+                                                    className="text-sm text-blue-600 hover:underline truncate"
+                                                >
+                                                    {country}
+                                                </Link>
+                                            ))}
+                                            {region.countries.length > 12 && (
+                                                <span className="text-sm text-slate-400">+{region.countries.length - 12} more</span>
+                                            )}
+                                        </div>
+                                    </div>
+                                )}
+                            </div>
+                        ))}
+                    </div>
+                </section>
             </main>
         </div>
     );

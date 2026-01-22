@@ -1,0 +1,19 @@
+{
+  "country": "Isle Of Man",
+  "region": "Europe",
+  "year": 2017,
+  "demographics": {
+    "population": 88815,
+    "population_growth_pct": 0.7,
+    "life_expectancy": 81.3
+  },
+  "economy": {
+    "gdp_ppp_billions": 7.43,
+    "gdp_growth_pct": 2.2,
+    "gdp_per_capita": 84600,
+    "inflation_pct": 5.0,
+    "unemployment_pct": 2.7
+  },
+  "military": {},
+  "political": {}
+}

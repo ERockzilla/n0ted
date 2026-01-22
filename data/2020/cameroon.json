@@ -1,0 +1,24 @@
+{
+  "country": "Cameroon",
+  "region": "Africa",
+  "year": 2020,
+  "demographics": {
+    "population": 27744989,
+    "population_growth_pct": 2.78,
+    "life_expectancy": 62.3,
+    "median_age": 18.5
+  },
+  "economy": {
+    "gdp_growth_pct": 3.5,
+    "gdp_per_capita": 3700,
+    "inflation_pct": 2.4,
+    "unemployment_pct": 6.3,
+    "exports_billions": 4.73,
+    "imports_billions": 4.81,
+    "external_debt_billions": 9.38
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.1
+  },
+  "political": {}
+}

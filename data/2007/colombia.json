@@ -1,0 +1,22 @@
+{
+  "country": "Colombia",
+  "region": "South America",
+  "year": 2007,
+  "demographics": {
+    "population": 44379598,
+    "life_expectancy": 72.27
+  },
+  "economy": {
+    "gdp_ppp_billions": 374.4,
+    "gdp_growth_pct": 6.8,
+    "gdp_per_capita": 8600,
+    "inflation_pct": 4.3,
+    "unemployment_pct": 11.1,
+    "exports_billions": 25.18,
+    "imports_billions": 24.86
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.4
+  },
+  "political": {}
+}

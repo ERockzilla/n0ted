@@ -1,0 +1,22 @@
+{
+  "country": "Dominican Republic",
+  "region": "Central America and Caribbean",
+  "year": 2001,
+  "demographics": {
+    "population": 8581477,
+    "population_growth_pct": 1.63
+  },
+  "economy": {
+    "gdp_ppp_billions": 48.3,
+    "gdp_growth_pct": 8.0,
+    "gdp_per_capita": 5700,
+    "inflation_pct": 7.9,
+    "unemployment_pct": 13.8,
+    "exports_billions": 5.8,
+    "imports_billions": 9.6
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.1
+  },
+  "political": {}
+}

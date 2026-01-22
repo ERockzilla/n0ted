@@ -1,0 +1,22 @@
+{
+  "country": "Rwanda",
+  "region": "Africa",
+  "year": 2014,
+  "demographics": {
+    "population": 12337138,
+    "population_growth_pct": 2.63,
+    "life_expectancy": 59.26
+  },
+  "economy": {
+    "gdp_ppp_billions": 16.37,
+    "gdp_growth_pct": 7.5,
+    "gdp_per_capita": 1500,
+    "inflation_pct": 5.9,
+    "exports_billions": 0.54,
+    "imports_billions": 1.94
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.12
+  },
+  "political": {}
+}

@@ -1,0 +1,23 @@
+{
+  "country": "Yemen",
+  "region": "Middle East",
+  "year": 2012,
+  "demographics": {
+    "population": 24771809,
+    "population_growth_pct": 2.58,
+    "life_expectancy": 64.11
+  },
+  "economy": {
+    "gdp_ppp_billions": 57.76,
+    "gdp_growth_pct": -1.9,
+    "gdp_per_capita": 2200,
+    "inflation_pct": 11.4,
+    "unemployment_pct": 35.0,
+    "exports_billions": 7.96,
+    "imports_billions": 8.89
+  },
+  "military": {
+    "expenditure_pct_gdp": 6.6
+  },
+  "political": {}
+}

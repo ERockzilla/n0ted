@@ -1,0 +1,24 @@
+{
+  "country": "Italy",
+  "region": "Europe",
+  "year": 2020,
+  "demographics": {
+    "population": 62402659,
+    "population_growth_pct": 0.11,
+    "life_expectancy": 82.5,
+    "median_age": 46.5
+  },
+  "economy": {
+    "gdp_growth_pct": 0.34,
+    "gdp_per_capita": 35589,
+    "inflation_pct": 0.6,
+    "unemployment_pct": 32.2,
+    "exports_billions": 687.34,
+    "imports_billions": 647.06,
+    "external_debt_billions": 2444.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.22
+  },
+  "political": {}
+}

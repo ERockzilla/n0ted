@@ -1,0 +1,23 @@
+{
+  "country": "Kuwait",
+  "region": "Middle East",
+  "year": 2013,
+  "demographics": {
+    "population": 2695316,
+    "population_growth_pct": 1.79,
+    "life_expectancy": 77.46
+  },
+  "economy": {
+    "gdp_ppp_billions": 150.9,
+    "gdp_growth_pct": 6.2,
+    "gdp_per_capita": 39900,
+    "inflation_pct": 2.9,
+    "unemployment_pct": 2.2,
+    "exports_billions": 121.0,
+    "imports_billions": 22.79
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.7
+  },
+  "political": {}
+}

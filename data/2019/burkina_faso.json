@@ -1,0 +1,23 @@
+{
+  "country": "Burkina Faso",
+  "region": "Africa",
+  "year": 2019,
+  "demographics": {
+    "population": 19742715,
+    "population_growth_pct": 2.76,
+    "life_expectancy": 61.8
+  },
+  "economy": {
+    "gdp_ppp_billions": 35.85,
+    "gdp_growth_pct": 6.4,
+    "gdp_per_capita": 1900,
+    "inflation_pct": 0.4,
+    "unemployment_pct": 8.7,
+    "exports_billions": 3.14,
+    "imports_billions": 3.31
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.06
+  },
+  "political": {}
+}

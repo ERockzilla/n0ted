@@ -1,0 +1,23 @@
+{
+  "country": "Finland",
+  "region": "Europe",
+  "year": 2019,
+  "demographics": {
+    "population": 5537364,
+    "population_growth_pct": 0.33,
+    "life_expectancy": 81.1
+  },
+  "economy": {
+    "gdp_ppp_billions": 244.9,
+    "gdp_growth_pct": 2.8,
+    "gdp_per_capita": 44500,
+    "inflation_pct": 0.8,
+    "unemployment_pct": 20.1,
+    "exports_billions": 67.73,
+    "imports_billions": 65.26
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.29
+  },
+  "political": {}
+}

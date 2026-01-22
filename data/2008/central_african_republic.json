@@ -1,0 +1,23 @@
+{
+  "country": "Central African Republic",
+  "region": "Africa",
+  "year": 2008,
+  "demographics": {
+    "population": 4444330,
+    "population_growth_pct": 1.51,
+    "life_expectancy": 44.22
+  },
+  "economy": {
+    "gdp_ppp_billions": 3.01,
+    "gdp_growth_pct": 4.0,
+    "gdp_per_capita": 700,
+    "inflation_pct": 0.9,
+    "unemployment_pct": 8.0,
+    "exports_billions": 0.15,
+    "imports_billions": 0.24
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.1
+  },
+  "political": {}
+}

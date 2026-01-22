@@ -1,0 +1,12 @@
+{
+  "country": "Svalbard",
+  "region": "Europe",
+  "year": 2020,
+  "demographics": {
+    "population": 2926,
+    "population_growth_pct": -0.03
+  },
+  "economy": {},
+  "military": {},
+  "political": {}
+}

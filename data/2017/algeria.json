@@ -1,0 +1,23 @@
+{
+  "country": "Algeria",
+  "region": "Africa",
+  "year": 2017,
+  "demographics": {
+    "population": 40969443,
+    "population_growth_pct": 1.7,
+    "life_expectancy": 77.0
+  },
+  "economy": {
+    "gdp_ppp_billions": 612.5,
+    "gdp_growth_pct": 4.2,
+    "gdp_per_capita": 15000,
+    "inflation_pct": 6.4,
+    "unemployment_pct": 10.5,
+    "exports_billions": 29.06,
+    "imports_billions": 49.43
+  },
+  "military": {
+    "expenditure_pct_gdp": 4.48
+  },
+  "political": {}
+}

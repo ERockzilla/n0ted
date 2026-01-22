@@ -1,0 +1,22 @@
+{
+  "country": "Australia",
+  "region": "Australia-Oceania",
+  "year": 2001,
+  "demographics": {
+    "population": 19357594,
+    "population_growth_pct": 0.99
+  },
+  "economy": {
+    "gdp_ppp_billions": 445.8,
+    "gdp_growth_pct": 4.7,
+    "gdp_per_capita": 23200,
+    "inflation_pct": 1.4,
+    "unemployment_pct": 6.4,
+    "exports_billions": 69.0,
+    "imports_billions": 77.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.9
+  },
+  "political": {}
+}

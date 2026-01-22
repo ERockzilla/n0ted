@@ -1,0 +1,22 @@
+{
+  "country": "Albania",
+  "region": "Europe",
+  "year": 2001,
+  "demographics": {
+    "population": 3510484,
+    "population_growth_pct": 0.88
+  },
+  "economy": {
+    "gdp_ppp_billions": 10.5,
+    "gdp_growth_pct": 7.5,
+    "gdp_per_capita": 3000,
+    "inflation_pct": 1.0,
+    "unemployment_pct": 16.0,
+    "exports_billions": 0.31,
+    "imports_billions": 1.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.5
+  },
+  "political": {}
+}

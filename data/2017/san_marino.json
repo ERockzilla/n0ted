@@ -1,0 +1,21 @@
+{
+  "country": "San Marino",
+  "region": "Europe",
+  "year": 2017,
+  "demographics": {
+    "population": 33537,
+    "population_growth_pct": 0.7,
+    "life_expectancy": 83.3
+  },
+  "economy": {
+    "gdp_ppp_billions": 2.02,
+    "gdp_growth_pct": 1.0,
+    "gdp_per_capita": 59500,
+    "inflation_pct": 0.6,
+    "unemployment_pct": 8.7,
+    "exports_billions": 3.83,
+    "imports_billions": 2.55
+  },
+  "military": {},
+  "political": {}
+}

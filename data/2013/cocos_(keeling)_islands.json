@@ -1,0 +1,15 @@
+{
+  "country": "Cocos (Keeling) Islands",
+  "region": "Unknown",
+  "year": 2013,
+  "demographics": {
+    "population": 596,
+    "population_growth_pct": 0.0
+  },
+  "economy": {
+    "gdp_growth_pct": 1.0,
+    "unemployment_pct": 60.0
+  },
+  "military": {},
+  "political": {}
+}

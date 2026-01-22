@@ -1,0 +1,22 @@
+{
+  "country": "Kenya",
+  "region": "Africa",
+  "year": 2004,
+  "demographics": {
+    "population": 33829590,
+    "life_expectancy": 47.99
+  },
+  "economy": {
+    "gdp_ppp_billions": 33.03,
+    "gdp_growth_pct": 1.5,
+    "gdp_per_capita": 1000,
+    "inflation_pct": 9.8,
+    "unemployment_pct": 40.0,
+    "exports_billions": 2.51,
+    "imports_billions": 3.71
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.8
+  },
+  "political": {}
+}

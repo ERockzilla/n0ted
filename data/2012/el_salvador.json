@@ -1,0 +1,23 @@
+{
+  "country": "El Salvador",
+  "region": "Central America and Caribbean",
+  "year": 2012,
+  "demographics": {
+    "population": 6090646,
+    "population_growth_pct": 0.3,
+    "life_expectancy": 73.69
+  },
+  "economy": {
+    "gdp_ppp_billions": 45.98,
+    "gdp_growth_pct": 1.5,
+    "gdp_per_capita": 7700,
+    "inflation_pct": 2.4,
+    "unemployment_pct": 6.9,
+    "exports_billions": 5.8,
+    "imports_billions": 10.44
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.6
+  },
+  "political": {}
+}

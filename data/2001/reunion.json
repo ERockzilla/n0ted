@@ -1,0 +1,19 @@
+{
+  "country": "Reunion",
+  "region": "Unknown",
+  "year": 2001,
+  "demographics": {
+    "population": 732570,
+    "population_growth_pct": 1.57
+  },
+  "economy": {
+    "gdp_ppp_billions": 3.4,
+    "gdp_growth_pct": 3.8,
+    "gdp_per_capita": 4800,
+    "unemployment_pct": 42.8,
+    "exports_billions": 0.214,
+    "imports_billions": 2.5
+  },
+  "military": {},
+  "political": {}
+}

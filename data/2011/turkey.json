@@ -1,0 +1,23 @@
+{
+  "country": "Turkey",
+  "region": "Middle East",
+  "year": 2011,
+  "demographics": {
+    "population": 78785548,
+    "population_growth_pct": 1.24,
+    "life_expectancy": 72.5
+  },
+  "economy": {
+    "gdp_ppp_billions": 960.5,
+    "gdp_growth_pct": 8.2,
+    "gdp_per_capita": 12300,
+    "inflation_pct": 8.6,
+    "unemployment_pct": 12.0,
+    "exports_billions": 120.9,
+    "imports_billions": 177.3
+  },
+  "military": {
+    "expenditure_pct_gdp": 5.3
+  },
+  "political": {}
+}

@@ -1,0 +1,22 @@
+{
+  "country": "Poland",
+  "region": "Europe",
+  "year": 2007,
+  "demographics": {
+    "population": 38518241,
+    "life_expectancy": 75.19
+  },
+  "economy": {
+    "gdp_ppp_billions": 554.5,
+    "gdp_growth_pct": 6.1,
+    "gdp_per_capita": 14400,
+    "inflation_pct": 1.0,
+    "unemployment_pct": 14.9,
+    "exports_billions": 117.3,
+    "imports_billions": 122.2
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.71
+  },
+  "political": {}
+}

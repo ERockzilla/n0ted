@@ -1,0 +1,23 @@
+{
+  "country": "Croatia",
+  "region": "Europe",
+  "year": 2016,
+  "demographics": {
+    "population": 4313707,
+    "population_growth_pct": -0.5,
+    "life_expectancy": 75.9
+  },
+  "economy": {
+    "gdp_ppp_billions": 91.28,
+    "gdp_growth_pct": 1.6,
+    "gdp_per_capita": 21600,
+    "inflation_pct": -0.5,
+    "unemployment_pct": 17.1,
+    "exports_billions": 11.91,
+    "imports_billions": 19.28
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.7
+  },
+  "political": {}
+}

@@ -1,0 +1,23 @@
+{
+  "country": "Nigeria",
+  "region": "Africa",
+  "year": 2019,
+  "demographics": {
+    "population": 203452505,
+    "population_growth_pct": 2.54,
+    "life_expectancy": 59.3
+  },
+  "economy": {
+    "gdp_ppp_billions": 1121.0,
+    "gdp_growth_pct": 0.8,
+    "gdp_per_capita": 5900,
+    "inflation_pct": 16.5,
+    "unemployment_pct": 12.4,
+    "exports_billions": 1.15,
+    "imports_billions": 32.67
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.51
+  },
+  "political": {}
+}

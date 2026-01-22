@@ -1,0 +1,20 @@
+{
+  "country": "Somalia",
+  "region": "Africa",
+  "year": 2007,
+  "demographics": {
+    "population": 9118773,
+    "life_expectancy": 48.84
+  },
+  "economy": {
+    "gdp_ppp_billions": 5.26,
+    "gdp_growth_pct": 2.6,
+    "gdp_per_capita": 600,
+    "exports_billions": 0.24,
+    "imports_billions": 0.58
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.9
+  },
+  "political": {}
+}

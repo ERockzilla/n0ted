@@ -1,0 +1,21 @@
+{
+  "country": "Greenland",
+  "region": "North America",
+  "year": 2015,
+  "demographics": {
+    "population": 57728,
+    "population_growth_pct": 0.02,
+    "life_expectancy": 71.82
+  },
+  "economy": {
+    "gdp_ppp_billions": 2.13,
+    "gdp_growth_pct": 3.0,
+    "gdp_per_capita": 38400,
+    "inflation_pct": 1.8,
+    "unemployment_pct": 9.4,
+    "exports_billions": 0.38,
+    "imports_billions": 0.81
+  },
+  "military": {},
+  "political": {}
+}

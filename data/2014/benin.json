@@ -1,0 +1,22 @@
+{
+  "country": "Benin",
+  "region": "Africa",
+  "year": 2014,
+  "demographics": {
+    "population": 10160556,
+    "population_growth_pct": 2.81,
+    "life_expectancy": 61.07
+  },
+  "economy": {
+    "gdp_ppp_billions": 16.65,
+    "gdp_growth_pct": 5.0,
+    "gdp_per_capita": 1600,
+    "inflation_pct": 2.4,
+    "exports_billions": 1.11,
+    "imports_billions": 1.83
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.03
+  },
+  "political": {}
+}

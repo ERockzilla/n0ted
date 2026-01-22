@@ -1,0 +1,19 @@
+{
+  "country": "Bermuda",
+  "region": "North America",
+  "year": 2001,
+  "demographics": {
+    "population": 63503,
+    "population_growth_pct": 0.74
+  },
+  "economy": {
+    "gdp_ppp_billions": 2.1,
+    "gdp_growth_pct": 1.5,
+    "gdp_per_capita": 33000,
+    "inflation_pct": 2.7,
+    "exports_billions": 0.056,
+    "imports_billions": 0.739
+  },
+  "military": {},
+  "political": {}
+}

@@ -1,0 +1,21 @@
+{
+  "country": "West Bank",
+  "region": "Middle East",
+  "year": 2016,
+  "demographics": {
+    "population": 2697687,
+    "population_growth_pct": 1.86,
+    "life_expectancy": 75.0
+  },
+  "economy": {
+    "gdp_ppp_billions": 21.22,
+    "gdp_growth_pct": 5.3,
+    "gdp_per_capita": 4300,
+    "inflation_pct": 1.2,
+    "unemployment_pct": 17.7,
+    "exports_billions": 0.94,
+    "imports_billions": 5.68
+  },
+  "military": {},
+  "political": {}
+}

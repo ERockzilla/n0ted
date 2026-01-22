@@ -1,0 +1,22 @@
+{
+  "country": "Fiji",
+  "region": "Australia-Oceania",
+  "year": 2001,
+  "demographics": {
+    "population": 844330,
+    "population_growth_pct": 1.41
+  },
+  "economy": {
+    "gdp_ppp_billions": 5.9,
+    "gdp_growth_pct": -8.0,
+    "gdp_per_capita": 7300,
+    "inflation_pct": 0.0,
+    "unemployment_pct": 6.0,
+    "exports_billions": 0.537,
+    "imports_billions": 0.653
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.1
+  },
+  "political": {}
+}

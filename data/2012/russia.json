@@ -1,0 +1,23 @@
+{
+  "country": "Russia",
+  "region": "Central Asia",
+  "year": 2012,
+  "demographics": {
+    "population": 142517670,
+    "population_growth_pct": -0.01,
+    "life_expectancy": 66.46
+  },
+  "economy": {
+    "gdp_ppp_billions": 2509.0,
+    "gdp_growth_pct": 3.6,
+    "gdp_per_capita": 17700,
+    "inflation_pct": 5.3,
+    "unemployment_pct": 6.2,
+    "exports_billions": 542.5,
+    "imports_billions": 358.1
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.9
+  },
+  "political": {}
+}

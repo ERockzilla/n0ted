@@ -1,0 +1,23 @@
+{
+  "country": "United Arab Emirates",
+  "region": "Middle East",
+  "year": 2018,
+  "demographics": {
+    "population": 9701315,
+    "population_growth_pct": 1.44,
+    "life_expectancy": 78.7
+  },
+  "economy": {
+    "gdp_ppp_billions": 696.0,
+    "gdp_growth_pct": 0.8,
+    "gdp_per_capita": 68600,
+    "inflation_pct": 2.0,
+    "unemployment_pct": 12.1,
+    "exports_billions": 308.5,
+    "imports_billions": 229.2
+  },
+  "military": {
+    "expenditure_pct_gdp": 4.86
+  },
+  "political": {}
+}

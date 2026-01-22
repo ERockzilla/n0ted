@@ -1,0 +1,20 @@
+{
+  "country": "Marshall Islands",
+  "region": "Australia-Oceania",
+  "year": 2003,
+  "demographics": {
+    "population": 56429,
+    "life_expectancy": 69.39
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.12,
+    "gdp_growth_pct": 1.0,
+    "gdp_per_capita": 1600,
+    "inflation_pct": 2.0,
+    "unemployment_pct": 30.9,
+    "exports_billions": 0.01,
+    "imports_billions": 0.05
+  },
+  "military": {},
+  "political": {}
+}

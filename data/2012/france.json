@@ -1,0 +1,23 @@
+{
+  "country": "France",
+  "region": "Europe",
+  "year": 2012,
+  "demographics": {
+    "population": 65630692,
+    "population_growth_pct": 0.5,
+    "life_expectancy": 81.46
+  },
+  "economy": {
+    "gdp_ppp_billions": 2253.0,
+    "gdp_growth_pct": 0.1,
+    "gdp_per_capita": 35500,
+    "inflation_pct": 2.3,
+    "unemployment_pct": 9.8,
+    "exports_billions": 567.5,
+    "imports_billions": 658.9
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.6
+  },
+  "political": {}
+}

@@ -1,0 +1,18 @@
+{
+  "country": "Monaco",
+  "region": "Europe",
+  "year": 2012,
+  "demographics": {
+    "population": 30510,
+    "population_growth_pct": -0.07
+  },
+  "economy": {
+    "gdp_ppp_billions": 5.47,
+    "inflation_pct": 1.5,
+    "exports_billions": 0.71,
+    "imports_billions": 0.88,
+    "gdp_growth_pct": 2.5
+  },
+  "military": {},
+  "political": {}
+}

@@ -1,0 +1,24 @@
+{
+  "country": "Armenia",
+  "region": "Middle East",
+  "year": 2020,
+  "demographics": {
+    "population": 3021324,
+    "population_growth_pct": -0.3,
+    "life_expectancy": 75.6,
+    "median_age": 36.6
+  },
+  "economy": {
+    "gdp_growth_pct": 7.5,
+    "gdp_per_capita": 9500,
+    "inflation_pct": 1.4,
+    "unemployment_pct": 36.3,
+    "exports_billions": 2.36,
+    "imports_billions": 3.77,
+    "external_debt_billions": 10.41
+  },
+  "military": {
+    "expenditure_pct_gdp": 4.9
+  },
+  "political": {}
+}

@@ -1,0 +1,23 @@
+{
+  "country": "Bahrain",
+  "region": "Middle East",
+  "year": 2015,
+  "demographics": {
+    "population": 1314089,
+    "population_growth_pct": 2.49,
+    "life_expectancy": 78.58
+  },
+  "economy": {
+    "gdp_ppp_billions": 61.56,
+    "gdp_growth_pct": 3.9,
+    "gdp_per_capita": 51400,
+    "inflation_pct": 2.5,
+    "unemployment_pct": 3.8,
+    "exports_billions": 22.0,
+    "imports_billions": 14.28
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.14
+  },
+  "political": {}
+}

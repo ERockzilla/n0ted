@@ -1,0 +1,19 @@
+{
+  "country": "Northern Mariana Islands",
+  "region": "Australia-Oceania",
+  "year": 2008,
+  "demographics": {
+    "population": 86616,
+    "population_growth_pct": 2.38,
+    "life_expectancy": 76.5
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.9,
+    "gdp_per_capita": 12500,
+    "inflation_pct": -0.8,
+    "unemployment_pct": 3.9,
+    "imports_billions": 0.21
+  },
+  "military": {},
+  "political": {}
+}

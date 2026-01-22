@@ -1,0 +1,25 @@
+{
+  "country": "United States",
+  "region": "North America",
+  "year": 2020,
+  "demographics": {
+    "population": 332639102,
+    "population_growth_pct": 0.72,
+    "life_expectancy": 80.3,
+    "median_age": 38.5
+  },
+  "economy": {
+    "gdp_ppp_billions": 20936.0,
+    "gdp_growth_pct": 2.16,
+    "gdp_per_capita": 55761,
+    "inflation_pct": 1.8,
+    "unemployment_pct": 8.6,
+    "exports_billions": 2377.16,
+    "imports_billions": 3214.18,
+    "external_debt_billions": 17910.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.42
+  },
+  "political": {}
+}

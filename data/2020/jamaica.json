@@ -1,0 +1,24 @@
+{
+  "country": "Jamaica",
+  "region": "Central America and Caribbean",
+  "year": 2020,
+  "demographics": {
+    "population": 2808570,
+    "population_growth_pct": -0.07,
+    "life_expectancy": 75.2,
+    "median_age": 29.4
+  },
+  "economy": {
+    "gdp_growth_pct": 0.7,
+    "gdp_per_capita": 9200,
+    "inflation_pct": 3.9,
+    "unemployment_pct": 24.2,
+    "exports_billions": 5.11,
+    "imports_billions": 7.31,
+    "external_debt_billions": 14.94
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.6
+  },
+  "political": {}
+}

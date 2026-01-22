@@ -1,0 +1,24 @@
+{
+  "country": "Bulgaria",
+  "region": "Europe",
+  "year": 2020,
+  "demographics": {
+    "population": 6966899,
+    "population_growth_pct": -0.65,
+    "life_expectancy": 75.0,
+    "median_age": 43.7
+  },
+  "economy": {
+    "gdp_growth_pct": 3.39,
+    "gdp_per_capita": 9888,
+    "inflation_pct": 3.1,
+    "unemployment_pct": 12.7,
+    "exports_billions": 42.37,
+    "imports_billions": 44.85,
+    "external_debt_billions": 42.06
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.25
+  },
+  "political": {}
+}

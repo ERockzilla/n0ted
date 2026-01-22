@@ -1,0 +1,23 @@
+{
+  "country": "Philippines",
+  "region": "East & Southeast Asia",
+  "year": 2012,
+  "demographics": {
+    "population": 103775002,
+    "population_growth_pct": 1.87,
+    "life_expectancy": 71.94
+  },
+  "economy": {
+    "gdp_ppp_billions": 416.7,
+    "gdp_growth_pct": 4.8,
+    "gdp_per_capita": 4300,
+    "inflation_pct": 3.4,
+    "unemployment_pct": 6.9,
+    "exports_billions": 52.17,
+    "imports_billions": 63.42
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.9
+  },
+  "political": {}
+}

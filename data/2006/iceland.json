@@ -1,0 +1,22 @@
+{
+  "country": "Iceland",
+  "region": "Europe",
+  "year": 2006,
+  "demographics": {
+    "population": 299388,
+    "life_expectancy": 80.31
+  },
+  "economy": {
+    "gdp_ppp_billions": 10.59,
+    "gdp_growth_pct": 5.6,
+    "gdp_per_capita": 35700,
+    "inflation_pct": 4.0,
+    "unemployment_pct": 2.1,
+    "exports_billions": 3.21,
+    "imports_billions": 4.58
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.0
+  },
+  "political": {}
+}

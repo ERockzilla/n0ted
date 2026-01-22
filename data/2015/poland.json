@@ -1,0 +1,23 @@
+{
+  "country": "Poland",
+  "region": "Europe",
+  "year": 2015,
+  "demographics": {
+    "population": 38346279,
+    "population_growth_pct": -0.11,
+    "life_expectancy": 76.65
+  },
+  "economy": {
+    "gdp_ppp_billions": 941.4,
+    "gdp_growth_pct": 3.2,
+    "gdp_per_capita": 24400,
+    "inflation_pct": 0.0,
+    "unemployment_pct": 12.7,
+    "exports_billions": 218.9,
+    "imports_billions": 217.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.91
+  },
+  "political": {}
+}

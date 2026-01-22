@@ -1,0 +1,22 @@
+{
+  "country": "Equatorial Guinea",
+  "region": "Africa",
+  "year": 2019,
+  "demographics": {
+    "population": 797457,
+    "population_growth_pct": 2.41,
+    "life_expectancy": 65.0
+  },
+  "economy": {
+    "gdp_ppp_billions": 31.52,
+    "gdp_growth_pct": -3.2,
+    "gdp_per_capita": 37400,
+    "inflation_pct": 0.7,
+    "exports_billions": 6.12,
+    "imports_billions": 2.58
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.18
+  },
+  "political": {}
+}

@@ -1,0 +1,22 @@
+{
+  "country": "Cyprus",
+  "region": "Europe",
+  "year": 2004,
+  "demographics": {
+    "population": 780133,
+    "life_expectancy": 77.65
+  },
+  "economy": {
+    "gdp_ppp_billions": 1.22,
+    "gdp_growth_pct": 1.9,
+    "gdp_per_capita": 5600,
+    "inflation_pct": 4.1,
+    "unemployment_pct": 3.4,
+    "exports_billions": 0.05,
+    "imports_billions": 0.3
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.8
+  },
+  "political": {}
+}

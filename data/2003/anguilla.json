@@ -1,0 +1,20 @@
+{
+  "country": "Anguilla",
+  "region": "Central America and Caribbean",
+  "year": 2003,
+  "demographics": {
+    "population": 12738,
+    "life_expectancy": 76.7
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.1,
+    "gdp_growth_pct": 2.8,
+    "gdp_per_capita": 8600,
+    "inflation_pct": 2.3,
+    "unemployment_pct": 6.7,
+    "exports_billions": 0.0,
+    "imports_billions": 0.08
+  },
+  "military": {},
+  "political": {}
+}

@@ -1,0 +1,23 @@
+{
+  "country": "Turkey",
+  "region": "Middle East",
+  "year": 2017,
+  "demographics": {
+    "population": 80845215,
+    "population_growth_pct": 0.5,
+    "life_expectancy": 75.0
+  },
+  "economy": {
+    "gdp_ppp_billions": 1988.0,
+    "gdp_growth_pct": 2.9,
+    "gdp_per_capita": 24900,
+    "inflation_pct": 7.8,
+    "unemployment_pct": 10.9,
+    "exports_billions": 150.2,
+    "imports_billions": 191.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.31
+  },
+  "political": {}
+}

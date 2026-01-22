@@ -1,0 +1,24 @@
+{
+  "country": "Spain",
+  "region": "Europe",
+  "year": 2020,
+  "demographics": {
+    "population": 50015792,
+    "population_growth_pct": 0.67,
+    "life_expectancy": 82.0,
+    "median_age": 43.9
+  },
+  "economy": {
+    "gdp_growth_pct": 1.95,
+    "gdp_per_capita": 33698,
+    "inflation_pct": 0.7,
+    "unemployment_pct": 34.3,
+    "exports_billions": 533.77,
+    "imports_billions": 463.14,
+    "external_debt_billions": 2094.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.92
+  },
+  "political": {}
+}

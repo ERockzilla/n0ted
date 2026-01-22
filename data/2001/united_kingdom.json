@@ -1,0 +1,22 @@
+{
+  "country": "United Kingdom",
+  "region": "Europe",
+  "year": 2001,
+  "demographics": {
+    "population": 59647790,
+    "population_growth_pct": 0.23
+  },
+  "economy": {
+    "gdp_ppp_billions": 1360.0,
+    "gdp_growth_pct": 3.0,
+    "gdp_per_capita": 22800,
+    "inflation_pct": 2.4,
+    "unemployment_pct": 5.5,
+    "exports_billions": 282.0,
+    "imports_billions": 324.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.7
+  },
+  "political": {}
+}

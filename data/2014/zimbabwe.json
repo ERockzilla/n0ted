@@ -1,0 +1,23 @@
+{
+  "country": "Zimbabwe",
+  "region": "Africa",
+  "year": 2014,
+  "demographics": {
+    "population": 13771721,
+    "population_growth_pct": 4.36,
+    "life_expectancy": 55.68
+  },
+  "economy": {
+    "gdp_ppp_billions": 7.5,
+    "gdp_growth_pct": 3.2,
+    "gdp_per_capita": 600,
+    "inflation_pct": 8.5,
+    "unemployment_pct": 95.0,
+    "exports_billions": 3.14,
+    "imports_billions": 4.57
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.94
+  },
+  "political": {}
+}

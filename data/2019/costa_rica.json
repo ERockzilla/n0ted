@@ -1,0 +1,21 @@
+{
+  "country": "Costa Rica",
+  "region": "Central America and Caribbean",
+  "year": 2019,
+  "demographics": {
+    "population": 4987142,
+    "population_growth_pct": 1.13,
+    "life_expectancy": 78.9
+  },
+  "economy": {
+    "gdp_ppp_billions": 83.94,
+    "gdp_growth_pct": 3.3,
+    "gdp_per_capita": 16900,
+    "inflation_pct": 1.6,
+    "unemployment_pct": 20.6,
+    "exports_billions": 10.81,
+    "imports_billions": 15.15
+  },
+  "military": {},
+  "political": {}
+}

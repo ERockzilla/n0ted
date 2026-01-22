@@ -1,0 +1,22 @@
+{
+  "country": "Cameroon",
+  "region": "Africa",
+  "year": 2004,
+  "demographics": {
+    "population": 16380005,
+    "life_expectancy": 47.84
+  },
+  "economy": {
+    "gdp_ppp_billions": 27.75,
+    "gdp_growth_pct": 4.2,
+    "gdp_per_capita": 1800,
+    "inflation_pct": 2.3,
+    "unemployment_pct": 30.0,
+    "exports_billions": 1.87,
+    "imports_billions": 1.96
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.4
+  },
+  "political": {}
+}

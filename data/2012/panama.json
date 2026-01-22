@@ -1,0 +1,23 @@
+{
+  "country": "Panama",
+  "region": "Central America and Caribbean",
+  "year": 2012,
+  "demographics": {
+    "population": 3510045,
+    "population_growth_pct": 1.41,
+    "life_expectancy": 77.96
+  },
+  "economy": {
+    "gdp_ppp_billions": 55.8,
+    "gdp_growth_pct": 8.5,
+    "gdp_per_capita": 15300,
+    "inflation_pct": 6.1,
+    "unemployment_pct": 4.4,
+    "exports_billions": 17.97,
+    "imports_billions": 24.04
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.0
+  },
+  "political": {}
+}

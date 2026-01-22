@@ -1,0 +1,20 @@
+{
+  "country": "Guam",
+  "region": "Australia-Oceania",
+  "year": 2012,
+  "demographics": {
+    "population": 159914,
+    "population_growth_pct": 0.24,
+    "life_expectancy": 78.5
+  },
+  "economy": {
+    "gdp_ppp_billions": 2.5,
+    "gdp_per_capita": 15000,
+    "inflation_pct": 2.5,
+    "unemployment_pct": 11.4,
+    "exports_billions": 0.04,
+    "imports_billions": 0.7
+  },
+  "military": {},
+  "political": {}
+}

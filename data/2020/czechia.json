@@ -1,0 +1,24 @@
+{
+  "country": "Czechia",
+  "region": "Europe",
+  "year": 2020,
+  "demographics": {
+    "population": 10702498,
+    "population_growth_pct": 0.06,
+    "life_expectancy": 79.3,
+    "median_age": 43.3
+  },
+  "economy": {
+    "gdp_growth_pct": 2.27,
+    "gdp_per_capita": 25816,
+    "inflation_pct": 2.8,
+    "unemployment_pct": 6.7,
+    "exports_billions": 229.58,
+    "imports_billions": 211.92,
+    "external_debt_billions": 205.2
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.19
+  },
+  "political": {}
+}

@@ -1,0 +1,19 @@
+{
+  "country": "Gibraltar",
+  "region": "Europe",
+  "year": 2001,
+  "demographics": {
+    "population": 27649,
+    "population_growth_pct": 0.24
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.5,
+    "gdp_per_capita": 17500,
+    "inflation_pct": 1.5,
+    "unemployment_pct": 13.5,
+    "exports_billions": 0.0811,
+    "imports_billions": 0.492
+  },
+  "military": {},
+  "political": {}
+}

@@ -1,0 +1,21 @@
+{
+  "country": "Seychelles",
+  "region": "Africa",
+  "year": 2007,
+  "demographics": {
+    "population": 81895,
+    "life_expectancy": 72.34
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.63,
+    "gdp_growth_pct": -1.0,
+    "gdp_per_capita": 7800,
+    "inflation_pct": -0.4,
+    "exports_billions": 0.42,
+    "imports_billions": 0.71
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.0
+  },
+  "political": {}
+}

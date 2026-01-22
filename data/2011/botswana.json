@@ -1,0 +1,23 @@
+{
+  "country": "Botswana",
+  "region": "Africa",
+  "year": 2011,
+  "demographics": {
+    "population": 2065398,
+    "population_growth_pct": 1.66,
+    "life_expectancy": 58.05
+  },
+  "economy": {
+    "gdp_ppp_billions": 28.49,
+    "gdp_growth_pct": 8.6,
+    "gdp_per_capita": 14000,
+    "inflation_pct": 7.0,
+    "unemployment_pct": 7.5,
+    "exports_billions": 4.59,
+    "imports_billions": 4.77
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.3
+  },
+  "political": {}
+}

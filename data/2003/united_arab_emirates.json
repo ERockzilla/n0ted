@@ -1,0 +1,21 @@
+{
+  "country": "United Arab Emirates",
+  "region": "Middle East",
+  "year": 2003,
+  "demographics": {
+    "population": 2484818,
+    "life_expectancy": 74.75
+  },
+  "economy": {
+    "gdp_ppp_billions": 53.97,
+    "gdp_growth_pct": 1.8,
+    "gdp_per_capita": 22100,
+    "inflation_pct": 2.8,
+    "exports_billions": 44.9,
+    "imports_billions": 30.8
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.1
+  },
+  "political": {}
+}

@@ -1,0 +1,18 @@
+{
+  "country": "Wallis And Futuna",
+  "region": "Australia-Oceania",
+  "year": 2006,
+  "demographics": {
+    "population": 16025
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.06,
+    "gdp_per_capita": 3800,
+    "inflation_pct": 2.8,
+    "unemployment_pct": 15.2,
+    "imports_billions": 0.06,
+    "exports_billions": 47450.0
+  },
+  "military": {},
+  "political": {}
+}

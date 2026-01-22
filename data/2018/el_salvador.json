@@ -1,0 +1,23 @@
+{
+  "country": "El Salvador",
+  "region": "Central America and Caribbean",
+  "year": 2018,
+  "demographics": {
+    "population": 6187271,
+    "population_growth_pct": 0.25,
+    "life_expectancy": 75.1
+  },
+  "economy": {
+    "gdp_ppp_billions": 51.17,
+    "gdp_growth_pct": 2.3,
+    "gdp_per_capita": 8000,
+    "inflation_pct": 1.0,
+    "unemployment_pct": 9.8,
+    "exports_billions": 4.66,
+    "imports_billions": 9.5
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.87
+  },
+  "political": {}
+}

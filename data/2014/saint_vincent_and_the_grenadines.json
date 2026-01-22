@@ -1,0 +1,21 @@
+{
+  "country": "Saint Vincent And The Grenadines",
+  "region": "Central America and Caribbean",
+  "year": 2014,
+  "demographics": {
+    "population": 102918,
+    "population_growth_pct": -0.29,
+    "life_expectancy": 74.86
+  },
+  "economy": {
+    "gdp_ppp_billions": 1.33,
+    "gdp_growth_pct": 2.0,
+    "gdp_per_capita": 12100,
+    "inflation_pct": 2.8,
+    "unemployment_pct": 18.8,
+    "exports_billions": 0.05,
+    "imports_billions": 0.3
+  },
+  "military": {},
+  "political": {}
+}

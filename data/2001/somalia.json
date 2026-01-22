@@ -1,0 +1,18 @@
+{
+  "country": "Somalia",
+  "region": "Africa",
+  "year": 2001,
+  "demographics": {
+    "population": 7488773,
+    "population_growth_pct": 3.48
+  },
+  "economy": {
+    "gdp_ppp_billions": 4.3,
+    "gdp_per_capita": 600,
+    "exports_billions": 0.186,
+    "imports_billions": 0.314,
+    "inflation_pct": 100.0
+  },
+  "military": {},
+  "political": {}
+}

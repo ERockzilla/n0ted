@@ -1,0 +1,22 @@
+{
+  "country": "Syria",
+  "region": "Middle East",
+  "year": 2006,
+  "demographics": {
+    "population": 18881361,
+    "life_expectancy": 70.32
+  },
+  "economy": {
+    "gdp_ppp_billions": 71.42,
+    "gdp_growth_pct": 2.8,
+    "gdp_per_capita": 3900,
+    "inflation_pct": 5.0,
+    "unemployment_pct": 12.3,
+    "exports_billions": 6.34,
+    "imports_billions": 5.97
+  },
+  "military": {
+    "expenditure_pct_gdp": 5.9
+  },
+  "political": {}
+}

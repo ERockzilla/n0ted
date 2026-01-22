@@ -1,0 +1,22 @@
+{
+  "country": "Peru",
+  "region": "South America",
+  "year": 2007,
+  "demographics": {
+    "population": 28674757,
+    "life_expectancy": 70.14
+  },
+  "economy": {
+    "gdp_ppp_billions": 186.6,
+    "gdp_growth_pct": 8.0,
+    "gdp_per_capita": 6600,
+    "inflation_pct": 2.0,
+    "unemployment_pct": 7.2,
+    "exports_billions": 23.75,
+    "imports_billions": 14.9
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.5
+  },
+  "political": {}
+}

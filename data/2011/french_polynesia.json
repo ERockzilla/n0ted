@@ -1,0 +1,21 @@
+{
+  "country": "French Polynesia",
+  "region": "Australia-Oceania",
+  "year": 2011,
+  "demographics": {
+    "population": 294935,
+    "population_growth_pct": 1.33,
+    "life_expectancy": 77.1
+  },
+  "economy": {
+    "gdp_ppp_billions": 4.72,
+    "gdp_growth_pct": 2.7,
+    "gdp_per_capita": 18000,
+    "inflation_pct": 1.1,
+    "unemployment_pct": 11.7,
+    "exports_billions": 0.21,
+    "imports_billions": 1.71
+  },
+  "military": {},
+  "political": {}
+}

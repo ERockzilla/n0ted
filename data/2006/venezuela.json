@@ -1,0 +1,22 @@
+{
+  "country": "Venezuela",
+  "region": "South America",
+  "year": 2006,
+  "demographics": {
+    "population": 25730435,
+    "life_expectancy": 74.54
+  },
+  "economy": {
+    "gdp_ppp_billions": 162.1,
+    "gdp_growth_pct": 9.3,
+    "gdp_per_capita": 6400,
+    "inflation_pct": 16.0,
+    "unemployment_pct": 12.2,
+    "exports_billions": 52.73,
+    "imports_billions": 24.63
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.2
+  },
+  "political": {}
+}

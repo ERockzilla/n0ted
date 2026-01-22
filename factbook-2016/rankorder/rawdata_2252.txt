@@ -1,0 +1,214 @@
+1      European Union                                     420,600,000,000                                   
+2      Japan                                              128,300,000,000                                   
+3      Germany                                            86,840,000,000                                    
+4      United States                                      76,320,000,000                                    
+5      China                                              59,700,000,000                                    
+6      Italy                                              55,760,000,000                                    
+7      Korea, South                                       49,080,000,000                                    
+8      Turkey                                             48,890,000,000                                    
+9      United Kingdom                                     42,830,000,000                                    
+10     France                                             41,180,000,000                                    
+11     Spain                                              36,390,000,000                                    
+12     Netherlands                                        29,100,000,000                                    
+13     Mexico                                             27,390,000,000                                    
+14     Russia                                             24,200,000,000                                    
+15     Canada                                             21,890,000,000                                    
+16     Belarus                                            20,100,000,000                                    
+17     United Arab Emirates                               19,490,000,000                                    
+18     Brazil                                             19,000,000,000                                    
+19     Taiwan                                             18,950,000,000                                    
+20     India                                              18,900,000,000                                    
+21     Belgium                                            16,850,000,000                                    
+22     Ukraine                                            16,400,000,000                                    
+23     Poland                                             11,820,000,000                                    
+24     Argentina                                          11,200,000,000                                    
+25     Thailand                                           10,470,000,000                                    
+26     Austria                                            10,170,000,000                                    
+27     Singapore                                          9,620,000,000                                     
+28     Hungary                                            8,167,000,000                                     
+29     Czechia                                            7,249,000,000                                     
+30     Australia                                          6,937,000,000                                     
+31     Iran                                               6,886,000,000                                     
+32     Kazakhstan                                         6,500,000,000                                     
+33     Ireland                                            4,246,000,000                                     
+34     Slovakia                                           4,210,000,000                                     
+35     Portugal                                           4,069,000,000                                     
+36     South Africa                                       3,771,000,000                                     
+37     Chile                                              3,715,000,000                                     
+38     Moldova                                            3,280,000,000                                     
+39     Switzerland                                        3,261,000,000                                     
+40     Lithuania                                          3,240,000,000                                     
+41     Finland                                            3,080,000,000                                     
+42     Greece                                             2,931,000,000                                     
+43     Egypt                                              2,832,000,000                                     
+44     Hong Kong                                          2,743,000,000                                     
+45     Bulgaria                                           2,725,000,000                                     
+46     Malaysia                                           2,340,000,000                                     
+47     Tunisia                                            2,200,000,000                                     
+48     Armenia                                            2,061,000,000                                     
+49     Georgia                                            2,030,000,000                                     
+50     Oman                                               1,950,000,000                                     
+51     Venezuela                                          1,839,000,000                                     
+52     Puerto Rico                                        1,663,000,000                                     
+53     Serbia                                             1,629,000,000                                     
+54     Dominican Republic                                 1,450,000,000                                     
+55     Latvia                                             1,410,000,000                                     
+56     Morocco                                            1,102,000,000                                     
+57     Croatia                                            1,079,000,000                                     
+58     Luxembourg                                         979,000,000                                       
+59     Sweden                                             892,000,000                                       
+60     Jordan                                             865,000,000                                       
+61     Slovenia                                           767,000,000                                       
+62     Denmark                                            625,000,000                                       
+63     Kuwait                                             571,000,000                                       
+64     Estonia                                            530,000,000                                       
+65     Ghana                                              430,000,000                                       
+66     Kyrgyzstan                                         374,000,000                                       
+67     Syria                                              350,000,000                                       
+68     Romania                                            277,100,000                                       
+69     Bosnia and Herzegovina                             275,000,000                                       
+70     Tajikistan                                         198,000,000                                       
+71     Macedonia                                          134,700,000                                       
+72     Israel                                             60,000,000                                        
+73     Uruguay                                            50,000,000                                        
+74     Macau                                              371,000                                           
+75     Aruba                                              1                                                 
+76     British Virgin Islands                             0                                                 
+77     Vietnam                                            0                                                 
+78     Virgin Islands                                     0                                                 
+79     Namibia                                            0                                                 
+80     West Bank                                          0                                                 
+81     Western Sahara                                     0                                                 
+82     Samoa                                              0                                                 
+83     Swaziland                                          0                                                 
+84     Yemen                                              0                                                 
+85     Zambia                                             0                                                 
+86     Zimbabwe                                           0                                                 
+87     Kenya                                              0                                                 
+88     Korea, North                                       0                                                 
+89     Kiribati                                           0                                                 
+90     Laos                                               0                                                 
+91     Lebanon                                            0                                                 
+92     Liberia                                            0                                                 
+93     Lesotho                                            0                                                 
+94     Libya                                              0                                                 
+95     Madagascar                                         0                                                 
+96     Mongolia                                           0                                                 
+97     Montserrat                                         0                                                 
+98     Malawi                                             0                                                 
+99     Montenegro                                         0                                                 
+100    Mali                                               0                                                 
+101    Mauritius                                          0                                                 
+102    Mauritania                                         0                                                 
+103    Malta                                              0                                                 
+104    Maldives                                           0                                                 
+105    Mozambique                                         0                                                 
+106    New Caledonia                                      0                                                 
+107    Niue                                               0                                                 
+108    Niger                                              0                                                 
+109    Vanuatu                                            0                                                 
+110    Nigeria                                            0                                                 
+111    Norway                                             0                                                 
+112    Nepal                                              0                                                 
+113    Nauru                                              0                                                 
+114    Suriname                                           0                                                 
+115    Nicaragua                                          0                                                 
+116    New Zealand                                        0                                                 
+117    South Sudan                                        0                                                 
+118    Paraguay                                           0                                                 
+119    Peru                                               0                                                 
+120    Pakistan                                           0                                                 
+121    Panama                                             0                                                 
+122    Papua New Guinea                                   0                                                 
+123    Guinea-Bissau                                      0                                                 
+124    Qatar                                              0                                                 
+125    Philippines                                        0                                                 
+126    Rwanda                                             0                                                 
+127    Saudi Arabia                                       0                                                 
+128    Saint Pierre and Miquelon                          0                                                 
+129    Saint Kitts and Nevis                              0                                                 
+130    Seychelles                                         0                                                 
+131    Senegal                                            0                                                 
+132    Saint Helena, Ascension, and Tristan da Cunha      0                                                 
+133    Sierra Leone                                       0                                                 
+134    Somalia                                            0                                                 
+135    Saint Lucia                                        0                                                 
+136    Sudan                                              0                                                 
+137    Svalbard                                           0                                                 
+138    Trinidad and Tobago                                0                                                 
+139    Turks and Caicos Islands                           0                                                 
+140    Tonga                                              0                                                 
+141    Togo                                               0                                                 
+142    Sao Tome and Principe                              0                                                 
+143    Timor-Leste                                        0                                                 
+144    Tuvalu                                             0                                                 
+145    Turkmenistan                                       0                                                 
+146    Tanzania                                           0                                                 
+147    Uganda                                             0                                                 
+148    Burkina Faso                                       0                                                 
+149    Uzbekistan                                         0                                                 
+150    Saint Vincent and the Grenadines                   0                                                 
+151    Antigua and Barbuda                                0                                                 
+152    Afghanistan                                        0                                                 
+153    Algeria                                            0                                                 
+154    Azerbaijan                                         0                                                 
+155    Albania                                            0                                                 
+156    Angola                                             0                                                 
+157    American Samoa                                     0                                                 
+158    Bahrain                                            0                                                 
+159    Barbados                                           0                                                 
+160    Botswana                                           0                                                 
+161    Bermuda                                            0                                                 
+162    Bahamas, The                                       0                                                 
+163    Bangladesh                                         0                                                 
+164    Belize                                             0                                                 
+165    Bolivia                                            0                                                 
+166    Burma                                              0                                                 
+167    Benin                                              0                                                 
+168    Solomon Islands                                    0                                                 
+169    Bhutan                                             0                                                 
+170    Brunei                                             0                                                 
+171    Burundi                                            0                                                 
+172    Cambodia                                           0                                                 
+173    Curacao                                            0                                                 
+174    Chad                                               0                                                 
+175    Sri Lanka                                          0                                                 
+176    Congo, Republic of the                             0                                                 
+177    Congo, Democratic Republic of the                  0                                                 
+178    Cayman Islands                                     0                                                 
+179    Cameroon                                           0                                                 
+180    Comoros                                            0                                                 
+181    Colombia                                           0                                                 
+182    Costa Rica                                         0                                                 
+183    Central African Republic                           0                                                 
+184    Cuba                                               0                                                 
+185    Cabo Verde                                         0                                                 
+186    Cook Islands                                       0                                                 
+187    Cyprus                                             0                                                 
+188    Djibouti                                           0                                                 
+189    Dominica                                           0                                                 
+190    Ecuador                                            0                                                 
+191    Equatorial Guinea                                  0                                                 
+192    Eritrea                                            0                                                 
+193    El Salvador                                        0                                                 
+194    Ethiopia                                           0                                                 
+195    Fiji                                               0                                                 
+196    Falkland Islands (Islas Malvinas)                  0                                                 
+197    Faroe Islands                                      0                                                 
+198    French Polynesia                                   0                                                 
+199    Gambia, The                                        0                                                 
+200    Gabon                                              0                                                 
+201    Gibraltar                                          0                                                 
+202    Grenada                                            0                                                 
+203    Greenland                                          0                                                 
+204    Guam                                               0                                                 
+205    Guatemala                                          0                                                 
+206    Guinea                                             0                                                 
+207    Guyana                                             0                                                 
+208    Haiti                                              0                                                 
+209    Honduras                                           0                                                 
+210    Iceland                                            0                                                 
+211    Indonesia                                          0                                                 
+212    Cote d'Ivoire                                      0                                                 
+213    Iraq                                               0                                                 
+214    Jamaica                                            0                                                 

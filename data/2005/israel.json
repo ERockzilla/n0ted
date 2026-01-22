@@ -1,0 +1,22 @@
+{
+  "country": "Israel",
+  "region": "Middle East",
+  "year": 2005,
+  "demographics": {
+    "population": 6276883,
+    "life_expectancy": 79.32
+  },
+  "economy": {
+    "gdp_ppp_billions": 129.0,
+    "gdp_growth_pct": 3.9,
+    "gdp_per_capita": 20800,
+    "inflation_pct": 0.0,
+    "unemployment_pct": 10.7,
+    "exports_billions": 34.41,
+    "imports_billions": 36.84
+  },
+  "military": {
+    "expenditure_pct_gdp": 8.7
+  },
+  "political": {}
+}

@@ -1,0 +1,23 @@
+{
+  "country": "Luxembourg",
+  "region": "Europe",
+  "year": 2013,
+  "demographics": {
+    "population": 514862,
+    "population_growth_pct": 1.13,
+    "life_expectancy": 79.88
+  },
+  "economy": {
+    "gdp_ppp_billions": 41.86,
+    "gdp_growth_pct": 0.3,
+    "gdp_per_capita": 78000,
+    "inflation_pct": 2.7,
+    "unemployment_pct": 6.1,
+    "exports_billions": 15.93,
+    "imports_billions": 23.78
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.9
+  },
+  "political": {}
+}

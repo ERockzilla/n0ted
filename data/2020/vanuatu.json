@@ -1,0 +1,21 @@
+{
+  "country": "Vanuatu",
+  "region": "Australia-Oceania",
+  "year": 2020,
+  "demographics": {
+    "population": 298333,
+    "population_growth_pct": 1.73,
+    "life_expectancy": 74.6,
+    "median_age": 23.0
+  },
+  "economy": {
+    "gdp_growth_pct": 4.2,
+    "gdp_per_capita": 2700,
+    "inflation_pct": 3.1,
+    "exports_billions": 0.04,
+    "imports_billions": 0.27,
+    "external_debt_billions": 0.2
+  },
+  "military": {},
+  "political": {}
+}

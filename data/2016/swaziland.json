@@ -1,0 +1,23 @@
+{
+  "country": "Swaziland",
+  "region": "Africa",
+  "year": 2016,
+  "demographics": {
+    "population": 1451428,
+    "population_growth_pct": 1.1,
+    "life_expectancy": 51.6
+  },
+  "economy": {
+    "gdp_ppp_billions": 10.87,
+    "gdp_growth_pct": 1.7,
+    "gdp_per_capita": 9700,
+    "inflation_pct": 5.0,
+    "unemployment_pct": 40.0,
+    "exports_billions": 1.76,
+    "imports_billions": 1.6
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.17
+  },
+  "political": {}
+}

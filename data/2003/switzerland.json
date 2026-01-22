@@ -1,0 +1,22 @@
+{
+  "country": "Switzerland",
+  "region": "Europe",
+  "year": 2003,
+  "demographics": {
+    "population": 7318638,
+    "life_expectancy": 79.99
+  },
+  "economy": {
+    "gdp_ppp_billions": 233.4,
+    "gdp_growth_pct": 0.1,
+    "gdp_per_capita": 32000,
+    "inflation_pct": 0.5,
+    "unemployment_pct": 1.9,
+    "exports_billions": 100.3,
+    "imports_billions": 94.4
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.0
+  },
+  "political": {}
+}

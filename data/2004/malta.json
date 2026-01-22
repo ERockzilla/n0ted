@@ -1,0 +1,22 @@
+{
+  "country": "Malta",
+  "region": "Europe",
+  "year": 2004,
+  "demographics": {
+    "population": 398534,
+    "life_expectancy": 78.86
+  },
+  "economy": {
+    "gdp_ppp_billions": 7.08,
+    "gdp_growth_pct": 0.8,
+    "gdp_per_capita": 17700,
+    "inflation_pct": 0.4,
+    "unemployment_pct": 7.0,
+    "exports_billions": 2.17,
+    "imports_billions": 2.76
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.7
+  },
+  "political": {}
+}

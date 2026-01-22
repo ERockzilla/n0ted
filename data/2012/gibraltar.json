@@ -1,0 +1,21 @@
+{
+  "country": "Gibraltar",
+  "region": "Europe",
+  "year": 2012,
+  "demographics": {
+    "population": 29034,
+    "population_growth_pct": 0.27,
+    "life_expectancy": 78.83
+  },
+  "economy": {
+    "gdp_ppp_billions": 1.27,
+    "gdp_growth_pct": 6.0,
+    "gdp_per_capita": 43000,
+    "inflation_pct": 2.8,
+    "unemployment_pct": 3.0,
+    "exports_billions": 0.27,
+    "imports_billions": 2.97
+  },
+  "military": {},
+  "political": {}
+}

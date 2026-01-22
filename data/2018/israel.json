@@ -1,0 +1,23 @@
+{
+  "country": "Israel",
+  "region": "Middle East",
+  "year": 2018,
+  "demographics": {
+    "population": 8424904,
+    "population_growth_pct": 1.49,
+    "life_expectancy": 82.7
+  },
+  "economy": {
+    "gdp_ppp_billions": 317.1,
+    "gdp_growth_pct": 3.3,
+    "gdp_per_capita": 36400,
+    "inflation_pct": 0.2,
+    "unemployment_pct": 7.3,
+    "exports_billions": 58.67,
+    "imports_billions": 68.61
+  },
+  "military": {
+    "expenditure_pct_gdp": 5.62
+  },
+  "political": {}
+}

@@ -1,0 +1,21 @@
+{
+  "country": "Andorra",
+  "region": "Europe",
+  "year": 2014,
+  "demographics": {
+    "population": 85458,
+    "population_growth_pct": 0.17,
+    "life_expectancy": 82.65
+  },
+  "economy": {
+    "gdp_ppp_billions": 3.16,
+    "gdp_growth_pct": -1.6,
+    "gdp_per_capita": 37200,
+    "inflation_pct": 1.1,
+    "unemployment_pct": 4.0,
+    "exports_billions": 0.07,
+    "imports_billions": 1.43
+  },
+  "military": {},
+  "political": {}
+}

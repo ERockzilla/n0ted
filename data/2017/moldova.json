@@ -1,0 +1,23 @@
+{
+  "country": "Moldova",
+  "region": "Europe",
+  "year": 2017,
+  "demographics": {
+    "population": 3474121,
+    "population_growth_pct": -1.1,
+    "life_expectancy": 71.0
+  },
+  "economy": {
+    "gdp_ppp_billions": 18.92,
+    "gdp_growth_pct": 4.0,
+    "gdp_per_capita": 5300,
+    "inflation_pct": 6.4,
+    "unemployment_pct": 4.1,
+    "exports_billions": 1.55,
+    "imports_billions": 3.6
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.5
+  },
+  "political": {}
+}

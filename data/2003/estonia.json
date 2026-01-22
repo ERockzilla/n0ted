@@ -1,0 +1,22 @@
+{
+  "country": "Estonia",
+  "region": "Europe",
+  "year": 2003,
+  "demographics": {
+    "population": 1408556,
+    "life_expectancy": 70.31
+  },
+  "economy": {
+    "gdp_ppp_billions": 15.52,
+    "gdp_growth_pct": 6.0,
+    "gdp_per_capita": 11000,
+    "inflation_pct": 3.7,
+    "unemployment_pct": 12.4,
+    "exports_billions": 3.4,
+    "imports_billions": 4.4
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.0
+  },
+  "political": {}
+}

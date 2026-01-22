@@ -1,0 +1,23 @@
+{
+  "country": "Nigeria",
+  "region": "Africa",
+  "year": 2012,
+  "demographics": {
+    "population": 170123740,
+    "population_growth_pct": 2.55,
+    "life_expectancy": 52.05
+  },
+  "economy": {
+    "gdp_ppp_billions": 450.5,
+    "gdp_growth_pct": 7.1,
+    "gdp_per_capita": 2700,
+    "inflation_pct": 12.1,
+    "unemployment_pct": 23.9,
+    "exports_billions": 97.46,
+    "imports_billions": 70.58
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.5
+  },
+  "political": {}
+}

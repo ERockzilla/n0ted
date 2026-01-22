@@ -1,0 +1,22 @@
+{
+  "country": "Switzerland",
+  "region": "Europe",
+  "year": 2005,
+  "demographics": {
+    "population": 7489370,
+    "life_expectancy": 80.39
+  },
+  "economy": {
+    "gdp_ppp_billions": 251.9,
+    "gdp_growth_pct": 1.8,
+    "gdp_per_capita": 33800,
+    "inflation_pct": 0.9,
+    "unemployment_pct": 3.4,
+    "exports_billions": 130.7,
+    "imports_billions": 121.1
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.0
+  },
+  "political": {}
+}

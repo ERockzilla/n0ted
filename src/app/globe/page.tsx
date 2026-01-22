@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import InteractiveGlobe, { GlobeMetric, METRIC_CONFIG } from '@/components/InteractiveGlobe';
 import Navigation from '@/components/Navigation';
+import LoadingSpinner from '@/components/LoadingSpinner';
 
 interface CountryData {
     country: string;
@@ -17,39 +18,39 @@ interface CountryData {
 // SVG Icons
 const CoinsIcon = () => (
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-amber-500">
-        <circle cx="8" cy="8" r="6"/><path d="M18.09 10.37A6 6 0 1 1 10.34 18"/>
+        <circle cx="8" cy="8" r="6" /><path d="M18.09 10.37A6 6 0 1 1 10.34 18" />
     </svg>
 );
 
 const UsersIcon = () => (
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-violet-500">
-        <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/>
+        <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" /><circle cx="9" cy="7" r="4" />
     </svg>
 );
 
 const ShieldIcon = () => (
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-red-500">
-        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/>
+        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10" />
     </svg>
 );
 
 const TrendingUpIcon = () => (
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-emerald-500">
-        <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/>
+        <polyline points="22 7 13.5 15.5 8.5 10.5 2 17" /><polyline points="16 7 22 7 22 13" />
     </svg>
 );
 
 const ShipIcon = () => (
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-blue-500">
-        <path d="M2 21c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1 .6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/>
-        <path d="M19.38 20A11.6 11.6 0 0 0 21 14l-9-4-9 4c0 2.9.94 5.34 2.81 7.76"/>
+        <path d="M2 21c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1 .6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1" />
+        <path d="M19.38 20A11.6 11.6 0 0 0 21 14l-9-4-9 4c0 2.9.94 5.34 2.81 7.76" />
     </svg>
 );
 
 const LinkIcon = () => (
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
-        <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
+        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+        <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
     </svg>
 );
 
@@ -105,20 +106,42 @@ export default function GlobePage() {
     const [showArcs, setShowArcs] = useState(false);
     const [loading, setLoading] = useState(true);
     const [showControls, setShowControls] = useState(false);
+    const [availableYears, setAvailableYears] = useState<number[]>([2020]);
+    const [selectedYear, setSelectedYear] = useState<number>(2020);
 
+    // Fetch available years on mount
     useEffect(() => {
-        fetch('/api/countries')
+        fetch('/api/years')
+            .then(r => r.json())
+            .then(data => {
+                if (data.years && data.years.length > 0) {
+                    setAvailableYears(data.years.sort((a: number, b: number) => b - a));
+                    setSelectedYear(data.years[data.years.length - 1]); // Latest year
+                }
+            })
+            .catch(console.error);
+    }, []);
+
+    // Fetch country data when year changes
+    useEffect(() => {
+        setLoading(true);
+        fetch(`/api/countries?year=${selectedYear}`)
             .then(r => r.json())
             .then(async (data) => {
+                if (!data.countries) {
+                    setCountries([]);
+                    setLoading(false);
+                    return;
+                }
                 const countryPromises = data.countries.map((c: { file: string }) =>
-                    fetch(`/api/countries/${c.file.replace('.json', '')}`).then(r => r.json())
+                    fetch(`/api/countries/${c.file.replace('.json', '')}?year=${selectedYear}`).then(r => r.json())
                 );
                 const allCountries = await Promise.all(countryPromises);
                 setCountries(allCountries.filter(Boolean));
                 setLoading(false);
             })
             .catch(() => setLoading(false));
-    }, []);
+    }, [selectedYear]);
 
     const config = METRIC_CONFIG[activeMetric];
     const legend = METRIC_LEGENDS[activeMetric];
@@ -130,15 +153,12 @@ export default function GlobePage() {
             <main className="flex-1 relative">
                 {loading ? (
                     <div className="absolute inset-0 flex items-center justify-center">
-                        <div className="text-center">
-                            <div className="w-12 h-12 sm:w-16 sm:h-16 border-4 border-blue-400/30 border-t-blue-400 rounded-full animate-spin mx-auto mb-4"></div>
-                            <p className="text-slate-400 text-sm sm:text-base">Loading globe data...</p>
-                        </div>
+                        <LoadingSpinner size="xl" text="Loading globe data..." />
                     </div>
                 ) : (
                     <div className="h-[calc(100vh-80px)]">
-                        <InteractiveGlobe 
-                            countries={countries as any} 
+                        <InteractiveGlobe
+                            countries={countries as any}
                             activeMetric={activeMetric}
                             showArcs={showArcs}
                         />
@@ -151,7 +171,7 @@ export default function GlobePage() {
                     className="sm:hidden absolute top-20 right-4 z-20 bg-slate-900/90 backdrop-blur-md rounded-xl border border-slate-700/50 px-4 py-2 shadow-xl text-white text-sm flex items-center gap-2"
                 >
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                        <line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/>
+                        <line x1="4" x2="20" y1="12" y2="12" /><line x1="4" x2="20" y1="6" y2="6" /><line x1="4" x2="20" y1="18" y2="18" />
                     </svg>
                     Controls
                 </button>
@@ -168,11 +188,10 @@ export default function GlobePage() {
                                         setActiveMetric(metric);
                                         setShowControls(false);
                                     }}
-                                    className={`flex items-center gap-2 sm:gap-3 px-3 py-2 sm:px-4 sm:py-2.5 rounded-xl text-left transition-all ${
-                                        activeMetric === metric
-                                            ? 'bg-blue-500/20 text-blue-400 border border-blue-500/30'
-                                            : 'text-slate-300 hover:bg-slate-800 hover:text-white border border-transparent'
-                                    }`}
+                                    className={`flex items-center gap-2 sm:gap-3 px-3 py-2 sm:px-4 sm:py-2.5 rounded-xl text-left transition-all ${activeMetric === metric
+                                        ? 'bg-blue-500/20 text-blue-400 border border-blue-500/30'
+                                        : 'text-slate-300 hover:bg-slate-800 hover:text-white border border-transparent'
+                                        }`}
                                 >
                                     <span>{METRIC_ICONS[metric]}</span>
                                     <span className="font-medium text-xs sm:text-sm">{METRIC_CONFIG[metric].label}</span>
@@ -187,11 +206,10 @@ export default function GlobePage() {
                                     setShowArcs(!showArcs);
                                     setShowControls(false);
                                 }}
-                                className={`w-full flex items-center gap-2 sm:gap-3 px-3 py-2 sm:px-4 sm:py-2.5 rounded-xl text-left transition-all ${
-                                    showArcs
-                                        ? 'bg-blue-500/20 text-blue-400 border border-blue-500/30'
-                                        : 'text-slate-300 hover:bg-slate-800 hover:text-white border border-transparent'
-                                }`}
+                                className={`w-full flex items-center gap-2 sm:gap-3 px-3 py-2 sm:px-4 sm:py-2.5 rounded-xl text-left transition-all ${showArcs
+                                    ? 'bg-blue-500/20 text-blue-400 border border-blue-500/30'
+                                    : 'text-slate-300 hover:bg-slate-800 hover:text-white border border-transparent'
+                                    }`}
                             >
                                 <span className={showArcs ? 'text-blue-400' : 'text-slate-400'}><LinkIcon /></span>
                                 <span className="font-medium text-xs sm:text-sm">Trade Arcs</span>
@@ -213,8 +231,8 @@ export default function GlobePage() {
                         <div className="grid grid-cols-2 sm:grid-cols-1 gap-1 sm:gap-2">
                             {legend.map((item, i) => (
                                 <div key={i} className="flex items-center gap-2 sm:gap-3">
-                                    <div 
-                                        className="w-4 h-4 sm:w-5 sm:h-5 rounded-md shadow-inner flex-shrink-0" 
+                                    <div
+                                        className="w-4 h-4 sm:w-5 sm:h-5 rounded-md shadow-inner flex-shrink-0"
                                         style={{ backgroundColor: item.color }}
                                     />
                                     <span className="text-xs sm:text-sm text-slate-300">{item.label}</span>
@@ -227,11 +245,22 @@ export default function GlobePage() {
                     </div>
                 </div>
 
-                {/* Data Year Badge */}
+                {/* Data Year Selector */}
                 <div className="absolute top-20 left-4 sm:top-24 sm:left-6 z-10">
                     <div className="bg-slate-900/90 backdrop-blur-md rounded-xl border border-slate-700/50 px-3 py-2 sm:px-4 sm:py-3 shadow-xl">
-                        <p className="text-xs text-slate-500 uppercase tracking-wider">Data</p>
-                        <p className="text-xl sm:text-2xl font-bold text-white">2010</p>
+                        <p className="text-xs text-slate-500 uppercase tracking-wider mb-1">Data Year</p>
+                        <select
+                            value={selectedYear}
+                            onChange={(e) => setSelectedYear(parseInt(e.target.value))}
+                            className="bg-transparent text-xl sm:text-2xl font-bold text-white border-none outline-none cursor-pointer appearance-none pr-6"
+                            style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%2394a3b8'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'/%3E%3C/svg%3E")`, backgroundRepeat: 'no-repeat', backgroundPosition: 'right 0 center', backgroundSize: '16px' }}
+                        >
+                            {availableYears.map(year => (
+                                <option key={year} value={year} className="bg-slate-900 text-white">
+                                    {year}
+                                </option>
+                            ))}
+                        </select>
                         <p className="text-xs text-slate-400 hidden sm:block mt-1">CIA Factbook</p>
                     </div>
                 </div>

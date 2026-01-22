@@ -1,0 +1,23 @@
+{
+  "country": "Ghana",
+  "region": "Africa",
+  "year": 2013,
+  "demographics": {
+    "population": 25199609,
+    "population_growth_pct": 2.19,
+    "life_expectancy": 65.32
+  },
+  "economy": {
+    "gdp_ppp_billions": 82.65,
+    "gdp_growth_pct": 7.9,
+    "gdp_per_capita": 3300,
+    "inflation_pct": 9.2,
+    "unemployment_pct": 11.0,
+    "exports_billions": 13.54,
+    "imports_billions": 17.76
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.7
+  },
+  "political": {}
+}

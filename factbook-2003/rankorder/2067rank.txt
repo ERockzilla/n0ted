@@ -1,0 +1,174 @@
+This tab-delimited file can be read by most spreadsheet applications after being saved properly.  At the top of your browser window, click 'File' and 'Save As...'  After saving the file, open your spreadsheet, find the file you just saved and then 'Open' it.
+Rank 	 Country 	 Military expenditures - dollar figure 	 Date of Information
+1 	 United States 	 $     276,700,000,000 	 
+2 	 China 	 $      55,910,000,000 	 FY02
+3 	 France 	 $      46,500,000,000 	 2000
+4 	 Japan 	 $      39,520,000,000 	 FY02
+5 	 Germany 	 $      38,800,000,000 	 2002
+6 	 United Kingdom 	 $      31,700,000,000 	 2002
+7 	 Italy 	 $      20,200,000,000 	 2002
+8 	 Saudi Arabia 	 $      18,300,000,000 	 
+9 	 Brazil 	 $      13,408,000,000 	 
+10 	 Korea, South 	 $      13,094,300,000 	 FY02
+11 	 India 	 $      11,520,000,000 	 FY02
+12 	 Australia 	 $      11,390,000,000 	 FY02
+13 	 Iran 	 $       9,700,000,000 	 
+14 	 Israel 	 $       8,970,000,000 	 FY02
+15 	 Spain 	 $       8,600,000,000 	 2002
+16 	 Turkey 	 $       8,100,000,000 	 2002 est.
+17 	 Canada 	 $       7,861,000,000 	 FY01/02
+18 	 Taiwan 	 $       7,574,000,000 	 FY02
+19 	 Netherlands 	 $       6,500,000,000 	 FY00/01 est.
+20 	 Greece 	 $       6,120,000,000 	 
+21 	 Korea, North 	 $       5,217,400,000 	 FY02
+22 	 Singapore 	 $       4,470,000,000 	 
+23 	 Sweden 	 $       4,395,000,000 	 FY01
+24 	 Argentina 	 $       4,300,000,000 	 
+25 	 Egypt 	 $       4,040,000,000 	 FY99
+26 	 Mexico 	 $       4,000,000,000 	 
+27 	 Poland 	 $       3,500,000,000 	 2002
+28 	 Colombia 	 $       3,300,000,000 	 
+29 	 Norway 	 $       3,113,000,000 	 
+30 	 Belgium 	 $       3,077,000,000 	 FY01/02
+31 	 Pakistan 	 $       2,964,000,000 	 FY02
+32 	 Switzerland 	 $       2,548,000,000 	 FY01
+33 	 Chile 	 $       2,500,000,000 	 
+34 	 Denmark 	 $       2,470,000,000 	 FY99/00
+35 	 Oman 	 $       2,424,000,000 	 FY01
+36 	 Kuwait 	 $       1,967,300,000 	 
+37 	 Algeria 	 $       1,870,000,000 	 
+38 	 Finland 	 $       1,800,000,000 	 FY98/99
+39 	 Thailand 	 $       1,775,000,000 	 
+40 	 South Africa 	 $       1,746,000,000 	 FY02
+41 	 Malaysia 	 $       1,690,000,000 	 
+42 	 United Arab Emirates 	 $       1,600,000,000 	 
+43 	 Austria 	 $       1,497,000,000 	 FY01/02
+44 	 Morocco 	 $       1,400,000,000 	 
+45 	 Iraq 	 $       1,300,000,000 	 FY00
+46 	 Libya 	 $       1,300,000,000 	 
+47 	 Portugal 	 $       1,286,000,000 	 FY99/00
+48 	 Czech Republic 	 $       1,190,200,000 	 FY01
+49 	 Hungary 	 $       1,080,000,000 	 2002 est.
+50 	 Indonesia 	 $       1,000,000,000 	 
+51 	 Peru 	 $       1,000,000,000 	 
+52 	 Philippines 	 $        995,000,000 	 
+53 	 Romania 	 $        985,000,000 	 2002
+54 	 Venezuela 	 $        934,000,000 	 
+55 	 Syria 	 $        858,000,000 	 
+56 	 Ethiopia 	 $        800,000,000 	 FY00
+57 	 Jordan 	 $        757,500,000 	 FY01
+58 	 Qatar 	 $        723,000,000 	 
+59 	 Ecuador 	 $        720,000,000 	 
+60 	 Sri Lanka 	 $        719,000,000 	 
+61 	 Ireland 	 $        700,000,000 	 FY00/01
+62 	 Serbia and Montenegro 	 $        654,000,000 	 2002
+63 	 Vietnam 	 $        650,000,000 	 
+64 	 Zimbabwe 	 $        625,100,000 	 FY02
+65 	 Ukraine 	 $        617,900,000 	 FY02
+66 	 New Zealand 	 $        605,700,000 	 FY02
+67 	 Sudan 	 $        581,000,000 	 
+68 	 Bangladesh 	 $        559,000,000 	 FY96
+69 	 Lebanon 	 $        541,000,000 	 
+70 	 Bahrain 	 $        526,200,000 	 FY01
+71 	 Afghanistan 	 $        525,200,000 	 FY02
+72 	 Croatia 	 $        520,000,000 	 2002 est.
+73 	 Yemen 	 $        482,500,000 	 FY01
+74 	 Mali 	 $        419,700,000 	 FY02
+75 	 Nigeria 	 $        417,900,000 	 FY02
+76 	 Slovakia 	 $        406,000,000 	 2002
+77 	 Cyprus 	 $        384,000,000 	 
+78 	 Slovenia 	 $        370,000,000 	 FY00
+79 	 Bulgaria 	 $        356,000,000 	 FY02
+80 	 Tunisia 	 $        356,000,000 	 
+81 	 Brunei 	 $        329,700,000 	 FY02
+82 	 Congo, Democratic Republic of the 	 $        250,000,000 	 
+83 	 Uruguay 	 $        250,000,000 	 1999
+84 	 Bosnia and Herzegovina 	 $        234,300,000 	 
+85 	 Lithuania 	 $        230,800,000 	 FY01
+86 	 Angola 	 $        222,700,000 	 FY02
+87 	 Kazakhstan 	 $        221,800,000 	 FY02
+88 	 Botswana 	 $        207,300,000 	 FY02
+89 	 Macedonia, The Former Yugoslav Republic of 	 $        200,000,000 	 
+90 	 Uzbekistan 	 $        200,000,000 	 
+91 	 New Caledonia 	 $        192,300,000 	 FY96
+92 	 Kenya 	 $        185,200,000 	 FY02
+93 	 Dominican Republic 	 $        180,000,000 	 
+94 	 Belarus 	 $        176,100,000 	 FY02
+95 	 Estonia 	 $        155,000,000 	 2002 est.
+96 	 Guinea 	 $        154,000,000 	 FY02
+97 	 Luxembourg 	 $        147,800,000 	 FY01/02
+98 	 Bolivia 	 $        147,000,000 	 
+99 	 Cote d'Ivoire 	 $        143,500,000 	 FY02
+100 	 Armenia 	 $        135,000,000 	 FY01
+101 	 Panama 	 $        128,000,000 	 
+102 	 Paraguay 	 $        125,000,000 	 
+103 	 Uganda 	 $        124,700,000 	 FY02
+104 	 Azerbaijan 	 $        121,000,000 	 
+105 	 Guatemala 	 $        120,000,000 	 
+106 	 Cameroon 	 $        118,600,000 	 FY00
+107 	 Cambodia 	 $        112,000,000 	 
+108 	 El Salvador 	 $        112,000,000 	 
+109 	 Eritrea 	 $         95,750,000 	 FY02
+110 	 Trinidad and Tobago 	 $         90,000,000 	 1999
+111 	 Turkmenistan 	 $         90,000,000 	 
+112 	 Latvia 	 $         87,000,000 	 FY01
+113 	 Congo, Republic of the 	 $         84,000,000 	 FY01
+114 	 Gabon 	 $         81,900,000 	 FY02
+115 	 Benin 	 $         80,800,000 	 FY02
+116 	 Namibia 	 $         73,100,000 	 FY02
+117 	 Costa Rica 	 $         69,000,000 	 
+118 	 Senegal 	 $         68,600,000 	 FY02
+119 	 Malta 	 $         60,000,000 	 2000 est.
+120 	 Rwanda 	 $         59,570,000 	 FY02
+121 	 Nepal 	 $         57,220,000 	 FY02
+122 	 Albania 	 $         56,500,000 	 FY02
+123 	 Laos 	 $         55,000,000 	 
+124 	 Madagascar 	 $         52,300,000 	 FY02
+125 	 Haiti 	 $         50,000,000 	 FY00
+126 	 Burkina Faso 	 $         45,830,000 	 FY02
+127 	 Burundi 	 $         42,130,000 	 FY02
+128 	 Chad 	 $         40,740,000 	 FY02
+129 	 Papua New Guinea 	 $         40,210,000 	 FY02
+130 	 Fiji 	 $         39,210,000 	 FY02
+131 	 Burma 	 $         39,000,000 	 
+132 	 Mauritania 	 $         37,110,000 	 FY02
+133 	 Ghana 	 $         36,010,000 	 FY02
+134 	 Tajikistan 	 $         35,400,000 	 FY01
+135 	 Mozambique 	 $         35,100,000 	 
+136 	 Honduras 	 $         35,000,000 	 
+137 	 Maldives 	 $         34,460,000 	 FY02
+138 	 Lesotho 	 $         34,000,000 	 1999
+139 	 Zambia 	 $         33,460,000 	 FY02
+140 	 Equatorial Guinea 	 $         30,000,000 	 FY02
+141 	 Jamaica 	 $         30,000,000 	 
+142 	 Djibouti 	 $         26,530,000 	 FY02
+143 	 Nicaragua 	 $         26,000,000 	 
+144 	 Togo 	 $         23,720,000 	 FY02
+145 	 Mongolia 	 $         23,100,000 	 FY02
+146 	 Georgia 	 $         23,000,000 	 
+147 	 Niger 	 $         20,540,000 	 FY02
+148 	 Bahamas, The 	 $         20,000,000 	 FY95/96
+149 	 Swaziland 	 $         20,000,000 	 FY01
+150 	 Tanzania 	 $         19,680,000 	 FY02
+151 	 Kyrgyzstan 	 $         19,200,000 	 FY01
+152 	 Somalia 	 $         17,100,000 	 FY02
+153 	 Central African Republic 	 $         13,430,000 	 FY02
+154 	 Malawi 	 $         13,010,000 	 FY02
+155 	 Seychelles 	 $         12,800,000 	 FY02
+156 	 Sierra Leone 	 $         10,260,000 	 FY02
+157 	 Mauritius 	 $          9,712,000 	 FY02
+158 	 Bhutan 	 $          9,300,000 	 FY02
+159 	 Cape Verde 	 $          9,300,000 	 FY02
+160 	 Liberia 	 $          7,800,000 	 FY02
+161 	 Belize 	 $          7,700,000 	 
+162 	 Moldova 	 $          6,400,000 	 FY02
+163 	 Comoros 	 $          6,000,000 	 FY02
+164 	 Guinea-Bissau 	 $          5,600,000 	 FY02
+165 	 East Timor 	 $          4,400,000 	 FY03
+166 	 Bermuda 	 $          4,028,000 	 January 2002
+167 	 Gambia, The 	 $          1,200,000 	 FY02
+168 	 San Marino 	 $           700,000 	 FY00/01
+169 	 Sao Tome and Principe 	 $           400,000 	 FY01
+170 	 Iceland 	 $                0 	 
+
+ This file was last updated on 18 December, 2003

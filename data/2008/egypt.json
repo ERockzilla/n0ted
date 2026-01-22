@@ -1,0 +1,23 @@
+{
+  "country": "Egypt",
+  "region": "Africa",
+  "year": 2008,
+  "demographics": {
+    "population": 81713520,
+    "population_growth_pct": 1.68,
+    "life_expectancy": 71.85
+  },
+  "economy": {
+    "gdp_ppp_billions": 405.4,
+    "gdp_growth_pct": 7.1,
+    "gdp_per_capita": 5000,
+    "inflation_pct": 9.5,
+    "unemployment_pct": 9.1,
+    "exports_billions": 24.45,
+    "imports_billions": 44.95
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.4
+  },
+  "political": {}
+}

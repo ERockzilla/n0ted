@@ -1,0 +1,23 @@
+{
+  "country": "Norway",
+  "region": "Europe",
+  "year": 2016,
+  "demographics": {
+    "population": 5265158,
+    "population_growth_pct": 1.07,
+    "life_expectancy": 81.8
+  },
+  "economy": {
+    "gdp_ppp_billions": 357.0,
+    "gdp_growth_pct": 1.6,
+    "gdp_per_capita": 68600,
+    "inflation_pct": 2.2,
+    "unemployment_pct": 4.4,
+    "exports_billions": 102.9,
+    "imports_billions": 75.79
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.4
+  },
+  "political": {}
+}

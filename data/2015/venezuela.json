@@ -1,0 +1,23 @@
+{
+  "country": "Venezuela",
+  "region": "South America",
+  "year": 2015,
+  "demographics": {
+    "population": 28868486,
+    "population_growth_pct": 1.42,
+    "life_expectancy": 74.39
+  },
+  "economy": {
+    "gdp_ppp_billions": 545.7,
+    "gdp_growth_pct": -3.0,
+    "gdp_per_capita": 17900,
+    "inflation_pct": 62.2,
+    "unemployment_pct": 7.8,
+    "exports_billions": 83.2,
+    "imports_billions": 50.34
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.05
+  },
+  "political": {}
+}

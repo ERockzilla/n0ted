@@ -1,0 +1,23 @@
+{
+  "country": "Belgium",
+  "region": "Europe",
+  "year": 2011,
+  "demographics": {
+    "population": 10431477,
+    "population_growth_pct": 0.07,
+    "life_expectancy": 79.51
+  },
+  "economy": {
+    "gdp_ppp_billions": 394.3,
+    "gdp_growth_pct": 2.0,
+    "gdp_per_capita": 37800,
+    "inflation_pct": 2.3,
+    "unemployment_pct": 8.3,
+    "exports_billions": 282.3,
+    "imports_billions": 284.6
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.3
+  },
+  "political": {}
+}

@@ -1,0 +1,22 @@
+{
+  "country": "China",
+  "region": "East & Southeast Asia",
+  "year": 2011,
+  "demographics": {
+    "population_growth_pct": 0.49,
+    "life_expectancy": 74.68
+  },
+  "economy": {
+    "gdp_ppp_billions": 10090.0,
+    "gdp_growth_pct": 10.3,
+    "gdp_per_capita": 7600,
+    "inflation_pct": 3.2,
+    "unemployment_pct": 6.1,
+    "exports_billions": 1581.0,
+    "imports_billions": 1327.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 4.3
+  },
+  "political": {}
+}

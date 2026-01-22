@@ -1,0 +1,23 @@
+{
+  "country": "Iran",
+  "region": "Middle East",
+  "year": 2018,
+  "demographics": {
+    "population": 83024745,
+    "population_growth_pct": 1.19,
+    "life_expectancy": 74.2
+  },
+  "economy": {
+    "gdp_ppp_billions": 1640.0,
+    "gdp_growth_pct": 3.7,
+    "gdp_per_capita": 20100,
+    "inflation_pct": 9.6,
+    "unemployment_pct": 29.2,
+    "exports_billions": 101.4,
+    "imports_billions": 76.39
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.69
+  },
+  "political": {}
+}

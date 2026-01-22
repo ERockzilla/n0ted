@@ -1,0 +1,226 @@
+1      Angola                                             44.20                                             
+2      Niger                                              44.20                                             
+3      Mali                                               43.90                                             
+4      Uganda                                             42.90                                             
+5      Zambia                                             41.50                                             
+6      Burundi                                            41.30                                             
+7      Burkina Faso                                       41.20                                             
+8      Malawi                                             41.00                                             
+9      Somalia                                            39.60                                             
+10     Liberia                                            38.30                                             
+11     Mozambique                                         38.10                                             
+12     Afghanistan                                        37.90                                             
+13     Nigeria                                            36.90                                             
+14     Ethiopia                                           36.50                                             
+15     Sierra Leone                                       36.30                                             
+16     Tanzania                                           35.60                                             
+17     Chad                                               35.60                                             
+18     South Sudan                                        35.50                                             
+19     Cameroon                                           35.40                                             
+20     Guinea                                             35.10                                             
+21     Benin                                              35.00                                             
+22     Congo, Republic of the                             34.40                                             
+23     Central African Republic                           34.30                                             
+24     Gabon                                              34.20                                             
+25     Zimbabwe                                           34.20                                             
+26     Congo, Democratic Republic of the                  33.50                                             
+27     Timor-Leste                                        33.40                                             
+28     Senegal                                            33.40                                             
+29     Togo                                               33.30                                             
+30     Guinea-Bissau                                      32.50                                             
+31     Sao Tome and Principe                              32.40                                             
+32     Equatorial Guinea                                  32.20                                             
+33     Madagascar                                         31.60                                             
+34     Gaza Strip                                         31.40                                             
+35     Rwanda                                             30.70                                             
+36     Ghana                                              30.50                                             
+37     Iraq                                               30.40                                             
+38     Mauritania                                         30.40                                             
+39     Eritrea                                            29.60                                             
+40     Egypt                                              29.60                                             
+41     Gambia, The                                        29.40                                             
+42     Western Sahara                                     29.30                                             
+43     Yemen                                              28.40                                             
+44     Sudan                                              27.90                                             
+45     Cote d'Ivoire                                      27.70                                             
+46     Namibia                                            27.30                                             
+47     West Bank                                          26.30                                             
+48     Comoros                                            26.10                                             
+49     Solomon Islands                                    24.90                                             
+50     Lesotho                                            24.60                                             
+51     Marshall Islands                                   24.40                                             
+52     Guatemala                                          24.10                                             
+53     Belize                                             24.00                                             
+54     Oman                                               24.00                                             
+55     Swaziland                                          24.00                                             
+56     Nauru                                              24.00                                             
+57     Vanuatu                                            24.00                                             
+58     Jordan                                             23.90                                             
+59     Kenya                                              23.90                                             
+60     Papua New Guinea                                   23.70                                             
+61     Philippines                                        23.70                                             
+62     Tuvalu                                             23.70                                             
+63     Laos                                               23.60                                             
+64     Djibouti                                           23.40                                             
+65     Tajikistan                                         23.30                                             
+66     Haiti                                              23.00                                             
+67     Cambodia                                           23.00                                             
+68     Honduras                                           22.40                                             
+69     Algeria                                            22.20                                             
+70     Tonga                                              22.20                                             
+71     Botswana                                           22.10                                             
+72     Kyrgyzstan                                         22.10                                             
+73     Bolivia                                            22.00                                             
+74     Pakistan                                           21.90                                             
+75     Syria                                              21.20                                             
+76     Kiribati                                           21.20                                             
+77     Samoa                                              20.40                                             
+78     South Africa                                       20.20                                             
+79     Cabo Verde                                         20.00                                             
+80     Micronesia, Federated States of                    20.00                                             
+81     Guam                                               19.70                                             
+82     American Samoa                                     19.60                                             
+83     Nepal                                              19.50                                             
+84     Kuwait                                             19.20                                             
+85     Malaysia                                           19.10                                             
+86     Turkmenistan                                       19.10                                             
+87     India                                              19.00                                             
+88     Mongolia                                           18.90                                             
+89     Bangladesh                                         18.80                                             
+90     Venezuela                                          18.80                                             
+91     Fiji                                               18.60                                             
+92     Dominican Republic                                 18.40                                             
+93     Saudi Arabia                                       18.30                                             
+94     Mexico                                             18.30                                             
+95     Tunisia                                            18.20                                             
+96     Israel                                             18.10                                             
+97     Burma                                              18.10                                             
+98     Kazakhstan                                         18.10                                             
+99     Jamaica                                            17.90                                             
+100    Panama                                             17.90                                             
+101    Iran                                               17.90                                             
+102    Ecuador                                            17.90                                             
+103    Peru                                               17.80                                             
+104    Nicaragua                                          17.70                                             
+105    Morocco                                            17.70                                             
+106    Libya                                              17.50                                             
+107    Bhutan                                             17.30                                             
+108    Brunei                                             17.00                                             
+109    Uzbekistan                                         16.80                                             
+110    Argentina                                          16.70                                             
+111    Paraguay                                           16.60                                             
+112    El Salvador                                        16.20                                             
+113    Indonesia                                          16.20                                             
+114    Colombia                                           16.10                                             
+115    Maldives                                           16.10                                             
+116    Azerbaijan                                         15.80                                             
+117    Suriname                                           15.80                                             
+118    Antigua and Barbuda                                15.70                                             
+119    Turkey                                             15.70                                             
+120    Costa Rica                                         15.50                                             
+121    Grenada                                            15.50                                             
+122    Vietnam                                            15.50                                             
+123    Guyana                                             15.40                                             
+124    Turks and Caicos Islands                           15.30                                             
+125    Bahamas, The                                       15.30                                             
+126    Sri Lanka                                          15.20                                             
+127    Dominica                                           15.10                                             
+128    United Arab Emirates                               15.10                                             
+129    New Caledonia                                      15.00                                             
+130    Northern Mariana Islands                           15.00                                             
+131    French Polynesia                                   14.80                                             
+132    Korea, North                                       14.60                                             
+133    Greenland                                          14.40                                             
+134    Faroe Islands                                      14.30                                             
+135    Lebanon                                            14.30                                             
+136    Brazil                                             14.10                                             
+137    Ireland                                            14.10                                             
+138    Cook Islands                                       14.00                                             
+139    Gibraltar                                          14.00                                             
+140    Curacao                                            13.70                                             
+141    Iceland                                            13.70                                             
+142    Seychelles                                         13.70                                             
+143    Chile                                              13.60                                             
+144    Saint Lucia                                        13.30                                             
+145    Bahrain                                            13.30                                             
+146    Saint Vincent and the Grenadines                   13.20                                             
+147    Saint Kitts and Nevis                              13.20                                             
+148    Wallis and Futuna                                  13.20                                             
+149    Albania                                            13.20                                             
+150    New Zealand                                        13.20                                             
+151    Sint Maarten                                       13.10                                             
+152    Uruguay                                            13.00                                             
+153    Mauritius                                          13.00                                             
+154    Armenia                                            12.90                                             
+155    Virgin Islands                                     12.80                                             
+156    Trinidad and Tobago                                12.70                                             
+157    Anguilla                                           12.50                                             
+158    United States                                      12.50                                             
+159    Aruba                                              12.40                                             
+160    Jersey                                             12.40                                             
+161    China                                              12.30                                             
+162    Georgia                                            12.30                                             
+163    France                                             12.20                                             
+164    Norway                                             12.20                                             
+165    Australia                                          12.10                                             
+166    United Kingdom                                     12.10                                             
+167    Sweden                                             12.10                                             
+168    Cayman Islands                                     12.00                                             
+169    Barbados                                           11.70                                             
+170    Luxembourg                                         11.50                                             
+171    Moldova                                            11.50                                             
+172    Macedonia                                          11.40                                             
+173    Bermuda                                            11.30                                             
+174    Palau                                              11.30                                             
+175    Belgium                                            11.30                                             
+176    Cyprus                                             11.30                                             
+177    British Virgin Islands                             11.10                                             
+178    Russia                                             11.00                                             
+179    Thailand                                           11.00                                             
+180    Isle of Man                                        11.00                                             
+181    Falkland Islands (Islas Malvinas)                  10.90                                             
+182    Netherlands                                        10.90                                             
+183    Montserrat                                         10.80                                             
+184    Cuba                                               10.70                                             
+185    Finland                                            10.70                                             
+186    Denmark                                            10.50                                             
+187    Switzerland                                        10.50                                             
+188    Liechtenstein                                      10.40                                             
+189    Ukraine                                            10.30                                             
+190    Canada                                             10.30                                             
+191    Belarus                                            10.30                                             
+192    Malta                                              10.10                                             
+193    Estonia                                            10.10                                             
+194    Montenegro                                         10.00                                             
+195    Lithuania                                          9.90                                              
+196    Guernsey                                           9.80                                              
+197    Slovakia                                           9.70                                              
+198    Latvia                                             9.70                                              
+199    Qatar                                              9.60                                              
+200    Saint Helena, Ascension, and Tristan da Cunha      9.60                                              
+201    Austria                                            9.50                                              
+202    Poland                                             9.50                                              
+203    Czechia                                            9.30                                              
+204    Spain                                              9.20                                              
+205    Hungary                                            9.00                                              
+206    Serbia                                             9.00                                              
+207    Portugal                                           9.00                                              
+208    Hong Kong                                          8.90                                              
+209    Romania                                            8.90                                              
+210    Croatia                                            8.90                                              
+211    Bosnia and Herzegovina                             8.80                                              
+212    Bulgaria                                           8.70                                              
+213    Germany                                            8.60                                              
+214    Singapore                                          8.60                                              
+215    Italy                                              8.60                                              
+216    Macau                                              8.60                                              
+217    San Marino                                         8.60                                              
+218    Greece                                             8.40                                              
+219    Taiwan                                             8.30                                              
+220    Korea, South                                       8.30                                              
+221    Slovenia                                           8.20                                              
+222    Puerto Rico                                        8.10                                              
+223    Japan                                              7.70                                              
+224    Andorra                                            7.50                                              
+225    Saint Pierre and Miquelon                          7.10                                              
+226    Monaco                                             6.60                                              

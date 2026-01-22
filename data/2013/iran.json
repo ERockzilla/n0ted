@@ -1,0 +1,23 @@
+{
+  "country": "Iran",
+  "region": "Middle East",
+  "year": 2013,
+  "demographics": {
+    "population": 79853900,
+    "population_growth_pct": 1.24,
+    "life_expectancy": 70.62
+  },
+  "economy": {
+    "gdp_ppp_billions": 988.4,
+    "gdp_growth_pct": -1.9,
+    "gdp_per_capita": 13000,
+    "inflation_pct": 19.9,
+    "unemployment_pct": 15.5,
+    "exports_billions": 67.04,
+    "imports_billions": 70.03
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.5
+  },
+  "political": {}
+}

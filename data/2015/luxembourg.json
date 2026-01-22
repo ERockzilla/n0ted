@@ -1,0 +1,23 @@
+{
+  "country": "Luxembourg",
+  "region": "Europe",
+  "year": 2015,
+  "demographics": {
+    "population": 520672,
+    "population_growth_pct": 1.12,
+    "life_expectancy": 80.01
+  },
+  "economy": {
+    "gdp_ppp_billions": 50.65,
+    "gdp_growth_pct": 2.7,
+    "gdp_per_capita": 92400,
+    "inflation_pct": 0.7,
+    "unemployment_pct": 7.1,
+    "exports_billions": 18.9,
+    "imports_billions": 27.92
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.6
+  },
+  "political": {}
+}

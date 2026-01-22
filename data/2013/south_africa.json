@@ -1,0 +1,23 @@
+{
+  "country": "South Africa",
+  "region": "Africa",
+  "year": 2013,
+  "demographics": {
+    "population": 48601098,
+    "population_growth_pct": -0.45,
+    "life_expectancy": 49.48
+  },
+  "economy": {
+    "gdp_ppp_billions": 576.1,
+    "gdp_growth_pct": 2.5,
+    "gdp_per_capita": 11300,
+    "inflation_pct": 5.7,
+    "unemployment_pct": 25.1,
+    "exports_billions": 93.48,
+    "imports_billions": 102.6
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.7
+  },
+  "political": {}
+}

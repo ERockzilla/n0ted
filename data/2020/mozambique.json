@@ -1,0 +1,24 @@
+{
+  "country": "Mozambique",
+  "region": "Africa",
+  "year": 2020,
+  "demographics": {
+    "population": 30098197,
+    "population_growth_pct": 2.62,
+    "life_expectancy": 55.9,
+    "median_age": 17.0
+  },
+  "economy": {
+    "gdp_growth_pct": 3.11,
+    "gdp_per_capita": 1300,
+    "inflation_pct": 2.7,
+    "unemployment_pct": 7.4,
+    "exports_billions": 3.35,
+    "imports_billions": 7.37,
+    "external_debt_billions": 10.91
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.99
+  },
+  "political": {}
+}

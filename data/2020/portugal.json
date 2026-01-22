@@ -1,0 +1,24 @@
+{
+  "country": "Portugal",
+  "region": "Europe",
+  "year": 2020,
+  "demographics": {
+    "population": 10302674,
+    "population_growth_pct": -0.25,
+    "life_expectancy": 81.1,
+    "median_age": 44.6
+  },
+  "economy": {
+    "gdp_growth_pct": 2.24,
+    "gdp_per_capita": 24808,
+    "inflation_pct": 0.3,
+    "unemployment_pct": 20.3,
+    "exports_billions": 114.51,
+    "imports_billions": 120.33,
+    "external_debt_billions": 449.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.52
+  },
+  "political": {}
+}

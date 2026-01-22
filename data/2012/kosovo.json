@@ -1,0 +1,19 @@
+{
+  "country": "Kosovo",
+  "region": "Europe",
+  "year": 2012,
+  "demographics": {
+    "population": 1836529
+  },
+  "economy": {
+    "gdp_ppp_billions": 13.56,
+    "gdp_per_capita": 7400,
+    "inflation_pct": 8.3,
+    "unemployment_pct": 45.3,
+    "exports_billions": 0.42,
+    "imports_billions": 3.3,
+    "gdp_growth_pct": 3.8
+  },
+  "military": {},
+  "political": {}
+}

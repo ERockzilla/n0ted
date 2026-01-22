@@ -1,0 +1,21 @@
+{
+  "country": "Hong Kong",
+  "region": "East & Southeast Asia",
+  "year": 2014,
+  "demographics": {
+    "population": 7112688,
+    "population_growth_pct": 0.41,
+    "life_expectancy": 82.78
+  },
+  "economy": {
+    "gdp_ppp_billions": 381.3,
+    "gdp_growth_pct": 2.9,
+    "gdp_per_capita": 52700,
+    "inflation_pct": 4.4,
+    "unemployment_pct": 3.1,
+    "exports_billions": 456.4,
+    "imports_billions": 520.6
+  },
+  "military": {},
+  "political": {}
+}

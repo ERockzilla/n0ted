@@ -1,0 +1,18 @@
+{
+  "country": "Sint Maarten",
+  "region": "Central America and Caribbean",
+  "year": 2020,
+  "demographics": {
+    "population": 43847,
+    "population_growth_pct": 1.34,
+    "life_expectancy": 78.8,
+    "median_age": 41.1
+  },
+  "economy": {
+    "gdp_growth_pct": 3.6,
+    "gdp_per_capita": 66800,
+    "inflation_pct": 4.0
+  },
+  "military": {},
+  "political": {}
+}

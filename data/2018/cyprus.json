@@ -1,0 +1,23 @@
+{
+  "country": "Cyprus",
+  "region": "Europe",
+  "year": 2018,
+  "demographics": {
+    "population": 1237088,
+    "population_growth_pct": 1.27,
+    "life_expectancy": 79.0
+  },
+  "economy": {
+    "gdp_ppp_billions": 31.78,
+    "gdp_growth_pct": 3.9,
+    "gdp_per_capita": 37200,
+    "inflation_pct": 0.7,
+    "unemployment_pct": 29.1,
+    "exports_billions": 2.81,
+    "imports_billions": 7.93
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.78
+  },
+  "political": {}
+}

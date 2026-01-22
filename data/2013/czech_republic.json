@@ -1,0 +1,23 @@
+{
+  "country": "Czech Republic",
+  "region": "Europe",
+  "year": 2013,
+  "demographics": {
+    "population": 10162921,
+    "population_growth_pct": -0.15,
+    "life_expectancy": 77.56
+  },
+  "economy": {
+    "gdp_ppp_billions": 283.6,
+    "gdp_growth_pct": -1.2,
+    "gdp_per_capita": 27000,
+    "inflation_pct": 3.3,
+    "unemployment_pct": 6.8,
+    "exports_billions": 131.7,
+    "imports_billions": 124.2
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.0
+  },
+  "political": {}
+}

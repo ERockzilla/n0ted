@@ -1,0 +1,22 @@
+{
+  "country": "Austria",
+  "region": "Europe",
+  "year": 2001,
+  "demographics": {
+    "population": 8150835,
+    "population_growth_pct": 0.24
+  },
+  "economy": {
+    "gdp_ppp_billions": 203.0,
+    "gdp_growth_pct": 3.1,
+    "gdp_per_capita": 25000,
+    "inflation_pct": 2.0,
+    "unemployment_pct": 5.4,
+    "exports_billions": 63.2,
+    "imports_billions": 65.6
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.2
+  },
+  "political": {}
+}

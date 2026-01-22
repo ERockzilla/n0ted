@@ -1,0 +1,22 @@
+{
+  "country": "Mongolia",
+  "region": "East & Southeast Asia",
+  "year": 2007,
+  "demographics": {
+    "population": 2951786,
+    "life_expectancy": 66.99
+  },
+  "economy": {
+    "gdp_ppp_billions": 5.85,
+    "gdp_growth_pct": 7.5,
+    "gdp_per_capita": 2100,
+    "inflation_pct": 9.5,
+    "unemployment_pct": 3.3,
+    "exports_billions": 1.06,
+    "imports_billions": 1.18
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.4
+  },
+  "political": {}
+}

@@ -1,0 +1,23 @@
+{
+  "country": "Estonia",
+  "region": "Europe",
+  "year": 2013,
+  "demographics": {
+    "population": 1266375,
+    "population_growth_pct": -0.66,
+    "life_expectancy": 73.82
+  },
+  "economy": {
+    "gdp_ppp_billions": 29.09,
+    "gdp_growth_pct": 3.9,
+    "gdp_per_capita": 21700,
+    "inflation_pct": 3.9,
+    "unemployment_pct": 10.2,
+    "exports_billions": 14.46,
+    "imports_billions": 15.6
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.0
+  },
+  "political": {}
+}

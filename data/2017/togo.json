@@ -1,0 +1,21 @@
+{
+  "country": "Togo",
+  "region": "Africa",
+  "year": 2017,
+  "demographics": {
+    "population": 7965055,
+    "population_growth_pct": 2.6,
+    "life_expectancy": 65.4
+  },
+  "economy": {
+    "gdp_ppp_billions": 11.64,
+    "gdp_growth_pct": 5.0,
+    "gdp_per_capita": 1600,
+    "inflation_pct": 0.9,
+    "exports_billions": 0.97,
+    "imports_billions": 1.98,
+    "unemployment_pct": 6.9
+  },
+  "military": {},
+  "political": {}
+}

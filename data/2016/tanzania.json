@@ -1,0 +1,22 @@
+{
+  "country": "Tanzania",
+  "region": "Africa",
+  "year": 2016,
+  "demographics": {
+    "population": 52482726,
+    "population_growth_pct": 2.77,
+    "life_expectancy": 62.2
+  },
+  "economy": {
+    "gdp_ppp_billions": 138.7,
+    "gdp_growth_pct": 7.0,
+    "gdp_per_capita": 2900,
+    "inflation_pct": 5.6,
+    "exports_billions": 5.71,
+    "imports_billions": 9.84
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.13
+  },
+  "political": {}
+}

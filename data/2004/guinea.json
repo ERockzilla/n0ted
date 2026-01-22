@@ -1,0 +1,21 @@
+{
+  "country": "Guinea",
+  "region": "Africa",
+  "year": 2004,
+  "demographics": {
+    "population": 9467866,
+    "life_expectancy": 49.86
+  },
+  "economy": {
+    "gdp_ppp_billions": 19.02,
+    "gdp_growth_pct": 3.0,
+    "gdp_per_capita": 2100,
+    "inflation_pct": 14.8,
+    "exports_billions": 0.73,
+    "imports_billions": 0.65
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.7
+  },
+  "political": {}
+}

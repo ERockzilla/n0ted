@@ -1,0 +1,18 @@
+{
+  "country": "North Korea",
+  "region": "East & Southeast Asia",
+  "year": 2005,
+  "demographics": {
+    "population": 22912177,
+    "life_expectancy": 71.37
+  },
+  "economy": {
+    "gdp_growth_pct": 1.0,
+    "gdp_per_capita": 1700,
+    "exports_billions": 1.2,
+    "imports_billions": 2.1,
+    "gdp_ppp_billions": 40.0
+  },
+  "military": {},
+  "political": {}
+}

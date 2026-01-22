@@ -1,0 +1,24 @@
+{
+  "country": "Oman",
+  "region": "Middle East",
+  "year": 2020,
+  "demographics": {
+    "population": 4664844,
+    "population_growth_pct": 1.96,
+    "life_expectancy": 76.3,
+    "median_age": 26.2
+  },
+  "economy": {
+    "gdp_growth_pct": -0.9,
+    "gdp_per_capita": 46000,
+    "inflation_pct": 0.1,
+    "unemployment_pct": 13.7,
+    "exports_billions": 103.3,
+    "imports_billions": 24.12,
+    "external_debt_billions": 46.27
+  },
+  "military": {
+    "expenditure_pct_gdp": 8.8
+  },
+  "political": {}
+}

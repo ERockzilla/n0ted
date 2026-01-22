@@ -1,0 +1,23 @@
+{
+  "country": "Singapore",
+  "region": "East & Southeast Asia",
+  "year": 2013,
+  "demographics": {
+    "population": 5460302,
+    "population_growth_pct": 1.96,
+    "life_expectancy": 84.07
+  },
+  "economy": {
+    "gdp_ppp_billions": 323.0,
+    "gdp_growth_pct": 1.3,
+    "gdp_per_capita": 60800,
+    "inflation_pct": 4.6,
+    "unemployment_pct": 1.9,
+    "exports_billions": 435.8,
+    "imports_billions": 374.9
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.6
+  },
+  "political": {}
+}

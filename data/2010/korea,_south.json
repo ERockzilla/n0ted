@@ -1,0 +1,25 @@
+{
+  "country": "Korea, South",
+  "region": "Unknown",
+  "year": 2010,
+  "demographics": {
+    "population": 48636068,
+    "population_growth_pct": 0.258,
+    "life_expectancy": 78.81,
+    "median_age": 37.9
+  },
+  "economy": {
+    "gdp_ppp_billions": 1467.0,
+    "gdp_growth_pct": 6.1,
+    "gdp_per_capita": 30200,
+    "inflation_pct": 3.0,
+    "unemployment_pct": 3.7,
+    "exports_billions": 466.3,
+    "imports_billions": 417.9,
+    "external_debt_billions": 370.1
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.7
+  },
+  "political": {}
+}

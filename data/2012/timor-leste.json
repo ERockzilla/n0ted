@@ -1,0 +1,21 @@
+{
+  "country": "Timor-Leste",
+  "region": "East & Southeast Asia",
+  "year": 2012,
+  "demographics": {
+    "population": 1143667,
+    "population_growth_pct": 2.49,
+    "life_expectancy": 68.27
+  },
+  "economy": {
+    "gdp_ppp_billions": 10.63,
+    "gdp_growth_pct": 10.0,
+    "gdp_per_capita": 9500,
+    "inflation_pct": 9.0,
+    "unemployment_pct": 18.4,
+    "exports_billions": 0.02,
+    "imports_billions": 0.69
+  },
+  "military": {},
+  "political": {}
+}

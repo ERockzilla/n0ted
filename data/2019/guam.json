@@ -1,0 +1,21 @@
+{
+  "country": "Guam",
+  "region": "Australia-Oceania",
+  "year": 2019,
+  "demographics": {
+    "population": 167772,
+    "population_growth_pct": 0.23,
+    "life_expectancy": 76.4
+  },
+  "economy": {
+    "gdp_ppp_billions": 5.79,
+    "gdp_per_capita": 35600,
+    "inflation_pct": 1.0,
+    "unemployment_pct": 29.4,
+    "exports_billions": 1.12,
+    "imports_billions": 2.96,
+    "gdp_growth_pct": 0.4
+  },
+  "military": {},
+  "political": {}
+}

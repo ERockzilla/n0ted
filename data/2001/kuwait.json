@@ -1,0 +1,22 @@
+{
+  "country": "Kuwait",
+  "region": "Middle East",
+  "year": 2001,
+  "demographics": {
+    "population": 2041961,
+    "population_growth_pct": 3.38
+  },
+  "economy": {
+    "gdp_ppp_billions": 29.3,
+    "gdp_growth_pct": 6.0,
+    "gdp_per_capita": 15000,
+    "inflation_pct": 3.0,
+    "unemployment_pct": 1.8,
+    "exports_billions": 23.2,
+    "imports_billions": 7.6
+  },
+  "military": {
+    "expenditure_pct_gdp": 8.7
+  },
+  "political": {}
+}

@@ -1,0 +1,22 @@
+{
+  "country": "Sierra Leone",
+  "region": "Africa",
+  "year": 2015,
+  "demographics": {
+    "population": 5743725,
+    "population_growth_pct": 2.33,
+    "life_expectancy": 57.39
+  },
+  "economy": {
+    "gdp_ppp_billions": 12.89,
+    "gdp_growth_pct": 8.0,
+    "gdp_per_capita": 2100,
+    "inflation_pct": 8.3,
+    "exports_billions": 2.24,
+    "imports_billions": 2.07
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.72
+  },
+  "political": {}
+}

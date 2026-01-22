@@ -1,0 +1,21 @@
+{
+  "country": "Republic Of The Congo",
+  "region": "Unknown",
+  "year": 2016,
+  "demographics": {
+    "population": 4852412,
+    "population_growth_pct": 2.06,
+    "life_expectancy": 59.3
+  },
+  "economy": {
+    "gdp_growth_pct": 2.3,
+    "gdp_per_capita": 6700,
+    "inflation_pct": 2.0,
+    "exports_billions": 5.23,
+    "imports_billions": 3.93,
+    "gdp_ppp_billions": 29.37,
+    "unemployment_pct": 53.0
+  },
+  "military": {},
+  "political": {}
+}

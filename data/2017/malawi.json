@@ -1,0 +1,23 @@
+{
+  "country": "Malawi",
+  "region": "Africa",
+  "year": 2017,
+  "demographics": {
+    "population": 19196246,
+    "population_growth_pct": 3.3,
+    "life_expectancy": 61.7
+  },
+  "economy": {
+    "gdp_ppp_billions": 21.14,
+    "gdp_growth_pct": 2.3,
+    "gdp_per_capita": 1100,
+    "inflation_pct": 21.7,
+    "exports_billions": 1.36,
+    "imports_billions": 2.32,
+    "unemployment_pct": 20.4
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.93
+  },
+  "political": {}
+}

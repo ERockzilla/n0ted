@@ -1,0 +1,22 @@
+{
+  "country": "Honduras",
+  "region": "Central America and Caribbean",
+  "year": 2007,
+  "demographics": {
+    "population": 7483763,
+    "life_expectancy": 69.35
+  },
+  "economy": {
+    "gdp_ppp_billions": 22.54,
+    "gdp_growth_pct": 6.0,
+    "gdp_per_capita": 3100,
+    "inflation_pct": 5.6,
+    "unemployment_pct": 27.9,
+    "exports_billions": 1.98,
+    "imports_billions": 5.04
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.6
+  },
+  "political": {}
+}

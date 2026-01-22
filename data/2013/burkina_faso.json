@@ -1,0 +1,23 @@
+{
+  "country": "Burkina Faso",
+  "region": "Africa",
+  "year": 2013,
+  "demographics": {
+    "population": 17812961,
+    "population_growth_pct": 3.06,
+    "life_expectancy": 54.43
+  },
+  "economy": {
+    "gdp_ppp_billions": 24.57,
+    "gdp_growth_pct": 9.0,
+    "gdp_per_capita": 1400,
+    "inflation_pct": 3.8,
+    "unemployment_pct": 77.0,
+    "exports_billions": 2.75,
+    "imports_billions": 2.67
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.1
+  },
+  "political": {}
+}

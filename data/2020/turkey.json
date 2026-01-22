@@ -1,0 +1,24 @@
+{
+  "country": "Turkey",
+  "region": "Middle East",
+  "year": 2020,
+  "demographics": {
+    "population": 82017514,
+    "population_growth_pct": 0.45,
+    "life_expectancy": 75.7,
+    "median_age": 32.2
+  },
+  "economy": {
+    "gdp_growth_pct": 0.98,
+    "gdp_per_capita": 15075,
+    "inflation_pct": 15.4,
+    "unemployment_pct": 20.2,
+    "exports_billions": 310.67,
+    "imports_billions": 258.38,
+    "external_debt_billions": 452.4
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.89
+  },
+  "political": {}
+}

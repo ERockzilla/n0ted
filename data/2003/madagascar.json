@@ -1,0 +1,22 @@
+{
+  "country": "Madagascar",
+  "region": "Africa",
+  "year": 2003,
+  "demographics": {
+    "population": 16979744,
+    "life_expectancy": 56.14
+  },
+  "economy": {
+    "gdp_ppp_billions": 12.59,
+    "gdp_growth_pct": -11.9,
+    "gdp_per_capita": 800,
+    "inflation_pct": 7.4,
+    "exports_billions": 0.7,
+    "imports_billions": 0.98,
+    "unemployment_pct": 5.9
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.2
+  },
+  "political": {}
+}

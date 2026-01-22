@@ -1,0 +1,20 @@
+{
+  "country": "Russia",
+  "region": "Central Asia",
+  "year": 2001,
+  "demographics": {
+    "population": 145470197,
+    "population_growth_pct": -0.35
+  },
+  "economy": {
+    "gdp_ppp_billions": 1120.0,
+    "gdp_growth_pct": 6.3,
+    "gdp_per_capita": 7700,
+    "inflation_pct": 20.6,
+    "unemployment_pct": 10.5,
+    "exports_billions": 105.1,
+    "imports_billions": 44.2
+  },
+  "military": {},
+  "political": {}
+}

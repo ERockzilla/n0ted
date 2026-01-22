@@ -1,0 +1,22 @@
+{
+  "country": "Fiji",
+  "region": "Australia-Oceania",
+  "year": 2007,
+  "demographics": {
+    "population": 918675,
+    "life_expectancy": 70.12
+  },
+  "economy": {
+    "gdp_ppp_billions": 5.59,
+    "gdp_growth_pct": 3.1,
+    "gdp_per_capita": 6200,
+    "inflation_pct": 3.0,
+    "unemployment_pct": 7.6,
+    "exports_billions": 0.72,
+    "imports_billions": 1.46
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.2
+  },
+  "political": {}
+}

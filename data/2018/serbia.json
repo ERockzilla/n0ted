@@ -1,0 +1,23 @@
+{
+  "country": "Serbia",
+  "region": "Europe",
+  "year": 2018,
+  "demographics": {
+    "population": 7078110,
+    "population_growth_pct": -0.47,
+    "life_expectancy": 75.9
+  },
+  "economy": {
+    "gdp_ppp_billions": 105.7,
+    "gdp_growth_pct": 1.9,
+    "gdp_per_capita": 15100,
+    "inflation_pct": 3.1,
+    "unemployment_pct": 34.9,
+    "exports_billions": 15.92,
+    "imports_billions": 20.44
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.34
+  },
+  "political": {}
+}

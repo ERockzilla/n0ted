@@ -1,0 +1,21 @@
+{
+  "country": "Haiti",
+  "region": "Central America and Caribbean",
+  "year": 2016,
+  "demographics": {
+    "population": 10485800,
+    "population_growth_pct": 1.71,
+    "life_expectancy": 63.8
+  },
+  "economy": {
+    "gdp_ppp_billions": 18.82,
+    "gdp_growth_pct": 1.2,
+    "gdp_per_capita": 1800,
+    "inflation_pct": 7.5,
+    "exports_billions": 1.03,
+    "imports_billions": 3.44,
+    "unemployment_pct": 40.6
+  },
+  "military": {},
+  "political": {}
+}

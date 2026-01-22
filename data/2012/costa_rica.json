@@ -1,0 +1,23 @@
+{
+  "country": "Costa Rica",
+  "region": "Central America and Caribbean",
+  "year": 2012,
+  "demographics": {
+    "population": 4636348,
+    "population_growth_pct": 1.29,
+    "life_expectancy": 77.89
+  },
+  "economy": {
+    "gdp_ppp_billions": 58.6,
+    "gdp_growth_pct": 4.8,
+    "gdp_per_capita": 12600,
+    "inflation_pct": 4.5,
+    "unemployment_pct": 7.9,
+    "exports_billions": 11.47,
+    "imports_billions": 16.79
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.6
+  },
+  "political": {}
+}

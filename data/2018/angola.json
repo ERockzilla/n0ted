@@ -1,0 +1,23 @@
+{
+  "country": "Angola",
+  "region": "Africa",
+  "year": 2018,
+  "demographics": {
+    "population": 30355880,
+    "population_growth_pct": 3.49,
+    "life_expectancy": 60.6
+  },
+  "economy": {
+    "gdp_ppp_billions": 193.6,
+    "gdp_growth_pct": -2.5,
+    "gdp_per_capita": 6800,
+    "inflation_pct": 29.8,
+    "exports_billions": 33.07,
+    "imports_billions": 19.5,
+    "unemployment_pct": 16.7
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.95
+  },
+  "political": {}
+}

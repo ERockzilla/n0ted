@@ -1,0 +1,22 @@
+{
+  "country": "Singapore",
+  "region": "East & Southeast Asia",
+  "year": 2007,
+  "demographics": {
+    "population": 4553009,
+    "life_expectancy": 81.8
+  },
+  "economy": {
+    "gdp_ppp_billions": 141.2,
+    "gdp_growth_pct": 7.9,
+    "gdp_per_capita": 31400,
+    "inflation_pct": 1.0,
+    "unemployment_pct": 3.1,
+    "exports_billions": 289.4,
+    "imports_billions": 244.6
+  },
+  "military": {
+    "expenditure_pct_gdp": 4.9
+  },
+  "political": {}
+}

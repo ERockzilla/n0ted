@@ -1,0 +1,19 @@
+{
+  "country": "Gibraltar",
+  "region": "Europe",
+  "year": 2003,
+  "demographics": {
+    "population": 27776,
+    "life_expectancy": 79.38
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.5,
+    "gdp_per_capita": 17500,
+    "inflation_pct": 1.5,
+    "unemployment_pct": 2.0,
+    "exports_billions": 0.08,
+    "imports_billions": 0.49
+  },
+  "military": {},
+  "political": {}
+}

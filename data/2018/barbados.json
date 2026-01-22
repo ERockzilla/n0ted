@@ -1,0 +1,21 @@
+{
+  "country": "Barbados",
+  "region": "Central America and Caribbean",
+  "year": 2018,
+  "demographics": {
+    "population": 293131,
+    "population_growth_pct": 0.26,
+    "life_expectancy": 75.7
+  },
+  "economy": {
+    "gdp_ppp_billions": 5.22,
+    "gdp_growth_pct": -0.2,
+    "gdp_per_capita": 18600,
+    "inflation_pct": 4.4,
+    "unemployment_pct": 29.6,
+    "exports_billions": 0.49,
+    "imports_billions": 1.52
+  },
+  "military": {},
+  "political": {}
+}

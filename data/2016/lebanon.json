@@ -1,0 +1,21 @@
+{
+  "country": "Lebanon",
+  "region": "Middle East",
+  "year": 2016,
+  "demographics": {
+    "population": 6237738,
+    "population_growth_pct": 0.85,
+    "life_expectancy": 77.6
+  },
+  "economy": {
+    "gdp_ppp_billions": 83.23,
+    "gdp_growth_pct": 1.0,
+    "gdp_per_capita": 18300,
+    "exports_billions": 3.55,
+    "imports_billions": 16.71
+  },
+  "military": {
+    "expenditure_pct_gdp": 4.04
+  },
+  "political": {}
+}

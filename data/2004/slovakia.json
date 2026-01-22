@@ -1,0 +1,22 @@
+{
+  "country": "Slovakia",
+  "region": "Europe",
+  "year": 2004,
+  "demographics": {
+    "population": 5431363,
+    "life_expectancy": 74.5
+  },
+  "economy": {
+    "gdp_ppp_billions": 72.29,
+    "gdp_growth_pct": 3.9,
+    "gdp_per_capita": 13300,
+    "inflation_pct": 8.6,
+    "unemployment_pct": 15.2,
+    "exports_billions": 21.25,
+    "imports_billions": 21.9
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.89
+  },
+  "political": {}
+}

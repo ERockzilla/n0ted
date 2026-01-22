@@ -1,0 +1,23 @@
+{
+  "country": "Ethiopia",
+  "region": "Africa",
+  "year": 2019,
+  "demographics": {
+    "population": 108386391,
+    "population_growth_pct": 2.83,
+    "life_expectancy": 63.0
+  },
+  "economy": {
+    "gdp_ppp_billions": 200.6,
+    "gdp_growth_pct": 10.9,
+    "gdp_per_capita": 2200,
+    "inflation_pct": 9.9,
+    "exports_billions": 3.23,
+    "imports_billions": 15.59,
+    "unemployment_pct": 25.2
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.64
+  },
+  "political": {}
+}

@@ -1,0 +1,21 @@
+{
+  "country": "Rwanda",
+  "region": "Africa",
+  "year": 2004,
+  "demographics": {
+    "population": 8440820,
+    "life_expectancy": 46.96
+  },
+  "economy": {
+    "gdp_ppp_billions": 10.11,
+    "gdp_growth_pct": 3.5,
+    "gdp_per_capita": 1300,
+    "inflation_pct": 7.5,
+    "exports_billions": 0.07,
+    "imports_billions": 0.25
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.9
+  },
+  "political": {}
+}

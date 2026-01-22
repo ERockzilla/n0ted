@@ -1,0 +1,23 @@
+{
+  "country": "Cyprus",
+  "region": "Europe",
+  "year": 2015,
+  "demographics": {
+    "population": 1172458,
+    "population_growth_pct": 1.48,
+    "life_expectancy": 78.34
+  },
+  "economy": {
+    "gdp_ppp_billions": 24.94,
+    "gdp_growth_pct": -3.2,
+    "gdp_per_capita": 28000,
+    "inflation_pct": -0.3,
+    "unemployment_pct": 15.9,
+    "exports_billions": 2.02,
+    "imports_billions": 6.32
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.05
+  },
+  "political": {}
+}

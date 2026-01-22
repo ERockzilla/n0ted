@@ -1,0 +1,63 @@
+1      Nigeria                                            160,000                                           
+2      South Africa                                       110,000                                           
+3      India                                              62,000                                            
+4      Mozambique                                         62,000                                            
+5      Indonesia                                          38,000                                            
+6      Kenya                                              36,000                                            
+7      Tanzania                                           33,000                                            
+8      Zimbabwe                                           30,000                                            
+9      Cameroon                                           29,000                                            
+10     Uganda                                             28,000                                            
+11     Cote d'Ivoire                                      25,000                                            
+12     Malawi                                             24,000                                            
+13     Zambia                                             21,000                                            
+14     Ethiopia                                           20,000                                            
+15     Congo, Democratic Republic of the                  19,000                                            
+16     Thailand                                           16,000                                            
+17     Ghana                                              15,000                                            
+18     Brazil                                             14,000                                            
+19     South Sudan                                        13,000                                            
+20     Angola                                             11,000                                            
+21     Lesotho                                            9,900                                             
+22     Ukraine                                            8,500                                             
+23     Vietnam                                            8,000                                             
+24     Burma                                              7,800                                             
+25     Central African Republic                           7,300                                             
+26     Malaysia                                           7,000                                             
+27     Mali                                               6,100                                             
+28     Guinea                                             5,800                                             
+29     Pakistan                                           5,500                                             
+30     Togo                                               5,100                                             
+31     Haiti                                              4,600                                             
+32     Namibia                                            4,300                                             
+33     Mexico                                             4,200                                             
+34     Iran                                               4,000                                             
+35     Swaziland                                          3,900                                             
+36     Botswana                                           3,900                                             
+37     Congo, Republic of the                             3,800                                             
+38     Niger                                              3,400                                             
+39     Rwanda                                             3,300                                             
+40     Burkina Faso                                       3,100                                             
+41     Sudan                                              3,000                                             
+42     Burundi                                            2,900                                             
+43     Chad                                               2,800                                             
+44     Colombia                                           2,800                                             
+45     Liberia                                            2,800                                             
+46     Sierra Leone                                       2,800                                             
+47     Venezuela                                          2,500                                             
+48     Argentina                                          2,400                                             
+49     Benin                                              2,400                                             
+50     Dominican Republic                                 2,200                                             
+51     Peru                                               2,200                                             
+52     Guinea-Bissau                                      2,000                                             
+53     Senegal                                            1,900                                             
+54     Cambodia                                           1,800                                             
+55     Somalia                                            1,700                                             
+56     Nepal                                              1,700                                             
+57     Guatemala                                          1,600                                             
+58     Madagascar                                         1,600                                             
+59     Gabon                                              1,500                                             
+60     Jamaica                                            1,300                                             
+61     Gambia, The                                        1,100                                             
+62     Papua New Guinea                                   1,100                                             
+63     Bangladesh                                         1,000                                             

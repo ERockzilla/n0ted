@@ -1,0 +1,20 @@
+{
+  "country": "Serbia",
+  "region": "Europe",
+  "year": 2006,
+  "demographics": {
+    "population": 9396411,
+    "life_expectancy": 74.0
+  },
+  "economy": {
+    "gdp_ppp_billions": 41.15,
+    "gdp_growth_pct": 5.9,
+    "gdp_per_capita": 4400,
+    "inflation_pct": 15.5,
+    "unemployment_pct": 31.6,
+    "exports_billions": 4.55,
+    "imports_billions": 10.58
+  },
+  "military": {},
+  "political": {}
+}

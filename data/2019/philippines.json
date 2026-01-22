@@ -1,0 +1,23 @@
+{
+  "country": "Philippines",
+  "region": "East & Southeast Asia",
+  "year": 2019,
+  "demographics": {
+    "population": 105893381,
+    "population_growth_pct": 1.55,
+    "life_expectancy": 69.6
+  },
+  "economy": {
+    "gdp_ppp_billions": 877.2,
+    "gdp_growth_pct": 6.7,
+    "gdp_per_capita": 8400,
+    "inflation_pct": 2.9,
+    "unemployment_pct": 7.5,
+    "exports_billions": 48.2,
+    "imports_billions": 89.39
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.13
+  },
+  "political": {}
+}

@@ -1,0 +1,23 @@
+{
+  "country": "Sri Lanka",
+  "region": "South Asia",
+  "year": 2011,
+  "demographics": {
+    "population": 21283913,
+    "population_growth_pct": 0.93,
+    "life_expectancy": 75.73
+  },
+  "economy": {
+    "gdp_ppp_billions": 106.5,
+    "gdp_growth_pct": 9.1,
+    "gdp_per_capita": 5000,
+    "inflation_pct": 5.9,
+    "unemployment_pct": 5.8,
+    "exports_billions": 8.31,
+    "imports_billions": 12.16
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.6
+  },
+  "political": {}
+}

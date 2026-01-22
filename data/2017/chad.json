@@ -1,0 +1,19 @@
+{
+  "country": "Chad",
+  "region": "Africa",
+  "year": 2017,
+  "demographics": {
+    "population": 12075985,
+    "population_growth_pct": 1.9,
+    "life_expectancy": 50.6
+  },
+  "economy": {
+    "gdp_ppp_billions": 28.99,
+    "gdp_growth_pct": -6.4,
+    "gdp_per_capita": 2400,
+    "exports_billions": 2.19,
+    "imports_billions": 1.99
+  },
+  "military": {},
+  "political": {}
+}

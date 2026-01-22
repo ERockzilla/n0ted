@@ -1,0 +1,21 @@
+{
+  "country": "Eritrea",
+  "region": "Africa",
+  "year": 2015,
+  "demographics": {
+    "population": 6380803,
+    "population_growth_pct": 2.3,
+    "life_expectancy": 63.51
+  },
+  "economy": {
+    "gdp_ppp_billions": 7.86,
+    "gdp_growth_pct": 2.0,
+    "gdp_per_capita": 1200,
+    "inflation_pct": 12.3,
+    "exports_billions": 0.57,
+    "imports_billions": 1.16,
+    "unemployment_pct": 8.6
+  },
+  "military": {},
+  "political": {}
+}

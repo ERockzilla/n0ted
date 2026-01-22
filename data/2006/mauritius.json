@@ -1,0 +1,22 @@
+{
+  "country": "Mauritius",
+  "region": "Africa",
+  "year": 2006,
+  "demographics": {
+    "population": 1240827,
+    "life_expectancy": 72.63
+  },
+  "economy": {
+    "gdp_ppp_billions": 15.73,
+    "gdp_growth_pct": 2.5,
+    "gdp_per_capita": 12800,
+    "inflation_pct": 5.0,
+    "unemployment_pct": 9.6,
+    "exports_billions": 1.95,
+    "imports_billions": 2.51
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.2
+  },
+  "political": {}
+}

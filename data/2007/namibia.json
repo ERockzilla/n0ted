@@ -1,0 +1,22 @@
+{
+  "country": "Namibia",
+  "region": "Africa",
+  "year": 2007,
+  "demographics": {
+    "population": 2055080,
+    "life_expectancy": 43.11
+  },
+  "economy": {
+    "gdp_ppp_billions": 15.27,
+    "gdp_growth_pct": 2.9,
+    "gdp_per_capita": 7500,
+    "inflation_pct": 5.1,
+    "unemployment_pct": 5.3,
+    "exports_billions": 2.65,
+    "imports_billions": 2.56
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.7
+  },
+  "political": {}
+}

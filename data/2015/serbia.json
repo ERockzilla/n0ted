@@ -1,0 +1,23 @@
+{
+  "country": "Serbia",
+  "region": "Europe",
+  "year": 2015,
+  "demographics": {
+    "population": 7209764,
+    "population_growth_pct": -0.46,
+    "life_expectancy": 75.02
+  },
+  "economy": {
+    "gdp_ppp_billions": 90.32,
+    "gdp_growth_pct": -0.5,
+    "gdp_per_capita": 12500,
+    "inflation_pct": 1.7,
+    "unemployment_pct": 26.1,
+    "exports_billions": 15.0,
+    "imports_billions": 20.63
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.21
+  },
+  "political": {}
+}

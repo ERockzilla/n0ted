@@ -1,0 +1,20 @@
+{
+  "country": "Gibraltar",
+  "region": "Europe",
+  "year": 2017,
+  "demographics": {
+    "population": 29396,
+    "population_growth_pct": 0.2,
+    "life_expectancy": 79.6
+  },
+  "economy": {
+    "gdp_ppp_billions": 2.04,
+    "gdp_per_capita": 61700,
+    "inflation_pct": 2.5,
+    "unemployment_pct": 1.0,
+    "exports_billions": 0.2,
+    "imports_billions": 2.97
+  },
+  "military": {},
+  "political": {}
+}

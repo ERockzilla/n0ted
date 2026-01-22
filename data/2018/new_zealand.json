@@ -1,0 +1,23 @@
+{
+  "country": "New Zealand",
+  "region": "Australia-Oceania",
+  "year": 2018,
+  "demographics": {
+    "population": 4545627,
+    "population_growth_pct": 0.77,
+    "life_expectancy": 81.4
+  },
+  "economy": {
+    "gdp_ppp_billions": 189.0,
+    "gdp_growth_pct": 3.0,
+    "gdp_per_capita": 39000,
+    "inflation_pct": 1.9,
+    "unemployment_pct": 12.7,
+    "exports_billions": 37.35,
+    "imports_billions": 39.74
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.1
+  },
+  "political": {}
+}

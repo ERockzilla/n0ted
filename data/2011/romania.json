@@ -1,0 +1,23 @@
+{
+  "country": "Romania",
+  "region": "Europe",
+  "year": 2011,
+  "demographics": {
+    "population": 21904551,
+    "population_growth_pct": -0.25,
+    "life_expectancy": 73.98
+  },
+  "economy": {
+    "gdp_ppp_billions": 254.2,
+    "gdp_growth_pct": -1.3,
+    "gdp_per_capita": 11600,
+    "inflation_pct": 6.1,
+    "unemployment_pct": 6.9,
+    "exports_billions": 49.41,
+    "imports_billions": 57.22
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.9
+  },
+  "political": {}
+}

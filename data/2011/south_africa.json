@@ -1,0 +1,23 @@
+{
+  "country": "South Africa",
+  "region": "Africa",
+  "year": 2011,
+  "demographics": {
+    "population": 49004031,
+    "population_growth_pct": -0.38,
+    "life_expectancy": 49.33
+  },
+  "economy": {
+    "gdp_ppp_billions": 524.0,
+    "gdp_growth_pct": 2.8,
+    "gdp_per_capita": 10700,
+    "inflation_pct": 4.1,
+    "unemployment_pct": 24.9,
+    "exports_billions": 85.7,
+    "imports_billions": 81.86
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.7
+  },
+  "political": {}
+}

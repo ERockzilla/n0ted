@@ -1,0 +1,21 @@
+{
+  "country": "Vanuatu",
+  "region": "Australia-Oceania",
+  "year": 2014,
+  "demographics": {
+    "population": 266937,
+    "population_growth_pct": 2.01,
+    "life_expectancy": 72.72
+  },
+  "economy": {
+    "gdp_ppp_billions": 1.27,
+    "gdp_growth_pct": 3.3,
+    "gdp_per_capita": 4800,
+    "inflation_pct": 1.9,
+    "unemployment_pct": 1.7,
+    "exports_billions": 0.04,
+    "imports_billions": 0.32
+  },
+  "military": {},
+  "political": {}
+}

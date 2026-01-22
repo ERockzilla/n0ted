@@ -1,0 +1,23 @@
+{
+  "country": "Canada",
+  "region": "North America",
+  "year": 2015,
+  "demographics": {
+    "population": 34834841,
+    "population_growth_pct": 0.76,
+    "life_expectancy": 81.67
+  },
+  "economy": {
+    "gdp_ppp_billions": 1579.0,
+    "gdp_growth_pct": 2.3,
+    "gdp_per_capita": 44500,
+    "inflation_pct": 1.9,
+    "unemployment_pct": 6.9,
+    "exports_billions": 465.1,
+    "imports_billions": 482.1
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.24
+  },
+  "political": {}
+}

@@ -1,0 +1,23 @@
+{
+  "country": "Mexico",
+  "region": "North America",
+  "year": 2019,
+  "demographics": {
+    "population": 125959205,
+    "population_growth_pct": 1.09,
+    "life_expectancy": 76.3
+  },
+  "economy": {
+    "gdp_ppp_billions": 2463.0,
+    "gdp_growth_pct": 2.0,
+    "gdp_per_capita": 19900,
+    "inflation_pct": 6.0,
+    "unemployment_pct": 6.9,
+    "exports_billions": 409.8,
+    "imports_billions": 420.8
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.54
+  },
+  "political": {}
+}

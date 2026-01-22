@@ -1,0 +1,23 @@
+{
+  "country": "Papua New Guinea",
+  "region": "East & Southeast Asia",
+  "year": 2016,
+  "demographics": {
+    "population": 6791317,
+    "population_growth_pct": 1.75,
+    "life_expectancy": 67.2
+  },
+  "economy": {
+    "gdp_ppp_billions": 26.97,
+    "gdp_growth_pct": 6.6,
+    "gdp_per_capita": 3500,
+    "inflation_pct": 6.0,
+    "unemployment_pct": 1.9,
+    "exports_billions": 8.38,
+    "imports_billions": 2.27
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.54
+  },
+  "political": {}
+}

@@ -1,0 +1,22 @@
+{
+  "country": "Chile",
+  "region": "South America",
+  "year": 2001,
+  "demographics": {
+    "population": 15328467,
+    "population_growth_pct": 1.13
+  },
+  "economy": {
+    "gdp_ppp_billions": 153.1,
+    "gdp_growth_pct": 5.5,
+    "gdp_per_capita": 10100,
+    "inflation_pct": 4.5,
+    "unemployment_pct": 9.0,
+    "exports_billions": 18.0,
+    "imports_billions": 17.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.1
+  },
+  "political": {}
+}

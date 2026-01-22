@@ -1,0 +1,18 @@
+{
+  "country": "Guadeloupe",
+  "region": "Unknown",
+  "year": 2006,
+  "demographics": {
+    "population": 452776,
+    "life_expectancy": 78.06
+  },
+  "economy": {
+    "gdp_ppp_billions": 3.51,
+    "gdp_per_capita": 7900,
+    "unemployment_pct": 26.9,
+    "exports_billions": 0.15,
+    "imports_billions": 1.77
+  },
+  "military": {},
+  "political": {}
+}

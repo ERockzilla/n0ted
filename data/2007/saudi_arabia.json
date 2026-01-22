@@ -1,0 +1,22 @@
+{
+  "country": "Saudi Arabia",
+  "region": "Middle East",
+  "year": 2007,
+  "demographics": {
+    "population": 27601038,
+    "life_expectancy": 75.88
+  },
+  "economy": {
+    "gdp_ppp_billions": 371.5,
+    "gdp_growth_pct": 4.3,
+    "gdp_per_capita": 13800,
+    "inflation_pct": 2.2,
+    "unemployment_pct": 13.0,
+    "exports_billions": 207.8,
+    "imports_billions": 64.16
+  },
+  "military": {
+    "expenditure_pct_gdp": 10.0
+  },
+  "political": {}
+}

@@ -1,0 +1,22 @@
+{
+  "country": "South Korea",
+  "region": "East & Southeast Asia",
+  "year": 2004,
+  "demographics": {
+    "population": 48422644,
+    "life_expectancy": 75.82
+  },
+  "economy": {
+    "gdp_growth_pct": 3.1,
+    "gdp_per_capita": 17800,
+    "inflation_pct": 3.6,
+    "unemployment_pct": 3.4,
+    "exports_billions": 201.3,
+    "imports_billions": 175.6,
+    "gdp_ppp_billions": 857.8
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.7
+  },
+  "political": {}
+}

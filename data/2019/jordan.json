@@ -1,0 +1,23 @@
+{
+  "country": "Jordan",
+  "region": "Middle East",
+  "year": 2019,
+  "demographics": {
+    "population": 10458413,
+    "population_growth_pct": 2.02,
+    "life_expectancy": 75.0
+  },
+  "economy": {
+    "gdp_ppp_billions": 89.0,
+    "gdp_growth_pct": 2.0,
+    "gdp_per_capita": 9200,
+    "inflation_pct": 3.3,
+    "unemployment_pct": 35.6,
+    "exports_billions": 7.51,
+    "imports_billions": 18.21
+  },
+  "military": {
+    "expenditure_pct_gdp": 4.68
+  },
+  "political": {}
+}

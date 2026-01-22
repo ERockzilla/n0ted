@@ -1,0 +1,23 @@
+{
+  "country": "Gabon",
+  "region": "Africa",
+  "year": 2019,
+  "demographics": {
+    "population": 2119036,
+    "population_growth_pct": 2.73,
+    "life_expectancy": 68.0
+  },
+  "economy": {
+    "gdp_ppp_billions": 36.66,
+    "gdp_growth_pct": 0.5,
+    "gdp_per_capita": 18100,
+    "inflation_pct": 2.7,
+    "unemployment_pct": 35.7,
+    "exports_billions": 5.56,
+    "imports_billions": 2.83
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.53
+  },
+  "political": {}
+}

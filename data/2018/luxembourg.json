@@ -1,0 +1,23 @@
+{
+  "country": "Luxembourg",
+  "region": "Europe",
+  "year": 2018,
+  "demographics": {
+    "population": 605764,
+    "population_growth_pct": 1.9,
+    "life_expectancy": 82.4
+  },
+  "economy": {
+    "gdp_ppp_billions": 62.11,
+    "gdp_growth_pct": 2.3,
+    "gdp_per_capita": 105100,
+    "inflation_pct": 2.1,
+    "unemployment_pct": 18.9,
+    "exports_billions": 15.99,
+    "imports_billions": 20.66
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.55
+  },
+  "political": {}
+}

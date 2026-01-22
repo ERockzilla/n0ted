@@ -1,0 +1,21 @@
+{
+  "country": "Taiwan",
+  "region": "East & Southeast Asia",
+  "year": 2011,
+  "demographics": {
+    "population": 23071779,
+    "population_growth_pct": 0.19,
+    "life_expectancy": 78.32
+  },
+  "economy": {
+    "gdp_ppp_billions": 821.8,
+    "gdp_growth_pct": 10.8,
+    "gdp_per_capita": 35700,
+    "inflation_pct": 1.0,
+    "unemployment_pct": 5.2,
+    "exports_billions": 273.8,
+    "imports_billions": 247.3
+  },
+  "military": {},
+  "political": {}
+}

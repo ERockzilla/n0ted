@@ -1,0 +1,20 @@
+{
+  "country": "Antigua And Barbuda",
+  "region": "Central America and Caribbean",
+  "year": 2001,
+  "demographics": {
+    "population": 66970,
+    "population_growth_pct": 0.74
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.533,
+    "gdp_growth_pct": 4.6,
+    "gdp_per_capita": 8200,
+    "inflation_pct": 1.6,
+    "unemployment_pct": 7.0,
+    "exports_billions": 0.038,
+    "imports_billions": 0.33
+  },
+  "military": {},
+  "political": {}
+}

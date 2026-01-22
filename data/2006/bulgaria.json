@@ -1,0 +1,22 @@
+{
+  "country": "Bulgaria",
+  "region": "Europe",
+  "year": 2006,
+  "demographics": {
+    "population": 7385367,
+    "life_expectancy": 72.3
+  },
+  "economy": {
+    "gdp_ppp_billions": 71.67,
+    "gdp_growth_pct": 5.5,
+    "gdp_per_capita": 9600,
+    "inflation_pct": 5.0,
+    "unemployment_pct": 9.9,
+    "exports_billions": 11.67,
+    "imports_billions": 16.78
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.6
+  },
+  "political": {}
+}

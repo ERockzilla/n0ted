@@ -1,0 +1,23 @@
+{
+  "country": "Mauritius",
+  "region": "Africa",
+  "year": 2015,
+  "demographics": {
+    "population": 1331155,
+    "population_growth_pct": 0.66,
+    "life_expectancy": 75.17
+  },
+  "economy": {
+    "gdp_ppp_billions": 23.42,
+    "gdp_growth_pct": 3.3,
+    "gdp_per_capita": 17900,
+    "inflation_pct": 3.0,
+    "unemployment_pct": 8.0,
+    "exports_billions": 3.13,
+    "imports_billions": 5.44
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.19
+  },
+  "political": {}
+}

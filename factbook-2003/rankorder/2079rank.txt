@@ -1,0 +1,202 @@
+This tab-delimited file can be read by most spreadsheet applications after being saved properly.  At the top of your browser window, click 'File' and 'Save As...'  After saving the file, open your spreadsheet, find the file you just saved and then 'Open' it.
+Rank 	 Country 	 Debt - external 	 Date of Information
+1 	 World 	 $    2,000,000,000,000 	 2002 est.
+2 	 United States 	 $     862,000,000,000 	 1995 est.
+3 	 Brazil 	 $     222,400,000,000 	 2002
+4 	 Australia 	 $     176,800,000,000 	 yearend 2002 est.
+5 	 Argentina 	 $     155,000,000,000 	 2001 est.
+6 	 Russia 	 $     153,500,000,000 	 yearend 2002
+7 	 Mexico 	 $     150,000,000,000 	 2000 est.
+8 	 China 	 $     149,400,000,000 	 2002 est.
+9 	 Korea, South 	 $     135,200,000,000 	 yearend 2002 est.
+10 	 Indonesia 	 $     131,000,000,000 	 2002 est.
+11 	 Iraq 	 $     120,000,000,000 	 2002 est.
+12 	 Turkey 	 $     118,300,000,000 	 Yearend 2001
+13 	 India 	 $     100,600,000,000 	 2001 est.
+14 	 Spain 	 $      90,000,000,000 	 1993 est.
+15 	 Sweden 	 $      66,500,000,000 	 1994
+16 	 Poland 	 $      64,000,000,000 	 2002
+17 	 Greece 	 $      63,400,000,000 	 2002 est.
+18 	 Thailand 	 $      62,500,000,000 	 2002 est.
+19 	 Philippines 	 $      60,300,000,000 	 2002
+20 	 Hong Kong 	 $      49,500,000,000 	 2002 est.
+21 	 Malaysia 	 $      47,500,000,000 	 2002 est.
+22 	 Israel 	 $      42,800,000,000 	 2001 est.
+23 	 Chile 	 $      40,400,000,000 	 2002
+24 	 Colombia 	 $      38,400,000,000 	 2002 est.
+25 	 Venezuela 	 $      38,200,000,000 	 2000
+26 	 New Zealand 	 $      33,000,000,000 	 2002 est.
+27 	 Pakistan 	 $      32,300,000,000 	 2002 est.
+28 	 Hungary 	 $      31,500,000,000 	 2002 est.
+29 	 Egypt 	 $      30,500,000,000 	 2002 est.
+30 	 Finland 	 $      30,000,000,000 	 December 1993
+31 	 Nigeria 	 $      29,700,000,000 	 2002 est.
+32 	 Peru 	 $      29,200,000,000 	 2002 est.
+33 	 Belgium 	 $      28,300,000,000 	 1999 est.
+34 	 Saudi Arabia 	 $      25,900,000,000 	 2003 est.
+35 	 South Africa 	 $      24,700,000,000 	 2002 est.
+36 	 Taiwan 	 $      24,700,000,000 	 2002
+37 	 Czech Republic 	 $      23,800,000,000 	 2002
+38 	 Syria 	 $      22,000,000,000 	 2002 est.
+39 	 Denmark 	 $      21,700,000,000 	 2000
+40 	 Algeria 	 $      21,600,000,000 	 2002 est.
+41 	 United Arab Emirates 	 $      18,500,000,000 	 2002 est.
+42 	 Morocco 	 $      17,700,000,000 	 2002 est.
+43 	 Bangladesh 	 $      16,500,000,000 	 2002
+44 	 Croatia 	 $      16,500,000,000 	 yearend 2002 est.
+45 	 Sudan 	 $      15,800,000,000 	 2002 est.
+46 	 Qatar 	 $      15,400,000,000 	 2002 est.
+47 	 Ecuador 	 $      14,400,000,000 	 2002
+48 	 Ukraine 	 $      14,200,000,000 	 2002
+49 	 Vietnam 	 $      14,100,000,000 	 2001
+50 	 Romania 	 $      13,700,000,000 	 2002 est.
+51 	 Tunisia 	 $      13,600,000,000 	 2003 est.
+52 	 Portugal 	 $      13,100,000,000 	 1997 est.
+53 	 Congo, Democratic Republic of the 	 $      12,900,000,000 	 2000 est.
+54 	 Cuba 	 $      12,300,000,000 	 2002 est.
+55 	 Austria 	 $      12,100,000,000 	 2001 est.
+56 	 Korea, North 	 $      12,000,000,000 	 1996 est.
+57 	 Uruguay 	 $      11,800,000,000 	 2002 est.
+58 	 Ireland 	 $      11,000,000,000 	 1998
+59 	 Kuwait 	 $      10,400,000,000 	 2000 est.
+60 	 Bulgaria 	 $      10,300,000,000 	 yearend 2002
+61 	 Cote d'Ivoire 	 $      10,300,000,000 	 2002 est.
+62 	 Angola 	 $       9,900,000,000 	 2002 est.
+63 	 Sri Lanka 	 $       9,800,000,000 	 2002
+64 	 Slovakia 	 $       9,600,000,000 	 2002 est.
+65 	 Lebanon 	 $       9,300,000,000 	 2002 est.
+66 	 Serbia and Montenegro 	 $       9,200,000,000 	 2001 est.
+67 	 Iran 	 $       8,700,000,000 	 2002 est.
+68 	 Cameroon 	 $       8,600,000,000 	 2002 est.
+69 	 Jordan 	 $       8,200,000,000 	 2002 est.
+70 	 Singapore 	 $       8,200,000,000 	 2002 est.
+71 	 Cyprus 	 $       8,000,000,000 	 2002
+72 	 Slovenia 	 $       7,900,000,000 	 2001
+73 	 Ghana 	 $       7,200,000,000 	 2002 est.
+74 	 Panama 	 $       7,000,000,000 	 2002 est.
+75 	 Tanzania 	 $       6,800,000,000 	 2002 est.
+76 	 Kazakhstan 	 $       6,600,000,000 	 2002 est.
+77 	 Yemen 	 $       6,200,000,000 	 2002
+78 	 Burma 	 $       6,100,000,000 	 2002 est.
+79 	 Bolivia 	 $       5,900,000,000 	 2002 est.
+80 	 Lithuania 	 $       5,800,000,000 	 2002 est.
+81 	 Zambia 	 $       5,800,000,000 	 2001
+82 	 Nicaragua 	 $       5,800,000,000 	 2002 est.
+83 	 Kenya 	 $       5,700,000,000 	 2002 est.
+84 	 Oman 	 $       5,700,000,000 	 2002 est.
+85 	 El Salvador 	 $       5,600,000,000 	 2001 est.
+86 	 Honduras 	 $       5,400,000,000 	 2002
+87 	 Ethiopia 	 $       5,300,000,000 	 2001 est.
+88 	 Jamaica 	 $       5,300,000,000 	 2002 est.
+89 	 Congo, Republic of the 	 $       5,000,000,000 	 2000 est.
+90 	 Guatemala 	 $       4,900,000,000 	 2002 est.
+91 	 Costa Rica 	 $       4,800,000,000 	 2002 est.
+92 	 Dominican Republic 	 $       4,800,000,000 	 2002 est.
+93 	 Madagascar 	 $       4,600,000,000 	 2002
+94 	 Uzbekistan 	 $       4,600,000,000 	 2002 est.
+95 	 Libya 	 $       4,400,000,000 	 2001 est.
+96 	 Zimbabwe 	 $       3,900,000,000 	 2002 est.
+97 	 Gabon 	 $       3,800,000,000 	 2002 est.
+98 	 Bahrain 	 $       3,700,000,000 	 2002
+99 	 Guinea 	 $       3,400,000,000 	 2000 est.
+100 	 Latvia 	 $       3,400,000,000 	 2000 est.
+101 	 Estonia 	 $       3,300,000,000 	 2001 est.
+102 	 Mali 	 $       3,300,000,000 	 2000
+103 	 Paraguay 	 $       3,200,000,000 	 2002 est.
+104 	 Senegal 	 $       3,100,000,000 	 2002 est.
+105 	 Malawi 	 $       2,900,000,000 	 2002
+106 	 Bosnia and Herzegovina 	 $       2,800,000,000 	 2001
+107 	 Uganda 	 $       2,800,000,000 	 2002 est.
+108 	 Papua New Guinea 	 $       2,800,000,000 	 2002 est.
+109 	 Trinidad and Tobago 	 $       2,800,000,000 	 2002 est.
+110 	 Iceland 	 $       2,600,000,000 	 1999
+111 	 Somalia 	 $       2,600,000,000 	 2000 est.
+112 	 Nepal 	 $       2,550,000,000 	 FY 00/01
+113 	 Laos 	 $       2,530,000,000 	 1999
+114 	 Mauritania 	 $       2,500,000,000 	 2000
+115 	 Mauritius 	 $       2,400,000,000 	 2002 est.
+116 	 Turkmenistan 	 $       2,400,000,000 	 2001 est.
+117 	 Liberia 	 $       2,100,000,000 	 2000 est.
+118 	 Canada 	 $       1,900,000,000 	 2000
+119 	 Georgia 	 $       1,700,000,000 	 2001
+120 	 Benin 	 $       1,600,000,000 	 2000
+121 	 Niger 	 $       1,600,000,000 	 1999 est.
+122 	 Kyrgyzstan 	 $       1,500,000,000 	 2002 est.
+123 	 Sierra Leone 	 $       1,500,000,000 	 2002 est.
+124 	 Azerbaijan 	 $       1,400,000,000 	 2002
+125 	 Togo 	 $       1,400,000,000 	 2000
+126 	 Netherlands Antilles 	 $       1,350,000,000 	 1996
+127 	 Moldova 	 $       1,300,000,000 	 2002
+128 	 Burkina Faso 	 $       1,300,000,000 	 2000
+129 	 Rwanda 	 $       1,300,000,000 	 2000 est.
+130 	 Macedonia, The Former Yugoslav Republic of 	 $       1,300,000,000 	 2001 est.
+131 	 French Guiana 	 $       1,200,000,000 	 1988
+132 	 Guyana 	 $       1,200,000,000 	 2002
+133 	 Haiti 	 $       1,200,000,000 	 1999
+134 	 Burundi 	 $       1,140,000,000 	 2001
+135 	 Chad 	 $       1,100,000,000 	 2000 est.
+136 	 Tajikistan 	 $       1,000,000,000 	 2002 est.
+137 	 Mozambique 	 $        966,000,000 	 2002 est.
+138 	 Guinea-Bissau 	 $        941,500,000 	 2000 est.
+139 	 Mongolia 	 $        913,000,000 	 2001 est.
+140 	 Armenia 	 $        905,000,000 	 June 2001
+141 	 Central African Republic 	 $        881,400,000 	 2000 est.
+142 	 Belarus 	 $        851,000,000 	 2001 est.
+143 	 Cambodia 	 $        829,000,000 	 1999 est.
+144 	 Albania 	 $        784,000,000 	 2000
+145 	 Lesotho 	 $        735,000,000 	 2002
+146 	 Barbados 	 $        692,000,000 	 2002
+147 	 Namibia 	 $        517,000,000 	 2002 est.
+148 	 Gambia, The 	 $        476,000,000 	 2001 est.
+149 	 Belize 	 $        475,000,000 	 2001 est.
+150 	 Bahamas, The 	 $        371,600,000 	 2001
+151 	 Djibouti 	 $        366,000,000 	 2002 est.
+152 	 Botswana 	 $        360,000,000 	 2002
+153 	 Cape Verde 	 $        325,000,000 	 2002
+154 	 Suriname 	 $        321,000,000 	 2002 est.
+155 	 Swaziland 	 $        320,000,000 	 2002 est.
+156 	 Eritrea 	 $        311,000,000 	 2000 est.
+157 	 Aruba 	 $        285,000,000 	 1996
+158 	 Maldives 	 $        281,000,000 	 2003 est.
+159 	 Macau 	 $        255,000,000 	 2000 est.
+160 	 Sao Tome and Principe 	 $        253,800,000 	 2000
+161 	 Equatorial Guinea 	 $        248,000,000 	 2000 est.
+162 	 Bhutan 	 $        245,000,000 	 2000
+163 	 Comoros 	 $        232,000,000 	 2000 est.
+164 	 Antigua and Barbuda 	 $        231,000,000 	 1999
+165 	 Saint Lucia 	 $        214,000,000 	 2000
+166 	 Samoa 	 $        197,000,000 	 2000
+167 	 Grenada 	 $        196,000,000 	 2000
+168 	 Martinique 	 $        180,000,000 	 1994
+169 	 Saint Kitts and Nevis 	 $        171,000,000 	 2001
+170 	 Seychelles 	 $        170,000,000 	 2002 est.
+171 	 Saint Vincent and the Grenadines 	 $        167,200,000 	 2000
+172 	 Dominica 	 $        161,500,000 	 2001
+173 	 Bermuda 	 $        145,000,000 	 FY 99/00
+174 	 Cook Islands 	 $        141,000,000 	 1996 est.
+175 	 Solomon Islands 	 $        137,000,000 	 2001 est.
+176 	 Fiji 	 $        135,900,000 	 2000
+177 	 Malta 	 $        130,000,000 	 1997
+178 	 Gaza Strip 	 $        108,000,000 	 1997 est.
+179 	 West Bank 	 $        108,000,000 	 1997 est.
+180 	 Marshall Islands 	 $         86,500,000 	 FY 99/00 est.
+181 	 New Caledonia 	 $         79,000,000 	 1998 est.
+182 	 Cayman Islands 	 $         70,000,000 	 1996
+183 	 Vanuatu 	 $         68,600,000 	 2000 est.
+184 	 Faroe Islands 	 $         64,000,000 	 1999
+185 	 Tonga 	 $         57,500,000 	 June 2001
+186 	 Micronesia, Federated States of 	 $         53,100,000 	 FY 02/03 est.
+187 	 British Virgin Islands 	 $         36,100,000 	 1997
+188 	 Nauru 	 $         33,300,000 	 
+189 	 Greenland 	 $         25,000,000 	 1999
+190 	 Kiribati 	 $         10,000,000 	 1999 est.
+191 	 Montserrat 	 $          8,900,000 	 1997
+192 	 Anguilla 	 $          8,800,000 	 1998
+193 	 Niue 	 $           418,000 	 2002 est.
+194 	 Brunei 	 $                0 	 
+195 	 Norway 	 $                0 	 
+196 	 Tokelau 	 $                0 	 
+197 	 Palau 	 $                0 	 FY 99/00
+198 	 Liechtenstein 	 $                0 	 2001
+
+ This file was last updated on 18 December, 2003

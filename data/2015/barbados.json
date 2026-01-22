@@ -1,0 +1,21 @@
+{
+  "country": "Barbados",
+  "region": "Central America and Caribbean",
+  "year": 2015,
+  "demographics": {
+    "population": 289680,
+    "population_growth_pct": 0.33,
+    "life_expectancy": 74.99
+  },
+  "economy": {
+    "gdp_ppp_billions": 4.51,
+    "gdp_growth_pct": -0.6,
+    "gdp_per_capita": 16200,
+    "inflation_pct": 1.9,
+    "unemployment_pct": 11.5,
+    "exports_billions": 0.77,
+    "imports_billions": 1.7
+  },
+  "military": {},
+  "political": {}
+}

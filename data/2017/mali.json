@@ -1,0 +1,23 @@
+{
+  "country": "Mali",
+  "region": "Africa",
+  "year": 2017,
+  "demographics": {
+    "population": 17885245,
+    "population_growth_pct": 3.0,
+    "life_expectancy": 60.3
+  },
+  "economy": {
+    "gdp_ppp_billions": 38.11,
+    "gdp_growth_pct": 5.4,
+    "gdp_per_capita": 2300,
+    "inflation_pct": -1.8,
+    "unemployment_pct": 8.1,
+    "exports_billions": 2.8,
+    "imports_billions": 3.44
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.44
+  },
+  "political": {}
+}

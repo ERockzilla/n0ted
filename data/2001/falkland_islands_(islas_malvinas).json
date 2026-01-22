@@ -1,0 +1,19 @@
+{
+  "country": "Falkland Islands (Islas Malvinas)",
+  "region": "Unknown",
+  "year": 2001,
+  "demographics": {
+    "population": 2895,
+    "population_growth_pct": 2.43
+  },
+  "economy": {
+    "gdp_growth_pct": 1.0,
+    "gdp_per_capita": 19000,
+    "inflation_pct": 3.6,
+    "exports_billions": 0.0076,
+    "imports_billions": 0.0247,
+    "gdp_ppp_billions": 0.052
+  },
+  "military": {},
+  "political": {}
+}

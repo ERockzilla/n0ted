@@ -1,0 +1,23 @@
+{
+  "country": "Croatia",
+  "region": "Europe",
+  "year": 2014,
+  "demographics": {
+    "population": 4470534,
+    "population_growth_pct": -0.12,
+    "life_expectancy": 76.41
+  },
+  "economy": {
+    "gdp_ppp_billions": 78.9,
+    "gdp_growth_pct": -1.0,
+    "gdp_per_capita": 17800,
+    "inflation_pct": 2.2,
+    "unemployment_pct": 21.6,
+    "exports_billions": 12.36,
+    "imports_billions": 21.74
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.7
+  },
+  "political": {}
+}

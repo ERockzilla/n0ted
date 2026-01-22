@@ -1,0 +1,23 @@
+{
+  "country": "Cuba",
+  "region": "Central America and Caribbean",
+  "year": 2011,
+  "demographics": {
+    "population": 11087330,
+    "population_growth_pct": -0.1,
+    "life_expectancy": 77.7
+  },
+  "economy": {
+    "gdp_ppp_billions": 114.1,
+    "gdp_growth_pct": 1.5,
+    "gdp_per_capita": 9900,
+    "inflation_pct": 2.9,
+    "unemployment_pct": 1.6,
+    "exports_billions": 3.82,
+    "imports_billions": 10.41
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.8
+  },
+  "political": {}
+}

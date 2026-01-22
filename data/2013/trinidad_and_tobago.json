@@ -1,0 +1,23 @@
+{
+  "country": "Trinidad And Tobago",
+  "region": "Central America and Caribbean",
+  "year": 2013,
+  "demographics": {
+    "population": 1225225,
+    "population_growth_pct": -0.09,
+    "life_expectancy": 71.96
+  },
+  "economy": {
+    "gdp_ppp_billions": 26.35,
+    "gdp_growth_pct": 0.2,
+    "gdp_per_capita": 19800,
+    "inflation_pct": 9.2,
+    "unemployment_pct": 5.6,
+    "exports_billions": 12.98,
+    "imports_billions": 9.06
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.6
+  },
+  "political": {}
+}

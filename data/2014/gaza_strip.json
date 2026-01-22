@@ -1,0 +1,16 @@
+{
+  "country": "Gaza Strip",
+  "region": "Middle East",
+  "year": 2014,
+  "demographics": {
+    "population": 1816379,
+    "population_growth_pct": 2.91,
+    "life_expectancy": 74.64
+  },
+  "economy": {
+    "inflation_pct": 1.7,
+    "unemployment_pct": 22.5
+  },
+  "military": {},
+  "political": {}
+}

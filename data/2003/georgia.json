@@ -1,0 +1,22 @@
+{
+  "country": "Georgia",
+  "region": "Middle East",
+  "year": 2003,
+  "demographics": {
+    "population": 4934413,
+    "life_expectancy": 64.76
+  },
+  "economy": {
+    "gdp_ppp_billions": 16.05,
+    "gdp_growth_pct": 5.4,
+    "gdp_per_capita": 3200,
+    "inflation_pct": 5.2,
+    "unemployment_pct": 17.0,
+    "exports_billions": 0.52,
+    "imports_billions": 0.75
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.59
+  },
+  "political": {}
+}

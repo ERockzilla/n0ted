@@ -1,0 +1,22 @@
+{
+  "country": "Germany",
+  "region": "Europe",
+  "year": 2006,
+  "demographics": {
+    "population": 82422299,
+    "life_expectancy": 78.8
+  },
+  "economy": {
+    "gdp_ppp_billions": 2480.0,
+    "gdp_growth_pct": 0.9,
+    "gdp_per_capita": 30100,
+    "inflation_pct": 2.0,
+    "unemployment_pct": 11.7,
+    "exports_billions": 1016.0,
+    "imports_billions": 801.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.5
+  },
+  "political": {}
+}

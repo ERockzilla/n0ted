@@ -1,0 +1,24 @@
+{
+  "country": "Germany",
+  "region": "Europe",
+  "year": 2020,
+  "demographics": {
+    "population": 80159662,
+    "population_growth_pct": -0.19,
+    "life_expectancy": 81.1,
+    "median_age": 47.8
+  },
+  "economy": {
+    "gdp_growth_pct": 0.59,
+    "gdp_per_capita": 50800,
+    "inflation_pct": 1.4,
+    "unemployment_pct": 6.2,
+    "exports_billions": 2004.16,
+    "imports_billions": 1804.45,
+    "external_debt_billions": 5326.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.38
+  },
+  "political": {}
+}

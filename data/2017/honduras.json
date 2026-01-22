@@ -1,0 +1,23 @@
+{
+  "country": "Honduras",
+  "region": "Central America and Caribbean",
+  "year": 2017,
+  "demographics": {
+    "population": 9038741,
+    "population_growth_pct": 1.6,
+    "life_expectancy": 71.2
+  },
+  "economy": {
+    "gdp_ppp_billions": 43.17,
+    "gdp_growth_pct": 3.6,
+    "gdp_per_capita": 5300,
+    "inflation_pct": 2.7,
+    "unemployment_pct": 3.9,
+    "exports_billions": 7.84,
+    "imports_billions": 10.56
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.05
+  },
+  "political": {}
+}

@@ -1,0 +1,21 @@
+{
+  "country": "Madagascar",
+  "region": "Africa",
+  "year": 2001,
+  "demographics": {
+    "population": 15982563,
+    "population_growth_pct": 3.02
+  },
+  "economy": {
+    "gdp_ppp_billions": 12.3,
+    "gdp_growth_pct": 4.8,
+    "gdp_per_capita": 800,
+    "inflation_pct": 10.0,
+    "exports_billions": 0.538,
+    "imports_billions": 0.693
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.0
+  },
+  "political": {}
+}

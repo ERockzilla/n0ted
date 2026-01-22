@@ -1,0 +1,12 @@
+{
+  "country": "Vatican City",
+  "region": "Unknown",
+  "year": 2001,
+  "demographics": {
+    "population": 890,
+    "population_growth_pct": 1.15
+  },
+  "economy": {},
+  "military": {},
+  "political": {}
+}

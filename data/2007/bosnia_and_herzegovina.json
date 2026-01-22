@@ -1,0 +1,22 @@
+{
+  "country": "Bosnia And Herzegovina",
+  "region": "Europe",
+  "year": 2007,
+  "demographics": {
+    "population": 4552198,
+    "life_expectancy": 78.17
+  },
+  "economy": {
+    "gdp_ppp_billions": 25.32,
+    "gdp_growth_pct": 6.2,
+    "gdp_per_capita": 5600,
+    "inflation_pct": 7.5,
+    "unemployment_pct": 45.5,
+    "exports_billions": 3.38,
+    "imports_billions": 7.62
+  },
+  "military": {
+    "expenditure_pct_gdp": 4.5
+  },
+  "political": {}
+}

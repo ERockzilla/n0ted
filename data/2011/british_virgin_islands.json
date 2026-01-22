@@ -1,0 +1,21 @@
+{
+  "country": "British Virgin Islands",
+  "region": "Central America and Caribbean",
+  "year": 2011,
+  "demographics": {
+    "population": 25383,
+    "population_growth_pct": 1.74,
+    "life_expectancy": 77.63
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.85,
+    "gdp_growth_pct": -0.6,
+    "gdp_per_capita": 38500,
+    "inflation_pct": 3.8,
+    "unemployment_pct": 3.6,
+    "exports_billions": 0.04,
+    "imports_billions": 0.23
+  },
+  "military": {},
+  "political": {}
+}

@@ -1,0 +1,23 @@
+{
+  "country": "Iceland",
+  "region": "Europe",
+  "year": 2013,
+  "demographics": {
+    "population": 315281,
+    "population_growth_pct": 0.66,
+    "life_expectancy": 81.11
+  },
+  "economy": {
+    "gdp_ppp_billions": 12.69,
+    "gdp_growth_pct": 1.6,
+    "gdp_per_capita": 39700,
+    "inflation_pct": 5.2,
+    "unemployment_pct": 5.8,
+    "exports_billions": 5.06,
+    "imports_billions": 4.44
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.0
+  },
+  "political": {}
+}

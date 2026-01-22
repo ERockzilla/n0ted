@@ -1,0 +1,18 @@
+{
+  "country": "San Marino",
+  "region": "Europe",
+  "year": 2001,
+  "demographics": {
+    "population": 27336,
+    "population_growth_pct": 1.45
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.86,
+    "gdp_growth_pct": 8.0,
+    "gdp_per_capita": 32000,
+    "inflation_pct": 2.2,
+    "unemployment_pct": 3.0
+  },
+  "military": {},
+  "political": {}
+}

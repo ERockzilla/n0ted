@@ -1,0 +1,23 @@
+{
+  "country": "Turkey",
+  "region": "Middle East",
+  "year": 2019,
+  "demographics": {
+    "population": 81257239,
+    "population_growth_pct": 0.49,
+    "life_expectancy": 75.3
+  },
+  "economy": {
+    "gdp_ppp_billions": 2186.0,
+    "gdp_growth_pct": 7.4,
+    "gdp_per_capita": 27000,
+    "inflation_pct": 11.1,
+    "unemployment_pct": 20.5,
+    "exports_billions": 166.2,
+    "imports_billions": 225.1
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.89
+  },
+  "political": {}
+}

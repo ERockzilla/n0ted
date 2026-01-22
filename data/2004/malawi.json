@@ -1,0 +1,21 @@
+{
+  "country": "Malawi",
+  "region": "Africa",
+  "year": 2004,
+  "demographics": {
+    "population": 12158924,
+    "life_expectancy": 36.97
+  },
+  "economy": {
+    "gdp_ppp_billions": 6.84,
+    "gdp_growth_pct": 1.7,
+    "gdp_per_capita": 600,
+    "inflation_pct": 9.5,
+    "exports_billions": 0.46,
+    "imports_billions": 0.51
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.7
+  },
+  "political": {}
+}

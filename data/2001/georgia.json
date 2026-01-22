@@ -1,0 +1,22 @@
+{
+  "country": "Georgia",
+  "region": "Middle East",
+  "year": 2001,
+  "demographics": {
+    "population": 4989285,
+    "population_growth_pct": -0.59
+  },
+  "economy": {
+    "gdp_ppp_billions": 22.8,
+    "gdp_growth_pct": 1.9,
+    "gdp_per_capita": 4600,
+    "inflation_pct": 4.1,
+    "unemployment_pct": 14.9,
+    "exports_billions": 0.372,
+    "imports_billions": 0.898
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.59
+  },
+  "political": {}
+}

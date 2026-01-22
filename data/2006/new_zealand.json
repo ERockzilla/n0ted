@@ -1,0 +1,22 @@
+{
+  "country": "New Zealand",
+  "region": "Australia-Oceania",
+  "year": 2006,
+  "demographics": {
+    "population": 4076140,
+    "life_expectancy": 78.81
+  },
+  "economy": {
+    "gdp_ppp_billions": 102.0,
+    "gdp_growth_pct": 2.3,
+    "gdp_per_capita": 25300,
+    "inflation_pct": 3.0,
+    "unemployment_pct": 3.7,
+    "exports_billions": 22.21,
+    "imports_billions": 24.57
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.0
+  },
+  "political": {}
+}

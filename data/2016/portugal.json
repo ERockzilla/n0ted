@@ -1,0 +1,23 @@
+{
+  "country": "Portugal",
+  "region": "Europe",
+  "year": 2016,
+  "demographics": {
+    "population": 10833816,
+    "population_growth_pct": 0.07,
+    "life_expectancy": 79.3
+  },
+  "economy": {
+    "gdp_ppp_billions": 290.3,
+    "gdp_growth_pct": 1.5,
+    "gdp_per_capita": 27900,
+    "inflation_pct": 0.5,
+    "unemployment_pct": 12.4,
+    "exports_billions": 54.33,
+    "imports_billions": 64.49
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.29
+  },
+  "political": {}
+}

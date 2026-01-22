@@ -1,0 +1,23 @@
+{
+  "country": "Swaziland",
+  "region": "Africa",
+  "year": 2008,
+  "demographics": {
+    "population": 1128814,
+    "population_growth_pct": -0.41,
+    "life_expectancy": 31.99
+  },
+  "economy": {
+    "gdp_ppp_billions": 5.36,
+    "gdp_growth_pct": 2.3,
+    "gdp_per_capita": 4700,
+    "inflation_pct": 8.1,
+    "unemployment_pct": 40.0,
+    "exports_billions": 1.93,
+    "imports_billions": 1.91
+  },
+  "military": {
+    "expenditure_pct_gdp": 4.7
+  },
+  "political": {}
+}

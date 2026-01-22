@@ -1,0 +1,23 @@
+{
+  "country": "Japan",
+  "region": "East & Southeast Asia",
+  "year": 2018,
+  "demographics": {
+    "population": 126168156,
+    "population_growth_pct": -0.24,
+    "life_expectancy": 85.5
+  },
+  "economy": {
+    "gdp_ppp_billions": 5443.0,
+    "gdp_growth_pct": 1.7,
+    "gdp_per_capita": 42900,
+    "inflation_pct": 0.5,
+    "unemployment_pct": 5.1,
+    "exports_billions": 688.9,
+    "imports_billions": 644.7
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.93
+  },
+  "political": {}
+}

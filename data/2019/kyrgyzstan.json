@@ -1,0 +1,23 @@
+{
+  "country": "Kyrgyzstan",
+  "region": "Central Asia",
+  "year": 2019,
+  "demographics": {
+    "population": 5849296,
+    "population_growth_pct": 1.02,
+    "life_expectancy": 71.2
+  },
+  "economy": {
+    "gdp_ppp_billions": 23.15,
+    "gdp_growth_pct": 4.6,
+    "gdp_per_capita": 3700,
+    "inflation_pct": 3.2,
+    "unemployment_pct": 14.8,
+    "exports_billions": 1.84,
+    "imports_billions": 4.19
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.57
+  },
+  "political": {}
+}

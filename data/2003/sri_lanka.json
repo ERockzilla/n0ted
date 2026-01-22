@@ -1,0 +1,22 @@
+{
+  "country": "Sri Lanka",
+  "region": "South Asia",
+  "year": 2003,
+  "demographics": {
+    "population": 19742439,
+    "life_expectancy": 72.62
+  },
+  "economy": {
+    "gdp_ppp_billions": 73.7,
+    "gdp_growth_pct": 3.2,
+    "gdp_per_capita": 3700,
+    "inflation_pct": 9.6,
+    "unemployment_pct": 8.0,
+    "exports_billions": 4.6,
+    "imports_billions": 5.4
+  },
+  "military": {
+    "expenditure_pct_gdp": 4.2
+  },
+  "political": {}
+}

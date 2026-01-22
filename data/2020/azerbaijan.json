@@ -1,0 +1,24 @@
+{
+  "country": "Azerbaijan",
+  "region": "Middle East",
+  "year": 2020,
+  "demographics": {
+    "population": 10205810,
+    "population_growth_pct": 0.77,
+    "life_expectancy": 73.6,
+    "median_age": 32.6
+  },
+  "economy": {
+    "gdp_growth_pct": 0.1,
+    "gdp_per_capita": 5863,
+    "inflation_pct": 2.6,
+    "unemployment_pct": 13.4,
+    "exports_billions": 15.15,
+    "imports_billions": 9.04,
+    "external_debt_billions": 17.41
+  },
+  "military": {
+    "expenditure_pct_gdp": 4.0
+  },
+  "political": {}
+}

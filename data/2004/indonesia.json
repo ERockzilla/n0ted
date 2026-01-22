@@ -1,0 +1,22 @@
+{
+  "country": "Indonesia",
+  "region": "East & Southeast Asia",
+  "year": 2004,
+  "demographics": {
+    "population": 241973879,
+    "life_expectancy": 69.57
+  },
+  "economy": {
+    "gdp_ppp_billions": 758.8,
+    "gdp_growth_pct": 4.1,
+    "gdp_per_capita": 3200,
+    "inflation_pct": 6.6,
+    "unemployment_pct": 8.7,
+    "exports_billions": 63.89,
+    "imports_billions": 40.22
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.3
+  },
+  "political": {}
+}

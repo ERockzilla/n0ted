@@ -1,0 +1,17 @@
+{
+  "country": "Sint Maarten",
+  "region": "Central America and Caribbean",
+  "year": 2011,
+  "demographics": {
+    "population": 37429
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.79,
+    "gdp_growth_pct": 1.6,
+    "gdp_per_capita": 15400,
+    "inflation_pct": 0.7,
+    "unemployment_pct": 10.6
+  },
+  "military": {},
+  "political": {}
+}

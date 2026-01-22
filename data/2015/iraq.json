@@ -1,0 +1,23 @@
+{
+  "country": "Iraq",
+  "region": "Middle East",
+  "year": 2015,
+  "demographics": {
+    "population": 32585692,
+    "population_growth_pct": 2.23,
+    "life_expectancy": 71.42
+  },
+  "economy": {
+    "gdp_ppp_billions": 505.4,
+    "gdp_growth_pct": -0.5,
+    "gdp_per_capita": 14100,
+    "inflation_pct": 2.2,
+    "unemployment_pct": 16.0,
+    "exports_billions": 94.43,
+    "imports_billions": 62.34
+  },
+  "military": {
+    "expenditure_pct_gdp": 8.7
+  },
+  "political": {}
+}

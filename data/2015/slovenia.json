@@ -1,0 +1,23 @@
+{
+  "country": "Slovenia",
+  "region": "Europe",
+  "year": 2015,
+  "demographics": {
+    "population": 1988292,
+    "population_growth_pct": -0.23,
+    "life_expectancy": 77.83
+  },
+  "economy": {
+    "gdp_ppp_billions": 60.54,
+    "gdp_growth_pct": 1.4,
+    "gdp_per_capita": 29400,
+    "inflation_pct": 0.2,
+    "unemployment_pct": 13.6,
+    "exports_billions": 30.47,
+    "imports_billions": 29.37
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.18
+  },
+  "political": {}
+}

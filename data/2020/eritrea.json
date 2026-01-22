@@ -1,0 +1,21 @@
+{
+  "country": "Eritrea",
+  "region": "Africa",
+  "year": 2020,
+  "demographics": {
+    "population": 6081196,
+    "population_growth_pct": 0.93,
+    "life_expectancy": 66.2,
+    "median_age": 20.3
+  },
+  "economy": {
+    "gdp_growth_pct": 5.0,
+    "gdp_per_capita": 1600,
+    "inflation_pct": 9.0,
+    "exports_billions": 0.62,
+    "imports_billions": 1.13,
+    "external_debt_billions": 0.79
+  },
+  "military": {},
+  "political": {}
+}

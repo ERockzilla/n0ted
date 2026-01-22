@@ -1,0 +1,22 @@
+{
+  "country": "Qatar",
+  "region": "Middle East",
+  "year": 2007,
+  "demographics": {
+    "population": 907229,
+    "life_expectancy": 74.14
+  },
+  "economy": {
+    "gdp_ppp_billions": 26.37,
+    "gdp_growth_pct": 7.1,
+    "gdp_per_capita": 29800,
+    "inflation_pct": 11.8,
+    "unemployment_pct": 3.2,
+    "exports_billions": 30.37,
+    "imports_billions": 12.36
+  },
+  "military": {
+    "expenditure_pct_gdp": 10.0
+  },
+  "political": {}
+}

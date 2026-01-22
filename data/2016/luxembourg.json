@@ -1,0 +1,23 @@
+{
+  "country": "Luxembourg",
+  "region": "Europe",
+  "year": 2016,
+  "demographics": {
+    "population": 582291,
+    "population_growth_pct": 2.05,
+    "life_expectancy": 82.3
+  },
+  "economy": {
+    "gdp_ppp_billions": 56.02,
+    "gdp_growth_pct": 4.8,
+    "gdp_per_capita": 99500,
+    "inflation_pct": 0.1,
+    "unemployment_pct": 6.9,
+    "exports_billions": 17.81,
+    "imports_billions": 20.22
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.6
+  },
+  "political": {}
+}

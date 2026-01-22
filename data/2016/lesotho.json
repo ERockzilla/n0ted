@@ -1,0 +1,23 @@
+{
+  "country": "Lesotho",
+  "region": "Africa",
+  "year": 2016,
+  "demographics": {
+    "population": 1953070,
+    "population_growth_pct": 0.3,
+    "life_expectancy": 53.0
+  },
+  "economy": {
+    "gdp_ppp_billions": 5.8,
+    "gdp_growth_pct": 2.8,
+    "gdp_per_capita": 3000,
+    "inflation_pct": 5.3,
+    "unemployment_pct": 28.1,
+    "exports_billions": 0.84,
+    "imports_billions": 1.74
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.94
+  },
+  "political": {}
+}

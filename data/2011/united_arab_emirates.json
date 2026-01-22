@@ -1,0 +1,23 @@
+{
+  "country": "United Arab Emirates",
+  "region": "Middle East",
+  "year": 2011,
+  "demographics": {
+    "population": 5148664,
+    "population_growth_pct": 3.28,
+    "life_expectancy": 76.51
+  },
+  "economy": {
+    "gdp_ppp_billions": 246.8,
+    "gdp_growth_pct": 3.2,
+    "gdp_per_capita": 49600,
+    "inflation_pct": 0.9,
+    "unemployment_pct": 2.4,
+    "exports_billions": 212.3,
+    "imports_billions": 161.4
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.1
+  },
+  "political": {}
+}

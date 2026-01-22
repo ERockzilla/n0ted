@@ -1,0 +1,22 @@
+{
+  "country": "United Kingdom",
+  "region": "Europe",
+  "year": 2003,
+  "demographics": {
+    "population": 60094648,
+    "life_expectancy": 78.16
+  },
+  "economy": {
+    "gdp_ppp_billions": 1528.0,
+    "gdp_growth_pct": 1.8,
+    "gdp_per_capita": 25500,
+    "inflation_pct": 2.1,
+    "unemployment_pct": 5.2,
+    "exports_billions": 286.3,
+    "imports_billions": 330.1
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.32
+  },
+  "political": {}
+}

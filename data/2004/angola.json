@@ -1,0 +1,21 @@
+{
+  "country": "Angola",
+  "region": "Africa",
+  "year": 2004,
+  "demographics": {
+    "population": 11190786,
+    "life_expectancy": 36.61
+  },
+  "economy": {
+    "gdp_ppp_billions": 20.42,
+    "gdp_growth_pct": 1.5,
+    "gdp_per_capita": 1900,
+    "inflation_pct": 76.6,
+    "exports_billions": 9.67,
+    "imports_billions": 4.08
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.9
+  },
+  "political": {}
+}

@@ -1,0 +1,24 @@
+{
+  "country": "Ukraine",
+  "region": "Europe",
+  "year": 2020,
+  "demographics": {
+    "population": 43922939,
+    "population_growth_pct": -0.1,
+    "life_expectancy": 72.9,
+    "median_age": 41.2
+  },
+  "economy": {
+    "gdp_growth_pct": 3.24,
+    "gdp_per_capita": 7439,
+    "inflation_pct": 7.9,
+    "unemployment_pct": 17.9,
+    "exports_billions": 161.23,
+    "imports_billions": 207.34,
+    "external_debt_billions": 130.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.9
+  },
+  "political": {}
+}

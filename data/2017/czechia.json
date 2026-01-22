@@ -1,0 +1,23 @@
+{
+  "country": "Czechia",
+  "region": "Europe",
+  "year": 2017,
+  "demographics": {
+    "population": 10674723,
+    "population_growth_pct": 0.1,
+    "life_expectancy": 78.8
+  },
+  "economy": {
+    "gdp_growth_pct": 2.4,
+    "gdp_per_capita": 33200,
+    "inflation_pct": 0.7,
+    "unemployment_pct": 4.0,
+    "exports_billions": 131.1,
+    "imports_billions": 120.8,
+    "gdp_ppp_billions": 350.7
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.08
+  },
+  "political": {}
+}

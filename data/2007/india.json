@@ -1,0 +1,22 @@
+{
+  "country": "India",
+  "region": "South Asia",
+  "year": 2007,
+  "demographics": {
+    "population": 1129866154,
+    "life_expectancy": 68.59
+  },
+  "economy": {
+    "gdp_ppp_billions": 4164.0,
+    "gdp_growth_pct": 9.4,
+    "gdp_per_capita": 3800,
+    "inflation_pct": 6.2,
+    "unemployment_pct": 7.8,
+    "exports_billions": 123.2,
+    "imports_billions": 184.4
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.5
+  },
+  "political": {}
+}

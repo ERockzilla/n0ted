@@ -1,0 +1,23 @@
+{
+  "country": "Brazil",
+  "region": "South America",
+  "year": 2008,
+  "demographics": {
+    "population": 196342592,
+    "population_growth_pct": 1.23,
+    "life_expectancy": 71.71
+  },
+  "economy": {
+    "gdp_ppp_billions": 1849.0,
+    "gdp_growth_pct": 5.4,
+    "gdp_per_capita": 9500,
+    "inflation_pct": 3.6,
+    "unemployment_pct": 9.3,
+    "exports_billions": 160.6,
+    "imports_billions": 120.6
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.6
+  },
+  "political": {}
+}

@@ -1,0 +1,23 @@
+{
+  "country": "Bulgaria",
+  "region": "Europe",
+  "year": 2008,
+  "demographics": {
+    "population": 7262675,
+    "population_growth_pct": -0.81,
+    "life_expectancy": 72.83
+  },
+  "economy": {
+    "gdp_ppp_billions": 86.71,
+    "gdp_growth_pct": 6.2,
+    "gdp_per_capita": 11800,
+    "inflation_pct": 9.8,
+    "unemployment_pct": 7.7,
+    "exports_billions": 18.44,
+    "imports_billions": 28.67
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.6
+  },
+  "political": {}
+}

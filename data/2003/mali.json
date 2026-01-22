@@ -1,0 +1,22 @@
+{
+  "country": "Mali",
+  "region": "Africa",
+  "year": 2003,
+  "demographics": {
+    "population": 11626219,
+    "life_expectancy": 45.43
+  },
+  "economy": {
+    "gdp_ppp_billions": 9.78,
+    "gdp_growth_pct": 4.5,
+    "gdp_per_capita": 900,
+    "inflation_pct": 4.5,
+    "unemployment_pct": 5.3,
+    "exports_billions": 0.68,
+    "imports_billions": 0.63
+  },
+  "military": {
+    "expenditure_pct_gdp": 15.0
+  },
+  "political": {}
+}

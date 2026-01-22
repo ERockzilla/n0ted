@@ -1,0 +1,21 @@
+{
+  "country": "Hong Kong",
+  "region": "East & Southeast Asia",
+  "year": 2017,
+  "demographics": {
+    "population": 7191503,
+    "population_growth_pct": 0.3,
+    "life_expectancy": 83.0
+  },
+  "economy": {
+    "gdp_ppp_billions": 429.7,
+    "gdp_growth_pct": 1.9,
+    "gdp_per_capita": 58300,
+    "inflation_pct": 2.4,
+    "unemployment_pct": 3.4,
+    "exports_billions": 502.5,
+    "imports_billions": 520.1
+  },
+  "military": {},
+  "political": {}
+}

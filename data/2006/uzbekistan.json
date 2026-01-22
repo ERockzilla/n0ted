@@ -1,0 +1,22 @@
+{
+  "country": "Uzbekistan",
+  "region": "Central Asia",
+  "year": 2006,
+  "demographics": {
+    "population": 27307134,
+    "life_expectancy": 64.58
+  },
+  "economy": {
+    "gdp_ppp_billions": 50.31,
+    "gdp_growth_pct": 7.0,
+    "gdp_per_capita": 1900,
+    "inflation_pct": 6.9,
+    "unemployment_pct": 0.7,
+    "exports_billions": 5.0,
+    "imports_billions": 3.8
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.0
+  },
+  "political": {}
+}

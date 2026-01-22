@@ -1,0 +1,20 @@
+{
+  "country": "Netherlands Antilles",
+  "region": "Central America and Caribbean",
+  "year": 2003,
+  "demographics": {
+    "population": 216226,
+    "life_expectancy": 75.38
+  },
+  "economy": {
+    "gdp_ppp_billions": 2.4,
+    "gdp_growth_pct": 0.0,
+    "gdp_per_capita": 11400,
+    "inflation_pct": 0.4,
+    "unemployment_pct": 15.0,
+    "exports_billions": 0.55,
+    "imports_billions": 1.43
+  },
+  "military": {},
+  "political": {}
+}

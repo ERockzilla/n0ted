@@ -1,0 +1,101 @@
+This tab-delimited file can be read by most spreadsheet applications after being saved properly.  At the top of your browser window, click 'File' and 'Save As...'  After saving the file, open your spreadsheet, find the file you just saved and then 'Open' it.
+Rank 	 Country 	 Oil - proved reserves(bbl) 	 Date of Information
+1 	 World 	   1,025,000,000,000 	 37257
+2 	 Saudi Arabia 	    261,700,000,000 	 37257
+3 	 Iraq 	    113,800,000,000 	 37257
+4 	 Kuwait 	     97,680,000,000 	 37257
+5 	 Iran 	     94,390,000,000 	 37257
+6 	 United Arab Emirates 	     80,310,000,000 	 37257
+7 	 Venezuela 	     63,950,000,000 	 37257
+8 	 Russia 	     51,220,000,000 	 37257
+9 	 Libya 	     29,750,000,000 	 37257
+10 	 Nigeria 	     27,000,000,000 	 37257
+11 	 China 	     26,750,000,000 	 37257
+12 	 Mexico 	     25,030,000,000 	 37257
+13 	 United States 	     22,450,000,000 	 37257
+14 	 Qatar 	     14,510,000,000 	 37257
+15 	 Algeria 	     13,100,000,000 	 37257
+16 	 Norway 	      9,859,000,000 	 37257
+17 	 Brazil 	      8,507,000,000 	 37257
+18 	 Indonesia 	      7,083,000,000 	 37257
+19 	 Oman 	      5,703,000,000 	 37257
+20 	 Angola 	      5,691,000,000 	 37257
+21 	 Canada 	      5,112,000,000 	 37257
+22 	 United Kingdom 	      4,741,000,000 	 37257
+23 	 India 	      4,330,000,000 	 37257
+24 	 Malaysia 	      3,729,000,000 	 37257
+25 	 Australia 	      3,664,000,000 	 37257
+26 	 Egypt 	      3,308,000,000 	 37257
+27 	 Yemen 	      3,200,000,000 	 37257
+28 	 Argentina 	      2,927,000,000 	 37257
+29 	 Kazakhstan 	      2,709,000,000 	 37257
+30 	 Gabon 	      2,450,000,000 	 37257
+31 	 Syria 	      2,400,000,000 	 37257
+32 	 Ecuador 	      2,358,000,000 	 37257
+33 	 Colombia 	      1,800,000,000 	 37257
+34 	 Congo, Democratic Republic of the 	      1,538,000,000 	 37257
+35 	 Vietnam 	      1,400,000,000 	 37257
+36 	 Brunei 	      1,255,000,000 	 37257
+37 	 Denmark 	      1,230,000,000 	 37257
+38 	 Romania 	      1,055,000,000 	 37257
+39 	 Trinidad and Tobago 	       716,000,000 	 37257
+40 	 Sudan 	       631,500,000 	 37257
+41 	 Peru 	       614,700,000 	 37257
+42 	 Azerbaijan 	       589,000,000 	 37257
+43 	 Italy 	       586,600,000 	 37257
+44 	 Equatorial Guinea 	       563,500,000 	 37257
+45 	 Thailand 	       551,500,000 	 37257
+46 	 Cuba 	       532,000,000 	 37257
+47 	 Bolivia 	       458,800,000 	 37257
+48 	 Tunisia 	       417,000,000 	 37257
+49 	 Papua New Guinea 	       345,200,000 	 37257
+50 	 Germany 	       327,300,000 	 37257
+51 	 Pakistan 	       297,100,000 	 37257
+52 	 Uzbekistan 	       297,000,000 	 37257
+53 	 Turkey 	       288,400,000 	 37257
+54 	 Turkmenistan 	       273,000,000 	 37257
+55 	 Guatemala 	       263,000,000 	 37257
+56 	 Cameroon 	       200,000,000 	 37257
+57 	 Ukraine 	       197,500,000 	 37257
+58 	 Albania 	       185,500,000 	 37257
+59 	 Philippines 	       164,000,000 	 37257
+60 	 France 	       144,300,000 	 37257
+61 	 Burma 	       142,500,000 	 37257
+62 	 Poland 	       116,400,000 	 37257
+63 	 Hungary 	       110,700,000 	 37257
+64 	 Croatia 	        93,600,000 	 37257
+65 	 Congo, Republic of the 	        93,500,000 	 37257
+66 	 New Zealand 	        89,620,000 	 37257
+67 	 Netherlands 	        88,060,000 	 37257
+68 	 Austria 	        85,690,000 	 37257
+69 	 Chile 	        81,050,000 	 37257
+70 	 Bahrain 	        62,280,000 	 37257
+71 	 Cote d'Ivoire 	        50,000,000 	 37257
+72 	 Serbia and Montenegro 	        38,750,000 	 37257
+73 	 Suriname 	        37,000,000 	 37257
+74 	 Japan 	        29,290,000 	 37257
+75 	 Bangladesh 	        28,450,000 	 37257
+76 	 Czech Republic 	        17,250,000 	 37257
+77 	 Spain 	        10,500,000 	 37257
+78 	 Ghana 	         8,255,000 	 37257
+79 	 Bulgaria 	         8,100,000 	 37257
+80 	 South Africa 	         7,840,000 	 37257
+81 	 Greece 	         4,500,000 	 37257
+82 	 Slovakia 	         4,500,000 	 37257
+83 	 Benin 	         4,105,000 	 37257
+84 	 Taiwan 	         2,000,000 	 37257
+85 	 Israel 	         1,920,000 	 37257
+86 	 Barbados 	         1,254,000 	 37257
+87 	 Morocco 	          900,000 	 37257
+88 	 Jordan 	          445,000 	 37257
+89 	 Ethiopia 	          214,000 	 37257
+90 	 Afghanistan 	               0 	 37257
+91 	 Mozambique 	               0 	 37257
+92 	 Tanzania 	               0 	 37257
+93 	 Namibia 	               0 	 37257
+94 	 Somalia 	               0 	 37257
+95 	 Rwanda 	               0 	 37257
+96 	 Ireland 	               0 	 37257
+97 	 Madagascar 	               0 	 37257
+
+ This file was last updated on 18 December, 2003

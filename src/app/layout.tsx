@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
-import { Space_Grotesk, JetBrains_Mono } from "next/font/google";
+import { Lexend, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
-import MathBackground from "@/components/MathBackground";
+import GaussianBackground from "@/components/GaussianBackground";
+import Footer from "@/components/Footer";
+import ConsoleInit from "@/components/ConsoleInit";
 
-const spaceGrotesk = Space_Grotesk({
+const lexend = Lexend({
   variable: "--font-sans",
   subsets: ["latin"],
   display: "swap",
@@ -29,13 +31,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${spaceGrotesk.variable} ${jetbrainsMono.variable} font-sans antialiased bg-slate-50 text-slate-800 min-h-screen`}
+        className={`${lexend.variable} ${jetbrainsMono.variable} font-sans antialiased bg-slate-50 text-slate-800 min-h-screen flex flex-col`}
       >
-        <MathBackground />
-        <div className="relative z-10">
+        <GaussianBackground />
+        <ConsoleInit />
+        <div className="relative z-10 flex-1 flex flex-col">
           {children}
+          <Footer />
         </div>
       </body>
     </html>
   );
 }
+

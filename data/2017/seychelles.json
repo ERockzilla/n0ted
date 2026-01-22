@@ -1,0 +1,23 @@
+{
+  "country": "Seychelles",
+  "region": "Africa",
+  "year": 2017,
+  "demographics": {
+    "population": 93920,
+    "population_growth_pct": 0.8,
+    "life_expectancy": 74.9
+  },
+  "economy": {
+    "gdp_ppp_billions": 2.6,
+    "gdp_growth_pct": 4.4,
+    "gdp_per_capita": 27600,
+    "inflation_pct": -1.0,
+    "unemployment_pct": 3.0,
+    "exports_billions": 0.48,
+    "imports_billions": 0.96
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.89
+  },
+  "political": {}
+}

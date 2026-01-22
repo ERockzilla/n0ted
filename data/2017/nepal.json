@@ -1,0 +1,21 @@
+{
+  "country": "Nepal",
+  "region": "South Asia",
+  "year": 2017,
+  "demographics": {
+    "population": 29384297,
+    "population_growth_pct": 1.2,
+    "life_expectancy": 71.0
+  },
+  "economy": {
+    "gdp_ppp_billions": 71.53,
+    "gdp_growth_pct": 0.6,
+    "gdp_per_capita": 2500,
+    "inflation_pct": 8.8,
+    "unemployment_pct": 3.3,
+    "exports_billions": 0.76,
+    "imports_billions": 8.76
+  },
+  "military": {},
+  "political": {}
+}

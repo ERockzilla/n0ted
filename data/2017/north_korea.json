@@ -1,0 +1,19 @@
+{
+  "country": "North Korea",
+  "region": "East & Southeast Asia",
+  "year": 2017,
+  "demographics": {
+    "population": 25248140,
+    "population_growth_pct": 0.5,
+    "life_expectancy": 70.7
+  },
+  "economy": {
+    "gdp_growth_pct": -1.1,
+    "gdp_per_capita": 1700,
+    "exports_billions": 2.98,
+    "imports_billions": 3.75,
+    "unemployment_pct": 25.6
+  },
+  "military": {},
+  "political": {}
+}

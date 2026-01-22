@@ -1,0 +1,22 @@
+{
+  "country": "Costa Rica",
+  "region": "Central America and Caribbean",
+  "year": 2003,
+  "demographics": {
+    "population": 3896092,
+    "life_expectancy": 76.43
+  },
+  "economy": {
+    "gdp_ppp_billions": 32.0,
+    "gdp_growth_pct": 2.8,
+    "gdp_per_capita": 8300,
+    "inflation_pct": 9.1,
+    "unemployment_pct": 6.3,
+    "exports_billions": 5.1,
+    "imports_billions": 6.4
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.6
+  },
+  "political": {}
+}

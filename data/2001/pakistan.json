@@ -1,0 +1,22 @@
+{
+  "country": "Pakistan",
+  "region": "South Asia",
+  "year": 2001,
+  "demographics": {
+    "population": 144616639,
+    "population_growth_pct": 2.11
+  },
+  "economy": {
+    "gdp_ppp_billions": 282.0,
+    "gdp_growth_pct": 4.8,
+    "gdp_per_capita": 2000,
+    "inflation_pct": 5.2,
+    "unemployment_pct": 6.0,
+    "exports_billions": 8.6,
+    "imports_billions": 9.6
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.9
+  },
+  "political": {}
+}

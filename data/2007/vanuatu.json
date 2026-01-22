@@ -1,0 +1,20 @@
+{
+  "country": "Vanuatu",
+  "region": "Australia-Oceania",
+  "year": 2007,
+  "demographics": {
+    "population": 211971,
+    "life_expectancy": 63.22
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.74,
+    "gdp_growth_pct": 6.8,
+    "gdp_per_capita": 2900,
+    "inflation_pct": -1.6,
+    "unemployment_pct": 1.7,
+    "exports_billions": 0.03,
+    "imports_billions": 0.12
+  },
+  "military": {},
+  "political": {}
+}

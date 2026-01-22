@@ -1,0 +1,23 @@
+{
+  "country": "Rwanda",
+  "region": "Africa",
+  "year": 2017,
+  "demographics": {
+    "population": 11901484,
+    "population_growth_pct": 2.5,
+    "life_expectancy": 64.3
+  },
+  "economy": {
+    "gdp_ppp_billions": 22.79,
+    "gdp_growth_pct": 5.9,
+    "gdp_per_capita": 2000,
+    "inflation_pct": 5.7,
+    "exports_billions": 0.74,
+    "imports_billions": 2.04,
+    "unemployment_pct": 2.7
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.12
+  },
+  "political": {}
+}

@@ -1,0 +1,22 @@
+{
+  "country": "Paraguay",
+  "region": "South America",
+  "year": 2001,
+  "demographics": {
+    "population": 5734139,
+    "population_growth_pct": 2.6
+  },
+  "economy": {
+    "gdp_ppp_billions": 26.2,
+    "gdp_growth_pct": 1.0,
+    "gdp_per_capita": 4750,
+    "inflation_pct": 8.0,
+    "unemployment_pct": 16.0,
+    "exports_billions": 3.5,
+    "imports_billions": 3.3
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.4
+  },
+  "political": {}
+}

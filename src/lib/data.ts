@@ -121,3 +121,13 @@ export function formatBillions(n: number | undefined): string {
     if (n >= 1000) return `$${(n / 1000).toFixed(1)}T`;
     return `$${n.toFixed(1)}B`;
 }
+
+export function loadTimeSeriesData(): Record<string, any> {
+    try {
+        const filePath = path.join(DATA_DIR, '_merged', 'timeseries.json');
+        const content = fs.readFileSync(filePath, 'utf-8');
+        return JSON.parse(content);
+    } catch {
+        return {};
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "country": "Andorra",
+  "region": "Europe",
+  "year": 2008,
+  "demographics": {
+    "population": 82627,
+    "population_growth_pct": 1.9,
+    "life_expectancy": 82.67
+  },
+  "economy": {
+    "gdp_ppp_billions": 2.77,
+    "gdp_growth_pct": 3.5,
+    "gdp_per_capita": 38800,
+    "inflation_pct": 3.2,
+    "unemployment_pct": 0.0,
+    "exports_billions": 0.15,
+    "imports_billions": 1.88
+  },
+  "military": {},
+  "political": {}
+}

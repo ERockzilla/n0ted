@@ -1,0 +1,19 @@
+{
+  "country": "Isle Of Man",
+  "region": "Europe",
+  "year": 2013,
+  "demographics": {
+    "population": 86159,
+    "population_growth_pct": 0.84,
+    "life_expectancy": 80.87
+  },
+  "economy": {
+    "gdp_ppp_billions": 4.08,
+    "gdp_growth_pct": 5.2,
+    "gdp_per_capita": 53800,
+    "inflation_pct": 5.0,
+    "unemployment_pct": 2.0
+  },
+  "military": {},
+  "political": {}
+}

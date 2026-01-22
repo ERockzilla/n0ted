@@ -1,0 +1,21 @@
+{
+  "country": "Grenada",
+  "region": "Central America and Caribbean",
+  "year": 2017,
+  "demographics": {
+    "population": 111724,
+    "population_growth_pct": 0.4,
+    "life_expectancy": 74.5
+  },
+  "economy": {
+    "gdp_ppp_billions": 1.51,
+    "gdp_growth_pct": 3.1,
+    "gdp_per_capita": 14100,
+    "inflation_pct": 1.7,
+    "unemployment_pct": 33.5,
+    "exports_billions": 0.04,
+    "imports_billions": 0.31
+  },
+  "military": {},
+  "political": {}
+}

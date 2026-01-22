@@ -1,0 +1,21 @@
+{
+  "country": "Cook Islands",
+  "region": "Australia-Oceania",
+  "year": 2015,
+  "demographics": {
+    "population": 10134,
+    "population_growth_pct": -3.0,
+    "life_expectancy": 75.38
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.18,
+    "gdp_growth_pct": 0.1,
+    "gdp_per_capita": 9100,
+    "inflation_pct": 2.2,
+    "unemployment_pct": 13.1,
+    "exports_billions": 3000.0,
+    "imports_billions": 0.08
+  },
+  "military": {},
+  "political": {}
+}

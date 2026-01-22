@@ -1,0 +1,22 @@
+{
+  "country": "Eritrea",
+  "region": "Africa",
+  "year": 2012,
+  "demographics": {
+    "population": 6086495,
+    "population_growth_pct": 2.42,
+    "life_expectancy": 62.86
+  },
+  "economy": {
+    "gdp_ppp_billions": 4.41,
+    "gdp_growth_pct": 7.5,
+    "gdp_per_capita": 800,
+    "inflation_pct": 17.0,
+    "exports_billions": 0.3,
+    "imports_billions": 0.94
+  },
+  "military": {
+    "expenditure_pct_gdp": 6.3
+  },
+  "political": {}
+}

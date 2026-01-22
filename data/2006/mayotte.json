@@ -1,0 +1,18 @@
+{
+  "country": "Mayotte",
+  "region": "Africa",
+  "year": 2006,
+  "demographics": {
+    "population": 201234,
+    "life_expectancy": 61.76
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.47,
+    "gdp_per_capita": 2600,
+    "unemployment_pct": 32.8,
+    "exports_billions": 0.0,
+    "imports_billions": 0.26
+  },
+  "military": {},
+  "political": {}
+}

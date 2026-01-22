@@ -1,0 +1,23 @@
+{
+  "country": "Ecuador",
+  "region": "South America",
+  "year": 2016,
+  "demographics": {
+    "population": 16080778,
+    "population_growth_pct": 1.31,
+    "life_expectancy": 76.8
+  },
+  "economy": {
+    "gdp_ppp_billions": 184.2,
+    "gdp_growth_pct": 0.3,
+    "gdp_per_capita": 11300,
+    "inflation_pct": 4.0,
+    "unemployment_pct": 4.3,
+    "exports_billions": 19.05,
+    "imports_billions": 20.7
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.83
+  },
+  "political": {}
+}

@@ -1,0 +1,23 @@
+{
+  "country": "Venezuela",
+  "region": "South America",
+  "year": 2008,
+  "demographics": {
+    "population": 26414816,
+    "population_growth_pct": 1.5,
+    "life_expectancy": 73.45
+  },
+  "economy": {
+    "gdp_ppp_billions": 334.3,
+    "gdp_growth_pct": 8.4,
+    "gdp_per_capita": 12800,
+    "inflation_pct": 18.7,
+    "unemployment_pct": 8.5,
+    "exports_billions": 69.17,
+    "imports_billions": 45.46
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.2
+  },
+  "political": {}
+}

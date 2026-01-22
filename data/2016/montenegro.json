@@ -1,0 +1,22 @@
+{
+  "country": "Montenegro",
+  "region": "Europe",
+  "year": 2016,
+  "demographics": {
+    "population": 644578,
+    "population_growth_pct": -0.35
+  },
+  "economy": {
+    "gdp_ppp_billions": 9.97,
+    "gdp_growth_pct": 3.2,
+    "gdp_per_capita": 16000,
+    "inflation_pct": 1.6,
+    "unemployment_pct": 18.5,
+    "exports_billions": 0.37,
+    "imports_billions": 1.98
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.81
+  },
+  "political": {}
+}

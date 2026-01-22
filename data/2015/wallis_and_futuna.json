@@ -1,0 +1,20 @@
+{
+  "country": "Wallis And Futuna",
+  "region": "Australia-Oceania",
+  "year": 2015,
+  "demographics": {
+    "population": 15561,
+    "population_growth_pct": 0.33,
+    "life_expectancy": 79.42
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.06,
+    "gdp_per_capita": 3800,
+    "inflation_pct": 2.8,
+    "unemployment_pct": 12.2,
+    "imports_billions": 0.06,
+    "exports_billions": 47450.0
+  },
+  "military": {},
+  "political": {}
+}

@@ -1,0 +1,23 @@
+{
+  "country": "Maldives",
+  "region": "South Asia",
+  "year": 2012,
+  "demographics": {
+    "population": 394451,
+    "population_growth_pct": -0.13,
+    "life_expectancy": 74.69
+  },
+  "economy": {
+    "gdp_ppp_billions": 2.94,
+    "gdp_growth_pct": 3.5,
+    "gdp_per_capita": 8700,
+    "inflation_pct": 12.8,
+    "unemployment_pct": 28.0,
+    "exports_billions": 0.35,
+    "imports_billions": 1.47
+  },
+  "military": {
+    "expenditure_pct_gdp": 5.5
+  },
+  "political": {}
+}

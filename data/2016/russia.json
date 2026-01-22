@@ -1,0 +1,23 @@
+{
+  "country": "Russia",
+  "region": "Central Asia",
+  "year": 2016,
+  "demographics": {
+    "population": 142355415,
+    "population_growth_pct": -0.06,
+    "life_expectancy": 70.8
+  },
+  "economy": {
+    "gdp_ppp_billions": 3725.0,
+    "gdp_growth_pct": -3.7,
+    "gdp_per_capita": 26000,
+    "inflation_pct": 15.5,
+    "unemployment_pct": 5.6,
+    "exports_billions": 341.5,
+    "imports_billions": 193.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.49
+  },
+  "political": {}
+}

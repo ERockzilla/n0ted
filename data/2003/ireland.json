@@ -1,0 +1,22 @@
+{
+  "country": "Ireland",
+  "region": "Europe",
+  "year": 2003,
+  "demographics": {
+    "population": 3924140,
+    "life_expectancy": 77.35
+  },
+  "economy": {
+    "gdp_ppp_billions": 113.7,
+    "gdp_growth_pct": 6.9,
+    "gdp_per_capita": 29300,
+    "inflation_pct": 4.6,
+    "unemployment_pct": 4.3,
+    "exports_billions": 86.6,
+    "imports_billions": 48.6
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.9
+  },
+  "political": {}
+}

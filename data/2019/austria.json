@@ -1,0 +1,23 @@
+{
+  "country": "Austria",
+  "region": "Europe",
+  "year": 2019,
+  "demographics": {
+    "population": 8793370,
+    "population_growth_pct": 0.42,
+    "life_expectancy": 81.7
+  },
+  "economy": {
+    "gdp_ppp_billions": 441.0,
+    "gdp_growth_pct": 3.0,
+    "gdp_per_capita": 50000,
+    "inflation_pct": 2.2,
+    "unemployment_pct": 9.8,
+    "exports_billions": 156.7,
+    "imports_billions": 158.1
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.58
+  },
+  "political": {}
+}

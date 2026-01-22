@@ -1,0 +1,23 @@
+{
+  "country": "Latvia",
+  "region": "Europe",
+  "year": 2017,
+  "demographics": {
+    "population": 1944643,
+    "population_growth_pct": -1.1,
+    "life_expectancy": 74.7
+  },
+  "economy": {
+    "gdp_ppp_billions": 50.62,
+    "gdp_growth_pct": 2.0,
+    "gdp_per_capita": 25700,
+    "inflation_pct": 0.2,
+    "unemployment_pct": 9.6,
+    "exports_billions": 11.35,
+    "imports_billions": 13.28
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.92
+  },
+  "political": {}
+}

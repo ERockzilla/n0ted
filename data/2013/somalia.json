@@ -1,0 +1,21 @@
+{
+  "country": "Somalia",
+  "region": "Africa",
+  "year": 2013,
+  "demographics": {
+    "population": 10251568,
+    "population_growth_pct": 1.67,
+    "life_expectancy": 51.19
+  },
+  "economy": {
+    "gdp_ppp_billions": 5.9,
+    "gdp_growth_pct": 2.6,
+    "gdp_per_capita": 600,
+    "exports_billions": 0.52,
+    "imports_billions": 1.26
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.9
+  },
+  "political": {}
+}

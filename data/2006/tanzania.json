@@ -1,0 +1,21 @@
+{
+  "country": "Tanzania",
+  "region": "Africa",
+  "year": 2006,
+  "demographics": {
+    "population": 37445392,
+    "life_expectancy": 45.64
+  },
+  "economy": {
+    "gdp_ppp_billions": 27.11,
+    "gdp_growth_pct": 6.8,
+    "gdp_per_capita": 700,
+    "inflation_pct": 4.3,
+    "exports_billions": 1.58,
+    "imports_billions": 2.39
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.2
+  },
+  "political": {}
+}

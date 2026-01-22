@@ -1,0 +1,23 @@
+{
+  "country": "Mexico",
+  "region": "North America",
+  "year": 2008,
+  "demographics": {
+    "population": 109955400,
+    "population_growth_pct": 1.14,
+    "life_expectancy": 75.84
+  },
+  "economy": {
+    "gdp_ppp_billions": 1353.0,
+    "gdp_growth_pct": 3.2,
+    "gdp_per_capita": 12400,
+    "inflation_pct": 4.0,
+    "unemployment_pct": 3.7,
+    "exports_billions": 271.9,
+    "imports_billions": 281.9
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.5
+  },
+  "political": {}
+}

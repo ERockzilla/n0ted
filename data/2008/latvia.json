@@ -1,0 +1,23 @@
+{
+  "country": "Latvia",
+  "region": "Europe",
+  "year": 2008,
+  "demographics": {
+    "population": 2245423,
+    "population_growth_pct": -0.63,
+    "life_expectancy": 71.88
+  },
+  "economy": {
+    "gdp_ppp_billions": 40.05,
+    "gdp_growth_pct": 10.3,
+    "gdp_per_capita": 17700,
+    "inflation_pct": 10.1,
+    "unemployment_pct": 5.7,
+    "exports_billions": 8.14,
+    "imports_billions": 14.82
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.2
+  },
+  "political": {}
+}

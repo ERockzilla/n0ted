@@ -1,0 +1,18 @@
+{
+  "country": "Guadeloupe",
+  "region": "Unknown",
+  "year": 2004,
+  "demographics": {
+    "population": 448713,
+    "life_expectancy": 77.9
+  },
+  "economy": {
+    "gdp_ppp_billions": 3.51,
+    "gdp_per_capita": 8000,
+    "unemployment_pct": 27.8,
+    "exports_billions": 0.14,
+    "imports_billions": 1.7
+  },
+  "military": {},
+  "political": {}
+}

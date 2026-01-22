@@ -1,0 +1,23 @@
+{
+  "country": "Slovakia",
+  "region": "Europe",
+  "year": 2013,
+  "demographics": {
+    "population": 5488339,
+    "population_growth_pct": 0.09,
+    "life_expectancy": 76.24
+  },
+  "economy": {
+    "gdp_ppp_billions": 130.5,
+    "gdp_growth_pct": 2.0,
+    "gdp_per_capita": 24100,
+    "inflation_pct": 3.6,
+    "unemployment_pct": 13.6,
+    "exports_billions": 80.67,
+    "imports_billions": 75.99
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.08
+  },
+  "political": {}
+}

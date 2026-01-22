@@ -1,0 +1,20 @@
+{
+  "country": "Grenada",
+  "region": "Central America and Caribbean",
+  "year": 2004,
+  "demographics": {
+    "population": 89502,
+    "life_expectancy": 64.53
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.44,
+    "gdp_growth_pct": 2.5,
+    "gdp_per_capita": 5000,
+    "inflation_pct": 2.8,
+    "unemployment_pct": 12.5,
+    "exports_billions": 0.05,
+    "imports_billions": 0.21
+  },
+  "military": {},
+  "political": {}
+}

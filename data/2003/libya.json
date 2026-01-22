@@ -1,0 +1,22 @@
+{
+  "country": "Libya",
+  "region": "Africa",
+  "year": 2003,
+  "demographics": {
+    "population": 5499074,
+    "life_expectancy": 76.07
+  },
+  "economy": {
+    "gdp_ppp_billions": 33.36,
+    "gdp_growth_pct": 1.2,
+    "gdp_per_capita": 6200,
+    "inflation_pct": 1.0,
+    "unemployment_pct": 30.0,
+    "exports_billions": 11.8,
+    "imports_billions": 6.3
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.9
+  },
+  "political": {}
+}

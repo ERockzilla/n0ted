@@ -1,0 +1,23 @@
+{
+  "country": "Slovakia",
+  "region": "Europe",
+  "year": 2016,
+  "demographics": {
+    "population": 5445802,
+    "population_growth_pct": 0.01,
+    "life_expectancy": 77.1
+  },
+  "economy": {
+    "gdp_ppp_billions": 161.3,
+    "gdp_growth_pct": 3.6,
+    "gdp_per_capita": 29800,
+    "inflation_pct": -0.3,
+    "unemployment_pct": 11.5,
+    "exports_billions": 73.12,
+    "imports_billions": 71.09
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.12
+  },
+  "political": {}
+}

@@ -1,0 +1,24 @@
+{
+  "country": "Zimbabwe",
+  "region": "Africa",
+  "year": 2020,
+  "demographics": {
+    "population": 14546314,
+    "population_growth_pct": 1.87,
+    "life_expectancy": 62.3,
+    "median_age": 20.5
+  },
+  "economy": {
+    "gdp_growth_pct": 3.7,
+    "gdp_per_capita": 1306,
+    "inflation_pct": 241.7,
+    "unemployment_pct": 16.5,
+    "exports_billions": 4.42,
+    "imports_billions": 7.21,
+    "external_debt_billions": 9.36
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.0
+  },
+  "political": {}
+}

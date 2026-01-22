@@ -1,0 +1,24 @@
+{
+  "country": "Senegal",
+  "region": "Africa",
+  "year": 2020,
+  "demographics": {
+    "population": 15736368,
+    "population_growth_pct": 2.31,
+    "life_expectancy": 63.2,
+    "median_age": 19.4
+  },
+  "economy": {
+    "gdp_growth_pct": 7.2,
+    "gdp_per_capita": 1583,
+    "inflation_pct": -0.8,
+    "unemployment_pct": 8.1,
+    "exports_billions": 2.36,
+    "imports_billions": 5.22,
+    "external_debt_billions": 8.57
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.5
+  },
+  "political": {}
+}

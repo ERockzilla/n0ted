@@ -1,0 +1,20 @@
+{
+  "country": "Syria",
+  "region": "Middle East",
+  "year": 2015,
+  "demographics": {
+    "population": 17951639,
+    "population_growth_pct": -9.73,
+    "life_expectancy": 68.41
+  },
+  "economy": {
+    "gdp_ppp_billions": 107.6,
+    "gdp_per_capita": 5100,
+    "inflation_pct": 34.8,
+    "unemployment_pct": 33.0,
+    "exports_billions": 2.03,
+    "imports_billions": 7.66
+  },
+  "military": {},
+  "political": {}
+}

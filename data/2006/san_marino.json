@@ -1,0 +1,18 @@
+{
+  "country": "San Marino",
+  "region": "Europe",
+  "year": 2006,
+  "demographics": {
+    "population": 29251,
+    "life_expectancy": 81.71
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.94,
+    "gdp_growth_pct": 2.3,
+    "gdp_per_capita": 34600,
+    "inflation_pct": -1.7,
+    "unemployment_pct": 2.6
+  },
+  "military": {},
+  "political": {}
+}

@@ -1,0 +1,23 @@
+{
+  "country": "Yemen",
+  "region": "Middle East",
+  "year": 2018,
+  "demographics": {
+    "population": 28667230,
+    "population_growth_pct": 2.17,
+    "life_expectancy": 66.2
+  },
+  "economy": {
+    "gdp_ppp_billions": 73.63,
+    "gdp_growth_pct": -5.9,
+    "gdp_per_capita": 2500,
+    "inflation_pct": 24.7,
+    "unemployment_pct": 24.5,
+    "exports_billions": 0.38,
+    "imports_billions": 4.08
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.97
+  },
+  "political": {}
+}

@@ -1,0 +1,23 @@
+{
+  "country": "Armenia",
+  "region": "Middle East",
+  "year": 2019,
+  "demographics": {
+    "population": 3038217,
+    "population_growth_pct": -0.25,
+    "life_expectancy": 75.1
+  },
+  "economy": {
+    "gdp_ppp_billions": 28.34,
+    "gdp_growth_pct": 7.5,
+    "gdp_per_capita": 9500,
+    "inflation_pct": 0.9,
+    "unemployment_pct": 36.3,
+    "exports_billions": 2.36,
+    "imports_billions": 3.77
+  },
+  "military": {
+    "expenditure_pct_gdp": 4.25
+  },
+  "political": {}
+}

@@ -1,0 +1,23 @@
+{
+  "country": "Liberia",
+  "region": "Africa",
+  "year": 2011,
+  "demographics": {
+    "population": 3786764,
+    "population_growth_pct": 2.66,
+    "life_expectancy": 57.0
+  },
+  "economy": {
+    "gdp_ppp_billions": 1.69,
+    "gdp_growth_pct": 5.1,
+    "gdp_per_capita": 500,
+    "inflation_pct": 7.3,
+    "unemployment_pct": 85.0,
+    "exports_billions": 0.21,
+    "imports_billions": 0.73
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.3
+  },
+  "political": {}
+}

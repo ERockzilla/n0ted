@@ -1,0 +1,22 @@
+{
+  "country": "Micronesia, Federated States Of",
+  "region": "Australia-Oceania",
+  "year": 2010,
+  "demographics": {
+    "population": 107154,
+    "population_growth_pct": -0.284,
+    "life_expectancy": 71.23,
+    "median_age": 22.4
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.2381,
+    "gdp_per_capita": 2200,
+    "inflation_pct": 2.2,
+    "unemployment_pct": 22.0,
+    "exports_billions": 0.014,
+    "imports_billions": 0.13269999999999998,
+    "external_debt_billions": 0.0608
+  },
+  "military": {},
+  "political": {}
+}

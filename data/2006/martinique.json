@@ -1,0 +1,18 @@
+{
+  "country": "Martinique",
+  "region": "Unknown",
+  "year": 2006,
+  "demographics": {
+    "population": 436131,
+    "life_expectancy": 79.18
+  },
+  "economy": {
+    "gdp_ppp_billions": 6.12,
+    "gdp_per_capita": 14400,
+    "unemployment_pct": 27.2,
+    "exports_billions": 0.4,
+    "imports_billions": 2.31
+  },
+  "military": {},
+  "political": {}
+}

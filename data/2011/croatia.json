@@ -1,0 +1,23 @@
+{
+  "country": "Croatia",
+  "region": "Europe",
+  "year": 2011,
+  "demographics": {
+    "population": 4483804,
+    "population_growth_pct": -0.08,
+    "life_expectancy": 75.79
+  },
+  "economy": {
+    "gdp_ppp_billions": 78.09,
+    "gdp_growth_pct": -1.4,
+    "gdp_per_capita": 17400,
+    "inflation_pct": 1.1,
+    "unemployment_pct": 17.6,
+    "exports_billions": 12.07,
+    "imports_billions": 19.94
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.39
+  },
+  "political": {}
+}

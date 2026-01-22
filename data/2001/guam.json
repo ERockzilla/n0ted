@@ -1,0 +1,19 @@
+{
+  "country": "Guam",
+  "region": "Australia-Oceania",
+  "year": 2001,
+  "demographics": {
+    "population": 157557,
+    "population_growth_pct": 2.09
+  },
+  "economy": {
+    "gdp_ppp_billions": 3.2,
+    "gdp_per_capita": 21000,
+    "inflation_pct": 0.0,
+    "unemployment_pct": 15.0,
+    "exports_billions": 0.0757,
+    "imports_billions": 0.203
+  },
+  "military": {},
+  "political": {}
+}

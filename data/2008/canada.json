@@ -1,0 +1,23 @@
+{
+  "country": "Canada",
+  "region": "North America",
+  "year": 2008,
+  "demographics": {
+    "population": 33212696,
+    "population_growth_pct": 0.83,
+    "life_expectancy": 81.16
+  },
+  "economy": {
+    "gdp_ppp_billions": 1271.0,
+    "gdp_growth_pct": 2.7,
+    "gdp_per_capita": 38600,
+    "inflation_pct": 2.1,
+    "unemployment_pct": 6.0,
+    "exports_billions": 431.1,
+    "imports_billions": 386.4
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.1
+  },
+  "political": {}
+}

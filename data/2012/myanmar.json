@@ -1,0 +1,23 @@
+{
+  "country": "Myanmar",
+  "region": "East & Southeast Asia",
+  "year": 2012,
+  "demographics": {
+    "population": 54584650,
+    "population_growth_pct": 1.07,
+    "life_expectancy": 65.24
+  },
+  "economy": {
+    "gdp_growth_pct": 6.2,
+    "gdp_per_capita": 1400,
+    "inflation_pct": 3.1,
+    "unemployment_pct": 5.4,
+    "exports_billions": 8.53,
+    "imports_billions": 7.14,
+    "gdp_ppp_billions": 89.23
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.1
+  },
+  "political": {}
+}

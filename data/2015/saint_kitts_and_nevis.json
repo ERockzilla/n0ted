@@ -1,0 +1,21 @@
+{
+  "country": "Saint Kitts And Nevis",
+  "region": "Central America and Caribbean",
+  "year": 2015,
+  "demographics": {
+    "population": 51538,
+    "population_growth_pct": 0.78,
+    "life_expectancy": 75.29
+  },
+  "economy": {
+    "gdp_ppp_billions": 1.22,
+    "gdp_growth_pct": 3.5,
+    "gdp_per_capita": 20300,
+    "inflation_pct": 1.0,
+    "unemployment_pct": 4.5,
+    "exports_billions": 0.1,
+    "imports_billions": 0.19
+  },
+  "military": {},
+  "political": {}
+}

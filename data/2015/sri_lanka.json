@@ -1,0 +1,23 @@
+{
+  "country": "Sri Lanka",
+  "region": "South Asia",
+  "year": 2015,
+  "demographics": {
+    "population": 21866445,
+    "population_growth_pct": 0.86,
+    "life_expectancy": 76.35
+  },
+  "economy": {
+    "gdp_ppp_billions": 217.1,
+    "gdp_growth_pct": 7.0,
+    "gdp_per_capita": 10400,
+    "inflation_pct": 3.3,
+    "unemployment_pct": 4.2,
+    "exports_billions": 11.88,
+    "imports_billions": 19.24
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.43
+  },
+  "political": {}
+}

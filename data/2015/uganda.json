@@ -1,0 +1,22 @@
+{
+  "country": "Uganda",
+  "region": "Africa",
+  "year": 2015,
+  "demographics": {
+    "population": 35918915,
+    "population_growth_pct": 3.24,
+    "life_expectancy": 54.46
+  },
+  "economy": {
+    "gdp_ppp_billions": 66.65,
+    "gdp_growth_pct": 5.9,
+    "gdp_per_capita": 1800,
+    "inflation_pct": 4.7,
+    "exports_billions": 2.78,
+    "imports_billions": 5.12
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.45
+  },
+  "political": {}
+}

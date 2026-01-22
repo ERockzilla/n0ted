@@ -1,0 +1,22 @@
+{
+  "country": "Czech Republic",
+  "region": "Europe",
+  "year": 2004,
+  "demographics": {
+    "population": 10241138,
+    "life_expectancy": 76.02
+  },
+  "economy": {
+    "gdp_ppp_billions": 161.1,
+    "gdp_growth_pct": 2.9,
+    "gdp_per_capita": 15700,
+    "inflation_pct": 0.1,
+    "unemployment_pct": 9.9,
+    "exports_billions": 46.77,
+    "imports_billions": 50.4
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.1
+  },
+  "political": {}
+}

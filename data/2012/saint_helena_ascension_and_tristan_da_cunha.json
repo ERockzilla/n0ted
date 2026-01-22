@@ -1,0 +1,20 @@
+{
+  "country": "Saint Helena Ascension And Tristan Da Cunha",
+  "region": "Africa",
+  "year": 2012,
+  "demographics": {
+    "population": 7728,
+    "life_expectancy": 78.91,
+    "population_growth_pct": 0.35
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.02,
+    "gdp_per_capita": 2500,
+    "inflation_pct": 3.2,
+    "exports_billions": 0.02,
+    "imports_billions": 0.04,
+    "unemployment_pct": 14.0
+  },
+  "military": {},
+  "political": {}
+}

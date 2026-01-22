@@ -1,0 +1,18 @@
+{
+  "country": "Falkland Islands (Islas Malvinas)",
+  "region": "Unknown",
+  "year": 2008,
+  "demographics": {
+    "population": 3140,
+    "population_growth_pct": 0.01
+  },
+  "economy": {
+    "gdp_per_capita": 25000,
+    "inflation_pct": 3.6,
+    "exports_billions": 0.12,
+    "imports_billions": 0.09,
+    "gdp_ppp_billions": 0.07
+  },
+  "military": {},
+  "political": {}
+}

@@ -1,0 +1,130 @@
+body a:link {
+	text-decoration: none;
+	}
+	
+/* ----- Country Profiles Pages ---------- */
+#field a:link, #field a:visited {
+	text-decoration: none;
+}
+
+#field .category a:link, #field .category a:visited {
+	text-decoration: none;
+}
+
+
+#profileguide a:link, #profileguide a:visited, #profileguide a:active {
+	color: #666666;
+	text-decoration: none;
+	font-weight: bold;
+	}
+
+#profileguide a:hover {
+	color: #666666;
+	text-decoration: none;
+	cursor: default;
+	}
+
+#profileguide td data{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	letter-spacing: 0.05em;
+	}
+
+
+/* ----- Rank Order Pages ---------- */
+
+#rankorder td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	letter-spacing: .075em;
+	text-decoration: none;
+	}
+
+#rankorder td img {
+	text-align: right;
+	}
+
+#rankorder a:link, #rankorder a:visited, #rankorder a:active  {
+	text-decoration: none;
+	color: #666666;
+  	cursor: default;
+	}
+
+#rankorder a:hover {
+	color:  #666666;
+	text-decoration: none;
+	}
+	
+	/* ----- Text Version ---------- */
+
+#textversion td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	letter-spacing: .075em;
+	text-decoration: none;
+	}
+
+#textversion td img {
+	text-align: right;
+	}
+
+#textversion a:link, #textversion a:visited, #textversion a:active  {
+	text-decoration: none;
+	color: #666666;
+	cursor: default;
+	}
+
+#textversion a:hover {
+	color:  #666666;
+	text-decoration: none;
+	}
+	
+/* ----- Information sourcesPages ---------- */
+
+#sourceguide td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	letter-spacing: .075em;
+	text-decoration: none;
+	}
+
+#sourceguide td img {
+	text-align: right;
+	}
+
+#sourceguide a:link, #sourceguide a:visited, #sourceguide a:active, #rankorderguide a:link, #rankorderguide a:visited, #rankorderguide a:active   {
+	text-decoration: none;
+	color: #666666;
+  	cursor: default;
+	font-weight: bold;
+	}
+
+#sourceguide a:hover {
+	color:  #666666;
+	text-decoration: none;
+	}
+	
+.category_data a:link, a:visited {
+	text-decoration: none;
+	}
+
+.category a:link, a:visited, #faq a:link  {
+	text-decoration: none;
+	}
+
+#contacts .category_data a:link, a:visited {
+	text-decoration: none;
+	}
+
+#faq .category a:link, a:visited {
+	text-decoration: none;
+	}
+
+#faq .answer a:link, #faq .question a:link {
+	text-decoration: none;
+ }	
+
+.answer {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666666;
+	letter-spacing: .1em;
+	padding-left: 7px;
+}

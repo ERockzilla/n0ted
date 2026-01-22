@@ -1,0 +1,24 @@
+{
+  "country": "Pakistan",
+  "region": "South Asia",
+  "year": 2020,
+  "demographics": {
+    "population": 233500636,
+    "population_growth_pct": 2.07,
+    "life_expectancy": 69.2,
+    "median_age": 22.0
+  },
+  "economy": {
+    "gdp_growth_pct": 5.4,
+    "gdp_per_capita": 1404,
+    "inflation_pct": 9.3,
+    "unemployment_pct": 7.8,
+    "exports_billions": 31.52,
+    "imports_billions": 42.27,
+    "external_debt_billions": 82.19
+  },
+  "military": {
+    "expenditure_pct_gdp": 4.0
+  },
+  "political": {}
+}

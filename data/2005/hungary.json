@@ -1,0 +1,22 @@
+{
+  "country": "Hungary",
+  "region": "Europe",
+  "year": 2005,
+  "demographics": {
+    "population": 10006835,
+    "life_expectancy": 72.4
+  },
+  "economy": {
+    "gdp_ppp_billions": 149.3,
+    "gdp_growth_pct": 3.9,
+    "gdp_per_capita": 14900,
+    "inflation_pct": 7.0,
+    "unemployment_pct": 5.9,
+    "exports_billions": 54.62,
+    "imports_billions": 58.68
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.75
+  },
+  "political": {}
+}

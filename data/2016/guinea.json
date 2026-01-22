@@ -1,0 +1,20 @@
+{
+  "country": "Guinea",
+  "region": "Africa",
+  "year": 2016,
+  "demographics": {
+    "population": 12093349,
+    "population_growth_pct": 2.62,
+    "life_expectancy": 60.6
+  },
+  "economy": {
+    "gdp_ppp_billions": 15.29,
+    "gdp_growth_pct": 0.1,
+    "gdp_per_capita": 1200,
+    "inflation_pct": 8.2,
+    "exports_billions": 1.61,
+    "imports_billions": 2.17
+  },
+  "military": {},
+  "political": {}
+}

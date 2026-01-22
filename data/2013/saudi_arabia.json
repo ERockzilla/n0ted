@@ -1,0 +1,23 @@
+{
+  "country": "Saudi Arabia",
+  "region": "Middle East",
+  "year": 2013,
+  "demographics": {
+    "population": 26939583,
+    "population_growth_pct": 1.51,
+    "life_expectancy": 74.58
+  },
+  "economy": {
+    "gdp_ppp_billions": 883.7,
+    "gdp_growth_pct": 5.1,
+    "gdp_per_capita": 30500,
+    "inflation_pct": 2.9,
+    "unemployment_pct": 10.6,
+    "exports_billions": 388.4,
+    "imports_billions": 141.8
+  },
+  "military": {
+    "expenditure_pct_gdp": 9.1
+  },
+  "political": {}
+}

@@ -1,0 +1,21 @@
+{
+  "country": "Guyana",
+  "region": "South America",
+  "year": 2004,
+  "demographics": {
+    "population": 765283,
+    "life_expectancy": 65.5
+  },
+  "economy": {
+    "gdp_ppp_billions": 2.8,
+    "gdp_growth_pct": 0.5,
+    "gdp_per_capita": 4000,
+    "inflation_pct": 5.7,
+    "exports_billions": 0.51,
+    "imports_billions": 0.61
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.8
+  },
+  "political": {}
+}

@@ -1,0 +1,22 @@
+{
+  "country": "Denmark",
+  "region": "Europe",
+  "year": 2001,
+  "demographics": {
+    "population": 5352815,
+    "population_growth_pct": 0.3
+  },
+  "economy": {
+    "gdp_ppp_billions": 136.2,
+    "gdp_growth_pct": 2.8,
+    "gdp_per_capita": 25500,
+    "inflation_pct": 2.9,
+    "unemployment_pct": 5.3,
+    "exports_billions": 50.8,
+    "imports_billions": 43.6
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.4
+  },
+  "political": {}
+}

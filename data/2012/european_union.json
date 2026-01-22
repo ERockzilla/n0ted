@@ -1,0 +1,16 @@
+{
+  "country": "European Union",
+  "region": "Europe",
+  "year": 2012,
+  "demographics": {
+    "life_expectancy": 79.76
+  },
+  "economy": {
+    "gdp_growth_pct": -0.2,
+    "gdp_per_capita": 34500,
+    "inflation_pct": 2.6,
+    "unemployment_pct": 10.5
+  },
+  "military": {},
+  "political": {}
+}

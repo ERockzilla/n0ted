@@ -1,0 +1,24 @@
+{
+  "country": "Mexico",
+  "region": "North America",
+  "year": 2020,
+  "demographics": {
+    "population": 128649565,
+    "population_growth_pct": 1.04,
+    "life_expectancy": 76.7,
+    "median_age": 29.3
+  },
+  "economy": {
+    "gdp_growth_pct": -0.3,
+    "gdp_per_capita": 10275,
+    "inflation_pct": 3.6,
+    "unemployment_pct": 6.9,
+    "exports_billions": 491.59,
+    "imports_billions": 480.89,
+    "external_debt_billions": 445.8
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.5
+  },
+  "political": {}
+}

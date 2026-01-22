@@ -1,0 +1,22 @@
+{
+  "country": "Swaziland",
+  "region": "Africa",
+  "year": 2005,
+  "demographics": {
+    "population": 1138227,
+    "life_expectancy": 33.22
+  },
+  "economy": {
+    "gdp_ppp_billions": 6.02,
+    "gdp_growth_pct": 2.5,
+    "gdp_per_capita": 5100,
+    "inflation_pct": 5.4,
+    "unemployment_pct": 34.0,
+    "exports_billions": 0.9,
+    "imports_billions": 1.14
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.4
+  },
+  "political": {}
+}

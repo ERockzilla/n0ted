@@ -1,0 +1,18 @@
+{
+  "country": "Jersey",
+  "region": "Europe",
+  "year": 2011,
+  "demographics": {
+    "population": 94161,
+    "population_growth_pct": 0.84,
+    "life_expectancy": 81.38
+  },
+  "economy": {
+    "gdp_ppp_billions": 5.1,
+    "gdp_per_capita": 57000,
+    "inflation_pct": 3.7,
+    "unemployment_pct": 2.2
+  },
+  "military": {},
+  "political": {}
+}

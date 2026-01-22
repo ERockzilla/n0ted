@@ -1,90 +1,91 @@
 import Link from 'next/link';
-import { loadCountry, loadAllCountries, formatNumber, formatPercent, formatBillions } from '@/lib/data';
+import { loadCountry, loadAllCountries, formatNumber, formatPercent, formatBillions, getAvailableYears, CountryData } from '@/lib/data';
 import { notFound } from 'next/navigation';
 import fs from 'fs';
 import path from 'path';
 
 import Navigation from '@/components/Navigation';
+import CountryTrendCharts from '@/components/CountryTrendCharts';
 import { generateCountryInsights, Insight } from '@/lib/insights';
 import { calculateRiskProfile } from '@/lib/analysis';
 
 // SVG Icons as components
 const LightbulbIcon = () => (
     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-amber-500">
-        <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/>
-        <path d="M9 18h6"/><path d="M10 22h4"/>
+        <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5" />
+        <path d="M9 18h6" /><path d="M10 22h4" />
     </svg>
 );
 
 const LandmarkIcon = () => (
     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-violet-500">
-        <line x1="3" x2="21" y1="22" y2="22"/>
-        <line x1="6" x2="6" y1="18" y2="11"/><line x1="10" x2="10" y1="18" y2="11"/>
-        <line x1="14" x2="14" y1="18" y2="11"/><line x1="18" x2="18" y1="18" y2="11"/>
-        <polygon points="12 2 20 7 4 7"/>
+        <line x1="3" x2="21" y1="22" y2="22" />
+        <line x1="6" x2="6" y1="18" y2="11" /><line x1="10" x2="10" y1="18" y2="11" />
+        <line x1="14" x2="14" y1="18" y2="11" /><line x1="18" x2="18" y1="18" y2="11" />
+        <polygon points="12 2 20 7 4 7" />
     </svg>
 );
 
 const UsersIcon = () => (
     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-emerald-500">
-        <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
-        <circle cx="9" cy="7" r="4"/>
-        <path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+        <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+        <circle cx="9" cy="7" r="4" />
+        <path d="M22 21v-2a4 4 0 0 0-3-3.87" /><path d="M16 3.13a4 4 0 0 1 0 7.75" />
     </svg>
 );
 
 const CoinsIcon = () => (
     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-amber-500">
-        <circle cx="8" cy="8" r="6"/>
-        <path d="M18.09 10.37A6 6 0 1 1 10.34 18"/><path d="M7 6h1v4"/>
+        <circle cx="8" cy="8" r="6" />
+        <path d="M18.09 10.37A6 6 0 1 1 10.34 18" /><path d="M7 6h1v4" />
     </svg>
 );
 
 const ShipIcon = () => (
     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-blue-500">
-        <path d="M2 21c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1 .6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/>
-        <path d="M19.38 20A11.6 11.6 0 0 0 21 14l-9-4-9 4c0 2.9.94 5.34 2.81 7.76"/>
-        <path d="M19 13V7a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v6"/><path d="M12 10v4"/>
+        <path d="M2 21c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1 .6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1" />
+        <path d="M19.38 20A11.6 11.6 0 0 0 21 14l-9-4-9 4c0 2.9.94 5.34 2.81 7.76" />
+        <path d="M19 13V7a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v6" /><path d="M12 10v4" />
     </svg>
 );
 
 const ZapIcon = () => (
     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-red-500">
-        <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/>
+        <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z" />
     </svg>
 );
 
 const BarChartIcon = () => (
     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-blue-500">
-        <path d="M3 3v16a2 2 0 0 0 2 2h16"/><path d="M7 16h8"/><path d="M7 11h12"/><path d="M7 6h3"/>
+        <path d="M3 3v16a2 2 0 0 0 2 2h16" /><path d="M7 16h8" /><path d="M7 11h12" /><path d="M7 6h3" />
     </svg>
 );
 
 const MapIcon = () => (
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <path d="m3 6 6-3 6 3 6-3v15l-6 3-6-3-6 3z"/><path d="M9 3v15"/><path d="M15 6v15"/>
+        <path d="m3 6 6-3 6 3 6-3v15l-6 3-6-3-6 3z" /><path d="M9 3v15" /><path d="M15 6v15" />
     </svg>
 );
 
 const ScaleIcon = () => (
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/>
-        <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/>
-        <path d="M7 21h10"/><path d="M12 3v18"/><path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"/>
+        <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+        <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+        <path d="M7 21h10" /><path d="M12 3v18" /><path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
     </svg>
 );
 
 const GlobeIcon = () => (
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <circle cx="12" cy="12" r="10"/>
-        <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/>
-        <path d="M2 12h20"/>
+        <circle cx="12" cy="12" r="10" />
+        <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
+        <path d="M2 12h20" />
     </svg>
 );
 
 const TargetIcon = () => (
     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-slate-400">
-        <circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/>
+        <circle cx="12" cy="12" r="10" /><circle cx="12" cy="12" r="6" /><circle cx="12" cy="12" r="2" />
     </svg>
 );
 
@@ -94,34 +95,96 @@ interface PageProps {
 
 // Map insight icons to SVG components
 const INSIGHT_ICONS: Record<string, React.ReactNode> = {
-    '🏆': <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-amber-500"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg>,
+    '🏆': <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-amber-500"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" /><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" /><path d="M4 22h16" /><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" /><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" /><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" /></svg>,
     '📊': <BarChartIcon />,
-    '🚀': <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-emerald-500"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></svg>,
-    '📉': <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-red-500"><polyline points="22 17 13.5 8.5 8.5 13.5 2 7"/><polyline points="16 17 22 17 22 11"/></svg>,
-    '⚔️': <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-red-500"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/></svg>,
-    '🕊️': <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-blue-500"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>,
+    '🚀': <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-emerald-500"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z" /><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z" /><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0" /><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5" /></svg>,
+    '📉': <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-red-500"><polyline points="22 17 13.5 8.5 8.5 13.5 2 7" /><polyline points="16 17 22 17 22 11" /></svg>,
+    '⚔️': <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-red-500"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10" /></svg>,
+    '🕊️': <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-blue-500"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" /></svg>,
     '📦': <ShipIcon />,
-    '⚠️': <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-amber-500"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>,
+    '⚠️': <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-amber-500"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z" /><path d="M12 9v4" /><path d="M12 17h.01" /></svg>,
     '🌐': <GlobeIcon />,
     '👴': <UsersIcon />,
     '👶': <UsersIcon />,
-    '✅': <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-emerald-500"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg>,
-    '💎': <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-blue-500"><path d="M12 2v20"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>,
-    '🌱': <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-emerald-500"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>,
+    '✅': <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-emerald-500"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" /><path d="m9 11 3 3L22 4" /></svg>,
+    '💎': <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-blue-500"><path d="M12 2v20" /><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" /></svg>,
+    '🌱': <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-emerald-500"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17" /><polyline points="16 7 22 7 22 13" /></svg>,
 };
 
-export default async function CountryPage({ params }: PageProps) {
+export default async function CountryPage({
+    params,
+    searchParams
+}: {
+    params: Promise<{ slug: string }>;
+    searchParams: Promise<{ year?: string }>;
+}) {
     const { slug } = await params;
+    const { year: yearParam } = await searchParams;
     const filename = `${slug}.json`;
-    const country = loadCountry(2010, filename);
+
+    // Load data from ALL available years
+    const availableYears = getAvailableYears();
+    const countryDataByYear: Record<number, CountryData | null> = {};
+
+    for (const year of availableYears) {
+        const yearData = loadCountry(year, filename);
+        if (yearData) {
+            countryDataByYear[year] = yearData;
+        }
+    }
+
+    // Determine which year to display
+    const yearsWithData = Object.keys(countryDataByYear).map(Number).sort((a, b) => b - a);
+    const requestedYear = yearParam ? parseInt(yearParam) : undefined;
+    const primaryYear = (requestedYear && yearsWithData.includes(requestedYear))
+        ? requestedYear
+        : (yearsWithData[0] || 2010);
+
+    const country = countryDataByYear[primaryYear];
 
     if (!country) {
         notFound();
     }
 
-    const allCountries = loadAllCountries(2010);
+    const allCountries = loadAllCountries(primaryYear);
     const insights = generateCountryInsights(country, allCountries);
     const riskProfile = calculateRiskProfile(country, allCountries);
+
+    // Calculate changes between years
+    const changes: Record<string, { old: number; new: number; change: number }> = {};
+    if (yearsWithData.length >= 2) {
+        const sortedYears = yearsWithData.sort((a, b) => a - b);
+        const currentIndex = sortedYears.indexOf(primaryYear);
+
+        // Compare with the previous year in our dataset if possible
+        if (currentIndex > 0) {
+            const prevYear = sortedYears[currentIndex - 1];
+            const oldData = countryDataByYear[prevYear];
+            const newData = countryDataByYear[primaryYear];
+
+            if (oldData && newData) {
+                const metricsToCompare = [
+                    { path: 'demographics.population', key: 'population' },
+                    { path: 'economy.gdp_ppp_billions', key: 'gdp' },
+                    { path: 'economy.gdp_per_capita', key: 'gdp_per_capita' },
+                    { path: 'demographics.life_expectancy', key: 'life_expectancy' },
+                ];
+
+                for (const { path, key } of metricsToCompare) {
+                    const [section, field] = path.split('.') as ['demographics' | 'economy', string];
+                    const oldVal = (oldData as any)[section]?.[field];
+                    const newVal = (newData as any)[section]?.[field];
+                    if (oldVal !== undefined && newVal !== undefined) {
+                        changes[key] = {
+                            old: oldVal,
+                            new: newVal,
+                            change: ((newVal - oldVal) / oldVal) * 100
+                        };
+                    }
+                }
+            }
+        }
+    }
 
     const d = country.demographics;
     const e = country.economy;
@@ -148,17 +211,76 @@ export default async function CountryPage({ params }: PageProps) {
                 <div className="flex flex-col gap-4 mb-6 sm:mb-10">
                     <div>
                         <h1 className="text-2xl sm:text-4xl font-bold text-slate-800 mb-1">{country.country}</h1>
-                        <p className="text-base sm:text-xl text-slate-500">{country.region} • {country.year}</p>
+                        <div className="flex items-center gap-3">
+                            <p className="text-base sm:text-xl text-slate-500">{country.region}</p>
+                            {/* Year badges */}
+                            <div className="flex gap-1">
+                                {yearsWithData.sort((a, b) => a - b).map(year => (
+                                    <Link
+                                        key={year}
+                                        href={`?year=${year}`}
+                                        scroll={false}
+                                        className={`px-2 py-0.5 rounded text-xs font-medium transition hover:opacity-80 ${year === primaryYear
+                                            ? 'bg-blue-500 text-white'
+                                            : 'bg-slate-200 text-slate-600 hover:bg-slate-300'
+                                            }`}
+                                    >
+                                        {year}
+                                    </Link>
+                                ))}
+                            </div>
+                        </div>
                     </div>
-                    
+
+                    {/* Summary Changes Since First Year with Data */}
+                    {Object.keys(changes).length > 0 && yearsWithData.length >= 2 && (
+                        <div className="flex flex-wrap gap-3 p-3 rounded-lg bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200">
+                            <span className="text-xs font-medium text-blue-700 mr-2">
+                                Change ({yearsWithData[yearsWithData.length - 1]}–{yearsWithData[0]}):
+                            </span>
+                            {changes.population && (
+                                <div className="flex items-center gap-1 text-xs">
+                                    <span className="text-slate-600">Pop:</span>
+                                    <span className={changes.population.change >= 0 ? 'text-emerald-600' : 'text-red-600'}>
+                                        {changes.population.change >= 0 ? '↑' : '↓'} {Math.abs(changes.population.change).toFixed(1)}%
+                                    </span>
+                                </div>
+                            )}
+                            {changes.gdp && (
+                                <div className="flex items-center gap-1 text-xs">
+                                    <span className="text-slate-600">GDP:</span>
+                                    <span className={changes.gdp.change >= 0 ? 'text-emerald-600' : 'text-red-600'}>
+                                        {changes.gdp.change >= 0 ? '↑' : '↓'} {Math.abs(changes.gdp.change).toFixed(1)}%
+                                    </span>
+                                </div>
+                            )}
+                            {changes.life_expectancy && (
+                                <div className="flex items-center gap-1 text-xs">
+                                    <span className="text-slate-600">Life Exp:</span>
+                                    <span className={changes.life_expectancy.change >= 0 ? 'text-emerald-600' : 'text-red-600'}>
+                                        {changes.life_expectancy.change >= 0 ? '↑' : '↓'} {Math.abs(changes.life_expectancy.change).toFixed(1)}%
+                                    </span>
+                                </div>
+                            )}
+                            {changes.gdp_per_capita && (
+                                <div className="flex items-center gap-1 text-xs">
+                                    <span className="text-slate-600">Per Capita:</span>
+                                    <span className={changes.gdp_per_capita.change >= 0 ? 'text-emerald-600' : 'text-red-600'}>
+                                        {changes.gdp_per_capita.change >= 0 ? '↑' : '↓'} {Math.abs(changes.gdp_per_capita.change).toFixed(1)}%
+                                    </span>
+                                </div>
+                            )}
+                        </div>
+                    )}
+
                     {/* Risk Score Card */}
                     <div className="flex items-center gap-4 p-4 rounded-xl bg-white/80 border border-slate-200 shadow-sm self-start">
                         <div className="text-center">
-                            <div 
+                            <div
                                 className="w-14 h-14 sm:w-16 sm:h-16 rounded-full flex items-center justify-center text-xl sm:text-2xl font-bold border-4"
-                                style={{ 
+                                style={{
                                     borderColor: riskProfile.score.color,
-                                    color: riskProfile.score.color 
+                                    color: riskProfile.score.color
                                 }}
                             >
                                 {riskProfile.score.overall}
@@ -172,8 +294,8 @@ export default async function CountryPage({ params }: PageProps) {
                             <p className="text-slate-500 text-xs sm:text-sm">
                                 #{riskProfile.rank} Global • #{riskProfile.regionalRank} in {country.region}
                             </p>
-                            <Link 
-                                href="/analysis" 
+                            <Link
+                                href="/analysis"
                                 className="text-blue-600 hover:text-blue-700 text-xs"
                             >
                                 View full analysis →
@@ -196,6 +318,11 @@ export default async function CountryPage({ params }: PageProps) {
                         </div>
                     </section>
                 )}
+
+                {/* Historical Trends */}
+                <section className="mb-6 sm:mb-8">
+                    <CountryTrendCharts countrySlug={slug} countryName={country.country} />
+                </section>
 
                 {/* Political Leadership */}
                 {(p.chief_of_state || p.head_of_government) && (
@@ -382,11 +509,11 @@ function ScoreBar({ label, score, color }: { label: string; score: number; color
                 <span className="text-xs sm:text-sm font-medium" style={{ color }}>{score}</span>
             </div>
             <div className="h-2 sm:h-3 bg-slate-200 rounded-full overflow-hidden">
-                <div 
+                <div
                     className="h-full rounded-full transition-all duration-500"
-                    style={{ 
+                    style={{
                         width: `${score}%`,
-                        backgroundColor: color 
+                        backgroundColor: color
                     }}
                 />
             </div>

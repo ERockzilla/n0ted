@@ -1,0 +1,24 @@
+{
+  "country": "Ireland",
+  "region": "Europe",
+  "year": 2020,
+  "demographics": {
+    "population": 5176569,
+    "population_growth_pct": 1.04,
+    "life_expectancy": 81.2,
+    "median_age": 37.8
+  },
+  "economy": {
+    "gdp_growth_pct": 5.86,
+    "gdp_per_capita": 81340,
+    "inflation_pct": 0.9,
+    "unemployment_pct": 13.8,
+    "exports_billions": 541.79,
+    "imports_billions": 489.96,
+    "external_debt_billions": 2470.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.3
+  },
+  "political": {}
+}

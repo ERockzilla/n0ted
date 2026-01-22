@@ -9,8 +9,5 @@
     "unemployment_pct": 60.0
   },
   "military": {},
-  "political": {
-    "chief_of_state": "ELIZABETH II",
-    "head_of_government": "Administrator"
-  }
+  "political": {}
 }

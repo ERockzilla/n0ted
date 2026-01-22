@@ -1,0 +1,21 @@
+{
+  "country": "Republic Of The Congo",
+  "region": "Unknown",
+  "year": 2006,
+  "demographics": {
+    "population": 3702314,
+    "life_expectancy": 52.8
+  },
+  "economy": {
+    "gdp_growth_pct": 8.2,
+    "gdp_per_capita": 1300,
+    "inflation_pct": 2.2,
+    "exports_billions": 2.21,
+    "imports_billions": 0.81,
+    "gdp_ppp_billions": 4.58
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.4
+  },
+  "political": {}
+}

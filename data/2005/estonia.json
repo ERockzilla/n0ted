@@ -1,0 +1,22 @@
+{
+  "country": "Estonia",
+  "region": "Europe",
+  "year": 2005,
+  "demographics": {
+    "population": 1332893,
+    "life_expectancy": 71.77
+  },
+  "economy": {
+    "gdp_ppp_billions": 19.23,
+    "gdp_growth_pct": 6.0,
+    "gdp_per_capita": 14300,
+    "inflation_pct": 3.0,
+    "unemployment_pct": 9.6,
+    "exports_billions": 5.7,
+    "imports_billions": 7.32
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.0
+  },
+  "political": {}
+}

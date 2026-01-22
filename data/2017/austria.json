@@ -1,0 +1,23 @@
+{
+  "country": "Austria",
+  "region": "Europe",
+  "year": 2017,
+  "demographics": {
+    "population": 8754413,
+    "population_growth_pct": 0.5,
+    "life_expectancy": 81.6
+  },
+  "economy": {
+    "gdp_ppp_billions": 417.2,
+    "gdp_growth_pct": 1.5,
+    "gdp_per_capita": 48000,
+    "inflation_pct": 1.0,
+    "unemployment_pct": 6.0,
+    "exports_billions": 142.8,
+    "imports_billions": 143.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.81
+  },
+  "political": {}
+}

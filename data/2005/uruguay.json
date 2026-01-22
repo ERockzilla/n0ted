@@ -1,0 +1,22 @@
+{
+  "country": "Uruguay",
+  "region": "South America",
+  "year": 2005,
+  "demographics": {
+    "population": 3415920,
+    "life_expectancy": 76.13
+  },
+  "economy": {
+    "gdp_ppp_billions": 49.27,
+    "gdp_growth_pct": 10.2,
+    "gdp_per_capita": 14500,
+    "inflation_pct": 7.6,
+    "unemployment_pct": 13.0,
+    "exports_billions": 2.2,
+    "imports_billions": 2.07
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.0
+  },
+  "political": {}
+}

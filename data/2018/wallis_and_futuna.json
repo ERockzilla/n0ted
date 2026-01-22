@@ -1,0 +1,19 @@
+{
+  "country": "Wallis And Futuna",
+  "region": "Australia-Oceania",
+  "year": 2018,
+  "demographics": {
+    "population": 15763,
+    "population_growth_pct": 0.3,
+    "life_expectancy": 80.0
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.06,
+    "gdp_per_capita": 3800,
+    "inflation_pct": 0.9,
+    "imports_billions": 0.06,
+    "exports_billions": 47450.0
+  },
+  "military": {},
+  "political": {}
+}

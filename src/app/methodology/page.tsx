@@ -1,62 +1,93 @@
 import Link from 'next/link';
 import Navigation from '@/components/Navigation';
+import fs from 'fs';
+import path from 'path';
+
+// Load available years from timeseries data
+function getAvailableYearsFromTimeseries(): number[] {
+    try {
+        const filePath = path.join(process.cwd(), 'data', '_merged', 'timeseries.json');
+        const content = fs.readFileSync(filePath, 'utf-8');
+        const data = JSON.parse(content);
+
+        // Extract unique years from first country's data
+        const years = new Set<number>();
+        const firstCountry = Object.values(data)[0] as Record<string, Array<{ year: number }>>;
+        if (firstCountry) {
+            for (const metric of Object.values(firstCountry)) {
+                if (Array.isArray(metric)) {
+                    metric.forEach((point: { year: number }) => years.add(point.year));
+                }
+            }
+        }
+        return Array.from(years).sort((a, b) => a - b);
+    } catch {
+        return [2010]; // fallback
+    }
+}
 
 // SVG Icons
 const BookOpenIcon = () => (
     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-blue-500">
-        <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+        <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" /><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
     </svg>
 );
 
 const SettingsIcon = () => (
     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-violet-500">
-        <path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/>
-        <circle cx="12" cy="12" r="3"/>
+        <path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z" />
+        <circle cx="12" cy="12" r="3" />
     </svg>
 );
 
 const BarChartIcon = () => (
     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-emerald-500">
-        <path d="M3 3v16a2 2 0 0 0 2 2h16"/><path d="M7 16h8"/><path d="M7 11h12"/><path d="M7 6h3"/>
+        <path d="M3 3v16a2 2 0 0 0 2 2h16" /><path d="M7 16h8" /><path d="M7 11h12" /><path d="M7 6h3" />
     </svg>
 );
 
 const TargetIcon = () => (
     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-red-500">
-        <circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/>
+        <circle cx="12" cy="12" r="10" /><circle cx="12" cy="12" r="6" /><circle cx="12" cy="12" r="2" />
     </svg>
 );
 
 const CalendarIcon = () => (
     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-blue-500">
-        <path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/>
-        <path d="M3 10h18"/>
+        <path d="M8 2v4" /><path d="M16 2v4" /><rect width="18" height="18" x="3" y="4" rx="2" />
+        <path d="M3 10h18" />
     </svg>
 );
 
 const RefreshIcon = () => (
     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-amber-500">
-        <path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/>
-        <path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/>
-        <path d="M8 16H3v5"/>
+        <path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8" />
+        <path d="M21 3v5h-5" /><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16" />
+        <path d="M8 16H3v5" />
     </svg>
 );
 
 const FileTextIcon = () => (
     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-slate-500">
-        <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/>
-        <polyline points="14 2 14 8 20 8"/><line x1="16" x2="8" y1="13" y2="13"/><line x1="16" x2="8" y1="17" y2="17"/><line x1="10" x2="8" y1="9" y2="9"/>
+        <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z" />
+        <polyline points="14 2 14 8 20 8" /><line x1="16" x2="8" y1="13" y2="13" /><line x1="16" x2="8" y1="17" y2="17" /><line x1="10" x2="8" y1="9" y2="9" />
     </svg>
 );
 
 const AlertTriangleIcon = () => (
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-amber-500">
-        <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/>
-        <path d="M12 9v4"/><path d="M12 17h.01"/>
+        <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z" />
+        <path d="M12 9v4" /><path d="M12 17h.01" />
     </svg>
 );
 
 export default function MethodologyPage() {
+    const availableYears = getAvailableYearsFromTimeseries();
+    const yearRange = availableYears.length > 1
+        ? `${availableYears[0]}-${availableYears[availableYears.length - 1]}`
+        : availableYears[0]?.toString() || '2010';
+    const yearCount = availableYears.length;
+
     return (
         <div className="min-h-screen">
             <Navigation />
@@ -73,43 +104,43 @@ export default function MethodologyPage() {
                 {/* Data Source */}
                 <Section title="Data Source" id="source" icon={<BookOpenIcon />}>
                     <p className="text-slate-600 mb-4 text-sm sm:text-base">
-                        GeoForecaster exclusively uses data from the <strong className="text-slate-800">CIA World Factbook</strong>, 
-                        a comprehensive reference resource produced by the Central Intelligence Agency with information on 
-                        the history, people, government, economy, energy, geography, environment, communications, 
+                        GeoForecaster exclusively uses data from the <strong className="text-slate-800">CIA World Factbook</strong>,
+                        a comprehensive reference resource produced by the Central Intelligence Agency with information on
+                        the history, people, government, economy, energy, geography, environment, communications,
                         transportation, military, terrorism, and transnational issues for 267 world entities.
                     </p>
                     <div className="bg-blue-50 rounded-xl p-4 sm:p-5 border border-blue-200 my-4 sm:my-6">
                         <h4 className="font-semibold text-slate-800 mb-2 text-sm sm:text-base">Public Domain Notice</h4>
                         <p className="text-xs sm:text-sm text-slate-600">
-                            The World Factbook is in the public domain and may be used freely by anyone at anytime 
-                            without seeking permission. However, US Government photographs from the Factbook are 
+                            The World Factbook is in the public domain and may be used freely by anyone at anytime
+                            without seeking permission. However, US Government photographs from the Factbook are
                             generally not copyrightable.
                         </p>
                     </div>
                     <p className="text-slate-600 text-sm sm:text-base">
-                        Currently, GeoForecaster has processed the <strong className="text-blue-600">2010 edition</strong>. 
-                        Multi-year trend analysis requires additional historical editions to be ingested.
+                        GeoForecaster has processed <strong className="text-blue-600">{yearCount} editions ({yearRange})</strong> of
+                        the World Factbook, enabling comprehensive multi-year trend analysis across all metrics.
                     </p>
                 </Section>
 
                 {/* Extraction Process */}
                 <Section title="Data Extraction" id="extraction" icon={<SettingsIcon />}>
                     <p className="text-slate-600 mb-4 text-sm sm:text-base">
-                        Raw Factbook data is extracted using a custom Python script that parses HTML editions 
+                        Raw Factbook data is extracted using a custom Python script that parses HTML editions
                         and transforms unstructured text into normalized JSON records.
                     </p>
-                    
+
                     <h4 className="font-semibold text-slate-800 mt-6 mb-3 text-sm sm:text-base">Extraction Pipeline</h4>
                     <div className="space-y-3">
                         <Step number={1} title="HTML Parsing">
                             Stream-process large HTML files (~18MB) to extract country sections
                         </Step>
                         <Step number={2} title="Field Extraction">
-                            Regular expressions identify and parse specific data fields 
+                            Regular expressions identify and parse specific data fields
                             (GDP, population, military spending, etc.)
                         </Step>
                         <Step number={3} title="Normalization">
-                            Convert varied formats (e.g., &quot;$14.2 trillion&quot;, &quot;14,200 billion&quot;) 
+                            Convert varied formats (e.g., &quot;$14.2 trillion&quot;, &quot;14,200 billion&quot;)
                             to consistent numeric values
                         </Step>
                         <Step number={4} title="JSON Output">
@@ -165,7 +196,7 @@ export default function MethodologyPage() {
                 {/* Risk Index */}
                 <Section title="Composite Risk Index" id="risk-index" icon={<TargetIcon />}>
                     <p className="text-slate-600 mb-4 sm:mb-6 text-sm sm:text-base">
-                        Our Risk/Stability Index aggregates multiple indicators into a single composite score 
+                        Our Risk/Stability Index aggregates multiple indicators into a single composite score
                         for each country, enabling quick assessment of geopolitical risk.
                     </p>
 
@@ -197,7 +228,7 @@ export default function MethodologyPage() {
                     </div>
 
                     <p className="text-xs sm:text-sm text-slate-500 mt-4 sm:mt-6">
-                        * Index calculations use z-score normalization against global and regional baselines. 
+                        * Index calculations use z-score normalization against global and regional baselines.
                         Higher scores indicate greater stability.
                     </p>
                 </Section>
@@ -205,47 +236,75 @@ export default function MethodologyPage() {
                 {/* Adding More Years */}
                 <Section title="Multi-Year Analysis" id="multi-year" icon={<CalendarIcon />}>
                     <p className="text-slate-600 mb-4 text-sm sm:text-base">
-                        Full time-series trend analysis requires ingesting multiple Factbook editions. 
-                        The system is designed to seamlessly incorporate additional years.
+                        GeoForecaster provides comprehensive time-series analysis across {yearCount} years of
+                        Factbook data, enabling trend detection and forecasting.
                     </p>
 
-                    <h4 className="font-semibold text-slate-800 mt-6 mb-3 text-sm sm:text-base">Recommended Historical Editions</h4>
-                    <div className="grid grid-cols-3 gap-2 sm:gap-4 mb-6">
-                        <YearCard year="2000" label="Pre-9/11" />
-                        <YearCard year="2010" label="Post-Crisis" active />
-                        <YearCard year="2020" label="Pre-Pandemic" />
+                    <h4 className="font-semibold text-slate-800 mt-6 mb-3 text-sm sm:text-base">Available Data Years</h4>
+                    <div className="flex flex-wrap gap-2 mb-6">
+                        {availableYears.map(year => (
+                            <YearCard
+                                key={year}
+                                year={String(year)}
+                                label={
+                                    year === 2001 ? 'Pre-9/11' :
+                                        year === 2008 ? 'Financial Crisis' :
+                                            year === 2010 ? 'Post-Crisis' :
+                                                year === 2020 ? 'Pre-Pandemic' :
+                                                    ''
+                                }
+                                active={true}
+                            />
+                        ))}
                     </div>
 
-                    <h4 className="font-semibold text-slate-800 mt-8 mb-3 text-sm sm:text-base">Ingestion Workflow</h4>
+                    <h4 className="font-semibold text-slate-800 mt-8 mb-3 text-sm sm:text-base">Data Coverage</h4>
+                    <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-6">
+                        <div className="bg-slate-50 rounded-lg p-3 text-center border border-slate-200">
+                            <p className="text-2xl font-bold text-blue-600">{yearCount}</p>
+                            <p className="text-xs text-slate-500">Years</p>
+                        </div>
+                        <div className="bg-slate-50 rounded-lg p-3 text-center border border-slate-200">
+                            <p className="text-2xl font-bold text-emerald-600">~260</p>
+                            <p className="text-xs text-slate-500">Countries</p>
+                        </div>
+                        <div className="bg-slate-50 rounded-lg p-3 text-center border border-slate-200">
+                            <p className="text-2xl font-bold text-violet-600">12+</p>
+                            <p className="text-xs text-slate-500">Metrics</p>
+                        </div>
+                        <div className="bg-slate-50 rounded-lg p-3 text-center border border-slate-200">
+                            <p className="text-2xl font-bold text-amber-600">176K</p>
+                            <p className="text-xs text-slate-500">Data Points</p>
+                        </div>
+                    </div>
+
+                    <h4 className="font-semibold text-slate-800 mt-8 mb-3 text-sm sm:text-base">Adding New Years</h4>
                     <div className="bg-slate-100 rounded-xl p-4 sm:p-5 font-mono text-xs sm:text-sm overflow-x-auto">
-                        <p className="text-slate-500 mb-2"># 1. Download HTML factbook</p>
-                        <p className="text-blue-600 mb-4 whitespace-nowrap">wget https://www.gutenberg.org/files/.../factbook_2000.html</p>
-                        
-                        <p className="text-slate-500 mb-2"># 2. Run extraction script</p>
-                        <p className="text-blue-600 mb-4 whitespace-nowrap">python extract_factbook.py factbook_2000.html --year 2000</p>
-                        
-                        <p className="text-slate-500 mb-2"># 3. Merge time-series data</p>
-                        <p className="text-blue-600 mb-4">python merge_timeseries.py</p>
-                        
-                        <p className="text-slate-500 mb-2"># 4. Restart application</p>
+                        <p className="text-slate-500 mb-2"># Run the multi-year extraction script</p>
+                        <p className="text-blue-600 mb-4 whitespace-nowrap">python extract_all_years.py</p>
+
+                        <p className="text-slate-500 mb-2"># Or process specific years only</p>
+                        <p className="text-blue-600 mb-4 whitespace-nowrap">python extract_all_years.py --years 2021 2022</p>
+
+                        <p className="text-slate-500 mb-2"># Restart application to see new data</p>
                         <p className="text-blue-600">npm run dev</p>
                     </div>
 
                     <p className="text-slate-500 mt-4 text-xs sm:text-sm">
-                        After ingestion, the application automatically detects available years and enables 
-                        time-series visualizations in the Trends and Analysis pages.
+                        The application automatically detects available years and enables
+                        time-series visualizations in the Trends, Analysis, and Country pages.
                     </p>
                 </Section>
 
                 {/* Update Frequency */}
                 <Section title="Update Frequency" id="updates" icon={<RefreshIcon />}>
                     <p className="text-slate-600 text-sm sm:text-base">
-                        The CIA World Factbook is updated continuously throughout the year, with major 
-                        releases typically occurring annually. This platform processes static snapshots 
+                        The CIA World Factbook is updated continuously throughout the year, with major
+                        releases typically occurring annually. This platform processes static snapshots
                         of historical editions rather than live data feeds.
                     </p>
                     <p className="text-slate-600 mt-4 text-sm sm:text-base">
-                        For real-time geopolitical intelligence, users should supplement GeoForecaster 
+                        For real-time geopolitical intelligence, users should supplement GeoForecaster
                         with authoritative news sources and official government publications.
                     </p>
                 </Section>
@@ -318,9 +377,9 @@ function MetricExplainer({ name, unit, description }: { name: string; unit: stri
     );
 }
 
-function IndexComponent({ name, weight, factors, color }: { 
-    name: string; 
-    weight: string; 
+function IndexComponent({ name, weight, factors, color }: {
+    name: string;
+    weight: string;
     factors: string[];
     color: 'emerald' | 'violet' | 'red' | 'blue';
 }) {
@@ -358,11 +417,10 @@ function IndexComponent({ name, weight, factors, color }: {
 
 function YearCard({ year, label, active = false }: { year: string; label: string; active?: boolean }) {
     return (
-        <div className={`rounded-xl p-3 sm:p-4 border text-center ${
-            active 
-                ? 'border-blue-300 bg-blue-50' 
-                : 'border-slate-200 bg-white/80'
-        }`}>
+        <div className={`rounded-xl p-3 sm:p-4 border text-center ${active
+            ? 'border-blue-300 bg-blue-50'
+            : 'border-slate-200 bg-white/80'
+            }`}>
             <p className={`text-xl sm:text-2xl font-bold ${active ? 'text-blue-600' : 'text-slate-400'}`}>{year}</p>
             <p className="text-xs text-slate-500 mt-1">{label}</p>
             {active && <span className="inline-block mt-2 text-xs bg-blue-100 text-blue-600 px-2 py-0.5 rounded-full">Loaded</span>}

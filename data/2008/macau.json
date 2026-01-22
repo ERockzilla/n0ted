@@ -1,0 +1,21 @@
+{
+  "country": "Macau",
+  "region": "East & Southeast Asia",
+  "year": 2008,
+  "demographics": {
+    "population": 545674,
+    "population_growth_pct": 3.15,
+    "life_expectancy": 84.33
+  },
+  "economy": {
+    "gdp_ppp_billions": 12.5,
+    "gdp_growth_pct": 16.6,
+    "gdp_per_capita": 28400,
+    "inflation_pct": 7.2,
+    "unemployment_pct": 3.1,
+    "exports_billions": 2.56,
+    "imports_billions": 4.56
+  },
+  "military": {},
+  "political": {}
+}

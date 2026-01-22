@@ -1,0 +1,24 @@
+{
+  "country": "Argentina",
+  "region": "South America",
+  "year": 2020,
+  "demographics": {
+    "population": 45479118,
+    "population_growth_pct": 0.86,
+    "life_expectancy": 77.8,
+    "median_age": 32.4
+  },
+  "economy": {
+    "gdp_growth_pct": -2.03,
+    "gdp_per_capita": 9807,
+    "inflation_pct": 25.7,
+    "unemployment_pct": 23.7,
+    "exports_billions": 82.98,
+    "imports_billions": 72.16,
+    "external_debt_billions": 214.9
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.7
+  },
+  "political": {}
+}

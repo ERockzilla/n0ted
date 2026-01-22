@@ -1,0 +1,20 @@
+{
+  "country": "American Samoa",
+  "region": "Australia-Oceania",
+  "year": 2013,
+  "demographics": {
+    "population": 54719,
+    "population_growth_pct": -0.4,
+    "life_expectancy": 74.68
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.58,
+    "gdp_growth_pct": 3.0,
+    "gdp_per_capita": 8000,
+    "unemployment_pct": 29.8,
+    "exports_billions": 0.45,
+    "imports_billions": 0.31
+  },
+  "military": {},
+  "political": {}
+}

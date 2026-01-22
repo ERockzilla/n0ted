@@ -1,0 +1,22 @@
+{
+  "country": "Philippines",
+  "region": "East & Southeast Asia",
+  "year": 2007,
+  "demographics": {
+    "population": 91077287,
+    "life_expectancy": 70.51
+  },
+  "economy": {
+    "gdp_ppp_billions": 449.8,
+    "gdp_growth_pct": 5.4,
+    "gdp_per_capita": 5000,
+    "inflation_pct": 6.3,
+    "unemployment_pct": 7.9,
+    "exports_billions": 46.16,
+    "imports_billions": 53.11
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.9
+  },
+  "political": {}
+}

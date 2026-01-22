@@ -1,0 +1,16 @@
+{
+  "country": "Saint Martin",
+  "region": "Central America and Caribbean",
+  "year": 2020,
+  "demographics": {
+    "population": 32556,
+    "median_age": 33.3,
+    "population_growth_pct": 0.4,
+    "life_expectancy": 80.2
+  },
+  "economy": {
+    "gdp_per_capita": 19300
+  },
+  "military": {},
+  "political": {}
+}

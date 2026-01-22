@@ -1,0 +1,22 @@
+{
+  "country": "Laos",
+  "region": "East & Southeast Asia",
+  "year": 2003,
+  "demographics": {
+    "population": 5921545,
+    "life_expectancy": 54.3
+  },
+  "economy": {
+    "gdp_ppp_billions": 10.4,
+    "gdp_growth_pct": 5.7,
+    "gdp_per_capita": 1800,
+    "inflation_pct": 10.0,
+    "unemployment_pct": 5.7,
+    "exports_billions": 0.34,
+    "imports_billions": 0.56
+  },
+  "military": {
+    "expenditure_pct_gdp": 4.2
+  },
+  "political": {}
+}

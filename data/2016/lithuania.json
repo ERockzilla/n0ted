@@ -1,0 +1,23 @@
+{
+  "country": "Lithuania",
+  "region": "Europe",
+  "year": 2016,
+  "demographics": {
+    "population": 2854235,
+    "population_growth_pct": -1.06,
+    "life_expectancy": 74.9
+  },
+  "economy": {
+    "gdp_ppp_billions": 82.54,
+    "gdp_growth_pct": 1.6,
+    "gdp_per_capita": 28400,
+    "inflation_pct": -0.7,
+    "unemployment_pct": 9.1,
+    "exports_billions": 24.81,
+    "imports_billions": 26.93
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.97
+  },
+  "political": {}
+}

@@ -1,0 +1,23 @@
+{
+  "country": "Guyana",
+  "region": "South America",
+  "year": 2012,
+  "demographics": {
+    "population": 741908,
+    "population_growth_pct": -0.33,
+    "life_expectancy": 67.39
+  },
+  "economy": {
+    "gdp_ppp_billions": 6.16,
+    "gdp_growth_pct": 3.7,
+    "gdp_per_capita": 8000,
+    "inflation_pct": 3.1,
+    "unemployment_pct": 11.0,
+    "exports_billions": 1.23,
+    "imports_billions": 1.85
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.8
+  },
+  "political": {}
+}

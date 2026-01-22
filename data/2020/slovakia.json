@@ -1,0 +1,24 @@
+{
+  "country": "Slovakia",
+  "region": "Europe",
+  "year": 2020,
+  "demographics": {
+    "population": 5440602,
+    "population_growth_pct": -0.05,
+    "life_expectancy": 77.8,
+    "median_age": 41.8
+  },
+  "economy": {
+    "gdp_growth_pct": 2.4,
+    "gdp_per_capita": 21066,
+    "inflation_pct": 2.6,
+    "unemployment_pct": 14.9,
+    "exports_billions": 113.96,
+    "imports_billions": 107.88,
+    "external_debt_billions": 75.04
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.74
+  },
+  "political": {}
+}

@@ -1,0 +1,22 @@
+{
+  "country": "Syria",
+  "region": "Middle East",
+  "year": 2020,
+  "demographics": {
+    "population": 19398448,
+    "population_growth_pct": 4.25,
+    "life_expectancy": 73.7,
+    "median_age": 23.5
+  },
+  "economy": {
+    "gdp_growth_pct": -36.5,
+    "gdp_per_capita": 2900,
+    "inflation_pct": 28.1,
+    "unemployment_pct": 35.8,
+    "exports_billions": 1.85,
+    "imports_billions": 6.28,
+    "external_debt_billions": 4.99
+  },
+  "military": {},
+  "political": {}
+}

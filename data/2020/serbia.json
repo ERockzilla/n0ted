@@ -1,0 +1,24 @@
+{
+  "country": "Serbia",
+  "region": "Europe",
+  "year": 2020,
+  "demographics": {
+    "population": 7012165,
+    "population_growth_pct": -0.47,
+    "life_expectancy": 76.3,
+    "median_age": 43.4
+  },
+  "economy": {
+    "gdp_growth_pct": 4.18,
+    "gdp_per_capita": 7268,
+    "inflation_pct": -0.1,
+    "unemployment_pct": 29.7,
+    "exports_billions": 15.92,
+    "imports_billions": 20.44,
+    "external_debt_billions": 29.5
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.2
+  },
+  "political": {}
+}

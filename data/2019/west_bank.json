@@ -1,0 +1,21 @@
+{
+  "country": "West Bank",
+  "region": "Middle East",
+  "year": 2019,
+  "demographics": {
+    "population": 2798494,
+    "population_growth_pct": 1.81,
+    "life_expectancy": 75.4
+  },
+  "economy": {
+    "gdp_ppp_billions": 21.22,
+    "gdp_growth_pct": 5.3,
+    "gdp_per_capita": 4300,
+    "inflation_pct": 0.2,
+    "unemployment_pct": 46.9,
+    "exports_billions": 2.13,
+    "imports_billions": 6.57
+  },
+  "military": {},
+  "political": {}
+}

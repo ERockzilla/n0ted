@@ -1,0 +1,20 @@
+{
+  "country": "European Union",
+  "region": "Europe",
+  "year": 2004,
+  "demographics": {
+    "population": 456285839,
+    "life_expectancy": 78.1
+  },
+  "economy": {
+    "gdp_ppp_billions": 11050.0,
+    "gdp_growth_pct": 1.0,
+    "gdp_per_capita": 25700,
+    "inflation_pct": 2.0,
+    "unemployment_pct": 9.1,
+    "exports_billions": 850.3,
+    "imports_billions": 887.1
+  },
+  "military": {},
+  "political": {}
+}

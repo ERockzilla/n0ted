@@ -1,0 +1,23 @@
+{
+  "country": "Sudan",
+  "region": "Africa",
+  "year": 2008,
+  "demographics": {
+    "population": 40218456,
+    "population_growth_pct": 2.13,
+    "life_expectancy": 50.28
+  },
+  "economy": {
+    "gdp_ppp_billions": 80.98,
+    "gdp_growth_pct": 10.2,
+    "gdp_per_capita": 1900,
+    "inflation_pct": 8.0,
+    "unemployment_pct": 18.7,
+    "exports_billions": 8.88,
+    "imports_billions": 7.72
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.0
+  },
+  "political": {}
+}

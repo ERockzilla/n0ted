@@ -1,0 +1,20 @@
+{
+  "country": "Gaza Strip",
+  "region": "Middle East",
+  "year": 2004,
+  "demographics": {
+    "population": 1376289,
+    "life_expectancy": 71.79
+  },
+  "economy": {
+    "inflation_pct": 2.2,
+    "unemployment_pct": 50.0,
+    "gdp_growth_pct": 4.5,
+    "exports_billions": 0.6,
+    "imports_billions": 1.9,
+    "gdp_ppp_billions": 0.77,
+    "gdp_per_capita": 600
+  },
+  "military": {},
+  "political": {}
+}

@@ -1,0 +1,23 @@
+{
+  "country": "Iceland",
+  "region": "Europe",
+  "year": 2011,
+  "demographics": {
+    "population": 311058,
+    "population_growth_pct": 0.69,
+    "life_expectancy": 80.9
+  },
+  "economy": {
+    "gdp_ppp_billions": 11.82,
+    "gdp_growth_pct": -3.5,
+    "gdp_per_capita": 38300,
+    "inflation_pct": 5.4,
+    "unemployment_pct": 8.1,
+    "exports_billions": 4.6,
+    "imports_billions": 3.62
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.0
+  },
+  "political": {}
+}

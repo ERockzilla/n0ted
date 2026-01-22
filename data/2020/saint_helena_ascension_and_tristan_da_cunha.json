@@ -1,0 +1,18 @@
+{
+  "country": "Saint Helena Ascension And Tristan Da Cunha",
+  "region": "Africa",
+  "year": 2020,
+  "demographics": {
+    "population": 7862,
+    "life_expectancy": 80.0,
+    "population_growth_pct": 0.13
+  },
+  "economy": {
+    "gdp_per_capita": 7800,
+    "inflation_pct": 4.0,
+    "exports_billions": 0.02,
+    "imports_billions": 0.02
+  },
+  "military": {},
+  "political": {}
+}

@@ -1,0 +1,19 @@
+{
+  "country": "North Korea",
+  "region": "East & Southeast Asia",
+  "year": 2012,
+  "demographics": {
+    "population": 24589122,
+    "population_growth_pct": 0.54,
+    "life_expectancy": 69.2
+  },
+  "economy": {
+    "gdp_growth_pct": 0.8,
+    "gdp_per_capita": 1800,
+    "exports_billions": 4.71,
+    "imports_billions": 4.0,
+    "gdp_ppp_billions": 40.0
+  },
+  "military": {},
+  "political": {}
+}

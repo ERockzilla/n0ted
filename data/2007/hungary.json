@@ -1,0 +1,22 @@
+{
+  "country": "Hungary",
+  "region": "Europe",
+  "year": 2007,
+  "demographics": {
+    "population": 9956108,
+    "life_expectancy": 72.92
+  },
+  "economy": {
+    "gdp_ppp_billions": 175.0,
+    "gdp_growth_pct": 3.9,
+    "gdp_per_capita": 17500,
+    "inflation_pct": 4.1,
+    "unemployment_pct": 7.4,
+    "exports_billions": 73.51,
+    "imports_billions": 74.02
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.75
+  },
+  "political": {}
+}

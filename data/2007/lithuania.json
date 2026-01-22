@@ -1,0 +1,22 @@
+{
+  "country": "Lithuania",
+  "region": "Europe",
+  "year": 2007,
+  "demographics": {
+    "population": 3575439,
+    "life_expectancy": 74.44
+  },
+  "economy": {
+    "gdp_ppp_billions": 54.9,
+    "gdp_growth_pct": 7.5,
+    "gdp_per_capita": 15300,
+    "inflation_pct": 3.8,
+    "unemployment_pct": 3.7,
+    "exports_billions": 14.12,
+    "imports_billions": 18.29
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.2
+  },
+  "political": {}
+}

@@ -1,0 +1,23 @@
+{
+  "country": "Morocco",
+  "region": "Africa",
+  "year": 2012,
+  "demographics": {
+    "population": 32309239,
+    "population_growth_pct": 1.05,
+    "life_expectancy": 76.11
+  },
+  "economy": {
+    "gdp_ppp_billions": 171.0,
+    "gdp_growth_pct": 2.9,
+    "gdp_per_capita": 5300,
+    "inflation_pct": 1.4,
+    "unemployment_pct": 8.8,
+    "exports_billions": 22.23,
+    "imports_billions": 42.49
+  },
+  "military": {
+    "expenditure_pct_gdp": 5.0
+  },
+  "political": {}
+}

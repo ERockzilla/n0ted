@@ -1,0 +1,22 @@
+{
+  "country": "Morocco",
+  "region": "Africa",
+  "year": 2005,
+  "demographics": {
+    "population": 32725847,
+    "life_expectancy": 70.66
+  },
+  "economy": {
+    "gdp_ppp_billions": 134.6,
+    "gdp_growth_pct": 4.4,
+    "gdp_per_capita": 4200,
+    "inflation_pct": 2.1,
+    "unemployment_pct": 12.1,
+    "exports_billions": 9.75,
+    "imports_billions": 15.63
+  },
+  "military": {
+    "expenditure_pct_gdp": 5.0
+  },
+  "political": {}
+}

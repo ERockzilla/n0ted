@@ -1,0 +1,20 @@
+{
+  "country": "Faroe Islands",
+  "region": "Europe",
+  "year": 2007,
+  "demographics": {
+    "population": 47511,
+    "life_expectancy": 79.49
+  },
+  "economy": {
+    "gdp_ppp_billions": 1.0,
+    "gdp_growth_pct": 2.4,
+    "gdp_per_capita": 31000,
+    "inflation_pct": 1.8,
+    "unemployment_pct": 2.1,
+    "exports_billions": 0.6,
+    "imports_billions": 0.64
+  },
+  "military": {},
+  "political": {}
+}

@@ -1,0 +1,21 @@
+{
+  "country": "Andorra",
+  "region": "Europe",
+  "year": 2020,
+  "demographics": {
+    "population": 77000,
+    "population_growth_pct": -0.06,
+    "life_expectancy": 83.0,
+    "median_age": 46.2
+  },
+  "economy": {
+    "gdp_growth_pct": -1.1,
+    "gdp_per_capita": 49900,
+    "inflation_pct": -0.9,
+    "exports_billions": 0.08,
+    "imports_billions": 1.26,
+    "external_debt_billions": 0.0
+  },
+  "military": {},
+  "political": {}
+}

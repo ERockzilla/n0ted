@@ -1,0 +1,23 @@
+{
+  "country": "Algeria",
+  "region": "Africa",
+  "year": 2012,
+  "demographics": {
+    "population": 37367226,
+    "population_growth_pct": 1.92,
+    "life_expectancy": 74.73
+  },
+  "economy": {
+    "gdp_ppp_billions": 274.5,
+    "gdp_growth_pct": 2.6,
+    "gdp_per_capita": 7500,
+    "inflation_pct": 8.5,
+    "unemployment_pct": 10.2,
+    "exports_billions": 76.84,
+    "imports_billions": 47.53
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.3
+  },
+  "political": {}
+}

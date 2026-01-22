@@ -1,0 +1,24 @@
+{
+  "country": "Papua New Guinea",
+  "region": "East & Southeast Asia",
+  "year": 2020,
+  "demographics": {
+    "population": 7259456,
+    "population_growth_pct": 1.6,
+    "life_expectancy": 67.8,
+    "median_age": 24.0
+  },
+  "economy": {
+    "gdp_growth_pct": 2.5,
+    "gdp_per_capita": 3700,
+    "inflation_pct": 5.4,
+    "unemployment_pct": 3.6,
+    "exports_billions": 8.52,
+    "imports_billions": 1.88,
+    "external_debt_billions": 17.94
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.4
+  },
+  "political": {}
+}

@@ -1,0 +1,24 @@
+{
+  "country": "Georgia",
+  "region": "Middle East",
+  "year": 2020,
+  "demographics": {
+    "population": 3997000,
+    "population_growth_pct": 0.05,
+    "life_expectancy": 77.0,
+    "median_age": 38.6
+  },
+  "economy": {
+    "gdp_growth_pct": 5.0,
+    "gdp_per_capita": 10700,
+    "inflation_pct": 4.8,
+    "unemployment_pct": 29.9,
+    "exports_billions": 3.57,
+    "imports_billions": 7.42,
+    "external_debt_billions": 16.99
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.0
+  },
+  "political": {}
+}

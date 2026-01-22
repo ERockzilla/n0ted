@@ -1,0 +1,21 @@
+{
+  "country": "Saint Lucia",
+  "region": "Central America and Caribbean",
+  "year": 2016,
+  "demographics": {
+    "population": 164464,
+    "population_growth_pct": 0.33,
+    "life_expectancy": 77.8
+  },
+  "economy": {
+    "gdp_ppp_billions": 2.02,
+    "gdp_growth_pct": 2.4,
+    "gdp_per_capita": 11700,
+    "inflation_pct": -1.0,
+    "unemployment_pct": 20.0,
+    "exports_billions": 0.21,
+    "imports_billions": 0.54
+  },
+  "military": {},
+  "political": {}
+}

@@ -1,0 +1,23 @@
+{
+  "country": "Peru",
+  "region": "South America",
+  "year": 2017,
+  "demographics": {
+    "population": 31036656,
+    "population_growth_pct": 1.0,
+    "life_expectancy": 74.0
+  },
+  "economy": {
+    "gdp_ppp_billions": 406.2,
+    "gdp_growth_pct": 3.9,
+    "gdp_per_capita": 12900,
+    "inflation_pct": 3.6,
+    "unemployment_pct": 6.7,
+    "exports_billions": 37.02,
+    "imports_billions": 35.13
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.28
+  },
+  "political": {}
+}

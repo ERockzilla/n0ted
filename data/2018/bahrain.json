@@ -1,0 +1,23 @@
+{
+  "country": "Bahrain",
+  "region": "Middle East",
+  "year": 2018,
+  "demographics": {
+    "population": 1442659,
+    "population_growth_pct": 2.19,
+    "life_expectancy": 79.1
+  },
+  "economy": {
+    "gdp_ppp_billions": 71.17,
+    "gdp_growth_pct": 3.8,
+    "gdp_per_capita": 49000,
+    "inflation_pct": 1.4,
+    "unemployment_pct": 5.3,
+    "exports_billions": 15.38,
+    "imports_billions": 16.08
+  },
+  "military": {
+    "expenditure_pct_gdp": 4.59
+  },
+  "political": {}
+}

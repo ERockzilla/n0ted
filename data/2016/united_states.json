@@ -1,0 +1,22 @@
+{
+  "country": "United States",
+  "region": "North America",
+  "year": 2016,
+  "demographics": {
+    "population": 323995528,
+    "population_growth_pct": 0.81,
+    "life_expectancy": 79.8
+  },
+  "economy": {
+    "gdp_ppp_billions": 18040.0,
+    "gdp_growth_pct": 2.6,
+    "gdp_per_capita": 56100,
+    "inflation_pct": 0.1,
+    "unemployment_pct": 5.3,
+    "exports_billions": 1510.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 4.35
+  },
+  "political": {}
+}

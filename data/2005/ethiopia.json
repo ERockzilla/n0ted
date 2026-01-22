@@ -1,0 +1,21 @@
+{
+  "country": "Ethiopia",
+  "region": "Africa",
+  "year": 2005,
+  "demographics": {
+    "population": 73053286,
+    "life_expectancy": 48.83
+  },
+  "economy": {
+    "gdp_ppp_billions": 54.89,
+    "gdp_growth_pct": 11.6,
+    "gdp_per_capita": 800,
+    "inflation_pct": 2.4,
+    "exports_billions": 0.56,
+    "imports_billions": 2.1
+  },
+  "military": {
+    "expenditure_pct_gdp": 4.6
+  },
+  "political": {}
+}

@@ -1,0 +1,22 @@
+{
+  "country": "Malaysia",
+  "region": "East & Southeast Asia",
+  "year": 2001,
+  "demographics": {
+    "population": 22229040,
+    "population_growth_pct": 1.96
+  },
+  "economy": {
+    "gdp_ppp_billions": 223.7,
+    "gdp_growth_pct": 8.6,
+    "gdp_per_capita": 10300,
+    "inflation_pct": 1.7,
+    "unemployment_pct": 2.8,
+    "exports_billions": 97.9,
+    "imports_billions": 82.6
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.03
+  },
+  "political": {}
+}

@@ -1,0 +1,19 @@
+{
+  "country": "Sint Maarten",
+  "region": "Central America and Caribbean",
+  "year": 2015,
+  "demographics": {
+    "population": 39689,
+    "population_growth_pct": 1.51,
+    "life_expectancy": 77.61
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.37,
+    "gdp_growth_pct": 3.6,
+    "gdp_per_capita": 66800,
+    "inflation_pct": 4.0,
+    "unemployment_pct": 12.0
+  },
+  "military": {},
+  "political": {}
+}

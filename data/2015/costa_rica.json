@@ -1,0 +1,21 @@
+{
+  "country": "Costa Rica",
+  "region": "Central America and Caribbean",
+  "year": 2015,
+  "demographics": {
+    "population": 4755234,
+    "population_growth_pct": 1.24,
+    "life_expectancy": 78.23
+  },
+  "economy": {
+    "gdp_ppp_billions": 71.21,
+    "gdp_growth_pct": 3.6,
+    "gdp_per_capita": 14900,
+    "inflation_pct": 3.2,
+    "unemployment_pct": 8.5,
+    "exports_billions": 11.75,
+    "imports_billions": 17.91
+  },
+  "military": {},
+  "political": {}
+}

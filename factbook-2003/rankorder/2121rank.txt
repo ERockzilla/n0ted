@@ -1,0 +1,152 @@
+This tab-delimited file can be read by most spreadsheet applications after being saved properly.  At the top of your browser window, click 'File' and 'Save As...'  After saving the file, open your spreadsheet, find the file you just saved and then 'Open' it.
+Rank 	 Country 	 Railways(km) 	 Date of Information
+1 	 World 	         1,122,650 	 
+2 	 United States 	          194,731 	 2000
+3 	 Russia 	           87,157 	 2002
+4 	 China 	           71,600 	 2002
+5 	 India 	           63,518 	 2002
+6 	 Canada 	           49,422 	 2002
+7 	 Germany 	           45,514 	 2002
+8 	 Australia 	           41,588 	 2002
+9 	 Argentina 	           34,463 	 2002
+10 	 France 	           32,682 	 2002
+11 	 Brazil 	           31,543 	 2002
+12 	 Poland 	           23,420 	 2002
+13 	 Japan 	           23,168 	 2002
+14 	 Ukraine 	           22,473 	 2002
+15 	 South Africa 	           22,298 	 2002
+16 	 Mexico 	           19,510 	 2002
+17 	 Italy 	           19,493 	 2002
+18 	 United Kingdom 	           16,893 	 2002
+19 	 Spain 	           14,189 	 2002
+20 	 Kazakhstan 	           13,601 	 2002
+21 	 Sweden 	           11,481 	 2002
+22 	 Romania 	           11,385 	 2002
+23 	 Czech Republic 	            9,462 	 2002
+24 	 Turkey 	            8,607 	 2002
+25 	 Pakistan 	            8,163 	 2002
+26 	 Hungary 	            7,875 	 2002
+27 	 Iran 	            7,201 	 2002
+28 	 Chile 	            6,585 	 2002
+29 	 Indonesia 	            6,458 	 2002
+30 	 Austria 	            6,024 	 2002
+31 	 Sudan 	            5,978 	 2002
+32 	 Finland 	            5,850 	 2002
+33 	 Belarus 	            5,523 	 2002
+34 	 Korea, North 	            5,214 	 2002
+35 	 Egypt 	            5,105 	 2002
+36 	 Congo, Democratic Republic of the 	            4,772 	 2002
+37 	 Switzerland 	            4,511 	 2002
+38 	 Bulgaria 	            4,294 	 2002
+39 	 Norway 	            4,178 	 2002
+40 	 Thailand 	            4,071 	 2002
+41 	 Serbia and Montenegro 	            4,059 	 2002
+42 	 Algeria 	            3,973 	 2002
+43 	 Burma 	            3,955 	 2002
+44 	 Uzbekistan 	            3,950 	 2002
+45 	 New Zealand 	            3,898 	 2002
+46 	 Tanzania 	            3,690 	 2002
+47 	 Slovakia 	            3,668 	 2002
+48 	 Nigeria 	            3,557 	 2002
+49 	 Bolivia 	            3,519 	 2002
+50 	 Belgium 	            3,471 	 2002
+51 	 Cuba 	            3,442 	 2002
+52 	 Ireland 	            3,312 	 2002
+53 	 Colombia 	            3,304 	 2002
+54 	 Denmark 	            3,164 	 2002
+55 	 Vietnam 	            3,142 	 2002
+56 	 Korea, South 	            3,125 	 2002
+57 	 Mozambique 	            3,123 	 2002
+58 	 Zimbabwe 	            3,077 	 2002
+59 	 Portugal 	            2,850 	 2002
+60 	 Netherlands 	            2,808 	 2002
+61 	 Kenya 	            2,778 	 2002
+62 	 Angola 	            2,761 	 2002
+63 	 Syria 	            2,743 	 2002
+64 	 Bangladesh 	            2,706 	 2002
+65 	 Greece 	            2,571 	 2002
+66 	 Turkmenistan 	            2,440 	 2002
+67 	 Malaysia 	            2,418 	 2002
+68 	 Namibia 	            2,382 	 2002
+69 	 Latvia 	            2,347 	 2002
+70 	 Croatia 	            2,296 	 2002
+71 	 Zambia 	            2,173 	 2002
+72 	 Tunisia 	            2,152 	 2002
+73 	 Azerbaijan 	            2,122 	 2002
+74 	 Uruguay 	            2,073 	 2002
+75 	 Lithuania 	            1,998 	 2002
+76 	 Iraq 	            1,963 	 2003
+77 	 Morocco 	            1,907 	 2002
+78 	 Peru 	            1,829 	 2002
+79 	 Georgia 	            1,612 	 2002
+80 	 Sri Lanka 	            1,508 	 2002
+81 	 Dominican Republic 	            1,503 	 2002
+82 	 Saudi Arabia 	            1,392 	 2002
+83 	 Moldova 	            1,300 	 2002
+84 	 Uganda 	            1,241 	 2002
+85 	 Slovenia 	            1,201 	 2002
+86 	 Guinea 	            1,115 	 2002
+87 	 Taiwan 	            1,108 	 2002
+88 	 Bosnia and Herzegovina 	            1,021 	 2002
+89 	 Cameroon 	            1,008 	 2002
+90 	 Estonia 	             968 	 2002
+91 	 Ecuador 	             966 	 2002
+92 	 Ghana 	             953 	 2002
+93 	 Costa Rica 	             950 	 2002
+94 	 Senegal 	             906 	 2002
+95 	 Philippines 	             897 	 2002
+96 	 Congo, Republic of the 	             894 	 2002
+97 	 Botswana 	             888 	 2002
+98 	 Guatemala 	             886 	 2002
+99 	 Armenia 	             852 	 2002
+100 	 Gabon 	             814 	 2002
+101 	 Malawi 	             797 	 2002
+102 	 Madagascar 	             732 	 2002
+103 	 Mali 	             729 	 2002
+104 	 Honduras 	             699 	 2002
+105 	 Macedonia, The Former Yugoslav Republic of 	             699 	 2002
+106 	 Venezuela 	             682 	 2002
+107 	 Ethiopia 	             681 	 2002
+108 	 Cote d'Ivoire 	             660 	 2002
+109 	 Israel 	             640 	 2002
+110 	 Burkina Faso 	             622 	 2002
+111 	 Cambodia 	             602 	 2002
+112 	 Fiji 	             597 	 2002
+113 	 Benin 	             578 	 2002
+114 	 Togo 	             525 	 2002
+115 	 Jordan 	             505 	 2002
+116 	 Liberia 	             490 	 2002
+117 	 Tajikistan 	             482 	 2002
+118 	 Albania 	             447 	 2002
+119 	 Paraguay 	             441 	 2002
+120 	 Kyrgyzstan 	             420 	 2002
+121 	 Lebanon 	             401 	 2002
+122 	 Panama 	             355 	 2002
+123 	 Eritrea 	             306 	 2002
+124 	 Swaziland 	             301 	 2002
+125 	 El Salvador 	             283 	 2002
+126 	 Luxembourg 	             274 	 2002
+127 	 Jamaica 	             272 	 2002
+128 	 Guyana 	             187 	 2001 est.
+129 	 Suriname 	             166 	 2001
+130 	 Djibouti 	             100 	 2002
+131 	 Puerto Rico 	              96 	 2002
+132 	 Sierra Leone 	              84 	 2001
+133 	 Antigua and Barbuda 	              77 	 2001 est.
+134 	 Man, Isle of 	              60 	 2002
+135 	 Nepal 	              59 	 2002
+136 	 Saint Kitts and Nevis 	              50 	 2002
+137 	 Haiti 	              40 	 2001 est.
+138 	 Singapore 	              39 	 
+139 	 Hong Kong 	              34 	 2001
+140 	 Afghanistan 	              25 	 2001
+141 	 Liechtenstein 	              19 	 2002
+142 	 Brunei 	              13 	 2001 est.
+143 	 Nicaragua 	               6 	 2002
+144 	 Nauru 	               5 	 2001
+145 	 Lesotho 	               3 	 1995
+146 	 Monaco 	               2 	 2002
+147 	 Holy See (Vatican City) 	               1 	 2001 est.
+148 	 Equatorial Guinea 	               0 	 
+
+ This file was last updated on 18 December, 2003

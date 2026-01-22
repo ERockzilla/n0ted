@@ -1,0 +1,19 @@
+{
+  "country": "Nauru",
+  "region": "Australia-Oceania",
+  "year": 2005,
+  "demographics": {
+    "population": 13048,
+    "life_expectancy": 62.73
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.06,
+    "gdp_per_capita": 5000,
+    "unemployment_pct": 90.0,
+    "imports_billions": 0.02,
+    "inflation_pct": -3.6,
+    "exports_billions": 640000.0
+  },
+  "military": {},
+  "political": {}
+}

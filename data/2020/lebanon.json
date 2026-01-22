@@ -1,0 +1,23 @@
+{
+  "country": "Lebanon",
+  "region": "Middle East",
+  "year": 2020,
+  "demographics": {
+    "population": 5469612,
+    "population_growth_pct": -6.68,
+    "life_expectancy": 78.3,
+    "median_age": 33.7
+  },
+  "economy": {
+    "gdp_growth_pct": 1.5,
+    "gdp_per_capita": 19600,
+    "inflation_pct": 2.8,
+    "exports_billions": 3.52,
+    "imports_billions": 18.34,
+    "external_debt_billions": 39.3
+  },
+  "military": {
+    "expenditure_pct_gdp": 4.2
+  },
+  "political": {}
+}

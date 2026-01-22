@@ -1,0 +1,22 @@
+{
+  "country": "Bangladesh",
+  "region": "South Asia",
+  "year": 2001,
+  "demographics": {
+    "population": 131269860,
+    "population_growth_pct": 1.59
+  },
+  "economy": {
+    "gdp_ppp_billions": 203.0,
+    "gdp_growth_pct": 5.3,
+    "gdp_per_capita": 1570,
+    "inflation_pct": 5.8,
+    "unemployment_pct": 35.2,
+    "exports_billions": 5.9,
+    "imports_billions": 8.1
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.8
+  },
+  "political": {}
+}

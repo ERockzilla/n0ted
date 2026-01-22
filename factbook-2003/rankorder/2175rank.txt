@@ -1,0 +1,32 @@
+This tab-delimited file can be read by most spreadsheet applications after being saved properly.  At the top of your browser window, click 'File' and 'Save As...'  After saving the file, open your spreadsheet, find the file you just saved and then 'Open' it.
+Rank 	 Country 	 Oil - imports(bbl/day) 	 Date of Information
+1 	 Japan 	         5,449,000 	 2001
+2 	 Germany 	         3,081,000 	 2001
+3 	 Korea, South 	         2,965,000 	 2001
+4 	 Netherlands 	         2,284,000 	 2001
+5 	 France 	         2,281,000 	 2001
+6 	 Italy 	         2,158,000 	 2001
+7 	 Spain 	         1,582,000 	 2001
+8 	 United Kingdom 	         1,418,000 	 2001
+9 	 Canada 	         1,145,000 	 2001
+10 	 Belgium 	         1,042,000 	 2001
+11 	 Turkey 	          616,500 	 2001
+12 	 Sweden 	          553,100 	 2001
+13 	 Australia 	          530,800 	 2001
+14 	 Greece 	          468,300 	 2001
+15 	 Poland 	          413,700 	 2001
+16 	 Mexico 	          374,700 	 2001
+17 	 Portugal 	          357,300 	 2001
+18 	 Finland 	          318,300 	 2001
+19 	 Switzerland 	          289,500 	 2001
+20 	 Austria 	          262,000 	 2001
+21 	 Denmark 	          195,000 	 2001
+22 	 Czech Republic 	          192,300 	 2001
+23 	 Ireland 	          178,600 	 2001
+24 	 Hungary 	          136,600 	 2001
+25 	 New Zealand 	          119,700 	 2001
+26 	 Norway 	           88,870 	 2001
+27 	 Luxembourg 	           50,700 	 2001
+28 	 Iceland 	           15,470 	 2001
+
+ This file was last updated on 18 December, 2003

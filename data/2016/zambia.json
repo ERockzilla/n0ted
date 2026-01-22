@@ -1,0 +1,23 @@
+{
+  "country": "Zambia",
+  "region": "Africa",
+  "year": 2016,
+  "demographics": {
+    "population": 15510711,
+    "population_growth_pct": 2.94,
+    "life_expectancy": 52.5
+  },
+  "economy": {
+    "gdp_ppp_billions": 62.45,
+    "gdp_growth_pct": 3.0,
+    "gdp_per_capita": 3900,
+    "inflation_pct": 10.1,
+    "unemployment_pct": 15.0,
+    "exports_billions": 7.0,
+    "imports_billions": 7.71
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.55
+  },
+  "political": {}
+}

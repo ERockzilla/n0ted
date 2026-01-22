@@ -1,0 +1,23 @@
+{
+  "country": "Mongolia",
+  "region": "East & Southeast Asia",
+  "year": 2012,
+  "demographics": {
+    "population": 3179997,
+    "population_growth_pct": 1.47,
+    "life_expectancy": 68.63
+  },
+  "economy": {
+    "gdp_ppp_billions": 15.22,
+    "gdp_growth_pct": 12.7,
+    "gdp_per_capita": 5400,
+    "inflation_pct": 12.9,
+    "unemployment_pct": 9.0,
+    "exports_billions": 4.78,
+    "imports_billions": 5.79
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.4
+  },
+  "political": {}
+}

@@ -1,0 +1,22 @@
+{
+  "country": "Libya",
+  "region": "Africa",
+  "year": 2007,
+  "demographics": {
+    "population": 6036914,
+    "life_expectancy": 76.88
+  },
+  "economy": {
+    "gdp_ppp_billions": 72.34,
+    "gdp_growth_pct": 5.8,
+    "gdp_per_capita": 12300,
+    "inflation_pct": 2.7,
+    "unemployment_pct": 30.0,
+    "exports_billions": 33.66,
+    "imports_billions": 12.28
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.9
+  },
+  "political": {}
+}

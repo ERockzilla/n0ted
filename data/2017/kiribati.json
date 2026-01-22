@@ -1,0 +1,21 @@
+{
+  "country": "Kiribati",
+  "region": "Australia-Oceania",
+  "year": 2017,
+  "demographics": {
+    "population": 108145,
+    "population_growth_pct": 1.1,
+    "life_expectancy": 66.5
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.21,
+    "gdp_growth_pct": 3.2,
+    "gdp_per_capita": 1800,
+    "inflation_pct": 1.9,
+    "unemployment_pct": 30.6,
+    "exports_billions": 0.08,
+    "imports_billions": 0.18
+  },
+  "military": {},
+  "political": {}
+}

@@ -1,0 +1,23 @@
+{
+  "country": "Ecuador",
+  "region": "South America",
+  "year": 2011,
+  "demographics": {
+    "population": 15007343,
+    "population_growth_pct": 1.44,
+    "life_expectancy": 75.73
+  },
+  "economy": {
+    "gdp_ppp_billions": 115.0,
+    "gdp_growth_pct": 3.2,
+    "gdp_per_capita": 7800,
+    "inflation_pct": 3.6,
+    "unemployment_pct": 7.6,
+    "exports_billions": 18.06,
+    "imports_billions": 19.64
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.9
+  },
+  "political": {}
+}

@@ -1,0 +1,22 @@
+{
+  "country": "Japan",
+  "region": "East & Southeast Asia",
+  "year": 2003,
+  "demographics": {
+    "population": 127214499,
+    "life_expectancy": 80.93
+  },
+  "economy": {
+    "gdp_ppp_billions": 3651.0,
+    "gdp_growth_pct": 0.2,
+    "gdp_per_capita": 28700,
+    "inflation_pct": -0.9,
+    "unemployment_pct": 5.4,
+    "exports_billions": 383.8,
+    "imports_billions": 292.1
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.0
+  },
+  "political": {}
+}

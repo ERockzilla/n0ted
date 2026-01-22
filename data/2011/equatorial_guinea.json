@@ -1,0 +1,23 @@
+{
+  "country": "Equatorial Guinea",
+  "region": "Africa",
+  "year": 2011,
+  "demographics": {
+    "population": 668225,
+    "population_growth_pct": 2.64,
+    "life_expectancy": 62.37
+  },
+  "economy": {
+    "gdp_ppp_billions": 23.82,
+    "gdp_growth_pct": -0.8,
+    "gdp_per_capita": 36600,
+    "inflation_pct": 8.2,
+    "unemployment_pct": 22.3,
+    "exports_billions": 10.39,
+    "imports_billions": 5.7
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.1
+  },
+  "political": {}
+}

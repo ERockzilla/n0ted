@@ -1,0 +1,23 @@
+{
+  "country": "Mauritius",
+  "region": "Africa",
+  "year": 2012,
+  "demographics": {
+    "population": 1313095,
+    "population_growth_pct": 0.71,
+    "life_expectancy": 74.71
+  },
+  "economy": {
+    "gdp_ppp_billions": 20.26,
+    "gdp_growth_pct": 3.4,
+    "gdp_per_capita": 15600,
+    "inflation_pct": 4.7,
+    "unemployment_pct": 8.0,
+    "exports_billions": 2.63,
+    "imports_billions": 5.11
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.3
+  },
+  "political": {}
+}

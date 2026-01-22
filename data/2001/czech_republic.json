@@ -1,0 +1,22 @@
+{
+  "country": "Czech Republic",
+  "region": "Europe",
+  "year": 2001,
+  "demographics": {
+    "population": 10264212,
+    "population_growth_pct": -0.07
+  },
+  "economy": {
+    "gdp_ppp_billions": 132.4,
+    "gdp_growth_pct": 2.5,
+    "gdp_per_capita": 12900,
+    "inflation_pct": 3.8,
+    "unemployment_pct": 8.7,
+    "exports_billions": 28.3,
+    "imports_billions": 31.4
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.2
+  },
+  "political": {}
+}

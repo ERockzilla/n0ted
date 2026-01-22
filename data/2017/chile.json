@@ -1,0 +1,23 @@
+{
+  "country": "Chile",
+  "region": "South America",
+  "year": 2017,
+  "demographics": {
+    "population": 17789267,
+    "population_growth_pct": 0.8,
+    "life_expectancy": 78.9
+  },
+  "economy": {
+    "gdp_ppp_billions": 438.8,
+    "gdp_growth_pct": 1.6,
+    "gdp_per_capita": 24100,
+    "inflation_pct": 3.8,
+    "unemployment_pct": 6.5,
+    "exports_billions": 60.6,
+    "imports_billions": 55.34
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.04
+  },
+  "political": {}
+}

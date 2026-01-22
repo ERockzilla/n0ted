@@ -1,0 +1,22 @@
+{
+  "country": "Panama",
+  "region": "Central America and Caribbean",
+  "year": 2005,
+  "demographics": {
+    "population": 3140232,
+    "life_expectancy": 75.25
+  },
+  "economy": {
+    "gdp_ppp_billions": 20.57,
+    "gdp_growth_pct": 6.0,
+    "gdp_per_capita": 6900,
+    "inflation_pct": 2.0,
+    "unemployment_pct": 12.6,
+    "exports_billions": 5.7,
+    "imports_billions": 7.16
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.1
+  },
+  "political": {}
+}

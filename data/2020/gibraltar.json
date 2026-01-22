@@ -1,0 +1,19 @@
+{
+  "country": "Gibraltar",
+  "region": "Europe",
+  "year": 2020,
+  "demographics": {
+    "population": 29581,
+    "population_growth_pct": 0.2,
+    "life_expectancy": 80.0,
+    "median_age": 35.5
+  },
+  "economy": {
+    "gdp_per_capita": 61700,
+    "inflation_pct": 2.5,
+    "exports_billions": 0.2,
+    "imports_billions": 2.97
+  },
+  "military": {},
+  "political": {}
+}

@@ -1,0 +1,23 @@
+{
+  "country": "Oman",
+  "region": "Middle East",
+  "year": 2008,
+  "demographics": {
+    "population": 3311640,
+    "population_growth_pct": 3.19,
+    "life_expectancy": 73.91
+  },
+  "economy": {
+    "gdp_ppp_billions": 60.89,
+    "gdp_growth_pct": 5.6,
+    "gdp_per_capita": 19000,
+    "inflation_pct": 5.9,
+    "unemployment_pct": 15.0,
+    "exports_billions": 23.1,
+    "imports_billions": 11.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 11.4
+  },
+  "political": {}
+}

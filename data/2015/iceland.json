@@ -1,0 +1,23 @@
+{
+  "country": "Iceland",
+  "region": "Europe",
+  "year": 2015,
+  "demographics": {
+    "population": 317351,
+    "population_growth_pct": 0.65,
+    "life_expectancy": 81.22
+  },
+  "economy": {
+    "gdp_ppp_billions": 13.81,
+    "gdp_growth_pct": 2.9,
+    "gdp_per_capita": 42600,
+    "inflation_pct": 2.0,
+    "unemployment_pct": 4.5,
+    "exports_billions": 5.0,
+    "imports_billions": 4.67
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.13
+  },
+  "political": {}
+}

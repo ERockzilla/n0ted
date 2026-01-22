@@ -1,0 +1,22 @@
+{
+  "country": "Chile",
+  "region": "South America",
+  "year": 2004,
+  "demographics": {
+    "population": 15980912,
+    "life_expectancy": 76.58
+  },
+  "economy": {
+    "gdp_ppp_billions": 154.7,
+    "gdp_growth_pct": 3.3,
+    "gdp_per_capita": 9900,
+    "inflation_pct": 2.8,
+    "unemployment_pct": 8.5,
+    "exports_billions": 20.44,
+    "imports_billions": 17.4
+  },
+  "military": {
+    "expenditure_pct_gdp": 4.0
+  },
+  "political": {}
+}

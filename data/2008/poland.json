@@ -1,0 +1,23 @@
+{
+  "country": "Poland",
+  "region": "Europe",
+  "year": 2008,
+  "demographics": {
+    "population": 38500696,
+    "population_growth_pct": -0.05,
+    "life_expectancy": 75.41
+  },
+  "economy": {
+    "gdp_ppp_billions": 623.1,
+    "gdp_growth_pct": 6.6,
+    "gdp_per_capita": 16200,
+    "inflation_pct": 2.5,
+    "unemployment_pct": 12.8,
+    "exports_billions": 144.6,
+    "imports_billions": 160.2
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.71
+  },
+  "political": {}
+}

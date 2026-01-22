@@ -1,0 +1,23 @@
+{
+  "country": "Israel",
+  "region": "Middle East",
+  "year": 2015,
+  "demographics": {
+    "population": 7821850,
+    "population_growth_pct": 1.46,
+    "life_expectancy": 81.28
+  },
+  "economy": {
+    "gdp_ppp_billions": 268.3,
+    "gdp_growth_pct": 2.5,
+    "gdp_per_capita": 33400,
+    "inflation_pct": 0.5,
+    "unemployment_pct": 6.6,
+    "exports_billions": 63.21,
+    "imports_billions": 69.73
+  },
+  "military": {
+    "expenditure_pct_gdp": 5.69
+  },
+  "political": {}
+}

@@ -1,0 +1,20 @@
+{
+  "country": "Jamaica",
+  "region": "Central America and Caribbean",
+  "year": 2003,
+  "demographics": {
+    "population": 2695867,
+    "life_expectancy": 75.85
+  },
+  "economy": {
+    "gdp_ppp_billions": 10.08,
+    "gdp_growth_pct": 1.0,
+    "gdp_per_capita": 3800,
+    "inflation_pct": 7.0,
+    "unemployment_pct": 15.4,
+    "exports_billions": 1.4,
+    "imports_billions": 3.1
+  },
+  "military": {},
+  "political": {}
+}

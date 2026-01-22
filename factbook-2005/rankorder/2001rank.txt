@@ -1,0 +1,236 @@
+This tab-delimited file can be read by most spreadsheet applications after being saved properly.  At the top of your browser window, click 'File' and 'Save As...'  After saving the file, open your spreadsheet, find the file you just saved and then 'Open' it.
+Rank 	 Country 	 GDP (purchasing power parity) 	 Date of Information
+1 	 World 	 $   55,500,000,000,000 	 2004 est.
+2 	 United States 	 $   11,750,000,000,000 	 2004 est.
+3 	 European Union 	 $   11,650,000,000,000 	 2004 est.
+4 	 China 	 $    7,262,000,000,000 	 2004 est.
+5 	 Japan 	 $    3,745,000,000,000 	 2004 est.
+6 	 India 	 $    3,319,000,000,000 	 2004 est.
+7 	 Germany 	 $    2,362,000,000,000 	 2004 est.
+8 	 United Kingdom 	 $    1,782,000,000,000 	 2004 est.
+9 	 France 	 $    1,737,000,000,000 	 2004 est.
+10 	 Italy 	 $    1,609,000,000,000 	 2004 est.
+11 	 Brazil 	 $    1,492,000,000,000 	 2004 est.
+12 	 Russia 	 $    1,408,000,000,000 	 2004 est.
+13 	 Canada 	 $    1,023,000,000,000 	 2004 est.
+14 	 Mexico 	 $    1,006,000,000,000 	 2004 est.
+15 	 Spain 	 $     937,600,000,000 	 2004 est.
+16 	 Korea, South 	 $     925,100,000,000 	 2004 est.
+17 	 Indonesia 	 $     827,400,000,000 	 2004 est.
+18 	 Australia 	 $     611,700,000,000 	 2004 est.
+19 	 Taiwan 	 $     576,200,000,000 	 2004 est.
+20 	 Thailand 	 $     524,800,000,000 	 2004 est.
+21 	 Iran 	 $     516,700,000,000 	 2004 est.
+22 	 Turkey 	 $     508,700,000,000 	 2004 est.
+23 	 South Africa 	 $     491,400,000,000 	 2004 est.
+24 	 Argentina 	 $     483,500,000,000 	 2004 est.
+25 	 Netherlands 	 $     481,100,000,000 	 2004 est.
+26 	 Poland 	 $     463,000,000,000 	 2004 est.
+27 	 Philippines 	 $     430,600,000,000 	 2004 est.
+28 	 Pakistan 	 $     347,300,000,000 	 2004 est.
+29 	 Egypt 	 $     316,300,000,000 	 2004 est.
+30 	 Belgium 	 $     316,200,000,000 	 2004 est.
+31 	 Saudi Arabia 	 $     310,200,000,000 	 2004 est.
+32 	 Ukraine 	 $     299,100,000,000 	 2004 est.
+33 	 Colombia 	 $     281,100,000,000 	 2004 est.
+34 	 Bangladesh 	 $     275,700,000,000 	 2004 est.
+35 	 Austria 	 $     255,900,000,000 	 2004 est.
+36 	 Sweden 	 $     255,400,000,000 	 2004 est.
+37 	 Switzerland 	 $     251,900,000,000 	 2004 est.
+38 	 Hong Kong 	 $     234,500,000,000 	 2004 est.
+39 	 Malaysia 	 $     229,300,000,000 	 2004 est.
+40 	 Vietnam 	 $     227,200,000,000 	 2004 est.
+41 	 Greece 	 $     226,400,000,000 	 2004 est.
+42 	 Algeria 	 $     212,300,000,000 	 2004 est.
+43 	 Portugal 	 $     188,700,000,000 	 2004 est.
+44 	 Norway 	 $     183,000,000,000 	 2004 est.
+45 	 Denmark 	 $     174,400,000,000 	 2004 est.
+46 	 Czech Republic 	 $     172,200,000,000 	 2004 est.
+47 	 Romania 	 $     171,500,000,000 	 2004 est.
+48 	 Chile 	 $     169,100,000,000 	 2004 est.
+49 	 Peru 	 $     155,300,000,000 	 2004 est.
+50 	 Finland 	 $     151,200,000,000 	 2004 est.
+51 	 Hungary 	 $     149,300,000,000 	 2004 est.
+52 	 Venezuela 	 $     145,200,000,000 	 2004 est.
+53 	 Morocco 	 $     134,600,000,000 	 2004 est.
+54 	 Israel 	 $     129,000,000,000 	 2004 est.
+55 	 Ireland 	 $     126,400,000,000 	 2004 est.
+56 	 Nigeria 	 $     125,700,000,000 	 2004 est.
+57 	 Singapore 	 $     120,900,000,000 	 2004 est.
+58 	 Kazakhstan 	 $     118,400,000,000 	 2004 est.
+59 	 New Zealand 	 $      92,510,000,000 	 2004 est.
+60 	 Sri Lanka 	 $      80,580,000,000 	 2004 est.
+61 	 Slovakia 	 $      78,890,000,000 	 2004 est.
+62 	 Sudan 	 $      76,190,000,000 	 2004 est.
+63 	 Burma 	 $      74,300,000,000 	 2004 est.
+64 	 Tunisia 	 $      70,880,000,000 	 2004 est.
+65 	 Belarus 	 $      70,500,000,000 	 2004 est.
+66 	 Puerto Rico 	 $      68,950,000,000 	 2004 est.
+67 	 United Arab Emirates 	 $      63,670,000,000 	 2004 est.
+68 	 Bulgaria 	 $      61,630,000,000 	 2004 est.
+69 	 Syria 	 $      60,440,000,000 	 2004 est.
+70 	 Guatemala 	 $      59,470,000,000 	 2004 est.
+71 	 Dominican Republic 	 $      55,680,000,000 	 2004 est.
+72 	 Ethiopia 	 $      54,890,000,000 	 2004 est.
+73 	 Iraq 	 $      54,400,000,000 	 2004 est.
+74 	 Croatia 	 $      50,330,000,000 	 2004 est.
+75 	 Ecuador 	 $      49,510,000,000 	 2004 est.
+76 	 Uruguay 	 $      49,270,000,000 	 2004 est.
+77 	 Ghana 	 $      48,270,000,000 	 2004 est.
+78 	 Kuwait 	 $      48,000,000,000 	 2004 est.
+79 	 Uzbekistan 	 $      47,590,000,000 	 2004 est.
+80 	 Lithuania 	 $      45,230,000,000 	 2004 est.
+81 	 Congo, Democratic Republic of the 	 $      42,740,000,000 	 2004 est.
+82 	 Korea, North 	 $      40,000,000,000 	 2004 est.
+83 	 Nepal 	 $      39,530,000,000 	 2004 est.
+84 	 Slovenia 	 $      39,410,000,000 	 2004 est.
+85 	 Uganda 	 $      39,390,000,000 	 2004 est.
+86 	 Oman 	 $      38,090,000,000 	 2004 est.
+87 	 Costa Rica 	 $      37,970,000,000 	 2004 est.
+88 	 Libya 	 $      37,480,000,000 	 2004 est.
+89 	 Kenya 	 $      34,680,000,000 	 2004 est.
+90 	 Cuba 	 $      33,920,000,000 	 2004 est.
+91 	 El Salvador 	 $      32,350,000,000 	 2004 est.
+92 	 Cameroon 	 $      30,170,000,000 	 2004 est.
+93 	 Azerbaijan 	 $      30,010,000,000 	 2004 est.
+94 	 Paraguay 	 $      29,930,000,000 	 2004 est.
+95 	 Turkmenistan 	 $      27,600,000,000 	 2004 est.
+96 	 Luxembourg 	 $      27,270,000,000 	 2004 est.
+97 	 Cambodia 	 $      26,990,000,000 	 2004 est.
+98 	 Latvia 	 $      26,530,000,000 	 2004 est.
+99 	 Serbia and Montenegro 	 $      26,270,000,000 	 2004 est.
+100 	 Bosnia and Herzegovina 	 $      26,210,000,000 	 2004 est.
+101 	 Jordan 	 $      25,500,000,000 	 2004 est.
+102 	 Cote d'Ivoire 	 $      24,780,000,000 	 2004 est.
+103 	 Zimbabwe 	 $      24,370,000,000 	 2004 est.
+104 	 Tanzania 	 $      23,710,000,000 	 2004 est.
+105 	 Mozambique 	 $      23,380,000,000 	 2004 est.
+106 	 Angola 	 $      23,170,000,000 	 2004 est.
+107 	 Bolivia 	 $      22,330,000,000 	 2004 est.
+108 	 Afghanistan 	 $      21,500,000,000 	 2003 est.
+109 	 Panama 	 $      20,570,000,000 	 2004 est.
+110 	 Guinea 	 $      19,500,000,000 	 2004 est.
+111 	 Qatar 	 $      19,490,000,000 	 2004 est.
+112 	 Estonia 	 $      19,230,000,000 	 2004 est.
+113 	 Lebanon 	 $      18,830,000,000 	 2004 est.
+114 	 Honduras 	 $      18,790,000,000 	 2004 est.
+115 	 Senegal 	 $      18,360,000,000 	 2004 est.
+116 	 Albania 	 $      17,460,000,000 	 2004 est.
+117 	 Yemen 	 $      16,250,000,000 	 2004 est.
+118 	 Burkina Faso 	 $      15,740,000,000 	 2004 est.
+119 	 Cyprus 	 $      15,710,000,000 	 2004 est.
+120 	 Mauritius 	 $      15,680,000,000 	 2004 est.
+121 	 Chad 	 $      15,660,000,000 	 2004 est.
+122 	 Botswana 	 $      15,050,000,000 	 2004 est.
+123 	 Namibia 	 $      14,760,000,000 	 2004 est.
+124 	 Madagascar 	 $      14,560,000,000 	 2004 est.
+125 	 Georgia 	 $      14,450,000,000 	 2004 est.
+126 	 Macedonia 	 $      14,400,000,000 	 2004 est.
+127 	 Armenia 	 $      13,650,000,000 	 2004 est.
+128 	 Bahrain 	 $      13,010,000,000 	 2004 est.
+129 	 Nicaragua 	 $      12,340,000,000 	 2004 est.
+130 	 Haiti 	 $      12,050,000,000 	 2004 est.
+131 	 Papua New Guinea 	 $      11,990,000,000 	 2004 est.
+132 	 Trinidad and Tobago 	 $      11,480,000,000 	 2004 est.
+133 	 Laos 	 $      11,280,000,000 	 2004 est.
+134 	 Jamaica 	 $      11,130,000,000 	 2004 est.
+135 	 Mali 	 $      11,000,000,000 	 2004 est.
+136 	 Rwanda 	 $      10,430,000,000 	 2004 est.
+137 	 Niger 	 $       9,716,000,000 	 2004 est.
+138 	 Zambia 	 $       9,409,000,000 	 2004 est.
+139 	 Iceland 	 $       9,373,000,000 	 2004 est.
+140 	 Macau 	 $       9,100,000,000 	 2003
+141 	 Togo 	 $       8,684,000,000 	 2004 est.
+142 	 Moldova 	 $       8,581,000,000 	 2004 est.
+143 	 Kyrgyzstan 	 $       8,495,000,000 	 2004 est.
+144 	 Benin 	 $       8,338,000,000 	 2004 est.
+145 	 Gabon 	 $       7,966,000,000 	 2004 est.
+146 	 Tajikistan 	 $       7,950,000,000 	 2004 est.
+147 	 Malawi 	 $       7,410,000,000 	 2004 est.
+148 	 Malta 	 $       7,223,000,000 	 2004 est.
+149 	 Brunei 	 $       6,842,000,000 	 2003 est.
+150 	 Martinique 	 $       6,117,000,000 	 2003 est.
+151 	 Swaziland 	 $       6,018,000,000 	 2004 est.
+152 	 Lesotho 	 $       5,892,000,000 	 2004 est.
+153 	 Mauritania 	 $       5,534,000,000 	 2004 est.
+154 	 Mongolia 	 $       5,332,000,000 	 2004 est.
+155 	 Bahamas, The 	 $       5,295,000,000 	 2004 est.
+156 	 Fiji 	 $       5,173,000,000 	 2004 est.
+157 	 Somalia 	 $       4,597,000,000 	 2004 est.
+158 	 French Polynesia 	 $       4,580,000,000 	 2003 est.
+159 	 Reunion 	 $       4,570,000,000 	 2004 est.
+160 	 Barbados 	 $       4,569,000,000 	 2004 est.
+161 	 Cyprus 	 $       4,540,000,000 	 2004 est.
+162 	 Central African Republic 	 $       4,248,000,000 	 2004 est.
+163 	 Eritrea 	 $       4,154,000,000 	 2004 est.
+164 	 Burundi 	 $       4,001,000,000 	 2004 est.
+165 	 Jersey 	 $       3,600,000,000 	 2003 est.
+166 	 Guadeloupe 	 $       3,513,000,000 	 2003 est.
+167 	 Sierra Leone 	 $       3,335,000,000 	 2004 est.
+168 	 Guam 	 $       3,200,000,000 	 2000 est.
+169 	 New Caledonia 	 $       3,158,000,000 	 2003 est.
+170 	 Liberia 	 $       2,903,000,000 	 2004 est.
+171 	 Bhutan 	 $       2,900,000,000 	 2003 est.
+172 	 Guyana 	 $       2,899,000,000 	 2004 est.
+173 	 Gambia, The 	 $       2,799,000,000 	 2004 est.
+174 	 Guernsey 	 $       2,590,000,000 	 2003 est.
+175 	 Virgin Islands 	 $       2,500,000,000 	 2002 est.
+176 	 British Virgin Islands 	 $       2,498,000,000 	 2004 est.
+177 	 Netherlands Antilles 	 $       2,450,000,000 	 2003 est.
+178 	 Bermuda 	 $       2,330,000,000 	 2003 est.
+179 	 Congo, Republic of the 	 $       2,324,000,000 	 2004 est.
+180 	 Man, Isle of 	 $       2,113,000,000 	 2003 est.
+181 	 Aruba 	 $       1,940,000,000 	 2002 est.
+182 	 Andorra 	 $       1,900,000,000 	 2003 est.
+183 	 Suriname 	 $       1,885,000,000 	 2004 est.
+184 	 West Bank 	 $       1,800,000,000 	 2003 est.
+185 	 Belize 	 $       1,778,000,000 	 2004 est.
+186 	 French Guiana 	 $       1,551,000,000 	 2003 est.
+187 	 Cayman Islands 	 $       1,391,000,000 	 2004 est.
+188 	 Equatorial Guinea 	 $       1,270,000,000 	 2002 est.
+189 	 Maldives 	 $       1,250,000,000 	 2002 est.
+190 	 Greenland 	 $       1,100,000,000 	 2001 est.
+191 	 Guinea-Bissau 	 $       1,008,000,000 	 2004 est.
+192 	 Faroe Islands 	 $       1,000,000,000 	 2001 est.
+193 	 Samoa 	 $       1,000,000,000 	 2002 est.
+194 	 San Marino 	 $        940,000,000 	 2001 est.
+195 	 Northern Mariana Islands 	 $        900,000,000 	 2000 est.
+196 	 Monaco 	 $        870,000,000 	 2000 est.
+197 	 Saint Lucia 	 $        866,000,000 	 2002 est.
+198 	 Liechtenstein 	 $        825,000,000 	 1999 est.
+199 	 Solomon Islands 	 $        800,000,000 	 2002 est.
+200 	 Gibraltar 	 $        769,000,000 	 2000 est.
+201 	 Gaza Strip 	 $        768,000,000 	 2003 est.
+202 	 Antigua and Barbuda 	 $        750,000,000 	 2002 est.
+203 	 Seychelles 	 $        626,000,000 	 2002 est.
+204 	 Djibouti 	 $        619,000,000 	 2002 est.
+205 	 Cape Verde 	 $        600,000,000 	 2002 est.
+206 	 Vanuatu 	 $        580,000,000 	 2003 est.
+207 	 American Samoa 	 $        500,000,000 	 2000 est.
+208 	 Mayotte 	 $        466,800,000 	 2003 est.
+209 	 Comoros 	 $        441,000,000 	 2002 est.
+210 	 Grenada 	 $        440,000,000 	 2002 est.
+211 	 Dominica 	 $        384,000,000 	 2003 est.
+212 	 East Timor 	 $        370,000,000 	 2004 est.
+213 	 Saint Vincent and the Grenadines 	 $        342,000,000 	 2002 est.
+214 	 Saint Kitts and Nevis 	 $        339,000,000 	 2002 est.
+215 	 Micronesia, Federated States of 	 $        277,000,000 	 2002 est.
+216 	 Tonga 	 $        244,000,000 	 2002 est.
+217 	 Turks and Caicos Islands 	 $        216,000,000 	 2002 est.
+218 	 Sao Tome and Principe 	 $        214,000,000 	 2003 est.
+219 	 Palau 	 $        174,000,000 	 2001 est.
+220 	 Marshall Islands 	 $        115,000,000 	 2001 est.
+221 	 Anguilla 	 $        112,000,000 	 2002 est.
+222 	 Cook Islands 	 $        105,000,000 	 2001 est.
+223 	 Kiribati 	 $         79,000,000 	 2001 est.
+224 	 Falkland Islands (Islas Malvinas) 	 $         75,000,000 	 2002 est.
+225 	 Nauru 	 $         60,000,000 	 2001 est.
+226 	 Wallis and Futuna 	 $         60,000,000 	 2004 est.
+227 	 Saint Pierre and Miquelon 	 $         48,300,000 	 2003 est.
+228 	 Montserrat 	 $         29,000,000 	 2002 est.
+229 	 Saint Helena 	 $         18,000,000 	 1998 est.
+230 	 Tuvalu 	 $         12,200,000 	 2000 est.
+231 	 Niue 	 $          7,600,000 	 2000 est.
+232 	 Tokelau 	 $          1,500,000 	 1993 est.
+
+ This file was last updated on 20 October, 2005

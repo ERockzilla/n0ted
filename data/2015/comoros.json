@@ -1,0 +1,21 @@
+{
+  "country": "Comoros",
+  "region": "Africa",
+  "year": 2015,
+  "demographics": {
+    "population": 766865,
+    "population_growth_pct": 1.87,
+    "life_expectancy": 63.48
+  },
+  "economy": {
+    "gdp_ppp_billions": 1.21,
+    "gdp_growth_pct": 3.9,
+    "gdp_per_capita": 1700,
+    "inflation_pct": 2.9,
+    "unemployment_pct": 20.0,
+    "exports_billions": 0.02,
+    "imports_billions": 0.24
+  },
+  "military": {},
+  "political": {}
+}

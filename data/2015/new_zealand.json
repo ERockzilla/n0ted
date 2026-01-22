@@ -1,0 +1,23 @@
+{
+  "country": "New Zealand",
+  "region": "Australia-Oceania",
+  "year": 2015,
+  "demographics": {
+    "population": 4401916,
+    "population_growth_pct": 0.83,
+    "life_expectancy": 80.93
+  },
+  "economy": {
+    "gdp_ppp_billions": 158.7,
+    "gdp_growth_pct": 3.6,
+    "gdp_per_capita": 35000,
+    "inflation_pct": 1.2,
+    "unemployment_pct": 5.9,
+    "exports_billions": 40.21,
+    "imports_billions": 40.71
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.13
+  },
+  "political": {}
+}

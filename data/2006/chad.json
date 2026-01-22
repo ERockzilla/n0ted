@@ -1,0 +1,21 @@
+{
+  "country": "Chad",
+  "region": "Africa",
+  "year": 2006,
+  "demographics": {
+    "population": 9944201,
+    "life_expectancy": 47.52
+  },
+  "economy": {
+    "gdp_ppp_billions": 13.98,
+    "gdp_growth_pct": 6.0,
+    "gdp_per_capita": 1400,
+    "inflation_pct": 3.0,
+    "exports_billions": 3.02,
+    "imports_billions": 0.75
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.0
+  },
+  "political": {}
+}

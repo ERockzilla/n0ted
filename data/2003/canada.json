@@ -1,0 +1,22 @@
+{
+  "country": "Canada",
+  "region": "North America",
+  "year": 2003,
+  "demographics": {
+    "population": 32207113,
+    "life_expectancy": 79.83
+  },
+  "economy": {
+    "gdp_ppp_billions": 934.1,
+    "gdp_growth_pct": 3.3,
+    "gdp_per_capita": 29300,
+    "inflation_pct": 2.2,
+    "unemployment_pct": 7.6,
+    "exports_billions": 260.5,
+    "imports_billions": 229.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.1
+  },
+  "political": {}
+}

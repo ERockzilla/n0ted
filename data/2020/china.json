@@ -1,0 +1,23 @@
+{
+  "country": "China",
+  "region": "East & Southeast Asia",
+  "year": 2020,
+  "demographics": {
+    "population": 1394015977,
+    "population_growth_pct": 0.32,
+    "life_expectancy": 76.1,
+    "median_age": 38.4
+  },
+  "economy": {
+    "gdp_growth_pct": 6.14,
+    "gdp_per_capita": 8041,
+    "inflation_pct": 2.8,
+    "exports_billions": 2490.0,
+    "imports_billions": 2140.0,
+    "external_debt_billions": 1598.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.9
+  },
+  "political": {}
+}

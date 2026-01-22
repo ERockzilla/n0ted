@@ -1,0 +1,22 @@
+{
+  "country": "Democratic Republic Of The Congo",
+  "region": "Unknown",
+  "year": 2013,
+  "demographics": {
+    "population": 75507308,
+    "population_growth_pct": 2.54,
+    "life_expectancy": 56.14
+  },
+  "economy": {
+    "gdp_growth_pct": 7.2,
+    "gdp_per_capita": 400,
+    "inflation_pct": 9.5,
+    "exports_billions": 8.87,
+    "imports_billions": 8.19,
+    "gdp_ppp_billions": 27.29
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.2
+  },
+  "political": {}
+}

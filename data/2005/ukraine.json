@@ -1,0 +1,22 @@
+{
+  "country": "Ukraine",
+  "region": "Europe",
+  "year": 2005,
+  "demographics": {
+    "population": 46996765,
+    "life_expectancy": 69.68
+  },
+  "economy": {
+    "gdp_ppp_billions": 299.1,
+    "gdp_growth_pct": 12.0,
+    "gdp_per_capita": 6300,
+    "inflation_pct": 12.0,
+    "unemployment_pct": 3.5,
+    "exports_billions": 32.91,
+    "imports_billions": 31.45
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.4
+  },
+  "political": {}
+}

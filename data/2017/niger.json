@@ -1,0 +1,23 @@
+{
+  "country": "Niger",
+  "region": "Africa",
+  "year": 2017,
+  "demographics": {
+    "population": 19245344,
+    "population_growth_pct": 3.2,
+    "life_expectancy": 55.9
+  },
+  "economy": {
+    "gdp_ppp_billions": 20.14,
+    "gdp_growth_pct": 4.6,
+    "gdp_per_capita": 1100,
+    "inflation_pct": 0.2,
+    "exports_billions": 1.1,
+    "imports_billions": 2.03,
+    "unemployment_pct": 2.6
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.06
+  },
+  "political": {}
+}

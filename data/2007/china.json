@@ -1,0 +1,22 @@
+{
+  "country": "China",
+  "region": "East & Southeast Asia",
+  "year": 2007,
+  "demographics": {
+    "population": 1321851888,
+    "life_expectancy": 72.88
+  },
+  "economy": {
+    "gdp_ppp_billions": 10210.0,
+    "gdp_growth_pct": 11.1,
+    "gdp_per_capita": 7800,
+    "inflation_pct": 1.7,
+    "unemployment_pct": 4.2,
+    "exports_billions": 969.7,
+    "imports_billions": 751.9
+  },
+  "military": {
+    "expenditure_pct_gdp": 4.3
+  },
+  "political": {}
+}

@@ -1,0 +1,23 @@
+{
+  "country": "United States",
+  "region": "North America",
+  "year": 2008,
+  "demographics": {
+    "population": 303824640,
+    "population_growth_pct": 0.88,
+    "life_expectancy": 78.14
+  },
+  "economy": {
+    "gdp_ppp_billions": 13780.0,
+    "gdp_growth_pct": 2.0,
+    "gdp_per_capita": 45800,
+    "inflation_pct": 2.9,
+    "unemployment_pct": 4.6,
+    "exports_billions": 1148.0,
+    "imports_billions": 1968.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 4.06
+  },
+  "political": {}
+}

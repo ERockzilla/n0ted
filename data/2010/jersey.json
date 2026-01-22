@@ -4,22 +4,16 @@
   "year": 2010,
   "demographics": {
     "population": 93363,
-    "median_age": 40.1,
     "population_growth_pct": 0.86,
-    "birth_rate": 10.73,
-    "death_rate": 7.49,
-    "life_expectancy": 81.28
+    "life_expectancy": 81.28,
+    "median_age": 40.1
   },
   "economy": {
     "gdp_ppp_billions": 5.1,
     "gdp_per_capita": 57000,
-    "unemployment_pct": 2.2,
-    "inflation_pct": 3.7
+    "inflation_pct": 3.7,
+    "unemployment_pct": 2.2
   },
   "military": {},
-  "political": {
-    "chief_of_state": "ELIZABETH II",
-    "head_of_government": "Chief Minister Terry LE SUEUR",
-    "last_election": "15 October 2008"
-  }
+  "political": {}
 }

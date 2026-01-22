@@ -1,0 +1,20 @@
+{
+  "country": "Faroe Islands",
+  "region": "Europe",
+  "year": 2018,
+  "demographics": {
+    "population": 51018,
+    "population_growth_pct": 0.58,
+    "life_expectancy": 80.6
+  },
+  "economy": {
+    "gdp_ppp_billions": 2.0,
+    "gdp_growth_pct": 5.9,
+    "gdp_per_capita": 40000,
+    "inflation_pct": -0.3,
+    "exports_billions": 1.18,
+    "imports_billions": 0.98
+  },
+  "military": {},
+  "political": {}
+}

@@ -1,0 +1,23 @@
+{
+  "country": "Guatemala",
+  "region": "Central America and Caribbean",
+  "year": 2012,
+  "demographics": {
+    "population": 14099032,
+    "population_growth_pct": 1.95,
+    "life_expectancy": 71.17
+  },
+  "economy": {
+    "gdp_ppp_billions": 78.42,
+    "gdp_growth_pct": 3.1,
+    "gdp_per_capita": 5200,
+    "inflation_pct": 4.0,
+    "unemployment_pct": 4.1,
+    "exports_billions": 9.86,
+    "imports_billions": 15.57
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.4
+  },
+  "political": {}
+}

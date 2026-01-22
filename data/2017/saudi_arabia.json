@@ -1,0 +1,23 @@
+{
+  "country": "Saudi Arabia",
+  "region": "Middle East",
+  "year": 2017,
+  "demographics": {
+    "population": 28571770,
+    "population_growth_pct": 1.5,
+    "life_expectancy": 75.5
+  },
+  "economy": {
+    "gdp_ppp_billions": 1751.0,
+    "gdp_growth_pct": 1.4,
+    "gdp_per_capita": 55200,
+    "inflation_pct": 3.5,
+    "unemployment_pct": 11.3,
+    "exports_billions": 183.6,
+    "imports_billions": 127.8
+  },
+  "military": {
+    "expenditure_pct_gdp": 7.98
+  },
+  "political": {}
+}

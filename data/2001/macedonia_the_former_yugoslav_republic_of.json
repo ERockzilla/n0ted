@@ -1,0 +1,22 @@
+{
+  "country": "Macedonia The Former Yugoslav Republic Of",
+  "region": "Europe",
+  "year": 2001,
+  "demographics": {
+    "population": 2046209,
+    "population_growth_pct": 0.43
+  },
+  "economy": {
+    "gdp_ppp_billions": 9.0,
+    "gdp_growth_pct": 5.0,
+    "gdp_per_capita": 4400,
+    "inflation_pct": 11.0,
+    "unemployment_pct": 32.0,
+    "exports_billions": 1.4,
+    "imports_billions": 2.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.17
+  },
+  "political": {}
+}

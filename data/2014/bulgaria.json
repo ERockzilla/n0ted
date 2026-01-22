@@ -1,0 +1,23 @@
+{
+  "country": "Bulgaria",
+  "region": "Europe",
+  "year": 2014,
+  "demographics": {
+    "population": 6924716,
+    "population_growth_pct": -0.83,
+    "life_expectancy": 74.33
+  },
+  "economy": {
+    "gdp_ppp_billions": 104.6,
+    "gdp_growth_pct": 0.5,
+    "gdp_per_capita": 14400,
+    "inflation_pct": 1.5,
+    "unemployment_pct": 11.6,
+    "exports_billions": 27.9,
+    "imports_billions": 32.88
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.46
+  },
+  "political": {}
+}

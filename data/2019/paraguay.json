@@ -1,0 +1,23 @@
+{
+  "country": "Paraguay",
+  "region": "South America",
+  "year": 2019,
+  "demographics": {
+    "population": 7025763,
+    "population_growth_pct": 1.17,
+    "life_expectancy": 77.6
+  },
+  "economy": {
+    "gdp_ppp_billions": 88.91,
+    "gdp_growth_pct": 4.8,
+    "gdp_per_capita": 12800,
+    "inflation_pct": 3.6,
+    "unemployment_pct": 14.5,
+    "exports_billions": 11.73,
+    "imports_billions": 11.35
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.93
+  },
+  "political": {}
+}

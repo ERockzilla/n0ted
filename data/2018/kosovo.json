@@ -1,0 +1,21 @@
+{
+  "country": "Kosovo",
+  "region": "Europe",
+  "year": 2018,
+  "demographics": {
+    "population": 1907592
+  },
+  "economy": {
+    "gdp_ppp_billions": 19.6,
+    "gdp_per_capita": 10900,
+    "inflation_pct": 1.5,
+    "unemployment_pct": 52.4,
+    "exports_billions": 0.43,
+    "imports_billions": 3.22,
+    "gdp_growth_pct": 3.7
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.79
+  },
+  "political": {}
+}

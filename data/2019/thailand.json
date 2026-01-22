@@ -1,0 +1,23 @@
+{
+  "country": "Thailand",
+  "region": "East & Southeast Asia",
+  "year": 2019,
+  "demographics": {
+    "population": 68615858,
+    "population_growth_pct": 0.29,
+    "life_expectancy": 75.1
+  },
+  "economy": {
+    "gdp_ppp_billions": 1236.0,
+    "gdp_growth_pct": 3.9,
+    "gdp_per_capita": 17900,
+    "inflation_pct": 0.7,
+    "unemployment_pct": 3.7,
+    "exports_billions": 235.1,
+    "imports_billions": 203.2
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.33
+  },
+  "political": {}
+}

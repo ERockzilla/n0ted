@@ -1,0 +1,23 @@
+{
+  "country": "Nepal",
+  "region": "South Asia",
+  "year": 2013,
+  "demographics": {
+    "population": 30430267,
+    "population_growth_pct": 1.81,
+    "life_expectancy": 66.86
+  },
+  "economy": {
+    "gdp_ppp_billions": 40.03,
+    "gdp_growth_pct": 4.9,
+    "gdp_per_capita": 1500,
+    "inflation_pct": 9.5,
+    "unemployment_pct": 46.0,
+    "exports_billions": 1.0,
+    "imports_billions": 5.95
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.3
+  },
+  "political": {}
+}

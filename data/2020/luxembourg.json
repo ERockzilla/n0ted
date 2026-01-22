@@ -1,0 +1,24 @@
+{
+  "country": "Luxembourg",
+  "region": "Europe",
+  "year": 2020,
+  "demographics": {
+    "population": 628381,
+    "population_growth_pct": 1.8,
+    "life_expectancy": 82.6,
+    "median_age": 39.5
+  },
+  "economy": {
+    "gdp_growth_pct": 2.31,
+    "gdp_per_capita": 112009,
+    "inflation_pct": 1.7,
+    "unemployment_pct": 14.2,
+    "exports_billions": 133.61,
+    "imports_billions": 111.29,
+    "external_debt_billions": 3781.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.56
+  },
+  "political": {}
+}

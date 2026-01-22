@@ -1,0 +1,21 @@
+{
+  "country": "Antigua And Barbuda",
+  "region": "Central America and Caribbean",
+  "year": 2016,
+  "demographics": {
+    "population": 93581,
+    "population_growth_pct": 1.23,
+    "life_expectancy": 76.5
+  },
+  "economy": {
+    "gdp_ppp_billions": 2.1,
+    "gdp_growth_pct": 2.2,
+    "gdp_per_capita": 23600,
+    "inflation_pct": 1.0,
+    "unemployment_pct": 11.0,
+    "exports_billions": 0.06,
+    "imports_billions": 0.48
+  },
+  "military": {},
+  "political": {}
+}

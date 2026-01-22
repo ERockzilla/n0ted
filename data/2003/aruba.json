@@ -1,0 +1,20 @@
+{
+  "country": "Aruba",
+  "region": "Central America and Caribbean",
+  "year": 2003,
+  "demographics": {
+    "population": 70844,
+    "life_expectancy": 78.83
+  },
+  "economy": {
+    "gdp_ppp_billions": 1.94,
+    "gdp_growth_pct": -1.5,
+    "gdp_per_capita": 28000,
+    "inflation_pct": 3.2,
+    "unemployment_pct": 0.6,
+    "exports_billions": 1.88,
+    "imports_billions": 2.21
+  },
+  "military": {},
+  "political": {}
+}

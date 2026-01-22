@@ -1,0 +1,23 @@
+{
+  "country": "Norway",
+  "region": "Europe",
+  "year": 2012,
+  "demographics": {
+    "population": 4707270,
+    "population_growth_pct": 0.33,
+    "life_expectancy": 80.32
+  },
+  "economy": {
+    "gdp_ppp_billions": 278.1,
+    "gdp_growth_pct": 3.1,
+    "gdp_per_capita": 55300,
+    "inflation_pct": 0.6,
+    "unemployment_pct": 3.1,
+    "exports_billions": 162.7,
+    "imports_billions": 86.78
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.9
+  },
+  "political": {}
+}

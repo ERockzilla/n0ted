@@ -1,0 +1,21 @@
+{
+  "country": "Kyrgyzstan",
+  "region": "Central Asia",
+  "year": 2015,
+  "demographics": {
+    "population": 5604212,
+    "population_growth_pct": 1.04,
+    "life_expectancy": 70.06
+  },
+  "economy": {
+    "gdp_ppp_billions": 19.29,
+    "gdp_growth_pct": 4.1,
+    "gdp_per_capita": 3400,
+    "inflation_pct": 7.5,
+    "unemployment_pct": 8.6,
+    "exports_billions": 2.01,
+    "imports_billions": 5.54
+  },
+  "military": {},
+  "political": {}
+}

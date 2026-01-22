@@ -1,0 +1,24 @@
+{
+  "country": "Egypt",
+  "region": "Africa",
+  "year": 2020,
+  "demographics": {
+    "population": 104124440,
+    "population_growth_pct": 2.28,
+    "life_expectancy": 73.7,
+    "median_age": 24.1
+  },
+  "economy": {
+    "gdp_growth_pct": 4.2,
+    "gdp_per_capita": 2943,
+    "inflation_pct": 9.3,
+    "unemployment_pct": 29.6,
+    "exports_billions": 87.89,
+    "imports_billions": 115.34,
+    "external_debt_billions": 77.47
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.2
+  },
+  "political": {}
+}

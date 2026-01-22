@@ -1,0 +1,22 @@
+{
+  "country": "South Korea",
+  "region": "East & Southeast Asia",
+  "year": 2001,
+  "demographics": {
+    "population": 47904370,
+    "population_growth_pct": 0.89
+  },
+  "economy": {
+    "gdp_growth_pct": 9.0,
+    "gdp_per_capita": 16100,
+    "inflation_pct": 2.3,
+    "unemployment_pct": 4.1,
+    "exports_billions": 172.6,
+    "imports_billions": 160.5,
+    "gdp_ppp_billions": 764.6
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.2
+  },
+  "political": {}
+}

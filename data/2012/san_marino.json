@@ -1,0 +1,21 @@
+{
+  "country": "San Marino",
+  "region": "Europe",
+  "year": 2012,
+  "demographics": {
+    "population": 32140,
+    "population_growth_pct": 0.98,
+    "life_expectancy": 83.07
+  },
+  "economy": {
+    "gdp_ppp_billions": 1.36,
+    "gdp_growth_pct": -2.6,
+    "gdp_per_capita": 36200,
+    "inflation_pct": 3.1,
+    "unemployment_pct": 5.5,
+    "exports_billions": 2.58,
+    "imports_billions": 2.13
+  },
+  "military": {},
+  "political": {}
+}

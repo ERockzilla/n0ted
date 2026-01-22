@@ -1,0 +1,20 @@
+{
+  "country": "Tuvalu",
+  "region": "Australia-Oceania",
+  "year": 2015,
+  "demographics": {
+    "population": 10782,
+    "population_growth_pct": 0.8,
+    "life_expectancy": 65.81
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.04,
+    "gdp_growth_pct": 2.2,
+    "gdp_per_capita": 3200,
+    "inflation_pct": 3.3,
+    "exports_billions": 600000.0,
+    "imports_billions": 0.02
+  },
+  "military": {},
+  "political": {}
+}

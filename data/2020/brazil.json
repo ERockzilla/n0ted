@@ -1,0 +1,24 @@
+{
+  "country": "Brazil",
+  "region": "South America",
+  "year": 2020,
+  "demographics": {
+    "population": 211715973,
+    "population_growth_pct": 0.67,
+    "life_expectancy": 74.7,
+    "median_age": 33.2
+  },
+  "economy": {
+    "gdp_growth_pct": 1.13,
+    "gdp_per_capita": 11117,
+    "inflation_pct": 3.7,
+    "unemployment_pct": 28.5,
+    "exports_billions": 291.45,
+    "imports_billions": 271.26,
+    "external_debt_billions": 547.4
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.5
+  },
+  "political": {}
+}

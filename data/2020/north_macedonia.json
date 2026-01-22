@@ -1,0 +1,13 @@
+{
+  "country": "North Macedonia",
+  "region": "Europe",
+  "year": 2020,
+  "demographics": {},
+  "economy": {
+    "inflation_pct": 1.3
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.2
+  },
+  "political": {}
+}

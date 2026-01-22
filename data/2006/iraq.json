@@ -1,0 +1,20 @@
+{
+  "country": "Iraq",
+  "region": "Middle East",
+  "year": 2006,
+  "demographics": {
+    "population": 26783383,
+    "life_expectancy": 69.01
+  },
+  "economy": {
+    "gdp_ppp_billions": 94.1,
+    "gdp_growth_pct": -3.0,
+    "gdp_per_capita": 1800,
+    "inflation_pct": 33.0,
+    "unemployment_pct": 25.0,
+    "exports_billions": 17.78,
+    "imports_billions": 19.57
+  },
+  "military": {},
+  "political": {}
+}

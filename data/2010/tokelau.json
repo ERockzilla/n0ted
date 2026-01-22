@@ -11,9 +11,5 @@
     "gdp_per_capita": 1000
   },
   "military": {},
-  "political": {
-    "chief_of_state": "ELIZABETH II",
-    "head_of_government": "Foua TOLOA",
-    "last_election": "19 January 2008"
-  }
+  "political": {}
 }

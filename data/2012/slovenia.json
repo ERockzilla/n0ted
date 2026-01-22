@@ -1,0 +1,23 @@
+{
+  "country": "Slovenia",
+  "region": "Europe",
+  "year": 2012,
+  "demographics": {
+    "population": 1996617,
+    "population_growth_pct": -0.19,
+    "life_expectancy": 77.48
+  },
+  "economy": {
+    "gdp_ppp_billions": 57.93,
+    "gdp_growth_pct": -2.2,
+    "gdp_per_capita": 28600,
+    "inflation_pct": 2.5,
+    "unemployment_pct": 12.3,
+    "exports_billions": 28.42,
+    "imports_billions": 29.83
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.7
+  },
+  "political": {}
+}

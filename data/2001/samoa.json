@@ -1,0 +1,19 @@
+{
+  "country": "Samoa",
+  "region": "Australia-Oceania",
+  "year": 2001,
+  "demographics": {
+    "population": 179058,
+    "population_growth_pct": -0.23
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.571,
+    "gdp_growth_pct": 6.8,
+    "gdp_per_capita": 3200,
+    "inflation_pct": 0.8,
+    "exports_billions": 0.017,
+    "imports_billions": 0.09
+  },
+  "military": {},
+  "political": {}
+}

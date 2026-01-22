@@ -1,0 +1,18 @@
+{
+  "country": "Jersey",
+  "region": "Europe",
+  "year": 2020,
+  "demographics": {
+    "population": 101073,
+    "population_growth_pct": 0.72,
+    "life_expectancy": 82.2,
+    "median_age": 37.5
+  },
+  "economy": {
+    "gdp_per_capita": 56600,
+    "inflation_pct": 3.7,
+    "gdp_growth_pct": 1.0
+  },
+  "military": {},
+  "political": {}
+}

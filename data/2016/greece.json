@@ -1,0 +1,23 @@
+{
+  "country": "Greece",
+  "region": "Europe",
+  "year": 2016,
+  "demographics": {
+    "population": 10773253,
+    "population_growth_pct": -0.03,
+    "life_expectancy": 80.5
+  },
+  "economy": {
+    "gdp_ppp_billions": 286.6,
+    "gdp_growth_pct": -0.2,
+    "gdp_per_capita": 26400,
+    "inflation_pct": -1.1,
+    "unemployment_pct": 25.0,
+    "exports_billions": 27.5,
+    "imports_billions": 46.62
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.72
+  },
+  "political": {}
+}

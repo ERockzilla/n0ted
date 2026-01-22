@@ -1,0 +1,23 @@
+{
+  "country": "Bulgaria",
+  "region": "Europe",
+  "year": 2018,
+  "demographics": {
+    "population": 7057504,
+    "population_growth_pct": -0.63,
+    "life_expectancy": 74.8
+  },
+  "economy": {
+    "gdp_ppp_billions": 153.5,
+    "gdp_growth_pct": 3.6,
+    "gdp_per_capita": 21800,
+    "inflation_pct": 1.2,
+    "unemployment_pct": 17.2,
+    "exports_billions": 29.08,
+    "imports_billions": 31.43
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.53
+  },
+  "political": {}
+}

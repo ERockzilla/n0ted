@@ -1,0 +1,20 @@
+{
+  "country": "West Bank",
+  "region": "Middle East",
+  "year": 2001,
+  "demographics": {
+    "population": 2090713,
+    "population_growth_pct": 3.48
+  },
+  "economy": {
+    "gdp_ppp_billions": 3.1,
+    "gdp_growth_pct": -7.5,
+    "gdp_per_capita": 1500,
+    "inflation_pct": 3.0,
+    "unemployment_pct": 40.0,
+    "exports_billions": 0.682,
+    "imports_billions": 2.5
+  },
+  "military": {},
+  "political": {}
+}

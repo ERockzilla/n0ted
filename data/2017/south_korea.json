@@ -1,0 +1,23 @@
+{
+  "country": "South Korea",
+  "region": "East & Southeast Asia",
+  "year": 2017,
+  "demographics": {
+    "population": 51181299,
+    "population_growth_pct": 0.5,
+    "life_expectancy": 82.5
+  },
+  "economy": {
+    "gdp_growth_pct": 2.8,
+    "gdp_per_capita": 37700,
+    "inflation_pct": 1.0,
+    "unemployment_pct": 3.7,
+    "exports_billions": 511.8,
+    "imports_billions": 391.3,
+    "gdp_ppp_billions": 1934.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.8
+  },
+  "political": {}
+}

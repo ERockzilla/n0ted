@@ -1,0 +1,23 @@
+{
+  "country": "Pakistan",
+  "region": "South Asia",
+  "year": 2017,
+  "demographics": {
+    "population": 204924861,
+    "population_growth_pct": 1.4,
+    "life_expectancy": 68.1
+  },
+  "economy": {
+    "gdp_ppp_billions": 988.2,
+    "gdp_growth_pct": 4.7,
+    "gdp_per_capita": 5100,
+    "inflation_pct": 3.8,
+    "unemployment_pct": 6.3,
+    "exports_billions": 21.71,
+    "imports_billions": 41.62
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.04
+  },
+  "political": {}
+}

@@ -1,0 +1,23 @@
+{
+  "country": "Cambodia",
+  "region": "East & Southeast Asia",
+  "year": 2018,
+  "demographics": {
+    "population": 16449519,
+    "population_growth_pct": 1.48,
+    "life_expectancy": 65.2
+  },
+  "economy": {
+    "gdp_ppp_billions": 64.21,
+    "gdp_growth_pct": 6.9,
+    "gdp_per_capita": 4000,
+    "inflation_pct": 2.9,
+    "unemployment_pct": 1.6,
+    "exports_billions": 11.42,
+    "imports_billions": 14.37
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.85
+  },
+  "political": {}
+}

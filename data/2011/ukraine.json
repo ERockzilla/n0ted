@@ -1,0 +1,23 @@
+{
+  "country": "Ukraine",
+  "region": "Europe",
+  "year": 2011,
+  "demographics": {
+    "population": 45134707,
+    "population_growth_pct": -0.62,
+    "life_expectancy": 68.58
+  },
+  "economy": {
+    "gdp_ppp_billions": 305.2,
+    "gdp_growth_pct": 4.2,
+    "gdp_per_capita": 6700,
+    "inflation_pct": 9.4,
+    "unemployment_pct": 8.1,
+    "exports_billions": 52.19,
+    "imports_billions": 60.9
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.4
+  },
+  "political": {}
+}

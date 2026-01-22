@@ -1,0 +1,21 @@
+{
+  "country": "Cook Islands",
+  "region": "Australia-Oceania",
+  "year": 2020,
+  "demographics": {
+    "population": 8574,
+    "population_growth_pct": -2.59,
+    "life_expectancy": 76.6,
+    "median_age": 38.3
+  },
+  "economy": {
+    "gdp_growth_pct": 0.1,
+    "gdp_per_capita": 16700,
+    "inflation_pct": 2.2,
+    "exports_billions": 0.0,
+    "imports_billions": 0.11,
+    "external_debt_billions": 0.14
+  },
+  "military": {},
+  "political": {}
+}

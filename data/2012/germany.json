@@ -1,0 +1,23 @@
+{
+  "country": "Germany",
+  "region": "Europe",
+  "year": 2012,
+  "demographics": {
+    "population": 81305856,
+    "population_growth_pct": -0.2,
+    "life_expectancy": 80.19
+  },
+  "economy": {
+    "gdp_ppp_billions": 3194.0,
+    "gdp_growth_pct": 0.9,
+    "gdp_per_capita": 39100,
+    "inflation_pct": 2.2,
+    "unemployment_pct": 6.5,
+    "exports_billions": 1492.0,
+    "imports_billions": 1276.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.5
+  },
+  "political": {}
+}

@@ -1,0 +1,22 @@
+{
+  "country": "Malaysia",
+  "region": "East & Southeast Asia",
+  "year": 2006,
+  "demographics": {
+    "population": 24385858,
+    "life_expectancy": 72.5
+  },
+  "economy": {
+    "gdp_ppp_billions": 287.0,
+    "gdp_growth_pct": 5.2,
+    "gdp_per_capita": 12000,
+    "inflation_pct": 3.0,
+    "unemployment_pct": 3.6,
+    "exports_billions": 147.1,
+    "imports_billions": 118.7
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.03
+  },
+  "political": {}
+}

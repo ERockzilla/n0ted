@@ -1,0 +1,24 @@
+{
+  "country": "Liberia",
+  "region": "Africa",
+  "year": 2020,
+  "demographics": {
+    "population": 5073296,
+    "population_growth_pct": 2.71,
+    "life_expectancy": 64.7,
+    "median_age": 18.0
+  },
+  "economy": {
+    "gdp_growth_pct": 2.5,
+    "gdp_per_capita": 516,
+    "inflation_pct": 12.4,
+    "unemployment_pct": 2.3,
+    "exports_billions": 0.33,
+    "imports_billions": 1.82,
+    "external_debt_billions": 1.04
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.5
+  },
+  "political": {}
+}

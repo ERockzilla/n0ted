@@ -1,0 +1,16 @@
+{
+  "country": "South Sudan",
+  "region": "Africa",
+  "year": 2012,
+  "demographics": {
+    "population": 10625176
+  },
+  "economy": {
+    "gdp_growth_pct": -55.0,
+    "gdp_per_capita": 900,
+    "inflation_pct": 79.0,
+    "gdp_ppp_billions": 9.66
+  },
+  "military": {},
+  "political": {}
+}

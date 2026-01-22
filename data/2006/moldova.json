@@ -1,0 +1,22 @@
+{
+  "country": "Moldova",
+  "region": "Europe",
+  "year": 2006,
+  "demographics": {
+    "population": 4466706,
+    "life_expectancy": 65.65
+  },
+  "economy": {
+    "gdp_ppp_billions": 8.41,
+    "gdp_growth_pct": 7.1,
+    "gdp_per_capita": 1900,
+    "inflation_pct": 11.9,
+    "unemployment_pct": 8.0,
+    "exports_billions": 1.04,
+    "imports_billions": 2.23
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.4
+  },
+  "political": {}
+}

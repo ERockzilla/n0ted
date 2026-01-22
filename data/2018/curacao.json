@@ -1,0 +1,21 @@
+{
+  "country": "Curacao",
+  "region": "Central America and Caribbean",
+  "year": 2018,
+  "demographics": {
+    "population": 150241,
+    "population_growth_pct": 0.39,
+    "life_expectancy": 78.6
+  },
+  "economy": {
+    "gdp_ppp_billions": 3.13,
+    "gdp_growth_pct": 3.6,
+    "gdp_per_capita": 15000,
+    "inflation_pct": 2.6,
+    "unemployment_pct": 29.7,
+    "exports_billions": 555.6,
+    "imports_billions": 540.3
+  },
+  "military": {},
+  "political": {}
+}

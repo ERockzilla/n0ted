@@ -1,0 +1,19 @@
+{
+  "country": "French Polynesia",
+  "region": "Australia-Oceania",
+  "year": 2006,
+  "demographics": {
+    "population": 274578,
+    "life_expectancy": 76.1
+  },
+  "economy": {
+    "gdp_ppp_billions": 4.58,
+    "gdp_per_capita": 17500,
+    "inflation_pct": 1.1,
+    "unemployment_pct": 11.8,
+    "exports_billions": 0.21,
+    "imports_billions": 1.71
+  },
+  "military": {},
+  "political": {}
+}

@@ -1,0 +1,19 @@
+{
+  "country": "North Korea",
+  "region": "East & Southeast Asia",
+  "year": 2013,
+  "demographics": {
+    "population": 24720407,
+    "population_growth_pct": 0.53,
+    "life_expectancy": 69.51
+  },
+  "economy": {
+    "gdp_growth_pct": 0.8,
+    "gdp_per_capita": 1800,
+    "exports_billions": 4.71,
+    "imports_billions": 4.33,
+    "gdp_ppp_billions": 40.0
+  },
+  "military": {},
+  "political": {}
+}

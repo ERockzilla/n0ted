@@ -1,0 +1,23 @@
+{
+  "country": "Brazil",
+  "region": "South America",
+  "year": 2018,
+  "demographics": {
+    "population": 208846892,
+    "population_growth_pct": 0.71,
+    "life_expectancy": 74.3
+  },
+  "economy": {
+    "gdp_ppp_billions": 3248.0,
+    "gdp_growth_pct": 1.0,
+    "gdp_per_capita": 15600,
+    "inflation_pct": 3.4,
+    "unemployment_pct": 30.2,
+    "exports_billions": 217.2,
+    "imports_billions": 153.2
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.32
+  },
+  "political": {}
+}

@@ -1,0 +1,22 @@
+{
+  "country": "Kyrgyzstan",
+  "region": "Central Asia",
+  "year": 2004,
+  "demographics": {
+    "population": 5146281,
+    "life_expectancy": 68.16
+  },
+  "economy": {
+    "gdp_ppp_billions": 7.81,
+    "gdp_growth_pct": 6.7,
+    "gdp_per_capita": 1600,
+    "inflation_pct": 3.5,
+    "unemployment_pct": 7.2,
+    "exports_billions": 0.55,
+    "imports_billions": 0.6
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.4
+  },
+  "political": {}
+}

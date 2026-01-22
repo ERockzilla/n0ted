@@ -1,0 +1,378 @@
+.description-box .text-holder-full {
+   width: 770px;
+}
+
+.description-box .text-holder-full .text-box {
+    width: 770px;
+    padding: 0;
+}
+
+
+
+#fbLogo img {
+    border: 0;
+    padding-bottom: 5px;
+
+}
+
+#cntrySelect {
+    background-image: url("../graphics/country_gradiant_back.jpg");
+    background-position: center top;
+    background-repeat: repeat-x;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    height: 15px;
+}
+
+
+.selecter_links {
+    border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+    color: #333333;
+    cursor: pointer;
+    display: block;
+    font-size: 12px;
+    margin: 0;
+    overflow: hidden;
+    padding: 5px 8px;
+    position: relative;
+    text-overflow: clip;
+    z-index: 10;
+    float: right;
+}
+
+.addThisrssLink {
+    float: right;
+}
+a.addThisrssLink {
+    display: block;
+    margin: 0;
+    padding-left: 20px;
+}
+
+
+
+
+
+.smalltext_nav {
+  border-bottom: 2px solid #CCCCCC;
+  height: 22px;
+}
+
+.smalltext_nav li {
+     list-style-type: none;
+     padding-top: 2px;
+}
+
+
+.smalltext_nav li.low-band {
+    margin-left: 552px;
+}
+
+.smalltext_nav li.fb-download {
+    margin-left: 611px;
+}
+
+.fb_title {
+   height: 21px;
+background-image: url("..//images/fb_welcome_background.png" );
+background-repeat: repeat-x;
+}
+
+#intro {
+   width: 290px;
+   float: left;
+   padding: 15px;
+}
+
+#fbHomeMap {
+    width: 430px;
+    height: 280px;
+    margin-left: 340px;
+   // background-color: blue;
+}
+
+ul.fb_list {
+   padding-left: 30px;
+}
+.fb_list li {
+    list-style-type: none;
+}
+
+
+#wfbNav
+{       margin: 0;
+        padding: 0}
+
+#wfbNav li
+        {       float: left;
+                list-style: none;
+                font: 9px Verdana,Arial,Helvetica,sans-serif;
+          }
+#wfbNav li a
+        {       display: block;
+                /*background: #324143;*/
+                background: url(../graphics/navback.gif);
+                background-position: top right;
+          background-repeat: no-repeat;
+                padding: 5px 8px;
+                text-decoration: none;
+                border-left: 1px solid #ccc;
+                width: 80px;
+                color: #666;
+                white-space: nowrap;
+          text-align: center;
+          font-weight: bold;
+      }
+
+#wfbNav li a:hover
+        {       /*background: #24313C;*/
+             background: url(../graphics/navback_hover.gif);
+                background-position: top right;
+          background-repeat: no-repeat;
+          }
+
+#wfbNav li ul
+        {       margin: 0;
+                padding: 0;
+                position: absolute;
+                visibility: hidden;
+                border-top: 1px solid white;
+                z-index: 999;
+      }
+
+#wfbNav li ul li
+        {       float: none;
+                display: inline;
+     }
+
+#wfbNav li ul li a
+        {       width: auto;
+                background: #F7F7E5;
+                color: #666666;
+          text-transform: uppercase;
+          border: 1px solid #ccc;
+          text-align: left;
+      }
+
+#wfbNav li ul li a:hover
+        {       background: #E2DD9E;
+     }
+
+#fbnav {
+/*    float: left;  */
+}
+
+#fbNavBox {
+  float: left;  
+}
+.fbsmalltext_nav {
+  border-bottom: 2px solid #CCCCCC;
+  height: 22px;
+}
+
+
+
+.fbsmalltext_nav li {
+     list-style-type: none;
+/*     padding-top: 2px;  */
+     padding: 0;
+     margin: 0;
+}
+
+
+.fbsmalltext_nav li.low-band {
+    margin: -3px 0 0 552px;
+/*    padding: 0;  */
+}
+
+.fbsmalltext_nav li.fb-download {
+     margin: -6px 0 0 611px;
+/*    margin-left: 611px;
+    padding: 0;  */
+}
+
+.fbTitleRankOrder {
+   background: url(../graphics/gold_gradiant.gif);
+   height: 25px;
+   line-height: 25px;
+   padding-left: 9px;
+   font-size: 12px;
+   text-transform: uppercase;
+   color: #666666;
+   letter-spacing: 0.7px;
+}
+
+.rankOrderDesc {
+    color: #707070;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 16px;
+    padding: 0 0 3px 10px;
+    vertical-align: middle;
+}
+
+
+table#rankOrder {
+    table-layout: fixed;
+//    margin: 20px 0 45px 0;
+    width: 100%;
+    cellspacing: 2px;
+    cellpadding: 2px'
+//    border: 1px solid black;
+    border: none;
+}
+
+table#rankOrder tr {
+   height: 25px;
+   valign: middle;
+}
+
+tr.rankHeading {
+   background: #F8f8e7;
+   font-weight: bold;
+   color: #666666;
+}
+
+
+table#rankOrder th,td {
+//    border: 1px solid black;
+    font-family: Verdana,Geneva,sans-serif;
+}
+
+table#rankOrder td {
+     text-align: left;
+     letter-spacing: 1px;
+     padding-left: 5px;
+     color: #999999;
+}
+
+table#rankOrder th:first-child {
+     width: 50px;
+     align: center;
+//     padding-left: 5px;
+     text-align: center;
+
+}
+
+table#rankOrder th:nth-of-type(2) {
+    width: 215px;
+}
+table#rankOrder th:nth-of-type(3) {
+    width: 160px;
+    text-align: right;
+}
+
+table#rankOrder th:last-child {
+     width: 155px;
+}
+table#rankOrder td:first-child {
+    font-weight: bold;
+    font-size: 12px;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+
+table#rankOrder td:nth-of-type(2) {
+    color: #666666;
+    padding: 8px 0px 8px 20px; 
+    text-transform: none;
+//    text-decoration: underline;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+table#rankOrder td:nth-of-type(2) a {
+    text-decoration: underline;
+    color: #666666;
+    font-size: 12px;
+}
+table#rankOrder td:nth-of-type(2) a:hover {
+    text-decoration: none;
+    color: #666666;
+    font-size: 12px;
+}
+table#rankOrder td:nth-of-type(3) {
+    color: #707070;
+    text-align: right;
+    align: center;
+    padding-right: 10px;
+    text-transform: none;
+    font-size: 10px;
+}
+table#rankOrder td:nth-of-type(4) {
+    padding-left: 10px;
+    color: #707070;
+    font-size: 10px;
+
+}
+
+table#fieldListing {
+    table-layout: fixed;
+    margin: 0 0 45px 0;
+    width: 100%;
+    cellspacing: 2px;
+    cellpadding: 2px'
+//    border: 1px solid black;
+    border: none;
+}
+
+table#fieldListing td.country {
+    width: 200px;
+    font-weight: bold;
+    font-size: 12px;
+    padding-left: 10px;
+    vertical-align: top;
+}
+
+table#fieldListing td.country a:link, a:visited {
+    color: #666666;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-decoration: underline;
+    padding: 4px 0 4px 0;
+}
+
+
+table#fieldListing td.fieldData {
+    color: #707070;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 16px;
+    vertical-align: middle; 
+    padding: 4px 0 4px 0;
+}
+
+table#fieldListing tr.fieldHeading {
+   color: #666666;
+    font-family: Verdana;
+    font-size: 9px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+}
+p.comparison a {
+    font-size: 12px;
+    margin: 10px 0 10px 0;
+
+}
+span#fieldPrint {
+  float: right;
+  margin-right: 10px;
+}
+
+/* 
+td.region {
+   font-size: 12px;
+   //color: #333333;
+}
+td.region a {
+   font-size: 12px;
+   //color: #333333;
+}
+*/

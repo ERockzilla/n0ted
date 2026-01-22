@@ -1,0 +1,23 @@
+{
+  "country": "Mali",
+  "region": "Africa",
+  "year": 2019,
+  "demographics": {
+    "population": 18429893,
+    "population_growth_pct": 2.98,
+    "life_expectancy": 60.8
+  },
+  "economy": {
+    "gdp_ppp_billions": 41.22,
+    "gdp_growth_pct": 5.4,
+    "gdp_per_capita": 2200,
+    "inflation_pct": 1.8,
+    "unemployment_pct": 2.3,
+    "exports_billions": 3.06,
+    "imports_billions": 3.64
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.87
+  },
+  "political": {}
+}

@@ -1,0 +1,22 @@
+{
+  "country": "United States",
+  "region": "North America",
+  "year": 2011,
+  "demographics": {
+    "population": 313232044,
+    "population_growth_pct": 0.96,
+    "life_expectancy": 78.37
+  },
+  "economy": {
+    "gdp_ppp_billions": 14660.0,
+    "gdp_growth_pct": 2.8,
+    "gdp_per_capita": 47200,
+    "inflation_pct": 1.6,
+    "unemployment_pct": 9.6,
+    "exports_billions": 1289.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 4.06
+  },
+  "political": {}
+}

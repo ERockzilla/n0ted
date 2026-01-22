@@ -1,0 +1,23 @@
+{
+  "country": "Qatar",
+  "region": "Middle East",
+  "year": 2008,
+  "demographics": {
+    "population": 824789,
+    "population_growth_pct": 1.09,
+    "life_expectancy": 75.19
+  },
+  "economy": {
+    "gdp_ppp_billions": 71.42,
+    "gdp_growth_pct": 8.4,
+    "gdp_per_capita": 87600,
+    "inflation_pct": 13.7,
+    "unemployment_pct": 0.7,
+    "exports_billions": 42.02,
+    "imports_billions": 19.86
+  },
+  "military": {
+    "expenditure_pct_gdp": 10.0
+  },
+  "political": {}
+}

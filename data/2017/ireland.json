@@ -1,0 +1,23 @@
+{
+  "country": "Ireland",
+  "region": "Europe",
+  "year": 2017,
+  "demographics": {
+    "population": 5011102,
+    "population_growth_pct": 1.2,
+    "life_expectancy": 80.9
+  },
+  "economy": {
+    "gdp_ppp_billions": 324.9,
+    "gdp_growth_pct": 5.2,
+    "gdp_per_capita": 69200,
+    "inflation_pct": -0.2,
+    "unemployment_pct": 7.9,
+    "exports_billions": 206.0,
+    "imports_billions": 92.09
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.55
+  },
+  "political": {}
+}

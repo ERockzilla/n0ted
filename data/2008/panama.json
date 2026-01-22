@@ -1,0 +1,23 @@
+{
+  "country": "Panama",
+  "region": "Central America and Caribbean",
+  "year": 2008,
+  "demographics": {
+    "population": 3309679,
+    "population_growth_pct": 1.54,
+    "life_expectancy": 76.88
+  },
+  "economy": {
+    "gdp_ppp_billions": 34.81,
+    "gdp_growth_pct": 11.2,
+    "gdp_per_capita": 10700,
+    "inflation_pct": 4.2,
+    "unemployment_pct": 6.4,
+    "exports_billions": 9.31,
+    "imports_billions": 12.62
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.0
+  },
+  "political": {}
+}

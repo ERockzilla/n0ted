@@ -1,0 +1,22 @@
+{
+  "country": "European Union",
+  "region": "Europe",
+  "year": 2016,
+  "demographics": {
+    "population": 513949445,
+    "population_growth_pct": 0.25,
+    "life_expectancy": 80.2
+  },
+  "economy": {
+    "gdp_ppp_billions": 19180.0,
+    "gdp_growth_pct": 2.2,
+    "gdp_per_capita": 37800,
+    "inflation_pct": 0.1,
+    "unemployment_pct": 9.5,
+    "imports_billions": 2244.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.65
+  },
+  "political": {}
+}

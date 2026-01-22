@@ -1,0 +1,23 @@
+{
+  "country": "Hungary",
+  "region": "Europe",
+  "year": 2015,
+  "demographics": {
+    "population": 9919128,
+    "population_growth_pct": -0.21,
+    "life_expectancy": 75.46
+  },
+  "economy": {
+    "gdp_ppp_billions": 239.9,
+    "gdp_growth_pct": 2.8,
+    "gdp_per_capita": 24300,
+    "inflation_pct": -0.3,
+    "unemployment_pct": 7.1,
+    "exports_billions": 99.54,
+    "imports_billions": 96.83
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.83
+  },
+  "political": {}
+}

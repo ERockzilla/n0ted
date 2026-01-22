@@ -1,0 +1,18 @@
+{
+  "country": "Gaza Strip",
+  "region": "Middle East",
+  "year": 2017,
+  "demographics": {
+    "population": 1795183,
+    "population_growth_pct": 2.3,
+    "life_expectancy": 74.2
+  },
+  "economy": {
+    "inflation_pct": -0.2,
+    "unemployment_pct": 26.9,
+    "gdp_growth_pct": -15.2,
+    "exports_billions": 1.83
+  },
+  "military": {},
+  "political": {}
+}

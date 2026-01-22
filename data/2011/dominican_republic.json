@@ -1,0 +1,23 @@
+{
+  "country": "Dominican Republic",
+  "region": "Central America and Caribbean",
+  "year": 2011,
+  "demographics": {
+    "population": 9956648,
+    "population_growth_pct": 1.33,
+    "life_expectancy": 77.31
+  },
+  "economy": {
+    "gdp_ppp_billions": 87.25,
+    "gdp_growth_pct": 7.8,
+    "gdp_per_capita": 8900,
+    "inflation_pct": 6.3,
+    "unemployment_pct": 13.3,
+    "exports_billions": 6.6,
+    "imports_billions": 15.3
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.7
+  },
+  "political": {}
+}

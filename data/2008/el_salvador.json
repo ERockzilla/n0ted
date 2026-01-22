@@ -1,0 +1,23 @@
+{
+  "country": "El Salvador",
+  "region": "Central America and Caribbean",
+  "year": 2008,
+  "demographics": {
+    "population": 7066403,
+    "population_growth_pct": 1.68,
+    "life_expectancy": 72.06
+  },
+  "economy": {
+    "gdp_ppp_billions": 41.63,
+    "gdp_growth_pct": 4.7,
+    "gdp_per_capita": 6000,
+    "inflation_pct": 4.6,
+    "unemployment_pct": 6.2,
+    "exports_billions": 4.04,
+    "imports_billions": 8.11
+  },
+  "military": {
+    "expenditure_pct_gdp": 5.0
+  },
+  "political": {}
+}

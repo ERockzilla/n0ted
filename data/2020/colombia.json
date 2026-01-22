@@ -1,0 +1,24 @@
+{
+  "country": "Colombia",
+  "region": "South America",
+  "year": 2020,
+  "demographics": {
+    "population": 49084841,
+    "population_growth_pct": 0.93,
+    "life_expectancy": 76.6,
+    "median_age": 31.2
+  },
+  "economy": {
+    "gdp_growth_pct": 3.26,
+    "gdp_per_capita": 7838,
+    "inflation_pct": 3.5,
+    "unemployment_pct": 18.5,
+    "exports_billions": 61.7,
+    "imports_billions": 87.07,
+    "external_debt_billions": 124.6
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.2
+  },
+  "political": {}
+}

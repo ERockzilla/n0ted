@@ -1,0 +1,22 @@
+{
+  "country": "Macau",
+  "region": "East & Southeast Asia",
+  "year": 2020,
+  "demographics": {
+    "population": 614458,
+    "population_growth_pct": 0.64,
+    "life_expectancy": 84.6,
+    "median_age": 40.8
+  },
+  "economy": {
+    "gdp_growth_pct": 9.1,
+    "gdp_per_capita": 122000,
+    "inflation_pct": 2.7,
+    "unemployment_pct": 5.3,
+    "exports_billions": 1.45,
+    "imports_billions": 11.1,
+    "external_debt_billions": 0.0
+  },
+  "military": {},
+  "political": {}
+}

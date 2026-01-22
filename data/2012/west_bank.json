@@ -1,0 +1,21 @@
+{
+  "country": "West Bank",
+  "region": "Middle East",
+  "year": 2012,
+  "demographics": {
+    "population": 2622544,
+    "population_growth_pct": 2.06,
+    "life_expectancy": 75.24
+  },
+  "economy": {
+    "gdp_ppp_billions": 8.02,
+    "gdp_growth_pct": 5.7,
+    "gdp_per_capita": 2900,
+    "inflation_pct": 3.5,
+    "unemployment_pct": 23.0,
+    "exports_billions": 0.67,
+    "imports_billions": 4.32
+  },
+  "military": {},
+  "political": {}
+}

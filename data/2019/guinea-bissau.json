@@ -1,0 +1,22 @@
+{
+  "country": "Guinea-Bissau",
+  "region": "Africa",
+  "year": 2019,
+  "demographics": {
+    "population": 1833247,
+    "population_growth_pct": 2.48,
+    "life_expectancy": 61.4
+  },
+  "economy": {
+    "gdp_ppp_billions": 3.17,
+    "gdp_growth_pct": 5.9,
+    "gdp_per_capita": 1900,
+    "inflation_pct": 1.1,
+    "exports_billions": 0.33,
+    "imports_billions": 0.28
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.64
+  },
+  "political": {}
+}

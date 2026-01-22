@@ -1,0 +1,16 @@
+{
+  "country": "Virgin Islands",
+  "region": "Central America and Caribbean",
+  "year": 2001,
+  "demographics": {
+    "population": 122211,
+    "population_growth_pct": 1.06
+  },
+  "economy": {
+    "gdp_ppp_billions": 1.8,
+    "gdp_per_capita": 15000,
+    "unemployment_pct": 4.9
+  },
+  "military": {},
+  "political": {}
+}

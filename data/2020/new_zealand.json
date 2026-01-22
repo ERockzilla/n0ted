@@ -1,0 +1,24 @@
+{
+  "country": "New Zealand",
+  "region": "Australia-Oceania",
+  "year": 2020,
+  "demographics": {
+    "population": 4925477,
+    "population_growth_pct": 1.44,
+    "life_expectancy": 82.1,
+    "median_age": 37.2
+  },
+  "economy": {
+    "gdp_growth_pct": 2.22,
+    "gdp_per_capita": 39815,
+    "inflation_pct": 1.6,
+    "unemployment_pct": 11.5,
+    "exports_billions": 56.22,
+    "imports_billions": 63.62,
+    "external_debt_billions": 91.62
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.5
+  },
+  "political": {}
+}

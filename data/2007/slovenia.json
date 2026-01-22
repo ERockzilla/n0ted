@@ -1,0 +1,22 @@
+{
+  "country": "Slovenia",
+  "region": "Europe",
+  "year": 2007,
+  "demographics": {
+    "population": 2009245,
+    "life_expectancy": 76.53
+  },
+  "economy": {
+    "gdp_ppp_billions": 47.01,
+    "gdp_growth_pct": 5.2,
+    "gdp_per_capita": 23400,
+    "inflation_pct": 2.5,
+    "unemployment_pct": 9.6,
+    "exports_billions": 21.39,
+    "imports_billions": 22.79
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.7
+  },
+  "political": {}
+}

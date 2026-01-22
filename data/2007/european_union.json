@@ -1,0 +1,20 @@
+{
+  "country": "European Union",
+  "region": "Europe",
+  "year": 2007,
+  "demographics": {
+    "population": 490426060,
+    "life_expectancy": 78.7
+  },
+  "economy": {
+    "gdp_ppp_billions": 13080.0,
+    "gdp_growth_pct": 3.2,
+    "gdp_per_capita": 29900,
+    "inflation_pct": 1.8,
+    "unemployment_pct": 8.5,
+    "exports_billions": 1330.0,
+    "imports_billions": 1466.0
+  },
+  "military": {},
+  "political": {}
+}

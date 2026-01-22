@@ -1,0 +1,21 @@
+{
+  "country": "Guam",
+  "region": "Australia-Oceania",
+  "year": 2020,
+  "demographics": {
+    "population": 168485,
+    "population_growth_pct": 0.2,
+    "life_expectancy": 77.0,
+    "median_age": 29.4
+  },
+  "economy": {
+    "gdp_per_capita": 35600,
+    "inflation_pct": 1.0,
+    "unemployment_pct": 29.4,
+    "exports_billions": 1.12,
+    "imports_billions": 2.96,
+    "gdp_growth_pct": 0.4
+  },
+  "military": {},
+  "political": {}
+}

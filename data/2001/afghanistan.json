@@ -1,0 +1,17 @@
+{
+  "country": "Afghanistan",
+  "region": "South Asia",
+  "year": 2001,
+  "demographics": {
+    "population": 26813057,
+    "population_growth_pct": 3.48
+  },
+  "economy": {
+    "gdp_ppp_billions": 21.0,
+    "gdp_per_capita": 800,
+    "exports_billions": 0.08,
+    "imports_billions": 0.15
+  },
+  "military": {},
+  "political": {}
+}

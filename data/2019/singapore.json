@@ -1,0 +1,23 @@
+{
+  "country": "Singapore",
+  "region": "East & Southeast Asia",
+  "year": 2019,
+  "demographics": {
+    "population": 5995991,
+    "population_growth_pct": 1.79,
+    "life_expectancy": 85.5
+  },
+  "economy": {
+    "gdp_ppp_billions": 528.1,
+    "gdp_growth_pct": 3.6,
+    "gdp_per_capita": 94100,
+    "inflation_pct": 0.6,
+    "unemployment_pct": 9.1,
+    "exports_billions": 396.8,
+    "imports_billions": 312.1
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.3
+  },
+  "political": {}
+}

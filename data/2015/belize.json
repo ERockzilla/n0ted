@@ -1,0 +1,21 @@
+{
+  "country": "Belize",
+  "region": "Central America and Caribbean",
+  "year": 2015,
+  "demographics": {
+    "population": 340844,
+    "population_growth_pct": 1.92,
+    "life_expectancy": 68.49
+  },
+  "economy": {
+    "gdp_ppp_billions": 2.91,
+    "gdp_growth_pct": 2.0,
+    "gdp_per_capita": 8100,
+    "inflation_pct": 0.9,
+    "unemployment_pct": 15.5,
+    "exports_billions": 0.64,
+    "imports_billions": 0.92
+  },
+  "military": {},
+  "political": {}
+}

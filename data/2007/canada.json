@@ -1,0 +1,22 @@
+{
+  "country": "Canada",
+  "region": "North America",
+  "year": 2007,
+  "demographics": {
+    "population": 33390141,
+    "life_expectancy": 80.34
+  },
+  "economy": {
+    "gdp_ppp_billions": 1181.0,
+    "gdp_growth_pct": 2.8,
+    "gdp_per_capita": 35700,
+    "inflation_pct": 2.0,
+    "unemployment_pct": 6.4,
+    "exports_billions": 401.7,
+    "imports_billions": 356.5
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.1
+  },
+  "political": {}
+}

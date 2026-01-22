@@ -1,0 +1,23 @@
+{
+  "country": "Mexico",
+  "region": "North America",
+  "year": 2012,
+  "demographics": {
+    "population": 114975406,
+    "population_growth_pct": 1.09,
+    "life_expectancy": 76.66
+  },
+  "economy": {
+    "gdp_ppp_billions": 1758.0,
+    "gdp_growth_pct": 3.8,
+    "gdp_per_capita": 15300,
+    "inflation_pct": 4.1,
+    "unemployment_pct": 4.5,
+    "exports_billions": 377.4,
+    "imports_billions": 379.4
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.5
+  },
+  "political": {}
+}

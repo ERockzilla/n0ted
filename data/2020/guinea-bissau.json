@@ -1,0 +1,23 @@
+{
+  "country": "Guinea-Bissau",
+  "region": "Africa",
+  "year": 2020,
+  "demographics": {
+    "population": 1927104,
+    "population_growth_pct": 2.51,
+    "life_expectancy": 62.8,
+    "median_age": 18.0
+  },
+  "economy": {
+    "gdp_growth_pct": 5.9,
+    "gdp_per_capita": 598,
+    "inflation_pct": 0.2,
+    "exports_billions": 0.19,
+    "imports_billions": 0.38,
+    "external_debt_billions": 1.09
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.4
+  },
+  "political": {}
+}

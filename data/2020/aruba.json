@@ -1,0 +1,21 @@
+{
+  "country": "Aruba",
+  "region": "Central America and Caribbean",
+  "year": 2020,
+  "demographics": {
+    "population": 119428,
+    "population_growth_pct": 1.19,
+    "life_expectancy": 77.5,
+    "median_age": 39.9
+  },
+  "economy": {
+    "gdp_growth_pct": 1.2,
+    "gdp_per_capita": 37500,
+    "inflation_pct": -0.5,
+    "exports_billions": 0.14,
+    "imports_billions": 1.12,
+    "external_debt_billions": 0.69
+  },
+  "military": {},
+  "political": {}
+}

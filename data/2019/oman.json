@@ -1,0 +1,23 @@
+{
+  "country": "Oman",
+  "region": "Middle East",
+  "year": 2019,
+  "demographics": {
+    "population": 4613241,
+    "population_growth_pct": 2.0,
+    "life_expectancy": 75.9
+  },
+  "economy": {
+    "gdp_ppp_billions": 190.1,
+    "gdp_growth_pct": -0.9,
+    "gdp_per_capita": 46000,
+    "inflation_pct": 1.6,
+    "unemployment_pct": 13.7,
+    "exports_billions": 103.3,
+    "imports_billions": 24.12
+  },
+  "military": {
+    "expenditure_pct_gdp": 8.17
+  },
+  "political": {}
+}

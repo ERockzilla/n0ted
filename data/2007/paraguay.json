@@ -1,0 +1,22 @@
+{
+  "country": "Paraguay",
+  "region": "South America",
+  "year": 2007,
+  "demographics": {
+    "population": 6669086,
+    "life_expectancy": 75.34
+  },
+  "economy": {
+    "gdp_ppp_billions": 31.26,
+    "gdp_growth_pct": 4.0,
+    "gdp_per_capita": 4800,
+    "inflation_pct": 9.6,
+    "unemployment_pct": 9.4,
+    "exports_billions": 4.84,
+    "imports_billions": 5.77
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.0
+  },
+  "political": {}
+}

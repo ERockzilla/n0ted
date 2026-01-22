@@ -1,0 +1,22 @@
+{
+  "country": "Libya",
+  "region": "Africa",
+  "year": 2012,
+  "demographics": {
+    "population": 5613380,
+    "population_growth_pct": 2.01,
+    "life_expectancy": 77.83
+  },
+  "economy": {
+    "gdp_ppp_billions": 87.91,
+    "gdp_per_capita": 13300,
+    "inflation_pct": 3.6,
+    "unemployment_pct": 30.0,
+    "exports_billions": 51.48,
+    "imports_billions": 16.31
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.9
+  },
+  "political": {}
+}

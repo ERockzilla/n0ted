@@ -1,0 +1,18 @@
+{
+  "country": "Guernsey",
+  "region": "Europe",
+  "year": 2003,
+  "demographics": {
+    "population": 64818,
+    "life_expectancy": 80.04
+  },
+  "economy": {
+    "gdp_ppp_billions": 1.3,
+    "gdp_growth_pct": 5.7,
+    "gdp_per_capita": 20000,
+    "inflation_pct": 3.99,
+    "unemployment_pct": 0.5
+  },
+  "military": {},
+  "political": {}
+}

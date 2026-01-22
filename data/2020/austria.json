@@ -1,0 +1,24 @@
+{
+  "country": "Austria",
+  "region": "Europe",
+  "year": 2020,
+  "demographics": {
+    "population": 8859449,
+    "population_growth_pct": 0.35,
+    "life_expectancy": 81.9,
+    "median_age": 44.5
+  },
+  "economy": {
+    "gdp_growth_pct": 1.42,
+    "gdp_per_capita": 50205,
+    "inflation_pct": 1.5,
+    "unemployment_pct": 9.4,
+    "exports_billions": 270.89,
+    "imports_billions": 253.28,
+    "external_debt_billions": 630.8
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.7
+  },
+  "political": {}
+}

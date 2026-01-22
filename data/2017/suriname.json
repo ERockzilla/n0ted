@@ -1,0 +1,21 @@
+{
+  "country": "Suriname",
+  "region": "South America",
+  "year": 2017,
+  "demographics": {
+    "population": 591919,
+    "population_growth_pct": 1.0,
+    "life_expectancy": 72.5
+  },
+  "economy": {
+    "gdp_ppp_billions": 7.89,
+    "gdp_growth_pct": -10.5,
+    "gdp_per_capita": 14000,
+    "inflation_pct": 55.5,
+    "unemployment_pct": 8.9,
+    "exports_billions": 1.45,
+    "imports_billions": 1.2
+  },
+  "military": {},
+  "political": {}
+}

@@ -1,0 +1,17 @@
+{
+  "country": "Jersey",
+  "region": "Europe",
+  "year": 2004,
+  "demographics": {
+    "population": 90812,
+    "life_expectancy": 79.24
+  },
+  "economy": {
+    "gdp_ppp_billions": 2.2,
+    "gdp_per_capita": 24800,
+    "inflation_pct": 4.7,
+    "unemployment_pct": 0.7
+  },
+  "military": {},
+  "political": {}
+}

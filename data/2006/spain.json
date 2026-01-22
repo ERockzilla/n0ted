@@ -1,0 +1,22 @@
+{
+  "country": "Spain",
+  "region": "Europe",
+  "year": 2006,
+  "demographics": {
+    "population": 40397842,
+    "life_expectancy": 79.65
+  },
+  "economy": {
+    "gdp_ppp_billions": 1033.0,
+    "gdp_growth_pct": 3.5,
+    "gdp_per_capita": 25600,
+    "inflation_pct": 3.4,
+    "unemployment_pct": 9.2,
+    "exports_billions": 194.3,
+    "imports_billions": 271.8
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.2
+  },
+  "political": {}
+}

@@ -1,0 +1,23 @@
+{
+  "country": "Japan",
+  "region": "East & Southeast Asia",
+  "year": 2012,
+  "demographics": {
+    "population": 127368088,
+    "population_growth_pct": -0.08,
+    "life_expectancy": 83.91
+  },
+  "economy": {
+    "gdp_ppp_billions": 4617.0,
+    "gdp_growth_pct": 2.2,
+    "gdp_per_capita": 36200,
+    "inflation_pct": 0.1,
+    "unemployment_pct": 4.4,
+    "exports_billions": 792.9,
+    "imports_billions": 856.9
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.8
+  },
+  "political": {}
+}

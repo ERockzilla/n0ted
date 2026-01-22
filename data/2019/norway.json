@@ -1,0 +1,23 @@
+{
+  "country": "Norway",
+  "region": "Europe",
+  "year": 2019,
+  "demographics": {
+    "population": 5372191,
+    "population_growth_pct": 0.94,
+    "life_expectancy": 82.0
+  },
+  "economy": {
+    "gdp_ppp_billions": 381.2,
+    "gdp_growth_pct": 1.9,
+    "gdp_per_capita": 72100,
+    "inflation_pct": 1.9,
+    "unemployment_pct": 10.4,
+    "exports_billions": 102.8,
+    "imports_billions": 95.06
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.8
+  },
+  "political": {}
+}

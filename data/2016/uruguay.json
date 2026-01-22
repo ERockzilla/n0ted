@@ -1,0 +1,23 @@
+{
+  "country": "Uruguay",
+  "region": "South America",
+  "year": 2016,
+  "demographics": {
+    "population": 3351016,
+    "population_growth_pct": 0.27,
+    "life_expectancy": 77.2
+  },
+  "economy": {
+    "gdp_ppp_billions": 72.9,
+    "gdp_growth_pct": 1.0,
+    "gdp_per_capita": 21300,
+    "inflation_pct": 8.7,
+    "unemployment_pct": 7.5,
+    "exports_billions": 9.07,
+    "imports_billions": 9.35
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.95
+  },
+  "political": {}
+}

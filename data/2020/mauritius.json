@@ -1,0 +1,24 @@
+{
+  "country": "Mauritius",
+  "region": "Africa",
+  "year": 2020,
+  "demographics": {
+    "population": 1379365,
+    "population_growth_pct": 0.54,
+    "life_expectancy": 76.5,
+    "median_age": 36.3
+  },
+  "economy": {
+    "gdp_growth_pct": 3.8,
+    "gdp_per_capita": 22300,
+    "inflation_pct": 0.4,
+    "unemployment_pct": 23.9,
+    "exports_billions": 2.36,
+    "imports_billions": 4.99,
+    "external_debt_billions": 19.99
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.2
+  },
+  "political": {}
+}

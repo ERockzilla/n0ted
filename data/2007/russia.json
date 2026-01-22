@@ -1,0 +1,20 @@
+{
+  "country": "Russia",
+  "region": "Central Asia",
+  "year": 2007,
+  "demographics": {
+    "population": 141377752,
+    "life_expectancy": 65.87
+  },
+  "economy": {
+    "gdp_ppp_billions": 1746.0,
+    "gdp_growth_pct": 6.7,
+    "gdp_per_capita": 12200,
+    "inflation_pct": 9.7,
+    "unemployment_pct": 6.6,
+    "exports_billions": 303.9,
+    "imports_billions": 164.7
+  },
+  "military": {},
+  "political": {}
+}

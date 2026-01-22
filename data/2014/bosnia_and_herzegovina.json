@@ -1,0 +1,23 @@
+{
+  "country": "Bosnia And Herzegovina",
+  "region": "Europe",
+  "year": 2014,
+  "demographics": {
+    "population": 3871643,
+    "population_growth_pct": -0.11,
+    "life_expectancy": 76.33
+  },
+  "economy": {
+    "gdp_ppp_billions": 32.16,
+    "gdp_growth_pct": 0.8,
+    "gdp_per_capita": 8300,
+    "inflation_pct": 0.2,
+    "unemployment_pct": 44.3,
+    "exports_billions": 5.69,
+    "imports_billions": 10.3
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.35
+  },
+  "political": {}
+}

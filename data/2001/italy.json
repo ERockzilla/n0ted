@@ -1,0 +1,22 @@
+{
+  "country": "Italy",
+  "region": "Europe",
+  "year": 2001,
+  "demographics": {
+    "population": 57679825,
+    "population_growth_pct": 0.07
+  },
+  "economy": {
+    "gdp_ppp_billions": 1273.0,
+    "gdp_growth_pct": 2.7,
+    "gdp_per_capita": 22100,
+    "inflation_pct": 2.5,
+    "unemployment_pct": 10.4,
+    "exports_billions": 241.1,
+    "imports_billions": 231.4
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.7
+  },
+  "political": {}
+}

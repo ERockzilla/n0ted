@@ -1,0 +1,23 @@
+{
+  "country": "Spain",
+  "region": "Europe",
+  "year": 2017,
+  "demographics": {
+    "population": 48958159,
+    "population_growth_pct": 0.8,
+    "life_expectancy": 81.8
+  },
+  "economy": {
+    "gdp_ppp_billions": 1687.0,
+    "gdp_growth_pct": 3.2,
+    "gdp_per_capita": 36400,
+    "inflation_pct": -0.3,
+    "unemployment_pct": 19.6,
+    "exports_billions": 280.5,
+    "imports_billions": 300.3
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.86
+  },
+  "political": {}
+}

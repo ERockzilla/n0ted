@@ -1,0 +1,23 @@
+{
+  "country": "Sweden",
+  "region": "Europe",
+  "year": 2019,
+  "demographics": {
+    "population": 10040995,
+    "population_growth_pct": 0.8,
+    "life_expectancy": 82.2
+  },
+  "economy": {
+    "gdp_ppp_billions": 518.0,
+    "gdp_growth_pct": 2.1,
+    "gdp_per_capita": 51200,
+    "inflation_pct": 1.9,
+    "unemployment_pct": 17.9,
+    "exports_billions": 165.6,
+    "imports_billions": 153.2
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.04
+  },
+  "political": {}
+}

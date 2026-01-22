@@ -1,0 +1,13 @@
+{
+  "country": "Svalbard",
+  "region": "Europe",
+  "year": 2007,
+  "demographics": {
+    "population": 2214
+  },
+  "economy": {
+    "exports_billions": 0.2
+  },
+  "military": {},
+  "political": {}
+}

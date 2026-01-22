@@ -1,0 +1,24 @@
+{
+  "country": "Denmark",
+  "region": "Europe",
+  "year": 2020,
+  "demographics": {
+    "population": 5869410,
+    "population_growth_pct": 0.48,
+    "life_expectancy": 81.2,
+    "median_age": 42.0
+  },
+  "economy": {
+    "gdp_growth_pct": 2.85,
+    "gdp_per_capita": 66351,
+    "inflation_pct": 0.7,
+    "unemployment_pct": 9.4,
+    "exports_billions": 226.59,
+    "imports_billions": 197.82,
+    "external_debt_billions": 484.8
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.32
+  },
+  "political": {}
+}

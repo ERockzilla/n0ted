@@ -1,0 +1,23 @@
+{
+  "country": "Nigeria",
+  "region": "Africa",
+  "year": 2014,
+  "demographics": {
+    "population": 177155754,
+    "population_growth_pct": 2.47,
+    "life_expectancy": 52.62
+  },
+  "economy": {
+    "gdp_ppp_billions": 478.5,
+    "gdp_growth_pct": 6.2,
+    "gdp_per_capita": 2800,
+    "inflation_pct": 8.7,
+    "unemployment_pct": 23.9,
+    "exports_billions": 93.55,
+    "imports_billions": 55.98
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.89
+  },
+  "political": {}
+}

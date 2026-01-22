@@ -1,0 +1,22 @@
+{
+  "country": "United Kingdom",
+  "region": "Europe",
+  "year": 2006,
+  "demographics": {
+    "population": 60609153,
+    "life_expectancy": 78.54
+  },
+  "economy": {
+    "gdp_ppp_billions": 1818.0,
+    "gdp_growth_pct": 1.9,
+    "gdp_per_capita": 30100,
+    "inflation_pct": 2.1,
+    "unemployment_pct": 4.7,
+    "exports_billions": 372.7,
+    "imports_billions": 483.7
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.4
+  },
+  "political": {}
+}

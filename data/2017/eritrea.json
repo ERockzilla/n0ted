@@ -1,0 +1,21 @@
+{
+  "country": "Eritrea",
+  "region": "Africa",
+  "year": 2017,
+  "demographics": {
+    "population": 5918919,
+    "population_growth_pct": 0.9,
+    "life_expectancy": 65.2
+  },
+  "economy": {
+    "gdp_ppp_billions": 9.17,
+    "gdp_growth_pct": 3.7,
+    "gdp_per_capita": 1400,
+    "inflation_pct": 11.8,
+    "exports_billions": 0.49,
+    "imports_billions": 1.05,
+    "unemployment_pct": 8.6
+  },
+  "military": {},
+  "political": {}
+}

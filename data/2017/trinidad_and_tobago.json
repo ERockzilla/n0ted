@@ -1,0 +1,21 @@
+{
+  "country": "Trinidad And Tobago",
+  "region": "Central America and Caribbean",
+  "year": 2017,
+  "demographics": {
+    "population": 1218208,
+    "population_growth_pct": -0.2,
+    "life_expectancy": 73.1
+  },
+  "economy": {
+    "gdp_ppp_billions": 43.55,
+    "gdp_growth_pct": -5.1,
+    "gdp_per_capita": 31900,
+    "inflation_pct": 3.1,
+    "unemployment_pct": 4.0,
+    "exports_billions": 8.71,
+    "imports_billions": 9.48
+  },
+  "military": {},
+  "political": {}
+}

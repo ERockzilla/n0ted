@@ -1,0 +1,24 @@
+{
+  "country": "Finland",
+  "region": "Europe",
+  "year": 2020,
+  "demographics": {
+    "population": 5571665,
+    "population_growth_pct": 0.3,
+    "life_expectancy": 81.3,
+    "median_age": 42.8
+  },
+  "economy": {
+    "gdp_growth_pct": 1.15,
+    "gdp_per_capita": 49380,
+    "inflation_pct": 1.0,
+    "unemployment_pct": 17.0,
+    "exports_billions": 119.89,
+    "imports_billions": 120.44,
+    "external_debt_billions": 150.6
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.5
+  },
+  "political": {}
+}

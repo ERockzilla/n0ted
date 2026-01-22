@@ -1,0 +1,22 @@
+{
+  "country": "China",
+  "region": "East & Southeast Asia",
+  "year": 2019,
+  "demographics": {
+    "population": 1384688986,
+    "population_growth_pct": 0.37,
+    "life_expectancy": 75.8
+  },
+  "economy": {
+    "gdp_ppp_billions": 25360.0,
+    "gdp_growth_pct": 6.9,
+    "gdp_per_capita": 18200,
+    "inflation_pct": 1.6,
+    "exports_billions": 2490.0,
+    "imports_billions": 2140.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.87
+  },
+  "political": {}
+}

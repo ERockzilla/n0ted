@@ -1,0 +1,23 @@
+{
+  "country": "Morocco",
+  "region": "Africa",
+  "year": 2017,
+  "demographics": {
+    "population": 33986655,
+    "population_growth_pct": 1.0,
+    "life_expectancy": 77.1
+  },
+  "economy": {
+    "gdp_ppp_billions": 281.8,
+    "gdp_growth_pct": 1.5,
+    "gdp_per_capita": 8300,
+    "inflation_pct": 1.6,
+    "unemployment_pct": 9.5,
+    "exports_billions": 18.88,
+    "imports_billions": 36.59
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.55
+  },
+  "political": {}
+}

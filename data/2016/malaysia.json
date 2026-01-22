@@ -1,0 +1,23 @@
+{
+  "country": "Malaysia",
+  "region": "East & Southeast Asia",
+  "year": 2016,
+  "demographics": {
+    "population": 30949962,
+    "population_growth_pct": 1.4,
+    "life_expectancy": 75.0
+  },
+  "economy": {
+    "gdp_ppp_billions": 817.4,
+    "gdp_growth_pct": 5.0,
+    "gdp_per_capita": 26200,
+    "inflation_pct": 2.1,
+    "unemployment_pct": 3.2,
+    "exports_billions": 175.7,
+    "imports_billions": 147.7
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.55
+  },
+  "political": {}
+}

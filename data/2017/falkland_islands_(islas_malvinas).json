@@ -1,0 +1,19 @@
+{
+  "country": "Falkland Islands (Islas Malvinas)",
+  "region": "Unknown",
+  "year": 2017,
+  "demographics": {
+    "population": 2931,
+    "population_growth_pct": 0.01
+  },
+  "economy": {
+    "gdp_per_capita": 96200,
+    "inflation_pct": 1.4,
+    "exports_billions": 0.26,
+    "imports_billions": 0.09,
+    "gdp_ppp_billions": 0.28,
+    "unemployment_pct": 4.1
+  },
+  "military": {},
+  "political": {}
+}

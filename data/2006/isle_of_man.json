@@ -1,0 +1,18 @@
+{
+  "country": "Isle Of Man",
+  "region": "Europe",
+  "year": 2006,
+  "demographics": {
+    "population": 75441,
+    "life_expectancy": 78.49
+  },
+  "economy": {
+    "gdp_ppp_billions": 2.11,
+    "gdp_growth_pct": 6.3,
+    "gdp_per_capita": 27800,
+    "inflation_pct": 2.7,
+    "unemployment_pct": 0.6
+  },
+  "military": {},
+  "political": {}
+}

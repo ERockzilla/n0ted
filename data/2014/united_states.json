@@ -1,0 +1,22 @@
+{
+  "country": "United States",
+  "region": "North America",
+  "year": 2014,
+  "demographics": {
+    "population": 318892103,
+    "population_growth_pct": 0.77,
+    "life_expectancy": 79.56
+  },
+  "economy": {
+    "gdp_growth_pct": 1.6,
+    "gdp_per_capita": 52800,
+    "inflation_pct": 1.5,
+    "unemployment_pct": 7.3,
+    "exports_billions": 1575.0,
+    "imports_billions": 2273.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 4.35
+  },
+  "political": {}
+}

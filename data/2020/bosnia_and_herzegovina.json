@@ -1,0 +1,24 @@
+{
+  "country": "Bosnia And Herzegovina",
+  "region": "Europe",
+  "year": 2020,
+  "demographics": {
+    "population": 3835586,
+    "population_growth_pct": -0.19,
+    "life_expectancy": 77.5,
+    "median_age": 43.3
+  },
+  "economy": {
+    "gdp_growth_pct": 3.0,
+    "gdp_per_capita": 6641,
+    "inflation_pct": 1.2,
+    "unemployment_pct": 33.8,
+    "exports_billions": 8.84,
+    "imports_billions": 12.56,
+    "external_debt_billions": 10.87
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.9
+  },
+  "political": {}
+}

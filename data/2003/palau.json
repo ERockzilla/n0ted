@@ -1,0 +1,20 @@
+{
+  "country": "Palau",
+  "region": "Australia-Oceania",
+  "year": 2003,
+  "demographics": {
+    "population": 19717,
+    "life_expectancy": 69.5
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.17,
+    "gdp_per_capita": 9000,
+    "inflation_pct": 3.4,
+    "unemployment_pct": 2.3,
+    "exports_billions": 0.02,
+    "imports_billions": 0.1,
+    "gdp_growth_pct": 1.0
+  },
+  "military": {},
+  "political": {}
+}

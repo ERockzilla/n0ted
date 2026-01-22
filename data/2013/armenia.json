@@ -1,0 +1,23 @@
+{
+  "country": "Armenia",
+  "region": "Middle East",
+  "year": 2013,
+  "demographics": {
+    "population": 2974184,
+    "population_growth_pct": 0.14,
+    "life_expectancy": 73.75
+  },
+  "economy": {
+    "gdp_ppp_billions": 19.44,
+    "gdp_growth_pct": 7.2,
+    "gdp_per_capita": 5900,
+    "inflation_pct": 2.6,
+    "unemployment_pct": 17.3,
+    "exports_billions": 1.59,
+    "imports_billions": 3.66
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.8
+  },
+  "political": {}
+}

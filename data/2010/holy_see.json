@@ -7,9 +7,5 @@
   },
   "economy": {},
   "military": {},
-  "political": {
-    "chief_of_state": "Pope BENEDICT XVI",
-    "head_of_government": "Secretary of State Cardinal Tarcisio BERTONE",
-    "last_election": "19 April 2005"
-  }
+  "political": {}
 }

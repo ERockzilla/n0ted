@@ -1,0 +1,22 @@
+{
+  "country": "Thailand",
+  "region": "East & Southeast Asia",
+  "year": 2007,
+  "demographics": {
+    "population": 65068149,
+    "life_expectancy": 72.55
+  },
+  "economy": {
+    "gdp_ppp_billions": 596.5,
+    "gdp_growth_pct": 5.0,
+    "gdp_per_capita": 9200,
+    "inflation_pct": 4.6,
+    "unemployment_pct": 2.1,
+    "exports_billions": 128.2,
+    "imports_billions": 113.4
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.8
+  },
+  "political": {}
+}

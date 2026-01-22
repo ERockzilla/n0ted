@@ -1,0 +1,23 @@
+{
+  "country": "Finland",
+  "region": "Europe",
+  "year": 2013,
+  "demographics": {
+    "population": 5266114,
+    "population_growth_pct": 0.06,
+    "life_expectancy": 79.55
+  },
+  "economy": {
+    "gdp_ppp_billions": 194.1,
+    "gdp_growth_pct": -0.8,
+    "gdp_per_capita": 35800,
+    "inflation_pct": 3.2,
+    "unemployment_pct": 7.8,
+    "exports_billions": 76.46,
+    "imports_billions": 72.13
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.0
+  },
+  "political": {}
+}

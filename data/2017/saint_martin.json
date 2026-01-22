@@ -1,0 +1,14 @@
+{
+  "country": "Saint Martin",
+  "region": "Central America and Caribbean",
+  "year": 2017,
+  "demographics": {
+    "population": 32125
+  },
+  "economy": {
+    "gdp_per_capita": 19300,
+    "gdp_ppp_billions": 0.56
+  },
+  "military": {},
+  "political": {}
+}

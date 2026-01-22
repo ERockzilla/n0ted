@@ -1,0 +1,23 @@
+{
+  "country": "Germany",
+  "region": "Europe",
+  "year": 2018,
+  "demographics": {
+    "population": 80457737,
+    "population_growth_pct": -0.17,
+    "life_expectancy": 80.9
+  },
+  "economy": {
+    "gdp_ppp_billions": 4199.0,
+    "gdp_growth_pct": 2.5,
+    "gdp_per_capita": 50800,
+    "inflation_pct": 1.7,
+    "unemployment_pct": 7.1,
+    "exports_billions": 1434.0,
+    "imports_billions": 1135.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.24
+  },
+  "political": {}
+}

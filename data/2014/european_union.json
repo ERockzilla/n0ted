@@ -1,0 +1,21 @@
+{
+  "country": "European Union",
+  "region": "Europe",
+  "year": 2014,
+  "demographics": {
+    "population": 511434812,
+    "life_expectancy": 80.02
+  },
+  "economy": {
+    "gdp_ppp_billions": 15850.0,
+    "gdp_growth_pct": 0.1,
+    "gdp_per_capita": 34500,
+    "inflation_pct": 1.5,
+    "unemployment_pct": 10.5,
+    "exports_billions": 2173.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.65
+  },
+  "political": {}
+}

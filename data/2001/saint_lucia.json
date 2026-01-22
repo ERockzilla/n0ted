@@ -1,0 +1,22 @@
+{
+  "country": "Saint Lucia",
+  "region": "Central America and Caribbean",
+  "year": 2001,
+  "demographics": {
+    "population": 158178,
+    "population_growth_pct": 1.23
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.7,
+    "gdp_growth_pct": 0.5,
+    "gdp_per_capita": 4500,
+    "inflation_pct": 2.5,
+    "unemployment_pct": 15.0,
+    "exports_billions": 0.0683,
+    "imports_billions": 0.3194
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.0
+  },
+  "political": {}
+}

@@ -1,0 +1,23 @@
+{
+  "country": "Ethiopia",
+  "region": "Africa",
+  "year": 2017,
+  "demographics": {
+    "population": 105350020,
+    "population_growth_pct": 2.9,
+    "life_expectancy": 62.6
+  },
+  "economy": {
+    "gdp_ppp_billions": 177.5,
+    "gdp_growth_pct": 8.0,
+    "gdp_per_capita": 1900,
+    "inflation_pct": 7.3,
+    "exports_billions": 2.81,
+    "imports_billions": 16.03,
+    "unemployment_pct": 17.5
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.91
+  },
+  "political": {}
+}

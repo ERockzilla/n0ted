@@ -1,0 +1,24 @@
+{
+  "country": "Democratic Republic Of The Congo",
+  "region": "Unknown",
+  "year": 2020,
+  "demographics": {
+    "population": 101780263,
+    "population_growth_pct": 3.18,
+    "life_expectancy": 61.0,
+    "median_age": 16.7
+  },
+  "economy": {
+    "gdp_growth_pct": 3.4,
+    "gdp_per_capita": 421,
+    "inflation_pct": 41.5,
+    "unemployment_pct": 8.7,
+    "exports_billions": 21.16,
+    "imports_billions": 19.5,
+    "external_debt_billions": 4.96
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.7
+  },
+  "political": {}
+}

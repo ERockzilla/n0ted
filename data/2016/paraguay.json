@@ -1,0 +1,23 @@
+{
+  "country": "Paraguay",
+  "region": "South America",
+  "year": 2016,
+  "demographics": {
+    "population": 6862812,
+    "population_growth_pct": 1.17,
+    "life_expectancy": 77.2
+  },
+  "economy": {
+    "gdp_ppp_billions": 61.14,
+    "gdp_growth_pct": 3.1,
+    "gdp_per_capita": 9000,
+    "inflation_pct": 3.1,
+    "unemployment_pct": 5.8,
+    "exports_billions": 11.17,
+    "imports_billions": 10.07
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.66
+  },
+  "political": {}
+}

@@ -1,0 +1,22 @@
+{
+  "country": "Guinea",
+  "region": "Africa",
+  "year": 2012,
+  "demographics": {
+    "population": 10884958,
+    "population_growth_pct": 2.64,
+    "life_expectancy": 58.61
+  },
+  "economy": {
+    "gdp_ppp_billions": 12.25,
+    "gdp_growth_pct": 4.8,
+    "gdp_per_capita": 1100,
+    "inflation_pct": 15.0,
+    "exports_billions": 1.78,
+    "imports_billions": 2.71
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.1
+  },
+  "political": {}
+}

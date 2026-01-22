@@ -1,0 +1,21 @@
+{
+  "country": "Republic Of The Congo",
+  "region": "Unknown",
+  "year": 2001,
+  "demographics": {
+    "population": 2894336,
+    "population_growth_pct": 2.2
+  },
+  "economy": {
+    "gdp_growth_pct": 3.8,
+    "gdp_per_capita": 1100,
+    "inflation_pct": 3.5,
+    "exports_billions": 2.6,
+    "imports_billions": 0.87,
+    "gdp_ppp_billions": 3.1
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.8
+  },
+  "political": {}
+}

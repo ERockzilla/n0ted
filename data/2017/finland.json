@@ -1,0 +1,23 @@
+{
+  "country": "Finland",
+  "region": "Europe",
+  "year": 2017,
+  "demographics": {
+    "population": 5518371,
+    "population_growth_pct": 0.4,
+    "life_expectancy": 81.0
+  },
+  "economy": {
+    "gdp_ppp_billions": 231.4,
+    "gdp_growth_pct": 1.4,
+    "gdp_per_capita": 42200,
+    "inflation_pct": 0.4,
+    "unemployment_pct": 8.9,
+    "exports_billions": 58.32,
+    "imports_billions": 57.66
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.47
+  },
+  "political": {}
+}

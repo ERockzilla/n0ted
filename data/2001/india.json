@@ -1,0 +1,21 @@
+{
+  "country": "India",
+  "region": "South Asia",
+  "year": 2001,
+  "demographics": {
+    "population": 1029991145,
+    "population_growth_pct": 1.55
+  },
+  "economy": {
+    "gdp_ppp_billions": 2200.0,
+    "gdp_growth_pct": 6.0,
+    "gdp_per_capita": 2200,
+    "inflation_pct": 5.4,
+    "exports_billions": 43.1,
+    "imports_billions": 60.8
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.5
+  },
+  "political": {}
+}

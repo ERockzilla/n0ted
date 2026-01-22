@@ -1,0 +1,22 @@
+{
+  "country": "Botswana",
+  "region": "Africa",
+  "year": 2004,
+  "demographics": {
+    "population": 1640115,
+    "life_expectancy": 33.87
+  },
+  "economy": {
+    "gdp_ppp_billions": 14.2,
+    "gdp_growth_pct": 7.2,
+    "gdp_per_capita": 9000,
+    "inflation_pct": 9.2,
+    "unemployment_pct": 40.0,
+    "exports_billions": 2.54,
+    "imports_billions": 1.75
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.6
+  },
+  "political": {}
+}

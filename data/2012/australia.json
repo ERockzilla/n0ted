@@ -1,0 +1,23 @@
+{
+  "country": "Australia",
+  "region": "Australia-Oceania",
+  "year": 2012,
+  "demographics": {
+    "population": 22015576,
+    "population_growth_pct": 1.13,
+    "life_expectancy": 81.9
+  },
+  "economy": {
+    "gdp_ppp_billions": 960.7,
+    "gdp_growth_pct": 3.3,
+    "gdp_per_capita": 42400,
+    "inflation_pct": 2.1,
+    "unemployment_pct": 5.2,
+    "exports_billions": 263.9,
+    "imports_billions": 258.1
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.0
+  },
+  "political": {}
+}

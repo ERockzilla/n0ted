@@ -1,0 +1,22 @@
+{
+  "country": "Brazil",
+  "region": "South America",
+  "year": 2003,
+  "demographics": {
+    "population": 182032604,
+    "life_expectancy": 71.13
+  },
+  "economy": {
+    "gdp_ppp_billions": 1376.0,
+    "gdp_growth_pct": 1.5,
+    "gdp_per_capita": 7600,
+    "inflation_pct": 8.3,
+    "unemployment_pct": 6.4,
+    "exports_billions": 59.4,
+    "imports_billions": 46.2
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.9
+  },
+  "political": {}
+}

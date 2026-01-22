@@ -1,0 +1,23 @@
+{
+  "country": "Denmark",
+  "region": "Europe",
+  "year": 2016,
+  "demographics": {
+    "population": 5593785,
+    "population_growth_pct": 0.22,
+    "life_expectancy": 79.4
+  },
+  "economy": {
+    "gdp_ppp_billions": 258.8,
+    "gdp_growth_pct": 1.0,
+    "gdp_per_capita": 45700,
+    "inflation_pct": 0.5,
+    "unemployment_pct": 4.6,
+    "exports_billions": 95.97,
+    "imports_billions": 85.02
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.41
+  },
+  "political": {}
+}

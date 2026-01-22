@@ -1,0 +1,21 @@
+{
+  "country": "Cuba",
+  "region": "Central America and Caribbean",
+  "year": 2014,
+  "demographics": {
+    "population": 11047251,
+    "population_growth_pct": -0.14,
+    "life_expectancy": 78.22
+  },
+  "economy": {
+    "gdp_ppp_billions": 121.0,
+    "gdp_growth_pct": 3.1,
+    "gdp_per_capita": 10200,
+    "inflation_pct": 6.0,
+    "unemployment_pct": 4.3,
+    "exports_billions": 6.25,
+    "imports_billions": 13.6
+  },
+  "military": {},
+  "political": {}
+}

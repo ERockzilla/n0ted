@@ -1,0 +1,22 @@
+{
+  "country": "Qatar",
+  "region": "Middle East",
+  "year": 2020,
+  "demographics": {
+    "population": 2444174,
+    "population_growth_pct": 1.55,
+    "life_expectancy": 79.4,
+    "median_age": 33.7
+  },
+  "economy": {
+    "gdp_growth_pct": 1.6,
+    "gdp_per_capita": 62019,
+    "inflation_pct": -0.6,
+    "unemployment_pct": 0.4,
+    "exports_billions": 67.5,
+    "imports_billions": 30.77,
+    "external_debt_billions": 167.8
+  },
+  "military": {},
+  "political": {}
+}

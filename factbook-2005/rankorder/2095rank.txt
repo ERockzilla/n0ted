@@ -1,0 +1,219 @@
+This tab-delimited file can be read by most spreadsheet applications after being saved properly.  At the top of your browser window, click 'File' and 'Save As...'  After saving the file, open your spreadsheet, find the file you just saved and then 'Open' it.
+Rank 	 Country 	 Labor force 	 Date of Information
+1 	 China 	       760,800,000 	 2003
+2 	 India 	       482,200,000 	 2004 est.
+3 	 European Union 	       215,000,000 	 various
+4 	 United States 	       147,400,000 	 2004 est.
+5 	 Indonesia 	       111,500,000 	 2004 est.
+6 	 Brazil 	        89,000,000 	 2004 est.
+7 	 Russia 	        71,830,000 	 2004 est.
+8 	 Japan 	        66,970,000 	 2004 est.
+9 	 Bangladesh 	        65,490,000 	 2004 est.
+10 	 Nigeria 	        55,670,000 	 2004 est.
+11 	 Pakistan 	        45,430,000 	 2004 est.
+12 	 Vietnam 	        42,980,000 	 2004 est.
+13 	 Germany 	        42,630,000 	 2004 est.
+14 	 Thailand 	        36,430,000 	 November 2004 est.
+15 	 Philippines 	        35,860,000 	 2004 est.
+16 	 Mexico 	        34,730,000 	 2004 est.
+17 	 United Kingdom 	        29,780,000 	 2004 est.
+18 	 France 	        27,700,000 	 2004 est.
+19 	 Burma 	        27,010,000 	 2004 est.
+20 	 Turkey 	        25,300,000 	 2003 est.
+21 	 Italy 	        24,270,000 	 2004 est.
+22 	 Iran 	        23,000,000 	 2004 est.
+23 	 Korea, South 	        22,900,000 	 2004 est.
+24 	 Ukraine 	        21,110,000 	 2004 est.
+25 	 Egypt 	        20,710,000 	 2004 est.
+26 	 Colombia 	        20,700,000 	 2004 est.
+27 	 Spain 	        19,330,000 	 2004 est.
+28 	 Tanzania 	        19,000,000 	 2004 est.
+29 	 Canada 	        17,370,000 	 2004
+30 	 Poland 	        17,020,000 	 2004 est.
+31 	 South Africa 	        16,630,000 	 2004 est.
+32 	 Argentina 	        15,040,000 	 2004 est.
+33 	 Uzbekistan 	        14,640,000 	 2004 est.
+34 	 Congo, Democratic Republic of the 	        14,510,000 	 1993 est.
+35 	 Uganda 	        12,410,000 	 2004 est.
+36 	 Venezuela 	        12,250,000 	 2004 est.
+37 	 Afghanistan 	        11,800,000 	 2001 est.
+38 	 Kenya 	        11,400,000 	 2004 est.
+39 	 Morocco 	        11,020,000 	 2004 est.
+40 	 Peru 	        11,000,000 	 2004 est.
+41 	 Sudan 	        11,000,000 	 1996 est.
+42 	 Malaysia 	        10,490,000 	 2004 est.
+43 	 Australia 	        10,350,000 	 2004 est.
+44 	 Ghana 	        10,240,000 	 2004 est.
+45 	 Taiwan 	        10,220,000 	 2004 est.
+46 	 Nepal 	        10,000,000 	 1996 est.
+47 	 Algeria 	         9,910,000 	 2004 est.
+48 	 Romania 	         9,660,000 	 2004 est.
+49 	 Korea, North 	         9,600,000 	 
+50 	 Mozambique 	         9,200,000 	 2000 est.
+51 	 Kazakhstan 	         7,950,000 	 2004 est.
+52 	 Netherlands 	         7,530,000 	 2004 est.
+53 	 Madagascar 	         7,300,000 	 2000
+54 	 Sri Lanka 	         7,260,000 	 2004 est.
+55 	 Cambodia 	         7,000,000 	 2003 est.
+56 	 Cote d'Ivoire 	         6,700,000 	 2004 est.
+57 	 Iraq 	         6,700,000 	 2004 est.
+58 	 Cameroon 	         6,680,000 	 2004 est.
+59 	 Saudi Arabia 	         6,620,000 	 2004 est.
+60 	 Chile 	         6,200,000 	 2004 est.
+61 	 Yemen 	         5,980,000 	 2004 est.
+62 	 Portugal 	         5,480,000 	 2004 est.
+63 	 Angola 	         5,410,000 	 2004 est.
+64 	 Czech Republic 	         5,250,000 	 2004 est.
+65 	 Syria 	         5,120,000 	 2004 est.
+66 	 Azerbaijan 	         5,090,000 	 2004 est.
+67 	 Burkina Faso 	         5,000,000 	 2003
+68 	 Belgium 	         4,750,000 	 2004 est.
+69 	 Senegal 	         4,650,000 	 2004 est.
+70 	 Zambia 	         4,630,000 	 2004 est.
+71 	 Rwanda 	         4,600,000 	 2000
+72 	 Cuba 	         4,550,000 	 2004 est.
+73 	 Ecuador 	         4,530,000 	 2004 est.
+74 	 Malawi 	         4,500,000 	 2001 est.
+75 	 Sweden 	         4,460,000 	 2004 est.
+76 	 Greece 	         4,400,000 	 2004 est.
+77 	 Belarus 	         4,305,000 	 31 December 2003
+78 	 Zimbabwe 	         4,230,000 	 2004 est.
+79 	 Hungary 	         4,170,000 	 2004 est.
+80 	 Mali 	         3,930,000 	 2001 est.
+81 	 Bolivia 	         3,800,000 	 2004 est.
+82 	 Switzerland 	         3,770,000 	 2004 est.
+83 	 Somalia 	         3,700,000 	 
+84 	 Guatemala 	         3,680,000 	 2004 est.
+85 	 Haiti 	         3,600,000 	 1995
+86 	 Tunisia 	         3,550,000 	 2004 est.
+87 	 Hong Kong 	         3,540,000 	 October 2004 est.
+88 	 Austria 	         3,450,000 	 2004 est.
+89 	 Bulgaria 	         3,398,000 	 2004 est.
+90 	 Papua New Guinea 	         3,320,000 	 2004 est.
+91 	 Serbia and Montenegro 	         3,200,000 	 2004 est.
+92 	 Tajikistan 	         3,187,000 	 2000
+93 	 Guinea 	         3,000,000 	 1999
+94 	 Burundi 	         2,990,000 	 2002
+95 	 Denmark 	         2,870,000 	 2004 est.
+96 	 El Salvador 	         2,750,000 	 2004 est.
+97 	 Kyrgyzstan 	         2,700,000 	 2000
+98 	 Israel 	         2,680,000 	 2004 est.
+99 	 Finland 	         2,660,000 	 2004 est.
+100 	 Paraguay 	         2,660,000 	 2004 est.
+101 	 Laos 	         2,600,000 	 2001 est.
+102 	 Lebanon 	         2,600,000 	 2001 est.
+103 	 Honduras 	         2,470,000 	 2004 est.
+104 	 Norway 	         2,380,000 	 2004 est.
+105 	 United Arab Emirates 	         2,360,000 	 2004 est.
+106 	 Turkmenistan 	         2,320,000 	 2003 est.
+107 	 Slovakia 	         2,200,000 	 3rd quarter, 2004 est.
+108 	 Singapore 	         2,180,000 	 2004 est.
+109 	 Georgia 	         2,100,000 	 2001 est.
+110 	 New Zealand 	         2,050,000 	 2004 est.
+111 	 Nicaragua 	         1,930,000 	 2004 est.
+112 	 Ireland 	         1,920,000 	 2004 est.
+113 	 Costa Rica 	         1,810,000 	 2004 est.
+114 	 Togo 	         1,740,000 	 1996
+115 	 Croatia 	         1,710,000 	 2004 est.
+116 	 Lithuania 	         1,630,000 	 2004 est.
+117 	 Libya 	         1,590,000 	 2004 est.
+118 	 Uruguay 	         1,560,000 	 2004 est.
+119 	 Mongolia 	         1,488,000 	 2003
+120 	 Kuwait 	         1,420,000 	 2004 est.
+121 	 Jordan 	         1,410,000 	 2004 est.
+122 	 Armenia 	         1,400,000 	 2001
+123 	 Sierra Leone 	         1,369,000 	 1981 est.
+124 	 Moldova 	         1,360,000 	 2004 est.
+125 	 Panama 	         1,320,000 	 2004 est.
+126 	 Puerto Rico 	         1,300,000 	 2000
+127 	 Latvia 	         1,170,000 	 2004 est.
+128 	 Jamaica 	         1,140,000 	 2004 est.
+129 	 Albania 	         1,090,000 	 2004 est.
+130 	 Bosnia and Herzegovina 	         1,026,000 	 2001
+131 	 Oman 	          920,000 	 2002 est.
+132 	 Slovenia 	          870,000 	 2004 est.
+133 	 Macedonia 	          855,000 	 2004 est.
+134 	 Namibia 	          840,000 	 2004 est.
+135 	 Lesotho 	          838,000 	 2000
+136 	 Mauritania 	          786,000 	 2001
+137 	 Gaza Strip 	          725,000 	 2004
+138 	 Estonia 	          660,000 	 2004 est.
+139 	 Gabon 	          650,000 	 2004 est.
+140 	 Trinidad and Tobago 	          590,000 	 2004 est.
+141 	 Mauritius 	          560,000 	 2004 est.
+142 	 Guinea-Bissau 	          480,000 	 1999
+143 	 Guyana 	          418,000 	 2001 est.
+144 	 Gambia, The 	          400,000 	 1996
+145 	 Swaziland 	          383,200 	 2000
+146 	 Bahrain 	          370,000 	 2004 est.
+147 	 West Bank 	          364,000 	 2004
+148 	 Cyprus 	          330,000 	 2004 est.
+149 	 Reunion 	          309,900 	 2000
+150 	 Luxembourg 	          293,700 	 2004 est.
+151 	 Djibouti 	          282,000 	 2000
+152 	 Botswana 	          264,000 	 2000
+153 	 Macau 	          231,500 	 3rd Quarter, 2004
+154 	 Martinique 	          165,900 	 1998
+155 	 Malta 	          160,000 	 2002 est.
+156 	 Iceland 	          158,100 	 2004 est.
+157 	 Brunei 	          158,000 	 2002 est.
+158 	 Bahamas, The 	          156,000 	 1999
+159 	 Comoros 	          144,500 	 1996 est.
+160 	 Qatar 	          140,000 	 2004 est.
+161 	 Fiji 	          137,000 	 1999
+162 	 Barbados 	          128,500 	 2001 est.
+163 	 Guadeloupe 	          125,900 	 1997
+164 	 Suriname 	          104,000 	 2003
+165 	 Cyprus 	           95,025 	 2004 est.
+166 	 Belize 	           90,000 	 2001 est.
+167 	 Samoa 	           90,000 	 2000 est.
+168 	 Netherlands Antilles 	           89,000 	 2000
+169 	 Maldives 	           88,000 	 2000
+170 	 New Caledonia 	           79,400 	 1996
+171 	 French Polynesia 	           70,000 	 1996
+172 	 Niger 	           70,000 	 2002 est.
+173 	 Saint Vincent and the Grenadines 	           67,000 	 1984 est.
+174 	 Guam 	           60,000 	 2000 est.
+175 	 French Guiana 	           58,800 	 1997
+176 	 Jersey 	           52,790 	 2004
+177 	 Virgin Islands 	           48,900 	 2003 est.
+178 	 Mayotte 	           48,800 	 2000
+179 	 Saint Lucia 	           43,800 	 2001 est.
+180 	 Grenada 	           42,300 	 1996
+181 	 Aruba 	           41,500 	 1997 est.
+182 	 Man, Isle of 	           39,690 	 2001
+183 	 Bermuda 	           37,470 	 2000
+184 	 Tonga 	           33,910 	 1996
+185 	 Andorra 	           33,000 	 2001 est.
+186 	 Guernsey 	           32,290 	 2001
+187 	 Seychelles 	           30,900 	 1996
+188 	 Monaco 	           30,540 	 January 1994
+189 	 Antigua and Barbuda 	           30,000 	 
+190 	 Liechtenstein 	           29,000 	 31 December 2001
+191 	 Marshall Islands 	           28,700 	 1996 est.
+192 	 Solomon Islands 	           26,840 	 1999
+193 	 Dominica 	           25,000 	 1999 est.
+194 	 Greenland 	           24,500 	 1999 est.
+195 	 Faroe Islands 	           24,250 	 October 2000
+196 	 Cayman Islands 	           19,820 	 1995
+197 	 San Marino 	           18,500 	 1999
+198 	 Saint Kitts and Nevis 	           18,170 	 June 1995
+199 	 Gibraltar 	           14,800 	 1999
+200 	 American Samoa 	           14,000 	 1996
+201 	 British Virgin Islands 	           12,770 	 2004
+202 	 Western Sahara 	           12,000 	 
+203 	 Palau 	            9,845 	 2000
+204 	 Cook Islands 	            8,000 	 1996
+205 	 Kiribati 	            7,870 	 2001 est.
+206 	 Tuvalu 	            7,000 	 2001 est.
+207 	 Anguilla 	            6,049 	 2001
+208 	 Northern Mariana Islands 	            6,006 	 June 1995
+209 	 Turks and Caicos Islands 	            4,848 	 1990 est.
+210 	 Montserrat 	            4,521 	 2000 est.
+211 	 Saint Helena 	            3,500 	 1998 est.
+212 	 Saint Pierre and Miquelon 	            3,261 	 1999
+213 	 Norfolk Island 	            1,345 	 
+214 	 Falkland Islands (Islas Malvinas) 	            1,100 	 
+215 	 Pitcairn Islands 	              15 	 2004
+
+ This file was last updated on 20 October, 2005

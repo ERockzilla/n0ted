@@ -1,0 +1,23 @@
+{
+  "country": "Moldova",
+  "region": "Europe",
+  "year": 2011,
+  "demographics": {
+    "population": 4314377,
+    "population_growth_pct": -0.07,
+    "life_expectancy": 71.37
+  },
+  "economy": {
+    "gdp_ppp_billions": 10.99,
+    "gdp_growth_pct": 6.9,
+    "gdp_per_capita": 2500,
+    "inflation_pct": 7.4,
+    "unemployment_pct": 7.5,
+    "exports_billions": 1.59,
+    "imports_billions": 3.81
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.4
+  },
+  "political": {}
+}

@@ -1,0 +1,159 @@
+This tab-delimited file can be read by most spreadsheet applications after being saved properly.  At the top of your browser window, click 'File' and 'Save As...'  After saving the file, open your spreadsheet, find the file you just saved and then 'Open' it.
+Rank 	 Country 	 HIV/AIDS - people living with HIV/AIDS 	 Date of Information
+1 	 South Africa 	         5,000,000 	 2001 est.
+2 	 India 	         3,970,000 	 2001 est.
+3 	 Nigeria 	         3,500,000 	 2001 est.
+4 	 Kenya 	         2,500,000 	 2001 est.
+5 	 Zimbabwe 	         2,300,000 	 2001 est.
+6 	 Ethiopia 	         2,100,000 	 2001 est.
+7 	 Tanzania 	         1,500,000 	 2001 est.
+8 	 Congo, Democratic Republic of the 	         1,300,000 	 2001 est.
+9 	 Zambia 	         1,200,000 	 2001 est.
+10 	 Mozambique 	         1,100,000 	 2001 est.
+11 	 Cameroon 	          920,000 	 2001 est.
+12 	 United States 	          900,000 	 2001 est.
+13 	 China 	          850,000 	 2001 est.
+14 	 Malawi 	          850,000 	 2001 est.
+15 	 Cote d'Ivoire 	          770,000 	 2001 est.
+16 	 Russia 	          700,000 	 2001 est.
+17 	 Thailand 	          670,000 	 2001 est.
+18 	 Brazil 	          610,000 	 2001 est.
+19 	 Uganda 	          600,000 	 2001 est.
+20 	 Burma 	          530,000 	 2001 est.
+21 	 Rwanda 	          500,000 	 2001 est.
+22 	 Sudan 	          450,000 	 2001 est.
+23 	 Burkina Faso 	          440,000 	 2001 est.
+24 	 Burundi 	          390,000 	 2001 est.
+25 	 Ghana 	          360,000 	 2001 est.
+26 	 Lesotho 	          360,000 	 2001 est.
+27 	 Angola 	          350,000 	 2001 est.
+28 	 Botswana 	          330,000 	 2001 est.
+29 	 Central African Republic 	          250,000 	 2001 est.
+30 	 Haiti 	          250,000 	 2001 est.
+31 	 Ukraine 	          250,000 	 2001 est.
+32 	 Namibia 	          230,000 	 2001 est.
+33 	 Cambodia 	          170,000 	 2001 est.
+34 	 Sierra Leone 	          170,000 	 2001 est.
+35 	 Swaziland 	          170,000 	 2001 est.
+36 	 Chad 	          150,000 	 2001 est.
+37 	 Togo 	          150,000 	 2001 est.
+38 	 Mexico 	          150,000 	 2001 est.
+39 	 Colombia 	          140,000 	 2001 est.
+40 	 Argentina 	          130,000 	 2001 est.
+41 	 Vietnam 	          130,000 	 2001 est.
+42 	 Spain 	          130,000 	 2001 est.
+43 	 Dominican Republic 	          130,000 	 2001 est.
+44 	 Liberia 	          125,000 	 2001 est.
+45 	 Benin 	          120,000 	 2001 est.
+46 	 Indonesia 	          120,000 	 2001 est.
+47 	 Congo, Republic of the 	          110,000 	 2001 est.
+48 	 Mali 	          110,000 	 2001 est.
+49 	 France 	          100,000 	 2001 est.
+50 	 Italy 	          100,000 	 2001 est.
+51 	 Pakistan 	           78,000 	 2001 est.
+52 	 Guatemala 	           67,000 	 2001 est.
+53 	 Venezuela 	           62,000 	 1999 est.
+54 	 Nepal 	           58,000 	 2001 est.
+55 	 Honduras 	           57,000 	 2001 est.
+56 	 Canada 	           55,000 	 2001 est.
+57 	 Eritrea 	           55,000 	 2001 est.
+58 	 Guinea 	           55,000 	 1999 est.
+59 	 Peru 	           53,000 	 2001 est.
+60 	 Somalia 	           43,000 	 2001 est.
+61 	 Malaysia 	           42,000 	 2001 est.
+62 	 Germany 	           41,000 	 2001 est.
+63 	 Djibouti 	           37,000 	 2001 est.
+64 	 United Kingdom 	           34,000 	 2001 est.
+65 	 Portugal 	           27,000 	 2001 est.
+66 	 Senegal 	           27,000 	 2001 est.
+67 	 Panama 	           25,000 	 2001 est.
+68 	 El Salvador 	           24,000 	 2001 est.
+69 	 Gabon 	           23,000 	 1999 est.
+70 	 Madagascar 	           22,000 	 2001 est.
+71 	 Chile 	           20,000 	 2001 est.
+72 	 Iran 	           20,000 	 2001 est.
+73 	 Jamaica 	           20,000 	 2001 est.
+74 	 Ecuador 	           20,000 	 2001 est.
+75 	 Switzerland 	           19,000 	 2001 est.
+76 	 Guyana 	           18,000 	 2001 est.
+77 	 Netherlands 	           17,000 	 2001 est.
+78 	 Trinidad and Tobago 	           17,000 	 2001 est.
+79 	 Guinea-Bissau 	           17,000 	 2001 est.
+80 	 Papua New Guinea 	           17,000 	 2001 est.
+81 	 Belarus 	           15,000 	 2001 est.
+82 	 Bangladesh 	           13,000 	 2001 est.
+83 	 Morocco 	           13,000 	 2001 est.
+84 	 Australia 	           12,000 	 2001 est.
+85 	 Japan 	           12,000 	 2001 est.
+86 	 Costa Rica 	           11,000 	 2001 est.
+87 	 Serbia and Montenegro 	           10,000 	 2001 est.
+88 	 Austria 	            9,900 	 2001 est.
+89 	 Yemen 	            9,900 	 2001 est.
+90 	 Philippines 	            9,400 	 2001 est.
+91 	 Greece 	            8,800 	 2001 est.
+92 	 Belgium 	            8,500 	 2001 est.
+93 	 Gambia, The 	            8,400 	 2001 est.
+94 	 Egypt 	            8,000 	 2001 est.
+95 	 Estonia 	            7,700 	 2001 est.
+96 	 Puerto Rico 	            7,397 	 
+97 	 Libya 	            7,000 	 2001 est.
+98 	 Mauritania 	            6,600 	 1999 est.
+99 	 Romania 	            6,500 	 2001 est.
+100 	 Uruguay 	            6,300 	 2001 est.
+101 	 Bahamas, The 	            6,200 	 2001 est.
+102 	 Kazakhstan 	            6,000 	 2001 est.
+103 	 Equatorial Guinea 	            5,900 	 2001 est.
+104 	 Nicaragua 	            5,800 	 2001 est.
+105 	 Moldova 	            5,500 	 2001 est.
+106 	 Latvia 	            5,000 	 2001 est.
+107 	 Sri Lanka 	            4,800 	 2001 est.
+108 	 Bolivia 	            4,600 	 2001 est.
+109 	 Korea, South 	            4,000 	 2001 est.
+110 	 Denmark 	            3,800 	 2001 est.
+111 	 Suriname 	            3,700 	 2001 est.
+112 	 Singapore 	            3,400 	 2001 est.
+113 	 Sweden 	            3,300 	 2001 est.
+114 	 Cuba 	            3,200 	 2001 est.
+115 	 Paraguay 	            3,000 	 1999 est.
+116 	 Hungary 	            2,800 	 2001 est.
+117 	 Hong Kong 	            2,600 	 2001 est.
+118 	 Belize 	            2,500 	 2001 est.
+119 	 Armenia 	            2,400 	 2001 est.
+120 	 Israel 	            2,400 	 1999 est.
+121 	 Ireland 	            2,400 	 2001 est.
+122 	 Barbados 	            1,800 	 2001 est.
+123 	 Norway 	            1,800 	 2001 est.
+124 	 Azerbaijan 	            1,400 	 2001 est.
+125 	 Laos 	            1,400 	 2001 est.
+126 	 Lithuania 	            1,300 	 2001 est.
+127 	 Oman 	            1,300 	 2001 est.
+128 	 Finland 	            1,200 	 2001 est.
+129 	 New Zealand 	            1,200 	 2001 est.
+130 	 Bahrain 	            1,000 	 
+131 	 Iraq 	            1,000 	 
+132 	 Jordan 	            1,000 	 
+133 	 Cyprus 	            1,000 	 1999 est.
+134 	 Georgia 	             900 	 2001 est.
+135 	 Cape Verde 	             775 	 
+136 	 Uzbekistan 	             740 	 2001 est.
+137 	 Mauritius 	             700 	 2001 est.
+138 	 Czech Republic 	             500 	 2001 est.
+139 	 Kyrgyzstan 	             500 	 2001 est.
+140 	 Bulgaria 	             346 	 2001 est.
+141 	 Fiji 	             300 	 2001 est.
+142 	 Slovenia 	             280 	 2001 est.
+143 	 Iceland 	             220 	 2001 est.
+144 	 Croatia 	             200 	 2001 est.
+145 	 Tajikistan 	             200 	 2001 est.
+146 	 Bhutan 	             100 	 1999 est.
+147 	 Turkmenistan 	             100 	 1999 est.
+148 	 Maldives 	             100 	 2001 est.
+149 	 Brunei 	             100 	 2001 est.
+150 	 Slovakia 	             100 	 1999 est.
+151 	 Macedonia, The Former Yugoslav Republic of 	             100 	 1999 est.
+152 	 Mongolia 	             100 	 1999 est.
+153 	 Greenland 	             100 	 
+154 	 Samoa 	              12 	 
+155 	 Svalbard 	               0 	 2001
+
+ This file was last updated on 18 December, 2003

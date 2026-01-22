@@ -1,0 +1,22 @@
+{
+  "country": "France",
+  "region": "Europe",
+  "year": 2004,
+  "demographics": {
+    "population": 60656178,
+    "life_expectancy": 79.6
+  },
+  "economy": {
+    "gdp_ppp_billions": 1661.0,
+    "gdp_growth_pct": 0.5,
+    "gdp_per_capita": 27600,
+    "inflation_pct": 2.1,
+    "unemployment_pct": 9.7,
+    "exports_billions": 346.5,
+    "imports_billions": 339.9
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.6
+  },
+  "political": {}
+}

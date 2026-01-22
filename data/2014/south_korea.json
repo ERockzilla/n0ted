@@ -1,0 +1,23 @@
+{
+  "country": "South Korea",
+  "region": "East & Southeast Asia",
+  "year": 2014,
+  "demographics": {
+    "population": 49039986,
+    "population_growth_pct": 0.16,
+    "life_expectancy": 79.8
+  },
+  "economy": {
+    "gdp_growth_pct": 2.8,
+    "gdp_per_capita": 33200,
+    "inflation_pct": 1.1,
+    "unemployment_pct": 3.2,
+    "exports_billions": 557.3,
+    "imports_billions": 516.6,
+    "gdp_ppp_billions": 1666.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.8
+  },
+  "political": {}
+}

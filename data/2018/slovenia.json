@@ -1,0 +1,23 @@
+{
+  "country": "Slovenia",
+  "region": "Europe",
+  "year": 2018,
+  "demographics": {
+    "population": 2102126,
+    "population_growth_pct": 0.03,
+    "life_expectancy": 81.2
+  },
+  "economy": {
+    "gdp_ppp_billions": 71.23,
+    "gdp_growth_pct": 5.0,
+    "gdp_per_capita": 34500,
+    "inflation_pct": 1.4,
+    "unemployment_pct": 15.2,
+    "exports_billions": 32.14,
+    "imports_billions": 30.38
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.98
+  },
+  "political": {}
+}

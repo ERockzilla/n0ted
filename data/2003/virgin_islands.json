@@ -1,0 +1,18 @@
+{
+  "country": "Virgin Islands",
+  "region": "Central America and Caribbean",
+  "year": 2003,
+  "demographics": {
+    "population": 124778,
+    "life_expectancy": 78.59
+  },
+  "economy": {
+    "gdp_ppp_billions": 2.4,
+    "gdp_growth_pct": 2.0,
+    "gdp_per_capita": 19000,
+    "inflation_pct": 2.0,
+    "unemployment_pct": 4.9
+  },
+  "military": {},
+  "political": {}
+}

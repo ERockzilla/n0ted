@@ -1,0 +1,16 @@
+{
+  "country": "South Sudan",
+  "region": "Africa",
+  "year": 2017,
+  "demographics": {
+    "population": 13026129,
+    "population_growth_pct": 3.8
+  },
+  "economy": {
+    "gdp_growth_pct": -13.8,
+    "gdp_per_capita": 1700,
+    "gdp_ppp_billions": 20.71
+  },
+  "military": {},
+  "political": {}
+}

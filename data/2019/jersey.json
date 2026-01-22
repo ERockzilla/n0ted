@@ -1,0 +1,18 @@
+{
+  "country": "Jersey",
+  "region": "Europe",
+  "year": 2019,
+  "demographics": {
+    "population": 99602,
+    "population_growth_pct": 0.76,
+    "life_expectancy": 82.0
+  },
+  "economy": {
+    "gdp_ppp_billions": 5.57,
+    "gdp_per_capita": 56600,
+    "inflation_pct": 3.7,
+    "gdp_growth_pct": 1.0
+  },
+  "military": {},
+  "political": {}
+}

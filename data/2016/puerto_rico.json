@@ -1,0 +1,21 @@
+{
+  "country": "Puerto Rico",
+  "region": "Central America and Caribbean",
+  "year": 2016,
+  "demographics": {
+    "population": 3578056,
+    "population_growth_pct": -0.54,
+    "life_expectancy": 79.4
+  },
+  "economy": {
+    "gdp_ppp_billions": 131.6,
+    "gdp_growth_pct": 0.0,
+    "gdp_per_capita": 37900,
+    "inflation_pct": -0.8,
+    "unemployment_pct": 13.7,
+    "exports_billions": 71.1,
+    "imports_billions": 49.71
+  },
+  "military": {},
+  "political": {}
+}

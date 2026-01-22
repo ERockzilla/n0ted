@@ -1,0 +1,23 @@
+{
+  "country": "Argentina",
+  "region": "South America",
+  "year": 2008,
+  "demographics": {
+    "population": 40482000,
+    "population_growth_pct": 1.07,
+    "life_expectancy": 76.36
+  },
+  "economy": {
+    "gdp_ppp_billions": 526.4,
+    "gdp_growth_pct": 8.7,
+    "gdp_per_capita": 13100,
+    "inflation_pct": 8.8,
+    "unemployment_pct": 8.5,
+    "exports_billions": 55.78,
+    "imports_billions": 42.53
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.3
+  },
+  "political": {}
+}

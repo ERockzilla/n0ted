@@ -1,0 +1,23 @@
+{
+  "country": "Croatia",
+  "region": "Europe",
+  "year": 2019,
+  "demographics": {
+    "population": 4270480,
+    "population_growth_pct": -0.51,
+    "life_expectancy": 76.3
+  },
+  "economy": {
+    "gdp_ppp_billions": 102.1,
+    "gdp_growth_pct": 2.8,
+    "gdp_per_capita": 24700,
+    "inflation_pct": 1.1,
+    "unemployment_pct": 27.4,
+    "exports_billions": 13.15,
+    "imports_billions": 22.34
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.68
+  },
+  "political": {}
+}

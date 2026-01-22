@@ -1,0 +1,22 @@
+{
+  "country": "Australia",
+  "region": "Australia-Oceania",
+  "year": 2006,
+  "demographics": {
+    "population": 20264082,
+    "life_expectancy": 80.5
+  },
+  "economy": {
+    "gdp_ppp_billions": 635.5,
+    "gdp_growth_pct": 2.7,
+    "gdp_per_capita": 31600,
+    "inflation_pct": 2.7,
+    "unemployment_pct": 5.1,
+    "exports_billions": 103.0,
+    "imports_billions": 119.6
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.7
+  },
+  "political": {}
+}

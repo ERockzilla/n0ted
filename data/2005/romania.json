@@ -1,0 +1,22 @@
+{
+  "country": "Romania",
+  "region": "Europe",
+  "year": 2005,
+  "demographics": {
+    "population": 22329977,
+    "life_expectancy": 71.35
+  },
+  "economy": {
+    "gdp_ppp_billions": 171.5,
+    "gdp_growth_pct": 8.1,
+    "gdp_per_capita": 7700,
+    "inflation_pct": 9.6,
+    "unemployment_pct": 6.3,
+    "exports_billions": 23.54,
+    "imports_billions": 28.43
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.47
+  },
+  "political": {}
+}

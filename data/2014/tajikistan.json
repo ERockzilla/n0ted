@@ -1,0 +1,21 @@
+{
+  "country": "Tajikistan",
+  "region": "Central Asia",
+  "year": 2014,
+  "demographics": {
+    "population": 8051512,
+    "population_growth_pct": 1.75,
+    "life_expectancy": 67.06
+  },
+  "economy": {
+    "gdp_ppp_billions": 19.2,
+    "gdp_growth_pct": 7.4,
+    "gdp_per_capita": 2300,
+    "inflation_pct": 3.7,
+    "unemployment_pct": 2.5,
+    "exports_billions": 1.16,
+    "imports_billions": 4.12
+  },
+  "military": {},
+  "political": {}
+}

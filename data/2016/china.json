@@ -1,0 +1,21 @@
+{
+  "country": "China",
+  "region": "East & Southeast Asia",
+  "year": 2016,
+  "demographics": {
+    "population_growth_pct": 0.43,
+    "life_expectancy": 75.5
+  },
+  "economy": {
+    "gdp_growth_pct": 6.9,
+    "gdp_per_capita": 14300,
+    "inflation_pct": 1.4,
+    "unemployment_pct": 4.0,
+    "exports_billions": 2143.0,
+    "imports_billions": 1576.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.99
+  },
+  "political": {}
+}

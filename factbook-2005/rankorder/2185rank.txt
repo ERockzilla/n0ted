@@ -1,0 +1,150 @@
+This tab-delimited file can be read by most spreadsheet applications after being saved properly.  At the top of your browser window, click 'File' and 'Save As...'  After saving the file, open your spreadsheet, find the file you just saved and then 'Open' it.
+Rank 	 Country 	 Investment (gross fixed)(% of GDP) 	 Date of Information
+1 	 Azerbaijan 	     65.10 	 2004 est.
+2 	 Equatorial Guinea 	     50.80 	 2004 est.
+3 	 Mozambique 	     47.00 	 2004 est.
+4 	 China 	     46.00 	 2004 est.
+5 	 Zambia 	     41.40 	 2004 est.
+6 	 Lesotho 	     39.60 	 2004 est.
+7 	 Seychelles 	     39.50 	 2004 est.
+8 	 Vietnam 	     36.60 	 2004 est.
+9 	 Angola 	     34.50 	 2004 est.
+10 	 Guyana 	     34.50 	 2004 est.
+11 	 Belize 	     33.60 	 2004 est.
+12 	 Jamaica 	     32.00 	 2004 est.
+13 	 Sao Tome and Principe 	     31.50 	 2004 est.
+14 	 Iran 	     31.30 	 2004 est.
+15 	 Burkina Faso 	     29.10 	 2004 est.
+16 	 Czech Republic 	     29.00 	 2004 est.
+17 	 Turkmenistan 	     29.00 	 2004 est.
+18 	 Korea, South 	     28.70 	 2004 est.
+19 	 Croatia 	     28.60 	 2004 est.
+20 	 Estonia 	     28.20 	 2004 est.
+21 	 Nicaragua 	     28.00 	 2004 est.
+22 	 Singapore 	     27.40 	 2004 est.
+23 	 Greece 	     27.00 	 2004 est.
+24 	 Malta 	     26.40 	 2004 est.
+25 	 Eritrea 	     26.30 	 2002
+26 	 Algeria 	     26.20 	 2004 est.
+27 	 Latvia 	     26.10 	 2004 est.
+28 	 Lebanon 	     26.00 	 2004 est.
+29 	 Congo, Republic of the 	     25.80 	 2004 est.
+30 	 Botswana 	     25.50 	 2004 est.
+31 	 Spain 	     25.40 	 2004 est.
+32 	 Australia 	     25.30 	 2004 est.
+33 	 Gambia, The 	     25.30 	 2004 est.
+34 	 Panama 	     25.00 	 2004 est.
+35 	 Slovenia 	     24.90 	 2004 est.
+36 	 Chad 	     24.70 	 2004 est.
+37 	 Tunisia 	     24.50 	 2004 est.
+38 	 Honduras 	     24.10 	 2004 est.
+39 	 Japan 	     24.00 	 2004 est.
+40 	 Slovakia 	     24.00 	 2004 est.
+41 	 Chile 	     23.90 	 2004 est.
+42 	 Kazakhstan 	     23.90 	 2004 est.
+43 	 Ireland 	     23.80 	 2004 est.
+44 	 India 	     23.80 	 2004 est.
+45 	 Iceland 	     23.80 	 2004 est.
+46 	 Swaziland 	     23.60 	 2004 est.
+47 	 Bangladesh 	     23.50 	 2004 est.
+48 	 Romania 	     23.30 	 2004 est.
+49 	 Qatar 	     22.90 	 2004 est.
+50 	 Hungary 	     22.80 	 2004 est.
+51 	 Hong Kong 	     22.70 	 2004 est.
+52 	 Austria 	     22.60 	 2004 est.
+53 	 Mauritius 	     22.50 	 2004 est.
+54 	 Thailand 	     22.50 	 Jan - Sep 2004 est.
+55 	 Sri Lanka 	     22.40 	 2004 est.
+56 	 Morocco 	     22.40 	 2004 est.
+57 	 Uganda 	     22.40 	 2004 est.
+58 	 New Zealand 	     22.40 	 2004 est.
+59 	 Portugal 	     22.30 	 2004 est.
+60 	 Tajikistan 	     22.00 	 2004 est.
+61 	 Lithuania 	     21.90 	 2004 est.
+62 	 Belarus 	     21.80 	 2004 est.
+63 	 Gabon 	     21.80 	 2004 est.
+64 	 Malaysia 	     21.70 	 2004 est.
+65 	 Guinea 	     21.00 	 2004 est.
+66 	 Cambodia 	     20.90 	 2004 est.
+67 	 United Arab Emirates 	     20.80 	 2004 est.
+68 	 Ecuador 	     20.60 	 2004 est.
+69 	 Switzerland 	     20.40 	 2004 est.
+70 	 Senegal 	     20.10 	 2004 est.
+71 	 Rwanda 	     20.00 	 2004 est.
+72 	 Netherlands 	     19.90 	 2004 est.
+73 	 Armenia 	     19.80 	 2004 est.
+74 	 Brazil 	     19.80 	 2004 est.
+75 	 Denmark 	     19.80 	 2004 est.
+76 	 Luxembourg 	     19.80 	 2004 est.
+77 	 Ghana 	     19.70 	 2004 est.
+78 	 Namibia 	     19.60 	 2004 est.
+79 	 European Union 	     19.50 	 2004 est.
+80 	 Canada 	     19.40 	 2004 est.
+81 	 Mexico 	     19.40 	 2004 est.
+82 	 Trinidad and Tobago 	     19.40 	 2004 est.
+83 	 Benin 	     19.30 	 2004 est.
+84 	 Italy 	     19.30 	 2004 est.
+85 	 Costa Rica 	     19.20 	 2004 est.
+86 	 France 	     19.20 	 2004 est.
+87 	 Cape Verde 	     19.20 	 2004 est.
+88 	 Belgium 	     19.10 	 2004 est.
+89 	 Togo 	     19.10 	 2004 est.
+90 	 Russia 	     19.10 	 2004 est.
+91 	 Dominican Republic 	     18.90 	 2004 est.
+92 	 Ukraine 	     18.80 	 2004 est.
+93 	 Bulgaria 	     18.60 	 2004 est.
+94 	 Georgia 	     18.50 	 2004 est.
+95 	 Albania 	     18.40 	 2004 est.
+96 	 Poland 	     18.40 	 2004 est.
+97 	 Argentina 	     18.30 	 2004 est.
+98 	 Finland 	     18.30 	 2004 est.
+99 	 Paraguay 	     18.10 	 2004 est.
+100 	 Nigeria 	     18.00 	 2004 est.
+101 	 Taiwan 	     18.00 	 2004 est.
+102 	 Cyprus 	     17.90 	 2004 est.
+103 	 Ethiopia 	     17.80 	 2004 est.
+104 	 Peru 	     17.80 	 2004 est.
+105 	 Germany 	     17.60 	 2004
+106 	 Israel 	     17.60 	 2004 est.
+107 	 Macedonia 	     17.50 	 2004 est.
+108 	 Norway 	     17.50 	 2004 est.
+109 	 Turkey 	     17.30 	 2004 est.
+110 	 Saudi Arabia 	     17.20 	 2004 est.
+111 	 Moldova 	     17.10 	 2004 est.
+112 	 Kyrgyzstan 	     17.00 	 2004 est.
+113 	 Philippines 	     17.00 	 2004 est.
+114 	 South Africa 	     16.70 	 2004 est.
+115 	 El Salvador 	     16.60 	 2004 est.
+116 	 Indonesia 	     16.60 	 2004 est.
+117 	 Pakistan 	     16.40 	 FY03/04 est.
+118 	 Syria 	     16.30 	 2004 est.
+119 	 Tanzania 	     16.20 	 2004 est.
+120 	 United Kingdom 	     16.20 	 2004 est.
+121 	 Cameroon 	     16.10 	 2004 est.
+122 	 Yemen 	     16.10 	 2004 est.
+123 	 Sudan 	     16.00 	 2004 est.
+124 	 Colombia 	     15.80 	 2004 est.
+125 	 Sweden 	     15.80 	 2004 est.
+126 	 Egypt 	     15.80 	 2004 est.
+127 	 United States 	     15.70 	 2004 est.
+128 	 Guatemala 	     14.90 	 2004 est.
+129 	 Kenya 	     14.70 	 2004 est.
+130 	 Madagascar 	     14.70 	 2004 est.
+131 	 Serbia and Montenegro 	     14.40 	 2004 est.
+132 	 Papua New Guinea 	     13.60 	 2004 est.
+133 	 Oman 	     13.50 	 2004 est.
+134 	 Venezuela 	     12.90 	 2004 est.
+135 	 Bahrain 	     12.80 	 2004 est.
+136 	 Jordan 	     11.60 	 2004 est.
+137 	 Cote d'Ivoire 	     11.30 	 2004 est.
+138 	 Cuba 	     11.20 	 2004 est.
+139 	 Burundi 	     10.70 	 2004 est.
+140 	 Malawi 	     10.70 	 2004 est.
+141 	 Bolivia 	     10.40 	 2003 est.
+142 	 Burma 	     10.20 	 2004 est.
+143 	 Libya 	      9.90 	 2004 est.
+144 	 Zimbabwe 	      9.90 	 2004 est.
+145 	 Uruguay 	      9.60 	 2004 est.
+146 	 Kuwait 	      8.00 	 2004 est.
+
+ This file was last updated on 20 October, 2005

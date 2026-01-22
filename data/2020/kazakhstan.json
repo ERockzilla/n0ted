@@ -1,0 +1,24 @@
+{
+  "country": "Kazakhstan",
+  "region": "Central Asia",
+  "year": 2020,
+  "demographics": {
+    "population": 19091949,
+    "population_growth_pct": 0.89,
+    "life_expectancy": 72.0,
+    "median_age": 31.6
+  },
+  "economy": {
+    "gdp_growth_pct": 6.13,
+    "gdp_per_capita": 11845,
+    "inflation_pct": 5.2,
+    "unemployment_pct": 3.8,
+    "exports_billions": 76.45,
+    "imports_billions": 69.12,
+    "external_debt_billions": 167.5
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.1
+  },
+  "political": {}
+}

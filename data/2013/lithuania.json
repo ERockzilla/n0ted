@@ -1,0 +1,23 @@
+{
+  "country": "Lithuania",
+  "region": "Europe",
+  "year": 2013,
+  "demographics": {
+    "population": 3515858,
+    "population_growth_pct": -0.28,
+    "life_expectancy": 75.77
+  },
+  "economy": {
+    "gdp_ppp_billions": 64.31,
+    "gdp_growth_pct": 3.6,
+    "gdp_per_capita": 21400,
+    "inflation_pct": 3.1,
+    "unemployment_pct": 13.2,
+    "exports_billions": 28.76,
+    "imports_billions": 30.44
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.9
+  },
+  "political": {}
+}

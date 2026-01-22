@@ -1,0 +1,23 @@
+{
+  "country": "Argentina",
+  "region": "South America",
+  "year": 2015,
+  "demographics": {
+    "population": 43024374,
+    "population_growth_pct": 0.95,
+    "life_expectancy": 77.51
+  },
+  "economy": {
+    "gdp_ppp_billions": 927.4,
+    "gdp_growth_pct": -1.7,
+    "gdp_per_capita": 22100,
+    "inflation_pct": 36.4,
+    "unemployment_pct": 7.7,
+    "exports_billions": 76.47,
+    "imports_billions": 65.9
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.91
+  },
+  "political": {}
+}

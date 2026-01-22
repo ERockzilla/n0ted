@@ -1,0 +1,23 @@
+{
+  "country": "Malaysia",
+  "region": "East & Southeast Asia",
+  "year": 2011,
+  "demographics": {
+    "population": 28728607,
+    "population_growth_pct": 1.58,
+    "life_expectancy": 73.79
+  },
+  "economy": {
+    "gdp_ppp_billions": 414.4,
+    "gdp_growth_pct": 7.2,
+    "gdp_per_capita": 14700,
+    "inflation_pct": 1.7,
+    "unemployment_pct": 3.4,
+    "exports_billions": 197.0,
+    "imports_billions": 152.6
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.03
+  },
+  "political": {}
+}

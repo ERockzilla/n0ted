@@ -1,0 +1,22 @@
+{
+  "country": "Morocco",
+  "region": "Africa",
+  "year": 2001,
+  "demographics": {
+    "population": 30645305,
+    "population_growth_pct": 1.71
+  },
+  "economy": {
+    "gdp_ppp_billions": 105.0,
+    "gdp_growth_pct": 0.8,
+    "gdp_per_capita": 3500,
+    "inflation_pct": 2.0,
+    "unemployment_pct": 23.0,
+    "exports_billions": 7.6,
+    "imports_billions": 12.2
+  },
+  "military": {
+    "expenditure_pct_gdp": 4.0
+  },
+  "political": {}
+}

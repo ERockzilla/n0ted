@@ -1,0 +1,23 @@
+{
+  "country": "Kyrgyzstan",
+  "region": "Central Asia",
+  "year": 2013,
+  "demographics": {
+    "population": 5548042,
+    "population_growth_pct": 0.97,
+    "life_expectancy": 69.75
+  },
+  "economy": {
+    "gdp_ppp_billions": 13.14,
+    "gdp_growth_pct": -0.9,
+    "gdp_per_capita": 2400,
+    "inflation_pct": 2.7,
+    "unemployment_pct": 8.6,
+    "exports_billions": 1.92,
+    "imports_billions": 4.97
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.8
+  },
+  "political": {}
+}

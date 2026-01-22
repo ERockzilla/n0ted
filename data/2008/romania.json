@@ -1,0 +1,23 @@
+{
+  "country": "Romania",
+  "region": "Europe",
+  "year": 2008,
+  "demographics": {
+    "population": 22246862,
+    "population_growth_pct": -0.14,
+    "life_expectancy": 72.18
+  },
+  "economy": {
+    "gdp_ppp_billions": 247.1,
+    "gdp_growth_pct": 6.0,
+    "gdp_per_capita": 11100,
+    "inflation_pct": 4.8,
+    "unemployment_pct": 4.1,
+    "exports_billions": 40.32,
+    "imports_billions": 64.54
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.9
+  },
+  "political": {}
+}

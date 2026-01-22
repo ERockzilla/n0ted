@@ -1,0 +1,22 @@
+{
+  "country": "Vietnam",
+  "region": "East & Southeast Asia",
+  "year": 2004,
+  "demographics": {
+    "population": 83535576,
+    "life_expectancy": 70.61
+  },
+  "economy": {
+    "gdp_ppp_billions": 203.7,
+    "gdp_growth_pct": 7.2,
+    "gdp_per_capita": 2500,
+    "inflation_pct": 3.1,
+    "unemployment_pct": 6.1,
+    "exports_billions": 19.88,
+    "imports_billions": 22.5
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.5
+  },
+  "political": {}
+}

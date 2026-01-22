@@ -1,0 +1,23 @@
+{
+  "country": "Republic Of The Congo",
+  "region": "Unknown",
+  "year": 2020,
+  "demographics": {
+    "population": 5293070,
+    "population_growth_pct": 2.26,
+    "life_expectancy": 61.3,
+    "median_age": 19.5
+  },
+  "economy": {
+    "gdp_growth_pct": -3.1,
+    "gdp_per_capita": 6800,
+    "inflation_pct": 2.2,
+    "exports_billions": 4.19,
+    "imports_billions": 2.5,
+    "external_debt_billions": 4.61
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.7
+  },
+  "political": {}
+}

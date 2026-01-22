@@ -5,19 +5,18 @@ import Link from 'next/link';
 import Navigation from '@/components/Navigation';
 import { calculateAllRiskProfiles, CountryRiskProfile } from '@/lib/analysis';
 import { generateRegionalInsights, Insight } from '@/lib/insights';
-import { 
-    Users, 
-    Coins, 
-    TrendingUp, 
-    Target, 
-    Map, 
-    Trophy,
-    TrendingDown,
-    AlertTriangle,
-    CheckCircle,
-    Rocket,
-    Shield
-} from 'lucide-react';
+import LoadingSpinner from '@/components/LoadingSpinner';
+
+// Custom SVG Icons (replacing Lucide)
+const TrophyIcon = () => <svg className="w-5 h-5 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>;
+const TargetIcon = () => <svg className="w-5 h-5 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" strokeWidth="2" /><circle cx="12" cy="12" r="6" strokeWidth="2" /><circle cx="12" cy="12" r="2" strokeWidth="2" /></svg>;
+const RocketIcon = () => <svg className="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>;
+const TrendDownIcon = () => <svg className="w-5 h-5 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 17h8m0 0V9m0 8l-8-8-4 4-6-6" /></svg>;
+const ShieldIcon = () => <svg className="w-5 h-5 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>;
+const AlertIcon = () => <svg className="w-5 h-5 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" /></svg>;
+const MapIcon = () => <svg className="w-5 h-5 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" /></svg>;
+const UsersIcon = () => <svg className="w-5 h-5 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" /></svg>;
+const CheckIcon = () => <svg className="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>;
 
 interface CountryData {
     country: string;
@@ -33,23 +32,23 @@ interface PageProps {
     params: Promise<{ region: string }>;
 }
 
-// Map insight icons to Lucide components
+// Map insight icons to custom SVG components
 const INSIGHT_ICONS: Record<string, React.ReactNode> = {
-    '🏆': <Trophy size={20} className="text-amber-400" />,
-    '📊': <Target size={20} className="text-cyan-400" />,
-    '🚀': <Rocket size={20} className="text-green-400" />,
-    '📉': <TrendingDown size={20} className="text-red-400" />,
-    '⚔️': <Shield size={20} className="text-red-400" />,
-    '⚠️': <AlertTriangle size={20} className="text-amber-400" />,
-    '🌐': <Map size={20} className="text-cyan-400" />,
-    '👴': <Users size={20} className="text-purple-400" />,
-    '✅': <CheckCircle size={20} className="text-green-400" />,
+    '🏆': <TrophyIcon />,
+    '📊': <TargetIcon />,
+    '🚀': <RocketIcon />,
+    '📉': <TrendDownIcon />,
+    '⚔️': <ShieldIcon />,
+    '⚠️': <AlertIcon />,
+    '🌐': <MapIcon />,
+    '👴': <UsersIcon />,
+    '✅': <CheckIcon />,
 };
 
 export default function RegionPage({ params }: PageProps) {
     const { region: regionSlug } = use(params);
     const regionName = decodeURIComponent(regionSlug).replace(/_/g, ' ');
-    
+
     const [allCountries, setAllCountries] = useState<CountryData[]>([]);
     const [countries, setCountries] = useState<CountryData[]>([]);
     const [profiles, setProfiles] = useState<CountryRiskProfile[]>([]);
@@ -67,24 +66,24 @@ export default function RegionPage({ params }: PageProps) {
                 const all = await Promise.all(countryPromises);
                 const validCountries = all.filter(Boolean) as CountryData[];
                 setAllCountries(validCountries);
-                
+
                 // Filter by region (case-insensitive match)
-                const regional = validCountries.filter(c => 
+                const regional = validCountries.filter(c =>
                     c.region.toLowerCase() === regionName.toLowerCase()
                 );
                 setCountries(regional);
-                
+
                 // Calculate risk profiles for regional countries
                 const allProfiles = calculateAllRiskProfiles(validCountries as any);
-                const regionalProfiles = allProfiles.filter(p => 
+                const regionalProfiles = allProfiles.filter(p =>
                     p.region.toLowerCase() === regionName.toLowerCase()
                 );
                 setProfiles(regionalProfiles);
-                
+
                 // Generate regional insights
                 const regionalInsights = generateRegionalInsights(regionName, validCountries as any);
                 setInsights(regionalInsights);
-                
+
                 setLoading(false);
             })
             .catch(() => setLoading(false));
@@ -120,10 +119,7 @@ export default function RegionPage({ params }: PageProps) {
             <div className="min-h-screen ">
                 <Navigation />
                 <div className="flex items-center justify-center h-[calc(100vh-80px)]">
-                    <div className="text-center">
-                        <div className="w-16 h-16 border-4 border-cyan-500/30 border-t-cyan-500 rounded-full animate-spin mx-auto mb-4"></div>
-                        <p className="text-slate-400">Loading regional data...</p>
-                    </div>
+                    <LoadingSpinner text="Loading regional data..." />
                 </div>
             </div>
         );
@@ -135,7 +131,7 @@ export default function RegionPage({ params }: PageProps) {
                 <Navigation />
                 <div className="flex items-center justify-center h-[calc(100vh-80px)]">
                     <div className="text-center">
-                        <Map size={64} className="text-slate-600 mx-auto icon-animate" />
+                        <MapIcon />
                         <h1 className="text-2xl font-bold text-white mt-4">Region Not Found</h1>
                         <p className="text-slate-400 mt-2">No countries found for &quot;{regionName}&quot;</p>
                         <Link href="/countries" className="inline-block mt-6 px-6 py-3 bg-cyan-500 text-white rounded-lg hover:bg-cyan-600 transition">
@@ -171,25 +167,25 @@ export default function RegionPage({ params }: PageProps) {
                         <StatCard
                             label="Total Population"
                             value={formatLargeNumber(totalPopulation)}
-                            icon={<Users size={24} className="text-cyan-400" />}
+                            icon={<UsersIcon />}
                             color="cyan"
                         />
                         <StatCard
                             label="Combined GDP"
                             value={formatGDP(totalGDP)}
-                            icon={<Coins size={24} className="text-emerald-400" />}
+                            icon={<svg className="w-6 h-6 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>}
                             color="emerald"
                         />
                         <StatCard
                             label="Avg GDP Growth"
                             value={`${avgGrowth > 0 ? '+' : ''}${avgGrowth.toFixed(1)}%`}
-                            icon={<TrendingUp size={24} className="text-amber-400" />}
+                            icon={<svg className="w-6 h-6 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" /></svg>}
                             color="amber"
                         />
                         <StatCard
                             label="Avg Stability"
                             value={`${Math.round(avgStability)}/100`}
-                            icon={<Target size={24} className="text-purple-400" />}
+                            icon={<TargetIcon />}
                             color="purple"
                         />
                     </div>
@@ -216,11 +212,10 @@ export default function RegionPage({ params }: PageProps) {
                                 <button
                                     key={key}
                                     onClick={() => setSortBy(key)}
-                                    className={`px-3 py-1.5 rounded-lg text-sm capitalize transition ${
-                                        sortBy === key
-                                            ? 'bg-cyan-500/20 text-cyan-400 border border-cyan-500/30'
-                                            : 'bg-slate-700/50 text-slate-400 hover:text-white border border-transparent'
-                                    }`}
+                                    className={`px-3 py-1.5 rounded-lg text-sm capitalize transition ${sortBy === key
+                                        ? 'bg-cyan-500/20 text-cyan-400 border border-cyan-500/30'
+                                        : 'bg-slate-700/50 text-slate-400 hover:text-white border border-transparent'
+                                        }`}
                                 >
                                     {key}
                                 </button>
@@ -231,7 +226,7 @@ export default function RegionPage({ params }: PageProps) {
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
                         {sortedCountries.map((country, idx) => {
                             const profile = profiles.find(p => p.country === country.country);
-                            
+
                             return (
                                 <Link
                                     key={country.country}
@@ -248,18 +243,18 @@ export default function RegionPage({ params }: PageProps) {
                                             </h3>
                                         </div>
                                         {profile && (
-                                            <span 
+                                            <span
                                                 className="px-2 py-0.5 rounded-full text-xs font-medium"
-                                                style={{ 
+                                                style={{
                                                     backgroundColor: `${profile.score.color}20`,
-                                                    color: profile.score.color 
+                                                    color: profile.score.color
                                                 }}
                                             >
                                                 {profile.score.overall}
                                             </span>
                                         )}
                                     </div>
-                                    
+
                                     <div className="grid grid-cols-2 gap-3 text-sm">
                                         <div>
                                             <p className="text-slate-500">GDP (PPP)</p>
@@ -272,7 +267,7 @@ export default function RegionPage({ params }: PageProps) {
                                         <div>
                                             <p className="text-slate-500">GDP Growth</p>
                                             <p className={`font-medium ${(country.economy.gdp_growth_pct || 0) > 0 ? 'text-green-400' : 'text-red-400'}`}>
-                                                {country.economy.gdp_growth_pct !== undefined 
+                                                {country.economy.gdp_growth_pct !== undefined
                                                     ? `${country.economy.gdp_growth_pct > 0 ? '+' : ''}${country.economy.gdp_growth_pct.toFixed(1)}%`
                                                     : 'N/A'
                                                 }
@@ -314,10 +309,10 @@ export default function RegionPage({ params }: PageProps) {
     );
 }
 
-function StatCard({ label, value, icon, color }: { 
-    label: string; 
-    value: string; 
-    icon: React.ReactNode; 
+function StatCard({ label, value, icon, color }: {
+    label: string;
+    value: string;
+    icon: React.ReactNode;
     color: 'cyan' | 'emerald' | 'amber' | 'purple';
 }) {
     const colorClasses = {
@@ -348,7 +343,7 @@ function InsightCard({ insight }: { insight: Insight }) {
         warning: 'border-amber-500/30 bg-amber-500/5',
     };
 
-    const icon = INSIGHT_ICONS[insight.icon] || <Target size={20} className="text-slate-400" />;
+    const icon = INSIGHT_ICONS[insight.icon] || <TargetIcon />;
 
     return (
         <div className={`p-4 rounded-xl border ${typeColors[insight.type]} backdrop-blur-sm`}>

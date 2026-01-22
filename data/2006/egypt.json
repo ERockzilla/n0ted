@@ -1,0 +1,22 @@
+{
+  "country": "Egypt",
+  "region": "Africa",
+  "year": 2006,
+  "demographics": {
+    "population": 78887007,
+    "life_expectancy": 71.29
+  },
+  "economy": {
+    "gdp_ppp_billions": 304.3,
+    "gdp_growth_pct": 4.9,
+    "gdp_per_capita": 3900,
+    "inflation_pct": 4.9,
+    "unemployment_pct": 9.5,
+    "exports_billions": 14.33,
+    "imports_billions": 24.1
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.4
+  },
+  "political": {}
+}

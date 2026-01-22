@@ -1,0 +1,24 @@
+{
+  "country": "Moldova",
+  "region": "Europe",
+  "year": 2020,
+  "demographics": {
+    "population": 3364496,
+    "population_growth_pct": -1.08,
+    "life_expectancy": 71.9,
+    "median_age": 37.7
+  },
+  "economy": {
+    "gdp_growth_pct": 4.5,
+    "gdp_per_capita": 2441,
+    "inflation_pct": 4.8,
+    "unemployment_pct": 7.4,
+    "exports_billions": 3.98,
+    "imports_billions": 7.11,
+    "external_debt_billions": 6.55
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.4
+  },
+  "political": {}
+}

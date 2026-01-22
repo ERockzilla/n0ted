@@ -1,0 +1,19 @@
+{
+  "country": "French Guiana",
+  "region": "Unknown",
+  "year": 2001,
+  "demographics": {
+    "population": 177562,
+    "population_growth_pct": 2.74
+  },
+  "economy": {
+    "gdp_ppp_billions": 1.0,
+    "gdp_per_capita": 6000,
+    "inflation_pct": 2.5,
+    "unemployment_pct": 21.4,
+    "exports_billions": 0.155,
+    "imports_billions": 0.625
+  },
+  "military": {},
+  "political": {}
+}

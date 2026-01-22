@@ -1,0 +1,22 @@
+{
+  "country": "Latvia",
+  "region": "Europe",
+  "year": 2003,
+  "demographics": {
+    "population": 2348784,
+    "life_expectancy": 69.31
+  },
+  "economy": {
+    "gdp_ppp_billions": 20.99,
+    "gdp_growth_pct": 6.1,
+    "gdp_per_capita": 8900,
+    "inflation_pct": 2.0,
+    "unemployment_pct": 7.6,
+    "exports_billions": 2.3,
+    "imports_billions": 3.9
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.2
+  },
+  "political": {}
+}

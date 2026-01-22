@@ -1,0 +1,23 @@
+{
+  "country": "Sri Lanka",
+  "region": "South Asia",
+  "year": 2008,
+  "demographics": {
+    "population": 21128772,
+    "population_growth_pct": 0.94,
+    "life_expectancy": 74.97
+  },
+  "economy": {
+    "gdp_ppp_billions": 82.02,
+    "gdp_growth_pct": 6.8,
+    "gdp_per_capita": 4000,
+    "inflation_pct": 15.8,
+    "unemployment_pct": 6.0,
+    "exports_billions": 8.13,
+    "imports_billions": 10.36
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.6
+  },
+  "political": {}
+}

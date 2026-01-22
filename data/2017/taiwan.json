@@ -1,0 +1,21 @@
+{
+  "country": "Taiwan",
+  "region": "East & Southeast Asia",
+  "year": 2017,
+  "demographics": {
+    "population": 23508428,
+    "population_growth_pct": 0.2,
+    "life_expectancy": 80.2
+  },
+  "economy": {
+    "gdp_ppp_billions": 1132.0,
+    "gdp_growth_pct": 1.4,
+    "gdp_per_capita": 48100,
+    "inflation_pct": 1.4,
+    "unemployment_pct": 3.9,
+    "exports_billions": 310.4,
+    "imports_billions": 239.7
+  },
+  "military": {},
+  "political": {}
+}

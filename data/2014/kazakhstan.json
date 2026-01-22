@@ -1,0 +1,23 @@
+{
+  "country": "Kazakhstan",
+  "region": "Central Asia",
+  "year": 2014,
+  "demographics": {
+    "population": 17948816,
+    "population_growth_pct": 1.17,
+    "life_expectancy": 70.24
+  },
+  "economy": {
+    "gdp_ppp_billions": 243.6,
+    "gdp_growth_pct": 5.0,
+    "gdp_per_capita": 14100,
+    "inflation_pct": 5.8,
+    "unemployment_pct": 5.3,
+    "exports_billions": 87.23,
+    "imports_billions": 52.03
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.21
+  },
+  "political": {}
+}

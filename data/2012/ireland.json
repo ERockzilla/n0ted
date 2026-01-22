@@ -1,0 +1,23 @@
+{
+  "country": "Ireland",
+  "region": "Europe",
+  "year": 2012,
+  "demographics": {
+    "population": 4722028,
+    "population_growth_pct": 1.11,
+    "life_expectancy": 80.32
+  },
+  "economy": {
+    "gdp_ppp_billions": 191.5,
+    "gdp_growth_pct": 0.7,
+    "gdp_per_capita": 41700,
+    "inflation_pct": 1.3,
+    "unemployment_pct": 14.6,
+    "exports_billions": 113.6,
+    "imports_billions": 63.1
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.9
+  },
+  "political": {}
+}

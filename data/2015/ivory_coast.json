@@ -1,0 +1,22 @@
+{
+  "country": "Ivory Coast",
+  "region": "Unknown",
+  "year": 2015,
+  "demographics": {
+    "population": 22848945,
+    "population_growth_pct": 1.96,
+    "life_expectancy": 58.01
+  },
+  "economy": {
+    "gdp_growth_pct": 8.5,
+    "gdp_per_capita": 2900,
+    "inflation_pct": 0.4,
+    "exports_billions": 14.58,
+    "imports_billions": 9.79,
+    "gdp_ppp_billions": 71.95
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.65
+  },
+  "political": {}
+}

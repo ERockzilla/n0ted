@@ -1,0 +1,23 @@
+{
+  "country": "Australia",
+  "region": "Australia-Oceania",
+  "year": 2018,
+  "demographics": {
+    "population": 23470145,
+    "population_growth_pct": 1.01,
+    "life_expectancy": 82.4
+  },
+  "economy": {
+    "gdp_ppp_billions": 1248.0,
+    "gdp_growth_pct": 2.2,
+    "gdp_per_capita": 50400,
+    "inflation_pct": 2.0,
+    "unemployment_pct": 12.6,
+    "exports_billions": 231.6,
+    "imports_billions": 221.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.0
+  },
+  "political": {}
+}

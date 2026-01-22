@@ -1,0 +1,22 @@
+{
+  "country": "Chile",
+  "region": "South America",
+  "year": 2007,
+  "demographics": {
+    "population": 16284741,
+    "life_expectancy": 76.96
+  },
+  "economy": {
+    "gdp_ppp_billions": 202.7,
+    "gdp_growth_pct": 4.0,
+    "gdp_per_capita": 12600,
+    "inflation_pct": 3.4,
+    "unemployment_pct": 7.8,
+    "exports_billions": 58.12,
+    "imports_billions": 35.9
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.7
+  },
+  "political": {}
+}

@@ -1,0 +1,16 @@
+{
+  "country": "Northern Mariana Islands",
+  "region": "Australia-Oceania",
+  "year": 2003,
+  "demographics": {
+    "population": 80006,
+    "life_expectancy": 76.16
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.9,
+    "gdp_per_capita": 12500,
+    "inflation_pct": 1.2
+  },
+  "military": {},
+  "political": {}
+}

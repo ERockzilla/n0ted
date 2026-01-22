@@ -1,0 +1,23 @@
+{
+  "country": "Latvia",
+  "region": "Europe",
+  "year": 2019,
+  "demographics": {
+    "population": 1923559,
+    "population_growth_pct": -1.1,
+    "life_expectancy": 74.9
+  },
+  "economy": {
+    "gdp_ppp_billions": 54.02,
+    "gdp_growth_pct": 4.5,
+    "gdp_per_capita": 27700,
+    "inflation_pct": 2.9,
+    "unemployment_pct": 17.0,
+    "exports_billions": 12.84,
+    "imports_billions": 15.79
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.01
+  },
+  "political": {}
+}

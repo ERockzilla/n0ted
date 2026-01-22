@@ -1,0 +1,24 @@
+{
+  "country": "Mali",
+  "region": "Africa",
+  "year": 2020,
+  "demographics": {
+    "population": 19553397,
+    "population_growth_pct": 2.95,
+    "life_expectancy": 61.6,
+    "median_age": 16.0
+  },
+  "economy": {
+    "gdp_growth_pct": 5.4,
+    "gdp_per_capita": 792,
+    "inflation_pct": 1.9,
+    "unemployment_pct": 16.9,
+    "exports_billions": 3.06,
+    "imports_billions": 3.64,
+    "external_debt_billions": 4.19
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.7
+  },
+  "political": {}
+}

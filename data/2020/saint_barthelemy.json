@@ -1,0 +1,14 @@
+{
+  "country": "Saint Barthelemy",
+  "region": "Central America and Caribbean",
+  "year": 2020,
+  "demographics": {
+    "population": 7122,
+    "median_age": 45.6,
+    "population_growth_pct": -0.25,
+    "life_expectancy": 80.2
+  },
+  "economy": {},
+  "military": {},
+  "political": {}
+}

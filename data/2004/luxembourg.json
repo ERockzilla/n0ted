@@ -1,0 +1,22 @@
+{
+  "country": "Luxembourg",
+  "region": "Europe",
+  "year": 2004,
+  "demographics": {
+    "population": 468571,
+    "life_expectancy": 78.74
+  },
+  "economy": {
+    "gdp_ppp_billions": 25.01,
+    "gdp_growth_pct": 1.2,
+    "gdp_per_capita": 55100,
+    "inflation_pct": 2.0,
+    "unemployment_pct": 3.6,
+    "exports_billions": 8.57,
+    "imports_billions": 11.61
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.9
+  },
+  "political": {}
+}

@@ -1,0 +1,21 @@
+{
+  "country": "Bhutan",
+  "region": "South Asia",
+  "year": 2016,
+  "demographics": {
+    "population": 750125,
+    "population_growth_pct": 1.09,
+    "life_expectancy": 70.1
+  },
+  "economy": {
+    "gdp_ppp_billions": 5.99,
+    "gdp_growth_pct": 5.2,
+    "gdp_per_capita": 7700,
+    "inflation_pct": 6.3,
+    "unemployment_pct": 2.6,
+    "exports_billions": 0.58,
+    "imports_billions": 1.0
+  },
+  "military": {},
+  "political": {}
+}

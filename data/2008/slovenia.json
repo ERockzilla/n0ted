@@ -1,0 +1,23 @@
+{
+  "country": "Slovenia",
+  "region": "Europe",
+  "year": 2008,
+  "demographics": {
+    "population": 2007711,
+    "population_growth_pct": -0.09,
+    "life_expectancy": 76.73
+  },
+  "economy": {
+    "gdp_ppp_billions": 56.19,
+    "gdp_growth_pct": 6.1,
+    "gdp_per_capita": 28000,
+    "inflation_pct": 3.6,
+    "unemployment_pct": 7.7,
+    "exports_billions": 27.06,
+    "imports_billions": 29.39
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.7
+  },
+  "political": {}
+}

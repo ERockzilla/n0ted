@@ -1,0 +1,22 @@
+{
+  "country": "Equatorial Guinea",
+  "region": "Africa",
+  "year": 2006,
+  "demographics": {
+    "population": 540109,
+    "life_expectancy": 49.54
+  },
+  "economy": {
+    "gdp_ppp_billions": 25.69,
+    "gdp_growth_pct": 18.6,
+    "gdp_per_capita": 50200,
+    "inflation_pct": 5.0,
+    "unemployment_pct": 30.0,
+    "exports_billions": 6.73,
+    "imports_billions": 1.86
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.1
+  },
+  "political": {}
+}

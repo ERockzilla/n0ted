@@ -1,0 +1,24 @@
+{
+  "country": "Belarus",
+  "region": "Europe",
+  "year": 2020,
+  "demographics": {
+    "population": 9477918,
+    "population_growth_pct": -0.27,
+    "life_expectancy": 73.8,
+    "median_age": 40.9
+  },
+  "economy": {
+    "gdp_growth_pct": 1.22,
+    "gdp_per_capita": 6695,
+    "inflation_pct": 5.6,
+    "unemployment_pct": 10.6,
+    "exports_billions": 28.65,
+    "imports_billions": 31.58,
+    "external_debt_billions": 39.92
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.2
+  },
+  "political": {}
+}

@@ -1,0 +1,23 @@
+{
+  "country": "Poland",
+  "region": "Europe",
+  "year": 2013,
+  "demographics": {
+    "population": 38383809,
+    "population_growth_pct": -0.09,
+    "life_expectancy": 76.45
+  },
+  "economy": {
+    "gdp_ppp_billions": 792.4,
+    "gdp_growth_pct": 1.9,
+    "gdp_per_capita": 20600,
+    "inflation_pct": 3.7,
+    "unemployment_pct": 12.8,
+    "exports_billions": 191.0,
+    "imports_billions": 197.7
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.9
+  },
+  "political": {}
+}

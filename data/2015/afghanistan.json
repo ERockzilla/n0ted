@@ -1,0 +1,21 @@
+{
+  "country": "Afghanistan",
+  "region": "South Asia",
+  "year": 2015,
+  "demographics": {
+    "population": 31822848,
+    "population_growth_pct": 2.29,
+    "life_expectancy": 50.49
+  },
+  "economy": {
+    "gdp_ppp_billions": 61.69,
+    "gdp_growth_pct": 3.2,
+    "gdp_per_capita": 2000,
+    "inflation_pct": 4.6,
+    "unemployment_pct": 35.0,
+    "exports_billions": 2.79,
+    "imports_billions": 6.39
+  },
+  "military": {},
+  "political": {}
+}

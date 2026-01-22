@@ -1,0 +1,24 @@
+{
+  "country": "Malawi",
+  "region": "Africa",
+  "year": 2020,
+  "demographics": {
+    "population": 21196629,
+    "population_growth_pct": 3.3,
+    "life_expectancy": 63.2,
+    "median_age": 16.8
+  },
+  "economy": {
+    "gdp_growth_pct": 4.0,
+    "gdp_per_capita": 1200,
+    "inflation_pct": 9.3,
+    "exports_billions": 10.72,
+    "imports_billions": 12.82,
+    "external_debt_billions": 2.1,
+    "unemployment_pct": 40.5
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.9
+  },
+  "political": {}
+}

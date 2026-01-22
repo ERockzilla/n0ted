@@ -1,0 +1,23 @@
+{
+  "country": "France",
+  "region": "Europe",
+  "year": 2008,
+  "demographics": {
+    "population": 64057792,
+    "population_growth_pct": 0.57,
+    "life_expectancy": 80.87
+  },
+  "economy": {
+    "gdp_ppp_billions": 2075.0,
+    "gdp_growth_pct": 2.1,
+    "gdp_per_capita": 32600,
+    "inflation_pct": 1.5,
+    "unemployment_pct": 7.9,
+    "exports_billions": 546.0,
+    "imports_billions": 600.9
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.6
+  },
+  "political": {}
+}

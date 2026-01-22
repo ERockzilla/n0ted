@@ -1,0 +1,23 @@
+{
+  "country": "Netherlands",
+  "region": "Europe",
+  "year": 2013,
+  "demographics": {
+    "population": 16805037,
+    "population_growth_pct": 0.44,
+    "life_expectancy": 81.01
+  },
+  "economy": {
+    "gdp_ppp_billions": 695.8,
+    "gdp_growth_pct": -1.2,
+    "gdp_per_capita": 41500,
+    "inflation_pct": 2.8,
+    "unemployment_pct": 5.3,
+    "exports_billions": 540.3,
+    "imports_billions": 476.5
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.6
+  },
+  "political": {}
+}

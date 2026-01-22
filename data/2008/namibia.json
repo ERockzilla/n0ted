@@ -1,0 +1,23 @@
+{
+  "country": "Namibia",
+  "region": "Africa",
+  "year": 2008,
+  "demographics": {
+    "population": 2088669,
+    "population_growth_pct": 0.95,
+    "life_expectancy": 49.89
+  },
+  "economy": {
+    "gdp_ppp_billions": 10.69,
+    "gdp_growth_pct": 3.6,
+    "gdp_per_capita": 5200,
+    "inflation_pct": 6.7,
+    "unemployment_pct": 5.2,
+    "exports_billions": 2.92,
+    "imports_billions": 3.09
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.7
+  },
+  "political": {}
+}

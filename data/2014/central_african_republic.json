@@ -1,0 +1,21 @@
+{
+  "country": "Central African Republic",
+  "region": "Africa",
+  "year": 2014,
+  "demographics": {
+    "population": 5277959,
+    "population_growth_pct": 2.13,
+    "life_expectancy": 51.35
+  },
+  "economy": {
+    "gdp_ppp_billions": 3.34,
+    "gdp_growth_pct": -14.5,
+    "gdp_per_capita": 700,
+    "inflation_pct": 7.0,
+    "unemployment_pct": 8.0,
+    "exports_billions": 0.14,
+    "imports_billions": 0.22
+  },
+  "military": {},
+  "political": {}
+}

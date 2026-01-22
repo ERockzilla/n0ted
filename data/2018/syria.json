@@ -1,0 +1,21 @@
+{
+  "country": "Syria",
+  "region": "Middle East",
+  "year": 2018,
+  "demographics": {
+    "population": 19454263,
+    "population_growth_pct": 7.37,
+    "life_expectancy": 75.2
+  },
+  "economy": {
+    "gdp_ppp_billions": 50.28,
+    "gdp_growth_pct": -36.5,
+    "gdp_per_capita": 2900,
+    "inflation_pct": 28.1,
+    "unemployment_pct": 35.8,
+    "exports_billions": 1.85,
+    "imports_billions": 6.28
+  },
+  "military": {},
+  "political": {}
+}

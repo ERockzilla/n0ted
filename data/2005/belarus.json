@@ -1,0 +1,22 @@
+{
+  "country": "Belarus",
+  "region": "Europe",
+  "year": 2005,
+  "demographics": {
+    "population": 10300483,
+    "life_expectancy": 68.72
+  },
+  "economy": {
+    "gdp_ppp_billions": 70.5,
+    "gdp_growth_pct": 6.4,
+    "gdp_per_capita": 6800,
+    "inflation_pct": 17.4,
+    "unemployment_pct": 2.0,
+    "exports_billions": 11.47,
+    "imports_billions": 13.57
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.4
+  },
+  "political": {}
+}

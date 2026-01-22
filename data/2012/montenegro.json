@@ -1,0 +1,20 @@
+{
+  "country": "Montenegro",
+  "region": "Europe",
+  "year": 2012,
+  "demographics": {
+    "population": 657394,
+    "population_growth_pct": -0.63
+  },
+  "economy": {
+    "gdp_ppp_billions": 7.29,
+    "gdp_growth_pct": 0.2,
+    "gdp_per_capita": 11700,
+    "inflation_pct": 3.0,
+    "unemployment_pct": 11.5,
+    "exports_billions": 0.64,
+    "imports_billions": 2.5
+  },
+  "military": {},
+  "political": {}
+}

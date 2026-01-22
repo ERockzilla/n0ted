@@ -1,0 +1,24 @@
+{
+  "country": "Congo, Democratic Republic Of The",
+  "region": "Unknown",
+  "year": 2010,
+  "demographics": {
+    "population": 70916439,
+    "population_growth_pct": 3.165,
+    "life_expectancy": 54.73,
+    "median_age": 16.5
+  },
+  "economy": {
+    "gdp_ppp_billions": 22.92,
+    "gdp_growth_pct": 3.0,
+    "gdp_per_capita": 300,
+    "inflation_pct": 26.2,
+    "exports_billions": 3.8,
+    "imports_billions": 5.2,
+    "external_debt_billions": 4.3
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.5
+  },
+  "political": {}
+}

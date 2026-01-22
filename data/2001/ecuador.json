@@ -1,0 +1,22 @@
+{
+  "country": "Ecuador",
+  "region": "South America",
+  "year": 2001,
+  "demographics": {
+    "population": 13183978,
+    "population_growth_pct": 2.0
+  },
+  "economy": {
+    "gdp_ppp_billions": 37.2,
+    "gdp_growth_pct": 0.8,
+    "gdp_per_capita": 2900,
+    "inflation_pct": 96.0,
+    "unemployment_pct": 13.0,
+    "exports_billions": 5.6,
+    "imports_billions": 3.4
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.4
+  },
+  "political": {}
+}

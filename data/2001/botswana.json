@@ -1,0 +1,22 @@
+{
+  "country": "Botswana",
+  "region": "Africa",
+  "year": 2001,
+  "demographics": {
+    "population": 1586119,
+    "population_growth_pct": 0.47
+  },
+  "economy": {
+    "gdp_ppp_billions": 10.4,
+    "gdp_growth_pct": 6.0,
+    "gdp_per_capita": 6600,
+    "inflation_pct": 8.6,
+    "unemployment_pct": 40.0,
+    "exports_billions": 2.6,
+    "imports_billions": 2.2
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.2
+  },
+  "political": {}
+}

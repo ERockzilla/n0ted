@@ -1,0 +1,21 @@
+{
+  "country": "Solomon Islands",
+  "region": "Australia-Oceania",
+  "year": 2013,
+  "demographics": {
+    "population": 597248,
+    "population_growth_pct": 2.12,
+    "life_expectancy": 74.66
+  },
+  "economy": {
+    "gdp_ppp_billions": 1.86,
+    "gdp_growth_pct": 4.8,
+    "gdp_per_capita": 3300,
+    "inflation_pct": 2.6,
+    "imports_billions": 0.45
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.7
+  },
+  "political": {}
+}

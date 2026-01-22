@@ -1,0 +1,22 @@
+{
+  "country": "Finland",
+  "region": "Europe",
+  "year": 2006,
+  "demographics": {
+    "population": 5231372,
+    "life_expectancy": 78.5
+  },
+  "economy": {
+    "gdp_ppp_billions": 161.9,
+    "gdp_growth_pct": 3.0,
+    "gdp_per_capita": 31000,
+    "inflation_pct": 0.9,
+    "unemployment_pct": 8.4,
+    "exports_billions": 67.88,
+    "imports_billions": 56.45
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.0
+  },
+  "political": {}
+}

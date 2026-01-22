@@ -1,0 +1,22 @@
+{
+  "country": "Madagascar",
+  "region": "Africa",
+  "year": 2012,
+  "demographics": {
+    "population": 22005222,
+    "population_growth_pct": 2.68,
+    "life_expectancy": 64.0
+  },
+  "economy": {
+    "gdp_ppp_billions": 21.37,
+    "gdp_growth_pct": 1.9,
+    "gdp_per_capita": 1000,
+    "inflation_pct": 9.2,
+    "exports_billions": 1.53,
+    "imports_billions": 3.88
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.0
+  },
+  "political": {}
+}

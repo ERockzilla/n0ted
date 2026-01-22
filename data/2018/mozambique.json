@@ -1,0 +1,23 @@
+{
+  "country": "Mozambique",
+  "region": "Africa",
+  "year": 2018,
+  "demographics": {
+    "population": 27233789,
+    "population_growth_pct": 2.46,
+    "life_expectancy": 54.1
+  },
+  "economy": {
+    "gdp_ppp_billions": 37.09,
+    "gdp_growth_pct": 3.7,
+    "gdp_per_capita": 1300,
+    "inflation_pct": 15.3,
+    "unemployment_pct": 7.4,
+    "exports_billions": 4.72,
+    "imports_billions": 5.22
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.03
+  },
+  "political": {}
+}

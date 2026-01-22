@@ -4,31 +4,19 @@
   "year": 2010,
   "demographics": {
     "population": 291000,
-    "median_age": 29.5,
     "population_growth_pct": 1.355,
-    "birth_rate": 15.67,
-    "death_rate": 4.8,
-    "life_expectancy": 76.91
+    "life_expectancy": 76.91,
+    "median_age": 29.5
   },
   "economy": {
     "gdp_ppp_billions": 4.718,
     "gdp_growth_pct": 2.7,
     "gdp_per_capita": 18000,
-    "unemployment_pct": 11.7,
     "inflation_pct": 1.1,
-    "electricity_kwh": 650,
-    "oil_production_bbl_day": 0,
-    "oil_consumption_bbl_day": 7000,
-    "gas_production_cu_m": 0,
+    "unemployment_pct": 11.7,
     "exports_billions": 0.211,
     "imports_billions": 1.706
   },
-  "military": {
-    "manpower_available": 16
-  },
-  "political": {
-    "chief_of_state": "Nicolas SARKOZY",
-    "head_of_government": "of French Polynesia Gaston Tong SANG",
-    "last_election": "27 January 2008"
-  }
+  "military": {},
+  "political": {}
 }

@@ -1,0 +1,21 @@
+{
+  "country": "Benin",
+  "region": "Africa",
+  "year": 2005,
+  "demographics": {
+    "population": 7649360,
+    "life_expectancy": 52.66
+  },
+  "economy": {
+    "gdp_ppp_billions": 8.34,
+    "gdp_growth_pct": 5.0,
+    "gdp_per_capita": 1200,
+    "inflation_pct": 2.8,
+    "exports_billions": 0.72,
+    "imports_billions": 0.93
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.4
+  },
+  "political": {}
+}

@@ -1,0 +1,22 @@
+{
+  "country": "Myanmar",
+  "region": "East & Southeast Asia",
+  "year": 2007,
+  "demographics": {
+    "population": 47373958,
+    "life_expectancy": 62.49
+  },
+  "economy": {
+    "gdp_growth_pct": 3.0,
+    "gdp_per_capita": 1800,
+    "inflation_pct": 20.0,
+    "unemployment_pct": 10.2,
+    "exports_billions": 5.32,
+    "imports_billions": 2.28,
+    "gdp_ppp_billions": 85.2
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.1
+  },
+  "political": {}
+}

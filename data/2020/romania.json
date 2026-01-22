@@ -1,0 +1,24 @@
+{
+  "country": "Romania",
+  "region": "Europe",
+  "year": 2020,
+  "demographics": {
+    "population": 21302893,
+    "population_growth_pct": -0.37,
+    "life_expectancy": 76.0,
+    "median_age": 42.5
+  },
+  "economy": {
+    "gdp_growth_pct": 4.2,
+    "gdp_per_capita": 12011,
+    "inflation_pct": 3.8,
+    "unemployment_pct": 16.2,
+    "exports_billions": 114.31,
+    "imports_billions": 136.09,
+    "external_debt_billions": 95.97
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.04
+  },
+  "political": {}
+}

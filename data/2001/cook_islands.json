@@ -1,0 +1,17 @@
+{
+  "country": "Cook Islands",
+  "region": "Australia-Oceania",
+  "year": 2001,
+  "demographics": {
+    "population": 20611
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.1,
+    "gdp_per_capita": 5000,
+    "inflation_pct": 1.6,
+    "exports_billions": 0.003,
+    "imports_billions": 0.085
+  },
+  "military": {},
+  "political": {}
+}

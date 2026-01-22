@@ -1,0 +1,23 @@
+{
+  "country": "Japan",
+  "region": "East & Southeast Asia",
+  "year": 2008,
+  "demographics": {
+    "population": 127288416,
+    "population_growth_pct": -0.14,
+    "life_expectancy": 82.07
+  },
+  "economy": {
+    "gdp_ppp_billions": 4272.0,
+    "gdp_growth_pct": 2.0,
+    "gdp_per_capita": 33500,
+    "inflation_pct": 0.1,
+    "unemployment_pct": 3.8,
+    "exports_billions": 678.1,
+    "imports_billions": 573.3
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.8
+  },
+  "political": {}
+}

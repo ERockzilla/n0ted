@@ -1,0 +1,23 @@
+{
+  "country": "Benin",
+  "region": "Africa",
+  "year": 2019,
+  "demographics": {
+    "population": 11340504,
+    "population_growth_pct": 2.68,
+    "life_expectancy": 62.7
+  },
+  "economy": {
+    "gdp_ppp_billions": 25.39,
+    "gdp_growth_pct": 5.6,
+    "gdp_per_capita": 2300,
+    "inflation_pct": 0.1,
+    "exports_billions": 1.97,
+    "imports_billions": 2.79,
+    "unemployment_pct": 5.6
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.86
+  },
+  "political": {}
+}

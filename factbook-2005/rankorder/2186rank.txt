@@ -1,0 +1,112 @@
+This tab-delimited file can be read by most spreadsheet applications after being saved properly.  At the top of your browser window, click 'File' and 'Save As...'  After saving the file, open your spreadsheet, find the file you just saved and then 'Open' it.
+Rank 	 Country 	 Public debt(% of GDP) 	 Date of Information
+1 	 Malawi 	    228.30 	 2004 est.
+2 	 Lebanon 	    177.90 	 2004 est.
+3 	 Japan 	    164.30 	 2004 est.
+4 	 Jamaica 	    146.10 	 2004 est.
+5 	 Zambia 	    127.50 	 2004 est.
+6 	 Seychelles 	    122.80 	 2004 est.
+7 	 Argentina 	    118.00 	 June 2004 est.
+8 	 Greece 	    112.00 	 2004 est.
+9 	 Italy 	    105.60 	 2004 est.
+10 	 Israel 	    104.50 	 2004 est.
+11 	 Sri Lanka 	    104.30 	 2004 est.
+12 	 Egypt 	    102.70 	 2004 est.
+13 	 Singapore 	    102.50 	 2004 est.
+14 	 Belgium 	     96.20 	 2004 est.
+15 	 Jordan 	     85.80 	 2004 est.
+16 	 Serbia and Montenegro 	     80.00 	 2004 est.
+17 	 Sudan 	     79.70 	 2004 est.
+18 	 Saudi Arabia 	     75.00 	 2004 est.
+19 	 Cyprus 	     74.90 	 2004 est.
+20 	 Cote d'Ivoire 	     74.80 	 2004 est.
+21 	 Kenya 	     74.30 	 2004 est.
+22 	 Turkey 	     74.30 	 2004 est.
+23 	 Philippines 	     74.20 	 September 2004 est.
+24 	 Honduras 	     74.10 	 2004 est.
+25 	 Uganda 	     73.90 	 2004 est.
+26 	 Pakistan 	     71.40 	 2004 est.
+27 	 Morocco 	     70.20 	 2004 est.
+28 	 Nicaragua 	     69.50 	 2004 est.
+29 	 Panama 	     69.20 	 2004 est.
+30 	 Cameroon 	     69.10 	 2004 est.
+31 	 France 	     67.70 	 2004 est.
+32 	 Vietnam 	     65.90 	 2004 est.
+33 	 Germany 	     65.80 	 2004 est.
+34 	 United States 	     65.00 	 2004 est.
+35 	 Austria 	     64.20 	 2004 est.
+36 	 Bahrain 	     63.80 	 2004 est.
+37 	 Moldova 	     63.40 	 2004 est.
+38 	 Portugal 	     61.50 	 2004 est.
+39 	 Dominican Republic 	     61.10 	 2004 est.
+40 	 India 	     59.70 	 2004 est.
+41 	 Papua New Guinea 	     59.30 	 2004 est.
+42 	 Tunisia 	     59.20 	 2004 est.
+43 	 Hungary 	     58.30 	 2004 est.
+44 	 Costa Rica 	     58.00 	 2004 est.
+45 	 Switzerland 	     57.20 	 2004 est.
+46 	 Indonesia 	     56.20 	 2004 est.
+47 	 Netherlands 	     55.80 	 2004 est.
+48 	 Senegal 	     55.20 	 2004 est.
+49 	 Trinidad and Tobago 	     54.40 	 2004 est.
+50 	 Spain 	     53.20 	 2004 est.
+51 	 Zimbabwe 	     52.30 	 2004 est.
+52 	 Brazil 	     52.00 	 2004 est.
+53 	 Colombia 	     51.80 	 2004 est.
+54 	 Sweden 	     51.60 	 2004 est.
+55 	 Poland 	     49.90 	 2004 est.
+56 	 Ecuador 	     49.20 	 2004 est.
+57 	 Thailand 	     47.60 	 November 2004 est.
+58 	 Finland 	     46.80 	 2004 est.
+59 	 Slovakia 	     46.60 	 2004 est.
+60 	 Yemen 	     46.40 	 2004 est.
+61 	 South Africa 	     45.90 	 2004 est.
+62 	 Malaysia 	     45.40 	 2004 est.
+63 	 Peru 	     44.10 	 2004 est.
+64 	 Venezuela 	     43.10 	 2004 est.
+65 	 Bangladesh 	     43.00 	 2004 est.
+66 	 Denmark 	     42.50 	 2004 est.
+67 	 Bulgaria 	     41.90 	 2004 est.
+68 	 El Salvador 	     41.70 	 2004 est.
+69 	 Croatia 	     41.70 	 2004 est.
+70 	 Uzbekistan 	     41.50 	 2004 est.
+71 	 United Kingdom 	     39.60 	 2004 est.
+72 	 Paraguay 	     39.20 	 2004 est.
+73 	 Namibia 	     38.50 	 2004 est.
+74 	 Algeria 	     37.40 	 2004 est.
+75 	 Iceland 	     35.90 	 2004 est.
+76 	 Czech Republic 	     33.50 	 2004 est.
+77 	 Norway 	     33.10 	 2004 est.
+78 	 Taiwan 	     32.40 	 2004 est.
+79 	 Guatemala 	     32.00 	 2004 est.
+80 	 Syria 	     32.00 	 2004 est.
+81 	 Slovenia 	     31.50 	 2004 est.
+82 	 China 	     31.40 	 2004 est.
+83 	 Ireland 	     31.20 	 2004 est.
+84 	 Kuwait 	     29.60 	 2004 est.
+85 	 Gabon 	     29.30 	 2004 est.
+86 	 Mauritius 	     29.20 	 2004 est.
+87 	 Russia 	     28.20 	 2004 est.
+88 	 Iran 	     27.00 	 2004 est.
+89 	 Lithuania 	     25.20 	 2004 est.
+90 	 Ukraine 	     24.70 	 2004 est.
+91 	 Romania 	     23.60 	 2004 est.
+92 	 Mexico 	     23.50 	 2004 est.
+93 	 New Zealand 	     22.10 	 2004 est.
+94 	 Korea, South 	     21.30 	 2004 est.
+95 	 Macedonia 	     20.00 	 2004 est.
+96 	 Nigeria 	     20.00 	 2004 est.
+97 	 Azerbaijan 	     18.90 	 2004 est.
+98 	 United Arab Emirates 	     17.60 	 2004 est.
+99 	 Australia 	     17.40 	 2004 est.
+100 	 Kazakhstan 	     13.70 	 2004 est.
+101 	 Chile 	     12.80 	 2004 est.
+102 	 Latvia 	     11.80 	 2004 est.
+103 	 Oman 	     10.30 	 2004 est.
+104 	 Libya 	      8.80 	 2004 est.
+105 	 Botswana 	      8.60 	 2004 est.
+106 	 Estonia 	      5.40 	 2004 est.
+107 	 Tanzania 	      5.00 	 2004 est.
+108 	 Hong Kong 	      2.10 	 2004 est.
+
+ This file was last updated on 20 October, 2005

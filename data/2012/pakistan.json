@@ -1,0 +1,23 @@
+{
+  "country": "Pakistan",
+  "region": "South Asia",
+  "year": 2012,
+  "demographics": {
+    "population": 190291129,
+    "population_growth_pct": 1.55,
+    "life_expectancy": 66.35
+  },
+  "economy": {
+    "gdp_ppp_billions": 514.6,
+    "gdp_growth_pct": 3.7,
+    "gdp_per_capita": 2900,
+    "inflation_pct": 11.3,
+    "unemployment_pct": 5.6,
+    "exports_billions": 24.66,
+    "imports_billions": 40.82
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.0
+  },
+  "political": {}
+}

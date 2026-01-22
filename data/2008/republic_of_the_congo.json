@@ -1,0 +1,22 @@
+{
+  "country": "Republic Of The Congo",
+  "region": "Unknown",
+  "year": 2008,
+  "demographics": {
+    "population": 3903318,
+    "population_growth_pct": 2.7,
+    "life_expectancy": 53.74
+  },
+  "economy": {
+    "gdp_growth_pct": -1.6,
+    "gdp_per_capita": 3400,
+    "inflation_pct": 2.7,
+    "exports_billions": 5.8,
+    "imports_billions": 2.63,
+    "gdp_ppp_billions": 12.86
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.1
+  },
+  "political": {}
+}

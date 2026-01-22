@@ -1,0 +1,23 @@
+{
+  "country": "Georgia",
+  "region": "Middle East",
+  "year": 2012,
+  "demographics": {
+    "population": 4570934,
+    "population_growth_pct": -0.33,
+    "life_expectancy": 77.32
+  },
+  "economy": {
+    "gdp_ppp_billions": 26.4,
+    "gdp_growth_pct": 6.0,
+    "gdp_per_capita": 5900,
+    "inflation_pct": 4.5,
+    "unemployment_pct": 16.3,
+    "exports_billions": 3.32,
+    "imports_billions": 6.62
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.9
+  },
+  "political": {}
+}

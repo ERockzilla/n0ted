@@ -1,0 +1,23 @@
+{
+  "country": "Fiji",
+  "region": "Australia-Oceania",
+  "year": 2017,
+  "demographics": {
+    "population": 920938,
+    "population_growth_pct": 0.6,
+    "life_expectancy": 73.0
+  },
+  "economy": {
+    "gdp_ppp_billions": 8.3,
+    "gdp_growth_pct": 2.0,
+    "gdp_per_capita": 9300,
+    "inflation_pct": 3.9,
+    "unemployment_pct": 8.8,
+    "exports_billions": 0.71,
+    "imports_billions": 1.84
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.47
+  },
+  "political": {}
+}

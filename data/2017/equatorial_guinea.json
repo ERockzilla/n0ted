@@ -1,0 +1,21 @@
+{
+  "country": "Equatorial Guinea",
+  "region": "Africa",
+  "year": 2017,
+  "demographics": {
+    "population": 778358,
+    "population_growth_pct": 2.4,
+    "life_expectancy": 64.6
+  },
+  "economy": {
+    "gdp_ppp_billions": 31.72,
+    "gdp_growth_pct": -10.0,
+    "gdp_per_capita": 38600,
+    "inflation_pct": 1.4,
+    "unemployment_pct": 8.6,
+    "exports_billions": 5.04,
+    "imports_billions": 2.86
+  },
+  "military": {},
+  "political": {}
+}

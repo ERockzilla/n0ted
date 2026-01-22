@@ -1,0 +1,21 @@
+{
+  "country": "Liechtenstein",
+  "region": "Europe",
+  "year": 2011,
+  "demographics": {
+    "population": 35236,
+    "population_growth_pct": 0.65,
+    "life_expectancy": 80.31
+  },
+  "economy": {
+    "gdp_ppp_billions": 5.03,
+    "gdp_growth_pct": 1.8,
+    "gdp_per_capita": 141100,
+    "inflation_pct": 0.7,
+    "unemployment_pct": 1.5,
+    "exports_billions": 2.83,
+    "imports_billions": 1.77
+  },
+  "military": {},
+  "political": {}
+}

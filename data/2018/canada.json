@@ -1,0 +1,23 @@
+{
+  "country": "Canada",
+  "region": "North America",
+  "year": 2018,
+  "demographics": {
+    "population": 35881659,
+    "population_growth_pct": 0.72,
+    "life_expectancy": 82.0
+  },
+  "economy": {
+    "gdp_ppp_billions": 1774.0,
+    "gdp_growth_pct": 3.0,
+    "gdp_per_capita": 48400,
+    "inflation_pct": 1.6,
+    "unemployment_pct": 11.6,
+    "exports_billions": 423.5,
+    "imports_billions": 442.1
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.29
+  },
+  "political": {}
+}

@@ -1,0 +1,22 @@
+{
+  "country": "Sao Tome And Principe",
+  "region": "Africa",
+  "year": 2013,
+  "demographics": {
+    "population": 186817,
+    "population_growth_pct": 1.94,
+    "life_expectancy": 63.86
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.4,
+    "gdp_growth_pct": 4.0,
+    "gdp_per_capita": 2100,
+    "inflation_pct": 10.6,
+    "exports_billions": 0.01,
+    "imports_billions": 0.12
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.5
+  },
+  "political": {}
+}

@@ -1,0 +1,22 @@
+{
+  "country": "Peru",
+  "region": "South America",
+  "year": 2001,
+  "demographics": {
+    "population": 27483864,
+    "population_growth_pct": 1.7
+  },
+  "economy": {
+    "gdp_ppp_billions": 123.0,
+    "gdp_growth_pct": 3.6,
+    "gdp_per_capita": 4550,
+    "inflation_pct": 3.7,
+    "unemployment_pct": 7.7,
+    "exports_billions": 7.0,
+    "imports_billions": 7.4
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.9
+  },
+  "political": {}
+}

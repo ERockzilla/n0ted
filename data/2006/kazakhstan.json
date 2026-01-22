@@ -1,0 +1,22 @@
+{
+  "country": "Kazakhstan",
+  "region": "Central Asia",
+  "year": 2006,
+  "demographics": {
+    "population": 15233244,
+    "life_expectancy": 66.89
+  },
+  "economy": {
+    "gdp_ppp_billions": 125.3,
+    "gdp_growth_pct": 9.5,
+    "gdp_per_capita": 8300,
+    "inflation_pct": 7.6,
+    "unemployment_pct": 8.1,
+    "exports_billions": 30.09,
+    "imports_billions": 17.51
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.9
+  },
+  "political": {}
+}

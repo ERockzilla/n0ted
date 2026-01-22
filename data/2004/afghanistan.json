@@ -1,0 +1,21 @@
+{
+  "country": "Afghanistan",
+  "region": "South Asia",
+  "year": 2004,
+  "demographics": {
+    "population": 29928987,
+    "life_expectancy": 42.9
+  },
+  "economy": {
+    "gdp_ppp_billions": 20.0,
+    "gdp_growth_pct": 29.0,
+    "gdp_per_capita": 700,
+    "inflation_pct": 5.2,
+    "exports_billions": 0.1,
+    "imports_billions": 1.01
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.0
+  },
+  "political": {}
+}

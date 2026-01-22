@@ -1,0 +1,22 @@
+{
+  "country": "France",
+  "region": "Europe",
+  "year": 2001,
+  "demographics": {
+    "population": 59551227,
+    "population_growth_pct": 0.37
+  },
+  "economy": {
+    "gdp_ppp_billions": 1448.0,
+    "gdp_growth_pct": 3.1,
+    "gdp_per_capita": 24400,
+    "inflation_pct": 1.7,
+    "unemployment_pct": 9.7,
+    "exports_billions": 325.0,
+    "imports_billions": 320.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.5
+  },
+  "political": {}
+}

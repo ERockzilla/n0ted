@@ -1,0 +1,22 @@
+{
+  "country": "Switzerland",
+  "region": "Europe",
+  "year": 2001,
+  "demographics": {
+    "population": 7283274,
+    "population_growth_pct": 0.27
+  },
+  "economy": {
+    "gdp_ppp_billions": 207.0,
+    "gdp_growth_pct": 3.0,
+    "gdp_per_capita": 28600,
+    "inflation_pct": 1.5,
+    "unemployment_pct": 1.9,
+    "exports_billions": 91.3,
+    "imports_billions": 91.6
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.2
+  },
+  "political": {}
+}

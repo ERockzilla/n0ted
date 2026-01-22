@@ -1,0 +1,23 @@
+{
+  "country": "Thailand",
+  "region": "East & Southeast Asia",
+  "year": 2016,
+  "demographics": {
+    "population": 68200824,
+    "population_growth_pct": 0.32,
+    "life_expectancy": 74.7
+  },
+  "economy": {
+    "gdp_ppp_billions": 1110.0,
+    "gdp_growth_pct": 2.8,
+    "gdp_per_capita": 16100,
+    "inflation_pct": -0.9,
+    "unemployment_pct": 0.9,
+    "exports_billions": 212.1,
+    "imports_billions": 177.5
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.47
+  },
+  "political": {}
+}

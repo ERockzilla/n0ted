@@ -1,0 +1,23 @@
+{
+  "country": "Sri Lanka",
+  "region": "South Asia",
+  "year": 2018,
+  "demographics": {
+    "population": 22576592,
+    "population_growth_pct": 0.73,
+    "life_expectancy": 77.1
+  },
+  "economy": {
+    "gdp_ppp_billions": 275.8,
+    "gdp_growth_pct": 3.3,
+    "gdp_per_capita": 12900,
+    "inflation_pct": 6.5,
+    "unemployment_pct": 21.6,
+    "exports_billions": 11.36,
+    "imports_billions": 20.98
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.14
+  },
+  "political": {}
+}

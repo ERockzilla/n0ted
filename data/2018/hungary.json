@@ -1,0 +1,23 @@
+{
+  "country": "Hungary",
+  "region": "Europe",
+  "year": 2018,
+  "demographics": {
+    "population": 9825704,
+    "population_growth_pct": -0.26,
+    "life_expectancy": 76.3
+  },
+  "economy": {
+    "gdp_ppp_billions": 289.6,
+    "gdp_growth_pct": 4.0,
+    "gdp_per_capita": 29600,
+    "inflation_pct": 2.4,
+    "unemployment_pct": 12.9,
+    "exports_billions": 98.74,
+    "imports_billions": 96.3
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.01
+  },
+  "political": {}
+}

@@ -1,0 +1,23 @@
+{
+  "country": "Moldova",
+  "region": "Europe",
+  "year": 2008,
+  "demographics": {
+    "population": 4324450,
+    "population_growth_pct": -0.09,
+    "life_expectancy": 70.5
+  },
+  "economy": {
+    "gdp_ppp_billions": 9.76,
+    "gdp_growth_pct": 3.0,
+    "gdp_per_capita": 2300,
+    "inflation_pct": 12.3,
+    "unemployment_pct": 2.1,
+    "exports_billions": 1.36,
+    "imports_billions": 3.68
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.4
+  },
+  "political": {}
+}

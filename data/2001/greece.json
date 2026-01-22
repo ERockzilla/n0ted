@@ -1,0 +1,22 @@
+{
+  "country": "Greece",
+  "region": "Europe",
+  "year": 2001,
+  "demographics": {
+    "population": 10623835,
+    "population_growth_pct": 0.21
+  },
+  "economy": {
+    "gdp_ppp_billions": 181.9,
+    "gdp_growth_pct": 3.8,
+    "gdp_per_capita": 17200,
+    "inflation_pct": 3.1,
+    "unemployment_pct": 11.3,
+    "exports_billions": 15.8,
+    "imports_billions": 33.9
+  },
+  "military": {
+    "expenditure_pct_gdp": 4.91
+  },
+  "political": {}
+}

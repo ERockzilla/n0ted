@@ -1,0 +1,23 @@
+{
+  "country": "Brunei",
+  "region": "East & Southeast Asia",
+  "year": 2015,
+  "demographics": {
+    "population": 422675,
+    "population_growth_pct": 1.65,
+    "life_expectancy": 76.77
+  },
+  "economy": {
+    "gdp_ppp_billions": 32.11,
+    "gdp_growth_pct": 5.3,
+    "gdp_per_capita": 77700,
+    "inflation_pct": -0.2,
+    "unemployment_pct": 2.6,
+    "exports_billions": 11.38,
+    "imports_billions": 4.31
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.43
+  },
+  "political": {}
+}

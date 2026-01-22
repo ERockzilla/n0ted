@@ -1,0 +1,22 @@
+{
+  "country": "Bahamas",
+  "region": "Central America and Caribbean",
+  "year": 2007,
+  "demographics": {
+    "population": 305655,
+    "life_expectancy": 65.66
+  },
+  "economy": {
+    "gdp_growth_pct": 4.0,
+    "gdp_per_capita": 21600,
+    "inflation_pct": 1.2,
+    "unemployment_pct": 10.2,
+    "exports_billions": 0.45,
+    "imports_billions": 2.16,
+    "gdp_ppp_billions": 6.56
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.5
+  },
+  "political": {}
+}

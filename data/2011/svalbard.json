@@ -1,0 +1,12 @@
+{
+  "country": "Svalbard",
+  "region": "Europe",
+  "year": 2011,
+  "demographics": {
+    "population": 2019,
+    "population_growth_pct": -0.02
+  },
+  "economy": {},
+  "military": {},
+  "political": {}
+}

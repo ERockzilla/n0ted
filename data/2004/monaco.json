@@ -1,0 +1,16 @@
+{
+  "country": "Monaco",
+  "region": "Europe",
+  "year": 2004,
+  "demographics": {
+    "population": 32409,
+    "life_expectancy": 79.57
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.87,
+    "gdp_per_capita": 27000,
+    "unemployment_pct": 3.1
+  },
+  "military": {},
+  "political": {}
+}

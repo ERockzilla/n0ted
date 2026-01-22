@@ -1,0 +1,22 @@
+{
+  "country": "Romania",
+  "region": "Europe",
+  "year": 2001,
+  "demographics": {
+    "population": 22364022,
+    "population_growth_pct": -0.21
+  },
+  "economy": {
+    "gdp_ppp_billions": 132.5,
+    "gdp_growth_pct": 2.2,
+    "gdp_per_capita": 5900,
+    "inflation_pct": 45.7,
+    "unemployment_pct": 11.5,
+    "exports_billions": 11.2,
+    "imports_billions": 11.9
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.2
+  },
+  "political": {}
+}

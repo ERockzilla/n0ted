@@ -1,0 +1,22 @@
+{
+  "country": "Portugal",
+  "region": "Europe",
+  "year": 2005,
+  "demographics": {
+    "population": 10566212,
+    "life_expectancy": 77.53
+  },
+  "economy": {
+    "gdp_ppp_billions": 188.7,
+    "gdp_growth_pct": 1.1,
+    "gdp_per_capita": 17900,
+    "inflation_pct": 2.1,
+    "unemployment_pct": 6.5,
+    "exports_billions": 37.68,
+    "imports_billions": 52.1
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.3
+  },
+  "political": {}
+}

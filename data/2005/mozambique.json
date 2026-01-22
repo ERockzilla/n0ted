@@ -1,0 +1,22 @@
+{
+  "country": "Mozambique",
+  "region": "Africa",
+  "year": 2005,
+  "demographics": {
+    "population": 19406703,
+    "life_expectancy": 40.32
+  },
+  "economy": {
+    "gdp_ppp_billions": 23.38,
+    "gdp_growth_pct": 8.2,
+    "gdp_per_capita": 1200,
+    "inflation_pct": 12.8,
+    "unemployment_pct": 21.0,
+    "exports_billions": 0.69,
+    "imports_billions": 0.97
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.2
+  },
+  "political": {}
+}

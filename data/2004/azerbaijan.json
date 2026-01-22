@@ -1,0 +1,22 @@
+{
+  "country": "Azerbaijan",
+  "region": "Middle East",
+  "year": 2004,
+  "demographics": {
+    "population": 7911974,
+    "life_expectancy": 63.35
+  },
+  "economy": {
+    "gdp_ppp_billions": 26.65,
+    "gdp_growth_pct": 11.2,
+    "gdp_per_capita": 3400,
+    "inflation_pct": 2.1,
+    "unemployment_pct": 1.1,
+    "exports_billions": 2.6,
+    "imports_billions": 2.5
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.6
+  },
+  "political": {}
+}

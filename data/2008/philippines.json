@@ -1,0 +1,23 @@
+{
+  "country": "Philippines",
+  "region": "East & Southeast Asia",
+  "year": 2008,
+  "demographics": {
+    "population": 96061680,
+    "population_growth_pct": 1.99,
+    "life_expectancy": 70.8
+  },
+  "economy": {
+    "gdp_ppp_billions": 300.1,
+    "gdp_growth_pct": 7.3,
+    "gdp_per_capita": 3200,
+    "inflation_pct": 2.8,
+    "unemployment_pct": 7.3,
+    "exports_billions": 49.32,
+    "imports_billions": 57.56
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.9
+  },
+  "political": {}
+}

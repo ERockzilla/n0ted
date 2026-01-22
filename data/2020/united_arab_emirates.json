@@ -1,0 +1,24 @@
+{
+  "country": "United Arab Emirates",
+  "region": "Middle East",
+  "year": 2020,
+  "demographics": {
+    "population": 9992083,
+    "population_growth_pct": 1.49,
+    "life_expectancy": 79.0,
+    "median_age": 38.4
+  },
+  "economy": {
+    "gdp_growth_pct": 0.8,
+    "gdp_per_capita": 68600,
+    "inflation_pct": -1.9,
+    "unemployment_pct": 6.9,
+    "exports_billions": 308.5,
+    "imports_billions": 229.2,
+    "external_debt_billions": 237.6
+  },
+  "military": {
+    "expenditure_pct_gdp": 5.7
+  },
+  "political": {}
+}

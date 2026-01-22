@@ -1,26 +1,20 @@
 {
-  "country": "Isle of Man",
+  "country": "Isle Of Man",
   "region": "Europe",
   "year": 2010,
   "demographics": {
     "population": 83859,
-    "median_age": 42.3,
     "population_growth_pct": 0.968,
-    "birth_rate": 11.54,
-    "death_rate": 9.87,
-    "life_expectancy": 80.53
+    "life_expectancy": 80.53,
+    "median_age": 42.3
   },
   "economy": {
     "gdp_ppp_billions": 2.719,
     "gdp_growth_pct": 5.2,
     "gdp_per_capita": 35000,
-    "unemployment_pct": 1.8,
-    "inflation_pct": 3.1
+    "inflation_pct": 3.1,
+    "unemployment_pct": 1.8
   },
   "military": {},
-  "political": {
-    "chief_of_state": "ELIZABETH II",
-    "head_of_government": "Chief Minister Tony BROWN",
-    "last_election": "23 November 2006"
-  }
+  "political": {}
 }

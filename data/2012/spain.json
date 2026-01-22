@@ -1,0 +1,23 @@
+{
+  "country": "Spain",
+  "region": "Europe",
+  "year": 2012,
+  "demographics": {
+    "population": 47042984,
+    "population_growth_pct": 0.65,
+    "life_expectancy": 81.27
+  },
+  "economy": {
+    "gdp_ppp_billions": 1407.0,
+    "gdp_growth_pct": -1.5,
+    "gdp_per_capita": 30400,
+    "inflation_pct": 2.5,
+    "unemployment_pct": 24.9,
+    "exports_billions": 303.8,
+    "imports_billions": 322.7
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.2
+  },
+  "political": {}
+}

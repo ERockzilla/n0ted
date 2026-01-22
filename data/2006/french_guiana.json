@@ -1,0 +1,19 @@
+{
+  "country": "French Guiana",
+  "region": "Unknown",
+  "year": 2006,
+  "demographics": {
+    "population": 199509,
+    "life_expectancy": 77.27
+  },
+  "economy": {
+    "gdp_ppp_billions": 1.55,
+    "gdp_per_capita": 8300,
+    "inflation_pct": 1.0,
+    "unemployment_pct": 19.2,
+    "exports_billions": 0.14,
+    "imports_billions": 0.62
+  },
+  "military": {},
+  "political": {}
+}

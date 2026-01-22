@@ -1,0 +1,21 @@
+{
+  "country": "American Samoa",
+  "region": "Australia-Oceania",
+  "year": 2016,
+  "demographics": {
+    "population": 54194,
+    "population_growth_pct": -0.25,
+    "life_expectancy": 75.4
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.71,
+    "gdp_growth_pct": -2.4,
+    "gdp_per_capita": 13000,
+    "unemployment_pct": 29.8,
+    "exports_billions": 0.46,
+    "imports_billions": 0.56,
+    "inflation_pct": 2.1
+  },
+  "military": {},
+  "political": {}
+}

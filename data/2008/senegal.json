@@ -1,0 +1,23 @@
+{
+  "country": "Senegal",
+  "region": "Africa",
+  "year": 2008,
+  "demographics": {
+    "population": 12853259,
+    "population_growth_pct": 2.58,
+    "life_expectancy": 57.08
+  },
+  "economy": {
+    "gdp_ppp_billions": 21.02,
+    "gdp_growth_pct": 4.6,
+    "gdp_per_capita": 1700,
+    "inflation_pct": 5.9,
+    "unemployment_pct": 48.0,
+    "exports_billions": 1.65,
+    "imports_billions": 3.73
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.4
+  },
+  "political": {}
+}

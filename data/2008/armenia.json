@@ -1,0 +1,23 @@
+{
+  "country": "Armenia",
+  "region": "Middle East",
+  "year": 2008,
+  "demographics": {
+    "population": 2968586,
+    "population_growth_pct": -0.08,
+    "life_expectancy": 72.4
+  },
+  "economy": {
+    "gdp_ppp_billions": 17.17,
+    "gdp_growth_pct": 13.7,
+    "gdp_per_capita": 5800,
+    "inflation_pct": 4.4,
+    "unemployment_pct": 7.1,
+    "exports_billions": 1.2,
+    "imports_billions": 2.81
+  },
+  "military": {
+    "expenditure_pct_gdp": 6.5
+  },
+  "political": {}
+}

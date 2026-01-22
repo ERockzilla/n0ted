@@ -1,0 +1,22 @@
+{
+  "country": "Croatia",
+  "region": "Europe",
+  "year": 2003,
+  "demographics": {
+    "population": 4422248,
+    "life_expectancy": 74.37
+  },
+  "economy": {
+    "gdp_ppp_billions": 43.12,
+    "gdp_growth_pct": 5.2,
+    "gdp_per_capita": 9800,
+    "inflation_pct": 2.2,
+    "unemployment_pct": 21.7,
+    "exports_billions": 4.9,
+    "imports_billions": 10.7
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.39
+  },
+  "political": {}
+}

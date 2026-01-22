@@ -1,0 +1,22 @@
+{
+  "country": "Bolivia",
+  "region": "South America",
+  "year": 2005,
+  "demographics": {
+    "population": 8857870,
+    "life_expectancy": 65.5
+  },
+  "economy": {
+    "gdp_ppp_billions": 22.33,
+    "gdp_growth_pct": 3.7,
+    "gdp_per_capita": 2600,
+    "inflation_pct": 4.9,
+    "unemployment_pct": 9.2,
+    "exports_billions": 1.99,
+    "imports_billions": 1.59
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.6
+  },
+  "political": {}
+}

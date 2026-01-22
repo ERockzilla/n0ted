@@ -1,0 +1,23 @@
+{
+  "country": "Switzerland",
+  "region": "Europe",
+  "year": 2019,
+  "demographics": {
+    "population": 8292809,
+    "population_growth_pct": 0.68,
+    "life_expectancy": 82.7
+  },
+  "economy": {
+    "gdp_ppp_billions": 523.1,
+    "gdp_growth_pct": 1.7,
+    "gdp_per_capita": 62100,
+    "inflation_pct": 0.5,
+    "unemployment_pct": 8.1,
+    "exports_billions": 313.5,
+    "imports_billions": 264.5
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.68
+  },
+  "political": {}
+}

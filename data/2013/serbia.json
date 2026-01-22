@@ -1,0 +1,21 @@
+{
+  "country": "Serbia",
+  "region": "Europe",
+  "year": 2013,
+  "demographics": {
+    "population": 7243007,
+    "population_growth_pct": -0.46,
+    "life_expectancy": 74.79
+  },
+  "economy": {
+    "gdp_ppp_billions": 77.83,
+    "gdp_growth_pct": -1.7,
+    "gdp_per_capita": 10700,
+    "inflation_pct": 7.3,
+    "unemployment_pct": 25.9,
+    "exports_billions": 11.33,
+    "imports_billions": 18.35
+  },
+  "military": {},
+  "political": {}
+}

@@ -1,0 +1,19 @@
+{
+  "country": "Palau",
+  "region": "Australia-Oceania",
+  "year": 2001,
+  "demographics": {
+    "population": 19092,
+    "population_growth_pct": 1.69
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.129,
+    "gdp_per_capita": 7100,
+    "unemployment_pct": 2.3,
+    "exports_billions": 0.0143,
+    "imports_billions": 0.126,
+    "gdp_growth_pct": -1.4
+  },
+  "military": {},
+  "political": {}
+}

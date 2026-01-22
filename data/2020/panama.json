@@ -1,0 +1,22 @@
+{
+  "country": "Panama",
+  "region": "Central America and Caribbean",
+  "year": 2020,
+  "demographics": {
+    "population": 3894082,
+    "population_growth_pct": 1.2,
+    "life_expectancy": 79.2,
+    "median_age": 30.1
+  },
+  "economy": {
+    "gdp_growth_pct": 5.4,
+    "gdp_per_capita": 11910,
+    "inflation_pct": 0.9,
+    "unemployment_pct": 10.2,
+    "exports_billions": 25.94,
+    "imports_billions": 28.98,
+    "external_debt_billions": 91.53
+  },
+  "military": {},
+  "political": {}
+}

@@ -1,0 +1,23 @@
+{
+  "country": "Namibia",
+  "region": "Africa",
+  "year": 2013,
+  "demographics": {
+    "population": 2182852,
+    "population_growth_pct": 0.75,
+    "life_expectancy": 52.03
+  },
+  "economy": {
+    "gdp_ppp_billions": 16.82,
+    "gdp_growth_pct": 5.0,
+    "gdp_per_capita": 7800,
+    "inflation_pct": 6.5,
+    "unemployment_pct": 51.2,
+    "exports_billions": 4.88,
+    "imports_billions": 6.44
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.7
+  },
+  "political": {}
+}

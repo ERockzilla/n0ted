@@ -1,0 +1,20 @@
+{
+  "country": "Barbados",
+  "region": "Central America and Caribbean",
+  "year": 2006,
+  "demographics": {
+    "population": 279912,
+    "life_expectancy": 72.79
+  },
+  "economy": {
+    "gdp_ppp_billions": 4.82,
+    "gdp_growth_pct": 4.1,
+    "gdp_per_capita": 17300,
+    "inflation_pct": -0.5,
+    "unemployment_pct": 10.7,
+    "exports_billions": 0.21,
+    "imports_billions": 1.48
+  },
+  "military": {},
+  "political": {}
+}

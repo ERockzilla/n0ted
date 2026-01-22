@@ -1,0 +1,20 @@
+{
+  "country": "Togo",
+  "region": "Africa",
+  "year": 2014,
+  "demographics": {
+    "population": 7351374,
+    "population_growth_pct": 2.71,
+    "life_expectancy": 64.06
+  },
+  "economy": {
+    "gdp_ppp_billions": 7.35,
+    "gdp_growth_pct": 5.5,
+    "gdp_per_capita": 1100,
+    "inflation_pct": 2.2,
+    "exports_billions": 0.98,
+    "imports_billions": 1.68
+  },
+  "military": {},
+  "political": {}
+}

@@ -1,0 +1,22 @@
+{
+  "country": "Guatemala",
+  "region": "Central America and Caribbean",
+  "year": 2006,
+  "demographics": {
+    "population": 12293545,
+    "life_expectancy": 69.38
+  },
+  "economy": {
+    "gdp_ppp_billions": 56.86,
+    "gdp_growth_pct": 3.2,
+    "gdp_per_capita": 4700,
+    "inflation_pct": 9.1,
+    "unemployment_pct": 7.5,
+    "exports_billions": 3.94,
+    "imports_billions": 7.74
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.5
+  },
+  "political": {}
+}

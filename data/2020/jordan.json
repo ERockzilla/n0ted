@@ -1,0 +1,24 @@
+{
+  "country": "Jordan",
+  "region": "Middle East",
+  "year": 2020,
+  "demographics": {
+    "population": 10820644,
+    "population_growth_pct": 1.4,
+    "life_expectancy": 75.5,
+    "median_age": 23.5
+  },
+  "economy": {
+    "gdp_growth_pct": 2.0,
+    "gdp_per_capita": 3291,
+    "inflation_pct": 0.3,
+    "unemployment_pct": 35.6,
+    "exports_billions": 13.11,
+    "imports_billions": 19.67,
+    "external_debt_billions": 29.34
+  },
+  "military": {
+    "expenditure_pct_gdp": 4.7
+  },
+  "political": {}
+}

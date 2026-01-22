@@ -1,0 +1,22 @@
+{
+  "country": "Brunei",
+  "region": "East & Southeast Asia",
+  "year": 2004,
+  "demographics": {
+    "population": 372361,
+    "life_expectancy": 74.8
+  },
+  "economy": {
+    "gdp_ppp_billions": 6.5,
+    "gdp_growth_pct": 3.0,
+    "gdp_per_capita": 18600,
+    "inflation_pct": -2.0,
+    "unemployment_pct": 10.0,
+    "exports_billions": 3.44,
+    "imports_billions": 1.63
+  },
+  "military": {
+    "expenditure_pct_gdp": 5.9
+  },
+  "political": {}
+}

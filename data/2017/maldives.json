@@ -1,0 +1,21 @@
+{
+  "country": "Maldives",
+  "region": "South Asia",
+  "year": 2017,
+  "demographics": {
+    "population": 392709,
+    "population_growth_pct": -0.1,
+    "life_expectancy": 75.8
+  },
+  "economy": {
+    "gdp_ppp_billions": 5.5,
+    "gdp_growth_pct": 3.9,
+    "gdp_per_capita": 15500,
+    "inflation_pct": 0.9,
+    "unemployment_pct": 11.6,
+    "exports_billions": 0.24,
+    "imports_billions": 1.9
+  },
+  "military": {},
+  "political": {}
+}

@@ -1,0 +1,23 @@
+{
+  "country": "Australia",
+  "region": "Australia-Oceania",
+  "year": 2014,
+  "demographics": {
+    "population": 22507617,
+    "population_growth_pct": 1.09,
+    "life_expectancy": 82.07
+  },
+  "economy": {
+    "gdp_ppp_billions": 998.3,
+    "gdp_growth_pct": 2.5,
+    "gdp_per_capita": 43000,
+    "inflation_pct": 2.4,
+    "unemployment_pct": 5.7,
+    "exports_billions": 251.7,
+    "imports_billions": 245.8
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.71
+  },
+  "political": {}
+}

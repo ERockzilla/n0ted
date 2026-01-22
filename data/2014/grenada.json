@@ -1,0 +1,21 @@
+{
+  "country": "Grenada",
+  "region": "Central America and Caribbean",
+  "year": 2014,
+  "demographics": {
+    "population": 110152,
+    "population_growth_pct": 0.5,
+    "life_expectancy": 73.8
+  },
+  "economy": {
+    "gdp_ppp_billions": 1.46,
+    "gdp_growth_pct": 0.8,
+    "gdp_per_capita": 13800,
+    "inflation_pct": 2.4,
+    "unemployment_pct": 33.5,
+    "exports_billions": 0.04,
+    "imports_billions": 0.3
+  },
+  "military": {},
+  "political": {}
+}

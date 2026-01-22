@@ -1,0 +1,22 @@
+{
+  "country": "Spain",
+  "region": "Europe",
+  "year": 2001,
+  "demographics": {
+    "population": 40037995,
+    "population_growth_pct": 0.1
+  },
+  "economy": {
+    "gdp_ppp_billions": 720.8,
+    "gdp_growth_pct": 4.0,
+    "gdp_per_capita": 18000,
+    "inflation_pct": 3.4,
+    "unemployment_pct": 14.0,
+    "exports_billions": 120.5,
+    "imports_billions": 153.9
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.1
+  },
+  "political": {}
+}

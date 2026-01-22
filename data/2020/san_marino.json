@@ -1,0 +1,21 @@
+{
+  "country": "San Marino",
+  "region": "Europe",
+  "year": 2020,
+  "demographics": {
+    "population": 34232,
+    "population_growth_pct": 0.65,
+    "life_expectancy": 83.5,
+    "median_age": 45.2
+  },
+  "economy": {
+    "gdp_growth_pct": 1.9,
+    "gdp_per_capita": 59000,
+    "inflation_pct": 1.0,
+    "unemployment_pct": 27.4,
+    "exports_billions": 3.83,
+    "imports_billions": 2.55
+  },
+  "military": {},
+  "political": {}
+}

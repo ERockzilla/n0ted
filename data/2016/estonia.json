@@ -1,0 +1,23 @@
+{
+  "country": "Estonia",
+  "region": "Europe",
+  "year": 2016,
+  "demographics": {
+    "population": 1258545,
+    "population_growth_pct": -0.54,
+    "life_expectancy": 76.7
+  },
+  "economy": {
+    "gdp_ppp_billions": 37.63,
+    "gdp_growth_pct": 1.1,
+    "gdp_per_capita": 28700,
+    "inflation_pct": 0.1,
+    "unemployment_pct": 6.2,
+    "exports_billions": 12.24,
+    "imports_billions": 13.19
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.0
+  },
+  "political": {}
+}

@@ -1,0 +1,23 @@
+{
+  "country": "New Zealand",
+  "region": "Australia-Oceania",
+  "year": 2012,
+  "demographics": {
+    "population": 4327944,
+    "population_growth_pct": 0.86,
+    "life_expectancy": 80.71
+  },
+  "economy": {
+    "gdp_ppp_billions": 128.5,
+    "gdp_growth_pct": 2.2,
+    "gdp_per_capita": 28800,
+    "inflation_pct": 1.2,
+    "unemployment_pct": 6.5,
+    "exports_billions": 37.73,
+    "imports_billions": 35.65
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.0
+  },
+  "political": {}
+}

@@ -1,0 +1,24 @@
+{
+  "country": "Lithuania",
+  "region": "Europe",
+  "year": 2020,
+  "demographics": {
+    "population": 2731464,
+    "population_growth_pct": -1.13,
+    "life_expectancy": 75.5,
+    "median_age": 44.5
+  },
+  "economy": {
+    "gdp_growth_pct": 4.33,
+    "gdp_per_capita": 18844,
+    "inflation_pct": 2.3,
+    "unemployment_pct": 11.1,
+    "exports_billions": 45.36,
+    "imports_billions": 43.73,
+    "external_debt_billions": 34.48
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.03
+  },
+  "political": {}
+}

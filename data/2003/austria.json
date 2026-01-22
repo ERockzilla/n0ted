@@ -1,0 +1,22 @@
+{
+  "country": "Austria",
+  "region": "Europe",
+  "year": 2003,
+  "demographics": {
+    "population": 8188207,
+    "life_expectancy": 78.17
+  },
+  "economy": {
+    "gdp_ppp_billions": 227.7,
+    "gdp_growth_pct": 1.1,
+    "gdp_per_capita": 27900,
+    "inflation_pct": 1.8,
+    "unemployment_pct": 4.8,
+    "exports_billions": 70.0,
+    "imports_billions": 74.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.8
+  },
+  "political": {}
+}

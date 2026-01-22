@@ -1,0 +1,23 @@
+{
+  "country": "Peru",
+  "region": "South America",
+  "year": 2013,
+  "demographics": {
+    "population": 29849303,
+    "population_growth_pct": 1.0,
+    "life_expectancy": 72.98
+  },
+  "economy": {
+    "gdp_ppp_billions": 322.9,
+    "gdp_growth_pct": 6.3,
+    "gdp_per_capita": 10600,
+    "inflation_pct": 3.7,
+    "unemployment_pct": 5.2,
+    "exports_billions": 45.64,
+    "imports_billions": 41.11
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.0
+  },
+  "political": {}
+}

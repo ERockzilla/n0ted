@@ -1,0 +1,23 @@
+{
+  "country": "Belarus",
+  "region": "Europe",
+  "year": 2019,
+  "demographics": {
+    "population": 9527543,
+    "population_growth_pct": -0.24,
+    "life_expectancy": 73.2
+  },
+  "economy": {
+    "gdp_ppp_billions": 179.4,
+    "gdp_growth_pct": 2.4,
+    "gdp_per_capita": 18900,
+    "inflation_pct": 6.0,
+    "unemployment_pct": 9.3,
+    "exports_billions": 28.65,
+    "imports_billions": 31.58
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.27
+  },
+  "political": {}
+}

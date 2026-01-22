@@ -1,0 +1,12 @@
+{
+  "country": "Svalbard",
+  "region": "Europe",
+  "year": 2015,
+  "demographics": {
+    "population": 1872,
+    "population_growth_pct": -0.03
+  },
+  "economy": {},
+  "military": {},
+  "political": {}
+}

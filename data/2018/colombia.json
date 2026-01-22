@@ -1,0 +1,23 @@
+{
+  "country": "Colombia",
+  "region": "South America",
+  "year": 2018,
+  "demographics": {
+    "population": 48168996,
+    "population_growth_pct": 0.97,
+    "life_expectancy": 76.2
+  },
+  "economy": {
+    "gdp_ppp_billions": 711.6,
+    "gdp_growth_pct": 1.8,
+    "gdp_per_capita": 14400,
+    "inflation_pct": 4.3,
+    "unemployment_pct": 17.5,
+    "exports_billions": 39.48,
+    "imports_billions": 44.24
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.5
+  },
+  "political": {}
+}

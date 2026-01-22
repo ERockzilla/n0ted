@@ -1,0 +1,21 @@
+{
+  "country": "Monaco",
+  "region": "Europe",
+  "year": 2018,
+  "demographics": {
+    "population": 30727,
+    "population_growth_pct": 0.3,
+    "life_expectancy": 89.4
+  },
+  "economy": {
+    "gdp_ppp_billions": 7.67,
+    "gdp_per_capita": 115700,
+    "inflation_pct": 1.5,
+    "unemployment_pct": 26.6,
+    "exports_billions": 0.96,
+    "imports_billions": 1.37,
+    "gdp_growth_pct": 5.4
+  },
+  "military": {},
+  "political": {}
+}

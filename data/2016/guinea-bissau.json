@@ -1,0 +1,22 @@
+{
+  "country": "Guinea-Bissau",
+  "region": "Africa",
+  "year": 2016,
+  "demographics": {
+    "population": 1759159,
+    "population_growth_pct": 1.88,
+    "life_expectancy": 50.6
+  },
+  "economy": {
+    "gdp_ppp_billions": 2.69,
+    "gdp_growth_pct": 4.8,
+    "gdp_per_capita": 1500,
+    "inflation_pct": 1.5,
+    "exports_billions": 0.2,
+    "imports_billions": 0.2
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.85
+  },
+  "political": {}
+}

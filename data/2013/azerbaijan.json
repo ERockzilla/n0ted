@@ -1,0 +1,23 @@
+{
+  "country": "Azerbaijan",
+  "region": "Middle East",
+  "year": 2013,
+  "demographics": {
+    "population": 9590159,
+    "population_growth_pct": 1.01,
+    "life_expectancy": 71.61
+  },
+  "economy": {
+    "gdp_ppp_billions": 95.73,
+    "gdp_growth_pct": 2.2,
+    "gdp_per_capita": 10400,
+    "inflation_pct": 1.1,
+    "unemployment_pct": 5.7,
+    "exports_billions": 32.63,
+    "imports_billions": 10.42
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.6
+  },
+  "political": {}
+}

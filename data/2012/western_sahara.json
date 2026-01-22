@@ -1,0 +1,16 @@
+{
+  "country": "Western Sahara",
+  "region": "Africa",
+  "year": 2012,
+  "demographics": {
+    "population": 522928,
+    "population_growth_pct": 3.03,
+    "life_expectancy": 61.52
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.91,
+    "gdp_per_capita": 2500
+  },
+  "military": {},
+  "political": {}
+}

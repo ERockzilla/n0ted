@@ -1,0 +1,22 @@
+{
+  "country": "Qatar",
+  "region": "Middle East",
+  "year": 2013,
+  "demographics": {
+    "population": 2042444,
+    "population_growth_pct": 4.19,
+    "life_expectancy": 78.24
+  },
+  "economy": {
+    "gdp_ppp_billions": 185.3,
+    "gdp_growth_pct": 6.2,
+    "inflation_pct": 1.9,
+    "unemployment_pct": 0.5,
+    "exports_billions": 133.0,
+    "imports_billions": 30.79
+  },
+  "military": {
+    "expenditure_pct_gdp": 10.0
+  },
+  "political": {}
+}

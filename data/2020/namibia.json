@@ -1,0 +1,24 @@
+{
+  "country": "Namibia",
+  "region": "Africa",
+  "year": 2020,
+  "demographics": {
+    "population": 2630073,
+    "population_growth_pct": 1.86,
+    "life_expectancy": 65.3,
+    "median_age": 21.8
+  },
+  "economy": {
+    "gdp_growth_pct": -1.56,
+    "gdp_per_capita": 7873,
+    "inflation_pct": 3.7,
+    "unemployment_pct": 38.0,
+    "exports_billions": 6.09,
+    "imports_billions": 9.92,
+    "external_debt_billions": 7.97
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.0
+  },
+  "political": {}
+}

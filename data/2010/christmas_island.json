@@ -8,9 +8,5 @@
   },
   "economy": {},
   "military": {},
-  "political": {
-    "chief_of_state": "ELIZABETH II",
-    "head_of_government": "Administrator Brian LACY",
-    "last_election": "17 October 2009"
-  }
+  "political": {}
 }

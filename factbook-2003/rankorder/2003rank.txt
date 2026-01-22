@@ -1,0 +1,217 @@
+This tab-delimited file can be read by most spreadsheet applications after being saved properly.  At the top of your browser window, click 'File' and 'Save As...'  After saving the file, open your spreadsheet, find the file you just saved and then 'Open' it.
+Rank 	 Country 	 GDP - real growth rate(%) 	 Date of Information
+1 	 Turkmenistan 	           21.10 	 2002 est.
+2 	 Equatorial Guinea 	           20.00 	 2002 est.
+3 	 East Timor 	           18.00 	 2001 est.
+4 	 Man, Isle of 	           13.50 	 
+5 	 Armenia 	           12.90 	 2002 est.
+6 	 Liechtenstein 	           11.00 	 1999 est.
+7 	 Azerbaijan 	           10.60 	 2002 est.
+8 	 Faroe Islands 	           10.00 	 2001 est.
+9 	 Rwanda 	            9.70 	 2002 est.
+10 	 Kazakhstan 	            9.50 	 2002 est.
+11 	 Macau 	            9.50 	 2002 est.
+12 	 Angola 	            9.40 	 2002 est.
+13 	 Tajikistan 	            9.10 	 2002 est.
+14 	 China 	            8.00 	 2002 est.
+15 	 Turkey 	            7.80 	 2002 est.
+16 	 Bhutan 	            7.70 	 2002 est.
+17 	 Mozambique 	            7.70 	 2002 est.
+18 	 Iran 	            7.60 	 2002 est.
+19 	 San Marino 	            7.50 	 2001 est.
+20 	 Chad 	            7.40 	 2002 est.
+21 	 Albania 	            7.30 	 2002 est.
+22 	 Cook Islands 	            7.10 	 2001 est.
+23 	 Vietnam 	            7.00 	 2002 est.
+24 	 Ireland 	            6.90 	 2002 est.
+25 	 Lithuania 	            6.70 	 2002 est.
+26 	 Sierra Leone 	            6.60 	 2002 est.
+27 	 Moldova 	            6.50 	 2002 est.
+28 	 Korea, South 	            6.30 	 2002 est.
+29 	 Latvia 	            6.10 	 2002 est.
+30 	 Tanzania 	            6.10 	 2002 est.
+31 	 Benin 	            6.00 	 2002 est.
+32 	 Estonia 	            6.00 	 2002 est.
+33 	 Gambia, The 	            5.70 	 2001 est.
+34 	 Guernsey 	            5.70 	 1999 est.
+35 	 Laos 	            5.70 	 2002 est.
+36 	 Uganda 	            5.50 	 2002 est.
+37 	 Georgia 	            5.40 	 2002 est.
+38 	 Burma 	            5.30 	 2002 est.
+39 	 Kyrgyzstan 	            5.30 	 2002 est.
+40 	 Peru 	            5.30 	 2002 est.
+41 	 Thailand 	            5.30 	 2002 est.
+42 	 Croatia 	            5.20 	 2002 est.
+43 	 Sudan 	            5.10 	 2002 est.
+44 	 Samoa 	            5.00 	 2002 est.
+45 	 Jordan 	            4.90 	 2002 est.
+46 	 Turks and Caicos Islands 	            4.90 	 2000 est.
+47 	 Romania 	            4.90 	 2002 est.
+48 	 Bangladesh 	            4.80 	 2002 est.
+49 	 Bulgaria 	            4.80 	 2002 est.
+50 	 Ukraine 	            4.80 	 2002 est.
+51 	 Tunisia 	            4.80 	 2002 est.
+52 	 Belarus 	            4.70 	 2002 est.
+53 	 Fiji 	            4.60 	 2002 est.
+54 	 Burkina Faso 	            4.60 	 2002 est.
+55 	 Qatar 	            4.60 	 2002 est.
+56 	 Morocco 	            4.60 	 2002 est.
+57 	 Burundi 	            4.50 	 2002 est.
+58 	 Cambodia 	            4.50 	 2002 est.
+59 	 Mali 	            4.50 	 2002 est.
+60 	 Ghana 	            4.50 	 2002 est.
+61 	 Slovakia 	            4.40 	 2002 est.
+62 	 Philippines 	            4.40 	 2002 est.
+63 	 Pakistan 	            4.40 	 FY01/02 est.
+64 	 India 	            4.30 	 2002 est.
+65 	 Russia 	            4.30 	 2002 est.
+66 	 Botswana 	            4.20 	 2002 est.
+67 	 Uzbekistan 	            4.20 	 2002 est.
+68 	 Dominican Republic 	            4.10 	 2002 est.
+69 	 Malaysia 	            4.10 	 2002 est.
+70 	 Yemen 	            4.10 	 2002 est.
+71 	 Cameroon 	            4.00 	 2002 est.
+72 	 Greece 	            4.00 	 2002 est.
+73 	 Serbia and Montenegro 	            4.00 	 2002 est.
+74 	 Sao Tome and Principe 	            4.00 	 2002 est.
+75 	 Lesotho 	            4.00 	 2002 est.
+76 	 French Polynesia 	            4.00 	 2001 est.
+77 	 Cape Verde 	            4.00 	 2002 est.
+78 	 Mongolia 	            3.90 	 2002 est.
+79 	 Andorra 	            3.80 	 2000 est.
+80 	 Belize 	            3.70 	 2002 est.
+81 	 Indonesia 	            3.70 	 2002 est.
+82 	 Guinea 	            3.70 	 2002 est.
+83 	 Australia 	            3.60 	 2002 est.
+84 	 Syria 	            3.60 	 2002 est.
+85 	 Congo, Democratic Republic of the 	            3.50 	 2002 est.
+86 	 Djibouti 	            3.50 	 2002 est.
+87 	 Somalia 	            3.50 	 2002 est.
+88 	 Taiwan 	            3.50 	 2002 est.
+89 	 Ecuador 	            3.40 	 2002 est.
+90 	 Algeria 	            3.30 	 2002 est.
+91 	 Saint Lucia 	            3.30 	 2002 est.
+92 	 Canada 	            3.30 	 2002 est.
+93 	 Hungary 	            3.30 	 2002 est.
+94 	 Mauritania 	            3.30 	 2002 est.
+95 	 New Zealand 	            3.30 	 2002 est.
+96 	 Sri Lanka 	            3.20 	 2002 est.
+97 	 Egypt 	            3.20 	 2002 est.
+98 	 Slovenia 	            3.20 	 2002 est.
+99 	 Trinidad and Tobago 	            3.20 	 2002 est.
+100 	 Nigeria 	            3.20 	 2002 est.
+101 	 Antigua and Barbuda 	            3.00 	 2002 est.
+102 	 Tuvalu 	            3.00 	 2000 est.
+103 	 Tonga 	            3.00 	 2001 est.
+104 	 South Africa 	            3.00 	 2002 est.
+105 	 Ethiopia 	            3.00 	 2002 est.
+106 	 Brunei 	            3.00 	 2002 est.
+107 	 Bahrain 	            2.90 	 2002 est.
+108 	 Togo 	            2.90 	 2002 est.
+109 	 Niger 	            2.90 	 2002 est.
+110 	 Anguilla 	            2.80 	 2001 est.
+111 	 Costa Rica 	            2.80 	 2002 est.
+112 	 Bolivia 	            2.80 	 2002 est.
+113 	 World 	            2.70 	 2001 est.
+114 	 Cyprus 	            2.60 	 2002 est.
+115 	 Grenada 	            2.50 	 2002 est.
+116 	 Reunion 	            2.50 	 2002 est.
+117 	 Honduras 	            2.50 	 2002 est.
+118 	 Senegal 	            2.40 	 2002 est.
+119 	 United States 	            2.40 	 2002 est.
+120 	 Bosnia and Herzegovina 	            2.30 	 2002 est.
+121 	 Hong Kong 	            2.30 	 2002 est.
+122 	 Mauritius 	            2.30 	 2002 est.
+123 	 Zambia 	            2.30 	 2002 est.
+124 	 Namibia 	            2.30 	 2002 est.
+125 	 Maldives 	            2.30 	 2002 est.
+126 	 Guatemala 	            2.20 	 2002 est.
+127 	 Oman 	            2.20 	 2002 est.
+128 	 Singapore 	            2.20 	 2002 est.
+129 	 Chile 	            2.10 	 2002 est.
+130 	 El Salvador 	            2.10 	 2002 est.
+131 	 Comoros 	            2.00 	 2002 est.
+132 	 Virgin Islands 	            2.00 	 2001 est.
+133 	 Spain 	            2.00 	 2002 est.
+134 	 Liberia 	            2.00 	 2002 est.
+135 	 Lebanon 	            2.00 	 2002 est.
+136 	 Czech Republic 	            2.00 	 2002 est.
+137 	 Eritrea 	            2.00 	 2002 est.
+138 	 Sweden 	            1.90 	 2002 est.
+139 	 Greenland 	            1.80 	 2001 est.
+140 	 United Kingdom 	            1.80 	 2002 est.
+141 	 United Arab Emirates 	            1.80 	 2002 est.
+142 	 Cayman Islands 	            1.70 	 2002 est.
+143 	 Cyprus 	            1.70 	 2002 est.
+144 	 Malawi 	            1.70 	 2002 est.
+145 	 Denmark 	            1.60 	 2002 est.
+146 	 Swaziland 	            1.60 	 2002 est.
+147 	 Finland 	            1.60 	 2002 est.
+148 	 Brazil 	            1.50 	 2002 est.
+149 	 Seychelles 	            1.50 	 2002 est.
+150 	 Kiribati 	            1.50 	 2001 est.
+151 	 Central African Republic 	            1.50 	 2002 est.
+152 	 Colombia 	            1.50 	 2002 est.
+153 	 Poland 	            1.40 	 2002 est.
+154 	 Dominica 	            1.20 	 2002 est.
+155 	 Suriname 	            1.20 	 2002 est.
+156 	 France 	            1.20 	 2002 est.
+157 	 Malta 	            1.20 	 2002 est.
+158 	 Libya 	            1.20 	 2002 est.
+159 	 Austria 	            1.10 	 2002 est.
+160 	 Nicaragua 	            1.10 	 2002 est.
+161 	 Kenya 	            1.10 	 2002 est.
+162 	 Cuba 	            1.10 	 2002 est.
+163 	 Guyana 	            1.10 	 2002 est.
+164 	 Micronesia, Federated States of 	            1.00 	 2002 est.
+165 	 Saudi Arabia 	            1.00 	 2002 est.
+166 	 British Virgin Islands 	            1.00 	 2002 est.
+167 	 Marshall Islands 	            1.00 	 2001 est.
+168 	 Jamaica 	            1.00 	 2002 est.
+169 	 Norway 	            1.00 	 2002 est.
+170 	 Palau 	            1.00 	 2001 est.
+171 	 Korea, North 	            1.00 	 2002 est.
+172 	 Belgium 	            0.70 	 2002 est.
+173 	 Panama 	            0.70 	 2002 est.
+174 	 Mexico 	            0.70 	 2002 est.
+175 	 Macedonia, The Former Yugoslav Republic of 	            0.70 	 2002 est.
+176 	 Bermuda 	            0.50 	 2002 est.
+177 	 Italy 	            0.40 	 2002 est.
+178 	 Luxembourg 	            0.40 	 2002 est.
+179 	 Portugal 	            0.40 	 2002 est.
+180 	 Gabon 	            0.20 	 2002 est.
+181 	 Germany 	            0.20 	 2002 est.
+182 	 Netherlands 	            0.20 	 2002 est.
+183 	 Japan 	            0.20 	 2002 est.
+184 	 Bahamas, The 	            0.10 	 2002 est.
+185 	 Switzerland 	            0.10 	 2002 est.
+186 	 Congo, Republic of the 	            0.00 	 2002 est.
+187 	 Netherlands Antilles 	            0.00 	 2002 est.
+188 	 Puerto Rico 	           -0.20 	 2002 est.
+189 	 Niue 	           -0.30 	 2000 est.
+190 	 Vanuatu 	           -0.30 	 2002 est.
+191 	 Saint Vincent and the Grenadines 	           -0.50 	 2002 est.
+192 	 Iceland 	           -0.60 	 2002 est.
+193 	 Nepal 	           -0.60 	 2002 est.
+194 	 Israel 	           -0.80 	 2002 est.
+195 	 Haiti 	           -0.90 	 2002 est.
+196 	 Montserrat 	           -1.00 	 2002 est.
+197 	 Aruba 	           -1.50 	 2002 est.
+198 	 Cote d'Ivoire 	           -1.60 	 2002 est.
+199 	 Saint Kitts and Nevis 	           -1.90 	 2002 est.
+200 	 Kuwait 	           -2.00 	 2002 est.
+201 	 Paraguay 	           -2.70 	 2002 est.
+202 	 Barbados 	           -2.80 	 2002 est.
+203 	 Iraq 	           -3.00 	 2002 est.
+204 	 Papua New Guinea 	           -3.10 	 2002 est.
+205 	 Guinea-Bissau 	           -4.30 	 2002 est.
+206 	 Venezuela 	           -8.90 	 2002 est.
+207 	 Solomon Islands 	          -10.00 	 2001 est.
+208 	 Uruguay 	          -10.80 	 2002 est.
+209 	 Argentina 	          -10.90 	 2002 est.
+210 	 Madagascar 	          -11.90 	 2002 est.
+211 	 Zimbabwe 	          -13.00 	 2002 est.
+212 	 Gaza Strip 	          -15.00 	 2002 est.
+213 	 West Bank 	          -22.00 	 2002 est.
+
+ This file was last updated on 18 December, 2003

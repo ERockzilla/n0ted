@@ -1,0 +1,23 @@
+{
+  "country": "Macedonia",
+  "region": "Europe",
+  "year": 2016,
+  "demographics": {
+    "population": 2100025,
+    "population_growth_pct": 0.18,
+    "life_expectancy": 76.2
+  },
+  "economy": {
+    "gdp_ppp_billions": 29.1,
+    "gdp_growth_pct": 3.7,
+    "gdp_per_capita": 14000,
+    "inflation_pct": -0.2,
+    "unemployment_pct": 26.1,
+    "exports_billions": 3.37,
+    "imports_billions": 5.39
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.12
+  },
+  "political": {}
+}

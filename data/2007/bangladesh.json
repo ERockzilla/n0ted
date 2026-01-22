@@ -1,0 +1,22 @@
+{
+  "country": "Bangladesh",
+  "region": "South Asia",
+  "year": 2007,
+  "demographics": {
+    "population": 150448339,
+    "life_expectancy": 62.84
+  },
+  "economy": {
+    "gdp_ppp_billions": 336.1,
+    "gdp_growth_pct": 6.4,
+    "gdp_per_capita": 2300,
+    "inflation_pct": 6.8,
+    "unemployment_pct": 2.5,
+    "exports_billions": 11.16,
+    "imports_billions": 14.75
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.5
+  },
+  "political": {}
+}

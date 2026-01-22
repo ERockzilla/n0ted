@@ -1,0 +1,22 @@
+{
+  "country": "Iran",
+  "region": "Middle East",
+  "year": 2001,
+  "demographics": {
+    "population": 66128965,
+    "population_growth_pct": 0.72
+  },
+  "economy": {
+    "gdp_ppp_billions": 413.0,
+    "gdp_growth_pct": 3.0,
+    "gdp_per_capita": 6300,
+    "inflation_pct": 16.0,
+    "unemployment_pct": 14.0,
+    "exports_billions": 25.0,
+    "imports_billions": 15.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.9
+  },
+  "political": {}
+}

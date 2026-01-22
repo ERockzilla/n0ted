@@ -1,0 +1,22 @@
+{
+  "country": "Senegal",
+  "region": "Africa",
+  "year": 2001,
+  "demographics": {
+    "population": 10284929,
+    "population_growth_pct": 2.93
+  },
+  "economy": {
+    "gdp_ppp_billions": 16.0,
+    "gdp_growth_pct": 5.7,
+    "gdp_per_capita": 1600,
+    "inflation_pct": 1.5,
+    "unemployment_pct": 40.0,
+    "exports_billions": 0.959,
+    "imports_billions": 1.3
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.4
+  },
+  "political": {}
+}

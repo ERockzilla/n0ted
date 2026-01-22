@@ -1,0 +1,22 @@
+{
+  "country": "Ireland",
+  "region": "Europe",
+  "year": 2006,
+  "demographics": {
+    "population": 4062235,
+    "life_expectancy": 77.73
+  },
+  "economy": {
+    "gdp_ppp_billions": 165.1,
+    "gdp_growth_pct": 5.5,
+    "gdp_per_capita": 41100,
+    "inflation_pct": 2.4,
+    "unemployment_pct": 4.3,
+    "exports_billions": 102.0,
+    "imports_billions": 65.47
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.9
+  },
+  "political": {}
+}

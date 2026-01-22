@@ -1,0 +1,19 @@
+{
+  "country": "Guernsey",
+  "region": "Europe",
+  "year": 2016,
+  "demographics": {
+    "population": 66297,
+    "population_growth_pct": 0.32,
+    "life_expectancy": 82.5
+  },
+  "economy": {
+    "gdp_ppp_billions": 3.45,
+    "gdp_growth_pct": 0.9,
+    "gdp_per_capita": 52300,
+    "inflation_pct": 3.4,
+    "unemployment_pct": 0.9
+  },
+  "military": {},
+  "political": {}
+}

@@ -152,8 +152,8 @@ const METRIC_CONFIG: Record<GlobeMetric, {
     }
 };
 
-export default function InteractiveGlobe({ 
-    countries, 
+export default function InteractiveGlobe({
+    countries,
     activeMetric = 'gdp',
     onCountryClick,
     showArcs = false
@@ -161,16 +161,35 @@ export default function InteractiveGlobe({
     const [geoData, setGeoData] = useState<GeoFeature[]>([]);
     const [arcsData, setArcsData] = useState<ArcData[]>([]);
     const [hoverD, setHoverD] = useState<GeoFeature | null>(null);
+    const [dimensions, setDimensions] = useState({ width: 800, height: 600 });
     const globeRef = useRef<any>(undefined);
+    const containerRef = useRef<HTMLDivElement>(null);
     const router = useRouter();
 
     const config = METRIC_CONFIG[activeMetric];
 
+    // Handle resize to keep globe centered
+    useEffect(() => {
+        const updateDimensions = () => {
+            if (containerRef.current) {
+                setDimensions({
+                    width: containerRef.current.clientWidth,
+                    height: containerRef.current.clientHeight
+                });
+            }
+        };
+
+        updateDimensions();
+        window.addEventListener('resize', updateDimensions);
+        return () => window.removeEventListener('resize', updateDimensions);
+    }, []);
+
     // Name matching function
     const findMatchingCountry = useCallback((geoName: string): CountryData | undefined => {
         const normalizedGeo = geoName.toLowerCase();
-        
+
         return countries.find(c => {
+            if (!c?.country) return false;  // Null check for undefined country
             const cName = c.country.toLowerCase();
             return (
                 cName === normalizedGeo ||
@@ -224,7 +243,7 @@ export default function InteractiveGlobe({
     }, [countries, showArcs]);
 
     useEffect(() => {
-        fetch('https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson')
+        fetch('/globe/countries.geojson')
             .then(res => res.json())
             .then((geo: { features: GeoFeature[] }) => {
                 const enrichedFeatures = geo.features.map(feat => {
@@ -312,11 +331,13 @@ export default function InteractiveGlobe({
     }, [activeMetric]);
 
     return (
-        <div className="h-full w-full relative">
+        <div ref={containerRef} className="h-full w-full relative flex items-center justify-center">
             <Globe
                 ref={globeRef}
-                globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
-                backgroundImageUrl="//unpkg.com/three-globe/example/img/night-sky.png"
+                width={dimensions.width}
+                height={dimensions.height}
+                globeImageUrl="/globe/earth-night.jpg"
+                backgroundImageUrl="/globe/night-sky.png"
                 polygonsData={geoData}
                 polygonAltitude={d => getAltitude(d as GeoFeature)}
                 polygonCapColor={d => (d as GeoFeature).properties.color || '#1f2937'}

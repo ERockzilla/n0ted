@@ -1,0 +1,22 @@
+{
+  "country": "Ecuador",
+  "region": "South America",
+  "year": 2007,
+  "demographics": {
+    "population": 13755680,
+    "life_expectancy": 76.62
+  },
+  "economy": {
+    "gdp_ppp_billions": 61.52,
+    "gdp_growth_pct": 4.1,
+    "gdp_per_capita": 4500,
+    "inflation_pct": 3.3,
+    "unemployment_pct": 10.6,
+    "exports_billions": 13.05,
+    "imports_billions": 11.33
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.8
+  },
+  "political": {}
+}

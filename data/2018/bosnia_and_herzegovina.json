@@ -1,0 +1,23 @@
+{
+  "country": "Bosnia And Herzegovina",
+  "region": "Europe",
+  "year": 2018,
+  "demographics": {
+    "population": 3849891,
+    "population_growth_pct": -0.17,
+    "life_expectancy": 77.1
+  },
+  "economy": {
+    "gdp_ppp_billions": 44.83,
+    "gdp_growth_pct": 3.0,
+    "gdp_per_capita": 12800,
+    "inflation_pct": 1.2,
+    "unemployment_pct": 62.3,
+    "exports_billions": 5.21,
+    "imports_billions": 9.55
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.99
+  },
+  "political": {}
+}

@@ -1,0 +1,23 @@
+{
+  "country": "Cameroon",
+  "region": "Africa",
+  "year": 2012,
+  "demographics": {
+    "population": 20129878,
+    "population_growth_pct": 2.08,
+    "life_expectancy": 54.71
+  },
+  "economy": {
+    "gdp_ppp_billions": 50.32,
+    "gdp_growth_pct": 4.7,
+    "gdp_per_capita": 2300,
+    "inflation_pct": 2.9,
+    "unemployment_pct": 30.0,
+    "exports_billions": 6.54,
+    "imports_billions": 6.6
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.3
+  },
+  "political": {}
+}

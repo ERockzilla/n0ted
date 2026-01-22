@@ -1,0 +1,22 @@
+{
+  "country": "Sri Lanka",
+  "region": "South Asia",
+  "year": 2001,
+  "demographics": {
+    "population": 19408635,
+    "population_growth_pct": 0.87
+  },
+  "economy": {
+    "gdp_ppp_billions": 62.7,
+    "gdp_growth_pct": 5.6,
+    "gdp_per_capita": 3250,
+    "inflation_pct": 8.5,
+    "unemployment_pct": 8.8,
+    "exports_billions": 5.2,
+    "imports_billions": 6.1
+  },
+  "military": {
+    "expenditure_pct_gdp": 4.2
+  },
+  "political": {}
+}

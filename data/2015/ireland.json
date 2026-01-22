@@ -1,0 +1,23 @@
+{
+  "country": "Ireland",
+  "region": "Europe",
+  "year": 2015,
+  "demographics": {
+    "population": 4832765,
+    "population_growth_pct": 1.2,
+    "life_expectancy": 80.56
+  },
+  "economy": {
+    "gdp_ppp_billions": 224.7,
+    "gdp_growth_pct": 3.6,
+    "gdp_per_capita": 46800,
+    "inflation_pct": 0.3,
+    "unemployment_pct": 11.3,
+    "exports_billions": 121.3,
+    "imports_billions": 66.94
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.55
+  },
+  "political": {}
+}

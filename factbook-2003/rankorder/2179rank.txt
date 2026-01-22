@@ -1,0 +1,101 @@
+This tab-delimited file can be read by most spreadsheet applications after being saved properly.  At the top of your browser window, click 'File' and 'Save As...'  After saving the file, open your spreadsheet, find the file you just saved and then 'Open' it.
+Rank 	 Country 	 Natural gas - proved reserves(cu m) 	 Date of Information
+1 	 World 	 161,200,000,000,000 	 37257
+2 	 Russia 	  47,860,000,000,000 	 37257
+3 	 Iran 	  24,800,000,000,000 	 37257
+4 	 Qatar 	  17,930,000,000,000 	 37257
+5 	 Saudi Arabia 	   6,339,000,000,000 	 37257
+6 	 United Arab Emirates 	   5,892,000,000,000 	 37257
+7 	 United States 	   5,195,000,000,000 	 37257
+8 	 Algeria 	   4,739,000,000,000 	 37257
+9 	 Venezuela 	   4,202,000,000,000 	 37257
+10 	 Nigeria 	   4,007,000,000,000 	 37257
+11 	 Iraq 	   3,149,000,000,000 	 37257
+12 	 Indonesia 	   2,549,000,000,000 	 37257
+13 	 Australia 	   2,407,000,000,000 	 37257
+14 	 Malaysia 	   2,230,000,000,000 	 37257
+15 	 Norway 	   1,716,000,000,000 	 37257
+16 	 Netherlands 	   1,693,000,000,000 	 37257
+17 	 Canada 	   1,691,000,000,000 	 37257
+18 	 Kuwait 	   1,548,000,000,000 	 37257
+19 	 Turkmenistan 	   1,430,000,000,000 	 37257
+20 	 Libya 	   1,321,000,000,000 	 37257
+21 	 China 	   1,290,000,000,000 	 37257
+22 	 Egypt 	   1,264,000,000,000 	 37257
+23 	 Mexico 	    969,200,000,000 	 37257
+24 	 Uzbekistan 	    937,300,000,000 	 37257
+25 	 Kazakhstan 	    920,300,000,000 	 37257
+26 	 Oman 	    846,400,000,000 	 37257
+27 	 Argentina 	    768,000,000,000 	 37257
+28 	 Bolivia 	    727,200,000,000 	 37257
+29 	 United Kingdom 	    714,900,000,000 	 37257
+30 	 Pakistan 	    695,600,000,000 	 37257
+31 	 Trinidad and Tobago 	    610,600,000,000 	 37257
+32 	 Ukraine 	    560,700,000,000 	 37257
+33 	 India 	    542,400,000,000 	 37257
+34 	 Yemen 	    480,000,000,000 	 37257
+35 	 Papua New Guinea 	    385,500,000,000 	 37257
+36 	 Thailand 	    368,200,000,000 	 37257
+37 	 Brunei 	    315,000,000,000 	 37257
+38 	 Burma 	    314,400,000,000 	 37257
+39 	 Germany 	    298,300,000,000 	 37257
+40 	 Peru 	    245,100,000,000 	 37257
+41 	 Syria 	    240,700,000,000 	 37257
+42 	 Brazil 	    221,700,000,000 	 37257
+43 	 Italy 	    209,700,000,000 	 37257
+44 	 Vietnam 	    192,600,000,000 	 37257
+45 	 Poland 	    154,400,000,000 	 37257
+46 	 Bangladesh 	    150,300,000,000 	 37257
+47 	 Colombia 	    132,000,000,000 	 37257
+48 	 Romania 	    111,100,000,000 	 37257
+49 	 Ecuador 	    106,500,000,000 	 37257
+50 	 Congo, Democratic Republic of the 	    104,800,000,000 	 37257
+51 	 Philippines 	    104,600,000,000 	 37257
+52 	 Sudan 	     99,110,000,000 	 37257
+53 	 Denmark 	     81,980,000,000 	 37257
+54 	 Angola 	     79,570,000,000 	 37257
+55 	 Tunisia 	     77,160,000,000 	 37257
+56 	 Equatorial Guinea 	     68,530,000,000 	 37257
+57 	 Chile 	     67,780,000,000 	 37257
+58 	 Gabon 	     66,470,000,000 	 37257
+59 	 Mozambique 	     63,710,000,000 	 37257
+60 	 Azerbaijan 	     62,300,000,000 	 37257
+61 	 New Zealand 	     58,940,000,000 	 37257
+62 	 Cameroon 	     55,220,000,000 	 37257
+63 	 Hungary 	     50,450,000,000 	 37257
+64 	 Afghanistan 	     49,980,000,000 	 37257
+65 	 Bahrain 	     46,000,000,000 	 37257
+66 	 Cuba 	     42,620,000,000 	 37257
+67 	 Taiwan 	     38,230,000,000 	 37257
+68 	 Croatia 	     34,360,000,000 	 37257
+69 	 Namibia 	     31,150,000,000 	 37257
+70 	 Rwanda 	     28,320,000,000 	 37257
+71 	 Austria 	     24,900,000,000 	 37257
+72 	 Serbia and Montenegro 	     24,070,000,000 	 37257
+73 	 Israel 	     20,810,000,000 	 37257
+74 	 Japan 	     20,020,000,000 	 37257
+75 	 Cote d'Ivoire 	     14,870,000,000 	 37257
+76 	 France 	     12,860,000,000 	 37257
+77 	 Ethiopia 	     12,460,000,000 	 37257
+78 	 Ghana 	     11,890,000,000 	 37257
+79 	 Tanzania 	     11,330,000,000 	 37257
+80 	 Ireland 	      9,911,000,000 	 37257
+81 	 Turkey 	      8,685,000,000 	 37257
+82 	 Slovakia 	      7,504,000,000 	 37257
+83 	 Bulgaria 	      3,724,000,000 	 37257
+84 	 Albania 	      3,316,000,000 	 37257
+85 	 Jordan 	      3,256,000,000 	 37257
+86 	 Czech Republic 	      3,057,000,000 	 37257
+87 	 Somalia 	      2,832,000,000 	 37257
+88 	 Guatemala 	      1,543,000,000 	 37257
+89 	 Morocco 	       665,400,000 	 37257
+90 	 Benin 	       608,800,000 	 37257
+91 	 Congo, Republic of the 	       495,500,000 	 37257
+92 	 Greece 	       254,900,000 	 37257
+93 	 Spain 	       254,900,000 	 37257
+94 	 Barbados 	        70,790,000 	 37257
+95 	 South Africa 	        14,160,000 	 37257
+96 	 Madagascar 	               0 	 37257
+97 	 Suriname 	               0 	 37257
+
+ This file was last updated on 18 December, 2003

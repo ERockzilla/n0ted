@@ -1,0 +1,21 @@
+{
+  "country": "British Virgin Islands",
+  "region": "Central America and Caribbean",
+  "year": 2020,
+  "demographics": {
+    "population": 37381,
+    "population_growth_pct": 2.14,
+    "life_expectancy": 79.2,
+    "median_age": 37.2
+  },
+  "economy": {
+    "gdp_growth_pct": 2.0,
+    "gdp_per_capita": 34200,
+    "inflation_pct": 1.1,
+    "exports_billions": 0.02,
+    "imports_billions": 0.3,
+    "external_debt_billions": 0.04
+  },
+  "military": {},
+  "political": {}
+}
