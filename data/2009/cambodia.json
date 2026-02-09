@@ -1,0 +1,23 @@
+{
+  "country": "Cambodia",
+  "region": "East & Southeast Asia",
+  "year": 2009,
+  "demographics": {
+    "population": 14494293,
+    "population_growth_pct": 1.77,
+    "life_expectancy": 62.1
+  },
+  "economy": {
+    "gdp_ppp_billions": 28.01,
+    "gdp_growth_pct": 5.0,
+    "gdp_per_capita": 2000,
+    "inflation_pct": 25.0,
+    "unemployment_pct": 3.5,
+    "exports_billions": 4.71,
+    "imports_billions": 6.53
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.0
+  },
+  "political": {}
+}

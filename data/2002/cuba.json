@@ -1,0 +1,22 @@
+{
+  "country": "Cuba",
+  "region": "Central America and Caribbean",
+  "year": 2002,
+  "demographics": {
+    "population": 11224321,
+    "population_growth_pct": 0.35
+  },
+  "economy": {
+    "gdp_ppp_billions": 25.9,
+    "gdp_growth_pct": 0.0,
+    "gdp_per_capita": 2300,
+    "inflation_pct": 7.1,
+    "unemployment_pct": 4.1,
+    "exports_billions": 1.8,
+    "imports_billions": 4.8
+  },
+  "military": {
+    "expenditure_pct_gdp": 4.0
+  },
+  "political": {}
+}

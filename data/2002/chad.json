@@ -1,0 +1,21 @@
+{
+  "country": "Chad",
+  "region": "Africa",
+  "year": 2002,
+  "demographics": {
+    "population": 8997237,
+    "population_growth_pct": 3.27
+  },
+  "economy": {
+    "gdp_ppp_billions": 8.9,
+    "gdp_growth_pct": 8.0,
+    "gdp_per_capita": 1030,
+    "inflation_pct": 3.0,
+    "exports_billions": 0.172,
+    "imports_billions": 0.223
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.9
+  },
+  "political": {}
+}

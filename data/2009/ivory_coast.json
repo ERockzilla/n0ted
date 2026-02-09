@@ -1,0 +1,22 @@
+{
+  "country": "Ivory Coast",
+  "region": "Unknown",
+  "year": 2009,
+  "demographics": {
+    "population": 20617068,
+    "population_growth_pct": 2.13,
+    "life_expectancy": 55.45
+  },
+  "economy": {
+    "gdp_growth_pct": 2.3,
+    "gdp_per_capita": 1700,
+    "inflation_pct": 6.3,
+    "exports_billions": 10.09,
+    "imports_billions": 6.76,
+    "gdp_ppp_billions": 34.12
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.6
+  },
+  "political": {}
+}

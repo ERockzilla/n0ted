@@ -12,7 +12,7 @@
     "gdp_per_capita": 2300,
     "inflation_pct": 9.3,
     "unemployment_pct": 7.8,
-    "exports_billions": 0.75,
+    "exports_billions": 750.0,
     "imports_billions": 2.02
   },
   "military": {

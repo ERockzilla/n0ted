@@ -1,0 +1,22 @@
+{
+  "country": "Kenya",
+  "region": "Africa",
+  "year": 2002,
+  "demographics": {
+    "population": 31138735,
+    "population_growth_pct": 1.15
+  },
+  "economy": {
+    "gdp_ppp_billions": 31.0,
+    "gdp_growth_pct": 1.0,
+    "gdp_per_capita": 1000,
+    "inflation_pct": 3.3,
+    "unemployment_pct": 40.0,
+    "exports_billions": 1.8,
+    "imports_billions": 3.1
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.8
+  },
+  "political": {}
+}

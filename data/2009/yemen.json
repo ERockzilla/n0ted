@@ -1,0 +1,23 @@
+{
+  "country": "Yemen",
+  "region": "Middle East",
+  "year": 2009,
+  "demographics": {
+    "population": 23822783,
+    "population_growth_pct": 3.45,
+    "life_expectancy": 63.27
+  },
+  "economy": {
+    "gdp_ppp_billions": 55.41,
+    "gdp_growth_pct": 3.2,
+    "gdp_per_capita": 2500,
+    "inflation_pct": 19.0,
+    "unemployment_pct": 35.0,
+    "exports_billions": 8.98,
+    "imports_billions": 8.83
+  },
+  "military": {
+    "expenditure_pct_gdp": 6.6
+  },
+  "political": {}
+}

@@ -1,0 +1,18 @@
+{
+  "country": "Man Isle Of",
+  "region": "Unknown",
+  "year": 2002,
+  "demographics": {
+    "population": 73873,
+    "population_growth_pct": 0.52
+  },
+  "economy": {
+    "gdp_ppp_billions": 1.4,
+    "gdp_growth_pct": 13.5,
+    "gdp_per_capita": 18800,
+    "inflation_pct": 2.5,
+    "unemployment_pct": 0.7
+  },
+  "military": {},
+  "political": {}
+}

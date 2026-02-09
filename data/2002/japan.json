@@ -1,0 +1,22 @@
+{
+  "country": "Japan",
+  "region": "East & Southeast Asia",
+  "year": 2002,
+  "demographics": {
+    "population": 126974628,
+    "population_growth_pct": 0.15
+  },
+  "economy": {
+    "gdp_ppp_billions": 3550.0,
+    "gdp_growth_pct": -0.3,
+    "gdp_per_capita": 28000,
+    "inflation_pct": -0.9,
+    "unemployment_pct": 5.4,
+    "exports_billions": 383.8,
+    "imports_billions": 292.1
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.0
+  },
+  "political": {}
+}

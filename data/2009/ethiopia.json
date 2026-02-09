@@ -1,0 +1,22 @@
+{
+  "country": "Ethiopia",
+  "region": "Africa",
+  "year": 2009,
+  "demographics": {
+    "population": 85237338,
+    "population_growth_pct": 3.21,
+    "life_expectancy": 55.41
+  },
+  "economy": {
+    "gdp_ppp_billions": 70.23,
+    "gdp_growth_pct": 11.6,
+    "gdp_per_capita": 900,
+    "inflation_pct": 44.4,
+    "exports_billions": 1.55,
+    "imports_billions": 7.21
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.0
+  },
+  "political": {}
+}

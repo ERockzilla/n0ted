@@ -8,12 +8,12 @@
     "life_expectancy": 63.11
   },
   "economy": {
-    "gdp_ppp_billions": 0.31,
+    "gdp_ppp_billions": 311.0,
     "gdp_growth_pct": 4.5,
     "gdp_per_capita": 1800,
     "inflation_pct": 14.4,
-    "exports_billions": 0.01,
-    "imports_billions": 0.1
+    "exports_billions": 13.5,
+    "imports_billions": 99.65
   },
   "military": {
     "expenditure_pct_gdp": 0.8

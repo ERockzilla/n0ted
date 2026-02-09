@@ -1,0 +1,23 @@
+{
+  "country": "Ukraine",
+  "region": "Europe",
+  "year": 2009,
+  "demographics": {
+    "population": 45700395,
+    "population_growth_pct": -0.63,
+    "life_expectancy": 68.25
+  },
+  "economy": {
+    "gdp_ppp_billions": 338.6,
+    "gdp_growth_pct": 2.1,
+    "gdp_per_capita": 7400,
+    "inflation_pct": 25.2,
+    "unemployment_pct": 3.0,
+    "exports_billions": 67.72,
+    "imports_billions": 83.81
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.4
+  },
+  "political": {}
+}

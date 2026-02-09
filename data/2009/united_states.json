@@ -1,0 +1,22 @@
+{
+  "country": "United States",
+  "region": "North America",
+  "year": 2009,
+  "demographics": {
+    "population": 307212123,
+    "population_growth_pct": 0.98,
+    "life_expectancy": 78.11
+  },
+  "economy": {
+    "gdp_ppp_billions": 14440.0,
+    "gdp_growth_pct": 0.4,
+    "gdp_per_capita": 47500,
+    "inflation_pct": 3.8,
+    "unemployment_pct": 5.8,
+    "exports_billions": 1277.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 4.06
+  },
+  "political": {}
+}

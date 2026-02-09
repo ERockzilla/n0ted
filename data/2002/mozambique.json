@@ -1,0 +1,22 @@
+{
+  "country": "Mozambique",
+  "region": "Africa",
+  "year": 2002,
+  "demographics": {
+    "population": 19607519,
+    "population_growth_pct": 1.13
+  },
+  "economy": {
+    "gdp_ppp_billions": 17.5,
+    "gdp_growth_pct": 9.2,
+    "gdp_per_capita": 900,
+    "inflation_pct": 10.0,
+    "unemployment_pct": 21.0,
+    "exports_billions": 0.746,
+    "imports_billions": 1.25
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.0
+  },
+  "political": {}
+}

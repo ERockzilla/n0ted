@@ -1,0 +1,22 @@
+{
+  "country": "Angola",
+  "region": "Africa",
+  "year": 2009,
+  "demographics": {
+    "population": 12799293,
+    "population_growth_pct": 2.1,
+    "life_expectancy": 38.2
+  },
+  "economy": {
+    "gdp_ppp_billions": 112.8,
+    "gdp_growth_pct": 12.3,
+    "gdp_per_capita": 9000,
+    "inflation_pct": 12.5,
+    "exports_billions": 66.3,
+    "imports_billions": 17.08
+  },
+  "military": {
+    "expenditure_pct_gdp": 5.7
+  },
+  "political": {}
+}

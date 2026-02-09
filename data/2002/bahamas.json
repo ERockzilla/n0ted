@@ -1,0 +1,22 @@
+{
+  "country": "Bahamas",
+  "region": "Central America and Caribbean",
+  "year": 2002,
+  "demographics": {
+    "population": 300529,
+    "population_growth_pct": 0.86
+  },
+  "economy": {
+    "gdp_growth_pct": 3.5,
+    "gdp_per_capita": 16800,
+    "inflation_pct": 1.5,
+    "unemployment_pct": 6.9,
+    "exports_billions": 0.5358,
+    "imports_billions": 1.88,
+    "gdp_ppp_billions": 5.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.7
+  },
+  "political": {}
+}

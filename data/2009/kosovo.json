@@ -1,0 +1,17 @@
+{
+  "country": "Kosovo",
+  "region": "Europe",
+  "year": 2009,
+  "demographics": {
+    "population": 1804838
+  },
+  "economy": {
+    "gdp_ppp_billions": 5.0,
+    "gdp_per_capita": 2300,
+    "inflation_pct": 5.3,
+    "unemployment_pct": 40.0,
+    "gdp_growth_pct": 5.1
+  },
+  "military": {},
+  "political": {}
+}

@@ -1,0 +1,23 @@
+{
+  "country": "Italy",
+  "region": "Europe",
+  "year": 2009,
+  "demographics": {
+    "population": 58126212,
+    "population_growth_pct": -0.05,
+    "life_expectancy": 80.2
+  },
+  "economy": {
+    "gdp_ppp_billions": 1827.0,
+    "gdp_growth_pct": -1.0,
+    "gdp_per_capita": 31400,
+    "inflation_pct": 3.4,
+    "unemployment_pct": 6.8,
+    "exports_billions": 546.9,
+    "imports_billions": 546.9
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.8
+  },
+  "political": {}
+}

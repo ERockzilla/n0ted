@@ -1,0 +1,23 @@
+{
+  "country": "Cameroon",
+  "region": "Africa",
+  "year": 2009,
+  "demographics": {
+    "population": 18879301,
+    "population_growth_pct": 2.19,
+    "life_expectancy": 53.69
+  },
+  "economy": {
+    "gdp_ppp_billions": 42.69,
+    "gdp_growth_pct": 3.3,
+    "gdp_per_capita": 2300,
+    "inflation_pct": 5.3,
+    "unemployment_pct": 30.0,
+    "exports_billions": 4.71,
+    "imports_billions": 4.3
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.3
+  },
+  "political": {}
+}

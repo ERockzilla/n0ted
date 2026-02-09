@@ -1,0 +1,20 @@
+{
+  "country": "Kiribati",
+  "region": "Australia-Oceania",
+  "year": 2002,
+  "demographics": {
+    "population": 96335,
+    "population_growth_pct": 2.28
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.079,
+    "gdp_growth_pct": 1.5,
+    "gdp_per_capita": 840,
+    "inflation_pct": 2.5,
+    "unemployment_pct": 2.0,
+    "exports_billions": 0.006,
+    "imports_billions": 0.044
+  },
+  "military": {},
+  "political": {}
+}

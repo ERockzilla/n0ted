@@ -1,0 +1,23 @@
+{
+  "country": "Peru",
+  "region": "South America",
+  "year": 2009,
+  "demographics": {
+    "population": 29546963,
+    "population_growth_pct": 1.23,
+    "life_expectancy": 70.74
+  },
+  "economy": {
+    "gdp_ppp_billions": 247.9,
+    "gdp_growth_pct": 9.8,
+    "gdp_per_capita": 8500,
+    "inflation_pct": 5.8,
+    "unemployment_pct": 8.1,
+    "exports_billions": 31.53,
+    "imports_billions": 28.44
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.5
+  },
+  "political": {}
+}

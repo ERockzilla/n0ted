@@ -10,8 +10,8 @@
     "gdp_ppp_billions": 4.27,
     "gdp_growth_pct": 3.5,
     "gdp_per_capita": 600,
-    "exports_billions": 0.13,
-    "imports_billions": 0.34
+    "exports_billions": 126.0,
+    "imports_billions": 343.0
   },
   "military": {
     "expenditure_pct_gdp": 0.9

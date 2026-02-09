@@ -1,0 +1,23 @@
+{
+  "country": "Saudi Arabia",
+  "region": "Middle East",
+  "year": 2009,
+  "demographics": {
+    "population": 28686633,
+    "population_growth_pct": 1.85,
+    "life_expectancy": 76.3
+  },
+  "economy": {
+    "gdp_ppp_billions": 577.9,
+    "gdp_growth_pct": 4.4,
+    "gdp_per_capita": 20500,
+    "inflation_pct": 9.9,
+    "unemployment_pct": 11.8,
+    "exports_billions": 313.4,
+    "imports_billions": 108.3
+  },
+  "military": {
+    "expenditure_pct_gdp": 10.0
+  },
+  "political": {}
+}

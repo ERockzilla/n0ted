@@ -1,0 +1,20 @@
+{
+  "country": "Guyana",
+  "region": "South America",
+  "year": 2002,
+  "demographics": {
+    "population": 698209,
+    "population_growth_pct": 0.23
+  },
+  "economy": {
+    "gdp_ppp_billions": 2.5,
+    "gdp_growth_pct": 2.8,
+    "gdp_per_capita": 3600,
+    "inflation_pct": 6.0,
+    "unemployment_pct": 9.1,
+    "exports_billions": 0.505,
+    "imports_billions": 0.585
+  },
+  "military": {},
+  "political": {}
+}

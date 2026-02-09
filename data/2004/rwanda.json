@@ -11,8 +11,8 @@
     "gdp_growth_pct": 3.5,
     "gdp_per_capita": 1300,
     "inflation_pct": 7.5,
-    "exports_billions": 0.07,
-    "imports_billions": 0.25
+    "exports_billions": 73.33,
+    "imports_billions": 245.8
   },
   "military": {
     "expenditure_pct_gdp": 2.9

@@ -1,0 +1,21 @@
+{
+  "country": "Angola",
+  "region": "Africa",
+  "year": 2002,
+  "demographics": {
+    "population": 10593171,
+    "population_growth_pct": 2.18
+  },
+  "economy": {
+    "gdp_ppp_billions": 13.3,
+    "gdp_growth_pct": 5.4,
+    "gdp_per_capita": 1330,
+    "inflation_pct": 110.0,
+    "exports_billions": 7.0,
+    "imports_billions": 2.7
+  },
+  "military": {
+    "expenditure_pct_gdp": 22.0
+  },
+  "political": {}
+}

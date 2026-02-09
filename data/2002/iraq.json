@@ -1,0 +1,19 @@
+{
+  "country": "Iraq",
+  "region": "Middle East",
+  "year": 2002,
+  "demographics": {
+    "population": 24001816,
+    "population_growth_pct": 2.82
+  },
+  "economy": {
+    "gdp_ppp_billions": 59.0,
+    "gdp_growth_pct": -5.7,
+    "gdp_per_capita": 2500,
+    "inflation_pct": 60.0,
+    "exports_billions": 15.8,
+    "imports_billions": 11.0
+  },
+  "military": {},
+  "political": {}
+}

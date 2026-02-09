@@ -1,0 +1,14 @@
+{
+  "country": "Norfolk Island",
+  "region": "Australia-Oceania",
+  "year": 2009,
+  "demographics": {
+    "population": 2141,
+    "population_growth_pct": 0.01
+  },
+  "economy": {
+    "exports_billions": 1.5
+  },
+  "military": {},
+  "political": {}
+}

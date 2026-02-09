@@ -1,0 +1,23 @@
+{
+  "country": "Indonesia",
+  "region": "East & Southeast Asia",
+  "year": 2009,
+  "demographics": {
+    "population": 240271522,
+    "population_growth_pct": 1.14,
+    "life_expectancy": 70.76
+  },
+  "economy": {
+    "gdp_ppp_billions": 916.7,
+    "gdp_growth_pct": 6.1,
+    "gdp_per_capita": 3900,
+    "inflation_pct": 9.9,
+    "unemployment_pct": 8.4,
+    "exports_billions": 139.3,
+    "imports_billions": 116.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.0
+  },
+  "political": {}
+}

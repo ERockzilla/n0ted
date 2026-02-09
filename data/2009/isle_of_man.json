@@ -1,0 +1,19 @@
+{
+  "country": "Isle Of Man",
+  "region": "Europe",
+  "year": 2009,
+  "demographics": {
+    "population": 76512,
+    "population_growth_pct": 0.52,
+    "life_expectancy": 78.82
+  },
+  "economy": {
+    "gdp_ppp_billions": 2.72,
+    "gdp_growth_pct": 5.2,
+    "gdp_per_capita": 35000,
+    "inflation_pct": 3.1,
+    "unemployment_pct": 1.5
+  },
+  "military": {},
+  "political": {}
+}

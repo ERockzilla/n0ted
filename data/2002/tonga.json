@@ -1,0 +1,20 @@
+{
+  "country": "Tonga",
+  "region": "Australia-Oceania",
+  "year": 2002,
+  "demographics": {
+    "population": 106137,
+    "population_growth_pct": 1.85
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.225,
+    "gdp_growth_pct": 5.3,
+    "gdp_per_capita": 2200,
+    "inflation_pct": 9.4,
+    "unemployment_pct": 13.3,
+    "exports_billions": 0.0093,
+    "imports_billions": 0.07
+  },
+  "military": {},
+  "political": {}
+}

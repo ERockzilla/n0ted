@@ -1,0 +1,21 @@
+{
+  "country": "Saudi Arabia",
+  "region": "Middle East",
+  "year": 2002,
+  "demographics": {
+    "population": 23513330,
+    "population_growth_pct": 3.27
+  },
+  "economy": {
+    "gdp_ppp_billions": 241.0,
+    "gdp_growth_pct": 1.6,
+    "gdp_per_capita": 10600,
+    "inflation_pct": 1.7,
+    "exports_billions": 66.9,
+    "imports_billions": 29.7
+  },
+  "military": {
+    "expenditure_pct_gdp": 13.0
+  },
+  "political": {}
+}

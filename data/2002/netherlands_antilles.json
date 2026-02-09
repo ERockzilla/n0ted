@@ -1,0 +1,20 @@
+{
+  "country": "Netherlands Antilles",
+  "region": "Central America and Caribbean",
+  "year": 2002,
+  "demographics": {
+    "population": 214258,
+    "population_growth_pct": 0.93
+  },
+  "economy": {
+    "gdp_ppp_billions": 2.4,
+    "gdp_growth_pct": -3.5,
+    "gdp_per_capita": 11400,
+    "inflation_pct": 5.8,
+    "unemployment_pct": 15.0,
+    "exports_billions": 0.276,
+    "imports_billions": 1.5
+  },
+  "military": {},
+  "political": {}
+}

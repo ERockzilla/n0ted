@@ -1,0 +1,22 @@
+{
+  "country": "Spain",
+  "region": "Europe",
+  "year": 2002,
+  "demographics": {
+    "population": 40077100,
+    "population_growth_pct": 0.09
+  },
+  "economy": {
+    "gdp_ppp_billions": 828.0,
+    "gdp_growth_pct": 2.0,
+    "gdp_per_capita": 20700,
+    "inflation_pct": 3.0,
+    "unemployment_pct": 11.3,
+    "exports_billions": 122.2,
+    "imports_billions": 156.6
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.15
+  },
+  "political": {}
+}

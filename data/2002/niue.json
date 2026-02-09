@@ -1,0 +1,19 @@
+{
+  "country": "Niue",
+  "region": "Australia-Oceania",
+  "year": 2002,
+  "demographics": {
+    "population": 2134,
+    "population_growth_pct": 0.5
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.0076,
+    "gdp_growth_pct": -0.3,
+    "gdp_per_capita": 3600,
+    "inflation_pct": 1.0,
+    "imports_billions": 0.0024,
+    "exports_billions": 0.1372
+  },
+  "military": {},
+  "political": {}
+}

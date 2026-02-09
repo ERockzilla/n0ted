@@ -1,0 +1,23 @@
+{
+  "country": "Vietnam",
+  "region": "East & Southeast Asia",
+  "year": 2009,
+  "demographics": {
+    "population": 86967524,
+    "population_growth_pct": 0.98,
+    "life_expectancy": 71.58
+  },
+  "economy": {
+    "gdp_ppp_billions": 242.3,
+    "gdp_growth_pct": 6.2,
+    "gdp_per_capita": 2800,
+    "inflation_pct": 23.1,
+    "unemployment_pct": 4.7,
+    "exports_billions": 62.69,
+    "imports_billions": 75.47
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.5
+  },
+  "political": {}
+}

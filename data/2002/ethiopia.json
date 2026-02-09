@@ -1,0 +1,21 @@
+{
+  "country": "Ethiopia",
+  "region": "Africa",
+  "year": 2002,
+  "demographics": {
+    "population": 67673031,
+    "population_growth_pct": 2.64
+  },
+  "economy": {
+    "gdp_ppp_billions": 46.0,
+    "gdp_growth_pct": 7.3,
+    "gdp_per_capita": 700,
+    "inflation_pct": 6.8,
+    "exports_billions": 0.442,
+    "imports_billions": 1.54
+  },
+  "military": {
+    "expenditure_pct_gdp": 12.6
+  },
+  "political": {}
+}

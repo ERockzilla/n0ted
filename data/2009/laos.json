@@ -1,0 +1,23 @@
+{
+  "country": "Laos",
+  "region": "East & Southeast Asia",
+  "year": 2009,
+  "demographics": {
+    "population": 6834942,
+    "population_growth_pct": 2.32,
+    "life_expectancy": 56.68
+  },
+  "economy": {
+    "gdp_ppp_billions": 14.01,
+    "gdp_growth_pct": 7.5,
+    "gdp_per_capita": 2100,
+    "inflation_pct": 8.6,
+    "unemployment_pct": 2.4,
+    "exports_billions": 1.16,
+    "imports_billions": 1.38
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.5
+  },
+  "political": {}
+}

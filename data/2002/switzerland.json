@@ -1,0 +1,22 @@
+{
+  "country": "Switzerland",
+  "region": "Europe",
+  "year": 2002,
+  "demographics": {
+    "population": 7301994,
+    "population_growth_pct": 0.24
+  },
+  "economy": {
+    "gdp_ppp_billions": 231.0,
+    "gdp_growth_pct": 2.0,
+    "gdp_per_capita": 31700,
+    "inflation_pct": 0.5,
+    "unemployment_pct": 1.9,
+    "exports_billions": 100.3,
+    "imports_billions": 94.4
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.0
+  },
+  "political": {}
+}

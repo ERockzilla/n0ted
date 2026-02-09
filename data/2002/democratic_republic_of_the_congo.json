@@ -1,0 +1,21 @@
+{
+  "country": "Democratic Republic Of The Congo",
+  "region": "Unknown",
+  "year": 2002,
+  "demographics": {
+    "population": 55225478,
+    "population_growth_pct": 2.79
+  },
+  "economy": {
+    "gdp_growth_pct": -4.0,
+    "gdp_per_capita": 590,
+    "inflation_pct": 358.0,
+    "exports_billions": 0.75,
+    "imports_billions": 1.02,
+    "gdp_ppp_billions": 32.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 4.6
+  },
+  "political": {}
+}

@@ -1,0 +1,22 @@
+{
+  "country": "Zimbabwe",
+  "region": "Africa",
+  "year": 2009,
+  "demographics": {
+    "population": 11392629,
+    "population_growth_pct": 1.53,
+    "life_expectancy": 45.77
+  },
+  "economy": {
+    "gdp_ppp_billions": 1.93,
+    "gdp_growth_pct": -14.4,
+    "gdp_per_capita": 200,
+    "unemployment_pct": 80.0,
+    "exports_billions": 1.4,
+    "imports_billions": 1.92
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.8
+  },
+  "political": {}
+}

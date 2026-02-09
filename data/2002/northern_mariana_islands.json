@@ -1,0 +1,16 @@
+{
+  "country": "Northern Mariana Islands",
+  "region": "Australia-Oceania",
+  "year": 2002,
+  "demographics": {
+    "population": 77311,
+    "population_growth_pct": 3.49
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.9,
+    "gdp_per_capita": 12500,
+    "inflation_pct": 1.2
+  },
+  "military": {},
+  "political": {}
+}

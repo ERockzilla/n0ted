@@ -1,0 +1,22 @@
+{
+  "country": "Lebanon",
+  "region": "Middle East",
+  "year": 2002,
+  "demographics": {
+    "population": 3677780,
+    "population_growth_pct": 1.36
+  },
+  "economy": {
+    "gdp_ppp_billions": 18.8,
+    "gdp_growth_pct": 1.0,
+    "gdp_per_capita": 5200,
+    "inflation_pct": 0.5,
+    "exports_billions": 0.7,
+    "imports_billions": 6.6,
+    "unemployment_pct": 18.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 4.8
+  },
+  "political": {}
+}

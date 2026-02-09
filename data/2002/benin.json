@@ -1,0 +1,21 @@
+{
+  "country": "Benin",
+  "region": "Africa",
+  "year": 2002,
+  "demographics": {
+    "population": 6787625,
+    "population_growth_pct": 2.91
+  },
+  "economy": {
+    "gdp_ppp_billions": 6.8,
+    "gdp_growth_pct": 5.4,
+    "gdp_per_capita": 1040,
+    "inflation_pct": 3.0,
+    "exports_billions": 0.0353,
+    "imports_billions": 0.4376
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.2
+  },
+  "political": {}
+}

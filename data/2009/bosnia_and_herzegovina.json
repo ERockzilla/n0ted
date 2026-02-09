@@ -1,0 +1,23 @@
+{
+  "country": "Bosnia And Herzegovina",
+  "region": "Europe",
+  "year": 2009,
+  "demographics": {
+    "population": 4613414,
+    "population_growth_pct": 0.34,
+    "life_expectancy": 78.5
+  },
+  "economy": {
+    "gdp_ppp_billions": 29.77,
+    "gdp_growth_pct": 5.5,
+    "gdp_per_capita": 6500,
+    "inflation_pct": 7.3,
+    "unemployment_pct": 29.0,
+    "exports_billions": 5.19,
+    "imports_billions": 12.29
+  },
+  "military": {
+    "expenditure_pct_gdp": 4.5
+  },
+  "political": {}
+}

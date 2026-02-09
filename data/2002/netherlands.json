@@ -1,0 +1,22 @@
+{
+  "country": "Netherlands",
+  "region": "Europe",
+  "year": 2002,
+  "demographics": {
+    "population": 16067754,
+    "population_growth_pct": 0.53
+  },
+  "economy": {
+    "gdp_ppp_billions": 434.0,
+    "gdp_growth_pct": 0.3,
+    "gdp_per_capita": 26900,
+    "inflation_pct": 3.4,
+    "unemployment_pct": 3.0,
+    "exports_billions": 221.9,
+    "imports_billions": 201.1
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.5
+  },
+  "political": {}
+}

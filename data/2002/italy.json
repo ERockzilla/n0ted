@@ -1,0 +1,22 @@
+{
+  "country": "Italy",
+  "region": "Europe",
+  "year": 2002,
+  "demographics": {
+    "population": 57715625,
+    "population_growth_pct": 0.05
+  },
+  "economy": {
+    "gdp_ppp_billions": 1438.0,
+    "gdp_growth_pct": 0.4,
+    "gdp_per_capita": 25000,
+    "inflation_pct": 2.4,
+    "unemployment_pct": 9.1,
+    "exports_billions": 259.2,
+    "imports_billions": 238.2
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.64
+  },
+  "political": {}
+}

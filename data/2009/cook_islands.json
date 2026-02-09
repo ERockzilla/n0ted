@@ -1,0 +1,21 @@
+{
+  "country": "Cook Islands",
+  "region": "Australia-Oceania",
+  "year": 2009,
+  "demographics": {
+    "population": 11870,
+    "population_growth_pct": -3.3,
+    "life_expectancy": 74.22
+  },
+  "economy": {
+    "gdp_ppp_billions": 183.2,
+    "gdp_growth_pct": 0.1,
+    "gdp_per_capita": 9100,
+    "inflation_pct": 2.1,
+    "unemployment_pct": 13.1,
+    "exports_billions": 5.222,
+    "imports_billions": 81.04
+  },
+  "military": {},
+  "political": {}
+}

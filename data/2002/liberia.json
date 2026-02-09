@@ -1,0 +1,22 @@
+{
+  "country": "Liberia",
+  "region": "Africa",
+  "year": 2002,
+  "demographics": {
+    "population": 3288198,
+    "population_growth_pct": 1.91
+  },
+  "economy": {
+    "gdp_ppp_billions": 3.6,
+    "gdp_growth_pct": 5.0,
+    "gdp_per_capita": 1100,
+    "inflation_pct": 8.0,
+    "unemployment_pct": 70.0,
+    "exports_billions": 0.055,
+    "imports_billions": 0.17
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.3
+  },
+  "political": {}
+}

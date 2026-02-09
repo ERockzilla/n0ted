@@ -1,0 +1,22 @@
+{
+  "country": "Ivory Coast",
+  "region": "Unknown",
+  "year": 2002,
+  "demographics": {
+    "population": 16804784,
+    "population_growth_pct": 2.45
+  },
+  "economy": {
+    "gdp_growth_pct": -1.0,
+    "gdp_per_capita": 1550,
+    "inflation_pct": 2.5,
+    "unemployment_pct": 13.0,
+    "exports_billions": 3.6,
+    "imports_billions": 2.4,
+    "gdp_ppp_billions": 25.5
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.3
+  },
+  "political": {}
+}

@@ -1,0 +1,22 @@
+{
+  "country": "Rwanda",
+  "region": "Africa",
+  "year": 2009,
+  "demographics": {
+    "population": 10473282,
+    "population_growth_pct": 2.78,
+    "life_expectancy": 50.52
+  },
+  "economy": {
+    "gdp_ppp_billions": 9.73,
+    "gdp_growth_pct": 11.2,
+    "gdp_per_capita": 900,
+    "inflation_pct": 15.4,
+    "exports_billions": 210.0,
+    "imports_billions": 834.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.9
+  },
+  "political": {}
+}

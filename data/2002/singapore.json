@@ -1,0 +1,22 @@
+{
+  "country": "Singapore",
+  "region": "East & Southeast Asia",
+  "year": 2002,
+  "demographics": {
+    "population": 4452732,
+    "population_growth_pct": 3.46
+  },
+  "economy": {
+    "gdp_ppp_billions": 106.3,
+    "gdp_growth_pct": -2.2,
+    "gdp_per_capita": 24700,
+    "inflation_pct": 1.5,
+    "unemployment_pct": 4.7,
+    "exports_billions": 122.0,
+    "imports_billions": 116.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 4.9
+  },
+  "political": {}
+}

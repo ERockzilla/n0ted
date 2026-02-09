@@ -1,0 +1,23 @@
+{
+  "country": "Latvia",
+  "region": "Europe",
+  "year": 2009,
+  "demographics": {
+    "population": 2231503,
+    "population_growth_pct": -0.61,
+    "life_expectancy": 72.15
+  },
+  "economy": {
+    "gdp_ppp_billions": 38.95,
+    "gdp_growth_pct": -4.6,
+    "gdp_per_capita": 17300,
+    "inflation_pct": 15.4,
+    "unemployment_pct": 7.5,
+    "exports_billions": 9.63,
+    "imports_billions": 15.65
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.2
+  },
+  "political": {}
+}

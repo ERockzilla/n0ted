@@ -6,10 +6,10 @@
     "population": 1392
   },
   "economy": {
-    "gdp_ppp_billions": 0.0,
+    "gdp_ppp_billions": 1.5,
     "gdp_per_capita": 1000,
-    "exports_billions": 98000.0,
-    "imports_billions": 323000.0
+    "exports_billions": 0.098,
+    "imports_billions": 0.323
   },
   "military": {},
   "political": {}

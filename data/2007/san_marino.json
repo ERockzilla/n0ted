@@ -7,7 +7,7 @@
     "life_expectancy": 81.8
   },
   "economy": {
-    "gdp_ppp_billions": 0.85,
+    "gdp_ppp_billions": 850.0,
     "gdp_growth_pct": 4.6,
     "gdp_per_capita": 34100,
     "inflation_pct": -1.5,

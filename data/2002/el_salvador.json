@@ -1,0 +1,22 @@
+{
+  "country": "El Salvador",
+  "region": "Central America and Caribbean",
+  "year": 2002,
+  "demographics": {
+    "population": 6353681,
+    "population_growth_pct": 1.83
+  },
+  "economy": {
+    "gdp_ppp_billions": 28.4,
+    "gdp_growth_pct": 1.4,
+    "gdp_per_capita": 4600,
+    "inflation_pct": 3.8,
+    "unemployment_pct": 10.0,
+    "exports_billions": 2.9,
+    "imports_billions": 5.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.7
+  },
+  "political": {}
+}

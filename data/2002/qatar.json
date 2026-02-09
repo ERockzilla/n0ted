@@ -1,0 +1,22 @@
+{
+  "country": "Qatar",
+  "region": "Middle East",
+  "year": 2002,
+  "demographics": {
+    "population": 793341,
+    "population_growth_pct": 3.02
+  },
+  "economy": {
+    "gdp_ppp_billions": 16.3,
+    "gdp_growth_pct": 5.6,
+    "gdp_per_capita": 21200,
+    "inflation_pct": 2.0,
+    "unemployment_pct": 2.7,
+    "exports_billions": 11.0,
+    "imports_billions": 3.5
+  },
+  "military": {
+    "expenditure_pct_gdp": 10.0
+  },
+  "political": {}
+}

@@ -1,0 +1,19 @@
+{
+  "country": "Nauru",
+  "region": "Australia-Oceania",
+  "year": 2002,
+  "demographics": {
+    "population": 12329,
+    "population_growth_pct": 1.96
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.06,
+    "gdp_per_capita": 5000,
+    "unemployment_pct": 0.0,
+    "imports_billions": 0.0211,
+    "inflation_pct": -3.6,
+    "exports_billions": 0.0253
+  },
+  "military": {},
+  "political": {}
+}

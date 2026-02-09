@@ -1,0 +1,23 @@
+{
+  "country": "Finland",
+  "region": "Europe",
+  "year": 2009,
+  "demographics": {
+    "population": 5250275,
+    "population_growth_pct": 0.1,
+    "life_expectancy": 78.97
+  },
+  "economy": {
+    "gdp_ppp_billions": 194.0,
+    "gdp_growth_pct": 0.8,
+    "gdp_per_capita": 37000,
+    "inflation_pct": 4.1,
+    "unemployment_pct": 6.4,
+    "exports_billions": 96.62,
+    "imports_billions": 87.51
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.0
+  },
+  "political": {}
+}

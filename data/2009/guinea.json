@@ -1,0 +1,22 @@
+{
+  "country": "Guinea",
+  "region": "Africa",
+  "year": 2009,
+  "demographics": {
+    "population": 10057975,
+    "population_growth_pct": 2.57,
+    "life_expectancy": 57.09
+  },
+  "economy": {
+    "gdp_ppp_billions": 10.62,
+    "gdp_growth_pct": 4.5,
+    "gdp_per_capita": 1100,
+    "inflation_pct": 15.0,
+    "exports_billions": 1.39,
+    "imports_billions": 1.39
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.7
+  },
+  "political": {}
+}

@@ -1,0 +1,19 @@
+{
+  "country": "Saint Pierre And Miquelon",
+  "region": "North America",
+  "year": 2002,
+  "demographics": {
+    "population": 6954,
+    "population_growth_pct": 0.35
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.074,
+    "gdp_per_capita": 11000,
+    "inflation_pct": 2.1,
+    "unemployment_pct": 9.8,
+    "exports_billions": 0.012,
+    "imports_billions": 0.055
+  },
+  "military": {},
+  "political": {}
+}

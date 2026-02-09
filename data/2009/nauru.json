@@ -1,0 +1,19 @@
+{
+  "country": "Nauru",
+  "region": "Australia-Oceania",
+  "year": 2009,
+  "demographics": {
+    "population": 14019,
+    "population_growth_pct": 1.75,
+    "life_expectancy": 64.2
+  },
+  "economy": {
+    "gdp_ppp_billions": 60.0,
+    "gdp_per_capita": 5000,
+    "unemployment_pct": 90.0,
+    "imports_billions": 20.0,
+    "exports_billions": 0.064
+  },
+  "military": {},
+  "political": {}
+}

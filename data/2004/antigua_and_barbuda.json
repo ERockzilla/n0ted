@@ -7,13 +7,13 @@
     "life_expectancy": 71.9
   },
   "economy": {
-    "gdp_ppp_billions": 0.75,
+    "gdp_ppp_billions": 750.0,
     "gdp_growth_pct": 3.0,
     "gdp_per_capita": 11000,
     "inflation_pct": 0.4,
     "unemployment_pct": 11.0,
-    "exports_billions": 0.69,
-    "imports_billions": 0.69
+    "exports_billions": 689.0,
+    "imports_billions": 692.0
   },
   "military": {},
   "political": {}

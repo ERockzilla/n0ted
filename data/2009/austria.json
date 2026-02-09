@@ -1,0 +1,23 @@
+{
+  "country": "Austria",
+  "region": "Europe",
+  "year": 2009,
+  "demographics": {
+    "population": 8210281,
+    "population_growth_pct": 0.05,
+    "life_expectancy": 79.5
+  },
+  "economy": {
+    "gdp_ppp_billions": 331.2,
+    "gdp_growth_pct": 2.0,
+    "gdp_per_capita": 40400,
+    "inflation_pct": 3.2,
+    "unemployment_pct": 3.9,
+    "exports_billions": 179.1,
+    "imports_billions": 179.2
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.9
+  },
+  "political": {}
+}

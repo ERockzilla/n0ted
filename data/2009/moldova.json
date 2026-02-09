@@ -1,0 +1,23 @@
+{
+  "country": "Moldova",
+  "region": "Europe",
+  "year": 2009,
+  "demographics": {
+    "population": 4320748,
+    "population_growth_pct": -0.08,
+    "life_expectancy": 70.8
+  },
+  "economy": {
+    "gdp_ppp_billions": 10.8,
+    "gdp_growth_pct": 7.2,
+    "gdp_per_capita": 2500,
+    "inflation_pct": 12.8,
+    "unemployment_pct": 1.5,
+    "exports_billions": 1.64,
+    "imports_billions": 4.87
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.4
+  },
+  "political": {}
+}

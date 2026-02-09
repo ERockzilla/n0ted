@@ -1,0 +1,22 @@
+{
+  "country": "France",
+  "region": "Europe",
+  "year": 2002,
+  "demographics": {
+    "population": 59765983,
+    "population_growth_pct": 0.35
+  },
+  "economy": {
+    "gdp_ppp_billions": 1540.0,
+    "gdp_growth_pct": 1.1,
+    "gdp_per_capita": 25700,
+    "inflation_pct": 1.8,
+    "unemployment_pct": 9.1,
+    "exports_billions": 307.8,
+    "imports_billions": 303.7
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.57
+  },
+  "political": {}
+}

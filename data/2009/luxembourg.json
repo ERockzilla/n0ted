@@ -1,0 +1,23 @@
+{
+  "country": "Luxembourg",
+  "region": "Europe",
+  "year": 2009,
+  "demographics": {
+    "population": 491775,
+    "population_growth_pct": 1.17,
+    "life_expectancy": 79.33
+  },
+  "economy": {
+    "gdp_ppp_billions": 39.47,
+    "gdp_growth_pct": -0.9,
+    "gdp_per_capita": 81200,
+    "inflation_pct": 3.4,
+    "unemployment_pct": 4.4,
+    "exports_billions": 21.43,
+    "imports_billions": 27.73
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.9
+  },
+  "political": {}
+}

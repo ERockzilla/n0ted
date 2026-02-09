@@ -1,0 +1,20 @@
+{
+  "country": "Marshall Islands",
+  "region": "Australia-Oceania",
+  "year": 2002,
+  "demographics": {
+    "population": 73630,
+    "population_growth_pct": 3.89
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.115,
+    "gdp_growth_pct": 1.0,
+    "gdp_per_capita": 1600,
+    "inflation_pct": 1.9,
+    "unemployment_pct": 30.9,
+    "exports_billions": 0.009,
+    "imports_billions": 0.054
+  },
+  "military": {},
+  "political": {}
+}

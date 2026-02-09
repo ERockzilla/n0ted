@@ -119,31 +119,49 @@ export default function Home() {
 
         // Enhance with calculated growth
         const enhanced = realCountries.map(c => {
+          // Use the GDP from the API response (already year-specific)
+          let gdpValue = c.economy?.gdp_ppp_billions || 0;
+          // Default growth from the API, or 0
           let growth = c.economy?.gdp_growth_pct || 0;
-          let latestGDP = c.economy?.gdp_ppp_billions || 0;
 
           const key = c.country.toLowerCase().replace(/\s+/g, '_');
           const ts = timeseries[key];
 
+          // Try to calculate growth from timeseries if available
           if (ts?.gdp_ppp_billions && Array.isArray(ts.gdp_ppp_billions)) {
             const points = [...ts.gdp_ppp_billions].sort((a, b) => a.year - b.year);
-            if (points.length > 0) {
-              const latest = points[points.length - 1];
-              if (!latestGDP) latestGDP = latest.value;
+            const currentYearData = points.find(p => p.year === selectedYear);
 
-              if (points.length >= 2) {
-                const prev = points[points.length - 2];
-                const yearsDiff = latest.year - prev.year;
-                if (prev.value > 0 && yearsDiff > 0) {
-                  growth = (Math.pow(latest.value / prev.value, 1 / yearsDiff) - 1) * 100;
+            // If we have timeseries data for this year, use it for GDP if API didn't provide it
+            if (currentYearData) {
+              if (!gdpValue) gdpValue = currentYearData.value;
+
+              // Find previous year data for growth calculation
+              const previousYearData = points
+                .filter(p => p.year < selectedYear && p.year >= selectedYear - 5)
+                .sort((a, b) => b.year - a.year)[0];
+
+              if (previousYearData && previousYearData.value > 0) {
+                const yearsDiff = selectedYear - previousYearData.year;
+                if (yearsDiff > 0) {
+                  growth = (Math.pow(currentYearData.value / previousYearData.value, 1 / yearsDiff) - 1) * 100;
                 }
+              }
+            } else {
+              // No exact year match - try to find closest available year
+              const closestPoint = points
+                .filter(p => Math.abs(p.year - selectedYear) <= 2)
+                .sort((a, b) => Math.abs(a.year - selectedYear) - Math.abs(b.year - selectedYear))[0];
+
+              if (closestPoint && !gdpValue) {
+                gdpValue = closestPoint.value;
               }
             }
           }
 
           return {
             ...c,
-            economy: { ...c.economy, gdp_ppp_billions: latestGDP },
+            economy: { ...c.economy, gdp_ppp_billions: gdpValue },
             calculatedGrowth: growth
           };
         });

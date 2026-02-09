@@ -1,0 +1,23 @@
+{
+  "country": "Jamaica",
+  "region": "Central America and Caribbean",
+  "year": 2009,
+  "demographics": {
+    "population": 2825928,
+    "population_growth_pct": 0.76,
+    "life_expectancy": 73.53
+  },
+  "economy": {
+    "gdp_ppp_billions": 24.04,
+    "gdp_growth_pct": -0.6,
+    "gdp_per_capita": 8600,
+    "inflation_pct": 22.0,
+    "unemployment_pct": 11.0,
+    "exports_billions": 2.6,
+    "imports_billions": 7.18
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.6
+  },
+  "political": {}
+}

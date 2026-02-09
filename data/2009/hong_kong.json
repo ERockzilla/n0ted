@@ -1,0 +1,21 @@
+{
+  "country": "Hong Kong",
+  "region": "East & Southeast Asia",
+  "year": 2009,
+  "demographics": {
+    "population": 7055071,
+    "population_growth_pct": 0.5,
+    "life_expectancy": 81.86
+  },
+  "economy": {
+    "gdp_ppp_billions": 307.3,
+    "gdp_growth_pct": 2.4,
+    "gdp_per_capita": 43800,
+    "inflation_pct": 4.3,
+    "unemployment_pct": 3.5,
+    "exports_billions": 365.2,
+    "imports_billions": 388.4
+  },
+  "military": {},
+  "political": {}
+}

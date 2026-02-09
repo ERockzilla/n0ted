@@ -1,0 +1,23 @@
+{
+  "country": "South Africa",
+  "region": "Africa",
+  "year": 2009,
+  "demographics": {
+    "population": 49052489,
+    "population_growth_pct": 0.28,
+    "life_expectancy": 48.98
+  },
+  "economy": {
+    "gdp_ppp_billions": 492.2,
+    "gdp_growth_pct": 3.1,
+    "gdp_per_capita": 10100,
+    "inflation_pct": 11.3,
+    "unemployment_pct": 22.9,
+    "exports_billions": 86.12,
+    "imports_billions": 90.57
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.7
+  },
+  "political": {}
+}

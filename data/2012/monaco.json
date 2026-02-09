@@ -9,8 +9,8 @@
   "economy": {
     "gdp_ppp_billions": 5.47,
     "inflation_pct": 1.5,
-    "exports_billions": 0.71,
-    "imports_billions": 0.88,
+    "exports_billions": 711.0,
+    "imports_billions": 882.6,
     "gdp_growth_pct": 2.5
   },
   "military": {},

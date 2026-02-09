@@ -1,11 +1,22 @@
 {
   "country": "Cabo Verde",
-  "region": "Unknown",
+  "region": "Africa",
   "year": 2010,
-  "demographics": {},
-  "economy": {
-    "gdp_ppp_billions": 14992
+  "demographics": {
+    "population": 508659,
+    "population_growth_pct": 1.4,
+    "life_expectancy": 71.0,
+    "median_age": 23.0
   },
-  "military": {},
+  "economy": {
+    "gdp_ppp_billions": 1.9,
+    "gdp_growth_pct": 5.4,
+    "gdp_per_capita": 3800,
+    "inflation_pct": 2.1,
+    "unemployment_pct": 21.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.5
+  },
   "political": {}
 }

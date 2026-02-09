@@ -1,0 +1,22 @@
+{
+  "country": "Bermuda",
+  "region": "North America",
+  "year": 2002,
+  "demographics": {
+    "population": 63960,
+    "population_growth_pct": 0.69
+  },
+  "economy": {
+    "gdp_ppp_billions": 2.2,
+    "gdp_growth_pct": 2.9,
+    "gdp_per_capita": 34800,
+    "inflation_pct": 3.0,
+    "unemployment_pct": 4.5,
+    "exports_billions": 0.051,
+    "imports_billions": 0.719
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.11
+  },
+  "political": {}
+}

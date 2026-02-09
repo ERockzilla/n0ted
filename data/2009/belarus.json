@@ -1,0 +1,23 @@
+{
+  "country": "Belarus",
+  "region": "Europe",
+  "year": 2009,
+  "demographics": {
+    "population": 9648533,
+    "population_growth_pct": -0.38,
+    "life_expectancy": 70.63
+  },
+  "economy": {
+    "gdp_ppp_billions": 114.3,
+    "gdp_growth_pct": 10.0,
+    "gdp_per_capita": 11800,
+    "inflation_pct": 14.8,
+    "unemployment_pct": 1.6,
+    "exports_billions": 33.04,
+    "imports_billions": 39.16
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.4
+  },
+  "political": {}
+}

@@ -1,0 +1,22 @@
+{
+  "country": "Comoros",
+  "region": "Africa",
+  "year": 2002,
+  "demographics": {
+    "population": 614382,
+    "population_growth_pct": 2.99
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.424,
+    "gdp_growth_pct": 1.0,
+    "gdp_per_capita": 710,
+    "inflation_pct": 3.5,
+    "unemployment_pct": 20.0,
+    "exports_billions": 0.0353,
+    "imports_billions": 0.0449
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.0
+  },
+  "political": {}
+}

@@ -1,0 +1,23 @@
+{
+  "country": "Botswana",
+  "region": "Africa",
+  "year": 2009,
+  "demographics": {
+    "population": 1990876,
+    "population_growth_pct": 1.94,
+    "life_expectancy": 61.85
+  },
+  "economy": {
+    "gdp_ppp_billions": 27.11,
+    "gdp_growth_pct": 2.9,
+    "gdp_per_capita": 13900,
+    "inflation_pct": 12.6,
+    "unemployment_pct": 7.5,
+    "exports_billions": 4.71,
+    "imports_billions": 4.49
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.3
+  },
+  "political": {}
+}

@@ -1,0 +1,22 @@
+{
+  "country": "Kyrgyzstan",
+  "region": "Central Asia",
+  "year": 2002,
+  "demographics": {
+    "population": 4822166,
+    "population_growth_pct": 1.45
+  },
+  "economy": {
+    "gdp_ppp_billions": 13.5,
+    "gdp_growth_pct": 5.0,
+    "gdp_per_capita": 2800,
+    "inflation_pct": 7.0,
+    "unemployment_pct": 7.2,
+    "exports_billions": 0.475,
+    "imports_billions": 0.42
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.4
+  },
+  "political": {}
+}

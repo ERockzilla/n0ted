@@ -1,0 +1,23 @@
+{
+  "country": "Estonia",
+  "region": "Europe",
+  "year": 2009,
+  "demographics": {
+    "population": 1299371,
+    "population_growth_pct": -0.63,
+    "life_expectancy": 72.82
+  },
+  "economy": {
+    "gdp_ppp_billions": 28.03,
+    "gdp_growth_pct": -3.6,
+    "gdp_per_capita": 21400,
+    "inflation_pct": 10.4,
+    "unemployment_pct": 5.7,
+    "exports_billions": 12.63,
+    "imports_billions": 15.35
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.0
+  },
+  "political": {}
+}

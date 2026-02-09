@@ -1,0 +1,23 @@
+{
+  "country": "Georgia",
+  "region": "Middle East",
+  "year": 2009,
+  "demographics": {
+    "population": 4615807,
+    "population_growth_pct": -0.33,
+    "life_expectancy": 76.72
+  },
+  "economy": {
+    "gdp_ppp_billions": 21.56,
+    "gdp_growth_pct": 2.1,
+    "gdp_per_capita": 4700,
+    "inflation_pct": 10.0,
+    "unemployment_pct": 13.6,
+    "exports_billions": 2.43,
+    "imports_billions": 6.26
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.59
+  },
+  "political": {}
+}

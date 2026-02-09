@@ -1,0 +1,23 @@
+{
+  "country": "Norway",
+  "region": "Europe",
+  "year": 2009,
+  "demographics": {
+    "population": 4660539,
+    "population_growth_pct": 0.34,
+    "life_expectancy": 79.95
+  },
+  "economy": {
+    "gdp_ppp_billions": 276.3,
+    "gdp_growth_pct": 2.5,
+    "gdp_per_capita": 59500,
+    "inflation_pct": 3.8,
+    "unemployment_pct": 2.6,
+    "exports_billions": 173.6,
+    "imports_billions": 85.95
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.9
+  },
+  "political": {}
+}

@@ -1,0 +1,22 @@
+{
+  "country": "Poland",
+  "region": "Europe",
+  "year": 2002,
+  "demographics": {
+    "population": 38625478,
+    "population_growth_pct": -0.02
+  },
+  "economy": {
+    "gdp_ppp_billions": 368.1,
+    "gdp_growth_pct": 1.2,
+    "gdp_per_capita": 9500,
+    "inflation_pct": 2.5,
+    "unemployment_pct": 17.0,
+    "exports_billions": 32.4,
+    "imports_billions": 43.4
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.71
+  },
+  "political": {}
+}

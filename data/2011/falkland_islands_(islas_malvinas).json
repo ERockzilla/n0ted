@@ -9,9 +9,9 @@
   "economy": {
     "gdp_per_capita": 35400,
     "inflation_pct": 3.6,
-    "exports_billions": 0.12,
-    "imports_billions": 0.09,
-    "gdp_ppp_billions": 0.11
+    "exports_billions": 125.0,
+    "imports_billions": 90.0,
+    "gdp_ppp_billions": 105.1
   },
   "military": {},
   "political": {}

@@ -1,0 +1,23 @@
+{
+  "country": "Kyrgyzstan",
+  "region": "Central Asia",
+  "year": 2009,
+  "demographics": {
+    "population": 5431747,
+    "population_growth_pct": 1.4,
+    "life_expectancy": 69.43
+  },
+  "economy": {
+    "gdp_ppp_billions": 11.64,
+    "gdp_growth_pct": 7.6,
+    "gdp_per_capita": 2200,
+    "inflation_pct": 24.5,
+    "unemployment_pct": 18.0,
+    "exports_billions": 1.85,
+    "imports_billions": 3.75
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.4
+  },
+  "political": {}
+}

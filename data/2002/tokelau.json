@@ -1,0 +1,17 @@
+{
+  "country": "Tokelau",
+  "region": "Australia-Oceania",
+  "year": 2002,
+  "demographics": {
+    "population": 1431,
+    "population_growth_pct": -0.92
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.0015,
+    "gdp_per_capita": 1000,
+    "exports_billions": 0.098,
+    "imports_billions": 0.323
+  },
+  "military": {},
+  "political": {}
+}

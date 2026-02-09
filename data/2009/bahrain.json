@@ -1,0 +1,23 @@
+{
+  "country": "Bahrain",
+  "region": "Middle East",
+  "year": 2009,
+  "demographics": {
+    "population": 727785,
+    "population_growth_pct": 1.29,
+    "life_expectancy": 75.16
+  },
+  "economy": {
+    "gdp_ppp_billions": 26.89,
+    "gdp_growth_pct": 6.3,
+    "gdp_per_capita": 37400,
+    "inflation_pct": 7.0,
+    "unemployment_pct": 15.0,
+    "exports_billions": 17.49,
+    "imports_billions": 14.25
+  },
+  "military": {
+    "expenditure_pct_gdp": 4.5
+  },
+  "political": {}
+}

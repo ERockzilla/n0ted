@@ -85,14 +85,27 @@ function calculateEconomicScore(country: CountryData, globalStats: GlobalStats):
         factors.push(unemploymentScore);
     }
 
-    // Trade balance ratio
+    // Trade balance ratio - with sanity checks
     if (country.economy.exports_billions && country.economy.imports_billions) {
-        const tradeRatio = country.economy.exports_billions / country.economy.imports_billions;
-        const tradeScore = Math.min(100, tradeRatio * 50);
-        factors.push(tradeScore);
+        // Sanity check: exports should be reasonable relative to GDP
+        const gdp = country.economy.gdp_ppp_billions || 0;
+        const exportsReasonable = gdp === 0 || (country.economy.exports_billions < gdp * 2);
+        const importsReasonable = gdp === 0 || (country.economy.imports_billions < gdp * 2);
+
+        if (exportsReasonable && importsReasonable && country.economy.imports_billions > 0) {
+            const tradeRatio = country.economy.exports_billions / country.economy.imports_billions;
+            const tradeScore = Math.min(100, tradeRatio * 50);
+            factors.push(tradeScore);
+        }
     }
 
-    return factors.length > 0 ? factors.reduce((a, b) => a + b, 0) / factors.length : 50;
+    // Require at least 2 data points for a valid economic score
+    // Otherwise apply a penalty for incomplete data
+    if (factors.length < 2) {
+        return factors.length > 0 ? factors[0] * 0.7 : 40; // Penalize incomplete data
+    }
+
+    return factors.reduce((a, b) => a + b, 0) / factors.length;
 }
 
 // Calculate political risk score (higher = more stable)
@@ -317,19 +330,19 @@ export function calculateRiskProfile(country: CountryData, allCountries: Country
 
 export function calculateAllRiskProfiles(countries: CountryData[]): CountryRiskProfile[] {
     // Filter out countries without analyzable data
+    // REQUIRE gdp_ppp_billions for meaningful economic analysis
     const validCountries = countries.filter(c => {
         if (!c?.country || !c?.region) return false;
-        // Need at least some economic or demographic data to analyze
-        const hasEconomicData = c.economy && (
-            c.economy.gdp_ppp_billions !== undefined ||
-            c.economy.gdp_growth_pct !== undefined ||
-            c.economy.unemployment_pct !== undefined
-        );
+        // Must have GDP data to be included in stability rankings
+        const hasGdpData = c.economy?.gdp_ppp_billions !== undefined && c.economy.gdp_ppp_billions > 0;
+        if (!hasGdpData) return false;
+
+        // Also need demographic data
         const hasDemographicData = c.demographics && (
             c.demographics.population !== undefined ||
             c.demographics.life_expectancy !== undefined
         );
-        return hasEconomicData || hasDemographicData;
+        return hasDemographicData;
     });
 
     if (validCountries.length === 0) {

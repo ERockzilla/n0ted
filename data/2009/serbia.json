@@ -1,0 +1,21 @@
+{
+  "country": "Serbia",
+  "region": "Europe",
+  "year": 2009,
+  "demographics": {
+    "population": 7379339,
+    "population_growth_pct": -0.47,
+    "life_expectancy": 73.9
+  },
+  "economy": {
+    "gdp_ppp_billions": 79.77,
+    "gdp_growth_pct": 5.4,
+    "gdp_per_capita": 10800,
+    "inflation_pct": 6.8,
+    "unemployment_pct": 18.8,
+    "exports_billions": 8.82,
+    "imports_billions": 18.35
+  },
+  "military": {},
+  "political": {}
+}

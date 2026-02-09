@@ -1,0 +1,18 @@
+{
+  "country": "Liechtenstein",
+  "region": "Europe",
+  "year": 2009,
+  "demographics": {
+    "population": 34761,
+    "population_growth_pct": 0.7,
+    "life_expectancy": 80.06
+  },
+  "economy": {
+    "gdp_ppp_billions": 4.16,
+    "gdp_growth_pct": 3.1,
+    "inflation_pct": 1.0,
+    "unemployment_pct": 1.5
+  },
+  "military": {},
+  "political": {}
+}

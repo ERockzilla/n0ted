@@ -1,0 +1,22 @@
+{
+  "country": "Mauritius",
+  "region": "Africa",
+  "year": 2002,
+  "demographics": {
+    "population": 1200206,
+    "population_growth_pct": 0.86
+  },
+  "economy": {
+    "gdp_ppp_billions": 12.9,
+    "gdp_growth_pct": 5.2,
+    "gdp_per_capita": 10800,
+    "inflation_pct": 4.2,
+    "unemployment_pct": 8.6,
+    "exports_billions": 1.6,
+    "imports_billions": 2.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.2
+  },
+  "political": {}
+}

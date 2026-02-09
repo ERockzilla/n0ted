@@ -1,0 +1,22 @@
+{
+  "country": "Bhutan",
+  "region": "South Asia",
+  "year": 2009,
+  "demographics": {
+    "population": 691141,
+    "population_growth_pct": 1.27,
+    "life_expectancy": 66.13
+  },
+  "economy": {
+    "gdp_ppp_billions": 3.53,
+    "gdp_per_capita": 5200,
+    "inflation_pct": 4.9,
+    "unemployment_pct": 2.5,
+    "exports_billions": 350.0,
+    "imports_billions": 320.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.0
+  },
+  "political": {}
+}

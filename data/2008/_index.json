@@ -10,7 +10,7 @@
     },
     {
       "name": "Akrotiri",
-      "region": "Europe",
+      "region": "Unknown",
       "file": "akrotiri.json"
     },
     {
@@ -280,7 +280,7 @@
     },
     {
       "name": "Dhekelia",
-      "region": "Europe",
+      "region": "Unknown",
       "file": "dhekelia.json"
     },
     {

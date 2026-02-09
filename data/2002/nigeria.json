@@ -1,0 +1,22 @@
+{
+  "country": "Nigeria",
+  "region": "Africa",
+  "year": 2002,
+  "demographics": {
+    "population": 129934911,
+    "population_growth_pct": 2.54
+  },
+  "economy": {
+    "gdp_ppp_billions": 105.9,
+    "gdp_growth_pct": 3.5,
+    "gdp_per_capita": 840,
+    "inflation_pct": 14.9,
+    "unemployment_pct": 0.28,
+    "exports_billions": 20.3,
+    "imports_billions": 13.7
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.0
+  },
+  "political": {}
+}

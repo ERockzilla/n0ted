@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
+import { useRouter, useSearchParams } from 'next/navigation';
 import Navigation from '@/components/Navigation';
 import CountryFlag from '@/components/CountryFlag';
 import { calculateAllRiskProfiles, calculateRegionalStats, CountryRiskProfile, RegionalStats } from '@/lib/analysis';
@@ -39,6 +40,11 @@ interface CountryData {
 }
 
 export default function AnalysisPage() {
+    const router = useRouter();
+    const searchParams = useSearchParams();
+
+    const [availableYears, setAvailableYears] = useState<number[]>([2020]);
+    const [selectedYear, setSelectedYear] = useState<number>(2020);
     const [countries, setCountries] = useState<CountryData[]>([]);
     const [profiles, setProfiles] = useState<CountryRiskProfile[]>([]);
     const [regionalStats, setRegionalStats] = useState<RegionalStats[]>([]);
@@ -47,12 +53,36 @@ export default function AnalysisPage() {
     const [sortBy, setSortBy] = useState<'overall' | 'economic' | 'political' | 'military' | 'demographic'>('overall');
     const [expandedRows, setExpandedRows] = useState<Set<string>>(new Set());
 
+    // Initialize year from URL params
     useEffect(() => {
-        fetch('/api/countries')
+        const yearParam = searchParams.get('year');
+        if (yearParam) {
+            const year = parseInt(yearParam);
+            if (!isNaN(year)) {
+                setSelectedYear(year);
+            }
+        }
+    }, [searchParams]);
+
+    // Fetch available years
+    useEffect(() => {
+        fetch('/api/years')
+            .then(r => r.json())
+            .then(data => {
+                if (data.years?.length > 0) {
+                    setAvailableYears(data.years.sort((a: number, b: number) => b - a));
+                }
+            })
+            .catch(() => setAvailableYears([2020]));
+    }, []);
+
+    useEffect(() => {
+        setLoading(true);
+        fetch(`/api/countries?year=${selectedYear}`)
             .then(r => r.json())
             .then(async (data) => {
                 const countryPromises = data.countries.map((c: { file: string }) =>
-                    fetch(`/api/countries/${c.file.replace('.json', '')}`).then(r => r.json())
+                    fetch(`/api/countries/${c.file.replace('.json', '')}?year=${selectedYear}`).then(r => r.json())
                 );
                 const allCountries = await Promise.all(countryPromises);
                 const AGGREGATE_ENTITIES = ['World', 'European Union'];
@@ -69,7 +99,12 @@ export default function AnalysisPage() {
                 setLoading(false);
             })
             .catch(() => setLoading(false));
-    }, []);
+    }, [selectedYear]);
+
+    const handleYearChange = (year: number) => {
+        setSelectedYear(year);
+        router.push(`/analysis?year=${year}`, { scroll: false });
+    };
 
     const toggleRow = (country: string) => {
         setExpandedRows(prev => {
@@ -119,11 +154,27 @@ export default function AnalysisPage() {
 
             <main className="max-w-7xl mx-auto px-4 sm:px-6 py-4 sm:py-8">
                 {/* Header */}
-                <div className="mb-6 sm:mb-8">
-                    <h1 className="text-2xl sm:text-3xl font-bold text-slate-800 mb-1 sm:mb-2">Risk & Stability Analysis</h1>
-                    <p className="text-slate-500 text-sm sm:text-base">
-                        Composite risk indices aggregating economic, political, military, and demographic indicators
-                    </p>
+                <div className="mb-6 sm:mb-8 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                    <div>
+                        <h1 className="text-2xl sm:text-3xl font-bold text-slate-800 mb-1 sm:mb-2">Risk & Stability Analysis</h1>
+                        <p className="text-slate-500 text-sm sm:text-base">
+                            Composite risk indices aggregating economic, political, military, and demographic indicators
+                        </p>
+                    </div>
+
+                    {/* Year Selector */}
+                    <div className="flex items-center gap-3 bg-white p-2 rounded-lg border border-slate-200 shadow-sm self-start sm:self-auto">
+                        <label className="text-sm font-medium text-slate-500 pl-2">Data Year:</label>
+                        <select
+                            value={selectedYear}
+                            onChange={(e) => handleYearChange(parseInt(e.target.value))}
+                            className="px-3 py-1.5 rounded-md border border-slate-200 bg-slate-50 text-slate-800 font-medium text-sm focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-400"
+                        >
+                            {availableYears.map(year => (
+                                <option key={year} value={year}>{year}</option>
+                            ))}
+                        </select>
+                    </div>
                 </div>
 
                 {/* Global Distribution - Scrollable on mobile */}

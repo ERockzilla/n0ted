@@ -1,0 +1,20 @@
+{
+  "country": "Macau",
+  "region": "East & Southeast Asia",
+  "year": 2002,
+  "demographics": {
+    "population": 461833,
+    "population_growth_pct": 1.75
+  },
+  "economy": {
+    "gdp_ppp_billions": 8.0,
+    "gdp_growth_pct": 0.5,
+    "gdp_per_capita": 17600,
+    "inflation_pct": -2.0,
+    "unemployment_pct": 6.5,
+    "exports_billions": 2.5,
+    "imports_billions": 2.3
+  },
+  "military": {},
+  "political": {}
+}

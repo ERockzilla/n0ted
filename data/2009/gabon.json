@@ -1,0 +1,23 @@
+{
+  "country": "Gabon",
+  "region": "Africa",
+  "year": 2009,
+  "demographics": {
+    "population": 1514993,
+    "population_growth_pct": 1.93,
+    "life_expectancy": 53.11
+  },
+  "economy": {
+    "gdp_ppp_billions": 21.16,
+    "gdp_growth_pct": 2.0,
+    "gdp_per_capita": 14200,
+    "inflation_pct": 5.3,
+    "unemployment_pct": 21.0,
+    "exports_billions": 9.33,
+    "imports_billions": 2.58
+  },
+  "military": {
+    "expenditure_pct_gdp": 3.4
+  },
+  "political": {}
+}

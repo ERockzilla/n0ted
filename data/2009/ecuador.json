@@ -1,0 +1,23 @@
+{
+  "country": "Ecuador",
+  "region": "South America",
+  "year": 2009,
+  "demographics": {
+    "population": 14573101,
+    "population_growth_pct": 1.5,
+    "life_expectancy": 75.3
+  },
+  "economy": {
+    "gdp_ppp_billions": 108.0,
+    "gdp_growth_pct": 6.5,
+    "gdp_per_capita": 7500,
+    "inflation_pct": 8.3,
+    "unemployment_pct": 7.3,
+    "exports_billions": 19.15,
+    "imports_billions": 17.79
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.8
+  },
+  "political": {}
+}

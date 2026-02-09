@@ -1,0 +1,20 @@
+{
+  "country": "Montserrat",
+  "region": "Central America and Caribbean",
+  "year": 2002,
+  "demographics": {
+    "population": 8437,
+    "population_growth_pct": 8.43
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.031,
+    "gdp_growth_pct": -1.5,
+    "gdp_per_capita": 2400,
+    "inflation_pct": 5.0,
+    "unemployment_pct": 6.0,
+    "imports_billions": 0.026,
+    "exports_billions": 0.0015
+  },
+  "military": {},
+  "political": {}
+}

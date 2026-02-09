@@ -1,0 +1,23 @@
+{
+  "country": "Uruguay",
+  "region": "South America",
+  "year": 2009,
+  "demographics": {
+    "population": 3494382,
+    "population_growth_pct": 0.47,
+    "life_expectancy": 76.35
+  },
+  "economy": {
+    "gdp_ppp_billions": 43.27,
+    "gdp_growth_pct": 8.9,
+    "gdp_per_capita": 12400,
+    "inflation_pct": 7.9,
+    "unemployment_pct": 7.6,
+    "exports_billions": 7.08,
+    "imports_billions": 8.8
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.6
+  },
+  "political": {}
+}

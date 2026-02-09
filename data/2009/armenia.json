@@ -1,0 +1,23 @@
+{
+  "country": "Armenia",
+  "region": "Middle East",
+  "year": 2009,
+  "demographics": {
+    "population": 2967004,
+    "population_growth_pct": -0.03,
+    "life_expectancy": 72.68
+  },
+  "economy": {
+    "gdp_ppp_billions": 18.81,
+    "gdp_growth_pct": 6.8,
+    "gdp_per_capita": 6300,
+    "inflation_pct": 9.0,
+    "unemployment_pct": 7.1,
+    "exports_billions": 1.12,
+    "imports_billions": 3.76
+  },
+  "military": {
+    "expenditure_pct_gdp": 6.5
+  },
+  "political": {}
+}

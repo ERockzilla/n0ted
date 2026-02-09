@@ -8,12 +8,12 @@
     "population_growth_pct": -0.55
   },
   "economy": {
-    "gdp_ppp_billions": 0.35,
+    "gdp_ppp_billions": 348.0,
     "gdp_growth_pct": 2.0,
     "gdp_per_capita": 3400,
     "inflation_pct": 0.5,
-    "exports_billions": 0.09,
-    "imports_billions": 0.17
+    "exports_billions": 88.3,
+    "imports_billions": 167.8
   },
   "military": {},
   "political": {}

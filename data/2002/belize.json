@@ -1,0 +1,22 @@
+{
+  "country": "Belize",
+  "region": "Central America and Caribbean",
+  "year": 2002,
+  "demographics": {
+    "population": 262999,
+    "population_growth_pct": 2.65
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.83,
+    "gdp_growth_pct": 3.0,
+    "gdp_per_capita": 3250,
+    "inflation_pct": 1.7,
+    "unemployment_pct": 11.5,
+    "exports_billions": 0.2396,
+    "imports_billions": 0.505
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.87
+  },
+  "political": {}
+}

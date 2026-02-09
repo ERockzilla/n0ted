@@ -1,0 +1,21 @@
+{
+  "country": "West Bank",
+  "region": "Middle East",
+  "year": 2009,
+  "demographics": {
+    "population": 2461267,
+    "population_growth_pct": 2.18,
+    "life_expectancy": 74.54
+  },
+  "economy": {
+    "gdp_ppp_billions": 11.95,
+    "gdp_growth_pct": 0.8,
+    "gdp_per_capita": 2900,
+    "inflation_pct": 11.5,
+    "unemployment_pct": 16.3,
+    "exports_billions": 339.0,
+    "imports_billions": 1.3
+  },
+  "military": {},
+  "political": {}
+}

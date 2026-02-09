@@ -1,0 +1,20 @@
+{
+  "country": "Puerto Rico",
+  "region": "Central America and Caribbean",
+  "year": 2009,
+  "demographics": {
+    "population": 3971020,
+    "population_growth_pct": 0.34,
+    "life_expectancy": 78.53
+  },
+  "economy": {
+    "gdp_ppp_billions": 70.23,
+    "gdp_growth_pct": -2.5,
+    "gdp_per_capita": 17800,
+    "inflation_pct": 6.5,
+    "unemployment_pct": 12.0,
+    "exports_billions": 46.9
+  },
+  "military": {},
+  "political": {}
+}

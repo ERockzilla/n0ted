@@ -1,0 +1,15 @@
+{
+  "country": "Norfolk Island",
+  "region": "Australia-Oceania",
+  "year": 2002,
+  "demographics": {
+    "population": 1866,
+    "population_growth_pct": -0.69
+  },
+  "economy": {
+    "exports_billions": 0.0015,
+    "imports_billions": 0.0179
+  },
+  "military": {},
+  "political": {}
+}

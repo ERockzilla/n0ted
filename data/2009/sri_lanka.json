@@ -1,0 +1,23 @@
+{
+  "country": "Sri Lanka",
+  "region": "South Asia",
+  "year": 2009,
+  "demographics": {
+    "population": 21324791,
+    "population_growth_pct": 0.9,
+    "life_expectancy": 75.14
+  },
+  "economy": {
+    "gdp_ppp_billions": 92.09,
+    "gdp_growth_pct": 6.0,
+    "gdp_per_capita": 4400,
+    "inflation_pct": 22.6,
+    "unemployment_pct": 5.2,
+    "exports_billions": 8.14,
+    "imports_billions": 12.61
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.6
+  },
+  "political": {}
+}

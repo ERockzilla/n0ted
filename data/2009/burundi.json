@@ -1,0 +1,22 @@
+{
+  "country": "Burundi",
+  "region": "Africa",
+  "year": 2009,
+  "demographics": {
+    "population": 8988091,
+    "population_growth_pct": 3.28,
+    "life_expectancy": 52.09
+  },
+  "economy": {
+    "gdp_ppp_billions": 3.11,
+    "gdp_growth_pct": 4.5,
+    "gdp_per_capita": 300,
+    "inflation_pct": 24.1,
+    "exports_billions": 79.0,
+    "imports_billions": 350.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 5.9
+  },
+  "political": {}
+}

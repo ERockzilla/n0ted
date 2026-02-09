@@ -1,0 +1,20 @@
+{
+  "country": "Dominica",
+  "region": "Central America and Caribbean",
+  "year": 2002,
+  "demographics": {
+    "population": 70158,
+    "population_growth_pct": -0.81
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.262,
+    "gdp_growth_pct": -3.2,
+    "gdp_per_capita": 3700,
+    "inflation_pct": 1.0,
+    "unemployment_pct": 23.0,
+    "exports_billions": 0.049,
+    "imports_billions": 0.132
+  },
+  "military": {},
+  "political": {}
+}

@@ -1,0 +1,23 @@
+{
+  "country": "Japan",
+  "region": "East & Southeast Asia",
+  "year": 2009,
+  "demographics": {
+    "population": 127078679,
+    "population_growth_pct": -0.19,
+    "life_expectancy": 82.12
+  },
+  "economy": {
+    "gdp_ppp_billions": 4340.0,
+    "gdp_growth_pct": -0.7,
+    "gdp_per_capita": 34100,
+    "inflation_pct": 1.4,
+    "unemployment_pct": 4.0,
+    "exports_billions": 746.5,
+    "imports_billions": 708.3
+  },
+  "military": {
+    "expenditure_pct_gdp": 0.8
+  },
+  "political": {}
+}

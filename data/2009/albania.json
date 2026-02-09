@@ -1,0 +1,23 @@
+{
+  "country": "Albania",
+  "region": "Europe",
+  "year": 2009,
+  "demographics": {
+    "population": 3639453,
+    "population_growth_pct": 0.55,
+    "life_expectancy": 77.96
+  },
+  "economy": {
+    "gdp_ppp_billions": 21.86,
+    "gdp_growth_pct": 6.1,
+    "gdp_per_capita": 6000,
+    "inflation_pct": 3.4,
+    "unemployment_pct": 12.5,
+    "exports_billions": 1.34,
+    "imports_billions": 4.9
+  },
+  "military": {
+    "expenditure_pct_gdp": 1.49
+  },
+  "political": {}
+}

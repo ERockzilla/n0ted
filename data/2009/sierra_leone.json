@@ -1,0 +1,22 @@
+{
+  "country": "Sierra Leone",
+  "region": "Africa",
+  "year": 2009,
+  "demographics": {
+    "population": 6440053,
+    "population_growth_pct": 2.28,
+    "life_expectancy": 41.24
+  },
+  "economy": {
+    "gdp_ppp_billions": 4.39,
+    "gdp_growth_pct": 5.5,
+    "gdp_per_capita": 900,
+    "inflation_pct": 11.7,
+    "exports_billions": 216.0,
+    "imports_billions": 560.0
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.3
+  },
+  "political": {}
+}

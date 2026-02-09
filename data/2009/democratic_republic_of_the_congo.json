@@ -1,0 +1,22 @@
+{
+  "country": "Democratic Republic Of The Congo",
+  "region": "Unknown",
+  "year": 2009,
+  "demographics": {
+    "population": 68692542,
+    "population_growth_pct": 3.21,
+    "life_expectancy": 54.36
+  },
+  "economy": {
+    "gdp_growth_pct": 5.9,
+    "gdp_per_capita": 300,
+    "inflation_pct": 16.7,
+    "exports_billions": 6.1,
+    "imports_billions": 5.2,
+    "gdp_ppp_billions": 20.76
+  },
+  "military": {
+    "expenditure_pct_gdp": 2.5
+  },
+  "political": {}
+}

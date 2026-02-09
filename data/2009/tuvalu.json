@@ -1,0 +1,20 @@
+{
+  "country": "Tuvalu",
+  "region": "Australia-Oceania",
+  "year": 2009,
+  "demographics": {
+    "population": 12373,
+    "population_growth_pct": 1.62,
+    "life_expectancy": 69.29
+  },
+  "economy": {
+    "gdp_ppp_billions": 14.94,
+    "gdp_growth_pct": 3.0,
+    "gdp_per_capita": 1600,
+    "inflation_pct": 3.8,
+    "exports_billions": 1.0,
+    "imports_billions": 12.91
+  },
+  "military": {},
+  "political": {}
+}

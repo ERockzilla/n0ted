@@ -1,0 +1,19 @@
+{
+  "country": "Solomon Islands",
+  "region": "Australia-Oceania",
+  "year": 2002,
+  "demographics": {
+    "population": 494786,
+    "population_growth_pct": 2.91
+  },
+  "economy": {
+    "gdp_ppp_billions": 0.8,
+    "gdp_growth_pct": -10.0,
+    "gdp_per_capita": 1700,
+    "inflation_pct": 7.9,
+    "exports_billions": 0.165,
+    "imports_billions": 0.152
+  },
+  "military": {},
+  "political": {}
+}

@@ -1,0 +1,21 @@
+{
+  "country": "Grenada",
+  "region": "Central America and Caribbean",
+  "year": 2009,
+  "demographics": {
+    "population": 90739,
+    "population_growth_pct": 0.47,
+    "life_expectancy": 65.95
+  },
+  "economy": {
+    "gdp_ppp_billions": 1.19,
+    "gdp_growth_pct": 2.2,
+    "gdp_per_capita": 13200,
+    "inflation_pct": 3.7,
+    "unemployment_pct": 12.5,
+    "exports_billions": 38.0,
+    "imports_billions": 343.0
+  },
+  "military": {},
+  "political": {}
+}
